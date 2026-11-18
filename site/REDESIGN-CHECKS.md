@@ -41,4 +41,4 @@
 - `tapmelo-exercise-mobile.png`：375px 牌桌内的题目、提示与确认按钮。
 - `tapmelo-article-hi-mobile.png`：375px 印地语文章与目录。
 
-发布时上传完整 `site/dist/` 到现有 Cloudflare Pages 项目；源码和测试资料不上传。旧的 `mahjong-tutor/scripts/verify-site.mjs` 只适用于之前“独立开发、不改网站”的阶段，不是本轮集成的验收条件。
+本次重设计时，发布目录是 `site/dist/`。当前部署和验证流程见 [站点维护文档](README.md)。

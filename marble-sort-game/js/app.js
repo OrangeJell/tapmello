@@ -301,34 +301,12 @@ function checkMystery() {
     }
   }
 }
-let embeddedHeight;
-
-function fitEmbeddedViewport() {
-  const frame = window.frameElement;
-  const stage = frame?.closest('.game-stage-screen');
-  if (!stage) return;
-
-  const viewport = parent.visualViewport;
-  const pageTop = stage.getBoundingClientRect().top + parent.scrollY;
-  const available = parent.document.documentElement.classList.contains('game-is-playing') ? stage.clientHeight : (viewport?.scale === 1 ? viewport.height : parent.innerHeight) - pageTop;
-  const phone = parent.matchMedia('(hover: none)').matches || parent.innerWidth <= 640;
-  const wide = phone && parent.innerWidth >= 620 && parent.innerWidth > parent.innerHeight && available < 480;
-  embeddedHeight = phone ? available : undefined;
-  const root = document.documentElement;
-  root.toggleAttribute('data-compact-embed', phone && !wide && available < 780);
-  root.toggleAttribute('data-wide-embed', wide);
-  root.style.setProperty('--embed-available', `${Math.max(0, available)}px`);
-  resizeBoard();
-}
-
 function resizeBoard() {
   if (playfield.hidden) return;
   const width = $('board').clientWidth;
   if (!width) return;
   const short = !document.documentElement.dataset.embed && innerHeight < width * 700 / 480 + 202;
-  const compact = document.documentElement.hasAttribute('data-compact-embed');
-  const wide = document.documentElement.hasAttribute('data-wide-embed');
-  const boardBudget = compact ? embeddedHeight - 148 : wide ? embeddedHeight - 8 : short ? innerHeight - 182 : 0;
+  const boardBudget = short ? innerHeight - 182 : 0;
   const sceneHeight = boardBudget ? Math.max(610, Math.min(700, boardBudget * 480 / width)) : 700;
   $('board').style.aspectRatio = '480 / ' + sceneHeight;
   $('sources').style.setProperty('--source-top', 171.5 / sceneHeight * 100 + '%');
@@ -491,16 +469,6 @@ prepareHome();
 
 // Notify only the same-origin website; the parent checks source, origin and size.
 if (new URLSearchParams(location.search).get('embed') === '1' && parent !== window) {
-  if (window.frameElement) {
-    fitEmbeddedViewport();
-    parent.addEventListener('resize', fitEmbeddedViewport);
-    parent.visualViewport?.addEventListener('resize', fitEmbeddedViewport);
-    window.addEventListener('pagehide', event => {
-      if (event.persisted) return;
-      parent.removeEventListener('resize', fitEmbeddedViewport);
-      parent.visualViewport?.removeEventListener('resize', fitEmbeddedViewport);
-    });
-  }
   const notify = () => parent.postMessage({type:'tapmelo-marble-ready', height:Math.ceil(document.body.getBoundingClientRect().height), language}, location.origin);
   new ResizeObserver(notify).observe(document.body);
   notify();

@@ -23,17 +23,5 @@ async page => {
     await page.locator('#play').click();
     await capture(`level-2${suffix}`);
   }
-  await page.setViewportSize({ width: 1280, height: 1000 });
-  await page.goto(base + '/?capture=current');
-  await page.locator('.game-preview').evaluateAll(images => Promise.all(images.map(image => image.decode())));
-  await page.evaluate(() => {
-    const visual = document.querySelector('.card-visual');
-    Object.assign(visual.style, { position: 'fixed', top: '0', left: '0', zIndex: '1000', width: '1200px', height: '800px', minHeight: '800px', aspectRatio: 'auto' });
-    Object.assign(visual.querySelector('.game-preview').style, { height: '660px' });
-    Object.assign(visual.querySelector('.visual-heading').style, { fontSize: '20px' });
-    Object.assign(visual.querySelector('figcaption').style, { fontSize: '18px' });
-  });
-  await page.locator('.card-visual').screenshot({ path: 'site/dist/assets/screw-sort-cover.png' });
-  await page.goto(base + '/?capture=current');
-  return 'Captured six real gameplay screens and the 1200×800 sharing image.';
+  return 'Captured six real gameplay screens.';
 }

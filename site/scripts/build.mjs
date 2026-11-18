@@ -2,7 +2,7 @@ import { translatedLanguages, localPath } from '../src/languages.mjs';
 import { createLocalizer, brandNames } from '../src/site-localization.mjs';
 import { writeFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { copyFile, cp, mkdir, readFile, writeFile } from 'node:fs/promises';
+import { copyFile, cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { origin, updated } from '../src/game.mjs';
@@ -21,7 +21,9 @@ import { level2Guides, renderLevel2Guide } from '../src/level-2-guide.mjs';
 const root = fileURLToPath(new URL('..', import.meta.url));
 // Keep game code and shared collectors in sync before rendering the static pages.
 if (!extracting) {
-  await cp(path.join(root, 'public'), path.join(root, 'dist'), { recursive: true });
+  const assetTreeOptions = { recursive: true, filter: file => path.basename(file) !== '.DS_Store' };
+  await rm(path.join(root, 'dist'), { recursive: true, force: true });
+  await cp(path.join(root, 'public'), path.join(root, 'dist'), assetTreeOptions);
   await import('./sync-game.mjs');
   await import('./sync-mahjong.mjs');
   await import('./sync-marble.mjs');
@@ -37,15 +39,14 @@ if (!extracting) {
   for (const file of ['standard-detail.css', 'standard-detail.js', 'site-search.css', 'site-search.js', 'site-theme.js', 'discovery.css', 'discovery-nav.js', 'played-games.js', 'game-embed.js', 'x-logo.svg']) {
     await copyFile(path.join(root, 'src', 'assets', file), path.join(root, 'dist', 'assets', file));
   }
-  await cp(path.join(root, 'src', 'assets', 'logos'), path.join(root, 'dist', 'assets', 'logos'), { recursive: true });
+  await cp(path.join(root, 'src', 'assets', 'logos'), path.join(root, 'dist', 'assets', 'logos'), assetTreeOptions);
   await copyFile(path.join(root, 'src', 'assets', 'game-previews.js'), path.join(root, 'dist', 'assets', 'game-previews.js'));
-  await cp(path.join(root, 'src', 'assets', 'previews'), path.join(root, 'dist', 'assets', 'previews'), { recursive: true });
+  await cp(path.join(root, 'src', 'assets', 'previews'), path.join(root, 'dist', 'assets', 'previews'), assetTreeOptions);
   await copyFile(path.join(root, 'src', 'assets', 'language-picker.js'), path.join(root, 'dist', 'assets', 'language-picker.js'));
   await copyFile(path.join(root,'src/assets/mahjong-embed.js'),path.join(root,'dist/assets/mahjong-embed.js'));
   await writeFile(path.join(root,'dist/assets/mahjong-cover.svg'),coverSVG());
   await copyFile(path.join(root,'src/assets/marble-embed.js'),path.join(root,'dist/assets/marble-embed.js'));
   await copyFile(path.join(root,'src/assets/shuttle-cover.png'),path.join(root,'dist/assets/shuttle-cover.png'));
-  await copyFile(path.join(root,'src/assets/marble-opening.png'),path.join(root,'dist/assets/marble-opening.png'));
 }
 const pages = [];
 const catalogues = [];
@@ -113,7 +114,7 @@ for (const [slug, [title, description]] of Object.entries(information)) {
 // Content hashes keep a returning visitor's HTML, styles and screenshots in sync.
 const assetVersions = new Map();
 async function versionAssets(html) {
-  const paths = new Set(html.match(/\/(?:assets\/[^"<>?\s]+\.(?:css|json|js|png|jpg|svg|mp4)|favicon\.ico|apple-touch-icon\.png)/g) || []);
+  const paths = new Set(html.match(/\/assets\/[^"<>?\s]+\.(?:css|json|js|png|jpg|svg|mp4)/g) || []);
   for (const asset of paths) {
     if (!assetVersions.has(asset)) {
       const bytes = await readFile(path.join(root, 'dist', asset));

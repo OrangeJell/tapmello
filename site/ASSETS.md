@@ -26,9 +26,9 @@
 
 ## 首页与分享图
 
-首页展示相应语言的第二关完整界面，使用网站 CSS 排版。`dist/assets/screw-sort-cover.png` 为同一预览组件以 1200 × 800 截取的分享图，包含真实游戏截图、游戏名与关卡信息。Glass Twist 游戏及攻略使用该分享图与实际尺寸。
+Glass Twist 游戏及攻略使用 `public/assets/screw-sort-cover.png` 作为 1200 × 800 分享图。
 
-站点导航、浏览器标签和安装图标使用提供的狐狸图片。浏览器使用多尺寸 `favicon.ico` 或 `assets/favicon-96.png`，iOS 使用 `apple-touch-icon.png`，两个语言版本的 manifest 共用 192px、512px 和留有裁切安全区的 512px 安装图标。教程图明确宽高、alt 与图注，按需懒加载；首页截图优先加载。图片由站点维护，不会被游戏同步脚本删除。
+页眉、游戏菜单和浏览器标签共用 `public/favicon-fox.png`。iOS 使用 `public/assets/tapmelo-fox-180.png`。各语言的 manifest 共用 192px、512px 和留有裁切安全区的 512px 图标。旧图标地址在 `public/_redirects` 中指向新版。
 
 ## 第二关独立攻略
 
@@ -42,4 +42,4 @@
 
 首页主推荐和 Clock Out! 分享图使用 `shuttle-cover.png`（1200 × 732），取自新版实际接人画面。截图时第三列班车已满员，候车区有 23 位乘客，游戏接送计数为 3。画面保留四列独立队列与各列后车预告。
 
-`marble-opening.png`（374 × 829）用于第一关攻略，显示第三次放行后已接走 27 位乘客、候车区清空。实机动物与车辆使用游戏现有软陶素材，网站按游戏的奶油、浅桃色搭配。
+第一关攻略的开局图解从当前关卡路线生成。

@@ -76,11 +76,11 @@ Latest screenshots:
 - [Mobile advanced exercise](../output/v2-lesson-mobile.png)
 - [Mobile pattern article](../output/v2-article-mobile.png)
 
-These are Chromium responsive emulations, not physical iOS/Android or cross-browser testing. Browser scripts operate on isolated QA storage; user browser progress was not reset. Historical v0.1 scripts are retained under `tests/legacy/` and are not part of current acceptance.
+These are Chromium responsive emulations. Browser scripts operate on isolated QA storage. Git history retains the browser scripts for the retired v0.1 table.
 
 ## Website isolation
 
-`npm run verify:site` compares SHA-256 hashes against `docs/site-baseline.json`:
+The standalone-development check compared SHA-256 hashes of the website files:
 
 - Baseline/current website files: **98 / 98**.
 - Changed or removed: **0**.

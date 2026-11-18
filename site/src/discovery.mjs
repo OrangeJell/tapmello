@@ -101,7 +101,7 @@ export function renderMobileDiscovery(lang) {
   const categories = hi ? 'श्रेणियाँ' : 'Categories';
   return {
     toggle: `<button type="button" class="discovery-mobile-toggle" aria-label="${categories}" aria-haspopup="dialog" aria-controls="discovery-drawer" aria-expanded="false" hidden>${discoveryIcon('menu')}</button>`,
-    drawer: `<dialog class="discovery-drawer" id="discovery-drawer" aria-labelledby="discovery-drawer-title">
+    drawer: `<dialog class="discovery-drawer" id="discovery-drawer" aria-labelledby="discovery-drawer-title" closedby="any">
       <header><h2 id="discovery-drawer-title">${categories}</h2>
         <form method="dialog"><button type="submit" aria-label="${hi ? 'श्रेणियाँ बंद करें' : 'Close categories'}" autofocus>${discoveryIcon('close')}</button></form>
       </header>

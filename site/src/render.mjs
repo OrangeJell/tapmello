@@ -9,7 +9,6 @@ import { locales } from './locales.mjs';
 const escape = value => String(value).replace(/[&<>"']/g, character => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
 })[character]);
-const arrow = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const hindiInfoLabels = { about: 'परिचय', contact: 'संपर्क', privacy: 'गोपनीयता', terms: 'शर्तें' };
 const infoLinks = [['about', 'About'], ['contact', 'Contact'], ['privacy', 'Privacy'], ['terms', 'Terms']];
 
@@ -240,9 +239,8 @@ ${languageCodes.filter(code => code !== lang).map(code => `  <meta property="og:
   <meta property="og:image:height" content="${page.coverHeight || 800}">
   <meta property="og:image:alt" content="${escape(page.coverAlt || c.coverAlt)}">
   <meta name="twitter:card" content="summary_large_image">
-${json ? `  <script type="application/ld+json">${JSON.stringify(json).replace(/</g, '\\u003c')}</script>\n` : ''}  <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64">
-  <link rel="icon" type="image/png" href="/assets/favicon-96.png" sizes="96x96">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+${json ? `  <script type="application/ld+json">${JSON.stringify(json).replace(/</g, '\\u003c')}</script>\n` : ''}  <link rel="icon" type="image/png" href="/favicon-fox.png" sizes="96x96">
+  <link rel="apple-touch-icon" href="/assets/tapmelo-fox-180.png" sizes="180x180">
   <link rel="manifest" href="${page.language === 'hi' ? '/hi' : ''}/manifest.webmanifest">
   <link rel="preload" href="/assets/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/return-visit.css">
@@ -260,7 +258,7 @@ ${standardDetail || page.kind === 'home' || page.path === playedGamesPath(lang) 
   <header class="site-header">
     <div class="header-inner has-compact-nav">
       ${mobileDiscovery.toggle}
-      <a class="brand" href="${c.home}" aria-label="${c.homeLabel}"><span class="brand-mark"><img src="/assets/favicon-96.png" alt="" width="96" height="96"></span><span lang="en">tap<span class="brand-light">melo</span></span></a>
+      <a class="brand" href="${c.home}" aria-label="${c.homeLabel}"><span class="brand-mark"><img src="/favicon-fox.png" alt="" width="96" height="96"></span><span lang="en">tap<span class="brand-light">melo</span></span></a>
       ${renderSiteSearch(lang)}
       <div class="header-actions">
         ${page.kind === 'guide' ? `<button type="button" class="save-tapmelo" data-save-tapmelo>${c.save}</button>` : ''}

@@ -159,7 +159,7 @@ export function renderStandardDetail(lang, game, {
                 <button type="button" data-partner-back>${label.back}</button>
               </div>
             </div>`}
-          <button class="detail-menu-toggle is-tucked" data-edge="left" type="button" aria-label="${label.showControls}" data-show-label="${label.showControls}" data-menu-label="${label.menu}" aria-controls="detail-game-menu" aria-expanded="false" hidden><img src="/assets/favicon-96.png" width="96" height="96" alt=""></button>
+          <button class="detail-menu-toggle is-tucked" data-edge="left" type="button" aria-label="${label.showControls}" data-show-label="${label.showControls}" data-menu-label="${label.menu}" aria-controls="detail-game-menu" aria-expanded="false" hidden><img src="/favicon-fox.png" width="96" height="96" alt=""></button>
           <div id="detail-game-menu" class="detail-game-menu" inert>
             <button type="button" data-game-details aria-label="${label.back}" title="${label.back}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6M9 12h11"/></svg></button>
             <a href="${locales[lang].home}" aria-label="${label.home}" title="${label.home}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7M5 10v10h5v-6h4v6h5V10"/></svg></a>

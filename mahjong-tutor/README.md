@@ -72,7 +72,7 @@ npm test
 npm run check:site
 ```
 
-浏览器验收脚本为 `tests/browser-v2-flow.js`、`tests/browser-reading.js`、`tests/browser-v2-compat.js`，可交给 Playwright CLI 的 `run-code`。当前脚本访问 4173 端口的 `/play/mahjong/`，须先构建并启动网站。在隔离测试会话中运行，脚本会重置该会话的游戏存档。先导航至 `/play/mahjong/?qa=en` 再运行 flow，可完整测试英文流程；默认测试印地语。涉及旧牌桌的布局脚本已移入 `tests/legacy/`，仅作为历史记录。
+浏览器验收脚本为 `tests/browser-v2-flow.js`、`tests/browser-reading.js`、`tests/browser-v2-compat.js`，可交给 Playwright CLI 的 `run-code`。当前脚本访问 4173 端口的 `/play/mahjong/`，须先构建并启动网站。在隔离测试会话中运行，脚本会重置该会话的游戏存档。先导航至 `/play/mahjong/?qa=en` 再运行 flow，可完整测试英文流程；默认测试印地语。
 
 测试记录见 [docs/CHECKS.md](docs/CHECKS.md)。本版阅读截图为 `output/v3-*.png`（v2 文件为历史截图）；没有真实 iOS／Android 设备验收。
 
@@ -86,4 +86,4 @@ npm run check:site
 
 `js/interface-hi.json`、`js/articles-hi.json` 维护印地语翻译，以英文原文为键；`scripts/prepare-locales.mjs` 生成 `js/hi.js`，网站构建会自动执行。原始创作文件的旧中文参数仅作为编辑参考，不再作为界面语言。传统麻将牌面的汉字仍保留。旧中文偏好回退英语，不清空学习记录。不同端口属于不同浏览器存储域：4198 独立预览的记录不会自动转入 4173 网站预览。
 
-网站同步使用白名单，测试与开发截图不进入发布目录。`scripts/verify-site.mjs` 和旧基线只记录此前独立开发阶段，不适用于本次已授权的网站集成。
+网站同步使用白名单，测试与开发截图不进入发布目录。使用 `npm run check:site` 验证当前构建。

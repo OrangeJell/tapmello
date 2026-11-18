@@ -76,7 +76,7 @@ Playgama 游戏的数据只维护在 `src/playgama-games.json`。在数组末尾
 | `scripts/browser-check.js` | Playwright CLI 排版、语言、iframe、FAQ、旧存档和无 JS 检查函数 |
 | `dist/` | 可直接上传到 Cloudflare Pages 的完整静态发布目录 |
 
-修改网页时编辑 `src/`，然后运行完整构建。不要直接修改生成的页面和 `dist/assets/styles.css`。图片、品牌图标、manifest 和重定向规则当前直接维护于 `dist/`；统计和收藏脚本来自游戏共享源文件。
+网页和样式在 `src/`，公开截图、品牌图标、manifest 和重定向在 `public/`，统计和收藏脚本来自游戏共享源文件。每次完整构建都会重建 `dist/`。截图脚本写进 `dist/` 的图片可以预览，选定后放进 `public/` 才会随下次构建发布。
 
 源游戏在 `../screw-sort-game/`，不要修改 `dist/play/screw-sort/` 副本。发布白名单统一位于 `../screw-sort-game/scripts/release-files.mjs`，缓存版本和同步使用同一份清单；测试、求解器、生成器、开发截图不进入发布目录。
 
@@ -164,8 +164,4 @@ AdSense 网站验证仅保留 `ads.txt`，奖励行为采用上述试玩确认�
 
 ## 当前共用详情页流程与维护边界
 
-本节更新上文早期详情页与嵌入说明：沿用现有明亮配色，只扩展预览与开始游戏流程。`src/game-stage.mjs` 统一生成详情页，`src/assets/game-player.js` 管理视频预览、开始和退出，`src/assets/arcade.css` 管理布局。预览视频使用目录 `src/game-catalog.mjs` 中的游戏 ID，对应 `/assets/previews/{id}.mp4`；封面对应 `/assets/logos/{id}.png`。
-
-短边不超过 600 CSS 像素的触屏设备先展示视频预览和开始按钮，点击后加载游戏并进入固定视口。桌面打开详情页立即加载游戏，页首完整显示游戏面板，下方保留推荐游戏、介绍、攻略与问答。两种布局均隐藏顶部导航。底栏保留游戏身份、全屏和帮助，左上角品牌菜单提供返回、主页和搜索。原生全屏仅由底栏按钮请求，浏览器不支持时使用固定视口。帮助与搜索共用抽屉，沿用游戏已有的玩法、文章和问答。
-
-根目录尚无 `DESIGN.md`／`PRODUCT.md`，上文部分历史布局描述已与现状漂移；本次仅记录共用流程，不补建或改写设计系统文件，也不替换既有视觉方向。维护以当前模板、播放器和样式实现及本节为准。
+`src/standard-detail.mjs` 统一生成详情页，`src/assets/standard-detail.js` 管理游戏的按需加载和播放控件，`src/assets/standard-detail.css` 管理详情页布局。原创游戏封面和预览视频按 `src/game-catalog.mjs` 的游戏 ID 组织，合作游戏素材路径来自 `src/playgama-games.json`。

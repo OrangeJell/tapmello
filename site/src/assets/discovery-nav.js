@@ -56,9 +56,21 @@ if (navigation && toggle) {
     categoryDrawer.showModal();
     mobileToggle.setAttribute('aria-expanded', 'true');
   });
-  categoryDrawer.addEventListener('click', event => {
-    if (event.target === categoryDrawer && event.clientX >= categoryDrawer.getBoundingClientRect().right) categoryDrawer.close();
-  });
+  if (!('closedBy' in categoryDrawer)) {
+    const hitsBackdrop = event => {
+      const { left, right, top, bottom } = categoryDrawer.getBoundingClientRect();
+      return event.clientX < left || event.clientX >= right || event.clientY < top || event.clientY >= bottom;
+    };
+    let pressedBackdrop = false;
+    categoryDrawer.addEventListener('pointerdown', event => {
+      pressedBackdrop = event.isPrimary && event.button === 0 && hitsBackdrop(event);
+    });
+    categoryDrawer.addEventListener('pointercancel', () => { pressedBackdrop = false; });
+    categoryDrawer.addEventListener('click', event => {
+      if (pressedBackdrop && event.detail && hitsBackdrop(event)) categoryDrawer.close();
+      pressedBackdrop = false;
+    });
+  }
   categoryDrawer.addEventListener('close', () => {
     mobileToggle.setAttribute('aria-expanded', 'false');
     if (mobileNavigation.matches) mobileToggle.focus({ preventScroll: true });
