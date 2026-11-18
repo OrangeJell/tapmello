@@ -272,3 +272,36 @@ html[data-embed] footer button::after { inset: -5px 0; }
     width: 255px;
   }
 }
+
+html[data-mobile-player] #playfield .board {
+  width: min(100%, var(--mobile-board-width, 100%));
+}
+html[data-mobile-player] .game > footer { display: none; }
+
+@media (width < 540px), (height > 540px) {
+  html[data-mobile-player] #playfield .masthead {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 8px;
+    height: 54px;
+    gap: 6px;
+    padding: 0;
+  }
+  html[data-mobile-player] .masthead :is(.wordmark, .edition) { display: none; }
+  html[data-mobile-player] .masthead .icon-button { width: 44px; }
+  html[data-mobile-player] .hud {
+    height: 54px;
+    gap: 6px;
+    padding: 4px 109px 4px 8px;
+  }
+  html[data-mobile-player] .level { min-width: 45px; padding: 5px 4px; }
+  html[data-mobile-player] .progress-wrap { min-width: 0; }
+  html[data-mobile-player] .progress-text { gap: 2px 5px; flex-wrap: wrap; margin-bottom: 4px; }
+  html[data-mobile-player] .progress-text b { white-space: nowrap; }
+  html[data-mobile-player] .speed { flex: 0 0 44px; }
+}
+
+@media (min-width: 540px) and (max-height: 540px) {
+  html[data-mobile-player] #playfield .tools { margin-bottom: 0; }
+}

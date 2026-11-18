@@ -10,7 +10,10 @@
   const source = frame.getAttribute('data-src');
   let timeout, visible = true, ready = false;
   const syncVisibility = () => {
-    if (ready) frame.contentWindow.postMessage({type:visible ? 'tapmelo-marble-visible' : 'tapmelo-marble-pause'}, location.origin);
+    if (ready) frame.contentWindow.postMessage({
+      type: visible ? 'tapmelo-marble-visible' : 'tapmelo-marble-pause',
+      mobilePlayer: document.documentElement.classList.contains('detail-mobile-playing'),
+    }, location.origin);
   };
   const start = () => {
     clearTimeout(timeout);

@@ -42,11 +42,15 @@ async (page) => {
       });
       check(fit, `${game} ${viewport.width}: board fits or lesson can scroll`);
       if (game === 'marble-sort') {
-        const controlsFit = await frame.evaluate(() => ['.masthead', '.hud', '#board', '.tools', 'footer'].every(selector => {
+        const controlsFit = await frame.evaluate(() => ['.masthead', '.hud', '#board', '.tools'].every(selector => {
           const { top, bottom, left, right } = document.querySelector(selector).getBoundingClientRect();
           return top >= 0 && bottom <= innerHeight && left >= 0 && right <= innerWidth;
         }));
         check(controlsFit, `${game} ${viewport.width}: board and both rows of controls are visible`);
+        check(await frame.locator('#help').isHidden(), `${game} ${viewport.width}: footer help button is hidden`);
+        const minimumWidth = { 320: 320 * 0.82, 390: 390 * 0.88, 844: 310 * 480 / 700 * 1.1 };
+        const board = await frame.locator('#board').boundingBox();
+        check(board.width >= minimumWidth[viewport.width], `${game} ${viewport.width}: board reaches the target width`);
       }
       const scroll = await page.evaluate(() => scrollY);
       await page.mouse.wheel(0, 600);

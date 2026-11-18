@@ -24,6 +24,10 @@ const view=new View($('canvas'));
 const feedback = new Feedback($('feedback'), view, $('board'), $('progress'));
 const hopper = new Hopper(impact => { view.impact(impact); sound.impact(impact.force); });
 const playfield = $('playfield'), progressTrack = $('progress').parentElement;
+const board = $('board');
+const sideControls = matchMedia('(min-width: 540px) and (max-height: 540px)');
+const compactSceneHeight = 610;
+const fullSceneHeight = 700;
 const canPlay = () => screen === 'game' && !paused && !$('settings').open && !$('guide').open && paradeAge === null;
 function vibrate(duration = 14) {
   const now = performance.now();
@@ -239,21 +243,22 @@ const guideCopy = {
 let guideRegion = null;
 function positionGuide() {
   if (!$('guide').open || !guideRegion) return;
-  const board = $('board').getBoundingClientRect(), unit = board.width / 480;
+  const bounds = board.getBoundingClientRect(), unit = bounds.width / 480;
   const [x, y, width, height] = guideRegion;
-  const top = board.top + y * unit, bottom = top + height * unit;
+  const left = bounds.left + x * unit, right = left + width * unit;
+  const top = bounds.top + view.sceneY(y) * unit, bottom = bounds.top + view.sceneY(y + height) * unit;
   Object.assign($('guide-focus').style, {
-    left: board.left + x * unit + 'px', top: top + 'px',
-    width: width * unit + 'px', height: height * unit + 'px'
+    left: left + 'px', top: top + 'px',
+    width: (right - left) + 'px', height: (bottom - top) + 'px'
   });
   const focus = $('guide-focus');
-  for (const [edge, value] of Object.entries({left:board.left + x * unit, right:board.left + (x + width) * unit, top, bottom})) {
+  for (const [edge, value] of Object.entries({left, right, top, bottom})) {
     focus.style.setProperty('--focus-' + edge, value + 'px');
   }
   const guide = $('guide'), heightLimit = innerHeight - 12;
   const below = bottom + 14, above = top - guide.offsetHeight - 14;
-  const sideLeft = board.left > guide.offsetWidth + 24 ? board.left - guide.offsetWidth - 16
-    : innerWidth - board.right > guide.offsetWidth + 24 ? board.right + 16 : null;
+  const sideLeft = bounds.left > guide.offsetWidth + 24 ? bounds.left - guide.offsetWidth - 16
+    : innerWidth - bounds.right > guide.offsetWidth + 24 ? bounds.right + 16 : null;
   guide.style.left = sideLeft === null ? '50%' : sideLeft + 'px';
   guide.style.translate = sideLeft === null ? '-50% 0' : 'none';
   guide.style.top = (sideLeft !== null ? Math.max(12, (innerHeight - guide.offsetHeight) / 2)
@@ -263,7 +268,7 @@ function positionGuide() {
 function showGuide(step, region) {
   const [title, copy, next] = guideCopy[step];
   guideRegion = region ?? (step === 1 ? [34 + game.hint() * 84, 170, 76, 80]
-    : step === 2 ? [40, view.sceneY(530), 400, 90] : [40, view.sceneY(615), 400, 81]);
+    : step === 2 ? [40, 530, 400, 90] : [40, 615, 400, 81]);
   $('guide-title').textContent = t(title);
   $('guide-copy').textContent = t(copy);
   $('guide-next').textContent = t(next);
@@ -304,12 +309,22 @@ function checkMystery() {
 }
 function resizeBoard() {
   if (playfield.hidden) return;
-  const width = $('board').clientWidth;
+  let boardBudget;
+  const mobile = document.documentElement.hasAttribute('data-mobile-player');
+  if (mobile) {
+    const controlsHeight = sideControls.matches ? 28
+      : 16 + playfield.getBoundingClientRect().height - board.getBoundingClientRect().height;
+    boardBudget = innerHeight - controlsHeight;
+    board.style.setProperty('--mobile-board-width', Math.max(145, boardBudget * 480 / compactSceneHeight) + 'px');
+  }
+  const width = mobile ? board.getBoundingClientRect().width : board.clientWidth;
   if (!width) return;
-  const short = !document.documentElement.dataset.embed && innerHeight < width * 700 / 480 + 202;
-  const boardBudget = short ? innerHeight - 182 : 0;
-  const sceneHeight = boardBudget ? Math.max(610, Math.min(700, boardBudget * 480 / width)) : 700;
-  $('board').style.aspectRatio = '480 / ' + sceneHeight;
+  if (!document.documentElement.dataset.embed && innerHeight < width * fullSceneHeight / 480 + 202) {
+    boardBudget = innerHeight - 182;
+  }
+  const sceneHeight = boardBudget === undefined ? fullSceneHeight
+    : Math.max(compactSceneHeight, Math.min(fullSceneHeight, boardBudget * 480 / width));
+  board.style.aspectRatio = '480 / ' + sceneHeight;
   $('sources').style.setProperty('--source-top', 171.5 / sceneHeight * 100 + '%');
   $('sources').style.setProperty('--source-height', 79.8 / sceneHeight * 100 + '%');
   $('belt-meter').style.top = (sceneHeight - 249) / sceneHeight * 100 + '%';
@@ -468,11 +483,16 @@ function frame(now){
 if(['localhost','127.0.0.1','[::1]'].includes(location.hostname)) Object.defineProperty(window,'marbleDebug',{value:Object.freeze({snapshot:()=>({...game.snapshot(),screen,guide:$('guide').open,combo:feedback.count,theme:view.theme.id,total:game.total,remaining:game.remaining,occupied:game.occupied,paused,speed:Math.max(speed,game.finishing?FINISH_SPEED:1),finishing:game.finishing,undoLeft:game.undoLeft,expanded:game.expanded}),solution:()=>[...game.level.solution]})});
 prepareHome();
 
-// Notify only the same-origin website; the parent checks source, origin and size.
+// Only the same-origin embedding page can set player mode or visibility.
 if (new URLSearchParams(location.search).get('embed') === '1' && parent !== window) {
   parent.postMessage({type:'tapmelo-marble-ready'}, location.origin);
   window.addEventListener('message', event => {
     if (event.origin !== location.origin || event.source !== parent || !['tapmelo-marble-pause','tapmelo-marble-visible'].includes(event.data?.type)) return;
+    const mobile = event.data.mobilePlayer === true;
+    if (mobile !== document.documentElement.hasAttribute('data-mobile-player')) {
+      document.documentElement.toggleAttribute('data-mobile-player', mobile);
+      resizeBoard();
+    }
     offscreen = event.data.type === 'tapmelo-marble-pause';
     if (offscreen) pauseAway();
     else if (!document.hidden) { sound.resume(); requestFrame(); }
