@@ -1,0 +1,6 @@
+name = "green-night-bb5b"
+compatibility_date = "2026-11-17"
+
+[assets]
+directory = "./site/dist"
+html_handling = "force-trailing-slash"

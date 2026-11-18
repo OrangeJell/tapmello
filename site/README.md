@@ -112,7 +112,9 @@ AdSense 网站验证仅保留 `ads.txt`，奖励行为采用上述试玩确认�
 
 自动检查与浏览器检查结果见 [CHECKS.md](CHECKS.md)。截图脚本和浏览器脚本是 Playwright CLI `run-code` 函数，运行时工作目录应为项目根目录；默认使用 4173 端口。
 
-每次发布前运行 `npm run build`，上传完整 `dist/` 到现有 Cloudflare Pages 项目。上线后验证 HTTPS、manifest、图标、canonical、语言关联、旧地址 301 与独立游戏 noindex。此次完成本地代码及发布目录更新，没有执行线上发布。
+使用 Cloudflare Workers 的 Git 构建时，根目录设为仓库根目录，构建命令设为 `npm --prefix site ci && npm --prefix site run build`，部署命令设为 `npx wrangler deploy`。Wrangler 通过仓库根目录的 `wrangler.toml` 读取兼容日期并发布 `site/dist/`。
+
+使用现有 Cloudflare Pages 项目手动发布时，运行 `npm run build` 后上传完整的 `dist/`。上线后验证 HTTPS、manifest、图标、canonical、语言关联、旧地址 301 与独立游戏 noindex。
 
 ## 2026-10-09 搜索页面与游戏改名
 
