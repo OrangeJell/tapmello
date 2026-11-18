@@ -37,6 +37,7 @@
   gap: clamp(8px, 1.25vw, 14px);
 }
 [data-game-tile] {
+  --game-tile-scale: 1.2;
   position: relative;
   display: block;
   min-width: 0;
@@ -75,29 +76,38 @@
 .is-previewing .game-cover { opacity: 0; }
 .game-tile-label {
   position: absolute;
-  inset: auto 0 0;
-  padding: 20px 8px 8px;
-  border-radius: 0 0 12px 12px;
-  background: linear-gradient(transparent, #13221bf5 32%);
+  inset-inline: 0;
+  inset-block-start: calc(50% + 50% * var(--game-tile-scale) + 4px);
+  padding: 4px 6px;
+  border-radius: 6px;
+  background: #13221b;
   color: #fff;
   opacity: 0;
   pointer-events: none;
-  translate: 0 6px;
-  transition: opacity 140ms ease, translate 180ms cubic-bezier(.22, 1, .36, 1);
-  font-size: clamp(12px, 1.25vw, 16px);
+  transition: opacity 140ms ease;
+  font-size: .75rem;
   font-weight: 650;
-  line-height: 1.12;
+  line-height: 1.2;
   overflow-wrap: anywhere;
+}
+.game-tile-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 .game-tile-category {
   display: block;
-  margin-top: 4px;
+  margin-top: 2px;
   color: #e7eee8;
-  font-size: 11px;
+  font-size: .6875rem;
   font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-[data-game-tile]:focus-visible .game-tile-label { opacity: 1; translate: 0; }
-[data-game-tile]:focus-visible .game-tile-art { transform: scale(1.2); }
+[data-game-tile]:focus-visible .game-tile-label { opacity: 1; }
+[data-game-tile]:focus-visible .game-tile-art { transform: scale(var(--game-tile-scale)); }
 
 .home-page .footer-inner { padding-block: 18px; }
 .footer-links { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; width: 100%; margin-top: 8px; }
@@ -108,9 +118,9 @@
 
 @media (hover: hover) and (pointer: fine) {
   [data-game-tile]:hover { z-index: 3; }
-  [data-game-tile]:hover .game-tile-label { opacity: 1; translate: 0; }
+  [data-game-tile]:hover .game-tile-label { opacity: 1; }
   [data-game-tile]:hover .game-tile-art {
-    transform: scale(1.2);
+    transform: scale(var(--game-tile-scale));
     box-shadow: 0 14px 26px -5px #273d3566, 0 0 0 3px var(--paper);
   }
 }
@@ -131,8 +141,8 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
+  [data-game-tile] { --game-tile-scale: 1; }
   .game-tile-art, .game-cover, .game-tile-video, .game-tile-label { transition: none; }
-  [data-game-tile]:is(:hover, :focus-visible) .game-tile-art { transform: none; }
 }
 
 .game-collection > a > img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 12px; }

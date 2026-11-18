@@ -110,16 +110,18 @@ function loadPartnerGame() {
   const message = partnerStatus.querySelector('[role="status"]');
   const retry = partnerStatus.querySelector('[data-partner-retry]');
   const show = partnerStatus.querySelector('[data-partner-show]');
-  const exit = partnerStatus.querySelector('[data-partner-back]');
+  const recoveryActions = retry.parentElement;
   const attempt = { frame, controller, timer: 0 };
   partnerAttempt = attempt;
   let frameLoaded = false;
   let connectionAvailable = false;
 
   function showStatus(state) {
+    const loading = state === 'loading';
     message.textContent = partnerStatus.dataset[state];
-    retry.hidden = state === 'loading';
-    show.hidden = state === 'loading' || !frameLoaded;
+    recoveryActions.hidden = loading;
+    show.hidden = !frameLoaded;
+    if (!loading && document.activeElement === message) retry.focus({ preventScroll: true });
   }
 
   function revealFrame() {
@@ -137,13 +139,13 @@ function loadPartnerGame() {
   frame.inert = true;
   partnerStatus.hidden = false;
   showStatus('loading');
-  exit.focus({ preventScroll: true });
+  message.focus({ preventScroll: true });
   attempt.timer = setTimeout(() => reportFailure('timeout'), 15000);
   frame.addEventListener('load', () => {
     if (partnerAttempt !== attempt) return;
     frameLoaded = true;
     if (connectionAvailable) revealFrame();
-    else if (!retry.hidden) show.hidden = false;
+    else if (!recoveryActions.hidden) show.hidden = false;
   }, { once: true });
   screen.append(frame);
 
@@ -273,16 +275,24 @@ document.addEventListener('keydown', event => {
   } else fallbackFullscreen(false);
 });
 const rail = document.querySelector('.detail-rail');
+const discovery = document.querySelector('.detail-discovery');
 const loadMore = rail.querySelector('.detail-rail-more');
-const shownGames = new Set([...document.querySelectorAll('.detail-discovery [data-game], .detail-rail [data-game]')]
-  .map(tile => tile.dataset.game));
 const currentCategories = rail.dataset.categories.split(' ');
 const recommendationLimit = 36;
 let catalogue;
 let loadingRecommendations = false;
 
+async function loadRecommendationCatalogue() {
+  if (!catalogue) {
+    const response = await fetch(rail.dataset.catalogue);
+    if (!response.ok) throw Error('Recommendations unavailable');
+    catalogue = (await response.json()).filter(item => item.id !== rail.dataset.game);
+  }
+  return catalogue;
+}
+
 function drawRecommendations(entries, count) {
-  const candidates = entries.filter(item => item.id !== rail.dataset.game && !shownGames.has(item.id))
+  const candidates = entries
     .map(item => ({
       item,
       weight: item.categories[0] === currentCategories[0] ? 20
@@ -329,15 +339,32 @@ function createRecommendation(game) {
   const label = document.createElement('span');
   label.className = 'game-tile-label';
   const title = document.createElement('span');
+  title.className = 'game-tile-title';
   title.lang = game.titleLang;
   title.textContent = game.title;
   const category = document.createElement('span');
   category.className = 'game-tile-category';
   category.textContent = game.category;
   label.append(title, category);
-  art.append(label);
-  tile.append(art);
+  tile.append(art, label);
   return tile;
+}
+
+async function refreshRecommendations() {
+  const discoveryTiles = discovery.querySelectorAll('[data-game-tile]');
+  const railTiles = rail.querySelectorAll('[data-game-tile]');
+  try {
+    const entries = await loadRecommendationCatalogue();
+    const tiles = drawRecommendations(entries, discoveryTiles.length + railTiles.length).map(createRecommendation);
+    discovery.replaceChildren(...tiles.slice(0, discoveryTiles.length));
+    railTiles.forEach(tile => tile.remove());
+    loadMore.before(...tiles.slice(discoveryTiles.length));
+    document.dispatchEvent(new CustomEvent('game-tiles-added', { detail: tiles }));
+    return tiles.length < entries.length;
+  } catch {
+    // Keep the initial HTML recommendations when the catalogue is unavailable.
+    return true;
+  }
 }
 
 async function loadRecommendations() {
@@ -346,19 +373,16 @@ async function loadRecommendations() {
   recommendationObserver.unobserve(loadMore);
   loadMore.setAttribute('aria-busy', 'true');
   try {
-    if (!catalogue) {
-      const response = await fetch(rail.dataset.catalogue);
-      if (!response.ok) throw Error('Recommendations unavailable');
-      catalogue = await response.json();
-    }
+    const entries = await loadRecommendationCatalogue();
+    const shownGames = new Set([...discovery.querySelectorAll('[data-game-tile]'), ...rail.querySelectorAll('[data-game-tile]')]
+      .map(tile => tile.dataset.game));
     const remaining = recommendationLimit - rail.querySelectorAll('[data-game-tile]').length;
-    const next = drawRecommendations(catalogue, Math.min(6, remaining));
-    next.forEach(game => shownGames.add(game.id));
+    const next = drawRecommendations(entries.filter(game => !shownGames.has(game.id)), Math.min(6, remaining));
     const tiles = next.map(createRecommendation);
     loadMore.before(...tiles);
     document.dispatchEvent(new CustomEvent('game-tiles-added', { detail: tiles }));
     if (document.activeElement === loadMore && tiles.length) tiles[0].focus();
-    loadMore.hidden = next.length < 6 || next.length >= remaining || shownGames.size + 1 >= catalogue.length;
+    loadMore.hidden = next.length < 6 || next.length >= remaining || shownGames.size + next.length >= entries.length;
     if (!loadMore.hidden) recommendationObserver.observe(loadMore);
   } catch {
     // Leave the button available for a manual retry.
@@ -371,9 +395,11 @@ async function loadRecommendations() {
 const recommendationObserver = new IntersectionObserver(entries => {
   if (entries.some(entry => entry.isIntersecting)) loadRecommendations();
 }, { rootMargin: '240px' });
-loadMore.hidden = false;
 loadMore.addEventListener('click', loadRecommendations);
-recommendationObserver.observe(loadMore);
+refreshRecommendations().then(hasMore => {
+  loadMore.hidden = !hasMore;
+  if (hasMore) recommendationObserver.observe(loadMore);
+});
 
 document.addEventListener('visibilitychange', syncPreviewAutoplay);
 reduceMotion.addEventListener('change', syncPreviewAutoplay);

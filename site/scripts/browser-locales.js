@@ -83,6 +83,33 @@ async page => {
 
   if (english) {
     await visit(partner);
+    async function initialRecommendations() {
+      await page.locator('.detail-rail-more').waitFor({ state: 'visible' });
+      const gameIds = selector => page.locator(`${selector} [data-game-tile]`)
+        .evaluateAll(tiles => tiles.map(tile => tile.dataset.game));
+      const discovery = await gameIds('.detail-discovery');
+      const rail = (await gameIds('.detail-rail')).slice(0, 12);
+      const ids = [...discovery, ...rail];
+      const current = await page.locator('.detail-player').getAttribute('data-game');
+      assert(discovery.length === 6 && rail.length === 12 && new Set(ids).size === ids.length && !ids.includes(current),
+        'Initial recommendations should be unique and exclude the current game');
+      return { discovery: discovery.join(','), rail: rail.join(',') };
+    }
+
+    const firstRecommendations = await initialRecommendations();
+    await Promise.all([
+      page.waitForURL(url => url.pathname !== partner),
+      page.locator('.detail-discovery [data-game-tile]').first().click(),
+    ]);
+    const nextRecommendations = await initialRecommendations();
+    assert(firstRecommendations.discovery !== nextRecommendations.discovery && firstRecommendations.rail !== nextRecommendations.rail,
+      'Opening another game should refresh both recommendation sections');
+    await page.reload({ waitUntil: 'domcontentloaded' });
+    const reloadedRecommendations = await initialRecommendations();
+    assert(nextRecommendations.discovery !== reloadedRecommendations.discovery && nextRecommendations.rail !== reloadedRecommendations.rail,
+      'Reloading should refresh both recommendation sections');
+
+    await visit(partner);
     const partnerUrl = await page.locator('.detail-screen > template')
       .evaluate(template => template.content.querySelector('iframe').src);
     await page.route(partnerUrl, route => route.fulfill({

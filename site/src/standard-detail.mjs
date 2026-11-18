@@ -152,9 +152,9 @@ export function renderStandardDetail(lang, game, {
           ${runtime ? `<div class="detail-native-runtime" data-layout="${runtime.layout}" hidden>${runtime.html}</div>` : `
             <template><iframe title="${escape(game.title)}" src="${escape(game.url)}" allow="autoplay; fullscreen"></iframe></template>
             <div class="detail-partner-status" data-loading="${label.loading}" data-error="${label.loadError}" data-timeout="${label.loadTimeout}" hidden>
-              <p role="status"></p>
-              <div>
-                <button type="button" data-partner-retry hidden>${label.retry}</button>
+              <p role="status" tabindex="-1"></p>
+              <div hidden>
+                <button type="button" data-partner-retry>${label.retry}</button>
                 <button type="button" data-partner-show hidden>${label.showPlayer}</button>
                 <button type="button" data-partner-back>${label.back}</button>
               </div>

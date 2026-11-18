@@ -165,7 +165,7 @@ for (const lang of ['en']) {
     assert.ok(home.includes(`href="${gamePath}"`), `Playgama card link: ${gamePath}`);
     const player = await readFile(path.join(dist, gamePath, 'index.html'), 'utf8');
     checkDetailLayout(player, gamePath);
-    assert.match(player, /class="detail-tile"[^>]+data-game-tile[^>]*>\s*<span class="game-tile-art">[\s\S]*?class="game-tile-category"/, 'Recommendations use shared game tiles');
+    assert.match(player, /class="detail-tile"[^>]+data-game-tile[^>]*>\s*<span class="game-tile-art">\s*<img[^>]*>\s*(?:<video[^>]*><\/video>\s*)?<\/span>\s*<span class="game-tile-label">/, 'Recommendations show labels outside the artwork');
     const { categories, tags } = taxonomyFor(game);
     const breadcrumb = player.match(/class="discovery-breadcrumb"[\s\S]*?<\/nav>/)?.[0];
     assert.ok(breadcrumb?.includes(`href="${gamesPath(lang)}"`) && breadcrumb.includes(`href="${genrePath(lang, categories[0])}"`), `Game breadcrumb: ${gamePath}`);
