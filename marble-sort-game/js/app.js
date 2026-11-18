@@ -485,12 +485,20 @@ prepareHome();
 
 // Only the same-origin embedding page can set player mode or visibility.
 if (new URLSearchParams(location.search).get('embed') === '1' && parent !== window) {
+  const root = document.documentElement;
+  const reportHeight = () => parent.postMessage({
+    type: 'tapmelo-marble-resize',
+    height: document.body.getBoundingClientRect().height,
+  }, location.origin);
+  const desktopSize = new ResizeObserver(reportHeight);
   parent.postMessage({type:'tapmelo-marble-ready'}, location.origin);
   window.addEventListener('message', event => {
     if (event.origin !== location.origin || event.source !== parent || !['tapmelo-marble-pause','tapmelo-marble-visible'].includes(event.data?.type)) return;
     const mobile = event.data.mobilePlayer === true;
-    if (mobile !== document.documentElement.hasAttribute('data-mobile-player')) {
-      document.documentElement.toggleAttribute('data-mobile-player', mobile);
+    if (!root.matches('[data-mobile-player], [data-desktop-player]')) {
+      root.toggleAttribute('data-mobile-player', mobile);
+      root.toggleAttribute('data-desktop-player', !mobile);
+      if (!mobile) desktopSize.observe(document.body);
       resizeBoard();
     }
     offscreen = event.data.type === 'tapmelo-marble-pause';

@@ -203,8 +203,15 @@ html:not([data-embed]) body:has(#lobby:not([hidden])){align-items:center}
 
 html[data-embed] #playfield .wordmark strong { white-space:nowrap; }
 
+/* Desktop fits the whole game using its natural content height. */
+html[data-desktop-player] body { min-height: 0; display: block; padding: 18px 12px; }
+html[data-desktop-player] .game { min-height: 0; margin-inline: auto; }
+@media (max-width: 600px) {
+  html[data-desktop-player] body { padding: 0; }
+}
+
 /* The embedding page gives us the visible play area, including on rotation. */
-html[data-embed] body {
+html[data-embed]:where(:not([data-desktop-player])) body {
   display: flex;
   flex-direction: column;
   justify-content: safe center;
@@ -212,37 +219,37 @@ html[data-embed] body {
   min-height: 100dvh;
   padding: 8px;
 }
-html[data-embed] .game { width: min(100%, 460px); min-height: 0; flex: none; }
-html[data-embed] .lobby { min-height: 0; }
-html[data-embed] #town {
+html[data-embed]:where(:not([data-desktop-player])) .game { width: min(100%, 460px); min-height: 0; flex: none; }
+html[data-embed]:where(:not([data-desktop-player])) .lobby { min-height: 0; }
+html[data-embed]:where(:not([data-desktop-player])) #town {
   max-height: max(0px, calc(100dvh - 235px));
   object-fit: contain;
 }
-html[data-embed] .masthead { height: 51px; }
-html[data-embed] .hud { height: 58px; }
-html[data-embed] .board {
+html[data-embed]:where(:not([data-desktop-player])) .masthead { height: 51px; }
+html[data-embed]:where(:not([data-desktop-player])) .hud { height: 58px; }
+html[data-embed]:where(:not([data-desktop-player])) .board {
   width: min(100%, max(156px, calc((100dvh - 278px) * 480 / 700)));
   margin-inline: auto;
 }
-html[data-embed] .tools { padding-block: 6px 4px; gap: clamp(20px, 12vw, 58px); }
-html[data-embed] .tool { min-height: 61px; }
-html[data-embed] footer { min-height: 40px; padding: 3px 8px; }
-html[data-embed] footer button { width: 44px; height: 34px; }
-html[data-embed] footer button::after { inset: -5px 0; }
+html[data-embed]:where(:not([data-desktop-player])) .tools { padding-block: 6px 4px; gap: clamp(20px, 12vw, 58px); }
+html[data-embed]:where(:not([data-desktop-player])) .tool { min-height: 61px; }
+html[data-embed]:where(:not([data-desktop-player])) footer { min-height: 40px; padding: 3px 8px; }
+html[data-embed]:where(:not([data-desktop-player])) footer button { width: 44px; height: 34px; }
+html[data-embed]:where(:not([data-desktop-player])) footer button::after { inset: -5px 0; }
 
 @media (min-width: 540px) and (max-height: 540px) {
-  html[data-embed] .game { width: min(100%, 640px); }
-  html[data-embed] .lobby {
+  html[data-embed]:where(:not([data-desktop-player])) .game { width: min(100%, 640px); }
+  html[data-embed]:where(:not([data-desktop-player])) .lobby {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 8px;
     padding-block: 8px 14px;
   }
-  html[data-embed] .lobby-top { grid-column: 1 / -1; }
-  html[data-embed] .lobby h1 { font-size: clamp(1.75rem, 6vw, 3.25rem); }
-  html[data-embed] #town { grid-column: 2; grid-row: 2 / 4; max-height: calc(100dvh - 100px); }
-  html[data-embed] .game:has(#playfield:not([hidden])) { width: min(100%, 530px); }
-  html[data-embed] #playfield .masthead {
+  html[data-embed]:where(:not([data-desktop-player])) .lobby-top { grid-column: 1 / -1; }
+  html[data-embed]:where(:not([data-desktop-player])) .lobby h1 { font-size: clamp(1.75rem, 6vw, 3.25rem); }
+  html[data-embed]:where(:not([data-desktop-player])) #town { grid-column: 2; grid-row: 2 / 4; max-height: calc(100dvh - 100px); }
+  html[data-embed]:where(:not([data-desktop-player])) .game:has(#playfield:not([hidden])) { width: min(100%, 530px); }
+  html[data-embed]:where(:not([data-desktop-player])) #playfield .masthead {
     position: absolute;
     z-index: 1;
     top: 2px;
@@ -250,22 +257,22 @@ html[data-embed] footer button::after { inset: -5px 0; }
     width: 245px;
     padding-inline: 4px;
   }
-  html[data-embed] .machine {
+  html[data-embed]:where(:not([data-desktop-player])) .machine {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 255px;
     grid-template-rows: auto auto 1fr;
     align-items: center;
     padding: 0 8px;
   }
-  html[data-embed] .board {
+  html[data-embed]:where(:not([data-desktop-player])) .board {
     grid-column: 1;
     grid-row: 1 / 4;
     width: min(100%, max(145px, calc((100dvh - 28px) * 480 / 700)));
   }
-  html[data-embed] .hud { grid-column: 2; margin-top: 54px; padding-inline: 8px; }
-  html[data-embed] .board-tip { grid-column: 2; }
-  html[data-embed] .tools { grid-column: 2; gap: 24px; margin: 0 0 40px; }
-  html[data-embed] .game:has(#playfield:not([hidden])) footer {
+  html[data-embed]:where(:not([data-desktop-player])) .hud { grid-column: 2; margin-top: 54px; padding-inline: 8px; }
+  html[data-embed]:where(:not([data-desktop-player])) .board-tip { grid-column: 2; }
+  html[data-embed]:where(:not([data-desktop-player])) .tools { grid-column: 2; gap: 24px; margin: 0 0 40px; }
+  html[data-embed]:where(:not([data-desktop-player])) .game:has(#playfield:not([hidden])) footer {
     position: absolute;
     right: 8px;
     bottom: 0;

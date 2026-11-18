@@ -26,7 +26,7 @@ async (page) => {
     check((await autoFinish.textContent()).includes('automatically accelerates'),`${width}px: automatic finish explained`);
     check(await gameFrame().evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${width}px: embedded game fits`);
     const [frame, screen] = await Promise.all([page.locator('#marble-frame').boundingBox(), page.locator('.detail-screen').boundingBox()]);
-    check(Math.abs(frame.height - screen.height) <= 1,`${width}px: iframe uses the full available play area`);
+    check(frame.y >= screen.y - 1 && frame.y + frame.height <= screen.y + screen.height + 1,`${width}px: iframe fits the available play area`);
     if(width===390||width===1440)await page.screenshot({path:`output/playwright/marble-site-${width}.png`,fullPage:true});
   }
   await page.setViewportSize({width:390,height:844});await page.goto(base+'/games/marble-sort/');await ready();

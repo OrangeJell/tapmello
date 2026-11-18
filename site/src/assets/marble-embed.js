@@ -8,16 +8,18 @@
   const localized = document.getElementById('site-localized-copy');
   const messages = localized ? JSON.parse(localized.textContent) : {};
   const source = frame.getAttribute('data-src');
-  let timeout, visible = true, ready = false;
+  let timeout, visible = true, connected = false;
+  const isMobilePlayer = () => document.documentElement.classList.contains('detail-mobile-playing');
   const syncVisibility = () => {
-    if (ready) frame.contentWindow.postMessage({
+    if (connected) frame.contentWindow.postMessage({
       type: visible ? 'tapmelo-marble-visible' : 'tapmelo-marble-pause',
-      mobilePlayer: document.documentElement.classList.contains('detail-mobile-playing'),
+      mobilePlayer: isMobilePlayer(),
     }, location.origin);
   };
   const start = () => {
     clearTimeout(timeout);
-    ready = false;
+    connected = false;
+    frame.style.removeProperty('height');
     host.dataset.state = 'loading'; retry.hidden = true;
     status.textContent = hi ? 'दफ़्तर खुल रहे हैं…' : (messages['marble.loading'] ?? 'Opening the offices…');
     timeout = setTimeout(() => {
@@ -26,9 +28,18 @@
     }, 15000);
   };
   window.addEventListener('message', event => {
-    if (event.origin !== location.origin || event.source !== frame.contentWindow || event.data?.type !== 'tapmelo-marble-ready') return;
-    clearTimeout(timeout); host.dataset.state = 'ready';
-    if (!ready) { ready = true; syncVisibility(); }
+    if (event.origin !== location.origin || event.source !== frame.contentWindow) return;
+    if (event.data?.type === 'tapmelo-marble-ready') {
+      connected = true;
+      syncVisibility();
+      if (!isMobilePlayer()) return;
+    } else if (event.data?.type === 'tapmelo-marble-resize' && connected && !isMobilePlayer()) {
+      const height = event.data.height;
+      if (!Number.isFinite(height) || height < 180 || height > 2500) return;
+      frame.style.height = Math.ceil(height) + 'px';
+    } else return;
+    clearTimeout(timeout);
+    host.dataset.state = 'ready';
   });
   retry.addEventListener('click', () => { start(); frame.contentWindow.location.replace(source + '&retry=' + Date.now()); });
   // Freeze an off-screen game rather than letting an unseen belt continue.

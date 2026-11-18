@@ -64,5 +64,37 @@ async (page) => {
     check(await preview.evaluate(video => !video.paused), `${game}: returning to details resumes the preview`);
     check(!await page.locator('html').evaluate(element => element.classList.contains('detail-mobile-playing')), `${game}: exit leaves gameplay mode`);
   }
+  const desktopContext = await page.context().browser().newContext({ viewport: { width: 1440, height: 900 } });
+  try {
+    const desktop = await desktopContext.newPage();
+    await desktop.goto('http://127.0.0.1:4173/games/marble-sort/');
+    await desktop.locator('.detail-play').click();
+    await desktop.locator('[data-marble-embed][data-state="ready"]').waitFor();
+    const frame = desktop.frameLocator('#marble-frame');
+
+    async function checkDesktopFit(content, label) {
+      await desktop.waitForFunction(selector => {
+        const screen = document.querySelector('.detail-screen').getBoundingClientRect();
+        const iframe = document.querySelector('#marble-frame');
+        const rect = iframe.getBoundingClientRect();
+        const content = iframe.contentDocument.querySelector(selector).getBoundingClientRect();
+        return iframe.clientWidth === 480 && content.height > 0 && content.bottom <= iframe.clientHeight + 1 &&
+          rect.top >= screen.top - 1 && rect.bottom <= screen.bottom + 1 &&
+          Math.abs(rect.left + rect.width / 2 - (screen.left + screen.width / 2)) <= 1;
+      }, content);
+      check(true, label);
+    }
+
+    await checkDesktopFit('#lobby', 'marble-sort desktop: lobby fits and is centered');
+    await frame.locator('#start').click();
+    if (await frame.locator('#guide-skip').isVisible()) await frame.locator('#guide-skip').click();
+    await checkDesktopFit('footer', 'marble-sort desktop: the entire game fits after starting');
+    await desktop.setViewportSize({ width: 1280, height: 720 });
+    await checkDesktopFit('footer', 'marble-sort desktop: game stays centered and fitted after resizing');
+    await frame.locator('#pause').click();
+    check(await frame.locator('#dialog').isVisible(), 'marble-sort desktop: pause works on the fitted board');
+  } finally {
+    await desktopContext.close();
+  }
   return results;
 }
