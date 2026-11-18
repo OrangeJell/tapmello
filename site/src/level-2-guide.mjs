@@ -3,11 +3,11 @@ import { screenshot, updated } from './game.mjs';
 
 export const level2Guides = {
   en: {
-    title: 'Glass Twist Level 2 Guide: Opening Moves & Slot Strategy | tapmelo',
-    heading: 'Glass Twist level 2: the glass garden',
-    description: 'Learn the opening moves for Glass Twist level 2 with real gameplay screenshots. Match box colours, manage temporary slots and avoid common glass puzzle traps.',
+    title: 'Glass Twist Level 2 Walkthrough: Glass Garden | tapmelo',
+    heading: 'Glass Twist Level 2 Walkthrough: Glass Garden',
+    description: 'See the first six blue screws and the next three red ones in Glass Twist level 2. Follow the screenshots, then plan your next move around the five-slot tray.',
     eyebrow: 'Glass Twist: Screw Puzzle · Level 2 guide',
-    lead: 'The glass garden gives you several exposed screws at once. A good start is to fill the blue boxes without using the tray, then follow the new box colours as the glass opens up. Here is a practical opening and a way to think through the busier middle of the puzzle.',
+    lead: 'Start Glass Garden with six blue screws: one from the right-hand flower, two from the leaf and three from the upper-left plate. That fills two boxes with all five tray slots free. The screenshots show where to find those screws, which reds to take next and how to choose a move when the tray starts to fill.',
     byline: 'By Jelly · Updated 9 October 2026 · Real gameplay screenshots',
     choose: 'Complete the first puzzle, then tap Next level to reach 02 / Glass garden.',
     nav: [['opening', 'Opening moves'], ['next-colour', 'The next colour'], ['temporary-slots', 'Temporary slots'], ['common-traps', 'Common traps']],
@@ -21,20 +21,20 @@ export const level2Guides = {
     nextTitle: 'Read the boxes again before collecting another colour',
     nextCaption: 'After the six blue opening moves: two boxes have been packed, both active boxes are now red, and the tray is still empty.',
     nextText: [
-      'The picture shows why “keep taking blue” is not a rule for the whole board. A blue screw that fitted a moment ago would now need a temporary slot. The current boxes decide which colours you can collect directly.',
+      'After the second blue box closes, both open boxes are red. A seventh blue screw would take a tray slot. Leave the exposed blues where they are until a blue box returns.',
       'For this opening, take the red screw on the upper-right flower, then the red screw on the lower-left flower, then the red screw in the middle of the horizontal glass strip. Those three fill a red box and bring a blue box back. Check the boxes again before taking the blue screws beside the strip.',
-      'These moves explain the opening; they are not a complete click-by-click solution. Later choices depend on what you have already removed. After a plate swings or falls, scan the whole board for a useful exposed match instead of staying in one corner.',
+      'From here, choose moves based on the open boxes and the position of the glass. If a plate swings across the strip, check the screws it has uncovered elsewhere before taking another one from the same area.',
     ],
     trayTitle: 'Three waiting screws leave only two spaces',
     trayCaption: 'A separate middle-of-the-round example, reached by normal play: three screws wait in the five-slot tray. Two slots remain free.',
     trayText: [
-      'A temporary slot holds a screw whose colour has no available matching box. It is a small amount of working space, not another colour collection. When a suitable box opens, waiting screws move into it automatically.',
+      'A temporary slot holds a screw until a box of the same colour opens. In this example you have room for two more unmatched screws, but using both can jam the puzzle. Look for a move that empties a slot before touching another colour.',
       'In the screenshot, two red screws and one green screw wait while the blue and cyan boxes are open. The cyan box already holds two screws: an exposed third cyan screw would complete it. Two more unmatched screws could fill the tray and jam the round if automatic matching does not free a space. Look for a useful match before taking another colour.',
       'If the matching screw is covered, inspect the glass holding it back. Which exposed screw releases that glass? Can you collect that screw into a box, or will it use another slot? Count the space you need before starting this chain. Releasing one plate is useful only if the next moves still fit.',
     ],
     trapsTitle: 'The choices that make this board harder',
     traps: [
-      ['Tapping a screw through transparent glass', 'Seeing a screw does not mean it is exposed. A covered screw cannot be removed; a partially covered one may bounce back. Work on the covering plate and try the screw again once its head is clear.'],
+      ['Tapping a screw through transparent glass', 'If another plate overlaps the head, move that plate first. Look again after it settles. The screw is available when its head is clear.'],
       ['Clearing every screw from one plate', 'Different screws on a plate can have different colours. Check each one against the boxes. Taking a whole group of unmatched colours can use your remaining slots before it reveals the screw you need.'],
       ['Ignoring a box with two matching screws', 'Its third screw may open the next colour and move waiting screws out of the tray. Look across the board for that exposed match before spending a slot on an unrelated colour.'],
       ['Assuming empty glass has already disappeared', 'An empty plate can rest on another plate. A plate with one remaining screw can swing. Check the actual position of the glass after movement; remove its support when that helps uncover a useful screw.'],

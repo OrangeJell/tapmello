@@ -89,11 +89,11 @@ for (const language of ['en', 'hi']) {
     });
   }
   const mahjongTitle=hi?'माहजोंग सीखें — टाइलें, अभ्यास और लेख | tapmelo':'Learn Mahjong Online – Free Beginner Practice | tapmelo';
-  const mahjongDescription=hi?'माहजोंग के मुफ़्त अभ्यास में टाइलें पहचानें, ची और पोंग का फ़र्क समझें और हाथ पूरा करने वाली टाइल ढूँढें।':'Learn Mahjong online with free beginner exercises. Practise chi and pong, put together a winning hand and find the tiles it is waiting for.';
+  const mahjongDescription=hi?'माहजोंग के मुफ़्त अभ्यास में टाइलें पहचानें, ची और पोंग का फ़र्क समझें और हाथ पूरा करने वाली टाइल ढूँढें।':'Learn Mahjong online with free beginner exercises. Identify the tiles, build a winning hand, practise calling discards and find every tile that completes a wait.';
   const common={language,cover:'/assets/mahjong-cover.svg',coverHeight:732,coverAlt:hi?'हरी सतह पर माहजोंग टाइलें':'Mahjong tiles on a green playing surface',updated:mahjongUpdated};
   pages.push({...common,updated:detailUpdated,kind:'mahjong',path:mahjongPath(language),title:mahjongTitle,description:mahjongDescription,alternates:{en:mahjongPath('en'),hi:mahjongPath('hi')},main:renderMahjong(language),structured:{'@context':'https://schema.org','@type':'WebApplication',name:'Mahjong basics',url:origin+mahjongPath(language),description:mahjongDescription,inLanguage:['en','hi'],applicationCategory:'EducationalApplication',operatingSystem:'Web browser',isAccessibleForFree:true}});
   for(const a of articles){const articlePath=mahjongGuidePath(language,a.id);pages.push({...common,kind:'mahjong-guide',path:articlePath,title:a.title[language]+' | tapmelo',description:a.lead[language],alternates:{en:mahjongGuidePath('en',a.id),hi:mahjongGuidePath('hi',a.id)},main:renderMahjongArticle(a,language),structured:{'@context':'https://schema.org','@type':'Article',headline:a.title[language],description:a.lead[language],inLanguage:language,dateModified:mahjongUpdated,mainEntityOfPage:origin+articlePath,image:origin+'/assets/mahjong-cover.svg',author:{'@type':'Person',name:'Jelly'}}});}
-  const marbleDescription=hi?'Clock Out! में एक रंग के यात्रियों को उनकी बस में बिठाएँ। चार कतारें पढ़ें और जानें कि इंतज़ार की 27 जगहें भरने पर जाम कैसे खोलें।':'Play Clock Out!, a free bus sorting puzzle. Match riders to four shuttle queues, work around the 27-space loop and learn how to recover from a jam.';
+  const marbleDescription=hi?'Clock Out! में एक रंग के यात्रियों को उनकी बस में बिठाएँ। चार कतारें पढ़ें और जानें कि इंतज़ार की 27 जगहें भरने पर जाम कैसे खोलें।':'Play Clock Out!, a free bus sorting puzzle with 60 levels. Match nine riders at a time to four shuttle queues and keep the 27-space waiting loop moving.';
   const marbleCommon={language,cover:'/assets/shuttle-cover.png',coverHeight:732,coverAlt:hi?'कर्मचारी और उनकी बसें':'Animal commuters and their shuttles',updated:marbleUpdated};
   pages.push({...marbleCommon,updated:detailUpdated,kind:'marble',path:marblePath(language),title:hi?'Clock Out! — बसों के रंग मिलाने का मुफ़्त खेल | tapmelo':'Clock Out! – Free Bus Sorting Game Online | tapmelo',description:marbleDescription,alternates:{en:marblePath('en'),hi:marblePath('hi')},main:renderMarble(language),structured:{'@context':'https://schema.org','@type':['VideoGame','WebApplication'],name:'Clock Out!',url:origin+marblePath(language),description:marbleDescription,inLanguage:['en','hi'],applicationCategory:'GameApplication',operatingSystem:'Web browser',isAccessibleForFree:true}});
   for(const a of marbleGuides) pages.push({...marbleCommon,kind:'marble-guide',path:marbleGuidePath(language,a.id),title:a.title[language]+' | tapmelo',description:a.lead[language],alternates:{en:marbleGuidePath('en',a.id),hi:marbleGuidePath('hi',a.id)},main:renderMarbleGuide(a,language),structured:{'@context':'https://schema.org','@type':'Article',headline:a.title[language],description:a.lead[language],inLanguage:language,datePublished:marbleUpdated,dateModified:marbleUpdated,mainEntityOfPage:origin+marbleGuidePath(language,a.id),image:origin+'/assets/shuttle-cover.png',author:{'@type':'Person',name:'Jelly'}}});
@@ -140,11 +140,12 @@ const titles = new Set([...brandNames, ...englishCatalogue.map(game => game.titl
 const manifest = JSON.parse(await readFile(path.join(root, 'public', 'manifest.webmanifest'), 'utf8'));
 const runtimeCopy = JSON.parse(await readFile(path.join(root, 'src', 'locale-runtime.json'), 'utf8'));
 const renderedEnglish = englishPages.map(page => [page, renderPage(page, page.main)]);
+const editorialAliases = JSON.parse(await readFile(path.join(root, 'src', 'translations', 'editorial-aliases.json'), 'utf8'));
 
 for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
   const source = extracting ? new Set() : undefined;
   const dictionary = source ? null : JSON.parse(await readFile(path.join(root, 'src', 'translations', code + '.json'), 'utf8'));
-  const localizer = createLocalizer({ code, dictionary, source, routes, titles });
+  const localizer = createLocalizer({ code, dictionary, source, routes, titles, editorialAliases });
   const fullLocale = code !== 'hi' || extractLocales;
   const startUrl = localPath(code, manifest.start_url);
   let clientCopy;

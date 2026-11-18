@@ -19,11 +19,11 @@ export function renderMahjong(lang){
    game: 'mahjong',
    playerLayout: 'flow',
    embed,
-   aboutTitle: copy(lang, 'Learn Mahjong from tile groups to waiting hands', 'माहजोंग की जोड़ियों से हाथ पूरा करने वाली टाइल तक'),
+   aboutTitle: copy(lang, 'Mahjong rules and practice for beginners', 'माहजोंग की जोड़ियों से हाथ पूरा करने वाली टाइल तक'),
    about: copy(lang, [
-     'Start with the tiles you will see in a Mahjong hand: dots, bamboo and characters, plus winds and dragons. Practise picking out pairs, runs of three in one suit and sets of identical tiles. Those groups are the building blocks of the exercises.',
-     'A standard winning hand has four sets and a pair. Try laying out what is already complete before deciding what to keep. For example, if 4 and 5 are the only unfinished bamboo tiles and everything else is complete, either 3 or 6 of bamboo can finish that run.',
-     'Beginner covers the tiles and winning shapes. Intermediate lets you work through chi, pong and kong calls and find the tiles you are waiting for. Advanced adds special patterns and a guided hand. Choose the skill you want to practise and use the matching illustrated guide if you need another example.',
+     'Learn to read a Mahjong hand one group at a time. Start with the three numbered suits (dots, bamboo and characters) and the winds and dragons. Then look for identical pairs, triplets and sequences of three consecutive numbers in the same suit.',
+     'The usual winning hand has four sets and one pair. Set aside the finished groups and see what is missing. If you already have three sets and a pair, and your last two tiles are bamboo 4 and 5, either bamboo 3 or bamboo 6 completes the hand.',
+     'Start in Beginner if you are learning tile names or building your first winning hand. Intermediate covers claims (chi, pong and kong) and hands one tile short of winning. Advanced adds patterns such as Seven Pairs and Thirteen Orphans, then takes you through a guided hand. Open an illustrated guide whenever you want to see another example.',
    ], [
      'पहले माहजोंग की टाइलें पहचानें। बिंदु, बाँस और अक्षर वाले सूट हैं, साथ में दिशाएँ और ड्रैगन हैं। एक जैसी दो टाइलों की जोड़ी, एक सूट के लगातार तीन अंक और एक जैसी टाइलों के समूह पहचानकर अभ्यास करें।',
      'सामान्य जीत वाले हाथ में चार समूह और एक जोड़ी होती है। कौन-सी टाइल रखें, इससे पहले बने हुए समूह अलग करें। अगर सिर्फ़ बाँस की 4 और 5 अधूरी हैं और बाकी हाथ तैयार है, तो बाँस की 3 या 6 उस क्रम को पूरा कर सकती है।',
@@ -42,7 +42,7 @@ export function renderMahjong(lang){
        copy(lang, 'Tap the tiles or answer and choose Check. Use the explanation to see which group or claim made the difference before moving on.',
          'टाइलें या जवाब चुनें और जाँचें दबाएँ। आगे बढ़ने से पहले समझें किस समूह या चाल की वजह से जवाब बना।')],
      [copy(lang, 'Find every tile that completes the hand', 'हाथ पूरा करने वाली सभी टाइलें ढूँढें'),
-       copy(lang, 'Open waiting-hand practice. Look for what is missing, then check each candidate against the whole hand. A hand can have more than one winning tile.',
+       copy(lang, 'In waiting-hand practice, try one candidate at a time. Check whether every tile fits into a set or the pair, then test the other end of a partial sequence before you Check.',
          'हाथ पूरा करने का अभ्यास खोलें। देखें क्या कमी है, फिर हर विकल्प को पूरे हाथ से मिलाएँ। एक से ज़्यादा टाइलें हाथ पूरा कर सकती हैं।')],
    ],
    guides: articles.map(article => ({
@@ -64,7 +64,19 @@ export function renderMahjong(lang){
    ],
  });
 }
+const relatedGuideIds = {
+ tiles: 'winning',
+ winning: 'waiting-shapes',
+ calls: 'claim-choices',
+ advanced: 'winning',
+ 'organize-hand': 'waiting-shapes',
+ 'waiting-shapes': 'organize-hand',
+ 'claim-choices': 'calls',
+};
+
 export function renderMahjongArticle(a,lang){
  const t=v=>escapeHTML(text(v,lang));
- return `<main id="main" class="shell mahjong-reading" tabindex="-1"><article><a class="back-link" href="${mahjongPath(lang)}${lang === 'hi' ? '#guides' : '#play'}">← ${copy(lang,'Back to online Mahjong practice','माहजोंग पर वापस जाएँ')}</a><p class="eyebrow">${copy(lang,'MAHJONG GUIDE','माहजोंग की जानकारी')}</p><h1>${t(a.title)}</h1><p class="reading-lead">${t(a.lead)}</p>${a.paragraphs.map(p=>`<p>${t(p)}</p>`).join('')}<nav class="reading-contents" aria-label="${copy(lang,'On this page','इस पेज पर')}">${a.sections.map((s,i)=>`<a href="#section-${i+1}">${t(s.title)}</a>`).join('')}</nav>${a.sections.map((s,i)=>{const p=s.pattern?patterns[s.pattern]:null;return `<section id="section-${i+1}" class="reading-section"><h2>${t(s.title)}</h2>${s.paragraphs.map(x=>`<p>${t(x)}</p>`).join('')}${p?`<figure class="mahjong-example" data-pattern="${p.id}"><figcaption>${t(p.rule)}</figcaption>${groups(p.groups,lang)}<div class="mahjong-counter"><p>${t(p.counter)}</p>${groups(p.counterGroups,lang)}</div></figure>`:s.groups?`<figure class="mahjong-example">${groups(s.groups,lang)}${s.note?`<figcaption>${t(s.note)}</figcaption>`:''}</figure>`:''}</section>`;}).join('')}<div class="reading-end"><a class="outline-play" href="/play/mahjong/?site=1&amp;lang=${lang}&amp;lesson=${a.level}">${copy(lang,'Try an exercise','अभ्यास करें')} ↗</a><a href="${mahjongPath(lang)}#guides">${copy(lang,'All guides','सभी लेख')}</a></div></article></main>`;
+ const related=articles.find(article=>article.id===relatedGuideIds[a.id]);
+ const relatedLink=related ? `<a href="${mahjongGuidePath(lang,related.id)}">${t(related.title)}</a>` : '';
+ return `<main id="main" class="shell mahjong-reading" tabindex="-1"><article><a class="back-link" href="${mahjongPath(lang)}${lang === 'hi' ? '#guides' : '#play'}">← ${copy(lang,'Back to online Mahjong practice','माहजोंग पर वापस जाएँ')}</a><p class="eyebrow">${copy(lang,'MAHJONG GUIDE','माहजोंग की जानकारी')}</p><h1>${t(a.title)}</h1><p class="reading-lead">${t(a.lead)}</p>${a.paragraphs.map(p=>`<p>${t(p)}</p>`).join('')}<nav class="reading-contents" aria-label="${copy(lang,'On this page','इस पेज पर')}">${a.sections.map((s,i)=>`<a href="#section-${i+1}">${t(s.title)}</a>`).join('')}</nav>${a.sections.map((s,i)=>{const p=s.pattern?patterns[s.pattern]:null;return `<section id="section-${i+1}" class="reading-section"><h2>${t(s.title)}</h2>${s.paragraphs.map(x=>`<p>${t(x)}</p>`).join('')}${p?`<figure class="mahjong-example" data-pattern="${p.id}"><figcaption>${t(p.rule)}</figcaption>${groups(p.groups,lang)}<div class="mahjong-counter"><p>${t(p.counter)}</p>${groups(p.counterGroups,lang)}</div></figure>`:s.groups?`<figure class="mahjong-example">${groups(s.groups,lang)}${s.note?`<figcaption>${t(s.note)}</figcaption>`:''}</figure>`:''}</section>`;}).join('')}<div class="reading-end"><a class="outline-play" href="/play/mahjong/?site=1&amp;lang=${lang}&amp;lesson=${a.level}">${copy(lang,'Try an exercise','अभ्यास करें')} ↗</a><a href="${mahjongPath(lang)}#guides">${copy(lang,'All guides','सभी लेख')}</a>${relatedLink}</div></article></main>`;
 }

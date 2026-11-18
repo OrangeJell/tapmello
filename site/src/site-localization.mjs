@@ -14,7 +14,7 @@ const jsonText = new Set(['name', 'headline', 'description', 'articleSection', '
 const placeholders = value => (value.match(/\{[a-z][a-z\d_]*\}/gi) ?? []).sort();
 const translatableText = /[A-Za-z]/;
 
-export function createLocalizer({ code, dictionary, source, routes, titles }) {
+export function createLocalizer({ code, dictionary, source, routes, titles, editorialAliases = {} }) {
   function translate(value, location) {
     const key = value.trim();
     if (!translatableText.test(key) || titles.has(key) || /^(?:https?:\/\/|mailto:)/.test(key)) return value;
@@ -22,7 +22,9 @@ export function createLocalizer({ code, dictionary, source, routes, titles }) {
       source.add(key);
       return value;
     }
-    const translated = Object.hasOwn(dictionary, key) && dictionary[key];
+    // English editorial revisions can reuse the previous translation until that locale is edited.
+    const translationKey = Object.hasOwn(dictionary, key) ? key : editorialAliases[key] ?? key;
+    const translated = Object.hasOwn(dictionary, translationKey) && dictionary[translationKey];
     assert.ok(typeof translated === 'string' && translated.trim(), `Missing ${code} translation at ${location}: ${key}`);
     assert.deepEqual(placeholders(translated), placeholders(key), `Invalid ${code} placeholders at ${location}: ${key}`);
     return value.replace(key, () => translated);

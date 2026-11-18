@@ -3,10 +3,10 @@ import { L } from './i18n.js';
 // Article IDs are permanent: related lessons and saved links depend on them.
 export const articles = [
   {
-    id: 'tiles', title: L('认识麻将牌与基本组合', 'Tiles and their basic groups'),
-    lead: L('第一次看麻将，先分清牌上的图案。能认出万、筒、条和字牌，就可以开始做练习了。', 'Start by recognising the pictures on the tiles. Once you can tell the suits and honors apart, you can try the first exercises.'),
+    id: 'tiles', title: L('认识麻将牌与基本组合', 'Mahjong Tiles, Suits and Basic Sets'),
+    lead: L('第一次看麻将，先分清牌上的图案。能认出万、筒、条和字牌，就可以开始做练习了。', 'Learn to recognise dots, bamboo, characters, winds and dragons, then use them to make pairs, sequences, triplets and quads.'),
     level: 'beginner', patterns: [],
-    paragraphs: [L('一排麻将摆在面前，不用急着把所有术语都背下来。先看看哪些牌长得一样，哪些牌的数字连得上。后面学吃、碰、胡牌，都会用到这两件事。', 'There is no need to memorise every term before looking at a hand. Start with two questions: which tiles are identical, and which numbers form a run? Both will help when you learn claims and winning hands.')],
+    paragraphs: [L('一排麻将摆在面前，不用急着把所有术语都背下来。先看看哪些牌长得一样，哪些牌的数字连得上。后面学吃、碰、胡牌，都会用到这两件事。', 'Sort the tiles by suit and put identical tiles next to each other. Look for two copies of the same tile for a pair or three consecutive numbers within one suit for a sequence. A 4 of dots and a 4 of bamboo belong in different groups.')],
     sections: [
       { title: L('万、筒、条，分别看哪里', 'Recognising the three suits'), paragraphs: [
         L('万子最容易认，牌面上有“萬”字，上面是数字。一万到九万，各有四张。筒子看圆圈，圆圈的数量就是点数；有些圆圈会用不同颜色画出来，颜色只是图案的一部分。', 'Characters have the 萬 symbol with a number above it. They run from 1 to 9, with four copies of each. Dots use circles: count the circles to find the rank. The different ink colours are part of the design.'),
@@ -35,10 +35,10 @@ export const articles = [
     ]
   },
   {
-    id: 'winning', title: L('基本胡牌与听牌', 'Winning and waiting hands'),
-    lead: L('拿到 14 张牌，还要能把它们分好组，才算胡牌。先从最常见的“四组加一对”看起。', 'Fourteen tiles are only a starting point. To win, they must form the right groups. Start with the usual four sets and a pair.'),
+    id: 'winning', title: L('基本胡牌与听牌', 'Winning Mahjong Hands: Four Sets and a Pair'),
+    lead: L('拿到 14 张牌，还要能把它们分好组，才算胡牌。先从最常见的“四组加一对”看起。', 'See what makes a standard Mahjong hand win, how to check four sets and a pair, and which tile finishes a hand that is one short.'),
     level: 'intermediate', patterns: [],
-    paragraphs: [L('听到别人说“我胡了”，可以先看他把牌分成了什么样。初级和中级练习只用一种结构：四组面子，再加一对将。七对、十三幺会在高级里单独讲，现在不用一起记。', 'When someone declares a win, look at how the tiles fit together. Beginner and intermediate exercises use one structure: four sets and a pair. Seven pairs and thirteen orphans come later in the advanced lessons.')],
+    paragraphs: [L('听到别人说“我胡了”，可以先看他把牌分成了什么样。初级和中级练习只用一种结构：四组面子，再加一对将。七对、十三幺会在高级里单独讲，现在不用一起记。', 'In the beginner and intermediate exercises, test a win by setting out four groups and a pair. Use each tile once, including any sets already exposed. The advanced lessons introduce exceptions such as Seven Pairs and Thirteen Orphans.')],
     sections: [
       { title: L('面子和将，分别占多少张', 'Counting the sets and the pair'), paragraphs: [
         L('面子可以是顺子，也可以是刻子。没有杠时，每组都是三张，四组就是 12 张，再加两张相同的将，合起来 14 张。数牌和字牌都能做将，不要求一定留东风或红中。', 'A set may be a sequence or a triplet. Without kongs, four sets use 12 tiles, and the pair adds two more: 14 altogether. Either suited tiles or honors can be the pair; it does not have to be East or Red dragon.'),
@@ -63,10 +63,10 @@ export const articles = [
     ]
   },
   {
-    id: 'calls', title: L('吃碰杠及回合流程', 'Claims and the turn sequence'),
-    lead: L('先记住普通回合是“摸一张，打一张”。吃、碰、杠会改变中间的步骤，容易弄混的地方就在这里。', 'A normal turn is draw one, discard one. Chow, pung and kong change that sequence, so it helps to follow each move separately.'),
+    id: 'calls', title: L('吃碰杠及回合流程', 'Mahjong Calls: Chow, Pung and Kong'),
+    lead: L('先记住普通回合是“摸一张，打一张”。吃、碰、杠会改变中间的步骤，容易弄混的地方就在这里。', 'Learn whose discard you can claim for chow, pung or kong, and when you draw a replacement tile before discarding.'),
     level: 'intermediate', patterns: [],
-    paragraphs: [L('“吃”不是看到顺子就能喊，“碰”也不是手里有对子就能喊。它们都要接上别人刚打出的那张牌，和自己手里的牌一起组成一组，再把这组牌亮出来。亮在外面的组合叫副露。', 'Chow and pung claim a tile another player has just discarded. You combine it with tiles from your own hand and show the completed set. That visible group is called an exposed set.')],
+    paragraphs: [L('“吃”不是看到顺子就能喊，“碰”也不是手里有对子就能喊。它们都要接上别人刚打出的那张牌，和自己手里的牌一起组成一组，再把这组牌亮出来。亮在外面的组合叫副露。', 'When you call chow or pung, combine the latest discard with two tiles from your hand and show the set. These calls are also written chi and pong. The three tiles count toward your hand even though they now sit face up.')],
     sections: [
       { title: L('没有接牌时，轮到你就先摸再打', 'A normal turn starts with a draw'), paragraphs: [
         L('先以没有杠、没有副露的情况来看：你在等轮次时有 13 张，轮到你摸进一张，暂时变成 14 张。如果不能胡，就从里面选一张打出去，又回到 13 张。', 'With no kongs or exposed sets, you have 13 tiles between turns. Your draw brings the hand to 14. If you do not win, choose one tile to discard, returning to 13.'),
@@ -95,8 +95,8 @@ export const articles = [
     ]
   },
   {
-    id: 'advanced', title: L('常见进阶牌型', 'Common advanced patterns'),
-    lead: L('学会四组加一对以后，再来认七对、十三幺和几种常见牌型。先看它怎么组成，不急着背番数。', 'After four sets and a pair, look at seven pairs, thirteen orphans and a few common patterns. Focus on how the tiles fit before worrying about scores.'),
+    id: 'advanced', title: L('常见进阶牌型', 'Mahjong Hand Patterns: Seven Pairs and More'),
+    lead: L('学会四组加一对以后，再来认七对、十三幺和几种常见牌型。先看它怎么组成，不急着背番数。', 'Compare Seven Pairs, Thirteen Orphans, All Triplets and the two flushes using tile diagrams from the advanced Mahjong lessons.'),
     level: 'advanced', patterns: [],
     paragraphs: [L('“七对”和“清一色”听起来都是牌型名，但检查的地方不一样。七对看牌能不能分成七个对子；清一色看胡牌里是不是只有一种数牌花色。所以，同一手牌有可能同时有两个名字。', 'Seven pairs and full flush both name patterns, but they check different things. Seven pairs describes the arrangement; full flush describes the suits in a winning hand. One hand can satisfy both.')],
     sections: [
@@ -131,8 +131,8 @@ export const articles = [
     ]
   },
   {
-    id: 'organize-hand', title: L('如何整理手牌：从散牌看出组合', 'Organising a hand: finding the groups'),
-    lead: L('牌太乱时，很难看出缺什么。把一手牌慢慢排开，再看哪些已经成组、哪些还差一张。', 'A cluttered hand makes it hard to see what is missing. Arrange the tiles, then look for complete groups and groups needing one more tile.'),
+    id: 'organize-hand', title: L('如何整理手牌：从散牌看出组合', 'How to Organise a Mahjong Hand'),
+    lead: L('牌太乱时，很难看出缺什么。把一手牌慢慢排开，再看哪些已经成组、哪些还差一张。', 'Sort a Mahjong hand by suit, mark the sets you already have and use the tiles left over to see where a draw could help.'),
     level: 'beginner', patterns: [],
     paragraphs: [L('刚拿到牌，可以先花一点时间整理。顺序不影响规则，怎么摆顺手就怎么摆；不过同花色放一起、数字从小到大，会让找对子和顺子省事很多。', 'Take a moment to organise a new hand. The order you display tiles in does not change the rules, but keeping suits together and ranks in order makes pairs and sequences easier to spot.')],
     sections: [
@@ -163,8 +163,8 @@ export const articles = [
     ]
   },
   {
-    id: 'waiting-shapes', title: L('五种常见听牌：找齐所有听口', 'Five common waits: find every winning tile'),
-    lead: L('听牌最容易漏的是“其实还能胡另一张”。拿五手完整的牌练一遍，比只背两面、嵌张这些名字更直观。', 'A common mistake is missing another tile that also wins. Work through five complete hands rather than relying only on the names of the waits.'),
+    id: 'waiting-shapes', title: L('五种常见听牌：找齐所有听口', 'Five Mahjong Waits and Their Winning Tiles'),
+    lead: L('听牌最容易漏的是“其实还能胡另一张”。拿五手完整的牌练一遍，比只背两面、嵌张这些名字更直观。', 'Use five tile diagrams to recognise two-sided, closed, edge, single and double-pair waits. Test each candidate against the whole hand.'),
     level: 'intermediate', patterns: [],
     paragraphs: [L('下面每个例子都是 13 张，没有副露，按四组面子加一对将判断。先找到已经成组的部分，再把剩下的一两组拿出来看。每次试加一张牌，能把全手安排好才算一个听口。', 'Each example has 13 concealed tiles and uses four sets and a pair. Identify the complete groups first, then inspect what remains. Test one added tile at a time; it counts as a wait only if the entire hand fits.')],
     sections: [
@@ -195,10 +195,10 @@ export const articles = [
     ]
   },
   {
-    id: 'claim-choices', title: L('吃碰杠怎么选：先看组合，再看下一步', 'Choosing a claim: check the group and the next move'),
-    lead: L('能吃、能碰的时候，先别急着动手。看看要拿出哪两张、接完以后还剩什么，动作就不容易做错。', 'Before making a claim, identify which tiles it uses and what will remain. This helps you avoid accepting a set you did not mean to make.'),
+    id: 'claim-choices', title: L('吃碰杠怎么选：先看组合，再看下一步', 'When to Call Chow, Pung or Kong in Mahjong'),
+    lead: L('能吃、能碰的时候，先别急着动手。看看要拿出哪两张、接完以后还剩什么，动作就不容易做错。', 'A legal claim can still leave an awkward hand. Compare what stays concealed after each chow, and check whether pung or kong gives you the next move you want.'),
     level: 'intermediate', patterns: [],
-    paragraphs: [L('这一篇接着“吃碰杠及回合流程”往下讲。前一篇解决动作怎么做，这里拿具体牌例来看：有几种选法，选择以后手牌会怎样变化。先把这些看清楚，再慢慢学实战中的取舍。', 'This follows the turn-sequence guide. That guide explains the actions; this one uses specific tiles to compare the available choices and the hand each leaves behind.')],
+    paragraphs: [L('这一篇接着“吃碰杠及回合流程”往下讲。前一篇解决动作怎么做，这里拿具体牌例来看：有几种选法，选择以后手牌会怎样变化。先把这些看清楚，再慢慢学实战中的取舍。', 'With 1, 2, 4 and 5 characters in hand, a discarded 3 can finish three different sequences. Try each one on paper and look at the two tiles it leaves. Those leftovers are where the choices start to differ.')],
     sections: [
       { title: L('同一张弃牌，可能有三种吃法', 'One discard may allow three different chows'), paragraphs: [
         L('假设你手里有一、二、四、五万，上家刚打出三万。用一万、二万去接，是一二三；用二万、四万去接，是二三四；用四万、五万去接，是三四五。', 'Suppose you hold 1, 2, 4 and 5 characters and the previous player discards 3. Using 1 and 2 makes 1–2–3; using 2 and 4 makes 2–3–4; using 4 and 5 makes 3–4–5.'),

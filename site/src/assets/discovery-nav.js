@@ -57,7 +57,7 @@ if (navigation && toggle) {
     mobileToggle.setAttribute('aria-expanded', 'true');
   });
   categoryDrawer.addEventListener('click', event => {
-    if (event.target === categoryDrawer && event.clientX < categoryDrawer.getBoundingClientRect().left) categoryDrawer.close();
+    if (event.target === categoryDrawer && event.clientX >= categoryDrawer.getBoundingClientRect().right) categoryDrawer.close();
   });
   categoryDrawer.addEventListener('close', () => {
     mobileToggle.setAttribute('aria-expanded', 'false');

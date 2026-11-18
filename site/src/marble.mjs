@@ -10,11 +10,11 @@ export const marbleGuides = [
   {
     "id": "getting-started",
     "title": {
-      "en": "Your first shift",
+      "en": "How to Play Clock Out!",
       "hi": "पहली पारी"
     },
     "lead": {
-      "en": "Learn how to send a building of workers home.",
+      "en": "Release an office, read the four bus queues and find out when to wait for automatic boarding in Clock Out!",
       "hi": "दफ़्तर से कर्मचारियों को घर भेजना सीखें।"
     },
     "sections": [
@@ -24,7 +24,7 @@ export const marbleGuides = [
           "hi": "सामने का दफ़्तर खोलें"
         },
         "body": {
-          "en": "Choose one of the five front buildings. All nine workers inside head down the ramp. Their colours and faces tell you which shuttles they can board.",
+          "en": "Find a front-row office whose riders match a shuttle already at a stop. Tap the office to release all nine workers down the ramp. If two colours look alike, match the animal faces on the office and the shuttle. On a keyboard, 1–5 open offices from left to right.",
           "hi": "सामने की पाँच इमारतों में से एक चुनें। उसके नौ कर्मचारी रास्ते पर उतरते हैं। रंग और चेहरे से उनकी बस पहचानें।"
         }
       },
@@ -34,7 +34,7 @@ export const marbleGuides = [
           "hi": "हर कतार अलग पढ़ें"
         },
         "body": {
-          "en": "Look at the four large buses. Each takes three riders of its own colour. A full bus departs and the small bus immediately behind it moves up. Read up to three upcoming buses in each lane from top to bottom. Their animal badges help you tell similar colours apart.",
+          "en": "The four large shuttles are the ones taking passengers. A shuttle leaves after three riders of its colour board. Then the first small bus behind it takes over that stop. Read each lane from top to bottom to see up to three upcoming buses. If there is blue ahead of red, fill the blue bus before red riders can use that stop.",
           "hi": "चार बड़ी बसें देखें। हर बस अपने रंग के तीन यात्री लेती है। भरने पर वह चल देती है और उसी कतार की अगली बस आगे आती है। हर कतार की अगली तीन बसें ऊपर से नीचे देखें। मिलते-जुलते रंगों में फ़र्क करने के लिए जानवर का चेहरा देखें।"
         }
       },
@@ -44,7 +44,7 @@ export const marbleGuides = [
           "hi": "यात्रियों को स्टॉप तक पहुँचने दें"
         },
         "body": {
-          "en": "A rider boards as they pass a matching stop. Wait without spending a turn, or use 2× to speed up. Once every office is empty and the last falling worker has entered the loop, the whole game automatically runs at 4× until the final pickup. Keys 1–5 open offices from left to right.",
+          "en": "A rider boards automatically when passing a matching stop. If several riders are already on the loop, wait to see who boards before opening another office. Waiting costs no move, and 2× speeds up the ride. Once the offices are empty and the last worker reaches the loop, 4× takes over until the final pickup.",
           "hi": "मिलते रंग के स्टॉप पर यात्री अपने आप चढ़ता है। बिना चाल खर्च किए रुकें या 2× से तेज़ चलाएँ। सभी दफ़्तर खाली होने और आखिरी गिरते यात्री के पथ पर आने के बाद पूरा खेल आखिरी सवारी तक अपने आप 4× चलता है। 1–5 से बाएँ से दाएँ दफ़्तर खोलें।"
         }
       }
@@ -53,11 +53,11 @@ export const marbleGuides = [
   {
     "id": "belt-space",
     "title": {
-      "en": "Room for the next shift",
+      "en": "Clock Out! Waiting Loop and Bus Jams",
       "hi": "अगली पारी के लिए जगह"
     },
     "lead": {
-      "en": "Plan around the 27 waiting places and recognise when a full loop can clear.",
+      "en": "See when a full 27-space loop can clear on its own, when to undo an office release and what Expand changes.",
       "hi": "27 जगहों की योजना बनाएँ और समझें कि भरा पथ कब खाली हो सकता है।"
     },
     "sections": [
@@ -67,7 +67,7 @@ export const marbleGuides = [
           "hi": "बचे हुए यात्री गिनें"
         },
         "body": {
-          "en": "If no front bus wants blue, two blue offices use 18 places. Look for a bus that will free places before tapping a third unrelated office. A preview bus can board riders only after the bus in front leaves.",
+          "en": "Suppose blue is absent from all four stops and two blue offices have already sent riders. That is 18 of 27 spaces tied up. A third unmatched office would fill the loop. Check which front bus is nearly full and whether its replacement can take riders already waiting. A preview bus can board only after it reaches the stop.",
           "hi": "अगर सामने नीली बस नहीं है, दो नीले दफ़्तरों के कर्मचारी 18 जगह घेरेंगे। तीसरा दफ़्तर खोलने से पहले देखें कि कौन सी बस जगह खाली करेगी। पीछे की बस आगे आने पर ही यात्री लेती है।"
         }
       },
@@ -77,7 +77,7 @@ export const marbleGuides = [
           "hi": "27/27 पर कब इंतज़ार करें"
         },
         "body": {
-          "en": "If someone on the loop can board, or a full bus is departing, give it time. A jam occurs when all places are occupied, a rider is waiting to enter, and no current pickup or departure can help.",
+          "en": "At 27/27, give a matching rider time to reach the stop or a full shuttle time to pull away. A jam requires a full loop, a rider still waiting to enter and no pickup or bus change that can free space. Before you open another office, see whether anyone already on the loop can board.",
           "hi": "पथ पर कोई यात्री बस ले सकता है या भरी बस निकल रही है तो इंतज़ार करें। जाम तब होता है जब सभी जगह भरी हों, बाहर यात्री हो और किसी बस से जगह न बन सके।"
         }
       },
@@ -87,7 +87,7 @@ export const marbleGuides = [
           "hi": "चाल वापस लें या जगह बढ़ाएँ"
         },
         "body": {
-          "en": "Undo restores the board and all four bus queues to before the last office opened, once per round. Expansion adds nine places, up to 36, and clears the undo history. Keep expansion for a jam if you need it.",
+          "en": "Undo restores the board and all four queues to the moment before you opened the last office. You get one undo per round. Expand adds nine places, taking the loop from 27 to 36, and clears the undo history. If your last release was the mistake, try Undo first. Use Expand when space is what you need.",
           "hi": "हर दौर में एक बार पिछली चाल वापस लेने पर बोर्ड और चारों बस कतारें पुरानी स्थिति में लौटती हैं। विस्तार नौ जगह जोड़ता है और पिछली चाल का रिकॉर्ड हटाता है। ज़रूरत हो तो जाम के लिए इसे बचाएँ।"
         }
       }
@@ -96,11 +96,11 @@ export const marbleGuides = [
   {
     "id": "mystery-packs",
     "title": {
-      "en": "Mystery offices and mixed shifts",
+      "en": "Clock Out! Mixed and Question-Mark Offices",
       "hi": "छिपे दफ़्तर और मिली-जुली पारी"
     },
     "lead": {
-      "en": "Decide whether a new building is worth opening before its neighbours.",
+      "en": "Read question-mark offices before opening them, and count how much space a 6 + 3 release needs in Clock Out!",
       "hi": "देखें कि कौन सी इमारत पहले खोलना फ़ायदेमंद है।"
     },
     "sections": [
@@ -110,7 +110,7 @@ export const marbleGuides = [
           "hi": "एक दफ़्तर का रंग जानें"
         },
         "body": {
-          "en": "A question mark hides the workers in a rear building. Open the office ahead of it to bring it forward. Once the faces appear, compare them with your four active buses before tapping again.",
+          "en": "A question mark hides a rear office’s passengers until that office reaches the front. Open the office ahead of it, then pause and read the newly revealed faces. Even when the first office boards straight away, the one behind it may need a different lane.",
           "hi": "पीछे की इमारत पर सवाल का निशान उसके कर्मचारी छिपाता है। आगे वाली इमारत खोलें। नए चेहरे दिखने पर फिर दबाने से पहले चारों बसों से तुलना करें।"
         }
       },
@@ -120,7 +120,7 @@ export const marbleGuides = [
           "hi": "दोनों रंग जाँचें"
         },
         "body": {
-          "en": "A building marked 6 + 3 sends two groups together. If only the smaller group has a bus, three will board and six may keep circling. Reserve space for those six.",
+          "en": "A mixed office releases both colours with one tap. If only the group of three has a bus, plan for the other six to keep circling. Also check the order they come down the ramp. When the loop is nearly full, the matching group needs time and space to get in and board before the second group backs up.",
           "hi": "6 + 3 वाली इमारत दो रंग साथ भेजती है। अगर केवल छोटे समूह की बस है तो तीन चढ़ेंगे और छह घूमते रह सकते हैं। उनके लिए जगह रखें।"
         }
       },
@@ -130,7 +130,7 @@ export const marbleGuides = [
           "hi": "सही कतार देखें"
         },
         "body": {
-          "en": "An almost-full bus is one rider away from uncovering its next colour. If several workers need that next colour, finishing this particular bus can free more room than boarding one rider in a different lane.",
+          "en": "If a green bus has two riders and a blue bus behind it, one more green rider opens blue. When several blue riders are circling, look for that last green rider before spending space on a release that leaves the blue bus where it is.",
           "hi": "लगभग भरी बस एक यात्री के बाद अगला रंग सामने लाएगी। अगर कई कर्मचारी उस रंग के हैं तो इसी बस को भरने से दूसरी कतार की तुलना में ज़्यादा जगह बन सकती है।"
         }
       }
@@ -139,11 +139,11 @@ export const marbleGuides = [
   {
     "id": "level-1-opening",
     "title": {
-        "en": "Level 1: plan the first departure",
+        "en": "Clock Out! Level 1 Walkthrough",
         "hi": "स्तर 1: पहली रवानगी की योजना"
     },
     "lead": {
-        "en": "Send 54 animals home in six moves. The first level teaches the basics with three colours.",
+        "en": "Follow a six-move opening for Clock Out! level 1. Learn which offices to tap, when to wait and how to board all 54 riders.",
         "hi": "छह चालों में 54 जानवरों को घर भेजें। पहले स्तर में तीन रंगों के साथ खेल सीखें।"
     },
     "sections": [
@@ -153,7 +153,7 @@ export const marbleGuides = [
                 "hi": "मिलते रंग के सामने वाले दफ़्तर से शुरू करें"
             },
             "body": {
-                "en": "The six offices use three colours. Every colour has a shuttle available, and there are no mixed or mystery offices. Use the six moves above or pick a different front office.",
+                "en": "Level 1 has six single-colour offices and a shuttle available for each of its three colours. Follow the six moves above, counting columns from the left of the board. You can also start with another front-row office that has a matching shuttle ready.",
                 "hi": "छह दफ़्तरों में तीन रंग हैं। हर रंग की बस तैयार है। दो रंग वाले या छिपे दफ़्तर नहीं हैं। ऊपर की छह चालें अपनाएँ या सामने का कोई और दफ़्तर चुनें।"
             }
         },
@@ -163,7 +163,7 @@ export const marbleGuides = [
                 "hi": "हर दफ़्तर के यात्रियों को चढ़ने दें"
             },
             "body": {
-                "en": "Open one matching office and wait for its nine workers to board before choosing the next. After three releases, 27 workers have boarded. Clear all six offices to board all 54 and finish the level.",
+                "en": "After each tap, watch the pickup counter rise by nine before you choose another office. At the halfway point it should read 27, with the waiting loop empty. Open the remaining three offices in order and let the last group board to finish at 54.",
                 "hi": "मिलता दफ़्तर खोलें और अगला चुनने से पहले उसके नौ यात्रियों को चढ़ने दें। तीन चालों के बाद 27 यात्री बस में चढ़ चुके होंगे। स्तर पूरा करने के लिए छहों दफ़्तर खोलें और सभी 54 यात्रियों को चढ़ने दें।"
             }
         },
@@ -173,7 +173,7 @@ export const marbleGuides = [
                 "hi": "आगे की पारियों की तैयारी करें"
             },
             "body": {
-                "en": "Every level begins with accessible bus colours and a short easy section. Next come partial pickups and queue changes; blocked targets and mixed offices are saved for the later stages. From level 2, late mixed bottlenecks can leave only three free places, so keep room for the target colour.",
+                "en": "In later levels, an office can send more riders than the front buses can take. Look at the waiting loop after each release and count who is still there. From level 2, later mixed groups can leave you only three free places, so keep those spaces for the riders who can open the next bus you need.",
                 "hi": "हर स्तर सामने उपलब्ध बस रंगों और आसान चरण से शुरू होता है। फिर कुछ यात्रियों का इंतज़ार और कतार बदलना आता है। रुके लक्ष्य और मिले रंग वाले दफ़्तर बाद के चरणों में आते हैं। स्तर 2 से बाद के तंग चरणों में केवल तीन जगह बच सकती हैं, इसलिए लक्ष्य रंग के लिए जगह रखें।"
             }
         }
@@ -192,7 +192,7 @@ export function renderMarble(lang){
  [13,LEVEL_COUNT,'Protect the last three places','आखिरी तीन जगह बचाएँ','Repeated bottlenecks can leave 24 of 27 places occupied. Opening an unrelated office before the target can block the loop.','बार-बार तंग जगह पर 27 में से 24 जगह भर सकती हैं। लक्ष्य से पहले गलत दफ़्तर खोलने से पथ जाम हो सकता है।']
 ].map(([from,to,en,hi,bodyEn,bodyHi])=>`<li><p class="commute-level-range">${copy(lang,'Levels','स्तर')} ${from===to?from:`${from}–${to}`}<span>${createLevel(from).colorCount} ${copy(lang,'colours','रंग')}</span></p><h3>${copy(lang,en,hi)}</h3><p>${copy(lang,bodyEn,bodyHi)}</p></li>`).join('')}</ol></section>`;
  const faq = [
- ['Is the loop jammed when it says 27/27?','27/27 दिखे तो क्या पथ जाम है?','Watch the buses for a moment. If a rider can still board or a full shuttle is pulling away, a space can open. A jam happens when a rider is waiting to enter and neither boarding nor a bus change can make room.','थोड़ी देर बसें देखें। कोई यात्री चढ़ सकता है या भरी बस निकल रही है तो जगह बन सकती है। जाम तब होता है जब बाहर यात्री रुका हो और चढ़ने या बस बदलने से भी जगह न बने।'],
+ ['Is the loop jammed when it says 27/27?','27/27 दिखे तो क्या पथ जाम है?','Give the loop time if a rider can still board or a full shuttle is pulling away. A jam needs all 27 spaces occupied (36 after Expand), someone waiting to enter and no pickup or bus change that can clear a space.','थोड़ी देर बसें देखें। कोई यात्री चढ़ सकता है या भरी बस निकल रही है तो जगह बन सकती है। जाम तब होता है जब बाहर यात्री रुका हो और चढ़ने या बस बदलने से भी जगह न बने।'],
  ['When do question-mark offices reveal their colours?','सवाल के निशान वाले दफ़्तर का रंग कब दिखता है?','They reveal the passengers when they reach the front row. You can read their colours before opening the office. A mixed office sends six riders of one colour and three of another.','सामने की पंक्ति में आते ही उनके यात्री दिखते हैं। दफ़्तर खोलने से पहले रंग पढ़ सकते हैं। मिले रंग के दफ़्तर से एक रंग के छह और दूसरे के तीन यात्री आते हैं।'],
  ['Why did the game switch to 4×?','खेल 4× पर क्यों चला?','Once all offices are empty and the last falling animal reaches the loop, the game automatically accelerates boarding and departures. Undo brings back the last office and restores your chosen speed. The next level also returns to your chosen 1× or 2×.','सभी दफ़्तर खाली होने और आखिरी जानवर के पथ पर आने पर चढ़ना और बसें अपने आप तेज़ होती हैं। चाल वापस लेने पर दफ़्तर और चुनी गति लौटते हैं। अगले स्तर में भी चुनी 1× या 2× गति लौटती है।'],
  ['What do Undo and Expand do?','चाल वापस लेने और जगह बढ़ाने से क्या होता है?','Undo takes back the last office you opened once per round. Expand adds nine slots once, including after a jam, and clears undo history. Both are available directly without an advert or payment.','हर बार खेल शुरू करने पर आखिरी दफ़्तर एक बार वापस ले सकते हैं। अतिरिक्त जगह एक बार नौ जगह जोड़ती है, जाम के बाद भी; इससे पिछली चाल का रिकॉर्ड हटता है। विज्ञापन या भुगतान ज़रूरी नहीं।'],
@@ -203,9 +203,9 @@ export function renderMarble(lang){
    embed,
    aboutTitle: copy(lang, 'Bus sorting with four queues and 27 waiting spaces', 'चार बस कतारें और इंतज़ार की 27 जगहें'),
    about: copy(lang, [
-     'It is the end of the shift, and nine coworkers come out of each office together. A shuttle takes three riders of its own colour. Three buses can take a single-colour group home, provided the right colour is at the front when the riders arrive.',
-     'Read the first bus in each of the four queues before releasing an office. Say red is behind blue in one lane. Riders who need red will keep circling until three blue riders fill that front bus and send it away. Check whether you have room for that wait before you let another group out.',
-     'Level 1 offers single-colour offices with matching buses ready to go. Later you will meet offices with two colours and buildings marked with a question mark. When the loop has only three spaces left, a mixed office can still help if the first riders it sends can board and open space for the rest.',
+     'Clock Out! is a bus sorting puzzle about getting nine coworkers at a time home. Tap a front-row office to send them onto the loop. Riders board when they pass a matching shuttle at the front of one of the four queues. A shuttle leaves with three riders of its colour, then the next bus in that lane pulls up.',
+     'Before opening another office, count how many of its nine riders would have to wait. If the red shuttle you need is behind a blue one with two riders aboard, look for a blue rider. Filling that last seat brings red to the stop for the next three red riders.',
+     'Level 1 gives you six single-colour offices and shuttles ready for all three colours. Later, a mixed office sends six riders of one colour and three of another. Question-mark offices reveal their colours as soon as they reach the front row. With just three spaces left, a mixed office can still work if its first riders board in time to make room for the rest.',
    ], [
      'काम की पारी ख़त्म हुई और हर दफ़्तर से नौ साथी साथ बाहर आते हैं। एक बस अपने रंग के तीन यात्री लेती है। एक ही रंग का पूरा समूह तीन बसों से घर जा सकता है, बशर्ते उसके पहुँचने पर सही रंग आगे हो।',
      'दफ़्तर खोलने से पहले चारों कतारों की पहली बसें देखें। मान लें एक कतार में लाल बस नीली के पीछे है। लाल यात्री तब तक चक्कर लगाएँगे जब तक तीन नीले यात्री आगे वाली बस भरकर उसे रवाना न करें। अगला समूह भेजने से पहले देखें कि इंतज़ार की जगह बची है या नहीं।',
@@ -214,13 +214,13 @@ export function renderMarble(lang){
    genres: copy(lang, ['Puzzle', 'Colour sorting'], ['पहेली', 'रंग छाँटना']),
    steps: [
      [copy(lang, 'Match the first riders to a front bus', 'पहले यात्रियों का रंग सामने की बस से मिलाएँ'),
-       copy(lang, 'Start with a front office whose colour appears at the head of a bus queue. Tap the office or press 1–5 on a keyboard to release its nine riders.',
+       copy(lang, 'Find a front-row office that matches a shuttle already taking passengers. Tap the office or press 1–5 from left to right to send its nine riders down the ramp.',
          'सामने का ऐसा दफ़्तर चुनें जिसका रंग किसी कतार की पहली बस से मिले। नौ यात्री भेजने के लिए दफ़्तर टैप करें या कीबोर्ड पर 1–5 दबाएँ।')],
      [copy(lang, 'Let the buses board and rotate', 'बस भरने दें और अगला रंग देखें'),
-       copy(lang, 'Wait for three matching riders to fill a shuttle, then read the new front colour in that lane. Before opening another office, see if that bus can pick up anyone already on the loop.',
+       copy(lang, 'When a shuttle leaves, check its replacement for a colour already waiting on the loop. Give those riders time to reach it before sending another group.',
          'एक रंग के तीन यात्री बस भरें तो उसी कतार में आगे आए रंग को देखें। नया दफ़्तर खोलने से पहले देखें कि वह बस पथ पर घूम रहे किसी यात्री को ले सकती है या नहीं।')],
      [copy(lang, 'Watch the space counter', 'खाली जगह की गिनती देखें'),
-       copy(lang, 'If the loop is getting crowded, wait for boarding to finish. Open the next office when you know where its first riders will go.',
+       copy(lang, 'If space is tight, check the next office against the front buses. Open it when the first riders have a place to board or enough room to wait.',
          'पथ भर रहा हो तो बस में चढ़ना पूरा होने दें। जब पता हो कि अगले दफ़्तर के पहले यात्री कहाँ जाएँगे, तभी उसे खोलें।')],
    ],
    guides: marbleGuides.map(article => ({
