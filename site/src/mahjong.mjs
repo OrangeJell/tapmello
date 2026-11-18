@@ -13,9 +13,10 @@ export function coverSVG(){
   const tile=(id,x,y,w,h,rotation=0)=>`<g transform="translate(${x} ${y}) rotate(${rotation})">${tileSVG(id).replace('<svg ',`<svg width="${w}" height="${h}" `)}</g>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="732" viewBox="0 0 544 332"><rect width="544" height="332" fill="#b6a8e6"/><rect x="36" y="36" width="472" height="258" fill="none" stroke="#ded5ff" stroke-width=".7"/>${tile(13,232,87,38,53,9)}${tile(14,277,95,38,53,9)}<g transform="translate(66 219) rotate(-8)">${[0,1,2,10,11,12,31].map((id,i)=>tile(id,i*59,0,53,74)).join('')}</g></svg>`;
 }
-export function renderMahjong(lang){
+export function renderMahjong(lang, sharedOnly){
  const embed = `<div class="mahjong-embed" data-mahjong-embed data-language="${lang}" data-state="loading"><iframe id="mahjong-frame" title="${copy(lang,'Mahjong learning game','माहजोंग सीखने का खेल')}" src="/play/mahjong/?embed=1&amp;site=1&amp;lang=${lang}"></iframe><div class="mahjong-load" role="status"><p data-mahjong-status>${copy(lang,'Loading the tiles…','टाइलें लोड हो रही हैं…')}</p><button class="outline-play" type="button" data-mahjong-retry hidden>${copy(lang,'Try again','फिर कोशिश करें')}</button></div></div>`;
  return renderGameDetail(lang, {
+  sharedOnly,
    game: 'mahjong',
    playerLayout: 'flow',
    embed,

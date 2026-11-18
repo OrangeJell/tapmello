@@ -45,14 +45,14 @@ npm --prefix site run check:locale             # 全部非英文语言冒烟
 
 所有游戏详情页统一用 `src/standard-detail.mjs` 的 `renderStandardDetail(lang, game, content)` 生成正文。模板接收游戏 ID、标题、分类、封面及尺寸、iframe 地址，以及可选的横版封面和预览视频。每种语言的内容提供介绍段落、带小标题的操作步骤和问答，控件由模板翻译。游戏页样式和交互在 `src/assets/standard-detail.css` 和 `src/assets/standard-detail.js`。Nuts Puzzle 的记录在 Playgama JSON 里，可作为长文案的接入示例。
 
-Playgama 游戏的数据只维护在 `src/playgama-games.json`。在数组末尾添加一条记录后运行构建即可生成详情页、首页图标和站内推荐候选。新增英语内容需补齐其他站内语言的词库。每条记录包含：
+Playgama 游戏的数据只维护在 `src/playgama-games.json`。在数组末尾添加一条记录后运行构建即可生成详情页、首页图标和站内推荐候选。只有 `details.en` 的游戏仅进入英文站；补齐 `category.hi`、`details.hi` 和其他站内语言词库后，才会进入其他语言版本。每条记录包含：
 
-- `id`、`title`、`url` 和 `category.en/hi`。用导出的 slug 当 ID，保留游戏地址里的 `clid`。
+- `id`、`title`、`url` 和 `category.en`（多语言游戏另加 `category.hi`）。用导出的 slug 当 ID，保留游戏地址里的 `clid`。
 - `width`、`height` 是图标尺寸；`media.icon`、`media.artwork`、`media.artworkWidth`、`media.artworkHeight` 分别指图标、横版图片和横版图片尺寸。`media.preview` 可设为 `null`。媒体地址支持 `/assets/` 或 HTTPS，`media.sources` 保留原始图像链接和视频 ID，便于以后更新。有视频时默认同时展示图片和视频。设置 `media.artworkAsPosterOnly: true` 时，图片只用作视频封面；没有视频时仍单独展示图片。
-- `details.en` 和 `details.hi` 各自维护搜索摘要 `summary`、介绍标题 `aboutTitle`、介绍段落 `about`、玩法步骤 `steps` 和问答 `faq`。可选的 `searchTitle` 用于搜索结果标题，`title` 字符串数组用于把播放器标题分成两行。
+- `details.en`（以及多语言游戏的 `details.hi`）维护搜索摘要 `summary`、介绍标题 `aboutTitle`、介绍段落 `about`、玩法步骤 `steps` 和问答 `faq`。可选的 `searchTitle` 用于搜索结果标题，`title` 字符串数组用于把播放器标题分成两行。
 - `metadata` 保留 Playgama 导出的 `mobileReady`、`gender`、`inGamePurchases`、`supportedLanguages`、`genres` 与 `tags`，由模板在简介卡片统一显示。游戏内语言单独列出。
 
-合作游戏的站内语言版本进入 sitemap，各自有 canonical 和双向 hreflang。三个自研游戏的独立播放器保留 `noindex, follow`。
+合作游戏实际生成的语言版本进入 sitemap，各自有 canonical；hreflang 只列出存在的版本。英文独占页面切换到其他语言时，进入对应语言的全部游戏页。三个自研游戏的独立播放器保留 `noindex, follow`。
 
 首页首屏渲染 24 个图标，接近列表底部时挂载下一批。也可点击“Load more games”，禁用 JavaScript 时仍可从静态图标进入其余游戏。自制游戏经 `src/game-stage.mjs` 接入共用模板，保留原本的加载、重试和攻略入口。
 

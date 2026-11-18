@@ -21,7 +21,8 @@ export const localPath = (code, path) => languagePrefix(code) + path;
 export const basePath = (code, path) => path.slice(languagePrefix(code).length);
 export const pageLanguage = path => languageCodes.find(code => code !== 'en' && path.startsWith(languagePrefix(code) + '/')) ?? 'en';
 
-export function pageAlternates(language, path) {
+export function pageAlternates(language, path, englishOnly = false) {
   const route = basePath(language, path);
+  if (englishOnly) return { en: route, 'x-default': route };
   return { ...Object.fromEntries(languageCodes.map(code => [code, localPath(code, route)])), 'x-default': route };
 }

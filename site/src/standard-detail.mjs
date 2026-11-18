@@ -91,7 +91,7 @@ const platformNames = {
   'For Desktop': ['Desktop', 'कंप्यूटर'],
 };
 
-function renderMetadata(lang, game, taxonomy) {
+function renderMetadata(lang, game, taxonomy, sharedOnly) {
   const { metadata } = game;
   const label = metadataLabels[lang];
   const languageNames = new Intl.DisplayNames([lang], { type: 'language' });
@@ -103,7 +103,7 @@ function renderMetadata(lang, game, taxonomy) {
     })],
     [label.purchases, metadata ? [label[metadata.inGamePurchases]] : []],
   ];
-  const { byTag } = catalogueFor(lang);
+  const { byTag } = catalogueFor(lang, sharedOnly);
   return `<dl class="detail-metadata">
     ${rows.filter(([, values]) => values.length).map(([name, values]) => `<div><dt>${name}</dt><dd>${values.map(escape).join(' · ')}</dd></div>`).join('')}
     <div class="detail-metadata-tags"><dt>${label.genres}</dt><dd><ul>${taxonomy.categories.map(id => `<li><a href="${genrePath(lang, id)}">${genres[id][lang]}</a></li>`).join('')}</ul></dd></div>
@@ -111,9 +111,9 @@ function renderMetadata(lang, game, taxonomy) {
   </dl>`;
 }
 
-function recommendGames(lang, game) {
+function recommendGames(lang, game, sharedOnly) {
   const { categories } = taxonomyFor(game);
-  return catalogueFor(lang).games
+  return catalogueFor(lang, sharedOnly).games
     .filter(item => item.id !== game.id)
     .map(item => ({
       item,
@@ -124,7 +124,7 @@ function recommendGames(lang, game) {
 
 export function renderStandardDetail(lang, game, {
   title = [game.title], category = game.category[lang], aboutTitle, about, steps, controls, faq,
-  faqId = 'faq', runtime, guides = [], introLinks = [], guideExtras = '',
+  faqId = 'faq', runtime, guides = [], introLinks = [], guideExtras = '', sharedOnly = false,
 }) {
   const label = labels[lang];
   const taxonomy = taxonomyFor(game);
@@ -134,7 +134,7 @@ export function renderStandardDetail(lang, game, {
   const height = game.media?.artworkHeight ?? game.height;
   const coverDimensions = ` width="${width}" height="${height}"`;
   const showArtwork = !game.preview || !game.media?.artworkAsPosterOnly;
-  const recommendations = recommendGames(lang, game).slice(0, 18).map(({ item }) => item);
+  const recommendations = recommendGames(lang, game, sharedOnly).slice(0, 18).map(({ item }) => item);
 
   return `<main id="main" class="detail-layout" tabindex="-1">
     <div class="detail-main">
@@ -197,7 +197,7 @@ export function renderStandardDetail(lang, game, {
             <img src="${escape(game.cover)}" width="${game.width}" height="${game.height}" alt="" loading="lazy">
             <div><h2>${escape(game.title)}</h2><p class="detail-category">${escape(category)}</p></div>
           </div>
-          ${renderMetadata(lang, game, taxonomy)}
+          ${renderMetadata(lang, game, taxonomy, sharedOnly)}
         </section>
         <section class="detail-block detail-media">
           <h2>${label.media}</h2>

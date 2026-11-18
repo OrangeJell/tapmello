@@ -23,9 +23,9 @@ function sections(items) {
   return items.map(([title, body]) => `<section><h3>${escape(title)}</h3><p>${escape(body)}</p></section>`).join('\n');
 }
 
-export function renderHome(lang) {
+export function renderHome(lang, sharedOnly) {
   const hi = lang === 'hi';
-  const { games } = catalogueFor(lang);
+  const { games } = catalogueFor(lang, sharedOnly);
   const initialCount = 36;
   const batchSize = 18;
   const batches = [];
@@ -48,23 +48,28 @@ ${games.slice(initialCount).map(game => `<a href="${escape(game.href)}"><img src
   </main>`;
 }
 
-export function discoveryPages(lang) {
+export function discoveryPages(lang, sharedOnly) {
   const hi = lang === 'hi';
-  const { games, byGenre, byTag, tags } = catalogueFor(lang);
+  const { games, byGenre, byTag, tags } = catalogueFor(lang, sharedOnly);
   const page = (route, heading, description, main) => ({
     language: lang, kind: 'browse', path: route(lang), title: `${heading} | tapmelo`, description,
     alternates: { en: route('en'), hi: route('hi') }, main,
   });
-  const listing = (route, heading, description, items, style = '', back = null) => page(route, heading, description, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
+  const listing = (route, heading, description, items, style = '', back = null, intro = '') => page(route, heading, description, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
     ${back ? `<nav class="discovery-breadcrumb" aria-label="${hi ? 'पेज का पथ' : 'Breadcrumb'}"><a href="${back[0]}">${back[1]}</a>${discoveryIcon('next')}<span aria-current="page">${escape(heading)}</span></nav>` : ''}
-    <header class="browse-heading"${style}><h1>${escape(heading)}</h1><span class="browse-count">${gameCount(lang, items.length)}</span></header>
-    ${back ? '' : renderCategoryLinks(lang)}
+    <header class="browse-heading"${style}>${intro ? `<div><h1>${escape(heading)}</h1><p>${escape(intro)}</p></div>` : `<h1>${escape(heading)}</h1>`}<span class="browse-count">${gameCount(lang, items.length)}</span></header>
+    ${back ? '' : renderCategoryLinks(lang, sharedOnly)}
     <div class="game-collection" id="games" tabindex="-1">${items.map(game => renderGameTile(game)).join('')}</div>
   </main>`);
   const tagDescription = hi ? 'सभी टैग देखें और अपनी पसंद के गेम खोजें।' : 'Browse every tag, from game mechanics to themes. Pick one to see matching games.';
   const tagHeading = tagsLabel(lang);
   const playedHeading = playedGamesLabel(lang);
   const playedDescription = hi ? 'इस ब्राउज़र में खेले गए गेम देखें।' : 'Find the games you’ve played in this browser.';
+  const christmas = {
+    heading: 'Free Christmas Games Online',
+    description: 'Play free Christmas games in your browser. Deliver presents with Santa, design an ugly Christmas sweater, or decorate a tree with a friend on one device.',
+    intro: 'Take Santa’s car over snowy ramps, dress up for Christmas Eve, or restore a winter forest in a Christmas merge puzzle. For two players on one device, try decorating the tree together in Snowy Adventures with Noob and Pro.',
+  };
   return [
     listing(gamesPath, gamesLabel(lang), hi ? 'tapmelo की पूरी गेम लाइब्रेरी देखें।' : 'Explore the full tapmelo library and play any game right in your browser.', games),
     { ...page(playedGamesPath, playedHeading, playedDescription, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
@@ -73,10 +78,14 @@ export function discoveryPages(lang) {
       <p class="played-games-empty" data-played-empty>${hi ? 'आपके खेले गए गेम यहाँ दिखेंगे।' : 'Games you play will appear here.'} <a href="${gamesPath(lang)}">${hi ? 'गेम देखें' : 'Browse games'}</a></p>
       <template data-played-catalogue>${games.map(game => renderGameTile(game)).join('')}</template>
     </main>`), noindex: true },
-    ...Object.values(genres).filter(genre => byGenre.has(genre.id)).map(genre => listing(
-      language => genrePath(language, genre.id), genre[lang], hi ? `${genre.hi} श्रेणी के गेम ब्राउज़र में खेलें।` : `Explore ${genre.en.toLowerCase()} games you can play right in your browser.`,
-      byGenre.get(genre.id), ` style="--browse-tint:${genre.fill};--browse-accent:${genre.ink}"`, [gamesPath(lang), gamesLabel(lang)],
-    )),
+    ...Object.values(genres).filter(genre => byGenre.has(genre.id)).map(genre => {
+      const copy = !hi && genre.id === 'christmas' ? christmas : null;
+      const description = hi ? `${genre.hi} श्रेणी के गेम ब्राउज़र में खेलें।` : `Explore ${genre.en.toLowerCase()} games you can play right in your browser.`;
+      return listing(
+        language => genrePath(language, genre.id), copy?.heading ?? genre[lang], copy?.description ?? description,
+        byGenre.get(genre.id), ` style="--browse-tint:${genre.fill};--browse-accent:${genre.ink}"`, [gamesPath(lang), gamesLabel(lang)], copy?.intro,
+      );
+    }),
     page(tagsPath, tagHeading, tagDescription, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
       <header class="browse-heading"><div><h1>${tagHeading}</h1><p>${tagDescription}</p></div><span class="browse-count">${tags.length} ${hi ? 'टैग' : 'tags'}</span></header>
       <ul class="discovery-tags">${tags.map(id => `<li><a href="${tagPath(lang, id)}"><span lang="en">${escape(tagName(id))}</span><span class="tag-count">${gameCount(lang, byTag.get(id).length)}</span></a></li>`).join('')}</ul>
@@ -85,11 +94,11 @@ export function discoveryPages(lang) {
   ];
 }
 
-export function renderPlaygama(lang, game) {
-  return renderStandardDetail(lang, game, game.details[lang]);
+export function renderPlaygama(lang, game, sharedOnly) {
+  return renderStandardDetail(lang, game, { ...game.details[lang], sharedOnly });
 }
 
-export function renderGame(lang) {
+export function renderGame(lang, sharedOnly) {
   const c = locales[lang];
   const embed = `<div id="game-embed" class="embedded-game" data-state="loading">
       <iframe id="game-frame" title="${c.frameTitle}" src="/play/screw-sort/?embed=1&amp;lang=${lang}"></iframe>
@@ -129,7 +138,7 @@ export function renderGame(lang) {
       </section>
     </div>`;
   return renderGameDetail(lang, {
-    game: 'glass-twist', embed,
+    game: 'glass-twist', embed, sharedOnly,
     aboutTitle: c.aboutTitle, about: c.about,
     genres: lang === 'hi' ? ['पहेली', 'रंग छाँटना'] : ['Puzzle', 'Colour sorting'],
     steps: c.steps,
@@ -197,7 +206,7 @@ function renderSiteSearch(lang) {
       </div>`;
 }
 
-export function renderPage(page, main) {
+export function renderPage(page, main, sharedOnly) {
   const standardDetail = ['game', 'mahjong', 'marble', 'partner-play'].includes(page.kind);
   const c = locales[page.language || 'en'];
   const collection = ['home', 'browse'].includes(page.kind);
@@ -205,10 +214,10 @@ export function renderPage(page, main) {
   const url = origin + page.path, json = page.structured || structuredData(page, c);
   const lang = page.language || 'en';
   const current = slug => page.path === localPath(lang, `/${slug}/`) ? ' aria-current="page"' : '';
-  const alternates = pageAlternates(lang, page.path);
+  const alternates = pageAlternates(lang, page.path, page.englishOnly);
   const mobileDiscovery = renderMobileDiscovery(lang);
   const languageLabel = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg>';
-  const languageOptions = languageCodes.map(code => ({ code, label: languages[code].name, href: alternates[code] }));
+  const languageOptions = languageCodes.map(code => ({ code, label: languages[code].name, href: alternates[code] ?? localPath(code, '/games/') }));
   const languageNav = `<details class="language-picker">
           <summary aria-label="${c.chooseLanguage}">${languageLabel}</summary>
           <nav aria-label="${c.chooseLanguage}">${languageOptions.map(({ code, label, href }) =>
@@ -231,7 +240,7 @@ ${page.noindex ? '  <meta name="robots" content="noindex, follow">\n' : ''}  <ti
 ${Object.entries(alternates).map(([code, href]) => `  <link rel="alternate" hreflang="${code}" href="${origin + href}">\n`).join('')}  <meta property="og:type" content="${['guide','mahjong-guide','marble-guide'].includes(page.kind) ? 'article' : 'website'}">
   <meta property="og:site_name" content="tapmelo">
   <meta property="og:locale" content="${languages[lang].og}">
-${languageCodes.filter(code => code !== lang).map(code => `  <meta property="og:locale:alternate" content="${languages[code].og}">\n`).join('')}  <meta property="og:title" content="${escape(page.title)}">
+${languageCodes.filter(code => code !== lang && alternates[code]).map(code => `  <meta property="og:locale:alternate" content="${languages[code].og}">\n`).join('')}  <meta property="og:title" content="${escape(page.title)}">
   <meta property="og:description" content="${escape(page.description)}">
   <meta property="og:url" content="${url}">
   <meta property="og:image" content="${origin}${page.cover || '/assets/screw-sort-cover.png'}">
@@ -266,7 +275,7 @@ ${standardDetail || page.kind === 'home' || page.path === playedGamesPath(lang) 
       </div>
     </div>
   </header>
-${renderDiscoveryNav(lang, page.path)}
+${renderDiscoveryNav(lang, page.path, sharedOnly)}
 ${mobileDiscovery.drawer}
 ${main}
   <footer class="site-footer">

@@ -1,10 +1,11 @@
 import { gamesFor } from './game-catalog.mjs';
 import { locales } from './locales.mjs';
-import { playgamaGames, playgamaPath } from './playgama.mjs';
+import { playgamaGamesFor, playgamaPath } from './playgama.mjs';
 
 export const escapeDiscovery = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 
 const definitions = [
+  ['christmas', 'Christmas Games', 'क्रिसमस गेम', '#dcefe3', '#246842', 'm12 2-5 7h3l-5 7h14l-5-7h3zm0 14v5m-3 0h6'],
   ['puzzle', 'Puzzle', 'पहेली', '#eadfff', '#572d9c', 'M4 7a2 2 0 0 1 2-2h3a3 3 0 0 1 6 0h3a2 2 0 0 1 2 2v3a3 3 0 0 0 0 6v2a2 2 0 0 1-2 2h-3a3 3 0 0 0-6 0H6a2 2 0 0 1-2-2v-2a3 3 0 0 0 0-6z'],
   ['arcade', 'Arcade', 'आर्केड', '#ffe0ed', '#9b2e5e', 'm13 2-8 12h6l-1 8 9-12h-6z'],
   ['action', 'Action', 'एक्शन', '#ffe3d9', '#a83c28', 'm5 3 15 15m-1-15L4 18m12-3 5-1m-7 7 1-5m-7-1-5-1m7 7-1-5'],
@@ -46,7 +47,7 @@ const originals = {
   'glass-twist': { genres: ['puzzle', 'casual'], tags: ['sorting', 'color-sorting', 'screw-puzzle', 'logic'] },
   mahjong: { genres: ['board', 'strategy'], tags: ['mahjong', 'tiles-games', 'educational'] },
 };
-const priorities = ['shooting', 'racing', 'sports', 'cards', 'words', 'music', 'io', 'fashion', 'platform', 'board', 'strategy', 'simulation', 'clicker', 'puzzle', 'action', 'adventure', 'arcade', 'casual'];
+const priorities = ['christmas', 'shooting', 'racing', 'sports', 'cards', 'words', 'music', 'io', 'fashion', 'platform', 'board', 'strategy', 'simulation', 'clicker', 'puzzle', 'action', 'adventure', 'arcade', 'casual'];
 export function taxonomyFor(game) {
   const original = originals[game.id];
   const source = original ?? game.metadata;
@@ -65,7 +66,7 @@ export const gamesLabel = lang => lang === 'hi' ? 'सभी गेम' : 'All g
 export const tagsLabel = lang => lang === 'hi' ? 'टैग' : 'Tags';
 export const gameCount = (lang, count) => lang === 'hi' ? `${count} गेम` : `${count} ${count === 1 ? 'game' : 'games'}`;
 
-const catalogues = Object.fromEntries(['en', 'hi'].map(lang => {
+const catalogues = Object.fromEntries([['en', 'en'], ['hi', 'hi'], ['shared', 'en']].map(([key, lang]) => {
   const nativeLabels = {
     'clock-out': { en: 'Bus sorting game', hi: 'बसों के रंग मिलाएँ' },
     'glass-twist': { en: 'Screw puzzle', hi: 'पेंचों की पहेली' },
@@ -81,7 +82,7 @@ const catalogues = Object.fromEntries(['en', 'hi'].map(lang => {
       ...game, category: nativeLabels[game.id][lang], preview: `/assets/previews/${game.id}.mp4`,
       searchAliases: [nativeLabels[game.id].en, lang === 'hi' ? hindiAliases[game.id] : ''],
     })),
-    ...playgamaGames.map(game => ({ ...game, titleLang: 'en', href: playgamaPath(lang, game), category: game.category[lang] })),
+    ...playgamaGamesFor(lang, key === 'shared').map(game => ({ ...game, titleLang: 'en', href: playgamaPath(lang, game), category: game.category[lang] })),
   ].map(game => ({ ...game, ...taxonomyFor(game) }));
   const group = field => {
     const groups = new Map();
@@ -92,9 +93,9 @@ const catalogues = Object.fromEntries(['en', 'hi'].map(lang => {
     return groups;
   };
   const byTag = group('tags');
-  return [lang, { games, byGenre: group('categories'), byTag, tags: [...byTag.keys()].sort((left, right) => byTag.get(right).length - byTag.get(left).length || left.localeCompare(right, 'en')) }];
+  return [key, { games, byGenre: group('categories'), byTag, tags: [...byTag.keys()].sort((left, right) => byTag.get(right).length - byTag.get(left).length || left.localeCompare(right, 'en')) }];
 }));
-export const catalogueFor = lang => catalogues[lang];
+export const catalogueFor = (lang, sharedOnly = false) => catalogues[lang === 'en' && sharedOnly ? 'shared' : lang];
 
 export function renderMobileDiscovery(lang) {
   const hi = lang === 'hi';
@@ -109,9 +110,9 @@ export function renderMobileDiscovery(lang) {
   };
 }
 
-export function renderDiscoveryNav(lang, current) {
+export function renderDiscoveryNav(lang, current, sharedOnly) {
   const hi = lang === 'hi';
-  const { byGenre } = catalogueFor(lang);
+  const { byGenre } = catalogueFor(lang, sharedOnly);
   const link = (href, name, icon, genre) => `<a href="${href}"${href === current ? ' aria-current="page"' : ''} aria-label="${name}"><span class="discovery-icon" data-nav-icon="${icon}"${genre ? ` style="--icon-fill:${genre.fill};--icon-ink:${genre.ink}"` : ''}>${discoveryIcon(icon)}</span><span class="discovery-nav-label">${name}</span></a>`;
   return `<nav class="discovery-nav" id="discovery-nav" aria-label="${hi ? 'गेम लाइब्रेरी' : 'Game library'}" tabindex="-1">
     <div class="discovery-nav-start"><button type="button" class="discovery-toggle" aria-label="${hi ? 'गेम नेविगेशन' : 'Game navigation'}" aria-controls="discovery-nav" aria-expanded="false" hidden>${discoveryIcon('unfold')}</button>${link(locales[lang].home, hi ? 'होम' : 'Home', 'home')}${link(playedGamesPath(lang), playedGamesLabel(lang), 'history')}${link(gamesPath(lang), gamesLabel(lang), 'games')}</div>
@@ -123,7 +124,7 @@ export function renderDiscoveryNav(lang, current) {
   </nav>`;
 }
 
-export function renderCategoryLinks(lang) {
-  const { byGenre } = catalogueFor(lang);
+export function renderCategoryLinks(lang, sharedOnly) {
+  const { byGenre } = catalogueFor(lang, sharedOnly);
   return `<nav class="discovery-filters" aria-label="${lang === 'hi' ? 'गेम की श्रेणियाँ' : 'Game categories'}">${Object.values(genres).filter(genre => byGenre.has(genre.id)).map(genre => `<a href="${genrePath(lang, genre.id)}" style="--icon-fill:${genre.fill};--icon-ink:${genre.ink}"><span class="discovery-icon">${discoveryIcon(genre.id)}</span>${genre[lang]}</a>`).join('')}</nav>`;
 }

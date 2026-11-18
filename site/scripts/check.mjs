@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { marbleGuides } from '../src/marble.mjs';
 import { levels, origin } from '../src/game.mjs';
-import { playgamaGames, playgamaPath } from '../src/playgama.mjs';
+import { playgamaGames, playgamaGamesFor, playgamaPath } from '../src/playgama.mjs';
 import { catalogueFor, gameCount, gamesPath, genrePath, playedGamesPath, tagPath, tagsPath, taxonomyFor } from '../src/discovery.mjs';
 
 const dist = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../dist');
@@ -17,7 +17,14 @@ async function walk(directory) {
 const files = await walk(dist), htmlFiles = files.filter(file => file.endsWith('.html'));
 const runtimePaths = new Set(['/play/mahjong/', '/play/marble-sort/', '/play/screw-sort/']);
 const historyPaths = new Set(languageCodes.map(code => localPath(code, playedGamesPath('en'))));
-const partnerPages = new Map(playgamaGames.flatMap(game => languageCodes.map(code => [localPath(code, playgamaPath('en', game)), game])));
+const partnerPages = new Map(languageCodes.flatMap(code => playgamaGamesFor(code).map(game => [localPath(code, playgamaPath('en', game)), game])));
+const sharedTags = catalogueFor('en', true).byTag;
+const sharedGenres = catalogueFor('en', true).byGenre;
+const englishOnlyRoutes = new Set([
+  ...playgamaGames.filter(game => !game.details.hi).map(game => playgamaPath('en', game)),
+  ...[...catalogueFor('en').byTag.keys()].filter(id => !sharedTags.has(id)).map(id => tagPath('en', id)),
+  ...[...catalogueFor('en').byGenre.keys()].filter(id => !sharedGenres.has(id)).map(id => genrePath('en', id)),
+]);
 const indexable = new Set();
 let checkedLinks = 0;
 const checkedTargets = new Set();
@@ -83,9 +90,8 @@ for (const file of htmlFiles) {
   const partnerGame = partnerPages.get(page);
   const code = pageLanguage(page);
   assert.ok(html.includes(`<html lang="${code === 'en' ? 'en-IN' : code}">`), `HTML language: ${page}`);
-  for (const [language, route] of Object.entries(pageAlternates(code, page))) {
-    assert.ok(html.includes(`<link rel="alternate" hreflang="${language}" href="${origin + route}">`), `Language alternate: ${page}/${language}`);
-  }
+  const alternates = [...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)">/g)].map(([, language, url]) => [language, url]);
+  assert.deepEqual(Object.fromEntries(alternates), Object.fromEntries(Object.entries(pageAlternates(code, page, englishOnlyRoutes.has(page))).map(([language, route]) => [language, origin + route])), `Language alternates: ${page}`);
   if (page.endsWith('/games/screw-sort/')) {
     assert.equal([...html.matchAll(/<details>/g)].length, 9, `FAQ count: ${page}`);
     const rows = html.match(/<tbody>([\s\S]*?)<\/tbody>/)?.[1];
@@ -120,11 +126,16 @@ for (const language of languageCodes) {
   const slug = language.toLowerCase();
   for (const family of ['search', 'recommendations']) {
     const catalogue = JSON.parse(await readFile(path.join(dist, 'assets', `game-${family}-${slug}.json`), 'utf8'));
-    assert.equal(catalogue.length, playgamaGames.length + 3, `Catalogue length: ${family}/${language}`);
+    assert.deepEqual(catalogue.map(entry => entry.href), catalogueFor(language === 'hi' ? 'hi' : 'en', language !== 'en').games.map(game => language === 'hi' ? game.href : localPath(language, game.href)), `Catalogue routes: ${family}/${language}`);
     for (const entry of catalogue) {
       assert.equal(pageLanguage(entry.href), language, `Catalogue route: ${family}/${language}/${entry.href}`);
       await localTarget(entry.href, '/');
     }
+  }
+}
+for (const route of englishOnlyRoutes) {
+  for (const code of languageCodes.filter(code => code !== 'en')) {
+    await assert.rejects(stat(path.join(dist, localPath(code, route))), { code: 'ENOENT' }, `English-only route: ${code}/${route}`);
   }
 }
 const sitemap = await readFile(path.join(dist, 'sitemap.xml'), 'utf8');

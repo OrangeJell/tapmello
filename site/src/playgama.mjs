@@ -22,12 +22,15 @@ export const playgamaGames = catalogue.map(game => {
     assert.ok(Array.isArray(metadata[field]) && metadata[field].every(isText), 'Catalogue ' + field + ': ' + id);
   }
   assert.ok(['Yes', 'No'].includes(metadata.inGamePurchases), 'Catalogue in-app purchases: ' + id);
-  for (const lang of ['en', 'hi']) {
+  for (const lang of game.details.hi ? ['en', 'hi'] : ['en']) {
     const copy = game.details[lang];
     assert.ok(isText(game.category[lang]) && isText(copy.summary), 'Localized title and summary: ' + id + '/' + lang);
     assert.ok(copy.about.length >= 2 && copy.about.every(isText) && copy.steps.length >= 2 && copy.steps.every(isPair) && copy.faq.length >= 1 && copy.faq.every(isPair), 'Complete localized details: ' + id + '/' + lang);
   }
   return { ...game, cover: media.icon, artwork: media.artwork, preview: media.preview ?? null };
 });
+
+export const playgamaGamesFor = (lang, sharedOnly = false) =>
+  lang === 'en' && !sharedOnly ? playgamaGames : playgamaGames.filter(game => game.details.hi);
 
 export const playgamaPath = (lang, game) => (lang === 'hi' ? '/hi' : '') + '/play/playgama/' + game.id + '/';
