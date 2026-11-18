@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#acdced">
+  <meta name="description" content="Play Glass Twist: Screw Puzzle free online. Remove screws from layered glass and match colours into boxes. No download or account needed.">
+  <meta name="robots" content="noindex, follow">
+  <title>Glass Twist: Screw Puzzle</title>
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css?v=d6ec852cafba">
+  <script src="./js/analytics.js?v=8d8486e0fec1"></script>
+  <script type="importmap" id="game-importmap">{"imports":{"./js/ads.js":"./js/ads.js?v=25b8199c1bb7","./js/analytics.js":"./js/analytics.js?v=8d8486e0fec1","./js/app.js":"./js/app.js?v=b6a11e0a8c85","./js/board-view.js":"./js/board-view.js?v=8b2bc319b6f0","./js/collections-view.js":"./js/collections-view.js?v=551aab83a059","./js/config.js":"./js/config.js?v=d22fefae18fa","./js/engine.js":"./js/engine.js?v=76a57b95db37","./js/geometry.js":"./js/geometry.js?v=119554cf6e96","./js/gestures.js":"./js/gestures.js?v=2ba6b3b528db","./js/glass-art.js":"./js/glass-art.js?v=607fda4b1549","./js/i18n.js":"./js/i18n.js?v=40395cce44f6","./js/level-data.js":"./js/level-data.js?v=0048757d4c7e","./js/levels.js":"./js/levels.js?v=264b65f6b108","./js/motion.js":"./js/motion.js?v=5e803a3c5e1d","./js/plate-motion.js":"./js/plate-motion.js?v=5f224e045a8f","./js/plate-physics.js":"./js/plate-physics.js?v=41c0bc2cc0b2","./js/return-visit-tracker.js":"./js/return-visit-tracker.js?v=2009e4a1d3ad","./js/return-visit.js":"./js/return-visit.js?v=5c2b3a91baf9","./js/rigid-runtime.js":"./js/rigid-runtime.js?v=4c98e592b25b","./js/sound.js":"./js/sound.js?v=7ba44908884b","./js/storage.js":"./js/storage.js?v=3c45c4457e1a","./js/telemetry.js":"./js/telemetry.js?v=e34a4f1ea60e"}}</script>
+  <script type="module" src="./js/app.js?v=b6a11e0a8c85"></script>
+</head>
+<body>
+  <main id="game" class="game" data-phase="ready" aria-label="Glass Twist: Screw Puzzle">
+    <header class="control-deck">
+      <div class="topbar">
+        <button id="pause" class="pause-button" type="button" aria-label="Pause"></button>
+        <button id="level-picker" class="level-pill" type="button" aria-haspopup="dialog" aria-expanded="false"><span id="level-label"></span><span aria-hidden="true">▾</span></button>
+        
+      </div>
+      <div id="boxes" class="boxes"></div>
+      <div class="tray-meta"><span id="capacity-label"></span></div>
+      <div id="tray" class="tray" role="group" aria-label="Temporary slots"></div>
+    </header>
+    <section class="playfield">
+      <div id="progress" class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span id="progress-art"></span><b id="progress-label">0%</b></div>
+      <div id="board-frame" class="board-frame"><div id="board" class="board" role="group" aria-label="Glass puzzle"></div></div>
+      <div id="launch" class="launch">
+        <div class="launch-card">
+          <h1 class="launch-title" lang="en" aria-label="Glass Twist: Screw Puzzle">Glass Twist<span>Screw Puzzle</span></h1>
+          <p class="launch-tip" data-i18n="launchTip">Remove exposed screws and match three of the same colour to fill a box.</p>
+          <button id="play" class="primary-button" type="button"></button>
+        </div>
+      </div>
+      <div id="selection" class="selection" hidden><span data-i18n="selectGlass"></span><button id="cancel-selection" type="button" data-i18n="cancelSelect"></button></div>
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </section>
+    <footer class="tool-deck">
+      <div class="props">
+        <button class="prop-button" id="extra" data-prop="extra" type="button"><span class="prop-icon"></span><span class="prop-label" data-i18n="extra"></span><span class="prop-badge">＋</span></button>
+        <button class="prop-button" id="melt" data-prop="melt" type="button"><span class="prop-icon"></span><span class="prop-label" data-i18n="melt"></span><span class="prop-badge">＋</span></button>
+      </div>
+    </footer>
+    <div id="celebration" class="celebration" aria-hidden="true"></div>
+  </main>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-content" class="modal-content"></div></dialog>
+  <noscript>Please enable JavaScript to play.</noscript>
+</body>
+</html>

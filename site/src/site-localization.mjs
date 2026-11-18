@@ -1,0 +1,127 @@
+import assert from 'node:assert/strict';
+import { parse, serialize } from 'parse5';
+import { languages, localPath } from './languages.mjs';
+import { origin } from './game.mjs';
+
+const visibleAttributes = new Set([
+  'alt', 'title', 'aria-label', 'placeholder', 'data-single', 'data-loading', 'data-empty',
+  'data-error', 'data-timeout', 'data-light-label', 'data-dark-label', 'data-play-label',
+  'data-pause-label', 'data-fullscreen-label', 'data-exit-fullscreen-label', 'data-show-label',
+  'data-menu-label', 'data-failed', 'data-start', 'data-ready',
+]);
+const textMetadata = new Set(['description', 'og:title', 'og:description', 'og:image:alt']);
+const jsonText = new Set(['name', 'headline', 'description', 'articleSection', 'genre', 'applicationCategory', 'operatingSystem', 'text']);
+const placeholders = value => (value.match(/\{[a-z][a-z\d_]*\}/gi) ?? []).sort();
+const translatableText = /[A-Za-z]/;
+
+export function createLocalizer({ code, dictionary, source, routes, titles }) {
+  function translate(value, location) {
+    const key = value.trim();
+    if (!translatableText.test(key) || titles.has(key) || /^(?:https?:\/\/|mailto:)/.test(key)) return value;
+    if (source) {
+      source.add(key);
+      return value;
+    }
+    const translated = Object.hasOwn(dictionary, key) && dictionary[key];
+    assert.ok(typeof translated === 'string' && translated.trim(), `Missing ${code} translation at ${location}: ${key}`);
+    assert.deepEqual(placeholders(translated), placeholders(key), `Invalid ${code} placeholders at ${location}: ${key}`);
+    return value.replace(key, () => translated);
+  }
+
+  function route(value) {
+    const absolute = value.startsWith(origin + '/');
+    const path = absolute ? value.slice(origin.length) : value;
+    const match = path.match(/^(\/[^?#]*)(.*)$/);
+    if (match && routes.has(match[1])) return (absolute ? origin : '') + localPath(code, match[1]) + match[2];
+    return value;
+  }
+
+  function translateJSON(value, location, key) {
+    if (Array.isArray(value)) return key === 'inLanguage' ? value : value.map(item => translateJSON(item, location, key));
+    if (value && typeof value === 'object') {
+      return Object.fromEntries(Object.entries(value).map(([field, item]) => [field, translateJSON(item, location, field)]));
+    }
+    if (key === 'inLanguage' && ['en', 'en-IN'].includes(value)) return code;
+    if (typeof value !== 'string') return value;
+    if (jsonText.has(key)) return translate(value, location);
+    if (['url', '@id', 'item', 'mainEntityOfPage'].includes(key)) return route(value);
+    return value;
+  }
+
+  function html(input, location) {
+    const document = parse(input, { scriptingEnabled: false });
+    function visit(node) {
+      if (node.nodeName === '#text') {
+        node.value = translate(node.value, location);
+        return;
+      }
+      const attr = name => node.attrs?.find(attribute => attribute.name === name)?.value;
+      if (attr('translate') === 'no') return;
+      const classes = (attr('class') ?? '').split(/\s+/);
+      if (classes.includes('language-picker')) {
+        // Native autonyms and routes come from the shared registry.
+        const [summary, nav] = node.childNodes.filter(child => child.tagName);
+        for (const element of [summary, nav]) {
+          const label = element.attrs.find(attribute => attribute.name === 'aria-label');
+          label.value = translate(label.value, location);
+        }
+        for (const link of nav.childNodes.filter(child => child.tagName === 'a')) {
+          link.attrs = link.attrs.filter(attribute => attribute.name !== 'aria-current');
+          if (link.attrs.some(attribute => attribute.name === 'hreflang' && attribute.value === code)) {
+            link.attrs.push({ name: 'aria-current', value: 'page' });
+          }
+        }
+        return;
+      }
+      const rel = attr('rel');
+      const meta = attr('name') ?? attr('property');
+      if (node.tagName === 'script') {
+        if (attr('type') === 'application/ld+json') {
+          const json = JSON.parse(node.childNodes[0].value);
+          node.childNodes[0].value = JSON.stringify(translateJSON(json, location)).replaceAll('<', '\\u003c');
+        }
+        return;
+      }
+      if (['style', 'svg', 'code', 'kbd'].includes(node.tagName)) return;
+      if (node.tagName === 'meta' && meta === 'og:locale:alternate') {
+        const content = node.attrs.find(attribute => attribute.name === 'content');
+        if (content.value === languages[code].og) content.value = languages.en.og;
+      }
+      const tagLink = [node, node.parentNode].some(element =>
+        element?.attrs?.some(attribute => attribute.name === 'href' && attribute.value.startsWith('/tags/')));
+      for (const attribute of node.attrs ?? []) {
+        const { name, value } = attribute;
+        if (name === 'lang' && (node.tagName === 'html' || tagLink)) {
+          attribute.value = code;
+        } else if (name === 'href' && rel !== 'alternate') {
+          attribute.value = value === '/manifest.webmanifest' ? localPath(code, value) : route(value);
+        } else if (name === 'data-catalogue') {
+          attribute.value = value.replace(/-en\.json$/, `-${code.toLowerCase()}.json`);
+        } else if (name === 'content' && meta === 'og:locale') {
+          attribute.value = languages[code].og;
+        } else if (name === 'content' && meta === 'og:url') {
+          attribute.value = route(value);
+        } else if (visibleAttributes.has(name) || (name === 'content' && textMetadata.has(meta))) {
+          attribute.value = translate(value, `${location} @${name}`);
+        }
+      }
+      for (const child of node.childNodes ?? []) visit(child);
+      if (node.content) visit(node.content);
+    }
+    visit(document);
+    return serialize(document);
+  }
+
+  function catalogue(entries) {
+    return entries.map(entry => ({
+      ...entry,
+      href: route(entry.href),
+      ...(entry.category && { category: translate(entry.category, `catalogue ${entry.id}`) }),
+      ...(entry.keywords && { keywords: [entry.keywords, ...entry.searchTerms.map(term => translate(term, `search ${entry.id}`))].join(' '), searchTerms: undefined }),
+    }));
+  }
+
+  return { html, catalogue, translate };
+}
+
+export const brandNames = new Set(['tap', 'melo', 'tapmelo', 'Jelly', 'Playgama', 'X', 'Google Analytics', 'iOS', 'Android', 'Fazier', 'EN', 'HI', 'Chrome', 'Safari']);

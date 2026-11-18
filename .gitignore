@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+dist/
+output/
+.playwright-cli/
+.wrangler/
+.impeccable/
+.env
+.env.*
+!.env.example
+/ad-management/
+/tapmelo_*.md
+/印度H5游戏*.md

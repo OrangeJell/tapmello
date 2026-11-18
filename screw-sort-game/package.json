@@ -1,0 +1,19 @@
+{
+  "name": "screw-sort-game",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:physics": "esbuild scripts/rigid-runtime.mjs --bundle --format=esm --platform=browser --minify --outfile=js/rigid-runtime.js",
+    "generate:levels": "node scripts/generate-levels.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "serve": "node scripts/refresh-assets.mjs && python3 -m http.server 4186 --bind 127.0.0.1"
+  },
+  "dependencies": {
+    "matter-js": "0.20.0",
+    "poly-decomp": "0.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}

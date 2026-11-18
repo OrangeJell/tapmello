@@ -1,0 +1,15 @@
+{
+  "name": "tapmelo-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/check.mjs",
+    "check": "node scripts/check.mjs",
+    "serve": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "check:browser": "sh scripts/check-browser.sh en",
+    "check:locale": "sh scripts/check-browser.sh"
+  },
+  "dependencies": {
+    "parse5": "^8.1.1"
+  }
+}

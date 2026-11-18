@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff1da">
+  <meta name="description" content="Take animal office workers home on matching shuttles. A free browser puzzle with sixty levels.">
+  <title>Clock Out! | tapmelo</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='28' fill='%23a984ed'/%3E%3Ccircle cx='23' cy='20' r='9' fill='%23e4ceff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M5 19l2-2M17 7l2-2"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7z"/></symbol>
+    <symbol id="i-retry" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/></symbol>
+    <symbol id="i-sound" viewBox="0 0 24 24"><path d="m11 4-6 5H2v6h3l6 5zM16 8a6 6 0 0 1 0 8M19 4a11 11 0 0 1 0 16"/></symbol>
+    <symbol id="i-hint" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M8 14a7 7 0 1 1 8 0c-1 1-1 2-1 4H9c0-2 0-3-1-4ZM12 1v2"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="6"/><path d="M8 12h8M12 8v8"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M7 3h10v6a5 5 0 0 1-10 0zM7 5H3v3a4 4 0 0 0 5 4M17 5h4v3a4 4 0 0 1-5 4M12 14v5M8 21h8M9 19h6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+  </defs></svg>
+  <main class="game" data-i18n-label="game" aria-label="Clock Out! shuttle puzzle">
+    <section id="lobby" class="lobby">
+      <div class="lobby-top">
+        <button id="home-settings" class="icon-button" data-i18n-label="settings"><svg aria-hidden="true"><use href="#i-settings"/></svg></button>
+        <span id="unlocked"></span>
+      </div>
+      <div class="lobby-heading">
+        <h1 data-i18n="brand">Clock Out!</h1>
+        <p data-i18n="lobbyTip">Match passengers to buses of the same colour.</p>
+      </div>
+      <canvas id="town" width="720" height="380" aria-hidden="true"></canvas>
+      <div class="lobby-actions">
+        <label id="loading-label" for="loading" data-i18n="loading">Getting the buses ready…</label>
+        <progress id="loading" max="1" value="0"></progress>
+        <button id="start" hidden>Play level 1</button>
+      </div>
+    </section>
+    <div id="playfield" hidden inert>
+    <header class="masthead">
+      <div class="wordmark"><strong data-i18n="brand">Clock Out!</strong></div>
+      <div class="edition"><span></span><i></i><b></b></div>
+      <button id="ingame-settings" class="icon-button" data-i18n-label="settings"><svg aria-hidden="true"><use href="#i-settings"/></svg></button>
+      <button class="icon-button" id="pause" data-i18n-label="pause" aria-label="Pause game"><svg><use href="#i-pause"/></svg></button>
+    </header>
+    <section class="machine">
+      <div class="hud">
+        <div class="level"><small data-i18n="level">LEVEL</small><b id="level">01</b></div>
+        <div class="progress-wrap"><div class="progress-text"><span data-i18n="target">Picked up</span><b id="collected">0 / 189</b></div><div class="progress-track" role="progressbar" data-i18n-label="progress" aria-label="Collection progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="progress"></i></div></div>
+        <button class="speed" id="speed" data-i18n-label="speed2" aria-label="Switch to double speed">1×</button>
+      </div>
+      <div class="board" id="board">
+        <canvas id="canvas" width="960" height="1280" data-i18n-label="board" aria-label="Offices, a waiting loop and four shuttle lanes"></canvas>
+        <div class="sources" id="sources" data-i18n-label="sources" aria-label="Tap a front office to send nine workers"></div>
+        <div class="belt-meter" id="belt-meter"><span class="status-light"></span><span data-i18n="belt">Waiting</span><b id="capacity">0 / 27</b><div><i id="belt-fill"></i></div></div>
+      </div>
+        <div class="board-tip" id="tip" data-i18n="initial">Choose a front office</div>
+      <div class="tools" data-i18n-label="tools" aria-label="Extra moves">
+        <button id="undo" class="tool" disabled><span class="tool-icon peach"><svg><use href="#i-retry"/></svg><i id="undo-count">1</i></span><span data-i18n="undo">Undo</span></button>
+        <button id="expand" class="tool"><span class="tool-icon mint"><svg><use href="#i-expand"/></svg><i id="expand-count">1</i></span><span data-i18n="expand">Expand +9</span></button>
+      </div>
+    </section>
+    </div>
+    <canvas id="feedback" hidden aria-hidden="true"></canvas>
+    <footer><a id="site-back" href="/games/marble-sort/" data-i18n="back" hidden>Back to tapmelo</a><span data-i18n="brand">Clock Out!</span><button id="help" data-i18n-label="help" aria-label="How to play">?</button></footer>
+    <p class="sr-only" id="announce" role="status" aria-live="polite"></p>
+  </main>
+  <dialog id="dialog" aria-labelledby="dialog-title"><form method="dialog"><div class="dialog-symbol" id="dialog-symbol"><svg><use href="#i-pause"/></svg></div><p class="eyebrow" id="dialog-eyebrow">TAKE A BREATH</p><h1 id="dialog-title" tabindex="-1">Take a breather</h1><p id="dialog-copy">The shuttles will wait for you.</p><div id="dialog-actions"></div></form></dialog>
+  <dialog id="settings" aria-labelledby="settings-title">
+    <h2 id="settings-title" data-i18n="settings">Settings</h2>
+    <label><span data-i18n="effects">Sound effects</span><input id="effects-setting" type="checkbox"></label>
+    <label><span data-i18n="music">Music</span><input id="music-setting" type="checkbox"></label>
+    <label id="vibration-row" hidden><span data-i18n="vibration">Vibration</span><input id="vibration-setting" type="checkbox"></label>
+    <form method="dialog"><button data-i18n="closeSettings">Done</button></form>
+  </dialog>
+  <dialog id="guide" aria-labelledby="guide-title" aria-describedby="guide-copy">
+    <div class="guide-top"><img src="assets/fox-avatar-128.png" alt="" width="128" height="128"><button id="guide-skip" data-i18n="guideSkip">Skip</button></div>
+    <h2 id="guide-title"></h2><p id="guide-copy"></p>
+    <button id="guide-next"></button>
+  </dialog>
+  <div id="guide-focus" hidden aria-hidden="true"></div>
+  <div id="parade" hidden aria-hidden="true"></div>
+  <script src="vendor/matter.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
