@@ -346,7 +346,8 @@ function createRecommendation(game) {
   category.className = 'game-tile-category';
   category.textContent = game.category;
   label.append(title, category);
-  tile.append(art, label);
+  art.append(label);
+  tile.append(art);
   return tile;
 }
 

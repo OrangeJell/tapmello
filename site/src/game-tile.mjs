@@ -5,7 +5,7 @@ export function renderGameTile({ id, title, titleLang, href, cover, width, heigh
     <span class="game-tile-art">
       <img class="game-cover" src="${escape(cover)}" width="${width}" height="${height}" alt="" loading="${loading}" decoding="async">
       ${preview ? `<video class="game-tile-video" data-src="${escape(preview)}" preload="none" muted playsinline loop aria-hidden="true"></video>` : ''}
+      <span class="game-tile-label"><span class="game-tile-title" lang="${titleLang}">${escape(title)}</span><span class="game-tile-category">${escape(category)}</span></span>
     </span>
-    <span class="game-tile-label"><span class="game-tile-title" lang="${titleLang}">${escape(title)}</span><span class="game-tile-category">${escape(category)}</span></span>
   </a>`;
 }

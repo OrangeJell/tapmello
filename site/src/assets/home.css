@@ -77,11 +77,10 @@
 .game-tile-label {
   position: absolute;
   inset-inline: 0;
-  inset-block-start: calc(50% + 50% * var(--game-tile-scale) + 4px);
-  padding: 4px 6px;
-  border-radius: 6px;
-  background: #13221b;
+  inset-block-end: 0;
+  padding: 6px 8px;
   color: #fff;
+  text-shadow: 0 1px 2px #13221b, 0 1px 4px #13221bcc;
   opacity: 0;
   pointer-events: none;
   transition: opacity 140ms ease;
