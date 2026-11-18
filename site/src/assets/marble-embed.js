@@ -24,10 +24,7 @@
   };
   window.addEventListener('message', event => {
     if (event.origin !== location.origin || event.source !== frame.contentWindow || event.data?.type !== 'tapmelo-marble-ready') return;
-    const height = event.data.height;
-    if (!Number.isFinite(height) || height < 180 || height > 2500) return;
     clearTimeout(timeout); host.dataset.state = 'ready';
-    frame.style.height = Math.ceil(height) + 'px';
     if (!ready) { ready = true; syncVisibility(); }
   });
   retry.addEventListener('click', () => { start(); frame.contentWindow.location.replace(source + '&retry=' + Date.now()); });

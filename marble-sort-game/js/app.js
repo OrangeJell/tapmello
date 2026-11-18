@@ -252,10 +252,11 @@ function positionGuide() {
   }
   const guide = $('guide'), heightLimit = innerHeight - 12;
   const below = bottom + 14, above = top - guide.offsetHeight - 14;
-  const side = board.left > guide.offsetWidth + 24;
-  guide.style.left = side ? (board.left - guide.offsetWidth - 16) + 'px' : '50%';
-  guide.style.translate = side ? 'none' : '-50% 0';
-  guide.style.top = (side ? Math.max(12, (innerHeight - guide.offsetHeight) / 2)
+  const sideLeft = board.left > guide.offsetWidth + 24 ? board.left - guide.offsetWidth - 16
+    : innerWidth - board.right > guide.offsetWidth + 24 ? board.right + 16 : null;
+  guide.style.left = sideLeft === null ? '50%' : sideLeft + 'px';
+  guide.style.translate = sideLeft === null ? '-50% 0' : 'none';
+  guide.style.top = (sideLeft !== null ? Math.max(12, (innerHeight - guide.offsetHeight) / 2)
     : Math.max(12, Math.min(heightLimit - guide.offsetHeight,
       below + guide.offsetHeight < heightLimit ? below : above))) + 'px';
 }
@@ -469,9 +470,7 @@ prepareHome();
 
 // Notify only the same-origin website; the parent checks source, origin and size.
 if (new URLSearchParams(location.search).get('embed') === '1' && parent !== window) {
-  const notify = () => parent.postMessage({type:'tapmelo-marble-ready', height:Math.ceil(document.body.getBoundingClientRect().height), language}, location.origin);
-  new ResizeObserver(notify).observe(document.body);
-  notify();
+  parent.postMessage({type:'tapmelo-marble-ready'}, location.origin);
   window.addEventListener('message', event => {
     if (event.origin !== location.origin || event.source !== parent || !['tapmelo-marble-pause','tapmelo-marble-visible'].includes(event.data?.type)) return;
     offscreen = event.data.type === 'tapmelo-marble-pause';

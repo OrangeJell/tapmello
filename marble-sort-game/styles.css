@@ -29,7 +29,6 @@ dialog[data-result="lost"] #dialog-actions .primary:after,dialog[data-result="wo
 @keyframes cta-sheen{to{left:150%}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.result-fx{display:none}}
 
-html[data-embed] body{min-height:0;display:block;padding:18px 12px}html[data-embed] .game{margin-inline:auto}
 html[lang=hi] .board-tip{font-size:11px;letter-spacing:0}html[lang=hi] .progress-text{font-size:10px}html[lang=hi] dialog h1{font-size:25px;letter-spacing:0}
 
 #site-back{color:#34536c;min-height:44px;align-content:center;letter-spacing:0;font-size:11px}#site-back[hidden]{display:none}
@@ -72,7 +71,7 @@ dialog h1,dialog p,dialog .eyebrow,.sound-setting{color:#745646;text-shadow:none
 .progress-track i{background:linear-gradient(#54bd68,#24753d)}
 .belt-meter{font-size:12px;font-weight:800}.belt-meter b{font-size:14px}
 @media(max-width:600px){
- body,html[data-embed] body{padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);align-items:flex-start}
+ body{padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);align-items:flex-start}
  .game{width:100%;max-width:100%;min-height:100dvh;display:flex;flex-direction:column}
  .masthead{height:52px;flex-shrink:0;padding:4px 12px 8px}
  .machine{border-radius:16px;border-width:0;box-shadow:none;flex:1;display:flex;flex-direction:column}
@@ -84,7 +83,6 @@ dialog h1,dialog p,dialog .eyebrow,.sound-setting{color:#745646;text-shadow:none
  footer button{width:44px;height:36px}footer button:after{inset:0}
  .speed,.icon-button{min-height:44px;min-width:44px}
  .progress-text,.progress-text b{font-size:12px}.board-tip{font-size:11px}
- html[data-embed] .game{min-height:0}
 }
 
 /* The title screen and overlays use the same clay artwork as the board. */
@@ -203,6 +201,74 @@ html:not([data-embed]) body:has(#lobby:not([hidden])){align-items:center}
   html:not([data-embed]) .game:has(#playfield:not([hidden])){width:clamp(320px,calc((100dvh - 292px)*.686),460px)}
 }
 
-@media(min-width:601px){html[data-embed] .game{width:min(100%,460px)}}
-
 html[data-embed] #playfield .wordmark strong { white-space:nowrap; }
+
+/* The embedding page gives us the visible play area, including on rotation. */
+html[data-embed] body {
+  display: flex;
+  flex-direction: column;
+  justify-content: safe center;
+  align-items: center;
+  min-height: 100dvh;
+  padding: 8px;
+}
+html[data-embed] .game { width: min(100%, 460px); min-height: 0; flex: none; }
+html[data-embed] .lobby { min-height: 0; }
+html[data-embed] #town {
+  max-height: max(0px, calc(100dvh - 235px));
+  object-fit: contain;
+}
+html[data-embed] .masthead { height: 51px; }
+html[data-embed] .hud { height: 58px; }
+html[data-embed] .board {
+  width: min(100%, max(156px, calc((100dvh - 278px) * 480 / 700)));
+  margin-inline: auto;
+}
+html[data-embed] .tools { padding-block: 6px 4px; gap: clamp(20px, 12vw, 58px); }
+html[data-embed] .tool { min-height: 61px; }
+html[data-embed] footer { min-height: 40px; padding: 3px 8px; }
+html[data-embed] footer button { width: 44px; height: 34px; }
+html[data-embed] footer button::after { inset: -5px 0; }
+
+@media (min-width: 540px) and (max-height: 540px) {
+  html[data-embed] .game { width: min(100%, 640px); }
+  html[data-embed] .lobby {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 8px;
+    padding-block: 8px 14px;
+  }
+  html[data-embed] .lobby-top { grid-column: 1 / -1; }
+  html[data-embed] .lobby h1 { font-size: clamp(1.75rem, 6vw, 3.25rem); }
+  html[data-embed] #town { grid-column: 2; grid-row: 2 / 4; max-height: calc(100dvh - 100px); }
+  html[data-embed] .game:has(#playfield:not([hidden])) { width: min(100%, 530px); }
+  html[data-embed] #playfield .masthead {
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    right: 8px;
+    width: 245px;
+    padding-inline: 4px;
+  }
+  html[data-embed] .machine {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 255px;
+    grid-template-rows: auto auto 1fr;
+    align-items: center;
+    padding: 0 8px;
+  }
+  html[data-embed] .board {
+    grid-column: 1;
+    grid-row: 1 / 4;
+    width: min(100%, max(145px, calc((100dvh - 28px) * 480 / 700)));
+  }
+  html[data-embed] .hud { grid-column: 2; margin-top: 54px; padding-inline: 8px; }
+  html[data-embed] .board-tip { grid-column: 2; }
+  html[data-embed] .tools { grid-column: 2; gap: 24px; margin: 0 0 40px; }
+  html[data-embed] .game:has(#playfield:not([hidden])) footer {
+    position: absolute;
+    right: 8px;
+    bottom: 0;
+    width: 255px;
+  }
+}

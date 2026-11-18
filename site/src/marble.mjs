@@ -202,6 +202,7 @@ export function renderMarble(lang, sharedOnly){
   sharedOnly,
    game: 'clock-out',
    embed,
+   playerLayout: 'viewport',
    aboutTitle: copy(lang, 'Bus sorting with four queues and 27 waiting spaces', 'चार बस कतारें और इंतज़ार की 27 जगहें'),
    about: copy(lang, [
      'Clock Out! is a bus sorting puzzle about getting nine coworkers at a time home. Tap a front-row office to send them onto the loop. Riders board when they pass a matching shuttle at the front of one of the four queues. A shuttle leaves with three riders of its colour, then the next bus in that lane pulls up.',

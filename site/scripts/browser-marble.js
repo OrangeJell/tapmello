@@ -25,8 +25,8 @@ async (page) => {
     const autoFinish = page.locator('#questions details').filter({ hasText: 'Why did the game switch to 4×?' });
     check((await autoFinish.textContent()).includes('automatically accelerates'),`${width}px: automatic finish explained`);
     check(await gameFrame().evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${width}px: embedded game fits`);
-    const sizes=await gameFrame().evaluate(()=>({game:document.querySelector('.game').getBoundingClientRect().height,viewport:innerHeight}));
-    check(Math.abs(sizes.viewport-sizes.game)<38,`${width}px: iframe height follows content`);
+    const [frame, screen] = await Promise.all([page.locator('#marble-frame').boundingBox(), page.locator('.detail-screen').boundingBox()]);
+    check(Math.abs(frame.height - screen.height) <= 1,`${width}px: iframe uses the full available play area`);
     if(width===390||width===1440)await page.screenshot({path:`output/playwright/marble-site-${width}.png`,fullPage:true});
   }
   await page.setViewportSize({width:390,height:844});await page.goto(base+'/games/marble-sort/');await ready();

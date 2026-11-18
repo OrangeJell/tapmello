@@ -4,7 +4,6 @@ const nativeRuntime = screen.querySelector('.detail-native-runtime');
 const nativeFrame = nativeRuntime?.querySelector('iframe');
 const nativeHost = nativeRuntime?.firstElementChild;
 const preview = player.querySelector('video.detail-preview');
-const previewToggle = player.querySelector('.detail-preview-toggle');
 const fullscreen = player.querySelector('.detail-fullscreen');
 const helpButton = player.querySelector('.detail-bar-help');
 const barBack = player.querySelector('.detail-bar-back');
@@ -23,69 +22,44 @@ let returnToDetails;
 let helpTrigger;
 
 const connection = navigator.connection;
-const mediaPreviews = [preview, document.querySelector('.detail-media-preview video')].filter(Boolean);
-const visiblePreviews = new Set();
-const pausedByViewer = new WeakSet();
-let automaticPreview;
+const mediaPreview = document.querySelector('.detail-media-preview video');
+let mediaPreviewVisible = false;
+let mediaPreviewAutoplaying = false;
+let mediaPreviewPausedByViewer = false;
 
-function syncPreviewAutoplay() {
-  const allowed = connection?.type === 'wifi' && !connection.saveData &&
-    !started && !document.hidden && !reduceMotion.matches;
-  const manualPlayback = mediaPreviews.some(video => video !== automaticPreview && !video.paused);
-  const next = allowed && !manualPlayback && mediaPreviews.find(video =>
-    visiblePreviews.has(video) && !pausedByViewer.has(video) && !video.ended);
-
-  if (automaticPreview && automaticPreview !== next) {
-    const previous = automaticPreview;
-    automaticPreview = undefined;
-    previous.pause();
+function syncMediaPreviewAutoplay() {
+  if (!mediaPreview) return;
+  const allowed = mediaPreviewVisible && !mediaPreviewPausedByViewer && !mediaPreview.ended &&
+    connection?.type === 'wifi' && !connection.saveData && !started && !document.hidden && !reduceMotion.matches;
+  if (!allowed) {
+    if (mediaPreviewAutoplaying) {
+      mediaPreviewAutoplaying = false;
+      mediaPreview.pause();
+    }
+    return;
   }
-  if (!next || !next.paused || automaticPreview === next) return;
-  automaticPreview = next;
-  next.muted = true;
-  next.play().catch(() => {
-    if (automaticPreview === next) automaticPreview = undefined;
+  if (!mediaPreview.paused || mediaPreviewAutoplaying) return;
+  mediaPreviewAutoplaying = true;
+  mediaPreview.muted = true;
+  mediaPreview.play().catch(() => {
+    if (mediaPreview.paused) mediaPreviewAutoplaying = false;
   });
 }
 
-if (mediaPreviews.length) {
-  const observer = new IntersectionObserver(entries => {
-    for (const entry of entries) {
-      if (entry.intersectionRatio >= 0.4) visiblePreviews.add(entry.target);
-      else visiblePreviews.delete(entry.target);
-    }
-    syncPreviewAutoplay();
-  }, { threshold: 0.4 });
-  for (const video of mediaPreviews) {
-    observer.observe(video);
-    video.addEventListener('play', syncPreviewAutoplay);
-    video.addEventListener('pause', () => {
-      if (automaticPreview === video && video.paused) {
-        automaticPreview = undefined;
-        pausedByViewer.add(video);
-      }
-      syncPreviewAutoplay();
-    });
-  }
-  connection?.addEventListener('change', syncPreviewAutoplay);
-}
-
-function updatePreviewLabel() {
-  previewToggle.textContent = preview.paused ? previewToggle.dataset.playLabel : previewToggle.dataset.pauseLabel;
-  previewToggle.setAttribute('aria-label', previewToggle.textContent);
-}
-if (preview) {
-  preview.addEventListener('play', updatePreviewLabel);
-  preview.addEventListener('pause', updatePreviewLabel);
-  updatePreviewLabel();
-  previewToggle.addEventListener('click', async () => {
-    if (preview.paused) {
-      try { await preview.play(); } catch { updatePreviewLabel(); }
-    } else {
-      pausedByViewer.add(preview);
-      preview.pause();
+if (mediaPreview) {
+  new IntersectionObserver(([entry]) => {
+    mediaPreviewVisible = entry.intersectionRatio >= 0.4;
+    syncMediaPreviewAutoplay();
+  }, { threshold: 0.4 }).observe(mediaPreview);
+  mediaPreview.addEventListener('pause', () => {
+    if (mediaPreviewAutoplaying && mediaPreview.paused) {
+      mediaPreviewAutoplaying = false;
+      mediaPreviewPausedByViewer = true;
     }
   });
+  connection?.addEventListener('change', syncMediaPreviewAutoplay);
+  document.addEventListener('visibilitychange', syncMediaPreviewAutoplay);
+  reduceMotion.addEventListener('change', syncMediaPreviewAutoplay);
 }
 const startGame = player.querySelector('.detail-play');
 const cover = screen.querySelector('.detail-launch');
@@ -175,7 +149,7 @@ startGame.addEventListener('click', () => {
   if (started) return;
   started = true;
   player.dispatchEvent(new Event('game-played'));
-  syncPreviewAutoplay();
+  syncMediaPreviewAutoplay();
   preview?.pause();
   cover.hidden = true;
   if (nativeFrame) {
@@ -206,7 +180,8 @@ startGame.addEventListener('click', () => {
     cover.hidden = false;
     started = false;
     returnToDetails = undefined;
-    syncPreviewAutoplay();
+    preview?.play().catch(() => {});
+    syncMediaPreviewAutoplay();
     startGame.focus({ preventScroll: true });
   }
   returnToDetails = openDetailMobilePlayer(player, restorePreview);
@@ -401,9 +376,6 @@ refreshRecommendations().then(hasMore => {
   loadMore.hidden = !hasMore;
   if (hasMore) recommendationObserver.observe(loadMore);
 });
-
-document.addEventListener('visibilitychange', syncPreviewAutoplay);
-reduceMotion.addEventListener('change', syncPreviewAutoplay);
 
 function openDetailMobilePlayer(stage, restorePreview) {
   if (!matchMedia('(any-pointer: coarse)').matches || Math.min(innerWidth, innerHeight) > 600) return;

@@ -24,7 +24,6 @@
 .detail-play:hover { background: #5841dc; }
 .detail-play svg { width: 22px; height: 22px; }
 .detail-player-bar button svg { width: 18px; height: 18px; }
-.detail-preview-toggle { position: absolute; bottom: 14px; right: 14px; min-height: 44px; padding: 8px 14px; color: white; background: #111827ba; border: 1px solid #ffffff40; border-radius: 9px; cursor: pointer; }
 .detail-screen > iframe { position: absolute; inset: 0; width: 100%; height: 100%; display: block; border: 0; }
 .detail-player [hidden] { display: none; }
 .detail-player-bar { min-height: 64px; padding: 9px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
@@ -341,6 +340,7 @@ html.detail-expanded { overflow: hidden; }
   border-radius: 0;
 }
 .detail-native-runtime iframe { display: block; border: 0; }
+.detail-native-runtime[data-layout="viewport"] iframe { width: 100%; height: 100%; }
 .detail-native-runtime[data-layout="board"] { display: grid; place-items: center; }
 .detail-native-runtime[data-layout="board"] > [data-state="ready"] {
   width: var(--board-box-width, 100%);

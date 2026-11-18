@@ -15,8 +15,6 @@ const labels = {
     "player": "Game player",
     "preview": "Gameplay preview",
     "play": "Play now",
-    "pausePreview": "Pause preview",
-    "resumePreview": "Play preview",
     "showControls": "Show game controls",
     "menu": "Game menu",
     "back": "Back to details",
@@ -49,8 +47,6 @@ const labels = {
     "player": "गेम प्लेयर",
     "preview": "खेल का वीडियो",
     "play": "खेलें",
-    "pausePreview": "वीडियो रोकें",
-    "resumePreview": "वीडियो चलाएँ",
     "showControls": "खेल के नियंत्रण दिखाएँ",
     "menu": "खेल मेन्यू",
     "back": "विवरण पर वापस जाएँ",
@@ -141,13 +137,12 @@ export function renderStandardDetail(lang, game, {
       <section id="play" class="detail-player" aria-label="${escape(game.title)} · ${label.player}" data-game="${escape(game.id)}" data-fullscreen-label="${label.fullscreen}" data-exit-fullscreen-label="${label.exitFullscreen}">
         <div class="detail-screen">
           <div class="detail-launch">
-            ${game.preview ? `<video class="detail-preview" src="${escape(game.preview)}" poster="${escape(cover)}" muted playsinline loop preload="none" aria-label="${label.preview}"></video>` : `<img class="detail-preview" src="${escape(cover)}"${coverDimensions} alt="" fetchpriority="high">`}
+            ${game.preview ? `<video class="detail-preview" src="${escape(game.preview)}" poster="${escape(cover)}" autoplay muted playsinline loop aria-hidden="true"></video>` : `<img class="detail-preview" src="${escape(cover)}"${coverDimensions} alt="" fetchpriority="high">`}
             <div class="detail-launch-content">
               <img src="${escape(game.cover)}" width="${game.width}" height="${game.height}" alt="">
               <h1${runtime ? '' : ' translate="no" lang="en"'}>${escape(title[0])}${title[1] ? ` <span>${escape(title[1])}</span>` : ''}</h1>
               <button class="detail-play" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7Z" fill="currentColor"/></svg>${label.play}</button>
             </div>
-            ${game.preview ? `<button class="detail-preview-toggle" type="button" data-pause-label="${label.pausePreview}" data-play-label="${label.resumePreview}">${label.resumePreview}</button>` : ''}
           </div>
           ${runtime ? `<div class="detail-native-runtime" data-layout="${runtime.layout}" hidden>${runtime.html}</div>` : `
             <template><iframe title="${escape(game.title)}" src="${escape(game.url)}" allow="autoplay; fullscreen"></iframe></template>
