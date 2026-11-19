@@ -47,25 +47,68 @@ document.addEventListener('pointerdown', () => sound.unlock(), {passive:true});
 document.addEventListener('keydown', () => sound.unlock());
 
 function drawTown() {
-  const canvas = $('town'), c = canvas.getContext('2d');
-  c.clearRect(0, 0, canvas.width, canvas.height);
-  for (const [y, color] of [[198, '#dce4ae'], [243, '#becf94']]) {
+  const canvas = $('town');
+  const c = canvas.getContext('2d');
+  const sky = c.createLinearGradient(0, 0, 0, 380);
+  sky.addColorStop(0, '#c7e6e1');
+  sky.addColorStop(.67, '#f6edc7');
+  c.fillStyle = sky;
+  c.fillRect(0, 0, canvas.width, canvas.height);
+
+  const sun = c.createRadialGradient(525, 74, 40, 525, 74, 94);
+  sun.addColorStop(0, '#fff4c5');
+  sun.addColorStop(.36, '#fff4c5');
+  sun.addColorStop(1, '#fff4c500');
+  c.fillStyle = sun;
+  c.fillRect(431, 0, 188, 168);
+
+  c.fillStyle = '#f8fff4b8';
+  for (const [x, y, width, height] of [[94, 64, 92, 17], [190, 103, 54, 11], [615, 124, 63, 12]]) {
     c.beginPath();
-    c.ellipse(360, 381, 460, 381 - y, 0, 0, Math.PI * 2);
-    c.fillStyle = color;
+    c.ellipse(x, y, width / 2, height / 2, 0, 0, Math.PI * 2);
     c.fill();
   }
+
   c.beginPath();
-  c.ellipse(360, 299, 292, 57, 0, 0, Math.PI * 2);
-  c.fillStyle = '#e2bd8d';
+  c.moveTo(0, 193);
+  c.bezierCurveTo(120, 137, 242, 167, 353, 213);
+  c.bezierCurveTo(508, 268, 589, 150, 720, 179);
+  c.lineTo(720, 380);
+  c.lineTo(0, 380);
+  c.fillStyle = '#a9c59d';
   c.fill();
+
+  c.beginPath();
+  c.moveTo(0, 254);
+  c.bezierCurveTo(209, 202, 419, 274, 720, 220);
+  c.lineTo(720, 380);
+  c.lineTo(0, 380);
+  c.fillStyle = '#84a789';
+  c.fill();
+
+  c.beginPath();
+  c.moveTo(-15, 317);
+  c.bezierCurveTo(206, 291, 469, 395, 735, 301);
+  c.lineWidth = 84;
+  c.strokeStyle = '#caaa83';
+  c.stroke();
+  c.lineWidth = 75;
+  c.strokeStyle = '#ead0a7';
+  c.stroke();
+  c.save();
+  c.setLineDash([24, 20]);
+  c.lineWidth = 3;
+  c.strokeStyle = '#fff1cd';
+  c.stroke();
+  c.restore();
+
   if (view.paintToy) {
-    view.paintToy(c, toy.office + 1, 100, 64, 133, 164);
-    view.paintToy(c, toy.tree, 519, 90, 101, 131);
-    view.paintToy(c, toy.shuttle + 2, 207, 44, 316, 272);
-    view.paintToy(c, toy.employee, 154, 194, 111, 120);
-    view.paintToy(c, toy.employee + 1, 464, 197, 104, 115);
-    view.paintToy(c, toy.employee + 3, 390, 228, 94, 102);
+    view.paintToy(c, toy.office + 1, 74, 105, 163, 180);
+    view.paintToy(c, toy.tree, 541, 119, 92, 126);
+    view.paintToy(c, toy.shuttle + 2, 190, 48, 346, 278);
+    view.paintToy(c, toy.employee, 138, 215, 111, 120);
+    view.paintToy(c, toy.employee + 1, 494, 207, 108, 117);
+    view.paintToy(c, toy.employee + 3, 420, 235, 98, 107);
   } else {
     c.fillStyle = '#d5a85e';
     c.beginPath();
@@ -93,7 +136,7 @@ function showHome() {
   playfield.hidden = playfield.inert = true;
   $('lobby').hidden = false;
   $('unlocked').textContent = t('unlocked', {n:unlocked, count:LEVEL_COUNT});
-  $('start').textContent = t('start', {n:unlocked});
+  $('start-label').textContent = t('start', {n:unlocked});
   $('start').hidden = false;
   $('loading').hidden = $('loading-label').hidden = true;
   $('help').hidden = true;
@@ -489,6 +532,7 @@ if (new URLSearchParams(location.search).get('embed') === '1' && parent !== wind
   const reportHeight = () => parent.postMessage({
     type: 'tapmelo-marble-resize',
     height: document.body.getBoundingClientRect().height,
+    playing: !playfield.hidden,
   }, location.origin);
   const desktopSize = new ResizeObserver(reportHeight);
   parent.postMessage({type:'tapmelo-marble-ready'}, location.origin);
@@ -498,7 +542,10 @@ if (new URLSearchParams(location.search).get('embed') === '1' && parent !== wind
     if (!root.matches('[data-mobile-player], [data-desktop-player]')) {
       root.toggleAttribute('data-mobile-player', mobile);
       root.toggleAttribute('data-desktop-player', !mobile);
-      if (!mobile) desktopSize.observe(document.body);
+      if (!mobile) {
+        desktopSize.observe(document.body);
+        desktopSize.observe(playfield);
+      }
       resizeBoard();
     }
     offscreen = event.data.type === 'tapmelo-marble-pause';

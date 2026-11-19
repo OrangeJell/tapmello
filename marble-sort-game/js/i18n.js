@@ -19,7 +19,7 @@ const strings = {
   guidePlay: ["Got it, let’s play", "समझ गए, चलो खेलें"],
   description: ['Take animal office workers home on matching shuttles in a free sixty-level browser puzzle.', 'इस मुफ़्त ब्राउज़र पहेली के 60 स्तरों में जानवरों को उनके रंग की बस से घर भेजें।'],
   levelNumber: ['Level {n}', 'स्तर {n}'],
-  unlocked: ['Unlocked: {n} / {count}', 'खुले स्तर {n} / {count}'],
+  unlocked: ['{n} of {count} levels unlocked', '{count} में से {n} स्तर खुले'],
   start: ['Play level {n}', 'स्तर {n} खेलें'],
   loading: ['Getting the buses ready…', 'बसें तैयार हो रही हैं…'],
   settings: ['Settings', 'सेटिंग्स'],

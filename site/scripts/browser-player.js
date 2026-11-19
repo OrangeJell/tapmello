@@ -64,33 +64,52 @@ async (page) => {
     check(await preview.evaluate(video => !video.paused), `${game}: returning to details resumes the preview`);
     check(!await page.locator('html').evaluate(element => element.classList.contains('detail-mobile-playing')), `${game}: exit leaves gameplay mode`);
   }
-  const desktopContext = await page.context().browser().newContext({ viewport: { width: 1440, height: 900 } });
+  const desktopContext = await page.context().browser().newContext({
+    viewport: { width: 1245, height: 731 },
+    deviceScaleFactor: 2,
+  });
   try {
+    await desktopContext.addInitScript(() => localStorage.setItem('marble-sort.level', '11'));
     const desktop = await desktopContext.newPage();
     await desktop.goto('http://127.0.0.1:4173/games/marble-sort/');
     await desktop.locator('.detail-play').click();
     await desktop.locator('[data-marble-embed][data-state="ready"]').waitFor();
     const frame = desktop.frameLocator('#marble-frame');
 
-    async function checkDesktopFit(content, label) {
-      await desktop.waitForFunction(selector => {
+    async function checkDesktopFit(content, wide, label) {
+      await desktop.waitForFunction(({ selector, wide }) => {
         const screen = document.querySelector('.detail-screen').getBoundingClientRect();
         const iframe = document.querySelector('#marble-frame');
         const rect = iframe.getBoundingClientRect();
-        const content = iframe.contentDocument.querySelector(selector).getBoundingClientRect();
-        return iframe.clientWidth === 480 && content.height > 0 && content.bottom <= iframe.clientHeight + 1 &&
+        const game = iframe.contentDocument;
+        const content = game.querySelector(selector).getBoundingClientRect();
+        const board = game.querySelector('#board').getBoundingClientRect();
+        const inColumns = !wide || (
+          game.querySelector('.wordmark').getBoundingClientRect().right < board.left &&
+          game.querySelector('.progress-wrap').getBoundingClientRect().right < board.left &&
+          game.querySelector('.tools').getBoundingClientRect().left > board.right
+        );
+        return iframe.clientWidth === (wide ? Math.min(900, Math.round(screen.width)) : 480) &&
+          inColumns && content.height > 0 && content.bottom <= iframe.clientHeight + 1 &&
           rect.top >= screen.top - 1 && rect.bottom <= screen.bottom + 1 &&
           Math.abs(rect.left + rect.width / 2 - (screen.left + screen.width / 2)) <= 1;
-      }, content);
+      }, { selector: content, wide });
       check(true, label);
     }
 
-    await checkDesktopFit('#lobby', 'marble-sort desktop: lobby fits and is centered');
+    await checkDesktopFit('#lobby', false, 'marble-sort desktop: lobby fits and is centered');
     await frame.locator('#start').click();
-    if (await frame.locator('#guide-skip').isVisible()) await frame.locator('#guide-skip').click();
-    await checkDesktopFit('footer', 'marble-sort desktop: the entire game fits after starting');
+    check(await frame.locator('#level').textContent() === '11', 'marble-sort desktop: starts level 11');
+    await checkDesktopFit('footer', true, 'marble-sort desktop: title and progress sit left of the board and tools to its right');
+    const gameScroll = await desktop.locator('[data-marble-embed]').evaluate(host => {
+      host.scrollTop = host.scrollHeight;
+      return host.scrollTop;
+    });
+    check(gameScroll === 0, 'marble-sort desktop: the fitted game cannot scroll out of view');
     await desktop.setViewportSize({ width: 1280, height: 720 });
-    await checkDesktopFit('footer', 'marble-sort desktop: game stays centered and fitted after resizing');
+    await checkDesktopFit('footer', true, 'marble-sort desktop: wide game stays centered and fitted after resizing');
+    await desktop.setViewportSize({ width: 900, height: 720 });
+    await checkDesktopFit('footer', false, 'marble-sort desktop: narrow window returns to the compact layout');
     await frame.locator('#pause').click();
     check(await frame.locator('#dialog').isVisible(), 'marble-sort desktop: pause works on the fitted board');
   } finally {

@@ -17,7 +17,7 @@ export const locales = {
     gameTitle: "Glass Twist – Free Online Screw Puzzle Game | tapmelo",
     gameDescription: "Play Glass Twist, a free online screw puzzle. Remove exposed screws from layered glass, sort three per box and leave room in the five-slot tray.",
     frameTitle: 'Glass Twist: Screw Puzzle game',
-    loading: "Loading Glass Twist…", loadingLabel: "Loading Glass Twist", retry: 'Try again',
+    loading: "Loading Glass Twist…", retry: 'Try again',
     guideLabel: 'Game guide',
     aboutTitle: 'How the glass and sorting boxes work',
     about: [
@@ -80,7 +80,7 @@ export const locales = {
     gameTitle: "Glass Twist – मुफ़्त ऑनलाइन पेंच पहेली | tapmelo",
     gameDescription: "Glass Twist में काँच की परतों से पेंच निकालें। एक रंग के तीन पेंच डिब्बे में रखें और जानें कि भरी ट्रे को कैसे खोलें।",
     frameTitle: 'Glass Twist: Screw Puzzle — हिन्दी में खेलें',
-    loading: "Glass Twist लोड हो रहा है…", loadingLabel: "Glass Twist लोड हो रहा है", retry: 'फिर कोशिश करें',
+    loading: "Glass Twist लोड हो रहा है…", retry: 'फिर कोशिश करें',
     guideLabel: 'खेलने की गाइड',
     aboutTitle: 'ट्रे भरे बिना पेंचों के रंग मिलाएँ',
     about: [

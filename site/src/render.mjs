@@ -100,14 +100,13 @@ export function renderPlaygama(lang, game, sharedOnly) {
 
 export function renderGame(lang, sharedOnly) {
   const c = locales[lang];
-  const embed = `<div id="game-embed" class="embedded-game" data-state="loading">
-      <iframe id="game-frame" title="${c.frameTitle}" src="/play/screw-sort/?embed=1&amp;lang=${lang}"></iframe>
-      <div class="embed-message" role="status" aria-live="polite">
-        <p id="embed-status">${c.loading}</p>
-        <div id="embed-progress" class="embed-progress" role="progressbar" aria-label="${c.loadingLabel}"><span></span></div>
-        <button id="embed-retry" class="embed-retry" type="button">${c.retry}</button>
-      </div>
-    </div>`;
+  const embed = {
+    host: 'id="game-embed" class="embedded-game"',
+    frame: 'game-frame',
+    title: c.frameTitle,
+    src: `/play/screw-sort/?embed=1&lang=${lang}`,
+    loading: c.loading,
+  };
   const guideExtras = `<div class="play-guide">
       <section id="strategy" class="guide-section">
         <div class="guide-section-heading"><h3>${c.strategyTitle}</h3></div>

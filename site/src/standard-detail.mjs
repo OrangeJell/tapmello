@@ -144,7 +144,7 @@ export function renderStandardDetail(lang, game, {
               <button class="detail-play" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7Z" fill="currentColor"/></svg>${label.play}</button>
             </div>
           </div>
-          ${runtime ? `<div class="detail-native-runtime" data-layout="${runtime.layout}" hidden>${runtime.html}</div>` : `
+          ${runtime ? `<div class="detail-native-runtime" data-layout="${runtime.layout}" data-error="${escape(label.loadError)}" hidden>${runtime.html}</div>` : `
             <template><iframe title="${escape(game.title)}" src="${escape(game.url)}" allow="autoplay; fullscreen"></iframe></template>
             <div class="detail-partner-status" data-loading="${label.loading}" data-error="${label.loadError}" data-timeout="${label.loadTimeout}" hidden>
               <p role="status" tabindex="-1"></p>

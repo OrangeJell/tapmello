@@ -116,12 +116,6 @@ a:hover { text-decoration-color:var(--accent); }
 
 .embedded-game { position:relative; overflow:hidden; min-height:330px; max-width:880px; margin:auto; border:1px solid var(--line); border-radius:16px; background:#f4f5ee; }
 .embedded-game iframe { display:block; width:100%; height:760px; border:0; }
-.embedded-game[data-state="loading"] iframe,.embedded-game[data-state="error"] iframe { height:330px!important; visibility:hidden; }
-.embed-message { position:absolute; inset:0; display:grid; align-content:center; justify-items:center; gap:19px; padding:24px; text-align:center; background:var(--paper); transition:opacity .22s; }
-.embedded-game[data-state="ready"] .embed-message { display:none; }
-.embed-message p { max-width:36ch; font-size:15px; line-height:1.6; }
-.embed-retry { min-height:48px; padding:11px 18px; border:0; border-radius:6px; background:var(--ink); color:var(--white); font:inherit; cursor:pointer; }
-.embedded-game:not([data-state="error"]) .embed-retry { display:none; }
 .game-under { max-width:880px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; gap:16px; padding-top:8px; }
 .game-under p { color:var(--muted); font-size:12px; line-height:1.6; }
 .text-link { display:inline-flex; align-items:center; gap:10px; min-height:44px; font-size:13px; font-weight:600; }
@@ -297,23 +291,6 @@ html:lang(hi) .play-guide h2,html:lang(hi) .play-guide h3 { line-height:1.6; let
   .button:hover,.button:active,.preview-link:hover { transform:none; }
 }
 
-/* The loader is immediately available, before the iframe's modules arrive. */
-.loading-toy { position:relative; width:150px; height:120px; }
-.loading-box { position:absolute; bottom:5px; left:5px; width:140px; height:62px; display:flex; align-items:center; justify-content:center; gap:8px; border-radius:17px; border:2px solid #fff4c0; background:linear-gradient(#ffdc82,#ffbb55); box-shadow:0 6px 0 #dc9a45; }
-.loading-box i { width:30px; height:30px; border-radius:50%; background:#b9823530; box-shadow:inset 0 2px 3px #78562133; }
-.loading-box i:first-child { background:#f87f97; border:2px solid #ffb8bf; box-shadow:0 2px 0 #cf557a; }
-.loading-screw { position:absolute; z-index:2; top:2px; left:58px; width:36px; height:36px; display:grid; place-items:center; color:white; font-size:27px; font-weight:900; border-radius:50%; background:linear-gradient(135deg,#a38bff,#8160e5); box-shadow:inset 0 3px 0 #d1bfff,0 3px 0 #6346b0; animation:loader-screw 1.5s ease-in-out infinite; }
-.loading-spark { position:absolute; top:25px; right:0; color:#ffb728; font-size:27px; animation:loader-spark 1.5s ease-in-out infinite; }
-.embed-progress { width:min(235px,75%); height:12px; padding:3px; overflow:hidden; border-radius:20px; background:#dde7d6; box-shadow:inset 0 1px 3px #6a88532e; }
-.embed-progress span { display:block; width:40%; height:100%; border-radius:20px; background:linear-gradient(90deg,#8acdb7,#ffc86a); animation:loader-progress 1.5s ease-in-out infinite alternate; }
-.embedded-game[data-state="finishing"] .embed-progress span { animation:none; width:100%; transform:none; }
-.embedded-game[data-state="finishing"] .embed-message { opacity:0; pointer-events:none; }
-.embedded-game[data-state="error"] .embed-progress { display:none; }
-.embedded-game[data-state="error"] .loading-screw,.embedded-game[data-state="error"] .loading-spark { animation:none; }
-@keyframes loader-screw { 0%,15% { transform:translateY(-6px) rotate(-60deg) scale(1.1); } 60%,80% { transform:translateY(59px) rotate(180deg) scale(.8); } 100% { transform:translateY(-6px) rotate(300deg) scale(1.1); } }
-@keyframes loader-spark { 0%,25%,100% { transform:scale(.5); opacity:.25; } 65% { transform:scale(1.2) rotate(30deg); opacity:1; } }
-@keyframes loader-progress { from { transform:translateX(0); } to { transform:translateX(150%); } }
-@media(prefers-reduced-motion:reduce) { .loading-screw,.loading-spark,.embed-progress span { animation:none; } .embed-progress span { width:60%; } .embed-message { transition:none; } }
 /* Shared navigation and site palette. Homepage layout is in home.css. */
 :root{--paper:light-dark(#f8f7f2,#171e1c);--ink:light-dark(#272f2b,#e6eee8);--muted:light-dark(#60685e,#b3c1b8);--line:light-dark(#d6d9cb,#3a4941);--green:light-dark(#e8ebdf,#2c3933);--accent:light-dark(#285546,#a0d5b9);--font:Outfit,"Noto Sans Devanagari","Kohinoor Devanagari","Nirmala UI","Segoe UI",sans-serif}
 .header-inner{min-height:98px;position:relative}
@@ -366,10 +343,6 @@ html[data-theme="dark"] { color-scheme: dark; }
 .mahjong-heading>p{max-width:390px;color:var(--muted);font-size:16px;line-height:1.8}
 .mahjong-embed{position:relative;max-width:1080px;margin:auto}
 .mahjong-embed iframe{display:block;width:100%;height:700px;border:0;background:var(--paper);transition:opacity .15s}
-.mahjong-embed[data-state=loading] iframe{opacity:0}
-.mahjong-load{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;min-height:300px;background:var(--green);color:var(--muted)}
-.mahjong-load .outline-play{margin:0}
-.mahjong-embed[data-state=ready] .mahjong-load{display:none}
 .mahjong-direct{font-size:13px;text-align:right;margin-top:14px;color:var(--muted)}
 .mahjong-guides{margin-top:60px;scroll-margin-top:24px}
 .reading-heading{margin-bottom:25px}
@@ -426,7 +399,7 @@ html[lang^=hi] .reading-section h2,html[lang^=hi] .mahjong-guide-list h3{line-he
 .outline-play,.mahjong-guide-list>a,.mahjong-embed iframe{transition:none}}
 /* Marble Sort shares the site's quiet editorial layout with a compact playable machine. */
 
-.marble-main{padding-top:40px;padding-bottom:64px}.marble-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);align-items:start;gap:56px;margin-top:30px}.marble-player{min-width:0}.marble-embed{position:relative;border-radius:12px;overflow:hidden;background:#fff1da}.marble-embed iframe{display:block;border:0;width:100%;height:920px}.marble-embed[data-state=loading] iframe{opacity:0}.marble-load{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;padding:28px;text-align:center;background:light-dark(#fff1da,#302820)}.marble-load .outline-play{margin:0}.marble-load [hidden]{display:none}.marble-embed[data-state=ready] .marble-load{display:none}
+.marble-main{padding-top:40px;padding-bottom:64px}.marble-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);align-items:start;gap:56px;margin-top:30px}.marble-player{min-width:0}.marble-embed{position:relative;border-radius:12px;overflow:hidden;background:#fff1da}.marble-embed iframe{display:block;border:0;width:100%;height:920px}
 .marble-quick{padding:26px 0}.marble-quick h2{font-size:36px;font-weight:500;line-height:1.2;letter-spacing:-1px;margin:18px 0 30px}.marble-quick ol{padding-left:22px;display:grid;gap:22px;font-size:16px;line-height:1.85;color:var(--muted)}.marble-quick li{padding-left:8px}.marble-quick li b{color:var(--ink);font-weight:500}.marble-facts{display:flex;justify-content:space-between;gap:16px;border-block:1px solid var(--line);padding:24px 0;margin:30px 0}.marble-facts>span{display:flex;flex-direction:column;gap:8px;font-size:12px;color:var(--muted)}.marble-facts b{font-size:30px;font-weight:500;color:var(--ink)}.marble-save-note{font-size:13px;line-height:1.8;color:var(--muted);margin-top:22px}.marble-faq details{border-bottom:1px solid var(--line);padding:16px 0}.marble-faq summary{cursor:pointer;min-height:44px;padding:10px 0;line-height:1.7}.marble-faq details p{max-width:75ch;font-size:15px;line-height:1.9;padding:10px 0;color:var(--muted)}
 .marble-route{margin:30px 0;padding:26px 22px;background:light-dark(#e1eae5,#2b3933);border-radius:6px}.marble-route>div{display:flex;justify-content:space-between;align-items:center;gap:8px}.marble-route span{display:flex;flex-direction:column;align-items:center;gap:8px}.marble-route small{font-size:10px;letter-spacing:1px;color:var(--muted)}.marble-route b{display:grid;place-items:center;background:light-dark(#fffdf6,#222d28);border:1px solid light-dark(#b6c8be,#52675b);border-radius:9px;width:54px;height:54px;font-size:26px;font-weight:500}.marble-route i{font-style:normal;color:var(--muted)}.marble-route figcaption{font-size:13px;line-height:1.8;color:var(--muted);margin-top:22px}.marble-reading .reading-end{flex-wrap:wrap}.marble-reading time{font-size:12px;color:var(--muted)}
 

@@ -67,6 +67,78 @@ const partnerTemplate = screen.querySelector(':scope > template');
 const partnerStatus = screen.querySelector('.detail-partner-status');
 let partnerAttempt;
 
+function createNativeLoader({ onStart, onError, onReady } = {}) {
+  const panel = nativeHost.querySelector('.game-loader');
+  const status = panel.querySelector('.game-loader-status');
+  const bar = panel.querySelector('.game-loader-progress');
+  const retry = panel.querySelector('.game-loader-retry');
+  const loading = status.textContent;
+  let timer;
+  let visible = false;
+
+  function syncMotion() {
+    panel.toggleAttribute('data-animate', visible && !document.hidden);
+  }
+
+  new IntersectionObserver(([entry]) => {
+    visible = entry.isIntersecting;
+    syncMotion();
+  }).observe(nativeRuntime);
+  document.addEventListener('visibilitychange', syncMotion);
+
+  function fail(reason) {
+    if (nativeHost.dataset.state !== 'loading') return;
+    clearTimeout(timer);
+    nativeHost.dataset.state = 'error';
+    status.textContent = nativeRuntime.dataset.error;
+    retry.hidden = false;
+    if (document.activeElement === status) retry.focus({ preventScroll: true });
+    onError?.(reason);
+  }
+
+  function start(isRetry) {
+    clearTimeout(timer);
+    nativeFrame.inert = true;
+    nativeFrame.style.removeProperty('height');
+    panel.inert = false;
+    bar.removeAttribute('aria-valuenow');
+    nativeHost.dataset.state = 'loading';
+    status.textContent = loading;
+    if (document.activeElement === retry) status.focus({ preventScroll: true });
+    retry.hidden = true;
+    onStart?.(isRetry);
+    timer = setTimeout(() => fail('timeout'), 15000);
+  }
+
+  document.addEventListener('game-launch', () => start(false));
+  document.addEventListener('game-close', () => {
+    clearTimeout(timer);
+    nativeHost.dataset.state = 'idle';
+    nativeFrame.inert = true;
+  });
+  retry.addEventListener('click', () => {
+    start(true);
+    const url = new URL(nativeFrame.dataset.src, location.origin);
+    url.searchParams.set('retry', Date.now());
+    nativeFrame.contentWindow.location.replace(url);
+  });
+
+  return {
+    fail,
+    ready() {
+      if (!['loading', 'error'].includes(nativeHost.dataset.state)) return;
+      clearTimeout(timer);
+      const moveFocus = panel.contains(document.activeElement);
+      bar.setAttribute('aria-valuenow', '100');
+      nativeHost.dataset.state = 'ready';
+      nativeFrame.inert = false;
+      panel.inert = true;
+      if (moveFocus) nativeFrame.focus({ preventScroll: true });
+      onReady?.();
+    },
+  };
+}
+
 function stopPartnerGame() {
   if (!partnerAttempt) return;
   clearTimeout(partnerAttempt.timer);
@@ -172,6 +244,7 @@ startGame.addEventListener('click', () => {
     if (barReload) barReload.hidden = true;
     player.classList.remove('detail-is-playing');
     if (nativeFrame) {
+      document.dispatchEvent(new Event('game-close'));
       nativeRuntime.hidden = true;
       nativeFrame.contentWindow.location.replace('about:blank');
     } else {
@@ -191,7 +264,7 @@ startGame.addEventListener('click', () => {
       fallbackFullscreen(false);
       restorePreview();
     };
-    nativeFrame?.focus({ preventScroll: true });
+    nativeHost?.querySelector('.game-loader-status').focus({ preventScroll: true });
   }
   const mobilePlayer = document.documentElement.classList.contains('detail-mobile-playing');
   barBack.hidden = Boolean(nativeFrame) && !mobilePlayer;
@@ -203,7 +276,8 @@ if (nativeFrame && nativeRuntime.dataset.layout === 'board') {
     const width = screen.clientWidth;
     const height = screen.clientHeight;
     const narrow = matchMedia('(any-pointer: coarse)').matches && Math.min(innerWidth, innerHeight) <= 600;
-    const maxWidth = narrow && innerWidth > innerHeight ? 900 : 480;
+    const wideMarble = width >= 760 && nativeHost.matches('[data-marble-embed][data-playfield]');
+    const maxWidth = wideMarble || (narrow && innerWidth > innerHeight) ? 900 : 480;
     const boardWidth = Math.min(width, maxWidth);
     const frameHeight = parseFloat(nativeFrame.style.height);
     const ready = nativeHost.dataset.state === 'ready' && frameHeight > 0;
@@ -216,7 +290,7 @@ if (nativeFrame && nativeRuntime.dataset.layout === 'board') {
   new ResizeObserver(fitBoard).observe(screen);
   const observer = new MutationObserver(fitBoard);
   observer.observe(nativeRuntime, { attributes: true, attributeFilter: ['hidden'] });
-  observer.observe(nativeHost, { attributes: true, attributeFilter: ['data-state'] });
+  observer.observe(nativeHost, { attributes: true, attributeFilter: ['data-state', 'data-playfield'] });
   observer.observe(nativeFrame, { attributes: true, attributeFilter: ['style'] });
 }
 function updateFullscreen() {

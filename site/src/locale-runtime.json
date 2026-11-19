@@ -29,13 +29,5 @@
   "save.copyFallback": "Copy this address and open it in your browser:",
   "save.confirmed": "I have added it — stop reminding me",
   "save.confirmedStatus": "Thanks! We will stop showing game reminders on this browser.",
-  "save.progress": "Progress is saved in this browser. On iPhone or iPad, a home-screen app may have separate progress.",
-  "glass.error": "Glass Twist could not load. Try again or open the game directly.",
-  "glass.failed": "Loading failed",
-  "glass.loading": "Loading",
-  "glass.start": "Loading Glass Twist…",
-  "glass.ready": "Ready to play!",
-  "mahjong.loading": "Loading the tiles…",
-  "marble.loading": "Opening the offices…",
-  "game.error": "The game could not load. Try again or open it on its own."
+  "save.progress": "Progress is saved in this browser. On iPhone or iPad, a home-screen app may have separate progress."
 }

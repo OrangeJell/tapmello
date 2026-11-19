@@ -184,7 +184,13 @@ export const marbleGuides = [
 function guideList(lang,current){return `<div class="mahjong-guide-list">${marbleGuides.filter(a=>a.id!==current).map((a,i)=>`<a href="${marbleGuidePath(lang,a.id)}"><span class="guide-number">${String(i+1).padStart(2,'0')}</span><div><h3>${esc(a.title[lang])}</h3><p>${esc(a.lead[lang])}</p></div><span aria-hidden="true">↗</span></a>`).join('')}</div>`;}
 function openingDiagram(lang){return `<figure class="marble-route"><div>${createLevel(1).stages[0].route.map((column,i)=>`<span><small>${copy(lang,'MOVE','चाल')} ${i+1}</small><b>${column+1}</b></span>`).join('<i aria-hidden="true">→</i>')}</div><figcaption>${copy(lang,'Count columns from left to right. Let each group board before opening the next office.','कॉलम बाएँ से दाएँ गिनें। अगला दफ़्तर खोलने से पहले पिछले समूह को चढ़ने दें।')}</figcaption></figure>`;}
 export function renderMarble(lang, sharedOnly){
- const embed = `<div class="marble-embed" data-marble-embed data-language="${lang}" data-state="loading"><iframe id="marble-frame" title="${copy(lang,'Clock Out! conveyor puzzle','छुट्टी हुई! कन्वेयर पहेली')}" src="/play/marble-sort/?embed=1&amp;lang=${lang}"></iframe><div class="marble-load" role="status"><p data-marble-status>${copy(lang,'Opening the offices…','दफ़्तर खुल रहे हैं…')}</p><button type="button" class="outline-play" data-marble-retry hidden>${copy(lang,'Try again','फिर कोशिश करें')}</button></div></div>`;
+ const embed = {
+   host: `class="marble-embed" data-marble-embed data-language="${lang}"`,
+   frame: 'marble-frame',
+   title: copy(lang,'Clock Out! conveyor puzzle','छुट्टी हुई! कन्वेयर पहेली'),
+   src: `/play/marble-sort/?embed=1&lang=${lang}`,
+   loading: copy(lang,'Opening the offices…','दफ़्तर खुल रहे हैं…'),
+ };
  const guideExtras = `<section id="levels" class="commute-levels"><div class="reading-heading"><h3>${copy(lang,'A trickier ride, one shift at a time','हर पारी के साथ कठिन सफ़र')}</h3><p>${copy(lang,'Start with a three-colour tutorial. From level 2, queues change and space gets tighter. Some levels from level 5 have two late decisions that can jam the loop.','तीन रंगों वाले पहले स्तर में खेल सीखें। दूसरे स्तर से कतारें बदलती हैं और जगह कम पड़ती है। पाँचवें स्तर से कुछ स्तरों में आखिर की दो गलत चालें पथ जाम कर सकती हैं।')}</p></div><ol>${[
  [1,1,'Learn to match riders','यात्रियों के रंग मिलाएँ','Six single-colour offices and matching buses teach the basics.','एक-एक रंग वाले छह दफ़्तरों और उनकी बसों से खेल सीखें।'],
  [2,5,'Match first, plan next','पहले रंग मिलाएँ, फिर योजना बनाएँ','Start with visible matching offices. Blocked targets arrive later; from level 2, mixed offices add a challenge near the end.','सामने के मिलते दफ़्तरों से शुरू करें। रुके लक्ष्य बाद में आते हैं। स्तर 2 से अंत के पास मिले रंग वाले दफ़्तर चुनौती बढ़ाते हैं।'],

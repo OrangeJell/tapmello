@@ -25,8 +25,8 @@
   <main class="game" data-i18n-label="game" aria-label="Clock Out! shuttle puzzle">
     <section id="lobby" class="lobby">
       <div class="lobby-top">
-        <button id="home-settings" class="icon-button" data-i18n-label="settings"><svg aria-hidden="true"><use href="#i-settings"/></svg></button>
         <span id="unlocked"></span>
+        <button id="home-settings" class="icon-button" data-i18n-label="settings"><svg aria-hidden="true"><use href="#i-settings"/></svg></button>
       </div>
       <div class="lobby-heading">
         <h1 data-i18n="brand">Clock Out!</h1>
@@ -36,7 +36,7 @@
       <div class="lobby-actions">
         <label id="loading-label" for="loading" data-i18n="loading">Getting the buses ready…</label>
         <progress id="loading" max="1" value="0"></progress>
-        <button id="start" hidden>Play level 1</button>
+        <button id="start" hidden><span id="start-label">Play level 1</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
       </div>
     </section>
     <div id="playfield" hidden inert>

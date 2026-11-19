@@ -352,6 +352,10 @@ html.detail-expanded { overflow: hidden; }
   transform: scale(var(--board-scale, 1));
   transform-origin: top left;
 }
+.detail-native-runtime[data-layout="board"] > [data-marble-embed][data-state="ready"] {
+  /* The unscaled iframe should never move the fitted view when focus changes. */
+  overflow: clip;
+}
 .detail-mobile-playing .detail-native-runtime > [data-marble-embed][data-state="ready"] {
   width: 100%;
   height: 100%;
@@ -362,7 +366,88 @@ html.detail-expanded { overflow: hidden; }
   transform: none;
 }
 .detail-native-runtime[data-layout="flow"] > [data-state="ready"] { overflow: auto; }
-.detail-native-runtime :is(.marble-load, .mahjong-load, .embed-message) { border-radius: 0; }
+.game-loader {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: safe center;
+  gap: 12px;
+  padding: 16px;
+  overflow: auto;
+  background: radial-gradient(ellipse at 50% 36%, #2b2848, #17202f 70%);
+  color: #f5f1ff;
+  text-align: center;
+}
+.game-loader-art {
+  width: clamp(52px, 11vh, 88px);
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 20%;
+  box-shadow: 0 8px 24px #101525a6;
+  margin-bottom: 4px;
+}
+.game-loader-status {
+  max-width: 34ch;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.game-loader-status:focus { outline: none; }
+.game-loader-progress {
+  direction: ltr;
+  width: min(184px, 100%);
+  height: 6px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #4c4966;
+}
+.game-loader-progress span {
+  display: block;
+  width: 40%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #927cff, #cfb7ff);
+}
+[data-state="loading"] .game-loader-progress span {
+  animation: game-loader-sweep 1.1s cubic-bezier(.45, 0, .55, 1) infinite alternate;
+  animation-play-state: paused;
+}
+[data-state="loading"] .game-loader[data-animate] .game-loader-progress span {
+  animation-play-state: running;
+}
+@keyframes game-loader-sweep {
+  to { transform: translateX(150%); }
+}
+.detail-native-runtime [data-state="ready"] > .game-loader {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 150ms ease-out, visibility 150ms;
+}
+[data-state="ready"] .game-loader-progress span { width: 100%; }
+[data-state="error"] .game-loader-progress { display: none; }
+.game-loader-retry {
+  min-height: 44px;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 9px;
+  background: #6854ec;
+  color: white;
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+.game-loader-retry:hover { background: #5841dc; }
+.game-loader-retry:focus-visible { outline: 2px solid #f5f1ff; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  [data-state="loading"] .game-loader-progress span { animation: none; margin-inline: auto; }
+  .detail-native-runtime [data-state="ready"] > .game-loader { transition: none; }
+}
 .detail-player .detail-native-runtime[hidden] { display: none; }
 .detail-guides { grid-column: 1 / -1; min-width: 0; }
 .detail-extra-link { display: block; padding-block: 12px; color: var(--accent); }
