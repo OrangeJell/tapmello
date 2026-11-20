@@ -20,9 +20,6 @@
   --nav-selected-text: light-dark(#42237a, #f2eaff);
   padding-inline-start: var(--nav-rail);
 }
-@media (min-width: 1200px) {
-  .discovery-shell { --nav-rail: var(--nav-open); }
-}
 .has-mobile-discovery .discovery-shell { --nav-rail: 0px; }
 .has-mobile-discovery:has(.discovery-drawer[open]) { overflow: hidden; }
 .discovery-shell .site-header {
@@ -159,17 +156,6 @@
   color: var(--nav-text);
   transition: clip-path 190ms cubic-bezier(.2,.7,.2,1);
   outline: none;
-}
-@media (min-width: 1200px) {
-  .discovery-nav {
-    --nav-link-inset: 12px;
-    --nav-item-width: 100%;
-    --nav-rule-width: calc(100% - 2 * var(--nav-group-inset));
-    clip-path: none;
-    background-image: none;
-  }
-  .discovery-nav .discovery-nav-label { opacity: 1; }
-  .discovery-nav .discovery-toggle:not([hidden]) { display: none; }
 }
 .discovery-nav:is(.is-open, :focus-within):not(.is-dismissed) {
   --nav-item-width: 100%;

@@ -3,7 +3,6 @@ const toggle = document.querySelector('.discovery-toggle');
 const mobileToggle = document.querySelector('.discovery-mobile-toggle');
 const categoryDrawer = document.querySelector('.discovery-drawer');
 const mobileNavigation = matchMedia('(max-width: 700px), (any-pointer: coarse) and (max-height: 600px)');
-const compactNavigation = matchMedia('(width < 1200px)');
 
 if (navigation && toggle) {
   const categoryList = navigation.querySelector('.discovery-nav-categories');
@@ -44,7 +43,7 @@ if (navigation && toggle) {
     if (navigation.classList.contains('is-open')) setOpen(false);
   });
   document.addEventListener('keydown', event => {
-    if (categoryDrawer.open || !compactNavigation.matches) return;
+    if (categoryDrawer.open) return;
     if (event.key !== 'Escape' || !navigation.matches(':focus-within, :hover, .is-open')) return;
     setOpen(false);
     if (navigation.contains(document.activeElement)) {
