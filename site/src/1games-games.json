@@ -2054,5 +2054,437 @@
         ]
       }
     }
+  },
+  {
+    "id": "hole-arena",
+    "title": "Hole Arena",
+    "category": {
+      "en": "Growing hole arena"
+    },
+    "source": "https://1games.io/hole-arena",
+    "url": "https://hole-arena.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/hole-arena-icon.png",
+      "artwork": "/assets/1games/hole-arena-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/hole-arena-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/hole-arena/hole-arena.png",
+        "artwork": "https://1games.io/data/image/game/hole-arena/banner/hole-arena_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/hole-arena/hole-arena.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-04-13",
+      "genres": [
+        "io",
+        "arcade"
+      ],
+      "tags": [
+        "hole-io",
+        "grow-games",
+        "competitive-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Guide a growing hole through city blocks in Hole Arena. Eat small objects first, take on larger targets and choose when to use power-ups.",
+        "aboutTitle": "Grow through the city one block at a time",
+        "about": [
+          "At the start of a match, your opening is too small for most of the city. Clear a tight group of props you can already swallow. Once you grow, check parked vehicles and other targets you passed earlier.",
+          "Watch the size of rival holes as you move between groups of objects. A larger rival can swallow you, so leave space to turn away. Check the clock before crossing a sparse block when another set of smaller objects is nearby.",
+          "Power-ups solve different problems. Magnet pulls in nearby objects, Speed helps in transit, Get Bigger increases your starting size and Shrink makes some targets easier to swallow. Pick the boost that fits the stage of the match."
+        ],
+        "steps": [
+          [
+            "Move across the map",
+            "Drag with the mouse or use the arrow keys. Guide the center of the hole under objects that fit."
+          ],
+          [
+            "Clear a group of small props",
+            "Make several pickups in one area before heading for a large target. Check the new size of the opening after you grow."
+          ],
+          [
+            "Keep clear of larger rivals",
+            "When a bigger hole enters your block, move toward open space or another group of objects that you can reach safely."
+          ],
+          [
+            "Use boosts where they save time",
+            "Use Magnet near a crowd of small props. Consider Shrink if nearby targets are still too large to swallow."
+          ]
+        ],
+        "faq": [
+          [
+            "Why does the hole roll past some objects?",
+            "They may be wider than the opening. Eat smaller objects to grow, or use Shrink to reduce a nearby target."
+          ],
+          [
+            "How do I move faster?",
+            "Use the Speed boost. The arrow keys and mouse drag control direction."
+          ],
+          [
+            "Is there a mode beyond timed matches?",
+            "Yes. The game also offers Endless mode and side missions with their own objectives."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "long-leg-master",
+    "title": "Long Leg Master",
+    "category": {
+      "en": "Walking balance"
+    },
+    "source": "https://1games.io/long-leg-master",
+    "url": "https://long-leg-master.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/long-leg-master-icon.png",
+      "artwork": "/assets/1games/long-leg-master-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/long-leg-master-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/long-leg-master/long-leg-master.png",
+        "artwork": "https://1games.io/data/image/game/long-leg-master/banner/long-leg-master_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/long-leg-master/long-leg-master.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-08",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "one-button-games",
+        "timing-games",
+        "endless-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Switch legs to walk through Long Leg Master. Time short strides, correct your balance on uneven ground and see how far your character can go.",
+        "aboutTitle": "Watch the body before taking the next step",
+        "about": [
+          "Long Leg Master turns each stride into a balance decision. Press Space or click to switch the active leg, then watch how the character moves before you switch again.",
+          "The tall body can lean ahead of its legs when it builds momentum. Smaller steps on uneven terrain give you more chances to recover. Use the first few steps to learn the timing before trying to gain distance quickly.",
+          "The character's eyes give you a clue when balance starts to go. If a section keeps ending your run, watch the body during the preceding stride. Adjust that input first and see whether the next switch leaves you upright."
+        ],
+        "steps": [
+          [
+            "Switch the active leg",
+            "Press Space or click the left mouse button. Wait for the stride to develop so you can see where the body is leaning."
+          ],
+          [
+            "Find a repeatable pace",
+            "Take a few short strides on clear ground. Learn how much momentum builds between switches."
+          ],
+          [
+            "Shorten steps on uneven terrain",
+            "Make smaller adjustments when the next foothold changes height. Check the alignment of the legs before adding speed."
+          ],
+          [
+            "Study the stride before a fall",
+            "Review which leg was active when the body leaned forward. Try changing the timing of that switch on the next run."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I need separate keys for the two legs?",
+            "No. Space or left-click switches which leg is active."
+          ],
+          [
+            "Why does speeding up end my run?",
+            "Longer, rushed strides can move the body too far ahead of its legs. Try a smaller step before the next switch."
+          ],
+          [
+            "What happens after a fall?",
+            "A fall ends the current attempt. Start again and use the stride that preceded the fall as a cue to adjust your timing."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "rooster-road",
+    "title": "Rooster Road",
+    "category": {
+      "en": "Traffic crossing"
+    },
+    "source": "https://1games.io/rooster-road",
+    "url": "https://rooster-road.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/rooster-road-icon.png",
+      "artwork": "/assets/1games/rooster-road-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/rooster-road-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/rooster-road/rooster-road.png",
+        "artwork": "https://1games.io/data/image/game/rooster-road/banner/rooster-road_1200x12001.png",
+        "preview": "https://cdn.1games.io/file/game/rooster-road/rooster-road.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-06",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "chicken-games",
+        "obstacles-games",
+        "competitive-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Cross busy lanes in Rooster Road. Hold to advance, release to wait and pick safe openings while racing other animals to the finish.",
+        "aboutTitle": "Cross lanes at your own pace",
+        "about": [
+          "Rooster Road places your animal on a crowded road with other racers. Holding the mouse button moves you forward. Releasing it stops forward motion or may move the animal slightly back, so check your position before the next push.",
+          "Each lane has its own traffic rhythm. You can start across one lane and still run into a vehicle in the next. Look at both lanes before deciding whether a gap gives you time for one move or two.",
+          "Other racers can make a narrow gap look inviting. Follow the cars and trucks in your own path before committing. In a practice run, focus on surviving each crossing and learn where you can wait between moves."
+        ],
+        "steps": [
+          [
+            "Advance with a hold",
+            "Click and hold to move the animal forward. Start with a short burst so you can judge how much ground it covers."
+          ],
+          [
+            "Release to wait",
+            "Let go before entering a lane with incoming traffic. Check whether the animal shifts backward before aiming for the next gap."
+          ],
+          [
+            "Read two lanes ahead",
+            "Look for a place to pause after the first crossing. Move farther only if the next lane is clear for long enough."
+          ],
+          [
+            "Choose your own crossing",
+            "When other racers rush ahead, watch the next vehicle instead of copying the group. Take the opening you can actually reach."
+          ]
+        ],
+        "faq": [
+          [
+            "What happens when I let go of the mouse button?",
+            "Your forward movement stops, and the animal may move slightly backward. Check its position before holding again."
+          ],
+          [
+            "Does hitting a car end the run?",
+            "Yes. Contact with traffic or other obstacles can eliminate you from the race."
+          ],
+          [
+            "What should I practice before competitive races?",
+            "Practice holding long enough to cross one lane and releasing in time to wait for the next gap."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "drift-rush",
+    "title": "Drift Rush",
+    "category": {
+      "en": "Drift racing"
+    },
+    "source": "https://1games.io/drift-rush",
+    "url": "https://drift-rush.1games.io/",
+    "width": 485,
+    "height": 273,
+    "media": {
+      "icon": "/assets/1games/drift-rush-icon.png",
+      "artwork": "/assets/1games/drift-rush-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/drift-rush-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/drift-rush/drift-rush.png",
+        "artwork": "https://1games.io/data/image/game/drift-rush/banner/drift-rush_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/drift-rush/drift-rush.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-11",
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "race-games",
+        "car-tuning-games",
+        "competitive-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Link corners and build drift scores in Drift Rush. Tune your car, run career events and test your handling on city, mountain and circuit tracks.",
+        "aboutTitle": "Set up a drift that carries into the next corner",
+        "about": [
+          "Drift Rush scores controlled slides around marked areas. Look at your speed and angle on approach. A steady slide through the scoring zone gives you a better chance of carrying momentum into the next bend.",
+          "Courses range from tight city corners to mountain routes and circuits. Linked corners reward a clean transition. Set the car up for the next turn as you finish the first, especially when the road changes direction quickly.",
+          "Career events unlock cars and customization. Tire, suspension and engine upgrades change how a car behaves. Try a new setup on a familiar event so you can judge whether the change helped your corner exits."
+        ],
+        "steps": [
+          [
+            "Learn speed and steering controls",
+            "Use WASD or the arrow keys to drive. Follow the game's mouse prompts for drift and gear actions."
+          ],
+          [
+            "Approach the drift zone at a manageable speed",
+            "Set the car's speed before turning. Watch the marked clipping area as you adjust your angle."
+          ],
+          [
+            "Connect nearby turns",
+            "As one slide ends, look into the next corner and set up its approach. Smooth throttle changes give you time to change direction."
+          ],
+          [
+            "Tune one part at a time",
+            "Try a tire or suspension change on a track you know. Compare how easily you can hold a slide and straighten up afterward."
+          ]
+        ],
+        "faq": [
+          [
+            "What are clipping zones?",
+            "They mark areas where the course rewards accurate positioning during a drift."
+          ],
+          [
+            "What can I unlock in Career?",
+            "Completed events can open more cars, upgrades and customization options."
+          ],
+          [
+            "What should I adjust if I keep losing the line?",
+            "First try a slower approach and a steadier throttle. Once you can repeat the same entry, compare a tire or suspension change."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "arcade-glide",
+    "title": "Arcade Glide",
+    "category": {
+      "en": "One-button drifting"
+    },
+    "source": "https://1games.io/arcade-glide",
+    "url": "https://arcade-glide.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/arcade-glide-icon.png",
+      "artwork": "/assets/1games/arcade-glide-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/arcade-glide-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/arcade-glide/arcade-glide.png",
+        "artwork": "https://1games.io/data/image/game/arcade-glide/banner/arcade-glide_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/arcade-glide/arcade-glide.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-06",
+      "genres": [
+        "driving",
+        "arcade"
+      ],
+      "tags": [
+        "one-button-games",
+        "endless-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Swing around corners in Arcade Glide. Hold to attach the car to a roadside anchor, release to line up the next stretch and collect gems.",
+        "aboutTitle": "Release the sling as the car lines up with the road",
+        "about": [
+          "Your car accelerates along an endless road. Holding the mouse button near an anchor swings the car around the corner. Releasing detaches it, so your direction at release determines where you head next.",
+          "Look at the exit before attaching. Broad curves can give you time to hold the swing, while a tight turn may call for a quicker release. The next anchor can arrive shortly after the previous corner, so leave room to make the next approach.",
+          "One collision ends the run. Longer drives can earn more gems and unlock more cars. Use early attempts to learn the release angle on short turns and carry that timing into faster sections."
+        ],
+        "steps": [
+          [
+            "Attach at a corner",
+            "Hold the mouse button when the car reaches a usable anchor. Watch the car start to arc around it."
+          ],
+          [
+            "Release toward open road",
+            "Let go when the front of the car points roughly along the next stretch. Follow the exit angle instead of holding for a fixed count."
+          ],
+          [
+            "Prepare for the next anchor",
+            "After release, look ahead to the next direction change. A line near the middle gives you room to correct before the next swing."
+          ],
+          [
+            "Adjust to tighter bends",
+            "On a short corner, try releasing earlier. If you keep striking the outer wall, watch where the nose of the car points at the moment you let go."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I steer the car with the arrow keys?",
+            "The published control uses the mouse button. Hold to attach to an anchor and release to detach."
+          ],
+          [
+            "What happens when I hit a barrier?",
+            "The crash ends your current run, so the next attempt starts from the beginning."
+          ],
+          [
+            "How do I get more cars?",
+            "Survive longer to earn more gems. Progress unlocks additional cars."
+          ]
+        ]
+      }
+    }
   }
 ]
