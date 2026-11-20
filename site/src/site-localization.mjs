@@ -24,6 +24,12 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
     }
     // English editorial revisions can reuse the previous translation until that locale is edited.
     const translationKey = Object.hasOwn(dictionary, key) ? key : editorialAliases[key] ?? key;
+    // Category totals vary with the catalog. Reuse the locale's plural count wording.
+    const gameTotal = /^([0-9]+) games$/.exec(key);
+    const pluralGameCount = dictionary['2 games'];
+    if (!Object.hasOwn(dictionary, translationKey) && gameTotal && pluralGameCount?.includes('2')) {
+      return value.replace(key, () => pluralGameCount.replace('2', gameTotal[1]));
+    }
     const translated = Object.hasOwn(dictionary, translationKey) && dictionary[translationKey];
     assert.ok(typeof translated === 'string' && translated.trim(), `Missing ${code} translation at ${location}: ${key}`);
     assert.deepEqual(placeholders(translated), placeholders(key), `Invalid ${code} placeholders at ${location}: ${key}`);
@@ -126,4 +132,4 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
   return { html, catalogue, translate };
 }
 
-export const brandNames = new Set(['tap', 'melo', 'tapmelo', 'Jelly', 'Playgama', 'X', 'Google Analytics', 'iOS', 'Android', 'Fazier', 'EN', 'HI', 'Chrome', 'Safari']);
+export const brandNames = new Set(['tap', 'melo', 'tapmelo', 'Jelly', 'Playgama', '1Games', '1Games.IO', 'X', 'Google Analytics', 'iOS', 'Android', 'Fazier', 'EN', 'HI', 'Chrome', 'Safari']);

@@ -1,6 +1,6 @@
 import { languageCodes, languages, localPath, pageAlternates } from './languages.mjs';
 import { renderStandardDetail } from './standard-detail.mjs';
-import { catalogueFor, discoveryIcon, gameCount, gamesLabel, gamesPath, genrePath, genres, playedGamesLabel, playedGamesPath, renderCategoryLinks, renderDiscoveryNav, renderMobileDiscovery, tagName, tagPath, tagsLabel, tagsPath } from './discovery.mjs';
+import { catalogueFor, discoveryIcon, discoveryUpdated, gameCount, gamesLabel, gamesPath, genrePath, genres, playedGamesLabel, playedGamesPath, renderDiscoveryBrand, renderDiscoveryNav, renderMobileDiscovery, tagName, tagPath, tagsLabel, tagsPath } from './discovery.mjs';
 import { renderGameDetail } from './game-stage.mjs';
 import { renderGameTile } from './game-tile.mjs';
 import { levels, origin, screenshot, updated } from './game.mjs';
@@ -32,11 +32,11 @@ export function renderHome(lang, sharedOnly) {
   for (let i = initialCount; i < games.length; i += batchSize) batches.push(games.slice(i, i + batchSize));
 
   return `<main id="main" class="shell collection-main" tabindex="-1">
-    <h1 class="collection-heading">${gamesLabel(lang)}</h1>
     <section class="continue-playing" aria-labelledby="continue-playing-title" hidden>
       <h2 id="continue-playing-title"><a href="${playedGamesPath(lang)}">${hi ? 'खेलना जारी रखें' : 'Continue playing'}${discoveryIcon('next')}</a></h2>
       <div class="game-collection" data-played-games></div>
     </section>
+    <h1 class="home-games-heading">${hi ? 'गेम लाइब्रेरी' : 'Game library'}</h1>
     <div id="games" class="game-collection" tabindex="-1">
 ${games.slice(0, initialCount).map(game => renderGameTile(game)).join('\n')}
     </div>
@@ -53,23 +53,17 @@ export function discoveryPages(lang, sharedOnly) {
   const { games, byGenre, byTag, tags } = catalogueFor(lang, sharedOnly);
   const page = (route, heading, description, main) => ({
     language: lang, kind: 'browse', path: route(lang), title: `${heading} | tapmelo`, description,
-    alternates: { en: route('en'), hi: route('hi') }, main,
+    alternates: { en: route('en'), hi: route('hi') }, main, updated: discoveryUpdated,
   });
-  const listing = (route, heading, description, items, style = '', back = null, intro = '') => page(route, heading, description, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
+  const listing = (route, heading, description, items, style = '', back = null) => page(route, heading, description, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
     ${back ? `<nav class="discovery-breadcrumb" aria-label="${hi ? 'पेज का पथ' : 'Breadcrumb'}"><a href="${back[0]}">${back[1]}</a>${discoveryIcon('next')}<span aria-current="page">${escape(heading)}</span></nav>` : ''}
-    <header class="browse-heading"${style}>${intro ? `<div><h1>${escape(heading)}</h1><p>${escape(intro)}</p></div>` : `<h1>${escape(heading)}</h1>`}<span class="browse-count">${gameCount(lang, items.length)}</span></header>
-    ${back ? '' : renderCategoryLinks(lang, sharedOnly)}
+    <header class="browse-heading"${style}><h1>${escape(heading)}</h1><span class="browse-count">${gameCount(lang, items.length)}</span></header>
     <div class="game-collection" id="games" tabindex="-1">${items.map(game => renderGameTile(game)).join('')}</div>
   </main>`);
   const tagDescription = hi ? 'सभी टैग देखें और अपनी पसंद के गेम खोजें।' : 'Browse every tag, from game mechanics to themes. Pick one to see matching games.';
   const tagHeading = tagsLabel(lang);
   const playedHeading = playedGamesLabel(lang);
   const playedDescription = hi ? 'इस ब्राउज़र में खेले गए गेम देखें।' : 'Find the games you’ve played in this browser.';
-  const christmas = {
-    heading: 'Free Christmas Games Online',
-    description: 'Play free Christmas games in your browser. Deliver presents with Santa, design an ugly Christmas sweater, or decorate a tree with a friend on one device.',
-    intro: 'Take Santa’s car over snowy ramps, dress up for Christmas Eve, or restore a winter forest in a Christmas merge puzzle. For two players on one device, try decorating the tree together in Snowy Adventures with Noob and Pro.',
-  };
   return [
     listing(gamesPath, gamesLabel(lang), hi ? 'tapmelo की पूरी गेम लाइब्रेरी देखें।' : 'Explore the full tapmelo library and play any game right in your browser.', games),
     { ...page(playedGamesPath, playedHeading, playedDescription, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
@@ -79,11 +73,10 @@ export function discoveryPages(lang, sharedOnly) {
       <template data-played-catalogue>${games.map(game => renderGameTile(game)).join('')}</template>
     </main>`), noindex: true },
     ...Object.values(genres).filter(genre => byGenre.has(genre.id)).map(genre => {
-      const copy = !hi && genre.id === 'christmas' ? christmas : null;
       const description = hi ? `${genre.hi} श्रेणी के गेम ब्राउज़र में खेलें।` : `Explore ${genre.en.toLowerCase()} games you can play right in your browser.`;
       return listing(
-        language => genrePath(language, genre.id), copy?.heading ?? genre[lang], copy?.description ?? description,
-        byGenre.get(genre.id), ` style="--browse-tint:${genre.fill};--browse-accent:${genre.ink}"`, [gamesPath(lang), gamesLabel(lang)], copy?.intro,
+        language => genrePath(language, genre.id), genre[lang], description,
+        byGenre.get(genre.id), ` style="--browse-tint:${genre.fill};--browse-accent:${genre.ink}"`, [gamesPath(lang), gamesLabel(lang)],
       );
     }),
     page(tagsPath, tagHeading, tagDescription, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
@@ -94,7 +87,7 @@ export function discoveryPages(lang, sharedOnly) {
   ];
 }
 
-export function renderPlaygama(lang, game, sharedOnly) {
+export function renderPartnerGame(lang, game, sharedOnly) {
   return renderStandardDetail(lang, game, { ...game.details[lang], sharedOnly });
 }
 
@@ -266,7 +259,7 @@ ${standardDetail || page.kind === 'home' || page.path === playedGamesPath(lang) 
   <header class="site-header">
     <div class="header-inner has-compact-nav">
       ${mobileDiscovery.toggle}
-      <a class="brand" href="${c.home}" aria-label="${c.homeLabel}"><span class="brand-mark"><img src="/favicon-fox.png" alt="" width="96" height="96"></span><span lang="en">tap<span class="brand-light">melo</span></span></a>
+      <a class="brand" href="${c.home}" aria-label="${c.homeLabel}">${renderDiscoveryBrand()}</a>
       ${renderSiteSearch(lang)}
       <div class="header-actions">
         ${page.kind === 'guide' ? `<button type="button" class="save-tapmelo" data-save-tapmelo>${c.save}</button>` : ''}

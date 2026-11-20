@@ -1,19 +1,19 @@
-import { translatedLanguages, localPath } from '../src/languages.mjs';
+import { languageCodes, translatedLanguages, localPath } from '../src/languages.mjs';
 import { createLocalizer, brandNames } from '../src/site-localization.mjs';
 import { writeFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { copyFile, cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { appendFile, copyFile, cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { origin, updated } from '../src/game.mjs';
-import { catalogueFor, genres, tagName } from '../src/discovery.mjs';
+import { catalogueFor, discoveryUpdated, gamesPath, genrePath, genres, retiredGenres, tagName } from '../src/discovery.mjs';
 import { locales } from '../src/locales.mjs';
-import { playgamaGamesFor, playgamaPath } from '../src/playgama.mjs';
+import { partnerGamesFor, partnerGamePath } from '../src/partner-games.mjs';
 const extractLocales = process.argv.includes('--extract-locales');
 const extractHindiInfo = process.argv.includes('--extract-hi-info');
 const extracting = extractLocales || extractHindiInfo;
 if (!extracting) await import('../../mahjong-tutor/scripts/prepare-locales.mjs');
-const { discoveryPages, renderGame, renderHome, renderPage, renderPlaygama } = await import('../src/render.mjs');
+const { discoveryPages, renderGame, renderHome, renderPage, renderPartnerGame } = await import('../src/render.mjs');
 const { articles, coverSVG, mahjongPath, mahjongGuidePath, renderMahjong, renderMahjongArticle, mahjongUpdated } = await import('../src/mahjong.mjs');
 import { marbleGuides, marblePath, marbleGuidePath, renderMarble, renderMarbleGuide, marbleUpdated } from '../src/marble.mjs';
 import { level2Guides, renderLevel2Guide } from '../src/level-2-guide.mjs';
@@ -74,11 +74,11 @@ for (const edition of ['shared', 'en', 'hi']) {
   if (sharedOnly) sharedEnglishCatalogue = catalogue;
   else catalogues.push([language, catalogue]);
   const c = locales[language];
-  pages.push({ language, kind: 'home', cover:'/assets/shuttle-cover.png', coverHeight:732, coverAlt:language==='hi'?'जानवर और उनकी चार बस कतारें':'Animal coworkers and their four shuttle queues', updated: marbleUpdated, path: c.home, title: c.homeTitle, description: c.description, main: renderHome(language, sharedOnly) });
+  pages.push({ language, kind: 'home', cover:'/assets/shuttle-cover.png', coverHeight:732, coverAlt:language==='hi'?'जानवर और उनकी चार बस कतारें':'Animal coworkers and their four shuttle queues', updated: discoveryUpdated, path: c.home, title: c.homeTitle, description: c.description, main: renderHome(language, sharedOnly) });
   pages.push({ language, kind: 'game', path: c.game, title: c.gameTitle, description: c.gameDescription, updated: detailUpdated, main: renderGame(language, sharedOnly) });
   const hi=language==='hi';
-  for (const game of playgamaGamesFor(language, sharedOnly)) {
-    const gamePath = playgamaPath(language, game);
+  for (const game of partnerGamesFor(language, sharedOnly)) {
+    const gamePath = partnerGamePath(language, game);
     const url = origin + gamePath;
     const detail = game.details[language];
     const playTitle = hi ? game.title + ' ऑनलाइन खेलें' : 'Play ' + game.title + ' Online';
@@ -90,9 +90,13 @@ for (const edition of ['shared', 'en', 'hi']) {
       structured: {
         '@context': 'https://schema.org', '@type': 'WebPage', url,
         name: game.title, description: detail.summary, inLanguage: language, dateModified: detailUpdated,
-        mainEntity: { '@type': 'VideoGame', name: game.title, image: origin + game.artwork, genre: game.category[language] },
+        mainEntity: {
+          '@type': 'VideoGame', name: game.title, image: origin + game.artwork, genre: game.category[language],
+          ...(game.metadata.developer && { author: { '@type': 'Organization', name: game.metadata.developer } }),
+          ...(game.metadata.releaseDate && { datePublished: game.metadata.releaseDate }),
+        },
       },
-      main: renderPlaygama(language, game, sharedOnly),
+      main: renderPartnerGame(language, game, sharedOnly),
     });
   }
   const mahjongTitle=hi?'माहजोंग सीखें — टाइलें, अभ्यास और लेख | tapmelo':'Learn Mahjong Online – Free Beginner Practice | tapmelo';
@@ -188,6 +192,14 @@ for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
 for (const page of pages.filter(page => !page.localized)) {
   await writePage(page.path, renderPage(page, page.main));
 }
+const publishedRoutes = new Set(pages.map(page => page.path));
+const retiredCategoryRedirects = languageCodes.flatMap(code => Object.entries(retiredGenres).flatMap(([oldId, newId]) => {
+  const from = localPath(code, genrePath('en', oldId));
+  const category = localPath(code, genrePath('en', newId));
+  const to = publishedRoutes.has(category) ? category : localPath(code, gamesPath('en'));
+  return [`${from.slice(0, -1)} ${to} 301`, `${from} ${to} 301`];
+}));
+await appendFile(path.join(root, 'dist', '_redirects'), retiredCategoryRedirects.join('\n') + '\n');
 await writeFile(path.join(root, 'dist', 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.filter(page => !page.noindex).map(page => `  <url><loc>${origin + page.path}</loc><lastmod>${page.updated || updated}</lastmod></url>`).join('\n')}

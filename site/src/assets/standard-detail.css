@@ -132,6 +132,9 @@ html.detail-expanded { overflow: hidden; }
   .detail-player-bar strong { font-size: 14px; }
   .detail-page .site-footer .shell { padding-inline: 18px; }
 }
+@media (pointer: coarse) and (max-width: 700px), (pointer: coarse) and (max-height: 600px) {
+  .detail-player-bar :is(.detail-bar-back, .detail-bar-reload, .detail-fullscreen) { display: none; }
+}
 @media (prefers-reduced-motion: reduce) { .detail-preview { object-fit: contain; } }
 
 /* Mobile play uses the full viewport even without the Fullscreen API. */

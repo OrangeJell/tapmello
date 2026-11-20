@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { marbleGuides } from '../src/marble.mjs';
 import { levels, origin } from '../src/game.mjs';
-import { playgamaGames, playgamaGamesFor, playgamaPath } from '../src/playgama.mjs';
+import { partnerGames, partnerGamesFor, partnerGamePath } from '../src/partner-games.mjs';
 import { catalogueFor, gameCount, gamesPath, genrePath, playedGamesPath, tagPath, tagsPath, taxonomyFor } from '../src/discovery.mjs';
 
 const dist = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../dist');
@@ -17,11 +17,11 @@ async function walk(directory) {
 const files = await walk(dist), htmlFiles = files.filter(file => file.endsWith('.html'));
 const runtimePaths = new Set(['/play/mahjong/', '/play/marble-sort/', '/play/screw-sort/']);
 const historyPaths = new Set(languageCodes.map(code => localPath(code, playedGamesPath('en'))));
-const partnerPages = new Map(languageCodes.flatMap(code => playgamaGamesFor(code).map(game => [localPath(code, playgamaPath('en', game)), game])));
+const partnerPages = new Map(languageCodes.flatMap(code => partnerGamesFor(code).map(game => [localPath(code, partnerGamePath('en', game)), game])));
 const sharedTags = catalogueFor('en', true).byTag;
 const sharedGenres = catalogueFor('en', true).byGenre;
 const englishOnlyRoutes = new Set([
-  ...playgamaGames.filter(game => !game.details.hi).map(game => playgamaPath('en', game)),
+  ...partnerGames.filter(game => !game.details.hi).map(game => partnerGamePath('en', game)),
   ...[...catalogueFor('en').byTag.keys()].filter(id => !sharedTags.has(id)).map(id => tagPath('en', id)),
   ...[...catalogueFor('en').byGenre.keys()].filter(id => !sharedGenres.has(id)).map(id => genrePath('en', id)),
 ]);
@@ -169,11 +169,10 @@ for (const lang of ['en']) {
   const home = await readFile(path.join(dist, prefix, 'index.html'), 'utf8');
   assert.doesNotMatch(home, /discovery-hero|discovery-filters|home-questions/, 'Homepage only shows the game grid');
   const tiles = [...home.matchAll(/class="collection-game" id="([^"]+)"/g)].map(match => match[1]);
-  assert.deepEqual(tiles, ['clock-out', 'glass-twist', 'mahjong', ...playgamaGames.map(game => game.id)]);
-  assert.doesNotMatch(home, /<iframe\b/, 'homepage does not start embedded games');
-  for (const game of playgamaGames) {
-    const gamePath = playgamaPath(lang, game);
-    assert.ok(home.includes(`href="${gamePath}"`), `Playgama card link: ${gamePath}`);
+  assert.deepEqual(tiles, ['clock-out', 'glass-twist', 'mahjong', ...partnerGames.map(game => game.id)]);
+  for (const game of partnerGames) {
+    const gamePath = partnerGamePath(lang, game);
+    assert.ok(home.includes(`href="${gamePath}"`), `Partner game card link: ${gamePath}`);
     const player = await readFile(path.join(dist, gamePath, 'index.html'), 'utf8');
     checkDetailLayout(player, gamePath);
     assert.match(player, /class="detail-tile"[^>]+data-game-tile[^>]*>\s*<span class="game-tile-art">\s*<img[^>]*>\s*(?:<video[^>]*><\/video>\s*)?<span class="game-tile-label">/, 'Recommendation labels are inside the artwork');
@@ -189,6 +188,8 @@ for (const lang of ['en']) {
 }
 for (const code of languageCodes) {
   const prefix = languagePrefix(code).slice(1);
+  const home = await readFile(path.join(dist, prefix, 'index.html'), 'utf8');
+  assert.doesNotMatch(home, /<iframe\b/, `Homepage does not start embedded games: ${code}`);
   for (const slug of ['marble-sort', 'screw-sort', 'mahjong']) {
     const detail = await readFile(path.join(dist, prefix, 'games', slug, 'index.html'), 'utf8');
     checkDetailLayout(detail, prefix + '/' + slug);

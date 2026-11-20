@@ -11,7 +11,9 @@
 .home-page .header-inner { border-bottom: 1px solid var(--line); }
 .collection-main { padding-block: 24px 44px; }
 .continue-playing { margin-bottom: clamp(20px, 4vw, 36px); }
-.continue-playing h2 { margin-bottom: 6px; font-size: clamp(1.2rem, 2vw, 1.6rem); }
+.continue-playing h2, .home-games-heading { font-size: clamp(1.2rem, 2vw, 1.6rem); }
+.continue-playing h2 { margin-bottom: 6px; }
+.home-games-heading { margin-bottom: 12px; }
 .continue-playing h2 a {
   display: inline-flex;
   align-items: center;
@@ -23,7 +25,7 @@
 .continue-playing h2 a:hover { color: var(--discovery-accent); }
 .played-games-empty { color: var(--discovery-muted); }
 .played-games-empty a { color: var(--discovery-accent); }
-.collection-heading {
+.collection-heading, .continue-playing[hidden] + .home-games-heading {
   position: absolute;
   width: 1px;
   height: 1px;

@@ -78,8 +78,8 @@ const labels = {
 };
 
 const metadataLabels = {
-  en: { platforms: 'Platforms', languages: 'Game languages', purchases: 'In-game purchases', tags: 'Tags', genres: 'Categories', cover: 'Cover art', developer: 'Developer', browser: 'Web browser', Yes: 'Yes', No: 'No' },
-  hi: { platforms: 'प्लैटफ़ॉर्म', languages: 'गेम की भाषाएँ', purchases: 'गेम के अंदर खरीदारी', tags: 'टैग', genres: 'श्रेणियाँ', cover: 'कवर चित्र', developer: 'डेवलपर', browser: 'वेब ब्राउज़र', Yes: 'हाँ', No: 'नहीं' },
+  en: { platforms: 'Platforms', languages: 'Game languages', purchases: 'In-game purchases', tags: 'Tags', genres: 'Categories', cover: 'Cover art', browser: 'Web browser', Yes: 'Yes', No: 'No' },
+  hi: { platforms: 'प्लैटफ़ॉर्म', languages: 'गेम की भाषाएँ', purchases: 'गेम के अंदर खरीदारी', tags: 'टैग', genres: 'श्रेणियाँ', cover: 'कवर चित्र', browser: 'वेब ब्राउज़र', Yes: 'हाँ', No: 'नहीं' },
 };
 const platformNames = {
   'For Android': ['Android', 'Android'],
@@ -92,12 +92,11 @@ function renderMetadata(lang, game, taxonomy, sharedOnly) {
   const label = metadataLabels[lang];
   const languageNames = new Intl.DisplayNames([lang], { type: 'language' });
   const rows = [
-    [label.developer, metadata ? [] : ['Jelly']],
     [label.platforms, [label.browser, ...(metadata?.mobileReady ?? []).map(platform => platformNames[platform]?.[lang === 'hi' ? 1 : 0] ?? platform)]],
     [label.languages, (metadata?.supportedLanguages ?? ['en', 'hi']).map(code => {
       try { return languageNames.of(code); } catch { return code; }
     })],
-    [label.purchases, metadata ? [label[metadata.inGamePurchases]] : []],
+    [label.purchases, metadata?.inGamePurchases ? [label[metadata.inGamePurchases]] : []],
   ];
   const { byTag } = catalogueFor(lang, sharedOnly);
   return `<dl class="detail-metadata">

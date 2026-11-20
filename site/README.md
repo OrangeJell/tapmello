@@ -54,6 +54,8 @@ Playgama 游戏的数据只维护在 `src/playgama-games.json`。在数组末尾
 
 合作游戏实际生成的语言版本进入 sitemap，各自有 canonical；hreflang 只列出存在的版本。英文独占页面切换到其他语言时，进入对应语言的全部游戏页。三个自研游戏的独立播放器保留 `noindex, follow`。
 
+1Games 游戏单独维护在 `src/1games-games.json`，详情页使用 `/play/1games/{id}/`。按各款游戏的玩法从站内已有标签中选取。记录原始游戏页、官方嵌入地址和 `media.sources` 中的素材来源。本地文件按游戏 ID 存放在 `public/assets/1games/`，背景预览使用官方嵌入页 `game__video` 对应的 MP4。
+
 首页首屏渲染 24 个图标，接近列表底部时挂载下一批。也可点击“Load more games”，禁用 JavaScript 时仍可从静态图标进入其余游戏。自制游戏经 `src/game-stage.mjs` 接入共用模板，保留原本的加载、重试和攻略入口。
 
 ## 源码与发布文件

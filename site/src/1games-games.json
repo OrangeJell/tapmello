@@ -1,0 +1,1626 @@
+[
+  {
+    "id": "slope-2",
+    "title": "Slope 2",
+    "category": { "en": "Arcade", "hi": "आर्केड" },
+    "source": "https://1games.io/slope-2",
+    "url": "https://1games.io/game/slope-2/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/slope-2-icon.png",
+      "artwork": "/assets/1games/slope-2-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/slope-2-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/slope-2/slope-2.png",
+        "artwork": "https://1games.io/data/image/game/slope-2/banner/slope-2_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/slope-2/slope-2.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2025-04-25",
+      "genres": ["arcade"],
+      "tags": ["endless-games", "reaction-games", "obstacles-games"],
+      "mobileReady": ["For Android", "For IOS", "For Desktop"],
+      "supportedLanguages": ["en"]
+    },
+    "details": {
+      "en": {
+        "summary": "Roll down neon ramps in Slope 2, a 3D arcade game. Steer around red obstacles and keep the ball on the track as it speeds up.",
+        "about": [
+          "In Slope 2, the ball rolls forward on its own. The track narrows, bends and shifts as you pick up speed.",
+          "Each run ends if you hit a red obstacle or roll off the edge. Stay on the track as long as you can to beat your score.",
+          "The neon track is made up of sloping platforms. Some slide or rotate, and sharp bends can hide the next section until you get closer. Look past the ball so you have time to choose a clear line."
+        ],
+        "steps": [
+          ["Steer the ball", "Press the left or right arrow key, or use A and D."],
+          ["Look ahead on the track", "Line up with the next ramp early and make small corrections as the ball speeds up."],
+          ["Adjust for moving platforms", "Watch where the platform is moving and aim for its middle. Readjust after landing so your next turn starts from a stable position."],
+          ["Set up for turns and gaps", "Start steering before a sharp bend. Before an open gap, center the ball on the ramp and point it toward the next platform."]
+        ],
+        "faq": [
+          ["Can you jump in Slope 2?", "The ball leaves the track at ramps. There is no jump button."],
+          ["How do you climb the leaderboard?", "Survive longer to improve your score. Avoid red obstacles and keep away from the edge, especially when the track gets faster or narrower."]
+        ]
+      },
+      "hi": {
+        "summary": "Slope 2 एक 3D आर्केड गेम है। चमकीली ढलानों पर लुढ़कती गेंद को लाल बाधाओं से बचाएँ और बढ़ती रफ़्तार में उसे रास्ते पर रखें।",
+        "about": [
+          "Slope 2 में गेंद अपने आप आगे लुढ़कती है। रफ़्तार बढ़ने पर रास्ता संकरा होता है, मुड़ता है और खिसकता है।",
+          "लाल बाधा से टकराने या किनारे से गिरने पर राउंड खत्म हो जाता है। अपना स्कोर सुधारने के लिए जितनी देर हो सके रास्ते पर बने रहें।",
+          "चमकीला रास्ता ढलान वाले हिस्सों से बना है। कुछ हिस्से खिसकते या घूमते हैं, और तीखे मोड़ के आगे का रास्ता पास आने पर ही दिखता है। गेंद से आगे देखें ताकि सुरक्षित दिशा चुनने का समय मिले।"
+        ],
+        "steps": [
+          ["गेंद की दिशा बदलें", "बाएँ या दाएँ तीर वाली कुंजी दबाएँ। आप A और D भी इस्तेमाल कर सकते हैं।"],
+          ["आगे का रास्ता देखें", "अगली ढलान की दिशा पहले से पकड़ लें और रफ़्तार बढ़ने पर गेंद को थोड़ा-थोड़ा मोड़ें।"],
+          ["खिसकते हिस्सों पर दिशा सँभालें", "देखें कि हिस्सा किस ओर खिसक रहा है और उसके बीच की ओर जाएँ। उतरते ही दिशा ठीक करें ताकि अगला मोड़ आसानी से ले सकें।"],
+          ["मोड़ और खाली जगह की तैयारी करें", "तीखे मोड़ से पहले गेंद मोड़ना शुरू करें। खाली जगह से पहले गेंद को ढलान के बीच में रखें और अगले हिस्से की ओर ले जाएँ।"]
+        ],
+        "faq": [
+          ["क्या Slope 2 में छलाँग लगा सकते हैं?", "गेंद ढलान के सिरे से हवा में जाती है। छलाँग के लिए कोई बटन नहीं है।"],
+          ["लीडरबोर्ड में ऊपर कैसे जाएँ?", "स्कोर बढ़ाने के लिए ज़्यादा देर टिकें। लाल बाधाओं और किनारों से दूर रहें, खासकर जब रफ़्तार बढ़े या रास्ता संकरा हो जाए।"]
+        ]
+      }
+    }
+  },
+  {
+    "id": "wacky-flip",
+    "title": "Wacky Flip",
+    "category": {
+      "en": "Sports",
+      "hi": "खेल"
+    },
+    "source": "https://1games.io/wacky-flip",
+    "url": "https://1games.io/game/wacky-flip/",
+    "width": 512,
+    "height": 384,
+    "media": {
+      "icon": "/assets/1games/wacky-flip-icon.png",
+      "artwork": "/assets/1games/wacky-flip-cover.png",
+      "preview": "/assets/1games/wacky-flip-preview.mp4",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wacky-flip/wacky-flip-512x384.png",
+        "artwork": "https://1games.io/data/image/game/wacky-flip/banner/wacky-flip-512x512_logo.png",
+        "preview": "https://cdn.1games.io/file/game/wacky-flip/wacky-flip.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2025-05-06",
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "flip-games",
+        "stunt-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Time your takeoff, flip and landing in Wacky Flip, a physics-based parkour game with rooftop stunt challenges.",
+        "about": [
+          "Send your athlete off rooftops and towers and try to land inside the marked zone. Every attempt comes down to three decisions: when to take off, when to spin and when to straighten up.",
+          "A clean landing earns points for the flips you completed in the air. Once you can land a single flip reliably, try combining moves for a multiplier."
+        ],
+        "steps": [
+          [
+            "Controls",
+            "Hold the mouse button to set the jump, then release to take off. Click in midair to flip and click again to prepare for landing."
+          ],
+          [
+            "Start with a simple attempt",
+            "Use one flip to learn how long the jump lasts. Straighten up while there is still room to reach the target on your feet."
+          ]
+        ],
+        "faq": [
+          [
+            "Why did the stunt score nothing?",
+            "The flips only count if you finish with a clean landing in the target zone."
+          ]
+        ]
+      },
+      "hi": {
+        "summary": "Wacky Flip में छतों से छलाँग लगाएँ और सही समय पर पलटी लेकर तय जगह पर उतरें।",
+        "about": [
+          "खिलाड़ी को छतों और मीनारों से उछालें और निशान वाली जगह पर उतारें। तय करें कि कब कूदना है, कब पलटी लेनी है और कब शरीर सीधा करना है।",
+          "साफ़ लैंडिंग पर हवा में पूरी की गई पलटियों के अंक मिलते हैं। एक पलटी के बाद लगातार सही उतरने लगें, तो अंक बढ़ाने के लिए अलग-अलग करतब जोड़ें।"
+        ],
+        "steps": [
+          [
+            "नियंत्रण",
+            "छलाँग तैयार करने के लिए माउस बटन दबाए रखें और कूदने के लिए छोड़ें। हवा में पलटी के लिए क्लिक करें और उतरने की तैयारी के लिए फिर क्लिक करें।"
+          ],
+          [
+            "आसान कोशिश से शुरू करें",
+            "एक पलटी लेकर देखें कि हवा में कितना समय मिलता है। निशान पर पैरों के बल पहुँचने के लिए समय रहते सीधे हो जाएँ।"
+          ]
+        ],
+        "faq": [
+          [
+            "करतब के अंक क्यों नहीं मिले?",
+            "पलटियाँ तभी गिनी जाती हैं जब आप निशान वाली जगह पर ठीक से उतरते हैं।"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "brain-lines",
+    "title": "Brain Lines",
+    "category": {
+      "en": "Puzzle",
+      "hi": "पहेली"
+    },
+    "source": "https://1games.io/brain-lines",
+    "url": "https://1games.io/game/brain-lines/",
+    "width": 512,
+    "height": 384,
+    "media": {
+      "icon": "/assets/1games/brain-lines-icon.png",
+      "artwork": "/assets/1games/brain-lines-cover.png",
+      "preview": "/assets/1games/brain-lines-preview.mp4",
+      "artworkWidth": 1080,
+      "artworkHeight": 1080,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/brain-lines/brain-lines-512x384.png",
+        "artwork": "https://1games.io/data/image/game/brain-lines/banner/brain-lines.png",
+        "preview": "https://cdn.1games.io/file/game/brain-lines/brain-lines.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "puzzle",
+        "casual"
+      ],
+      "tags": [
+        "logic",
+        "brain-training-games",
+        "creativity-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Draw shapes that move under gravity to solve Brain Lines puzzles, from guiding a ball into a cup to balancing objects.",
+        "about": [
+          "Every puzzle has a target. You might need to guide a ball into a cup, balance an object or trigger a mechanism. Your drawings become objects that can fall, push or block things on the board.",
+          "A slanted stroke can act as a ramp. A shape placed above an object can fall onto it and give it a push. Watch where your drawing comes to rest before adding another one."
+        ],
+        "steps": [
+          [
+            "Controls",
+            "Hold and drag the mouse to draw a line or shape. Release it to let the drawing interact with the objects on the board."
+          ],
+          [
+            "Start with a simple attempt",
+            "Look at where the object needs to end up. Place one short stroke that nudges it in that direction, then watch what happens."
+          ]
+        ],
+        "faq": [
+          [
+            "Can a puzzle have more than one solution?",
+            "Yes. Different drawings can clear the same stage as long as they achieve its objective."
+          ]
+        ]
+      },
+      "hi": {
+        "summary": "Brain Lines में आकृतियाँ बनाकर भौतिकी की पहेलियाँ हल करें। गेंद को कप तक पहुँचाएँ या वस्तुओं का संतुलन बनाएँ।",
+        "about": [
+          "हर पहेली का लक्ष्य अलग है। कभी गेंद को कप में पहुँचाना होता है, कभी किसी चीज़ को संतुलित करना या कोई यंत्र चलाना होता है। आपकी बनाई आकृतियाँ गिर सकती हैं और बोर्ड की दूसरी चीज़ों को धकेल या रोक सकती हैं।",
+          "तिरछी रेखा ढलान बन सकती है। किसी वस्तु के ऊपर बनाई आकृति गिरकर उसे धक्का दे सकती है। अगली रेखा बनाने से पहले देखें कि पहली कहाँ रुकती है।"
+        ],
+        "steps": [
+          [
+            "नियंत्रण",
+            "रेखा या आकृति बनाने के लिए माउस बटन दबाकर खींचें। उसे छोड़कर देखें कि आकृति बोर्ड की चीज़ों से कैसे टकराती है।"
+          ],
+          [
+            "आसान कोशिश से शुरू करें",
+            "पहले देखें कि वस्तु को कहाँ पहुँचाना है। उस दिशा में हल्का धक्का देने के लिए छोटी रेखा बनाएँ और नतीजा देखें।"
+          ]
+        ],
+        "faq": [
+          [
+            "क्या एक पहेली के कई हल हो सकते हैं?",
+            "हाँ। अलग-अलग चित्र उसी स्तर को पूरा कर सकते हैं, बशर्ते वे उसका लक्ष्य पूरा करें।"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "traffic-road",
+    "title": "Traffic Road",
+    "category": {
+      "en": "Racing",
+      "hi": "रेसिंग"
+    },
+    "source": "https://1games.io/traffic-road",
+    "url": "https://1games.io/game/traffic-road/",
+    "width": 512,
+    "height": 512,
+    "media": {
+      "icon": "/assets/1games/traffic-road-icon.png",
+      "artwork": "/assets/1games/traffic-road-icon.png",
+      "preview": "/assets/1games/traffic-road-preview.mp4",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/traffic-road/traffic-road.png",
+        "artwork": "https://1games.io/data/image/game/traffic-road/banner/traffic-road.png",
+        "preview": "https://1games.io/data/file/game/traffic-road-1.mp4"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "racing"
+      ],
+      "tags": [
+        "bike-racing-games",
+        "endless-games",
+        "avoid-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Ride a motorbike through first-person highway traffic in Traffic Road. Race the clock in Career or see how far you can go in Endless.",
+        "about": [
+          "Ride from the motorcyclist’s point of view and scan for a clear lane. Slow down if traffic closes the gap, then pass once you have room to steer.",
+          "Career sends you through timed stages on one-way roads. Endless lets you choose one-way or two-way traffic and rewards distance. Time Trial and Free Ride unlock as you progress."
+        ],
+        "steps": [
+          [
+            "Controls",
+            "Use the arrow keys to steer and adjust your speed. Look past the nearest vehicle before changing lanes."
+          ],
+          [
+            "Start with a simple attempt",
+            "Try one-way traffic first. Leave yourself room to slow down when the gap between two vehicles starts to close."
+          ]
+        ],
+        "faq": [
+          [
+            "When can you play Time Trial and Free Ride?",
+            "Both modes become available after you reach the required level."
+          ]
+        ]
+      },
+      "hi": {
+        "summary": "Traffic Road में मोटरसाइकिल से हाईवे के ट्रैफ़िक से निकलें। करियर में समय से दौड़ें या एंडलेस में लंबी दूरी तय करें।",
+        "about": [
+          "सड़क को मोटरसाइकिल चालक की नज़र से देखें और खाली लेन तलाशें। गाड़ियों के बीच जगह घटने पर रफ़्तार कम करें और रास्ता खुलने पर आगे निकलें।",
+          "करियर में एकतरफ़ा सड़कों पर समयबद्ध स्तर हैं। एंडलेस में एकतरफ़ा या दोतरफ़ा ट्रैफ़िक चुनकर लंबी दूरी तय करें। आगे बढ़ने पर टाइम ट्रायल और फ़्री राइड खुलते हैं।"
+        ],
+        "steps": [
+          [
+            "नियंत्रण",
+            "दिशा और रफ़्तार बदलने के लिए तीर वाली कुंजियाँ इस्तेमाल करें। लेन बदलने से पहले सबसे पास की गाड़ी से आगे देखें।"
+          ],
+          [
+            "आसान कोशिश से शुरू करें",
+            "पहले एकतरफ़ा ट्रैफ़िक चुनें। दो गाड़ियों के बीच जगह घटे तो रफ़्तार कम करने के लिए गुंजाइश रखें।"
+          ]
+        ],
+        "faq": [
+          [
+            "टाइम ट्रायल और फ़्री राइड कब खेल सकते हैं?",
+            "ज़रूरी स्तर तक पहुँचने के बाद दोनों मोड उपलब्ध हो जाते हैं।"
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "slope-rider",
+    "title": "Slope Rider",
+    "category": {
+      "en": "Adventure"
+    },
+    "source": "https://1games.io/slope-rider",
+    "url": "https://1games.io/game/slope-rider/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/slope-rider-icon.png",
+      "artwork": "/assets/1games/slope-rider-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/slope-rider-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/slope-rider/slope-rider-xmas.png",
+        "artwork": "https://1games.io/data/image/game/slope-rider/banner/slope-rider-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/slope-rider/slope-rider.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2025-08-21",
+      "genres": [
+        "adventure",
+        "arcade"
+      ],
+      "tags": [
+        "snow-games",
+        "endless-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Steer a sled through shifting winter hazards in Slope Rider. Jump over logs, collect coins and unlock sleds for your next descent.",
+        "about": [
+          "Each run sends your sled down a winter course with a new mix of steep drops, narrow turns and obstacles. Rolling logs and snow boulders can cross a lane that looked clear a moment earlier, so watch the slope ahead.",
+          "Collect coins and items to unlock more sleds. Their handling and jump characteristics can change how early you need to move when a hazard appears.",
+          "Give moving hazards more room than fixed obstacles. A log rolling across your path can keep moving while you jump, so look at where it will be when you land. Daily missions give you a separate objective to work toward while you collect coins and try for a longer run."
+        ],
+        "steps": [
+          [
+            "Steer the sled",
+            "Use the left and right arrow keys to change direction. Look for a clear route past the obstacle before committing to a move."
+          ],
+          [
+            "Time each jump",
+            "Press the up arrow to jump. Go late enough to clear the hazard and check where the sled will come down."
+          ],
+          [
+            "Leave room on the downhill",
+            "On tight sections, prioritize an open lane. Pick up coins when you can reach them without crossing a moving obstacle."
+          ],
+          [
+            "Read the slope beyond the turn",
+            "At a bend or steep drop, look for the next stretch of snow you can see. Make one deliberate steering adjustment and wait until the following section comes into view before committing to another."
+          ]
+        ],
+        "faq": [
+          [
+            "Is the course the same every run?",
+            "The course changes between runs, with obstacles in different places. Use each attempt to practice reading the next stretch of slope."
+          ],
+          [
+            "When should I steer around a log instead of jumping?",
+            "Steer around it if there is an open route with room to straighten out afterward. Jump when the ground route is blocked and you can see clear snow beyond the log."
+          ],
+          [
+            "What should I look for in another sled?",
+            "Compare handling and jump timing. If you often overshoot a turn, look for a sled you can steer comfortably through a tight section."
+          ]
+        ],
+        "aboutTitle": "How the downhill run changes"
+      }
+    }
+  },
+  {
+    "id": "orbit-kick",
+    "title": "Orbit Kick",
+    "category": {
+      "en": "Sports"
+    },
+    "source": "https://1games.io/orbit-kick",
+    "url": "https://orbit-kick.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/orbit-kick-icon.png",
+      "artwork": "/assets/1games/orbit-kick-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/orbit-kick-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/orbit-kick/orbit-kick.png",
+        "artwork": "https://1games.io/data/image/game/orbit-kick/banner/orbit-kick-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/orbit-kick/orbit-kick.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "sports",
+        "arcade"
+      ],
+      "tags": [
+        "timing-games",
+        "incremental-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Time a kick, guide the ball through the air and upgrade its bounce in Orbit Kick, a distance game that takes you past world landmarks.",
+        "about": [
+          "Start each run with a timed kick. The ball bounces across hills and ramps, and a well-placed bounce can carry it farther. You can make small corrections in the air as the ground comes into view.",
+          "Distance earns coins that you can spend on stronger kicks, better bounces or offline earnings. Reach new distances to see more landmarks and unlock additional balls and gear.",
+          "The first bounce helps you judge whether your launch worked. If the ball reaches a downhill section or a ramp while it still has speed, it can carry on toward the next landmark. Watch what happens on similar kicks before spending coins, so you can tell whether you need more launch power or more distance between bounces."
+        ],
+        "steps": [
+          [
+            "Time the kick",
+            "Click when the power indicator reaches the strongest part of its range. A strong launch gives the ball more speed at the start."
+          ],
+          [
+            "Guide the ball in flight",
+            "Drag the pointer to make small adjustments. Aim for a clear landing or a useful ramp."
+          ],
+          [
+            "Choose an upgrade",
+            "Use Power to improve the launch and Bounce to keep the ball moving after it lands. Look at where your last attempt lost momentum before spending coins."
+          ],
+          [
+            "Practice consistent kick timing",
+            "Watch the power indicator through one full cycle before you click. Try to hit the same part of the indicator on your next few kicks so you can see which flight adjustments help."
+          ]
+        ],
+        "faq": [
+          [
+            "What does the Bounce upgrade change?",
+            "It helps the ball carry farther after touching down. Power affects the kick at the beginning of the run."
+          ],
+          [
+            "Can I still steer after kicking the ball?",
+            "Yes. Drag the pointer for small corrections in the air. Pick a place to land before making your adjustment."
+          ],
+          [
+            "What is Offline Earnings for?",
+            "It improves the coins earned while you are away. Upgrade Power or Bounce if your immediate goal is to push your next kick farther."
+          ]
+        ],
+        "aboutTitle": "What carries the ball farther"
+      }
+    }
+  },
+  {
+    "id": "curve-rush",
+    "title": "Curve Rush",
+    "category": {
+      "en": "Arcade"
+    },
+    "source": "https://1games.io/curve-rush",
+    "url": "https://1games.io/game/curve-rush/",
+    "width": 1422,
+    "height": 800,
+    "media": {
+      "icon": "/assets/1games/curve-rush-icon.png",
+      "artwork": "/assets/1games/curve-rush-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/curve-rush-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/curve-rush/curverush.png",
+        "artwork": "https://1games.io/data/image/game/curve-rush/banner/curverush-banner.png",
+        "preview": "https://cdn.1games.io/file/game/curve-rush/curverush.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-02-21",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "one-button-games",
+        "timing-games",
+        "endless-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Build momentum across desert dunes in Curve Rush. Launch above the skyline for bonus points and land on the slope to keep rolling.",
+        "about": [
+          "Your ball rolls over an endless line of sand dunes. You can launch it from the crest of a dune and earn extra points by crossing the white line overhead. A hard impact can end the run.",
+          "Look for a downhill surface before coming back to the sand. Matching the curve lets you keep more speed and sets you up for the next jump.",
+          "Try linking several short jumps. If you release just as the dune curves up and touch down on the next downhill face, the ball has a chance to keep its speed into the following climb. A sequence of clean landings gives you more chances to cross the white line later in the run."
+        ],
+        "steps": [
+          [
+            "Build momentum",
+            "Hold the left mouse button as the ball follows the slope, then release as it approaches a crest to set up the jump."
+          ],
+          [
+            "Read the landing",
+            "Look at the next dune while the ball is in the air. Aim to meet a descending slope and carry the speed into the next section."
+          ],
+          [
+            "Work up to higher jumps",
+            "Practice low flights until you can land smoothly. With more speed, try crossing the white line for a bonus."
+          ],
+          [
+            "Set up the next takeoff after landing",
+            "As soon as the ball is back on a downhill slope, watch for the next upward curve. Hold to build speed on the ground and release when the crest can send you up."
+          ]
+        ],
+        "faq": [
+          [
+            "Why did my ball break on landing?",
+            "A steep impact can shatter it. Look for a sloping landing surface and try a lower jump while you learn the timing."
+          ],
+          [
+            "What does the white line in the sky do?",
+            "Crossing it earns a height bonus. Try for it when you have enough speed and can see a landing slope ahead."
+          ],
+          [
+            "Should I aim for the highest jump every time?",
+            "Shorter jumps make it easier to practice landing on a downward slope. Once you can keep rolling after several landings, use that speed to try a higher flight."
+          ]
+        ],
+        "aboutTitle": "Build speed from one dune to the next"
+      }
+    }
+  },
+  {
+    "id": "jetski-race",
+    "title": "Jetski Race",
+    "category": {
+      "en": "Racing"
+    },
+    "source": "https://1games.io/jetski-race",
+    "url": "https://1games.io/game/jetski-race/",
+    "width": 1280,
+    "height": 853,
+    "media": {
+      "icon": "/assets/1games/jetski-race-icon.png",
+      "artwork": "/assets/1games/jetski-race-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/jetski-race-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/jetski-race/jetski-race.png",
+        "artwork": "https://1games.io/data/image/game/jetski-race/banner/jetski-race-1.png",
+        "preview": "https://cdn.1games.io/file/game/jetski-race/jetski-race.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "racing"
+      ],
+      "tags": [
+        "race-games",
+        "stunt-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Race across waves, collect coins and land flips in Jetski Race. Handle ramps and obstacles to reach the finish ahead of the other riders.",
+        "about": [
+          "Each race sends you through a water course with waves, jumps and obstacles. Speed helps on open stretches, while the angle of your craft matters as you leave a ramp and come back down.",
+          "Coins and daily objectives help you unlock more craft and upgrade coin value or flip boosts. As the routes get trickier, look farther ahead for a clear approach to the next wave.",
+          "A wave gives you a chance to gain speed or attempt a trick. Look at the water ahead before committing to a rotation. If an obstacle sits just beyond the ramp, a smooth approach gives you more time to steer as soon as the craft lands."
+        ],
+        "steps": [
+          [
+            "Accelerate and steer",
+            "Hold and drag the mouse to power and guide the craft. On a keyboard, use the up arrow for the engine and the left or right arrow to steer."
+          ],
+          [
+            "Land cleanly",
+            "Use the space above a wave to attempt a flip. Leave enough time to level the craft before it touches down."
+          ],
+          [
+            "Choose your line",
+            "Steer around obstacles early. Keep an eye out for coins along a line you can follow without losing control."
+          ],
+          [
+            "Try a flip with the mouse",
+            "While using the mouse controls, release the button after takeoff and hold it again in midair to flip. Practice on a wave with open water ahead so you have room to correct the landing."
+          ]
+        ],
+        "faq": [
+          [
+            "What upgrades can I buy?",
+            "The game offers upgrades for coin value and flip boosts, and you can unlock different craft as you progress."
+          ],
+          [
+            "Why does the craft capsize after a jump?",
+            "It can tip if you finish the rotation too late. Attempt a single flip and watch the water so you can level out before touching down."
+          ],
+          [
+            "What can I work on between races?",
+            "Check the daily objectives and the shop. A short race can still earn coins toward another craft or toward a coin-value upgrade."
+          ]
+        ],
+        "aboutTitle": "Use the waves without losing race position"
+      }
+    }
+  },
+  {
+    "id": "dunk-dash",
+    "title": "Dunk Dash",
+    "category": {
+      "en": "Sports"
+    },
+    "source": "https://1games.io/dunk-dash",
+    "url": "https://1games.io/game/dunk-dash/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/dunk-dash-icon.png",
+      "artwork": "/assets/1games/dunk-dash-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/dunk-dash-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/dunk-dash/dunk-dash.png",
+        "artwork": "https://1games.io/data/image/game/dunk-dash/banner/dunk-dash-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/dunk-dash/dunk-dash.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-07-14",
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "competitive-games",
+        "fast-paced-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Pass, steal and time a dunk in Dunk Dash, an arcade basketball game with full-court play and moving baskets.",
+        "about": [
+          "Take possession, move around defenders and use passes to create a clear route to the basket. Timing matters near the rim, where a jump can turn into a dunk if you are in range.",
+          "Later rounds move the basket and make it harder to finish a drive. Watch the hoop while you approach and pass if a teammate has a better angle.",
+          "A good possession can start with a pass away from the hoop. Move the ball to a teammate with a clear lane, then approach from a position where you can see both the defender and the basket. On rounds with a moving rim, check its direction before making that final run."
+        ],
+        "steps": [
+          [
+            "Move into space",
+            "Use the arrow keys or WASD to move. Look for an open lane or a teammate the defense has left free."
+          ],
+          [
+            "Pass or steal",
+            "Use the left mouse button for the current action, such as passing when your team has the ball or attempting a steal on defense."
+          ],
+          [
+            "Time the finish",
+            "Use the mouse or Space to jump or dunk in range. In rounds with a moving hoop, line up with where it is heading."
+          ],
+          [
+            "Defend the lane first",
+            "When the other team has the ball, move between the ball carrier and the basket. Get close enough to try a steal when you have a good angle."
+          ]
+        ],
+        "faq": [
+          [
+            "Why did my jump miss the dunk?",
+            "Check your distance from the rim before jumping. When the basket moves, wait until it comes into range."
+          ],
+          [
+            "When is passing better than driving to the rim?",
+            "Pass when a defender cuts off your route and a teammate has space to move. A clean catch can start another approach before the defender sets up again."
+          ],
+          [
+            "What changes when the basket moves?",
+            "It can leave dunk range while you are approaching. Follow where it is going and time your jump when the gap closes."
+          ]
+        ],
+        "aboutTitle": "Create a clear approach to the basket"
+      }
+    }
+  },
+  {
+    "id": "snow-road-3d",
+    "title": "Snow Road 3D",
+    "category": {
+      "en": "Adventure"
+    },
+    "source": "https://1games.io/snow-road-3d",
+    "url": "https://1games.io/game/snow-road-3d/",
+    "width": 432,
+    "height": 270,
+    "media": {
+      "icon": "/assets/1games/snow-road-3d-icon.png",
+      "artwork": "/assets/1games/snow-road-3d-cover.png",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "preview": "/assets/1games/snow-road-3d-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/snow-road-3d/snow-road-3d.png",
+        "artwork": "https://1games.io/data/image/game/snow-road-3d/banner/snow-road-3d3.png",
+        "preview": "https://cdn.1games.io/file/game/snow-road-3d/snow-road-3d.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "adventure",
+        "arcade"
+      ],
+      "tags": [
+        "snow-games",
+        "jumping-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Race a sled down winding mountain tracks in Snow Road 3D. Avoid falling ice, collect gifts and unlock more snowmobiles.",
+        "about": [
+          "The mountain route narrows around obstacles and opens up at icy ramps. Change lanes early when icicles or other hazards block your path, especially if you are about to land from a jump.",
+          "Gifts along the track help unlock more snowmobiles. Different rides offer changes in speed, stability and acceleration, which matter as you move on to tougher routes.",
+          "A ramp can carry you past a hazard. If a narrow stretch follows the ramp, line up with it before leaving the ground. As the course gets tighter, compare snowmobiles on a few sections you already know so you can get used to the way each one steers."
+        ],
+        "steps": [
+          [
+            "Steer through bends",
+            "Use the left and right arrows or A and D. Watch the track beyond the nearest obstacle to leave room for the next turn."
+          ],
+          [
+            "Jump over a hazard",
+            "Use the up arrow or Space to jump. Before taking off, check where you will land."
+          ],
+          [
+            "Collect gifts on clear routes",
+            "Take gifts when your line is clear. Save them toward another snowmobile instead of crossing a narrow section for a single pickup."
+          ],
+          [
+            "Plan for two obstacles at a time",
+            "When an obstacle blocks your lane just before a turn, look ahead to the space you need after the turn. An early move can leave you lined up for both."
+          ]
+        ],
+        "faq": [
+          [
+            "What are the gifts for?",
+            "Use the gifts you collect to unlock snowmobiles with different handling and performance."
+          ],
+          [
+            "Can I steer and jump with different keys?",
+            "Yes. Use A and D to steer while keeping your other hand on Space to jump. The arrow keys also cover both actions."
+          ],
+          [
+            "When should I skip a gift?",
+            "Skip it if reaching it would make you cross in front of an obstacle or land on the edge of a narrow track. You can collect more gifts on a later run."
+          ]
+        ],
+        "aboutTitle": "Read the mountain track before you jump"
+      }
+    }
+  },
+  {
+    "id": "bike-xtreme",
+    "title": "Bike Xtreme",
+    "category": {
+      "en": "Racing"
+    },
+    "source": "https://1games.io/bike-xtreme",
+    "url": "https://1games.io/game/bike-xtreme/",
+    "width": 910,
+    "height": 512,
+    "media": {
+      "icon": "/assets/1games/bike-xtreme-icon.png",
+      "artwork": "/assets/1games/bike-xtreme-cover.png",
+      "artworkWidth": 1080,
+      "artworkHeight": 1080,
+      "preview": "/assets/1games/bike-xtreme-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bike-xtreme/bike-xtreme.png",
+        "artwork": "https://1games.io/data/image/game/bike-xtreme/banner/bike-xtreme1.png",
+        "preview": "https://cdn.1games.io/file/game/bike-xtreme/bike-xtreme.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "racing"
+      ],
+      "tags": [
+        "bike-racing-games",
+        "stunt-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Balance a bike across steep trails, ramps and narrow bridges in Bike Xtreme. Land tricks to earn points and unlock harder rides.",
+        "about": [
+          "The trails alternate between steep climbs, short ramps and narrow crossings. Control speed and lean together so the bike stays balanced as the ground angle changes.",
+          "Tricks earn points and help open new challenges. Gear upgrades can make a difference to speed, stability or control as the trails get more demanding.",
+          "How you reach a ramp affects what you can do in the air. A short jump leaves little time to lean or rotate. On a steep descent, keep the bike aligned with the ground as it drops away, then use the next clear stretch to gather speed for another obstacle."
+        ],
+        "steps": [
+          [
+            "Control your speed",
+            "Use the up and down arrow keys to drive. Slow down before a narrow bridge or a steep drop if you need time to adjust."
+          ],
+          [
+            "Balance the bike",
+            "Use the left and right arrows to lean. On a jump, line up the wheels with the landing surface."
+          ],
+          [
+            "Build up to bigger tricks",
+            "Practice a clean landing on a short ramp. Attempt a larger rotation once you can judge how much time the bike will spend in the air."
+          ],
+          [
+            "Separate the approach from the landing",
+            "Set your speed while both wheels are on the ground. Once the bike is in the air, use the lean controls to match the angle of the trail ahead."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I get more trails?",
+            "Progress through the current challenges and score points with tricks to open additional rides."
+          ],
+          [
+            "Why do I lose balance on steep descents?",
+            "Large corrections are harder to recover from when the slope changes quickly. Try a slower approach and use smaller taps on the lean controls."
+          ],
+          [
+            "When is a ramp big enough for a trick?",
+            "Watch a straightforward jump first. If it leaves time to rotate and still line up both wheels before landing, try a trick on the next attempt."
+          ]
+        ],
+        "aboutTitle": "Control the bike through changes in slope"
+      }
+    }
+  },
+  {
+    "id": "bricky-blast",
+    "title": "Bricky Blast",
+    "category": {
+      "en": "Puzzle"
+    },
+    "source": "https://1games.io/bricky-blast",
+    "url": "https://1games.io/game/bricky-blast/",
+    "width": 1280,
+    "height": 720,
+    "media": {
+      "icon": "/assets/1games/bricky-blast-icon.png",
+      "artwork": "/assets/1games/bricky-blast-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/bricky-blast-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bricky-blast/bricky-blast-1280x720.png",
+        "artwork": "https://1games.io/data/image/game/bricky-blast/banner/bricky-blast-1.png",
+        "preview": "https://1games.io/data/file/game/bricky-blast/bricky-blast.mp4"
+      }
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "tetris-games",
+        "logic",
+        "brain-training-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Fit blocks into full rows and columns in Bricky Blast. Clear several lines at once and keep enough space for the next shape.",
+        "about": [
+          "Drag each block onto the board. A filled row or column disappears, making room for later pieces. A move that completes several lines at once can earn a combo.",
+          "The round ends when no available piece fits. Keep an area open for bigger blocks and think about what the next placement will leave behind.",
+          "Think about the shape of the space that will remain after a clear. If a larger piece only fits in one corner, use that opening before placing a smaller piece there. A line clear that connects two small openings can make room for several future moves."
+        ],
+        "steps": [
+          [
+            "Place a block",
+            "Drag one of the available shapes into empty spaces on the grid. Check how it fits next to the blocks already on the board."
+          ],
+          [
+            "Clear intersecting lines",
+            "Look where a single piece can complete both a row and a column. Clearing them together frees space and earns more points."
+          ],
+          [
+            "Preserve room for large pieces",
+            "Avoid filling every small gap if it splits the last open area. Leave space for a shape you cannot place anywhere else."
+          ],
+          [
+            "Check the least flexible shape before placing it",
+            "Look at all available pieces and find the one with the fewest places it can fit. If it only fits in one spot, keep that spot available while you decide how to use the smaller blocks."
+          ]
+        ],
+        "faq": [
+          [
+            "Why did the round end with empty squares left?",
+            "The remaining openings may be too small or have the wrong shape for every available piece."
+          ],
+          [
+            "What counts as a combo?",
+            "Finish more than one row or column with the same placement. For example, a block dropped at the intersection of two nearly full lines can clear both."
+          ],
+          [
+            "Does leaving empty squares guarantee another move?",
+            "A piece needs empty squares arranged in its exact shape. Several isolated spaces can leave you with fewer options than one open rectangle."
+          ]
+        ],
+        "aboutTitle": "Clear lines without closing off the board"
+      }
+    }
+  },
+  {
+    "id": "color-rush",
+    "title": "Color Rush",
+    "category": {
+      "en": "Platform"
+    },
+    "source": "https://1games.io/color-rush",
+    "url": "https://1games.io/game/color-rush/",
+    "width": 432,
+    "height": 270,
+    "media": {
+      "icon": "/assets/1games/color-rush-icon.png",
+      "artwork": "/assets/1games/color-rush-cover.png",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "preview": "/assets/1games/color-rush-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/color-rush/color-rush.png",
+        "artwork": "https://1games.io/data/image/game/color-rush/banner/color-rush.png",
+        "preview": "https://cdn.1games.io/file/game/color-rush/color-rush.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "platform"
+      ],
+      "tags": [
+        "color-matching-games",
+        "jumping-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Jump between colored platforms in Color Rush and switch your runner's color before landing. Return for three extra goals per level.",
+        "about": [
+          "Your runner moves forward automatically. To stay on the course, jump across gaps and match the color of the platform you are about to land on. Some sections ask you to do both in the same move.",
+          "Later layouts mix color transitions with trickier jumps. Each level also has three optional objectives, giving you a reason to replay a route after reaching the finish.",
+          "Look at the platform ahead before you reach the edge. Check the gap to decide how long to hold jump, then check the platform color to see whether you need Space. Later levels add moves such as double jumps and head jumps, so changes in height matter as much as changes in color."
+        ],
+        "steps": [
+          [
+            "Jump with the up arrow",
+            "Tap the up arrow for a short jump or hold it for a longer one. Look at the gap before deciding how long to hold it."
+          ],
+          [
+            "Switch with Space",
+            "Press Space to change your runner's color. Read the next platform early so the color matches by the time you land."
+          ],
+          [
+            "Combine jump and color change",
+            "When the far platform is a different color, use the up arrow and Space together. Practice the movement before going for extra goals."
+          ],
+          [
+            "Practice the difficult color change on a replay",
+            "Once you can clear a level, use a replay to focus on the jump or color change that gave you trouble. Learn the approach before attempting one of the extra objectives on that route."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I need to finish every optional objective on the first run?",
+            "You can return to a level to try its extra goals after learning the route."
+          ],
+          [
+            "Why did I miss a platform even though the jump was long enough?",
+            "Check your runner’s color at the moment of landing. If it differs from the platform, press Space sooner on your next attempt."
+          ],
+          [
+            "How should I jump a wider gap?",
+            "Hold the up arrow longer. If the far platform is a different color, combine the jump with Space so the runner arrives in the right color."
+          ]
+        ],
+        "aboutTitle": "Read the next platform while you are still running"
+      }
+    }
+  },
+  {
+    "id": "astro-robot-clicker",
+    "title": "Astro Robot Clicker",
+    "category": {
+      "en": "Clicker"
+    },
+    "source": "https://1games.io/astro-robot-clicker",
+    "url": "https://1games.io/game/astro-robot-clicker/",
+    "width": 512,
+    "height": 348,
+    "media": {
+      "icon": "/assets/1games/astro-robot-clicker-icon.png",
+      "artwork": "/assets/1games/astro-robot-clicker-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/astro-robot-clicker-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/astro-robot-clicker/astro-robot-clicker-512x348.png",
+        "artwork": "https://1games.io/data/image/game/astro-robot-clicker/banner/1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/astro-robot-clicker/autro-robot-clicker.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "clicker"
+      ],
+      "tags": [
+        "incremental-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Click the dancing robot to earn AstroCoins, buy upgrades and unlock more characters in Astro Robot Clicker.",
+        "about": [
+          "Each click on the robot earns AstroCoins. Spend them on upgrades to build up earnings and reach the next unlock sooner.",
+          "Progress opens up other robots and weather effects. Check the costs in the upgrade menu and decide whether to buy a small improvement now or save toward a larger one.",
+          "Check the prices when you open the upgrade menu. Pick one purchase to aim for, then watch how quickly your balance grows after you buy it. If you want to see a new robot or weather effect, save toward its next requirement once you have a few early upgrades."
+        ],
+        "steps": [
+          [
+            "Earn your first coins",
+            "Click the robot and watch the AstroCoin counter. The coins are the currency for upgrades."
+          ],
+          [
+            "Spend on an upgrade",
+            "Compare the prices in the upgrade menu and buy an improvement when you can afford it."
+          ],
+          [
+            "Check new unlocks",
+            "As your total grows, look for more robots and changes to the scene. Keep earning toward the upgrade you want next."
+          ],
+          [
+            "Compare progress before and after an upgrade",
+            "Note your balance, click for a short stretch, and see how quickly it grows. Repeat after a purchase to decide whether you want another small upgrade or to save for a more expensive one."
+          ]
+        ],
+        "faq": [
+          [
+            "What do I use AstroCoins for?",
+            "Spend them on upgrades. Continued progress also opens up new robots and weather effects."
+          ],
+          [
+            "Where do AstroCoins come from at the start?",
+            "Click the robot on the main screen. Check the coin counter, then open the upgrade menu when you have enough for your first purchase."
+          ],
+          [
+            "What can I unlock as I progress?",
+            "The game features robot characters such as Pinkbot and Astro Krabot, along with different weather effects for the scene."
+          ]
+        ],
+        "aboutTitle": "Spend AstroCoins with the next unlock in mind"
+      }
+    }
+  },
+  {
+    "id": "wave-rider",
+    "title": "Wave Rider",
+    "category": {
+      "en": "Surfing"
+    },
+    "source": "https://1games.io/wave-rider",
+    "url": "https://wave-rider.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/wave-rider-icon.png",
+      "artwork": "/assets/1games/wave-rider-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/wave-rider-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wave-rider/wave-rider.png",
+        "artwork": "https://1games.io/data/image/game/wave-rider/banner/wave-rider_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/wave-rider/wave-rider.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-03-23",
+      "genres": [
+        "adventure",
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "obstacles-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Surf through an endless water course in Wave Rider. Jump past hazards, pick up pearls and keep your board's durability above zero.",
+        "aboutTitle": "Read the current and keep your board afloat",
+        "about": [
+          "Wave Rider starts with a drop over a waterfall. Your board carries you downstream past plants, barriers and moving obstacles. Some bends narrow quickly, so scan for a clear route before the current takes you into the next stretch.",
+          "The run ends when the board runs out of durability. A single collision can leave you room to recover. After a hit, steer into open water before looking for another pickup or ramp.",
+          "Pearls appear along routes that can bring you close to hazards. A ramp or short glide may help you cross a tricky stretch. Check where you will come back down before you follow a pearl into a narrow section."
+        ],
+        "steps": [
+          [
+            "Steer downstream",
+            "Use the left and right arrow keys to move the board sideways. Start adjusting while the next gap is still ahead of you."
+          ],
+          [
+            "Jump or glide past a hazard",
+            "Use Space or the up arrow. Look for open water beyond the obstacle so you have room to steer again after landing."
+          ],
+          [
+            "Give obscured areas more room",
+            "Plants and other objects can hide what comes next. When your view is limited, favor a route that leaves room for a second correction."
+          ],
+          [
+            "Collect pearls on a clean line",
+            "Approach a pearl when you can see a route out of the section. If reaching it would take you straight into a barrier, stay in the open lane."
+          ]
+        ],
+        "faq": [
+          [
+            "What ends a run in Wave Rider?",
+            "The run ends when your board's durability reaches zero. Repeated collisions shorten the distance you can travel."
+          ],
+          [
+            "Which keys make the board jump?",
+            "Press the up arrow or Space to jump or glide. The left and right arrows steer sideways."
+          ],
+          [
+            "Do I have to collect every pearl?",
+            "No. Pearls are optional pickups. Leave yourself a clear route downstream if a pearl is next to an obstacle."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "wobbly-pets",
+    "title": "Wobbly Pets",
+    "category": {
+      "en": "Physics balance"
+    },
+    "source": "https://1games.io/wobbly-pets",
+    "url": "https://wobbly-pets.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/wobbly-pets-icon.png",
+      "artwork": "/assets/1games/wobbly-pets-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/wobbly-pets-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wobbly-pets/wobbly-pets.png",
+        "artwork": "https://1games.io/data/image/game/wobbly-pets/banner/wobbly-pets_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/wobbly-pets/wobbly-pets1.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-20",
+      "genres": [
+        "casual",
+        "arcade"
+      ],
+      "tags": [
+        "one-button-games",
+        "timing-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Guide a wobbly animal through an obstacle course in Wobbly Pets. Time each step with Space or a click and see how far you can reach.",
+        "aboutTitle": "Find a steady rhythm through the obstacle course",
+        "about": [
+          "You guide a small pet along a course by timing its steps. Its movement responds to each press, so a rhythm that works on open ground may need to change when the path gets tight.",
+          "Watch the pet's current motion before giving it another input. Fast repeated presses can make its steps less stable, particularly when it is already wobbling near an obstacle.",
+          "Some sections call for a brief pause while an obstacle moves. Use that time to look at the gap ahead and decide when to take the next step. A run measures how far you can carry that control through the course."
+        ],
+        "steps": [
+          [
+            "Start with one input",
+            "Press Space or click once with the left mouse button. Watch how the pet moves before pressing again."
+          ],
+          [
+            "Set a rhythm on open ground",
+            "Use an open stretch to find a pace you can repeat. Break the rhythm when the pet needs time to settle."
+          ],
+          [
+            "Watch moving obstacles first",
+            "Look at the full movement of the obstacle when you have space to wait. Take the next step when the path opens."
+          ],
+          [
+            "Change one thing after a stumble",
+            "If you keep losing balance in the same place, try waiting slightly longer before your next input. Compare the result before changing your pace again."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I use a mouse instead of Space?",
+            "Yes. The left mouse button and Space both control the pet's movement."
+          ],
+          [
+            "Why does the pet wobble more when I tap faster?",
+            "Rapid presses can interrupt its movement. Give the current step time to settle, especially on a narrow stretch."
+          ],
+          [
+            "How can I get farther on the next run?",
+            "Keep a steady pace where the path is clear. Slow down long enough to check the timing of moving obstacles before stepping past them."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "tube-fight",
+    "title": "Tube Fight",
+    "category": {
+      "en": "Arena fighting"
+    },
+    "source": "https://1games.io/tube-fight",
+    "url": "https://tube-fight.1games.io/?v=26052105",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/tube-fight-icon.png",
+      "artwork": "/assets/1games/tube-fight-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/tube-fight-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/tube-fight/tube-fight.png",
+        "artwork": "https://1games.io/data/image/game/tube-fight/banner/tube-fight_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/tube-fight/tube-fight.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-20",
+      "genres": [
+        "action"
+      ],
+      "tags": [
+        "arena-games",
+        "action-fighting",
+        "combat-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Play Tube Fight solo or share a keyboard for a local face-off. Try parody-inspired fighters and time short combos in compact arenas.",
+        "aboutTitle": "Learn each fighter's timing in a small arena",
+        "about": [
+          "Tube Fight pits parody-inspired characters against each other in short arena matches. Fighters differ in movement, combo style and how quickly they can act again after an attack.",
+          "Start by learning how much space your fighter needs for an attack. If the opening hit misses, leave time to recover before starting another sequence. Repeating attacks at the wrong distance gives the opponent an opening.",
+          "Solo mode lets you practice with one control set. Local two-player mode splits movement and attacks between opposite sides of the keyboard, so both players can act in the same round."
+        ],
+        "steps": [
+          [
+            "Learn the solo controls",
+            "Use WASD or the arrow keys to move. Press Space to attack."
+          ],
+          [
+            "Set up a local match",
+            "Player 1 uses WASD and Space. Player 2 uses the arrow keys and the numeric keypad's 1 key."
+          ],
+          [
+            "Start with a short sequence",
+            "Move into range and try a short combo. Back off if the first attack misses, then wait for a chance to move in again."
+          ],
+          [
+            "Compare two fighters",
+            "Try the same approach with a different character. Pay attention to changes in movement speed and recovery before attempting a longer sequence."
+          ]
+        ],
+        "faq": [
+          [
+            "Can two people play on the same keyboard?",
+            "Yes. Choose two-player mode and use the two control sets. The second player's attack is Numpad 1."
+          ],
+          [
+            "Why does my fighter get hit after I miss?",
+            "An attack takes time to finish. If it misses, the opponent can close the gap before your fighter is ready to act again."
+          ],
+          [
+            "Do the fighters play differently?",
+            "Yes. Characters have different movement and combo timing. Try a few rounds with each before deciding which one suits you."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "school-fury",
+    "title": "School Fury",
+    "category": {
+      "en": "Destruction sandbox"
+    },
+    "source": "https://1games.io/school-fury",
+    "url": "https://school-fury.1games.io/?v=26052007",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/school-fury-icon.png",
+      "artwork": "/assets/1games/school-fury-icon.png",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "preview": "/assets/1games/school-fury-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/school-fury/school-fury.png",
+        "artwork": "https://1games.io/data/image/game/school-fury/school-fury.png",
+        "preview": "https://cdn.1games.io/file/game/school-fury/school-fury.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-22",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "destruction-games",
+        "sandbox-games",
+        "smash-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Break furniture and equipment in timed virtual rooms in School Fury. Chain hits for points and spend coins to unlock tools and areas.",
+        "aboutTitle": "Chain object hits across timed rooms",
+        "about": [
+          "School Fury takes place in a cartoon environment with destructible props. Move through virtual classrooms, hallways and labs and score by breaking furniture and equipment during a timed run.",
+          "The room layout shapes your route. A cluster of props lets you continue a combo without spending much time moving. Clear adjacent objects in a sequence before crossing a corridor to reach the next cluster.",
+          "Coins from runs help unlock equipment, and progress can open more rooms. Try a new tool in a room you already know to judge how quickly it lets you move from one object to the next."
+        ],
+        "steps": [
+          [
+            "Move around the room",
+            "Use WASD or the arrow keys. Look for a group of nearby props before starting your combo."
+          ],
+          [
+            "Use the action button",
+            "Press Space to break or interact with an object in range. Move toward the next nearby prop while you still have time to continue the sequence."
+          ],
+          [
+            "Plan a short route",
+            "Work through a row of desks or equipment in order. If the next object is across the room, look for a nearer cluster before making the trip."
+          ],
+          [
+            "Spend your coins between runs",
+            "Check the available tools and choose one that helps with your current goal. Compare your score in a familiar room after the purchase."
+          ]
+        ],
+        "faq": [
+          [
+            "What earns points in a room?",
+            "Break the virtual props and link nearby hits into combos. Clearing more objects within the time limit gives you more chances to raise your score."
+          ],
+          [
+            "Which key breaks objects?",
+            "Press Space when you are within range. Use WASD or the arrow keys to move around the room."
+          ],
+          [
+            "How do I get more equipment?",
+            "Earn coins during runs and use them to unlock tools. Progress also opens more virtual areas to try."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "retro-sports-champion",
+    "title": "Retro Sports Champion",
+    "category": {
+      "en": "Track and field"
+    },
+    "source": "https://1games.io/retro-sports-champion",
+    "url": "https://retro-sports-champion.1games.io/?v=26052205",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/retro-sports-champion-icon.png",
+      "artwork": "/assets/1games/retro-sports-champion-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/retro-sports-champion-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/retro-sports-champion/retro-sports-champion.png",
+        "artwork": "https://1games.io/data/image/game/retro-sports-champion/banner/retro-sports-champion_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/retro-sports-champion/retro-sports-champion.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-25",
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "competitive-games",
+        "timing-games",
+        "fast-paced-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Compete in sprints, jumps, throws and swimming in Retro Sports Champion. Learn when to tap, take off and release across tournament events.",
+        "aboutTitle": "Change your rhythm for each event",
+        "about": [
+          "Retro Sports Champion puts pixel athletes into short events such as the 100-meter sprint, long jump, javelin and swimming. Each event uses the same pair of movement inputs, with timing cues that change from one competition to the next.",
+          "The sprint rewards a quick, steady rhythm. In long jump and javelin, the run-up sets up one decisive action. Watch the takeoff board or foul line instead of carrying the same sprint rhythm all the way through.",
+          "Tournaments combine multiple rounds. Match results can earn coins and experience toward more athletes with different strengths. If one event consistently costs you places, practice its timing cue before tackling another tournament."
+        ],
+        "steps": [
+          [
+            "Learn the pair of controls",
+            "Use A and D or the left and right arrow keys. Read the prompt at the start of each event to see how that event uses them."
+          ],
+          [
+            "Build a steady sprint rhythm",
+            "Tap rhythmically through the 100 meters. Once you can hold a consistent pace, try increasing it without losing the pattern."
+          ],
+          [
+            "Watch the launch point",
+            "In long jump, time your takeoff at the board. In javelin, watch the release angle and the foul line during the approach."
+          ],
+          [
+            "Adjust to the next sport",
+            "When the tournament switches to swimming or hurdles, look for its stroke or jump cues. Use the first round to learn where those cues appear."
+          ]
+        ],
+        "faq": [
+          [
+            "Are all sports controlled the same way?",
+            "They use the same two inputs, but each event has its own timing. A sprint needs repeated taps, while a jump or throw depends on the final action."
+          ],
+          [
+            "How do I unlock more athletes?",
+            "Play events and earn coins and experience. Progress opens athletes with different stats and strengths."
+          ],
+          [
+            "Why is my sprint rhythm not working in the long jump?",
+            "The long jump also needs a well-timed takeoff. Build speed on the approach, then focus on the board as you come up to it."
+          ]
+        ]
+      }
+    }
+  }
+]
