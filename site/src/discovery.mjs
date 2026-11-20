@@ -6,29 +6,33 @@ export const escapeDiscovery = value => String(value).replace(/[&<>"']/g, char =
 export const discoveryUpdated = '2026-11-20';
 
 const definitions = [
+  ['action', 'Action', 'एक्शन', '#ffe3d9', '#a83c28', 'm13 2-9 12h7l-1 8 10-12h-7l1-8z'],
+  ['adventure', 'Adventure', 'रोमांच', '#dbefdf', '#246842', '<circle cx="12" cy="12" r="9"/>|m15.8 8.2-2 5.6-5.6 2 2-5.6z'],
+  ['arcade', 'Arcade', 'आर्केड', '#e9e1ff', '#5c3eaa', 'M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm-2 10h18m-14 4h4m-2-2v4m6-2h.01m3-1h.01'],
+  ['board', 'Board', 'बोर्ड', '#e1edff', '#324e97', 'M5 20v-3h13v3zM7 17c0-4 4-4 4-7l-4 2-2-3 6-6v2c5 0 6 5 6 12'],
+  ['card', 'Card', 'कार्ड', '#ffe3ec', '#892957', 'M6 7h9a2 2 0 0 1 2 2v11H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Zm2-3 12 2-1 10m-8.5-5-2 2.5 2 2.5 2-2.5z'],
+  ['clicker', 'Clicker', 'क्लिकर', '#fff0cb', '#7a520b', 'm5 7 14 5-6 2-2 6zM4 3l1 1m4-2v2M2 8h1'],
+  ['driving', 'Driving', 'ड्राइविंग', '#ffe9bf', '#80520b', '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/>|M3.5 10h6m5 0h6m-8.5 5v6'],
+  ['io', '.io', '.io', '#dff1fc', '#275a88', '<circle cx="17.5" cy="11.8" r=".8"/><circle cx="9" cy="8" r=".65"/>|M15.4 6a8 8 0 1 0 0 12l-6-6zM21 8h.01'],
   ['puzzle', 'Puzzle', 'पहेली', '#eadfff', '#572d9c', 'M4 7a2 2 0 0 1 2-2h3a3 3 0 0 1 6 0h3a2 2 0 0 1 2 2v3a3 3 0 0 0 0 6v2a2 2 0 0 1-2 2h-3a3 3 0 0 0-6 0H6a2 2 0 0 1-2-2v-2a3 3 0 0 0 0-6z'],
-  ['casual', 'Casual', 'कैज़ुअल', '#ffecd7', '#8c4d28', 'M4 9h13v4a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5Zm13 1h2a2 2 0 0 1 0 4h-2M8 3v3m4-3v3M3 21h17'],
-  ['action', 'Action', 'एक्शन', '#ffe3d9', '#a83c28', 'm5 3 15 15m-1-15L4 18m12-3 5-1m-7 7 1-5m-7-1-5-1m7 7-1-5'],
-  ['adventure', 'Adventure', 'रोमांच', '#dbefdf', '#246842', 'm3 19 7-14 4 8 2-4 5 10H3Zm5-10 2 2 2-2'],
-  ['racing', 'Racing', 'रेसिंग', '#ffe9bf', '#80520b', 'M5 21V4c5-4 9 4 14 0v11c-5 4-9-4-14 0m4-11v5m5-3v5m-9-2c5-4 9 4 14 0'],
   ['shooting', 'Shooting', 'निशानेबाज़ी', '#ffdfe1', '#a3344a', '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/>|M12 2v3m0 14v3M2 12h3m14 0h3'],
-  ['sports', 'Sports', 'खेलकूद', '#d9f1e9', '#216851', '<circle cx="12" cy="12" r="9"/>|M3 12h18m-9-9v18M5.5 5.5c6 3 6 10 0 13m13-13c-6 3-6 10 0 13'],
   ['simulation', 'Simulation', 'सिमुलेशन', '#d8edff', '#2a5f98', 'm12 3 9 5v8l-9 5-9-5V8zm0 10 9-5m-9 5L3 8m9 5v8'],
-  ['strategy', 'Strategy', 'रणनीति', '#e3e6ff', '#4245a1', 'M4 4h5v4h6V4h5v7l-3 3 1 6H6l1-6-3-3zM7 14h10'],
+  ['sports', 'Sports', 'खेलकूद', '#d9f1e9', '#216851', '<circle cx="12" cy="12" r="9"/>|M3 12h18m-9-9v18M5.5 5.5c6 3 6 10 0 13m13-13c-6 3-6 10 0 13'],
+  ['strategy', 'Strategy', 'रणनीति', '#e3e6ff', '#4245a1', '<circle cx="8" cy="9" r="2"/>|M4 3h16v18H4zM13 9h4m-3 4 3 4m0-4-3 4M8 12v5h3'],
+  ['word', 'Word', 'शब्द', '#f4e5ff', '#654085', 'M6 3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3Zm1 5 2.5 8 2.5-6 2.5 6L17 8'],
 ];
 
 export const genres = Object.fromEntries(definitions.map(([id, en, hi, fill, ink, path]) => [id, { id, en, hi, fill, ink, path }]));
 export const retiredGenres = {
-  words: 'puzzle',
-  board: 'strategy',
-  cards: 'strategy',
+  casual: null,
+  racing: 'driving',
+  words: 'word',
+  cards: 'card',
+  clicker: null,
   fashion: 'simulation',
-  clicker: 'casual',
-  music: 'casual',
-  platform: 'adventure',
-  io: 'action',
-  arcade: 'action',
-  christmas: 'casual',
+  music: 'simulation',
+  platform: 'arcade',
+  christmas: null,
 };
 const icons = {
   home: '<path fill="currentColor" fill-opacity=".16" d="M4 11 10.7 5a2 2 0 0 1 2.6 0l6.7 6v7a2 2 0 0 1-2 2h-3.5v-4.5a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1V20H6a2 2 0 0 1-2-2z"/>|m2.5 12.5 1.5-1.5m16 0 1.5 1.5',
@@ -46,27 +50,75 @@ export const discoveryIcon = name => {
 };
 
 const originals = {
-  'clock-out': { genres: ['puzzle', 'casual'], tags: ['sorting', 'color-sorting', 'bus', 'logic'] },
-  'glass-twist': { genres: ['puzzle', 'casual'], tags: ['sorting', 'color-sorting', 'screw-puzzle', 'logic'] },
-  mahjong: { genres: ['strategy'], tags: ['mahjong', 'tiles-games', 'educational'] },
+  'clock-out': { categories: ['puzzle'], tags: ['sorting', 'color-sorting', 'bus', 'logic'] },
+  'glass-twist': { categories: ['puzzle'], tags: ['sorting', 'color-sorting', 'screw-puzzle', 'logic'] },
+  mahjong: { categories: ['board', 'strategy'], tags: ['mahjong', 'tiles-games', 'educational'] },
 };
-const genrePriority = ['shooting', 'racing', 'sports', 'strategy', 'simulation', 'puzzle', 'action', 'adventure', 'casual'];
-const genreAliases = {
-  'bubble-shooter': 'puzzle',
-  matching: 'puzzle',
-  merge: 'puzzle',
-  driving: 'racing',
-  ...retiredGenres,
+
+// Match the main mechanic before broader supplier labels and themes.
+const genreRules = [
+  ['word', ['word', 'words']],
+  ['card', ['card', 'cards', 'solitaire']],
+  ['board', ['board', 'checkers', 'chess', 'backgammon']],
+  ['io', ['io']],
+  ['strategy', ['strategy', 'tower-defense']],
+  ['clicker', ['clicker']],
+  ['driving', ['racing', 'car-racing', 'driving']],
+  ['sports', ['sports', 'archery']],
+  ['shooting', ['shooting']],
+  ['puzzle', ['puzzle', 'matching', 'match-3', 'merge', 'blocks', 'bubble-shooter', 'hidden-object']],
+  ['simulation', ['simulation', 'management', 'fashion', 'dress-up', 'make-over', 'make-up', 'color', 'drawing', 'music', 'idle']],
+  ['action', ['action', 'fighting']],
+  ['adventure', ['adventure', 'obby', 'escape', 'survival']],
+  ['arcade', ['arcade', 'platform']],
+];
+
+// Overrides cover misleading labels and games with a distinct secondary mechanic.
+const categoryOverrides = {
+  'angry-pets-3d-boom': ['puzzle', 'shooting'],
+  'archery-ragdoll': ['shooting', 'sports'],
+  'backgammon-multiplayer': ['board', 'strategy'],
+  'break-stick-completely': ['simulation'],
+  'catch-a-fish-obby': ['adventure', 'sports'],
+  'cheat-and-dont-get-caught': ['puzzle'],
+  'chroma-trek': ['arcade'],
+  'egg-thief': ['adventure'],
+  'english-checkers-online-multiplayer': ['board', 'strategy'],
+  'feeding-a-black-hole': ['clicker'],
+  'geometry-vibes-2-online': ['arcade'],
+  'grow-slime': ['simulation'],
+  'hatch-or-steal-online': ['simulation'],
+  'mahjong-classic': ['puzzle', 'board'],
+  'mahjong-lines': ['puzzle'],
+  'mahjong-tide': ['puzzle', 'board'],
+  'master-chess': ['board', 'strategy'],
+  'minni-family-home-play-house': ['simulation'],
+  'my-arcade-center': ['simulation'],
+  'no-im-not-a-plankton': ['puzzle'],
+  'obby-1-power': ['adventure', 'clicker'],
+  'obby-throw-food-for-pets': ['arcade', 'simulation'],
+  'orbit-kick': ['sports', 'arcade'],
+  'pet-riders': ['adventure', 'simulation'],
+  'ragdoll-crashtest-throw-and-break': ['simulation'],
+  'ragdoll-robots-sandbox': ['simulation'],
+  'realistic-car-destruction-sandbox': ['driving', 'simulation'],
+  'relax-box-asmr-mini-games': ['simulation'],
+  'santa-holiday-adventure-game': ['adventure', 'driving'],
+  'slope-rider': ['driving', 'arcade'],
+  'snake-of-bullets-collect-and-shoot': ['shooting', 'arcade'],
+  'snow-road-3d': ['driving', 'arcade'],
+  'the-machinegg': ['clicker', 'simulation'],
+  'wave-rider': ['sports', 'arcade'],
 };
 
 export function taxonomyFor(game) {
-  const source = originals[game.id] ?? game.metadata;
-  const categories = genrePriority.filter(id => source.genres.includes(id));
-  if (!categories.length) {
-    const alias = Object.keys(genreAliases).find(id => source.genres.includes(id));
-    categories.push(genreAliases[alias] ?? 'casual');
-  }
-  return { categories, tags: [...new Set(source.tags)] };
+  const original = originals[game.id];
+  if (original) return original;
+  const { genres: sourceGenres, tags } = game.metadata;
+  const match = genreRules.find(([, labels]) => labels.some(label => sourceGenres.includes(label)));
+  const categories = categoryOverrides[game.id] ?? (match && [match[0]]);
+  if (!categories) throw new Error(`Missing discovery category for ${game.id}`);
+  return { categories, tags: [...new Set(tags)] };
 }
 
 export const gamesPath = lang => `${lang === 'hi' ? '/hi' : ''}/games/`;

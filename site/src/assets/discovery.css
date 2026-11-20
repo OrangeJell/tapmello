@@ -1,6 +1,6 @@
 .discovery-shell {
   --nav-rail: 60px;
-  --nav-open: min(208px, 82vw);
+  --nav-open: 204px;
   --site-bar: 70px;
   --site-top: calc(var(--site-bar) + env(safe-area-inset-top));
   --discovery-surface: light-dark(#fff, #211e2c);
@@ -11,7 +11,17 @@
   --discovery-ink: light-dark(#211c39, #eee9f8);
   --discovery-muted: light-dark(#605873, #c1b8d0);
   --discovery-accent: light-dark(#6540b2, #cbb2ff);
+  --nav-surface: light-dark(#f5f0fb, #171523);
+  --nav-text: light-dark(#332b46, #e1daee);
+  --nav-rule: light-dark(#dfd6ec, #31283f);
+  --nav-icon: light-dark(#6740b5, #b69aff);
+  --nav-hover: light-dark(#ece4f8, #242033);
+  --nav-selected: light-dark(#e7dbfa, #322645);
+  --nav-selected-text: light-dark(#42237a, #f2eaff);
   padding-inline-start: var(--nav-rail);
+}
+@media (min-width: 1200px) {
+  .discovery-shell { --nav-rail: var(--nav-open); }
 }
 .has-mobile-discovery .discovery-shell { --nav-rail: 0px; }
 .has-mobile-discovery:has(.discovery-drawer[open]) { overflow: hidden; }
@@ -85,8 +95,8 @@
   margin: 0;
   border: 0;
   padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom) env(safe-area-inset-left);
-  color: var(--discovery-ink);
-  background: var(--discovery-chrome);
+  color: var(--nav-text);
+  background: var(--nav-surface);
 }
 .discovery-drawer[open] {
   display: grid;
@@ -101,21 +111,18 @@
   justify-content: space-between;
   gap: 6px;
   min-height: var(--site-bar);
-  border-bottom: 1px solid var(--discovery-nav-line);
+  border-bottom: 1px solid var(--nav-rule);
   padding: 6px 8px 6px 16px;
 }
 .discovery-drawer .brand { --discovery-logo-size: 40px; font-size: 1.75rem; }
-.discovery-drawer .discovery-nav {
+.discovery-drawer[open] .discovery-nav {
   --nav-row: 46px;
   --nav-icon-size: 28px;
   --nav-icon-glyph: 25px;
-  --nav-category-grow: 0;
-  --nav-link-inset: 10px;
+  --nav-link-inset: 12px;
   --nav-item-width: 100%;
   --nav-rule-width: calc(100% - 2 * var(--nav-group-inset));
   position: static;
-  grid-template-rows: auto minmax(0, max-content) auto;
-  align-content: start;
   width: auto;
   clip-path: none;
   box-shadow: none;
@@ -129,7 +136,7 @@
   .discovery-nav { --nav-row: 44px; }
 }
 .discovery-nav {
-  --nav-icon-size: 24px;
+  --nav-icon-size: 26px;
   --nav-group-inset: 8px;
   --nav-link-inset: calc((var(--nav-rail) - var(--nav-icon-size)) / 2 - var(--nav-group-inset));
   --nav-item-width: calc(var(--nav-rail) - 2 * var(--nav-group-inset));
@@ -143,15 +150,26 @@
   clip-path: inset(0 calc(var(--nav-open) - var(--nav-rail)) 0 0);
   overflow: hidden;
   contain: layout paint;
-  background: var(--discovery-chrome);
-  box-shadow: inset -1px 0 var(--discovery-nav-line);
-  background-image: linear-gradient(var(--discovery-nav-line), var(--discovery-nav-line));
+  background: var(--nav-surface);
+  box-shadow: inset -1px 0 var(--nav-rule);
+  background-image: linear-gradient(var(--nav-rule), var(--nav-rule));
   background-size: 1px 100%;
   background-position: calc(var(--nav-rail) - 1px) 0;
   background-repeat: no-repeat;
-  color: var(--discovery-ink);
+  color: var(--nav-text);
   transition: clip-path 190ms cubic-bezier(.2,.7,.2,1);
   outline: none;
+}
+@media (min-width: 1200px) {
+  .discovery-nav {
+    --nav-link-inset: 12px;
+    --nav-item-width: 100%;
+    --nav-rule-width: calc(100% - 2 * var(--nav-group-inset));
+    clip-path: none;
+    background-image: none;
+  }
+  .discovery-nav .discovery-nav-label { opacity: 1; }
+  .discovery-nav .discovery-toggle:not([hidden]) { display: none; }
 }
 .discovery-nav:is(.is-open, :focus-within):not(.is-dismissed) {
   --nav-item-width: 100%;
@@ -179,7 +197,7 @@
   inset-inline-start: var(--nav-group-inset);
   width: var(--nav-rule-width);
   height: 1px;
-  background: var(--discovery-nav-line);
+  background: var(--nav-rule);
   pointer-events: none;
 }
 .discovery-nav-start::before { bottom: 0; }
@@ -189,7 +207,7 @@
   flex-direction: column;
   overflow: hidden auto;
   scrollbar-width: thin;
-  scrollbar-color: var(--discovery-line) transparent;
+  scrollbar-color: var(--nav-rule) transparent;
   overscroll-behavior: contain;
 }
 .discovery-nav a {
@@ -197,13 +215,13 @@
   isolation: isolate;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   min-height: var(--nav-row, 42px);
   padding: 3px var(--nav-link-inset);
   border-radius: 10px;
   color: inherit;
   text-decoration: none;
-  font-size: .875rem;
+  font-size: .9375rem;
   font-weight: 500;
   line-height: 1.35;
 }
@@ -215,17 +233,17 @@
   width: var(--nav-item-width);
   border-radius: inherit;
 }
-.discovery-nav-categories a { flex: var(--nav-category-grow, 1) 0 auto; }
+.discovery-nav-categories a { flex: 0 0 auto; }
 .discovery-nav :is(a, button):focus-visible,
 .discovery-drawer header button:focus-visible,
 .discovery-mobile-toggle:focus-visible { outline: 2px solid var(--discovery-accent); outline-offset: -2px; }
 .discovery-nav a:is(:hover, :active)::before {
-  background: light-dark(#e9e1f5, #322b47);
+  background: var(--nav-hover);
 }
-.discovery-nav a[aria-current='page']::before { background: light-dark(#e5d7fa, #40305a); }
+.discovery-nav a[aria-current='page']::before { background: var(--nav-selected); }
 .discovery-nav a[aria-current='page'] {
-  color: var(--discovery-accent);
-  font-weight: 700;
+  color: var(--nav-selected-text);
+  font-weight: 650;
 }
 .discovery-nav-start a, .discovery-nav-end a { font-weight: 600; }
 .discovery-nav-label {
@@ -241,14 +259,14 @@
   flex: 0 0 var(--nav-icon-size);
   width: var(--nav-icon-size);
   height: var(--nav-icon-size);
-  color: var(--discovery-muted);
+  color: var(--nav-icon);
 }
 .discovery-nav .discovery-icon svg {
-  width: var(--nav-icon-glyph, 21px);
-  height: var(--nav-icon-glyph, 21px);
+  width: var(--nav-icon-glyph, 23px);
+  height: var(--nav-icon-glyph, 23px);
   stroke-width: 1.8;
 }
-.discovery-nav a:is(:hover, [aria-current='page']) .discovery-icon { color: inherit; }
+.discovery-nav a[aria-current='page'] .discovery-icon { color: var(--nav-selected-text); }
 .discovery-shell .skip-link { z-index: 10; }
 .discovery-shell main { scroll-margin-top: var(--site-top); }
 .discovery-shell #games { scroll-margin-top: calc(var(--site-top) + 14px); }

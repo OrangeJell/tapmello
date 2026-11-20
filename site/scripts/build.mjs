@@ -6,7 +6,7 @@ import { appendFile, copyFile, cp, mkdir, readFile, rm, writeFile } from 'node:f
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { origin, updated } from '../src/game.mjs';
-import { catalogueFor, discoveryUpdated, gamesPath, genrePath, genres, retiredGenres, tagName } from '../src/discovery.mjs';
+import { catalogueFor, discoveryUpdated, gamesPath, genrePath, genres, retiredGenres, tagName, taxonomyFor } from '../src/discovery.mjs';
 import { locales } from '../src/locales.mjs';
 import { partnerGamesFor, partnerGamePath } from '../src/partner-games.mjs';
 const extractLocales = process.argv.includes('--extract-locales');
@@ -62,7 +62,7 @@ for (const edition of ['shared', 'en', 'hi']) {
   const { games } = catalogueFor(language, sharedOnly);
   const searchEntries = games.map(game => ({
     title: game.title, href: game.href, cover: game.cover,
-    keywords: [game.id, game.category, ...(game.searchAliases ?? []), ...(game.metadata?.genres ?? game.categories), ...game.tags].join(' '),
+    keywords: [game.id, game.category, ...(game.searchAliases ?? []), ...game.categories.map(id => genres[id][language]), ...(game.metadata?.genres ?? []), ...game.tags].join(' '),
   }));
   const searchTerms = language === 'en' && games.map(game => [game.category, ...(game.searchAliases ?? []), ...game.categories.map(id => genres[id]?.en ?? id), ...game.tags.map(tagName)].filter(Boolean));
   if (!extracting && !sharedOnly) await writeFile(path.join(root, 'dist', 'assets', `game-search-${language}.json`), JSON.stringify(searchEntries));
@@ -91,7 +91,7 @@ for (const edition of ['shared', 'en', 'hi']) {
         '@context': 'https://schema.org', '@type': 'WebPage', url,
         name: game.title, description: detail.summary, inLanguage: language, dateModified: detailUpdated,
         mainEntity: {
-          '@type': 'VideoGame', name: game.title, image: origin + game.artwork, genre: game.category[language],
+          '@type': 'VideoGame', name: game.title, image: origin + game.artwork, genre: taxonomyFor(game).categories.map(id => genres[id][language]),
           ...(game.metadata.developer && { author: { '@type': 'Organization', name: game.metadata.developer } }),
           ...(game.metadata.releaseDate && { datePublished: game.metadata.releaseDate }),
         },
@@ -195,7 +195,8 @@ for (const page of pages.filter(page => !page.localized)) {
 const publishedRoutes = new Set(pages.map(page => page.path));
 const retiredCategoryRedirects = languageCodes.flatMap(code => Object.entries(retiredGenres).flatMap(([oldId, newId]) => {
   const from = localPath(code, genrePath('en', oldId));
-  const category = localPath(code, genrePath('en', newId));
+  if (publishedRoutes.has(from)) return [];
+  const category = newId && localPath(code, genrePath('en', newId));
   const to = publishedRoutes.has(category) ? category : localPath(code, gamesPath('en'));
   return [`${from.slice(0, -1)} ${to} 301`, `${from} ${to} 301`];
 }));

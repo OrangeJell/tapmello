@@ -3,8 +3,20 @@ const toggle = document.querySelector('.discovery-toggle');
 const mobileToggle = document.querySelector('.discovery-mobile-toggle');
 const categoryDrawer = document.querySelector('.discovery-drawer');
 const mobileNavigation = matchMedia('(max-width: 700px), (any-pointer: coarse) and (max-height: 600px)');
+const compactNavigation = matchMedia('(width < 1200px)');
 
 if (navigation && toggle) {
+  const categoryList = navigation.querySelector('.discovery-nav-categories');
+  const currentCategory = categoryList.querySelector('[aria-current="page"]');
+  const revealCurrentCategory = () => {
+    if (!currentCategory) return;
+    const list = categoryList.getBoundingClientRect();
+    const row = currentCategory.getBoundingClientRect();
+    if (row.top < list.top || row.bottom > list.bottom) {
+      categoryList.scrollTop += row.top - list.top - (list.height - row.height) / 2;
+    }
+  };
+
   const setOpen = open => {
     navigation.classList.toggle('is-open', open);
     navigation.classList.toggle('is-dismissed', !open);
@@ -32,7 +44,7 @@ if (navigation && toggle) {
     if (navigation.classList.contains('is-open')) setOpen(false);
   });
   document.addEventListener('keydown', event => {
-    if (categoryDrawer.open) return;
+    if (categoryDrawer.open || !compactNavigation.matches) return;
     if (event.key !== 'Escape' || !navigation.matches(':focus-within, :hover, .is-open')) return;
     setOpen(false);
     if (navigation.contains(document.activeElement)) {
@@ -50,11 +62,13 @@ if (navigation && toggle) {
     else categoryDrawer.before(navigation);
     mobileToggle.hidden = !mobile;
     document.documentElement.classList.toggle('has-mobile-discovery', mobile);
+    if (!mobile) revealCurrentCategory();
   }
 
   mobileToggle.addEventListener('click', () => {
     categoryDrawer.showModal();
     mobileToggle.setAttribute('aria-expanded', 'true');
+    revealCurrentCategory();
   });
   if (!('closedBy' in categoryDrawer)) {
     const hitsBackdrop = event => {
