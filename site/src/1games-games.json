@@ -3353,5 +3353,441 @@
         ]
       }
     }
+  },
+  {
+    "id": "wacky-steps",
+    "title": "Wacky Steps",
+    "category": {
+      "en": "Physics walking"
+    },
+    "source": "https://1games.io/wacky-steps",
+    "url": "https://wacky-steps.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/wacky-steps-icon.png",
+      "artwork": "/assets/1games/wacky-steps-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/wacky-steps-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wacky-steps/wacky-steps.png",
+        "artwork": "https://1games.io/data/image/game/wacky-steps/banner/wacky-steps_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/wacky-steps/wacky-steps.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-03-30",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "one-button-games",
+        "timing-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Time your steps in Wacky Steps. Adjust your stride to land between sidewalk cracks, avoid moving hazards and reach the next checkpoint.",
+        "aboutTitle": "Choose a landing spot before extending your stride",
+        "about": [
+          "In Wacky Steps, holding the input extends the character's stride. A short hold helps you land on a small patch of pavement. A longer hold lets you reach across a crack, provided the character can keep its balance.",
+          "Traffic and unstable tiles can interrupt the rhythm that works on an empty sidewalk. Look beyond the foot you are placing to see whether the next patch gives you room to stop or prepare another step.",
+          "Coins reward clean routes through the course. Checkpoints can recover some of your progress after a mistake. Learn the stretch between two checkpoints before taking a longer stride toward a coin beside a hazard."
+        ],
+        "steps": [
+          [
+            "Set the stride with the mouse",
+            "Click and hold to extend the step. Release when the foot can land on a clear patch."
+          ],
+          [
+            "Look at the next two footholds",
+            "Pick a landing spot between cracks, then check whether it gives you room for another step."
+          ],
+          [
+            "Shorten the step in crowded sections",
+            "Use a shorter hold when traffic or an unstable tile limits the safe pavement."
+          ],
+          [
+            "Practice from a checkpoint",
+            "If the same crack ends several attempts, adjust the preceding stride first so you approach it from a better position."
+          ]
+        ],
+        "faq": [
+          [
+            "What does holding the mouse longer do?",
+            "It extends the stride. If the character reaches too far, it can lose balance and fall."
+          ],
+          [
+            "What happens if I step on a crack?",
+            "Landing on a crack can end the attempt. Aim for a clear section of pavement before you commit each stride."
+          ],
+          [
+            "Are there other routes to try?",
+            "The game offers environments and modes with different obstacles. Use the opening stretch to learn the timing of each route."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "undead-corridor",
+    "title": "Undead Corridor",
+    "category": {
+      "en": "Zombie survival shooter"
+    },
+    "source": "https://1games.io/undead-corridor",
+    "url": "https://undead-corridor.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/undead-corridor-icon.png",
+      "artwork": "/assets/1games/undead-corridor-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/undead-corridor-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/undead-corridor/undead-corridor.png",
+        "artwork": "https://1games.io/data/image/game/undead-corridor/banner/undead-corridor-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/undead-corridor/undead-corridor.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2025-10-22",
+      "genres": [
+        "shooting"
+      ],
+      "tags": [
+        "horde-survival-games",
+        "reaction-games",
+        "shoot-em-up-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Survive waves of zombies in Undead Corridor. Read the room, manage your in-game health and ammo, and try different weapons in Training.",
+        "aboutTitle": "Choose the right mode and manage the wave",
+        "about": [
+          "Undead Corridor sends zombie waves through cramped game maps. Your health does not regenerate during a survival attempt, so check which side is closing in before moving into a tighter space.",
+          "Different modes change the rules. Corridor gives you one attempt and reacts to noise. Defense focuses on holding a barricade, while Rooms gives you smaller areas to clear. Check the mode before assuming your equipment will carry over.",
+          "Earned in-game currency unlocks weapons with different firing behavior. Training gives you a place to learn aim, reload timing and movement without managing a survival run."
+        ],
+        "steps": [
+          [
+            "Move sideways with A and D",
+            "Use the two keys to adjust your position in the corridor. Keep approaching zombies on screen as you shift."
+          ],
+          [
+            "Use the mouse to aim and fire",
+            "Point at a zombie in the game, then use the left mouse button to fire."
+          ],
+          [
+            "Make room if a zombie closes in",
+            "Press Space to use the game's kick. Watch the gap it creates before moving or pressing another control."
+          ],
+          [
+            "Reload during a break",
+            "Press R when you have space between waves. Try the timing in Training before using it during a crowded run."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I test weapons without an ongoing wave?",
+            "Yes. Training lets you try weapons without the pressure of survival mode."
+          ],
+          [
+            "Does health regenerate during a run?",
+            "No. Damage stays with you during the attempt, so a close encounter can affect the rest of the wave."
+          ],
+          [
+            "Do weapons carry over when I die?",
+            "The rules depend on the mode. Rooms and Street retain weapons after a death, while Defense can remove them after repeated deaths."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "lift-off-2",
+    "title": "Lift Off 2",
+    "category": {
+      "en": "Rocket timing and upgrades"
+    },
+    "source": "https://1games.io/lift-off-2",
+    "url": "https://lift-off-2.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/lift-off-2-icon.png",
+      "artwork": "/assets/1games/lift-off-2-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/lift-off-2-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/lift-off-2/lift-off-2.png",
+        "artwork": "https://1games.io/data/image/game/lift-off-2/banner/lift-off-2_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/lift-off-2/lift-off-2.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-04-06",
+      "genres": [
+        "arcade",
+        "simulation"
+      ],
+      "tags": [
+        "timing-games",
+        "incremental-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Time rocket stage releases in Lift Off 2. Earn coins from each launch, improve rocket parts and use planetary income to fund later flights.",
+        "aboutTitle": "Time each separation and reinvest the launch rewards",
+        "about": [
+          "Lift Off 2 focuses on the moment you release a rocket stage. Waiting can build more thrust, but a stage held too long can fail and end the attempt. Watch for the change near the point where you separated on the previous flight.",
+          "Coins from attempts pay for upgrades that change the rocket's parts and improve reach. Try to make a few consistent launches first. They give you a clearer comparison when you buy a part and repeat the flight.",
+          "Planetary progress can generate income between launch attempts. When that income becomes available, check what you can buy before launching again. A part that helps your earliest separation can pay off on later stages as well."
+        ],
+        "steps": [
+          [
+            "Start a launch and watch the active stage",
+            "Follow the game's stage display as the rocket climbs. Use the separation input when the stage is ready to release."
+          ],
+          [
+            "Adjust one separation at a time",
+            "If the flight ends during a particular stage, try releasing that stage earlier on the next flight while keeping your other inputs similar."
+          ],
+          [
+            "Reinvest in rocket parts",
+            "Spend coins on a part that addresses where your flight stops progressing. Try a comparable launch after upgrading."
+          ],
+          [
+            "Check planetary income between launches",
+            "As planet systems open, review the income they provide and use it to fund later rocket improvements."
+          ]
+        ],
+        "faq": [
+          [
+            "Why did the rocket fail before separation?",
+            "Waiting too long on a stage can end the flight. Try triggering separation a little sooner at the stage where it failed."
+          ],
+          [
+            "What are the coins for?",
+            "Coins fund rocket parts and upgrades that help extend later flights."
+          ],
+          [
+            "Can progress continue between sessions?",
+            "Planetary income can continue while you are away once you have unlocked and established planets."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "astro-tycoon",
+    "title": "Astro Tycoon",
+    "category": {
+      "en": "Mining management"
+    },
+    "source": "https://1games.io/astro-tycoon",
+    "url": "https://astro-tycoon.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/astro-tycoon-icon.png",
+      "artwork": "/assets/1games/astro-tycoon-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/astro-tycoon-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/astro-tycoon/astro-tycoon.png",
+        "artwork": "https://1games.io/data/image/game/astro-tycoon/banner/stick-hero-rpg_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/astro-tycoon/astro-tycoon.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-04-01",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "resource-management-games",
+        "collecting-games",
+        "incremental-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Collect crystals and upgrade mining equipment in Astro Tycoon. Manage backpack capacity, unlock automation and explore deeper planetary layers.",
+        "aboutTitle": "Make each trip from the mine to the base count",
+        "about": [
+          "Astro Tycoon starts on layered terrain with a vacuum tool for gathering crystals. Follow a route with several nearby deposits so you spend more of the trip collecting and less of it traveling back toward the base.",
+          "Backpack capacity determines how much you can carry before returning. If it fills close to the start of each trip, compare a storage upgrade with a tool upgrade. Improve the tool when collection speed is holding you back.",
+          "Workers and machines become available as the mine develops. Fossils can also unlock bonuses through revived pets. Review what your base is producing before committing the next trip to deeper deposits."
+        ],
+        "steps": [
+          [
+            "Move to a cluster of crystals",
+            "Use WASD or the arrow keys. Follow the visible terrain and look for deposits along the return route."
+          ],
+          [
+            "Return when your storage is nearly full",
+            "Use the base and its mission positions to interact with the game. Compare the haul with the time it took to reach it."
+          ],
+          [
+            "Check missions and the shop",
+            "Use Q for daily missions and quests, E for the shop and O for the space map."
+          ],
+          [
+            "Compare storage and tool upgrades",
+            "Increase capacity if the backpack sends you back early. Improve the tool if reaching and collecting from harder layers takes too much time."
+          ]
+        ],
+        "faq": [
+          [
+            "Why do I need to return to base?",
+            "Returning lets you use the resources you collected and access upgrades. Keeping a short route helps when storage is limited."
+          ],
+          [
+            "How can I open daily missions?",
+            "Press Q. At in-game mission positions, standing in the marked area can also trigger an interaction."
+          ],
+          [
+            "What can I unlock beyond better tools?",
+            "Progress can open workers, machines and additional equipment. Fossils can lead to pets that provide mining bonuses."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "escape-animals",
+    "title": "Escape Animals",
+    "category": {
+      "en": "Animal collection and base building"
+    },
+    "source": "https://1games.io/escape-animals",
+    "url": "https://escape-animals.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/escape-animals-icon.png",
+      "artwork": "/assets/1games/escape-animals-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/escape-animals-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/escape-animals/escape-animals.png",
+        "artwork": "https://1games.io/data/image/game/escape-animals/banner/escape-animals_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/escape-animals/escape-animals.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-03-27",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "collecting-games",
+        "obstacles-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Collect animals and return to your base in Escape Animals. Avoid the changing hazards and upgrade your collection to earn more income.",
+        "aboutTitle": "Plan the return route before picking up an animal",
+        "about": [
+          "Escape Animals sends you out from a base to find blocky animals. The open area contains hazards such as bursts of lava and terrain traps. Look for a return route before moving toward an animal, especially when the nearest path narrows.",
+          "Collecting an animal is the first half of a trip. Bring it back to the base to secure the reward. A close animal can be a good early choice when you can reach it and return through open ground.",
+          "Animals have different rarities and variants, and base upgrades affect the income they produce. Use earnings from successful short trips to improve your collection before attempting a route with more difficult obstacles."
+        ],
+        "steps": [
+          [
+            "Move and check the camera",
+            "Use WASD or the arrow keys to move. Use the right mouse button to adjust the view and check the route back."
+          ],
+          [
+            "Collect an animal with E",
+            "Get close and press E. Turn toward the base once you have the animal and watch for changes along the return path."
+          ],
+          [
+            "Clear or avoid an obstacle",
+            "Use the left mouse button for the game's attack or obstacle action. Look for an open route when stopping would put the pickup at risk."
+          ],
+          [
+            "Upgrade at the base",
+            "Use F at the base to upgrade animals. Compare the cost and income from your current collection before choosing the next trip."
+          ]
+        ],
+        "faq": [
+          [
+            "When is an animal secured?",
+            "Return safely to the base after collecting it. The completed trip is what lets the animal contribute to your income."
+          ],
+          [
+            "Which key picks up an animal?",
+            "Press E when you are close enough to the animal."
+          ],
+          [
+            "How do I improve income at the base?",
+            "Bring back animals and use F to upgrade them at the base. Rarity and upgrades affect the value of your collection."
+          ]
+        ]
+      }
+    }
   }
 ]
