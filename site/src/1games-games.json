@@ -2486,5 +2486,436 @@
         ]
       }
     }
+  },
+  {
+    "id": "fortress-clash",
+    "title": "Fortress Clash",
+    "category": {
+      "en": "Tower defense strategy"
+    },
+    "source": "https://1games.io/fortress-clash",
+    "url": "https://fortress-clash.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/fortress-clash-icon.png",
+      "artwork": "/assets/1games/fortress-clash-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/fortress-clash-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/fortress-clash/fortress-clash1.png",
+        "artwork": "https://1games.io/data/image/game/fortress-clash/banner/fortress-clash_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/fortress-clash/fortress-clash.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-04",
+      "genres": [
+        "strategy"
+      ],
+      "tags": [
+        "defense-games",
+        "horde-survival-games",
+        "tactical-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Defend a fortress against enemy waves, then capture territory in Fortress Clash. Choose units, upgrade defenses and time your general's abilities.",
+        "aboutTitle": "Balance wave defense with territorial conquest",
+        "about": [
+          "Fortress Clash pairs two kinds of strategy. At home, keep enemies away from the base with walls, towers and deployed troops. On the map, take cities to expand your income and support later upgrades.",
+          "Units serve different jobs. Swordsmen can hold the front while javelin throwers support them from behind. If the enemy fields cavalry, try adding spearmen before spending on another general-purpose unit.",
+          "Town buildings generate gold, and captured territory adds income as you progress. Keep enough resources for the next defense wave before committing to expansion. Save the general's active ability for a moment when several enemies are threatening the same part of the line."
+        ],
+        "steps": [
+          [
+            "Read the next wave",
+            "Look at the incoming formation and decide which units or structures can handle it. Check whether a wall needs attention before deploying more troops."
+          ],
+          [
+            "Give ranged units a frontline",
+            "Place durable melee troops ahead of javelin throwers. Use towers to help cover the approach while your troops engage."
+          ],
+          [
+            "Match units to their role",
+            "Try spearmen when cavalry threatens the line. Use your own cavalry where its movement can reach positions slower units cannot."
+          ],
+          [
+            "Expand after securing the base",
+            "Capture a city when you can sustain the next defense. Use the income to support upgrades and later campaigns."
+          ]
+        ],
+        "faq": [
+          [
+            "What produces gold?",
+            "Town buildings generate gold. Captured cities can also add income over time."
+          ],
+          [
+            "Which unit is useful against cavalry?",
+            "Spearmen are the published counter to cavalry. Keep them near the part of the line the cavalry is approaching."
+          ],
+          [
+            "What does the general do?",
+            "The general brings active abilities you can trigger during battle. Time an ability where it can help the units already engaged."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "track-dash",
+    "title": "Track Dash",
+    "category": {
+      "en": "Train momentum runner"
+    },
+    "source": "https://1games.io/track-dash",
+    "url": "https://track-dash.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/track-dash-icon.png",
+      "artwork": "/assets/1games/track-dash-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/track-dash-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/track-dash/track-dash.png",
+        "artwork": "https://1games.io/data/image/game/track-dash/banner/track-dash_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/track-dash/track-dash.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-01",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "one-button-games",
+        "endless-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Hold and release to guide a multi-car train in Track Dash. Build downhill speed, clear gaps and land with enough cars to keep going.",
+        "aboutTitle": "Keep the train intact through jumps and loops",
+        "about": [
+          "The train travels along an endless series of tracks. Holding the mouse button locks it to the rails and lets it build speed on descents. Release near a crest when the next section gives you room to launch.",
+          "Landing is as important as takeoff. A rough landing can knock cars off the train, so follow the angle of the next track while you are in the air. The run ends when the final car is lost.",
+          "The route changes from run to run, and tighter gaps become more demanding as you pick up speed. When only a few cars remain, aim for clean, short jumps. Use later attempts to experiment with climbs and loops once you can keep a train together."
+        ],
+        "steps": [
+          [
+            "Hold on a descent",
+            "Hold the mouse button while the train follows a downhill section. Watch where the rails start climbing toward the next ramp."
+          ],
+          [
+            "Release near the crest",
+            "Let go near the peak when you need to cross a gap. An earlier release can change the angle if your last landing pitched the train too far."
+          ],
+          [
+            "Watch the landing track",
+            "Look for a rail section angled in the direction of travel. Aim for an approach that lets the cars meet the track in sequence."
+          ],
+          [
+            "Adjust after losing a car",
+            "If you have only a few cars left, keep the next launch small. Choose a clean return to the rails before trying for more distance."
+          ]
+        ],
+        "faq": [
+          [
+            "What happens if I lose one train car?",
+            "You can keep going with the cars that remain. Losing the last car ends the run."
+          ],
+          [
+            "How do I build enough speed for a gap?",
+            "Hold the train to the rails through the preceding descent, then release as it reaches the crest of the ramp."
+          ],
+          [
+            "Is the course the same each time?",
+            "The game generates its endless tracks, so look at the current slopes and gaps instead of relying on a memorized launch point."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "sausage-battle",
+    "title": "Sausage Battle",
+    "category": {
+      "en": "Physics battle royale"
+    },
+    "source": "https://1games.io/sausage-battle",
+    "url": "https://sausage-battle.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/sausage-battle-icon.png",
+      "artwork": "/assets/1games/sausage-battle-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/sausage-battle-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/sausage-battle/sausage-battle.png",
+        "artwork": "https://1games.io/data/image/game/sausage-battle/banner/sausage-battle_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/sausage-battle/sausage-battle.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-04-27",
+      "genres": [
+        "action",
+        "arcade"
+      ],
+      "tags": [
+        "arena-games",
+        "competitive-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Bounce rivals toward arena hazards in Sausage Battle. Steer with the mouse or arrow keys and use momentum to become the last sausage standing.",
+        "aboutTitle": "Use space and momentum to stay in the arena",
+        "about": [
+          "Sausage Battle throws you into an arena with other wobbling sausages. You control movement, and attacks happen automatically when rivals are close. The direction and speed of a collision affect where each character goes.",
+          "The arena contains hazards that can eliminate a character after a bad bounce. Watch what is behind your target before rushing in. A push toward open ground is easier to recover from when another rival is approaching.",
+          "Crowds change the path of a collision. Look for one rival you can approach from open space and give yourself room to move after contact. Each round comes down to staying out of hazards until just one sausage remains."
+        ],
+        "steps": [
+          [
+            "Steer across the arena",
+            "Drag the mouse or use the arrow keys. Move into striking distance to trigger the automatic attack."
+          ],
+          [
+            "Look beyond the rival",
+            "Check where both characters might bounce after the collision. Keep a route back into open space."
+          ],
+          [
+            "Wait for an opening in a crowd",
+            "Let nearby clashes clear before approaching. Enter from a direction that gives you room to turn."
+          ],
+          [
+            "Change direction early near hazards",
+            "Leave extra space around blades and other hazards. A late turn can carry your character into danger even after you change input."
+          ]
+        ],
+        "faq": [
+          [
+            "Which button attacks?",
+            "Attacks trigger automatically near opponents. Use movement to control the approach and angle."
+          ],
+          [
+            "How does a round end?",
+            "The last sausage left in the arena wins."
+          ],
+          [
+            "Why did my character bounce away after a hit?",
+            "Collisions affect both characters. Your speed, approach angle and nearby obstacles can all change where you end up."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "office-fury",
+    "title": "Office Fury",
+    "category": {
+      "en": "Destruction simulation"
+    },
+    "source": "https://1games.io/office-fury",
+    "url": "https://office-fury.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/office-fury-icon.png",
+      "artwork": "/assets/1games/office-fury-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/office-fury-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/office-fury/office-fury.png",
+        "artwork": "https://1games.io/data/image/game/office-fury/banner/office-fury_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/office-fury/office-fury.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-04-08",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "destruction-games",
+        "smash-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Break office props for combos in Office Fury. Plan your route through timed rooms and spend earned coins on tools and upgrades.",
+        "aboutTitle": "Plan a combo route through each office",
+        "about": [
+          "Office Fury sends you through a cartoon workplace with breakable objects and a timer. Each destroyed object adds to your score. Groups of desks and equipment give you a chance to build a combo without crossing empty floor.",
+          "Tight rooms can slow a run if you have to double back. Clear props in the order you can reach them, then leave through the opening that puts you closest to the next group. Watch the timer on crossings between rooms.",
+          "Coins earned during runs help unlock improvements. The game also offers boosts such as temporary speed increases and special attacks. Try a boost where it helps you cover a long gap or clear a packed area before the chain ends."
+        ],
+        "steps": [
+          [
+            "Move through the office",
+            "Use WASD or the arrow keys and look for a cluster of objects you can reach without a long detour."
+          ],
+          [
+            "Use the action key in range",
+            "Press Space or L to attack or interact. Move toward the next prop as soon as the first one breaks."
+          ],
+          [
+            "Finish near the next room",
+            "Pick the first cluster so its last objects leave you by a useful exit. Avoid retracing an empty path when the combo is still active."
+          ],
+          [
+            "Compare upgrades on a familiar route",
+            "Spend earned coins on an improvement, then replay a layout you know to see where it saves time."
+          ]
+        ],
+        "faq": [
+          [
+            "Which keys break objects?",
+            "Press Space or L when the character is within reach. Move with WASD or the arrow keys."
+          ],
+          [
+            "How do I keep a combo going?",
+            "Link objects close enough to destroy one after another. Look for the next group before the current one runs out."
+          ],
+          [
+            "What are coins and boosts for?",
+            "Coins buy upgrades between runs. Boosts can improve movement or attacks during a run."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "bow-battle",
+    "title": "Bow Battle",
+    "category": {
+      "en": "Physics archery duels"
+    },
+    "source": "https://1games.io/bow-battle",
+    "url": "https://bow-battle.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/bow-battle-icon.png",
+      "artwork": "/assets/1games/bow-battle-cover.png",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "preview": "/assets/1games/bow-battle-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bow-battle/bow-battle.png",
+        "artwork": "https://1games.io/data/image/game/bow-battle/banner/bow-battle_512x512logo.png",
+        "preview": "https://cdn.1games.io/file/game/bow-battle/bow-battle.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-04-10",
+      "genres": [
+        "action"
+      ],
+      "tags": [
+        "bow-games",
+        "timing-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Aim and release shots in Bow Battle, a physics archery game with solo duels and a challenge mode that adds upgrades between floors.",
+        "aboutTitle": "Use the last shot to judge the next one",
+        "about": [
+          "Bow Battle uses a drag gesture to aim and set shot strength. After release, each arrow follows an arc across the screen. Watch whether the shot lands short or sails past before changing your next drag.",
+          "Characters can shift after a hit, so the previous aim may no longer line up. Look at the new positions and check which arrow type you have selected. Try one small adjustment before changing both aim and strength.",
+          "Single Play puts you in duels against AI. Challenge Mode takes you through floors and offers random upgrades. Choose an upgrade you can use with the shot pattern you have been practicing, then test it on the next opponent."
+        ],
+        "steps": [
+          [
+            "Set aim and strength with a drag",
+            "Drag the mouse to aim and set power, then release to fire."
+          ],
+          [
+            "Read how the arrow traveled",
+            "Watch where a missed shot passes the target. Adjust the next drag slightly so you can see how the change affects the arc."
+          ],
+          [
+            "Recheck the positions after a hit",
+            "Physics can move the characters. Take a moment to see where they have settled before repeating the last shot."
+          ],
+          [
+            "Adapt to challenge upgrades",
+            "Check the offered upgrades between floors. Pick one that suits your current arrow type or the difficulty you just encountered."
+          ]
+        ],
+        "faq": [
+          [
+            "Which controls aim and fire?",
+            "Drag the mouse to set the shot, then release the mouse button to fire."
+          ],
+          [
+            "How is Challenge Mode different from Single Play?",
+            "Single Play features AI duels. Challenge Mode adds floors and random upgrades as you progress."
+          ],
+          [
+            "Why did the same drag miss on the next shot?",
+            "A hit can change where characters are standing. Check the new position and adjust the drag before firing again."
+          ]
+        ]
+      }
+    }
   }
 ]
