@@ -1622,5 +1622,437 @@
         ]
       }
     }
+  },
+  {
+    "id": "wurst-dash",
+    "title": "Wurst Dash",
+    "category": {
+      "en": "Obstacle runner"
+    },
+    "source": "https://1games.io/wurst-dash",
+    "url": "https://wurst-dash.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/wurst-dash-icon.png",
+      "artwork": "/assets/1games/wurst-dash-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/wurst-dash-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wurst-dash/wurstdash.png",
+        "artwork": "https://1games.io/data/image/game/wurst-dash/banner/wurst_dash1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/wurst-dash/wurst-dash.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-18",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "obstacles-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Survive an endless kitchen obstacle course in Wurst Dash. Hold to speed up, release to slow down, and time each crossing past the traps.",
+        "aboutTitle": "Read the traps before speeding up",
+        "about": [
+          "Your sausage moves forward on its own through a cartoon kitchen. Hold the mouse button to speed up and release to slow down. The run ends when a trap catches you.",
+          "Each obstacle has a different timing cue. A hammer gives you a chance to cross as it rises. Before a spinning blade, watch how long the opening stays clear and account for what lies immediately beyond it.",
+          "Longer runs help you earn coins for costumes. Aim for steady progress through the crowded sections. Short bursts of speed give you more control when two traps are close together."
+        ],
+        "steps": [
+          [
+            "Learn the mouse timing",
+            "Hold the mouse button to accelerate. Release it as you approach the next trap so you can watch the opening."
+          ],
+          [
+            "Read a full cycle",
+            "If space allows, slow down and watch the trap move once before trying to pass."
+          ],
+          [
+            "Check the next obstacle",
+            "Look beyond the first blade or hammer. When two traps are close, release after the first crossing so you have time to judge the second."
+          ],
+          [
+            "Use speed on a clear stretch",
+            "Hold the button when there is room ahead. Let up again before you reach the next cluster of traps."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I stop the runner completely?",
+            "Releasing the button slows the runner. Leave yourself time to react while it continues moving."
+          ],
+          [
+            "What are coins for?",
+            "The coins you earn during runs can be spent on sausage skins and costumes."
+          ],
+          [
+            "Why do I keep getting caught after the first trap?",
+            "You may be carrying too much speed into the next obstacle. Release once you are clear of the first trap and check the next opening."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "tap-brawl",
+    "title": "Tap Brawl",
+    "category": {
+      "en": "Reflex combat"
+    },
+    "source": "https://1games.io/tap-brawl",
+    "url": "https://tap-brawl.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/tap-brawl-icon.png",
+      "artwork": "/assets/1games/tap-brawl-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/tap-brawl-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/tap-brawl/tap-brawl.png",
+        "artwork": "https://1games.io/data/image/game/tap-brawl/banner/tap-brawl_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/tap-brawl/tap-brawl.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-13",
+      "genres": [
+        "action",
+        "arcade"
+      ],
+      "tags": [
+        "combat-games",
+        "reaction-games",
+        "fast-paced-action"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Strike left or right to fend off incoming waves in Tap Brawl. Time your hits, watch both sides, and earn coins toward new fighters.",
+        "aboutTitle": "Read both sides of the arena",
+        "about": [
+          "Your fighter stays at the center while enemies approach from the left and right. Your two commands strike in different directions, so you need to read which enemy will arrive first.",
+          "Early waves give you time to see the rhythm. Later enemies arrive more quickly and can approach from both directions close together. Look across the arena after each hit so you can anticipate the next one.",
+          "Surviving longer helps you build a score and earn coins for more fighters. Use early attempts to get comfortable with the two keys and notice whether you tend to strike too soon or on the wrong side."
+        ],
+        "steps": [
+          [
+            "Strike to the left",
+            "Press the left arrow or A when an enemy enters range on the left."
+          ],
+          [
+            "Strike to the right",
+            "Press the right arrow or D for an enemy on the right. You do not need to move the character."
+          ],
+          [
+            "Read arrivals before picking a side",
+            "When enemies approach together, watch which one will reach you first. Check the other side immediately after that hit."
+          ],
+          [
+            "Practice deliberate inputs",
+            "Avoid alternating keys at random. Try to use one intentional strike per arrival while learning the early waves."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I move in Tap Brawl?",
+            "The fighter stays in place. The arrow keys or A and D choose the direction of your strike."
+          ],
+          [
+            "What do I spend coins on?",
+            "Coins from survival runs unlock fighters with different visual styles."
+          ],
+          [
+            "Why do later waves feel harder?",
+            "Enemies approach faster and more closely together. Start watching the next arrival while the current enemy is still in range."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "escape-road-3",
+    "title": "Escape Road 3",
+    "category": {
+      "en": "Arcade driving"
+    },
+    "source": "https://1games.io/escape-road-3",
+    "url": "https://escape-road-3.1games.io/",
+    "width": 826,
+    "height": 520,
+    "media": {
+      "icon": "/assets/1games/escape-road-3-icon.png",
+      "artwork": "/assets/1games/escape-road-3-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/escape-road-3-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/escape-road-3/escaperoad3.png",
+        "artwork": "https://1games.io/data/image/game/escape-road-3/banner/escape-road-3_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/escape-road-3/escape-road-3.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-04-06",
+      "genres": [
+        "driving",
+        "action"
+      ],
+      "tags": [
+        "arcade-car",
+        "vehicles-games",
+        "avoid-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Switch between cars and on-foot routes in Escape Road 3, a blocky arcade chase with varied maps, vehicle customization and minigames.",
+        "aboutTitle": "Switch routes as the arcade chase changes",
+        "about": [
+          "Escape Road 3 drops you into a blocky arcade pursuit. Steer through traffic and look ahead for the next turn. Some routes narrow into alleys, while others bring you to water or terrain that changes how you can continue.",
+          "You can leave a vehicle and move on foot, then enter another vehicle. Watch your current vehicle and the space around it before getting out. The change of controls is easier to manage when you can already see where to go next.",
+          "This entry adds more maps, playable characters, vehicle customization and occasional minigames. Try one vehicle setup for a few runs to see how it feels around corners before switching to another."
+        ],
+        "steps": [
+          [
+            "Steer or run with the same keys",
+            "Use WASD or the arrow keys. The controls steer when you are in a vehicle and move your character when you are on foot."
+          ],
+          [
+            "Read the map ahead",
+            "Look for the next intersection while you still have room to turn. A tight opening can leave less room for a second correction."
+          ],
+          [
+            "Enter or leave with Space",
+            "Press Space when you need to switch between driving and moving on foot. Check the space around your character before switching."
+          ],
+          [
+            "Try a different in-game vehicle setup",
+            "Use the customization options to compare how a vehicle feels on a familiar route. Change one part of your setup at a time."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I leave my starting car?",
+            "Yes. Space lets you exit or enter a vehicle. Use the direction keys to move on foot between vehicles."
+          ],
+          [
+            "What is new in Escape Road 3?",
+            "This entry includes additional maps and characters, vehicle customization and minigames alongside the chase."
+          ],
+          [
+            "What should I do when the in-game car is heavily damaged?",
+            "Look for an open area where you can switch to moving on foot or enter another vehicle. Plan where to go before pressing Space."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "farting-flight",
+    "title": "Farting Flight",
+    "category": {
+      "en": "Physics distance game"
+    },
+    "source": "https://1games.io/farting-flight",
+    "url": "https://farting-flight.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/farting-flight-icon.png",
+      "artwork": "/assets/1games/farting-flight-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/farting-flight-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/farting-flight/farting-flight.png",
+        "artwork": "https://1games.io/data/image/game/farting-flight/banner/farting-flight_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/farting-flight/farting-flight.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-05-13",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "one-button-games",
+        "reaction-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Launch Doofus down a cartoon slope in Farting Flight. Adjust launch power and learn how boosts, hills and obstacles affect each descent.",
+        "aboutTitle": "Match launch power to the terrain",
+        "about": [
+          "Doofus tumbles downhill through an obstacle course shaped by momentum. A long hold can send him farther at the start, while the angle of the slope affects how the first landing turns out.",
+          "Boosts can change speed and trajectory quickly. Look at the slope and hazards ahead before using a boost opportunity. Extra speed on a clear descent gives you more room to react than extra speed on a crowded stretch.",
+          "Judge each attempt by where it first becomes difficult to control. Try a shorter hold if an early launch leaves you spinning. Adjust one part of the timing at a time so you can see what changed."
+        ],
+        "steps": [
+          [
+            "Start the attempt",
+            "Click to start. Hold the launch input to build power, then release to send Doofus down the slope."
+          ],
+          [
+            "Watch the first landing",
+            "Follow the angle of the next section. Use the result to decide whether to hold the launch longer or release earlier on your next try."
+          ],
+          [
+            "Read the terrain around boosts",
+            "Check for obstacles beyond a boost point. Use an open slope to learn how the boost changes the path through the air."
+          ],
+          [
+            "Repeat a manageable launch",
+            "Use a similar hold on a few tries. Once the opening feels predictable, change the release timing and compare the distance."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I increase launch power?",
+            "Hold the launch input longer before releasing."
+          ],
+          [
+            "Why do two launches travel different distances?",
+            "Launch timing, the slope, boosts and collisions all affect the trajectory. Watch the first landing to see where the attempts start to differ."
+          ],
+          [
+            "Should I always use the strongest launch?",
+            "A moderate launch can be easier to control on a steep or crowded section. Try more power once you know where a clean landing is likely."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "cheat-or-repeat",
+    "title": "Cheat or Repeat",
+    "category": {
+      "en": "Stealth simulation"
+    },
+    "source": "https://1games.io/cheat-or-repeat",
+    "url": "https://cheat-or-repeat.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/cheat-or-repeat-icon.png",
+      "artwork": "/assets/1games/cheat-or-repeat-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/cheat-or-repeat-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/cheat-or-repeat/cheat-or-repeat.png",
+        "artwork": "https://1games.io/data/image/game/cheat-or-repeat/banner/cheat-or-repeat_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/cheat-or-repeat/cheat-or-repeat.mp4?v1"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-04-29",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "stealth-action",
+        "timing-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Manage suspicion during a fictional classroom test in Cheat or Repeat. Switch views, react to sound cues, and enter answers before the next inspection.",
+        "aboutTitle": "Use short actions between inspection cues",
+        "about": [
+          "Cheat or Repeat is a fictional stealth game set during a classroom test. You alternate between the answer sheet, the room and the character's phone while the teacher moves around and the suspicion level changes.",
+          "Treat classroom sounds as cues to check your current view. If a warning plays while the phone is open, return to the paper view promptly. Watch the on-screen indicators so you know which action the game expects next.",
+          "Search actions can reveal clues and the number pad enters multiple-choice answers. Learn those inputs early so switching from a clue to the answer sheet feels familiar when an inspection approaches."
+        ],
+        "steps": [
+          [
+            "Switch between the paper and the room",
+            "Left-click to look at the answer sheet. Right-click to look around the classroom."
+          ],
+          [
+            "Open the phone with Space",
+            "Use a brief look to read the clue. Return to the paper view when the game signals an approaching inspection."
+          ],
+          [
+            "Follow the search indicators",
+            "Use W, A, S, D, Q or E as prompted. Check the active indicator before choosing a key."
+          ],
+          [
+            "Enter the answer on the number pad",
+            "Use Numpad 1–4 for choices A through D. Verify the choice before moving to the next clue."
+          ]
+        ],
+        "faq": [
+          [
+            "What do the warning sounds mean?",
+            "They can signal an inspection or a change in what is happening in the room. Switch back to the paper view and check the current cues."
+          ],
+          [
+            "Which keys select answers?",
+            "Numpad 1, 2, 3 and 4 select A, B, C and D respectively."
+          ],
+          [
+            "Why does suspicion rise quickly?",
+            "The game tracks exposed actions such as leaving the phone open. Use brief actions and watch for changes in the teacher's position and the warning cues."
+          ]
+        ]
+      }
+    }
   }
 ]
