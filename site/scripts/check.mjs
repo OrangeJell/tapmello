@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { marbleGuides } from '../src/marble.mjs';
 import { levels, origin } from '../src/game.mjs';
-import { partnerGames, partnerGamesFor, partnerGamePath } from '../src/partner-games.mjs';
+import { partnerGames, partnerGamesFor, partnerGamePath, partnerLocales } from '../src/partner-games.mjs';
 import { catalogueFor, gameCount, gamesPath, genrePath, playedGamesPath, tagPath, tagsPath, taxonomyFor } from '../src/discovery.mjs';
 
 const dist = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../dist');
@@ -143,6 +143,22 @@ const sitemapUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(([, url]) =>
 assert.equal(sitemapUrls.length, indexable.size, 'Sitemap URL count');
 assert.deepEqual(new Set(sitemapUrls), indexable, 'Sitemap contains only indexable pages');
 for (const url of sitemapUrls) await localTarget(url, '/');
+const sitemapSet = new Set(sitemapUrls);
+for (const [code, locale] of Object.entries(partnerLocales)) {
+  const catalogPath = path.join(dist, 'assets', `game-search-${code.toLowerCase()}.json`);
+  const search = JSON.parse(await readFile(catalogPath, 'utf8'));
+  for (const game of partnerGamesFor(code).filter(game => Object.hasOwn(locale.games, game.id))) {
+    const route = localPath(code, partnerGamePath('en', game));
+    const html = await readFile(path.join(dist, route, 'index.html'), 'utf8');
+    const copy = game.details[code];
+    assert.ok(sitemapSet.has(origin + route), `Localized game in sitemap: ${route}`);
+    assert.ok(search.some(entry => entry.href === route && entry.keywords.includes(game.category[code])), `Localized game in search: ${route}`);
+    for (const text of [copy.searchTitle, copy.summary, ...copy.about, ...copy.steps.flat(), ...copy.faq.flat()]) {
+      assert.ok(html.includes(text), `Authored localized game copy: ${route} / ${text}`);
+    }
+  }
+}
+
 function checkDetailLayout(html, page) {
   const sections = ['detail-player', 'detail-discovery', 'detail-title-block', 'detail-media', 'detail-about', 'detail-how', 'detail-faq', 'detail-rail'];
   const positions = sections.map(section => html.indexOf('class="' + (['detail-title-block', 'detail-media', 'detail-about', 'detail-how', 'detail-faq'].includes(section) ? 'detail-block ' : '') + section + '"'));

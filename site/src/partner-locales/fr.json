@@ -1,0 +1,126 @@
+{
+  "title": "Jouer à {title} en ligne",
+  "player": "Zone de jeu de {title}",
+  "games": {
+    "wacky-steps": {
+      "category": "Jeu d’équilibre",
+      "summary": "Ajustez la longueur de vos pas, évitez les fissures du trottoir et les obstacles mobiles, puis gagnez le prochain point de contrôle.",
+      "about": [
+        "Plus vous maintenez le bouton, plus le pas s’allonge. Faites de petits pas sur les dalles étroites et allongez la foulée pour franchir une fissure.",
+        "Avant de viser une pièce, repérez aussi l’endroit où poser le pied suivant. La circulation et les dalles instables peuvent vous faire perdre le rythme."
+      ],
+      "steps": [
+        [
+          "Ajuster sa foulée",
+          "Maintenez le bouton de la souris, puis relâchez dès que le pied atteint une dalle sûre."
+        ],
+        [
+          "Reprendre au point de contrôle",
+          "Si la même fissure vous arrête à chaque essai, ajustez d’abord le pas qui la précède."
+        ]
+      ],
+      "faq": [
+        [
+          "Faut-il faire les plus grands pas possibles ?",
+          "Une foulée trop longue peut vous déséquilibrer. Relâchez plus tôt quand la place manque."
+        ]
+      ]
+    },
+    "undead-corridor": {
+      "category": "Survie face aux zombies",
+      "summary": "Repoussez des vagues de zombies dans des espaces étroits. Surveillez votre santé et vos munitions, et essayez les armes en mode Training.",
+      "about": [
+        "En mode Corridor, vous n’avez qu’un essai et les zombies réagissent au bruit. En Defense, tenez une barricade. En Rooms, libérez les petites zones une à une.",
+        "La santé ne se régénère pas en cours de partie. Profitez d’une accalmie pour vérifier votre position et vos munitions."
+      ],
+      "steps": [
+        [
+          "Garder ses distances",
+          "Utilisez A et D pour vous déplacer latéralement, visez avec la souris et tirez avec le clic gauche."
+        ],
+        [
+          "Recharger à couvert d’une accalmie",
+          "Appuyez sur R pour recharger. Si un zombie s’approche trop, repoussez-le avec la barre d’espace."
+        ]
+      ],
+      "faq": [
+        [
+          "Où essayer les armes tranquillement ?",
+          "Le mode Training permet de travailler la visée et le rechargement sans attendre la prochaine vague."
+        ]
+      ]
+    },
+    "lift-off-2": {
+      "category": "Lancement et amélioration de fusée",
+      "summary": "Séparez les étages de la fusée au bon moment. Investissez les gains des lancements et des planètes dans les prochains vols.",
+      "about": [
+        "Surveillez l’étage actif. Attendre un peu permet de gagner de la poussée, mais une séparation trop tardive peut interrompre le vol.",
+        "Répétez quelques décollages avec les mêmes repères pour identifier l’étage qui vous freine. Choisissez ensuite une pièce adaptée."
+      ],
+      "steps": [
+        [
+          "Séparer l’étage actif",
+          "Suivez l’indicateur à l’écran. Si le vol s’arrête toujours au même étage, déclenchez la séparation un peu plus tôt."
+        ],
+        [
+          "Préparer le prochain vol",
+          "Investissez les pièces gagnées au lancement dans de nouveaux composants. Après avoir débloqué une planète, consultez aussi ses revenus."
+        ]
+      ],
+      "faq": [
+        [
+          "Les planètes rapportent-elles en mon absence ?",
+          "Une fois débloquées et productives, elles peuvent continuer à générer des revenus pendant votre absence."
+        ]
+      ]
+    },
+    "astro-tycoon": {
+      "category": "Gestion minière spatiale",
+      "summary": "Récoltez des cristaux, améliorez votre équipement et automatisez peu à peu l’exploitation du sous-sol d’une planète.",
+      "about": [
+        "Regroupez plusieurs gisements proches en une sortie. Si le sac se remplit trop vite, augmentez sa capacité. Si l’extraction est lente, améliorez votre outil.",
+        "Des ouvriers et des machines deviennent disponibles avec la progression. Certains fossiles donnent accès à des compagnons qui facilitent l’extraction."
+      ],
+      "steps": [
+        [
+          "Rejoindre un gisement",
+          "Déplacez-vous avec les flèches ou les touches WASD indiquées dans le jeu. Repérez le chemin du retour avant de descendre plus bas."
+        ],
+        [
+          "Préparer la sortie suivante",
+          "Q ouvre les missions, E la boutique et O la carte spatiale."
+        ]
+      ],
+      "faq": [
+        [
+          "À quoi sert le retour à la base ?",
+          "Vous pouvez y utiliser les ressources récoltées et améliorer votre équipement pour descendre plus loin."
+        ]
+      ]
+    },
+    "escape-animals": {
+      "category": "Collecte d’animaux et construction de base",
+      "summary": "Ramenez des animaux cubiques à la base en évitant la lave et les pièges du terrain. Améliorez votre collection pour augmenter vos revenus.",
+      "about": [
+        "Avant de vous approcher d’un animal, repérez un chemin de retour. Commencez près de la base, sur un trajet bien dégagé.",
+        "Seul un retour réussi rapporte. La rareté de l’animal et ses améliorations influencent les revenus de la base."
+      ],
+      "steps": [
+        [
+          "Se déplacer et orienter la caméra",
+          "Utilisez les flèches ou WASD pour avancer et le clic droit pour ajuster la caméra."
+        ],
+        [
+          "Ramener un animal",
+          "Approchez-vous et appuyez sur E. De retour à la base, utilisez F pour améliorer les animaux."
+        ]
+      ],
+      "faq": [
+        [
+          "Que faire si le passage est bloqué ?",
+          "Le clic gauche déclenche l’action du jeu. Vous pouvez aussi contourner l’obstacle par un chemin plus sûr."
+        ]
+      ]
+    }
+  }
+}

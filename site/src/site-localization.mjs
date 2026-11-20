@@ -44,23 +44,24 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
     return value;
   }
 
-  function translateJSON(value, location, key) {
-    if (Array.isArray(value)) return key === 'inLanguage' ? value : value.map(item => translateJSON(item, location, key));
+  function translateJSON(value, location, translateText, key) {
+    if (Array.isArray(value)) return key === 'inLanguage' ? value : value.map(item => translateJSON(item, location, translateText, key));
     if (value && typeof value === 'object') {
-      return Object.fromEntries(Object.entries(value).map(([field, item]) => [field, translateJSON(item, location, field)]));
+      return Object.fromEntries(Object.entries(value).map(([field, item]) => [field, translateJSON(item, location, translateText, field)]));
     }
     if (key === 'inLanguage' && ['en', 'en-IN'].includes(value)) return code;
     if (typeof value !== 'string') return value;
-    if (jsonText.has(key)) return translate(value, location);
+    if (jsonText.has(key)) return translateText(value, location);
     if (['url', '@id', 'item', 'mainEntityOfPage'].includes(key)) return route(value);
     return value;
   }
 
-  function html(input, location) {
+  function html(input, location, preserved = new Set()) {
+    const translateText = (value, context) => preserved.has(value.trim()) ? value : translate(value, context);
     const document = parse(input, { scriptingEnabled: false });
     function visit(node) {
       if (node.nodeName === '#text') {
-        node.value = translate(node.value, location);
+        node.value = translateText(node.value, location);
         return;
       }
       const attr = name => node.attrs?.find(attribute => attribute.name === name)?.value;
@@ -86,7 +87,7 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
       if (node.tagName === 'script') {
         if (attr('type') === 'application/ld+json') {
           const json = JSON.parse(node.childNodes[0].value);
-          node.childNodes[0].value = JSON.stringify(translateJSON(json, location)).replaceAll('<', '\\u003c');
+          node.childNodes[0].value = JSON.stringify(translateJSON(json, location, translateText)).replaceAll('<', '\\u003c');
         }
         return;
       }
@@ -110,7 +111,7 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
         } else if (name === 'content' && meta === 'og:url') {
           attribute.value = route(value);
         } else if (visibleAttributes.has(name) || (name === 'content' && textMetadata.has(meta))) {
-          attribute.value = translate(value, `${location} @${name}`);
+          attribute.value = translateText(value, `${location} @${name}`);
         }
       }
       for (const child of node.childNodes ?? []) visit(child);

@@ -87,8 +87,8 @@ export function discoveryPages(lang, sharedOnly) {
   ];
 }
 
-export function renderPartnerGame(lang, game, sharedOnly) {
-  return renderStandardDetail(lang, game, { ...game.details[lang], sharedOnly });
+export function renderPartnerGame(lang, game, sharedOnly, detail = game.details[lang]) {
+  return renderStandardDetail(lang, game, { ...detail, sharedOnly });
 }
 
 export function renderGame(lang, sharedOnly) {

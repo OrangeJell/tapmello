@@ -1,0 +1,126 @@
+{
+  "title": "Main {title} online",
+  "player": "Area bermain {title}",
+  "games": {
+    "wacky-steps": {
+      "category": "Tantangan keseimbangan",
+      "summary": "Atur panjang langkah agar kakimu tidak menginjak retakan trotoar. Lewati rintangan bergerak sampai ke titik pemeriksaan berikutnya.",
+      "about": [
+        "Makin lama tombol ditahan, makin lebar langkahmu. Ambil langkah pendek di pijakan sempit dan rentangkan kaki saat perlu melewati retakan.",
+        "Sebelum mengejar koin, lihat juga tempat untuk langkah berikutnya. Kendaraan dan ubin goyah bisa mengacaukan ritmemu."
+      ],
+      "steps": [
+        [
+          "Atur panjang langkah",
+          "Tahan tombol mouse lalu lepaskan saat kaki mencapai pijakan yang aman."
+        ],
+        [
+          "Berlatih dari titik pemeriksaan",
+          "Kalau selalu jatuh di retakan yang sama, atur dulu panjang langkah sebelumnya."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah langkah panjang selalu lebih baik?",
+          "Melangkah terlalu jauh bisa membuatmu oleng. Lepas tombol lebih cepat saat pijakan sempit."
+        ]
+      ]
+    },
+    "undead-corridor": {
+      "category": "Tembak-menembak melawan zombi",
+      "summary": "Bertahan menghadapi gelombang zombi di arena sempit. Jaga nyawa dan amunisi, lalu coba berbagai senjata di mode Training.",
+      "about": [
+        "Di Corridor, kamu hanya punya satu kesempatan dan zombi bereaksi terhadap suara. Defense meminta kamu menjaga barikade, sedangkan Rooms berisi area kecil yang perlu dibersihkan.",
+        "Nyawa tidak pulih sendiri selama percobaan. Manfaatkan jeda antargelombang untuk mengecek posisi dan persediaan peluru."
+      ],
+      "steps": [
+        [
+          "Jaga jarak",
+          "Pakai A dan D untuk bergerak ke samping. Bidik dengan mouse dan klik kiri untuk menembak."
+        ],
+        [
+          "Isi ulang saat lengang",
+          "Tekan R untuk mengisi peluru. Kalau zombi sudah terlalu dekat, tekan spasi untuk menendangnya menjauh."
+        ]
+      ],
+      "faq": [
+        [
+          "Di mana bisa mencoba senjata dengan tenang?",
+          "Di Training kamu bisa belajar membidik dan mengisi ulang tanpa gangguan gelombang zombi."
+        ]
+      ]
+    },
+    "lift-off-2": {
+      "category": "Peluncuran dan peningkatan roket",
+      "summary": "Pisahkan tiap tingkat roket pada saat yang tepat. Pakai hadiah peluncuran dan penghasilan planet untuk meningkatkan komponen roket.",
+      "about": [
+        "Perhatikan tingkat yang sedang aktif. Menunggu sebentar bisa menambah daya dorong, tetapi terlambat memisahkannya bisa mengakhiri penerbangan.",
+        "Coba beberapa peluncuran dengan ritme serupa untuk melihat di mana penerbangan sering gagal. Pilih komponen yang membantu di bagian itu."
+      ],
+      "steps": [
+        [
+          "Pisahkan tingkat yang aktif",
+          "Ikuti indikator di layar. Kalau selalu gagal di tingkat yang sama, coba pisahkan sedikit lebih awal."
+        ],
+        [
+          "Siapkan peluncuran berikutnya",
+          "Pakai koin untuk membeli komponen. Setelah planet terbuka, cek penghasilannya juga."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah penghasilan tetap masuk saat saya pergi?",
+          "Planet yang sudah terbuka dan menghasilkan bisa terus menambah pendapatan selama kamu tidak bermain."
+        ]
+      ]
+    },
+    "astro-tycoon": {
+      "category": "Pengelolaan tambang antariksa",
+      "summary": "Kumpulkan kristal dari lapisan planet, tingkatkan peralatan, dan otomasi penambangan dengan pekerja serta mesin.",
+      "about": [
+        "Kunjungi beberapa endapan yang berdekatan dalam sekali jalan. Kalau tas cepat penuh, tambah kapasitasnya. Kalau proses menambang lambat, tingkatkan alatnya.",
+        "Pekerja dan mesin terbuka seiring perkembangan tambang. Fosil juga bisa membuka hewan peliharaan yang memberi bonus penambangan."
+      ],
+      "steps": [
+        [
+          "Datangi endapan kristal",
+          "Gunakan WASD atau tombol panah. Periksa jalan pulang sebelum masuk ke lapisan yang lebih dalam."
+        ],
+        [
+          "Siapkan perjalanan berikutnya",
+          "Tekan Q untuk misi, E untuk toko, dan O untuk peta antariksa."
+        ]
+      ],
+      "faq": [
+        [
+          "Kenapa harus kembali ke markas?",
+          "Di markas kamu bisa memakai sumber daya yang terkumpul dan meningkatkan peralatan."
+        ]
+      ]
+    },
+    "escape-animals": {
+      "category": "Koleksi hewan dan pembangunan markas",
+      "summary": "Bawa pulang hewan berbentuk balok sambil menghindari lava dan jebakan. Tingkatkan koleksimu agar markas menghasilkan lebih banyak.",
+      "about": [
+        "Lihat dulu jalan pulangnya sebelum mendekati hewan. Awali dengan hewan yang dekat dari markas dan mudah dijangkau.",
+        "Hewan baru menghasilkan pendapatan setelah tiba dengan selamat. Kelangkaan dan peningkatan hewan memengaruhi besar penghasilannya."
+      ],
+      "steps": [
+        [
+          "Bergerak dan lihat sekeliling",
+          "Pakai WASD atau tombol panah untuk bergerak. Gunakan tombol kanan mouse untuk mengatur kamera."
+        ],
+        [
+          "Bawa hewan ke markas",
+          "Dekati hewan dan tekan E. Setelah sampai di markas, tekan F untuk meningkatkan hewan."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana kalau jalan terhalang?",
+          "Gunakan klik kiri untuk melakukan aksi di dalam game, atau putar lewat jalur yang lebih aman."
+        ]
+      ]
+    }
+  }
+}

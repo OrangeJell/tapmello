@@ -8,7 +8,7 @@ import path from 'node:path';
 import { origin, updated } from '../src/game.mjs';
 import { catalogueFor, discoveryUpdated, gamesPath, genrePath, genres, retiredGenres, tagName, taxonomyFor } from '../src/discovery.mjs';
 import { locales } from '../src/locales.mjs';
-import { partnerGamesFor, partnerGamePath } from '../src/partner-games.mjs';
+import { partnerGamesFor, partnerGamePath, partnerLocales } from '../src/partner-games.mjs';
 const extractLocales = process.argv.includes('--extract-locales');
 const extractHindiInfo = process.argv.includes('--extract-hi-info');
 const extracting = extractLocales || extractHindiInfo;
@@ -81,15 +81,16 @@ for (const edition of ['shared', 'en', 'hi']) {
     const gamePath = partnerGamePath(language, game);
     const url = origin + gamePath;
     const detail = game.details[language];
+    const dateModified = Object.hasOwn(partnerLocales.hi.games, game.id) ? discoveryUpdated : detailUpdated;
     const playTitle = hi ? game.title + ' ऑनलाइन खेलें' : 'Play ' + game.title + ' Online';
     pages.push({
-      language, kind: 'partner-play', path: gamePath, updated: detailUpdated,
+      language, kind: 'partner-play', path: gamePath, updated: dateModified, game,
       title: (detail.searchTitle || (playTitle.length <= 61 ? playTitle : game.title)) + ' | tapmelo',
       description: detail.summary,
       cover: game.artwork, coverWidth: game.media.artworkWidth, coverHeight: game.media.artworkHeight, coverAlt: game.title,
       structured: {
         '@context': 'https://schema.org', '@type': 'WebPage', url,
-        name: game.title, description: detail.summary, inLanguage: language, dateModified: detailUpdated,
+        name: game.title, description: detail.summary, inLanguage: language, dateModified,
         mainEntity: {
           '@type': 'VideoGame', name: game.title, image: origin + game.artwork, genre: taxonomyFor(game).categories.map(id => genres[id][language]),
           ...(game.metadata.developer && { author: { '@type': 'Organization', name: game.metadata.developer } }),
@@ -157,6 +158,14 @@ const editorialAliases = JSON.parse(await readFile(path.join(root, 'src', 'trans
 for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
   const source = extracting ? new Set() : undefined;
   const dictionary = source ? null : JSON.parse(await readFile(path.join(root, 'src', 'translations', code + '.json'), 'utf8'));
+  if (dictionary) {
+    for (const game of partnerGamesFor('en', true)) {
+      const locale = partnerLocales[code];
+      if (!locale.games[game.id]) continue;
+      dictionary[game.category.en] = game.category[code];
+      dictionary[game.title + ' · Game player'] = locale.player.replace('{title}', () => game.title);
+    }
+  }
   const localizer = createLocalizer({ code, dictionary, source, routes, titles, editorialAliases });
   const fullLocale = code !== 'hi' || extractLocales;
   const startUrl = localPath(code, manifest.start_url);
@@ -178,7 +187,20 @@ for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
   }
   for (const [page, html] of renderedEnglish) {
     if (!fullLocale && page.kind !== 'info') continue;
-    const translated = localizer.html(html, page.path);
+    const copy = page.game && Object.hasOwn(partnerLocales[code].games, page.game.id) ? page.game.details[code] : undefined;
+    let translated;
+    if (copy) {
+      const title = copy.searchTitle + ' | tapmelo';
+      const localizedPage = {
+        ...page, title, description: copy.summary,
+        structured: { ...page.structured, description: copy.summary },
+      };
+      const main = renderPartnerGame('en', page.game, true, copy);
+      const preserved = new Set([title, copy.summary, copy.category, ...copy.about, ...copy.steps.flat(), ...copy.faq.flat()]);
+      translated = localizer.html(renderPage(localizedPage, main, true), page.path, preserved);
+    } else {
+      translated = localizer.html(html, page.path);
+    }
     if (source) continue;
     const route = localPath(code, page.path);
     pages.push({ ...page, path: route, language: code, localized: true });

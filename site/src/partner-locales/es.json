@@ -1,0 +1,126 @@
+{
+  "title": "Juega a {title} en línea",
+  "player": "Zona de juego de {title}",
+  "games": {
+    "wacky-steps": {
+      "category": "Juego de equilibrio",
+      "summary": "Mide cada paso para esquivar las grietas de la acera y los obstáculos en movimiento hasta el siguiente punto de control.",
+      "about": [
+        "Cuanto más mantengas pulsado el botón, más larga será la zancada. Acorta el paso en las baldosas estrechas y alárgalo para cruzar una grieta.",
+        "Antes de ir a por una moneda, fíjate también en dónde apoyarás el otro pie. El tráfico y las baldosas inestables cambian el ritmo del recorrido."
+      ],
+      "steps": [
+        [
+          "Ajusta la zancada",
+          "Mantén pulsado el ratón y suelta cuando el pie alcance una zona firme."
+        ],
+        [
+          "Practica por tramos",
+          "Si siempre caes en la misma grieta, cambia primero la longitud del paso anterior."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Conviene dar siempre pasos largos?",
+          "Si estiras demasiado la pierna, puedes perder el equilibrio. Suelta antes cuando haya poco espacio."
+        ]
+      ]
+    },
+    "undead-corridor": {
+      "category": "Supervivencia zombi",
+      "summary": "Resiste oleadas de zombis en mapas estrechos. Vigila la salud y la munición, y prueba distintas armas en Training.",
+      "about": [
+        "En Corridor solo tienes un intento y los zombis reaccionan al ruido. En Defense proteges una barricada, mientras que en Rooms despejas zonas pequeñas.",
+        "La salud no se recupera durante la partida. Aprovecha las pausas entre oleadas para revisar tu posición y cuánta munición te queda."
+      ],
+      "steps": [
+        [
+          "Mantén la distancia",
+          "Muévete hacia los lados con A y D, apunta con el ratón y dispara con el botón izquierdo."
+        ],
+        [
+          "Recarga durante una pausa",
+          "Pulsa R para recargar. Si se te acerca un zombi, puedes apartarlo con la barra espaciadora."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Puedo probar armas sin oleadas?",
+          "En Training puedes practicar la puntería y la recarga antes de entrar en supervivencia."
+        ]
+      ]
+    },
+    "lift-off-2": {
+      "category": "Lanzamiento y mejora de cohetes",
+      "summary": "Separa las etapas del cohete a tiempo e invierte los premios del lanzamiento y los ingresos planetarios en nuevas piezas.",
+      "about": [
+        "Fíjate en la etapa activa durante el vuelo. Esperar un poco puede darte más empuje, pero hacerlo demasiado puede acabar con el intento.",
+        "Repite varios lanzamientos con un ritmo parecido para ver en qué etapa te atascas. Luego busca una mejora que te ayude justo ahí."
+      ],
+      "steps": [
+        [
+          "Separa la etapa activa",
+          "Sigue el indicador en pantalla. Si el vuelo termina siempre en la misma etapa, prueba a separarla un poco antes."
+        ],
+        [
+          "Invierte en el siguiente vuelo",
+          "Usa las monedas para comprar piezas y consulta los ingresos de los planetas cuando los desbloquees."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Se generan ingresos mientras no juego?",
+          "Cuando un planeta desbloqueado ya produce ingresos, puede seguir acumulándolos mientras estás fuera."
+        ]
+      ]
+    },
+    "astro-tycoon": {
+      "category": "Gestión minera espacial",
+      "summary": "Extrae cristales de un planeta, mejora tu equipo y pon a trabajar a operarios y máquinas para automatizar la mina.",
+      "about": [
+        "Visita varios yacimientos cercanos antes de volver. Si la mochila se llena enseguida, amplíala. Si extraer cristales lleva mucho tiempo, mejora la herramienta.",
+        "Con el progreso se desbloquean operarios y máquinas. Los fósiles pueden dar acceso a mascotas con bonificaciones de minería."
+      ],
+      "steps": [
+        [
+          "Acércate a un yacimiento",
+          "Muévete con WASD o las flechas. Revisa la ruta de vuelta antes de adentrarte en otra capa."
+        ],
+        [
+          "Prepara la próxima salida",
+          "Pulsa Q para ver las misiones, E para abrir la tienda y O para consultar el mapa espacial."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Por qué tengo que volver a la base?",
+          "Allí puedes aprovechar los recursos que has reunido y mejorar el equipo antes de la siguiente salida."
+        ]
+      ]
+    },
+    "escape-animals": {
+      "category": "Colección de animales y gestión de base",
+      "summary": "Lleva animales cúbicos a tu base, esquiva la lava y las trampas y mejora tu colección para generar más ingresos.",
+      "about": [
+        "Busca una ruta de vuelta antes de acercarte a un animal. Al principio conviene elegir uno cercano y con el camino despejado.",
+        "El animal cuenta cuando vuelve a salvo a la base. Su rareza y su nivel de mejora influyen en lo que genera."
+      ],
+      "steps": [
+        [
+          "Muévete y mira alrededor",
+          "Usa WASD o las flechas para moverte y el botón derecho del ratón para orientar la cámara."
+        ],
+        [
+          "Lleva un animal a la base",
+          "Acércate y pulsa E para recogerlo. Al regresar, usa F para mejorarlo en la base."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Qué hago si aparece un obstáculo?",
+          "Usa el botón izquierdo para activar la acción del juego o busca otro camino más seguro."
+        ]
+      ]
+    }
+  }
+}

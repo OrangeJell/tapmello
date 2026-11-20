@@ -1,0 +1,126 @@
+{
+  "title": "Gioca a {title} online",
+  "player": "Area di gioco di {title}",
+  "games": {
+    "wacky-steps": {
+      "category": "Gioco di equilibrio",
+      "summary": "Regola la falcata, evita le crepe del marciapiede e gli ostacoli in movimento e raggiungi il prossimo checkpoint.",
+      "about": [
+        "Più a lungo tieni premuto, più il passo si allunga. Fai passi corti sulle lastre strette e allunga la falcata per superare le crepe più larghe.",
+        "Prima di puntare a una moneta, guarda anche dove potrai mettere l’altro piede. Veicoli e lastre instabili possono spezzare il ritmo."
+      ],
+      "steps": [
+        [
+          "Regola la falcata",
+          "Tieni premuto il pulsante del mouse e rilascialo quando il piede raggiunge un punto sicuro."
+        ],
+        [
+          "Riparti dal checkpoint",
+          "Se cadi sempre sulla stessa crepa, modifica prima il passo che la precede."
+        ]
+      ],
+      "faq": [
+        [
+          "Conviene fare passi lunghi?",
+          "Se allunghi troppo la gamba puoi perdere l’equilibrio. Rilascia prima quando lo spazio è poco."
+        ]
+      ]
+    },
+    "undead-corridor": {
+      "category": "Sparatutto di sopravvivenza con zombi",
+      "summary": "Resisti alle ondate di zombi in mappe strette. Tieni d’occhio salute e munizioni e prova le armi in Training.",
+      "about": [
+        "In Corridor hai un solo tentativo e gli zombi reagiscono al rumore. In Defense proteggi una barricata, in Rooms liberi piccoli ambienti.",
+        "La salute non si rigenera durante il tentativo. Approfitta delle pause per controllare la tua posizione e le munizioni rimaste."
+      ],
+      "steps": [
+        [
+          "Tieni le distanze",
+          "Spostati lateralmente con A e D, mira con il mouse e spara con il pulsante sinistro."
+        ],
+        [
+          "Ricarica in un momento di calma",
+          "Premi R per ricaricare. Se uno zombi si avvicina troppo, respingilo con la barra spaziatrice."
+        ]
+      ],
+      "faq": [
+        [
+          "Dove posso provare le armi in pace?",
+          "In Training puoi esercitarti a mirare e ricaricare senza dover affrontare un’ondata."
+        ]
+      ]
+    },
+    "lift-off-2": {
+      "category": "Lancio e potenziamento del razzo",
+      "summary": "Separa gli stadi del razzo al momento giusto. Usa i premi dei lanci e le entrate dei pianeti per migliorare il volo successivo.",
+      "about": [
+        "Durante il volo, osserva lo stadio in uso. Aspettare un po’ può dare più spinta, ma se ritardi troppo la separazione il volo può finire.",
+        "Ripeti qualche lancio con tempi simili per capire dove ti blocchi. Scegli poi un componente che ti aiuti proprio in quella fase."
+      ],
+      "steps": [
+        [
+          "Separa lo stadio attivo",
+          "Segui l’indicatore del gioco. Se fallisci sempre nello stesso punto, al prossimo lancio anticipa leggermente il distacco."
+        ],
+        [
+          "Finanzia il prossimo lancio",
+          "Compra componenti con le monete guadagnate nei lanci. Quando sblocchi un pianeta, controlla anche le sue entrate."
+        ]
+      ],
+      "faq": [
+        [
+          "Si guadagna anche lontano dal gioco?",
+          "Un pianeta sbloccato e già produttivo può continuare a generare entrate mentre sei via."
+        ]
+      ]
+    },
+    "astro-tycoon": {
+      "category": "Gestione mineraria spaziale",
+      "summary": "Raccogli cristalli, migliora l’attrezzatura e automatizza il lavoro con operai e macchinari man mano che scendi in profondità.",
+      "about": [
+        "Visita più giacimenti vicini durante un’unica uscita. Se lo zaino si riempie subito, amplialo. Se l’estrazione è lenta, migliora lo strumento.",
+        "Con i progressi arrivano operai e macchinari. Dai fossili puoi ottenere animali da compagnia con bonus per gli scavi."
+      ],
+      "steps": [
+        [
+          "Raggiungi un giacimento",
+          "Muoviti con WASD o con le frecce. Controlla la via per la base prima di addentrarti negli strati più profondi."
+        ],
+        [
+          "Prepara la prossima uscita",
+          "Premi Q per le missioni, E per il negozio e O per la mappa spaziale."
+        ]
+      ],
+      "faq": [
+        [
+          "Perché devo tornare alla base?",
+          "Alla base usi le risorse che hai raccolto e puoi migliorare l’attrezzatura per il prossimo giro."
+        ]
+      ]
+    },
+    "escape-animals": {
+      "category": "Raccolta di animali e costruzione della base",
+      "summary": "Riporta gli animali a forma di cubo alla base, evitando lava e trappole. Migliora la collezione per guadagnare di più.",
+      "about": [
+        "Cerca una via di ritorno prima di avvicinarti a un animale. All’inizio conviene scegliere un percorso breve e sgombro.",
+        "L’animale genera entrate quando lo porti alla base sano e salvo. Il guadagno dipende dalla rarità e dai potenziamenti."
+      ],
+      "steps": [
+        [
+          "Muoviti e orienta la visuale",
+          "Usa WASD o le frecce per muoverti e il tasto destro del mouse per orientare la visuale."
+        ],
+        [
+          "Porta un animale alla base",
+          "Avvicinati e premi E. Una volta rientrato, usa F per potenziare gli animali."
+        ]
+      ],
+      "faq": [
+        [
+          "Che faccio se trovo un ostacolo?",
+          "Attiva l’azione del gioco col tasto sinistro del mouse oppure cerca un percorso più sicuro."
+        ]
+      ]
+    }
+  }
+}

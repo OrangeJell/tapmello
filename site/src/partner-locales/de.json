@@ -1,0 +1,126 @@
+{
+  "title": "{title} online spielen",
+  "player": "Spielbereich für {title}",
+  "games": {
+    "wacky-steps": {
+      "category": "Geschicklichkeit und Balance",
+      "summary": "Passe deine Schrittlänge an, tritt zwischen die Risse im Gehweg und weiche beweglichen Hindernissen bis zum nächsten Kontrollpunkt aus.",
+      "about": [
+        "Je länger du die Taste hältst, desto größer wird der Schritt. Auf engen Platten helfen kurze Schritte. Für eine breite Fuge holst du etwas weiter aus.",
+        "Schau vor dem Griff nach einer Münze, wo der nächste Fuß landen kann. Verkehr und wackelige Platten bringen den Laufrhythmus durcheinander."
+      ],
+      "steps": [
+        [
+          "Schrittlänge steuern",
+          "Halte die Maustaste gedrückt und lass los, sobald der Fuß festen Boden erreicht."
+        ],
+        [
+          "Am Kontrollpunkt üben",
+          "Wenn dich dieselbe Fuge immer wieder stoppt, ändere zuerst den Schritt davor."
+        ]
+      ],
+      "faq": [
+        [
+          "Sind größere Schritte besser?",
+          "Wer zu weit ausholt, kann das Gleichgewicht verlieren. Auf engem Raum solltest du früher loslassen."
+        ]
+      ]
+    },
+    "undead-corridor": {
+      "category": "Zombie-Survival-Shooter",
+      "summary": "Überstehe Zombiewellen auf engen Karten, behalte Lebenspunkte und Munition im Blick und probiere Waffen im Training aus.",
+      "about": [
+        "Im Corridor-Modus hast du einen Versuch und die Zombies reagieren auf Geräusche. In Defense hältst du eine Barrikade, in Rooms räumst du kleine Bereiche frei.",
+        "Im Überlebensmodus erholen sich deine Lebenspunkte während des Versuchs nicht. Prüfe in einer Pause deine Position und die restliche Munition."
+      ],
+      "steps": [
+        [
+          "Abstand halten",
+          "Weiche mit A und D seitlich aus. Ziele mit der Maus und feuere mit der linken Maustaste."
+        ],
+        [
+          "In einer Pause nachladen",
+          "Drücke R zum Nachladen. Kommt ein Zombie zu nahe, kannst du ihn mit der Leertaste wegtreten."
+        ]
+      ],
+      "faq": [
+        [
+          "Wo kann ich Waffen in Ruhe testen?",
+          "Im Training kannst du Zielen und Nachladen ohne laufende Zombiewelle üben."
+        ]
+      ]
+    },
+    "lift-off-2": {
+      "category": "Raketenstart und Ausbau",
+      "summary": "Trenne die Raketenstufen im richtigen Moment und finanziere bessere Teile mit Startprämien und Einnahmen von Planeten.",
+      "about": [
+        "Achte im Flug auf die aktive Stufe. Kurzes Warten kann mehr Schub bringen, doch eine zu späte Trennung kann den Flug beenden.",
+        "Wiederhole einige Starts mit ähnlichem Timing. So findest du die Stufe, an der du hängen bleibst, und kannst gezielt ein passendes Teil kaufen."
+      ],
+      "steps": [
+        [
+          "Aktive Stufe trennen",
+          "Beobachte die Anzeige. Scheiterst du wieder an derselben Stufe, trenne sie beim nächsten Flug ein wenig früher."
+        ],
+        [
+          "Den nächsten Start finanzieren",
+          "Kaufe Raketenteile mit den verdienten Münzen. Nach der Freischaltung eines Planeten kannst du auch dessen Einnahmen nutzen."
+        ]
+      ],
+      "faq": [
+        [
+          "Läuft der Verdienst in meiner Abwesenheit weiter?",
+          "Sobald freigeschaltete Planeten etwas abwerfen, können sich ihre Einnahmen auch in deiner Abwesenheit ansammeln."
+        ]
+      ]
+    },
+    "astro-tycoon": {
+      "category": "Weltraum-Bergbau",
+      "summary": "Sammle Kristalle, baue deine Ausrüstung aus und setze Arbeiter und Maschinen ein, um den Bergbau zu automatisieren.",
+      "about": [
+        "Nimm mehrere nahe Lagerstätten auf einer Tour mit. Ist der Rucksack schnell voll, lohnt sich mehr Platz. Dauert der Abbau zu lange, verbessere das Werkzeug.",
+        "Mit dem Ausbau werden Arbeiter und Maschinen verfügbar. Fossilien können Begleiter mit Abbauboni freischalten."
+      ],
+      "steps": [
+        [
+          "Zur Lagerstätte laufen",
+          "Bewege dich mit WASD oder den Pfeiltasten. Präge dir den Rückweg ein, bevor du tiefer vordringst."
+        ],
+        [
+          "Die nächste Tour planen",
+          "Mit Q öffnest du die Aufgaben, mit E den Shop und mit O die Weltraumkarte."
+        ]
+      ],
+      "faq": [
+        [
+          "Warum muss ich zur Basis zurück?",
+          "Dort setzt du die gesammelten Rohstoffe ein und verbesserst die Ausrüstung für den nächsten Ausflug."
+        ]
+      ]
+    },
+    "escape-animals": {
+      "category": "Tiere sammeln und Basis ausbauen",
+      "summary": "Sammle eckige Tiere und bring sie an Lava und Fallen vorbei zur Basis. Verbesserungen steigern die Einnahmen deiner Sammlung.",
+      "about": [
+        "Suche dir einen Rückweg aus, bevor du zu einem Tier läufst. Für den Einstieg eignen sich Tiere nahe der Basis mit einem freien Weg.",
+        "Erst nach der sicheren Rückkehr bringt das Tier Einnahmen. Wie viel es einbringt, hängt von seiner Seltenheit und seinen Verbesserungen ab."
+      ],
+      "steps": [
+        [
+          "Laufen und umsehen",
+          "Mit WASD oder den Pfeiltasten läufst du. Über die rechte Maustaste stellst du die Kamera ein."
+        ],
+        [
+          "Ein Tier zur Basis bringen",
+          "Drücke E, sobald du nah genug bist. Zurück an der Basis verbesserst du Tiere mit F."
+        ]
+      ],
+      "faq": [
+        [
+          "Was tun, wenn ein Hindernis den Weg versperrt?",
+          "Mit der linken Maustaste löst du die Spielaktion aus. Du kannst auch über einen freieren Weg ausweichen."
+        ]
+      ]
+    }
+  }
+}
