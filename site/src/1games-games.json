@@ -2917,5 +2917,441 @@
         ]
       }
     }
+  },
+  {
+    "id": "ship-smasher",
+    "title": "Ship Smasher",
+    "category": {
+      "en": "Batting arcade"
+    },
+    "source": "https://1games.io/ship-smasher",
+    "url": "https://1games.io/game/ship-smasher/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/ship-smasher-icon.png",
+      "artwork": "/assets/1games/ship-smasher-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/ship-smasher-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/ship-smasher/ship-smasher.png",
+        "artwork": "https://1games.io/data/image/game/ship-smasher/banner/ship-smasher_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/ship-smasher/ship-smasher.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-04-20",
+      "genres": [
+        "arcade",
+        "sports"
+      ],
+      "tags": [
+        "smash-games",
+        "timing-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Line up baseball-style swings in Ship Smasher. Clear waves of targets, adjust to moving hazards and save special abilities for tough encounters.",
+        "aboutTitle": "Set up each swing as the targets change",
+        "about": [
+          "Ship Smasher puts baseball-style swings at the center of an arcade course. Guide the batter toward approaching targets and try to clear enough space to keep moving. A missed hit can leave a target in the way of the next one.",
+          "Levels introduce moving hazards, rows of obstacles and boss encounters. Read the nearest target first, then look past it for the opening you want to reach after the swing.",
+          "Power-ups and special abilities appear around some encounters. Try them where a tight group of targets is slowing your progress. As you unlock more characters, learn each layout with a familiar batter before changing your approach."
+        ],
+        "steps": [
+          [
+            "Position the batter",
+            "Hold and move the mouse, or use the left and right arrows to adjust movement. Line up with the part of the course you need to clear."
+          ],
+          [
+            "Watch a moving target before committing",
+            "Track its direction as you approach and move into line early enough to meet it with a swing."
+          ],
+          [
+            "Cut an opening through a wave",
+            "Start with the target blocking your view or route. Once it is clear, move into position for the next one."
+          ],
+          [
+            "Save an ability for a dense encounter",
+            "Use a boost when a boss or a layered set of targets gives you few clear openings. Check which targets are still in your path afterward."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I play with the keyboard?",
+            "Yes. The left and right arrow keys control movement. You can also hold and move the mouse."
+          ],
+          [
+            "What changes in a boss encounter?",
+            "A boss gives you fewer easy openings. Watch its position and use the available abilities when they can help you clear the way."
+          ],
+          [
+            "Why do I keep missing moving targets?",
+            "You may be arriving at the place the target just left. Watch where it is headed before moving the batter."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "garfield-war",
+    "title": "Garfield War",
+    "category": {
+      "en": "Side-scrolling defense"
+    },
+    "source": "https://1games.io/garfield-war",
+    "url": "https://garfield-war.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/garfield-war-icon.png",
+      "artwork": "/assets/1games/garfield-war-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/garfield-war-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/garfield-war/garfield-war.png",
+        "artwork": "https://1games.io/data/image/game/garfield-war/banner/garfield-war_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/garfield-war/garfield-war.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-04-15",
+      "genres": [
+        "strategy"
+      ],
+      "tags": [
+        "defense-games",
+        "horde-survival-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Protect Jon's refrigerator in Garfield War. Move Garfield along the front, spend popcorn on allies and upgrade your defense between waves.",
+        "aboutTitle": "Keep a frontline between the invaders and the fridge",
+        "about": [
+          "Waves of food invaders move toward Jon's refrigerator. Garfield attacks automatically as you reposition him, and summoned allies help cover the space between the wave and the fridge.",
+          "Popcorn pays for allies, so spending it all early can leave you short when a stronger enemy arrives. Recruit enough help to hold the current wave and watch how quickly the next group approaches.",
+          "Upgrades can strengthen units, improve the fridge or open new abilities. Look at what failed in the last wave. If enemies keep getting past your frontline, strengthen the units you rely on before changing the rest of your setup."
+        ],
+        "steps": [
+          [
+            "Move Garfield along the line",
+            "Use the left and right arrows to reposition Garfield. His basic attack happens automatically."
+          ],
+          [
+            "Use popcorn to summon allies",
+            "Use the mouse to interact with the available summon options. Bring in help before the wave reaches the fridge."
+          ],
+          [
+            "Reinforce a weak point",
+            "Watch where tougher invaders slow down your front. Move Garfield there or summon another ally if you have popcorn to spare."
+          ],
+          [
+            "Upgrade for the next wave",
+            "Review the unit, ability and fridge upgrades. Pick one that addresses what gave your defense trouble on the previous wave."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I press a key for Garfield's normal attack?",
+            "No. He attacks automatically. Use the arrow keys to move him and the mouse to interact."
+          ],
+          [
+            "What is popcorn used for?",
+            "Spend popcorn to summon allies that help defend the refrigerator."
+          ],
+          [
+            "Can I improve the fridge itself?",
+            "Yes. Fridge improvements are among the upgrades alongside stronger units and additional abilities."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "lab-havoc",
+    "title": "Lab Havoc",
+    "category": {
+      "en": "Ragdoll sandbox"
+    },
+    "source": "https://1games.io/lab-havoc",
+    "url": "https://lab-havoc.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/lab-havoc-icon.png",
+      "artwork": "/assets/1games/lab-havoc-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/lab-havoc-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/lab-havoc/lab-havoc.png",
+        "artwork": "https://1games.io/data/image/game/lab-havoc/banner/lab-havoc_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/lab-havoc/lab-havoc.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-04-22",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "sandbox-games",
+        "destruction-games",
+        "test-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Arrange in-game devices and run ragdoll tests in Lab Havoc. Observe the physics, compare the score and use earned currency to unlock tools.",
+        "aboutTitle": "Change one part of the virtual test at a time",
+        "about": [
+          "Lab Havoc is a cartoon sandbox built around a test chamber. Use the mouse to place virtual devices, then start a run and watch how the game moves the ragdoll around the room.",
+          "A test produces an in-game score and earns rewards. After the run, look at which devices actually activated. If many stayed idle, move one item and compare the next result.",
+          "Earned currency unlocks more tools. Start with a layout you understand so you can see what a new item changes. Repeat the same test a few times if the physics sends the ragdoll down a different path on each run."
+        ],
+        "steps": [
+          [
+            "Place the first few devices",
+            "Use the mouse to position items in the virtual chamber. Start with a simple layout you can watch without losing track of what happened."
+          ],
+          [
+            "Run the simulation",
+            "Activate the test and follow the movement on screen. Note which part of the layout the ragdoll reaches first."
+          ],
+          [
+            "Compare two runs",
+            "Change one item's placement and start another test. Compare what activated and how the game scored the result."
+          ],
+          [
+            "Try new tools in a familiar setup",
+            "Spend earned currency on an unlock, then add it to a layout you already know. Review what changed once the test finishes."
+          ]
+        ],
+        "faq": [
+          [
+            "What controls are used in the chamber?",
+            "Use the mouse to place and adjust devices and to interact with the test controls."
+          ],
+          [
+            "What earns currency?",
+            "Completed tests produce a score and rewards based on the simulation."
+          ],
+          [
+            "Why did the same layout behave differently?",
+            "The ragdoll responds to the game's physics. Small differences in the sequence of collisions can change the path it follows."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "ruby-raid",
+    "title": "Ruby Raid",
+    "category": {
+      "en": "Space arcade runner"
+    },
+    "source": "https://1games.io/ruby-raid",
+    "url": "https://ruby-raid.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/ruby-raid-icon.png",
+      "artwork": "/assets/1games/ruby-raid-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/ruby-raid-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/ruby-raid/ruby-run.png",
+        "artwork": "https://1games.io/data/image/game/ruby-raid/banner/ruby-run_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/ruby-raid/ruby-raid.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-04-15",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "jumping-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Stay ahead of the Eye God in Ruby Raid. Jump over gaps, clear threats in your path and collect rubies for a random in-game weapon.",
+        "aboutTitle": "Separate jump timing from shot timing",
+        "about": [
+          "Ruby Raid keeps your character running through a shifting space landscape. The Eye God pursues from behind while gaps and enemies appear ahead. Watch the ground first so you have time to jump when the route drops away.",
+          "Ground and airborne enemies can call for different timing. When a gap and an enemy appear together, read where the jump will take you. Use the attack key when the threat is in a useful position during that movement.",
+          "Red rubies can be exchanged for a randomly selected weapon. A different weapon may behave better against one kind of threat than another. Use the next clear stretch to get used to its timing before trying a close pass."
+        ],
+        "steps": [
+          [
+            "Jump when a gap approaches",
+            "Use the left arrow or Space. Look beyond the gap so you can see where the runner is likely to land."
+          ],
+          [
+            "Clear a threat in front of you",
+            "Press the right arrow to fire the equipped in-game weapon. Watch where enemies enter the running line."
+          ],
+          [
+            "Read mixed obstacles early",
+            "When a gap follows an enemy, plan the jump while the gap is still ahead. Fit the shot into that path."
+          ],
+          [
+            "Try the next weapon on an open stretch",
+            "Spend rubies for a random weapon and learn its rhythm against the first available target before taking a tighter route."
+          ]
+        ],
+        "faq": [
+          [
+            "Which keys jump and attack?",
+            "Use the left arrow or Space to jump. Use the right arrow to attack."
+          ],
+          [
+            "What do red rubies unlock?",
+            "You can exchange them for a randomly selected in-game weapon. The result can change how you approach the next run."
+          ],
+          [
+            "Do I need to hold a key to run?",
+            "No. The runner moves automatically. You control jumps and attacks as the path changes."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "sky-dart",
+    "title": "Sky Dart",
+    "category": {
+      "en": "Guided flight"
+    },
+    "source": "https://1games.io/sky-dart",
+    "url": "https://sky-dart.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/sky-dart-icon.png",
+      "artwork": "/assets/1games/sky-dart-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/sky-dart-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/sky-dart/sky-dart.png",
+        "artwork": "https://1games.io/data/image/game/sky-dart/banner/sky-dart_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/sky-dart/sky-dart.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-04-24",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "bow-games",
+        "reaction-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Guide an arrow in flight in Sky Dart. Make small corrections, aim for coin targets and spend your earnings on power, control or income.",
+        "aboutTitle": "Keep a steady flight path between targets",
+        "about": [
+          "The launch sets the direction of your first flight in Sky Dart. Once the arrow is moving, it gradually loses speed. Smooth corrections help you stay on an open route as obstacles come into view.",
+          "Targets offer coin bonuses. Hitting the target doubles the coin reward, and a bullseye awards four times the coins. If reaching one would take the arrow through an obstacle, look farther ahead for a target you can approach more cleanly.",
+          "Distance also earns currency. Spend it on power, control or earnings, then try a similar flight so you can feel what changed. If you already reach targets consistently, use an open route to practice lining up with a boost ring."
+        ],
+        "steps": [
+          [
+            "Line up a clear launch",
+            "Choose a direction with room for the first correction. Watch how far forward the arrow travels as it starts to slow."
+          ],
+          [
+            "Make small changes in flight",
+            "Guide the arrow away from obstacles with small adjustments. Let each change take effect before adding another."
+          ],
+          [
+            "Choose targets you can reach smoothly",
+            "Aim toward the center when you have an open approach. Prefer the next target if the current one requires a sudden turn."
+          ],
+          [
+            "Compare an upgrade on a similar run",
+            "Spend earned coins on power, control or earnings. Try the same opening again so you can see the effect of that choice."
+          ]
+        ],
+        "faq": [
+          [
+            "What does a bullseye pay?",
+            "The official rules list double coins for a target hit and four times the coins for a bullseye."
+          ],
+          [
+            "Why does the arrow lose distance late in a run?",
+            "The arrow naturally slows in flight. Large adjustments or obstacles can reduce how far it goes."
+          ],
+          [
+            "What can I upgrade?",
+            "The listed upgrade areas are power, control and earnings. Pick the one that matches the part of the run you want to improve."
+          ]
+        ]
+      }
+    }
   }
 ]
