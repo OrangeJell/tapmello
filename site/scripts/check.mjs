@@ -1,5 +1,6 @@
 import { languageCodes, languagePrefix, localPath, pageAlternates, pageLanguage } from '../src/languages.mjs';
 import assert from 'node:assert/strict';
+import { parse } from 'parse5';
 import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -143,6 +144,21 @@ const sitemapUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(([, url]) =>
 assert.equal(sitemapUrls.length, indexable.size, 'Sitemap URL count');
 assert.deepEqual(new Set(sitemapUrls), indexable, 'Sitemap contains only indexable pages');
 for (const url of sitemapUrls) await localTarget(url, '/');
+function pageCopy(html) {
+  const copy = new Set();
+  function visit(node) {
+    if (node.nodeName === '#text' && !['script', 'style'].includes(node.parentNode?.tagName)) {
+      copy.add(node.value.trim());
+    }
+    if (node.tagName === 'meta' && node.attrs.some(attr => attr.name === 'name' && attr.value === 'description')) {
+      copy.add(node.attrs.find(attr => attr.name === 'content')?.value);
+    }
+    for (const child of node.childNodes ?? []) visit(child);
+  }
+  visit(parse(html));
+  return copy;
+}
+
 const sitemapSet = new Set(sitemapUrls);
 for (const [code, locale] of Object.entries(partnerLocales)) {
   const catalogPath = path.join(dist, 'assets', `game-search-${code.toLowerCase()}.json`);
@@ -153,8 +169,9 @@ for (const [code, locale] of Object.entries(partnerLocales)) {
     const copy = game.details[code];
     assert.ok(sitemapSet.has(origin + route), `Localized game in sitemap: ${route}`);
     assert.ok(search.some(entry => entry.href === route && entry.keywords.includes(game.category[code])), `Localized game in search: ${route}`);
-    for (const text of [copy.searchTitle, copy.summary, ...copy.about, ...copy.steps.flat(), ...copy.faq.flat()]) {
-      assert.ok(html.includes(text), `Authored localized game copy: ${route} / ${text}`);
+    const renderedCopy = pageCopy(html);
+    for (const text of [copy.searchTitle + ' | tapmelo', copy.summary, ...copy.about, ...copy.steps.flat(), ...copy.faq.flat()]) {
+      assert.ok(renderedCopy.has(text), `Authored localized game copy: ${route} / ${text}`);
     }
   }
 }
