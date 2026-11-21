@@ -3789,5 +3789,443 @@
         ]
       }
     }
+  },
+  {
+    "id": "stick-hero-rpg",
+    "title": "Stick Hero RPG",
+    "category": {
+      "en": "Dungeon action RPG"
+    },
+    "source": "https://1games.io/stick-hero-rpg",
+    "url": "https://stick-hero-rpg.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/stick-hero-rpg-icon.png",
+      "artwork": "/assets/1games/stick-hero-rpg-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/stick-hero-rpg-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/stick-hero-rpg/stick-hero-rpg.png",
+        "artwork": "https://1games.io/data/image/game/stick-hero-rpg/banner/stick-hero-rpg_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/stick-hero-rpg/stick-hero-rpg1.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-04-01",
+      "genres": [
+        "action",
+        "adventure"
+      ],
+      "tags": [
+        "action-adventure",
+        "combat-games",
+        "horde-survival-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Choose a class and clear dungeon waves in Stick Hero RPG. Use movement, skills and earned gold to build a character for harder encounters.",
+        "aboutTitle": "Build around the class you want to play",
+        "about": [
+          "Your first choices in Stick Hero RPG are a species and a class. Humans, elves and orcs offer different starting styles. The Gunner, Wizard, Archer and Thief classes give you different ways to attack and spend skill points.",
+          "Dungeon stages play out from the side. You move, jump and use attacks while keeping track of health and mana. Early waves are a chance to learn your class's reach and ability timing before a boss arrives.",
+          "Gold earned from battles pays for equipment and upgrades. If you are consistently running out of health before a wave ends, improve survival first. Once you can finish a wave reliably, invest in the damage or abilities you use most."
+        ],
+        "steps": [
+          [
+            "Pick a species and class",
+            "Choose from the starting options. Learn one class's basic movement and attacks before comparing another."
+          ],
+          [
+            "Move and jump through the stage",
+            "Use A and D or the left and right arrows to move. Press Space, W or the up arrow to jump."
+          ],
+          [
+            "Aim attacks and use skills",
+            "Hold the left mouse button and move the pointer to aim your in-game attack. Use the number keys for equipped skills."
+          ],
+          [
+            "Set a priority for earned gold",
+            "When a stage ends, compare upgrades against the part of the encounter that gave you trouble. Spend toward one goal and try another wave."
+          ]
+        ],
+        "faq": [
+          [
+            "Which keys trigger skills?",
+            "Use the number keys assigned to your skills. Check your current abilities before entering the next wave."
+          ],
+          [
+            "Can I restart the current round?",
+            "The published controls assign E to reset the round."
+          ],
+          [
+            "How should I spend early skill points?",
+            "Start with abilities that support the class you actually use in fights. Monitor health and mana before deciding whether to invest in survival or damage."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "2048-rogue",
+    "title": "2048 Rogue",
+    "category": {
+      "en": "Tile merging puzzle"
+    },
+    "source": "https://1games.io/2048-rogue",
+    "url": "https://1games.io/game/2048-rogue/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/2048-rogue-icon.png",
+      "artwork": "/assets/1games/2048-rogue-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/2048-rogue-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/2048-rogue/2048-rogue.png",
+        "artwork": "https://1games.io/data/image/game/2048-rogue/banner/2048-rogue_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/2048-rogue/2048-rogue.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-03-20",
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "logic",
+        "brain-training-games",
+        "sliding-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Slide and merge evolving creature tiles in 2048 Rogue. Leave room for new tiles and choose between a story route and endless play.",
+        "aboutTitle": "Leave a route for the next matching tile",
+        "about": [
+          "Each arrow input moves the board in one direction. Identical icons combine into a higher form, and a new tile can appear after a move. Look at the whole board before sliding, since a useful merge can also shift pieces you were saving.",
+          "A corner gives you a place to build a high-tier creature while lower forms line up beside it. Read the rows that feed that corner. If a slide separates two matching icons, check whether another direction keeps them together.",
+          "Story mode adds structured objectives and narrative fragments. Endless mode lets you focus on keeping the board playable. Undo can help you review a move that closed an important gap. Check how the board changes before repeating the slide."
+        ],
+        "steps": [
+          [
+            "Slide with the arrow keys",
+            "Choose a direction and watch all tiles move together. Matching icons can merge into a higher form."
+          ],
+          [
+            "Keep a space beside a developed tile",
+            "Try building toward one edge so you can feed that tile from a neighboring row. Check which other lines will shift first."
+          ],
+          [
+            "Check what a move does to the board",
+            "Before sliding into a near-full side, look for at least one merge or opening to use on the following move."
+          ],
+          [
+            "Review a close call with Undo",
+            "Use Undo when available to revisit a slide that separated a pair or trapped several tiles. Compare another direction before committing."
+          ]
+        ],
+        "faq": [
+          [
+            "What ends a run?",
+            "The run ends when you have no legal moves left."
+          ],
+          [
+            "What do matching tiles turn into?",
+            "Two identical icons merge into a higher form. The game uses evolving creatures and objects as its tiles."
+          ],
+          [
+            "How do Story and Endless differ?",
+            "Story adds objectives and narrative fragments as you advance. Endless emphasizes keeping the board open and merging for longer."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "tap-road",
+    "title": "Tap Road",
+    "category": {
+      "en": "Two-lane reflex runner"
+    },
+    "source": "https://1games.io/tap-road",
+    "url": "https://tap-road.1games.io/",
+    "width": 1280,
+    "height": 854,
+    "media": {
+      "icon": "/assets/1games/tap-road-icon.png",
+      "artwork": "/assets/1games/tap-road-cover.png",
+      "artworkWidth": 643,
+      "artworkHeight": 642,
+      "preview": "/assets/1games/tap-road-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/tap-road/tap-road.png",
+        "artwork": "https://1games.io/data/image/game/tap-road/banner/tap-road.png",
+        "preview": "https://1games.io/data/file/game/tap-road.mp4"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2024-10-09",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "one-button-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Switch lanes with one click in Tap Road. Dodge numbered blocks as the neon road speeds up and collect spheres to unlock tracks and ball designs.",
+        "aboutTitle": "Watch the next pair of blocks instead of the ball",
+        "about": [
+          "The ball rolls forward automatically along two lanes. Click to move it to the opposite lane before it reaches a numbered block. You score by dodging obstacles, and the road gets faster during the run.",
+          "Look beyond the nearest block to see which lane the one after it occupies. Changing lanes too early can put you in the path of a closer obstacle. Changing back immediately can leave you with too little time for the next move.",
+          "Spheres can buy tracks and ball designs, while challenges offer additional rewards. Take a sphere when the approach and exit are clear. A clean run gives you more chances to see how the obstacle pattern changes at higher speeds."
+        ],
+        "steps": [
+          [
+            "Click to switch lanes",
+            "One mouse click sends the ball into the other lane. Wait until the next action actually needs a lane change."
+          ],
+          [
+            "Look two blocks ahead",
+            "Identify which lane holds the nearer block. Then check whether you will need to switch back for the following one."
+          ],
+          [
+            "Take spheres on a clear route",
+            "Collect spheres when they are along the lane you can hold safely. Skip ones that would put you in the path of a numbered block."
+          ],
+          [
+            "Use challenges to pick a goal",
+            "Check the listed challenges between runs. Focus on a single goal while you practice changes at higher speeds."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I slow down the ball?",
+            "The ball moves forward and speeds up automatically. Your control switches it between the two lanes."
+          ],
+          [
+            "How is the score counted?",
+            "Your score reflects how many obstacles you dodge. Spheres are a separate pickup."
+          ],
+          [
+            "What can I buy with spheres?",
+            "Use collected spheres toward more tracks and ball designs."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "flip-rush",
+    "title": "Flip Rush",
+    "category": {
+      "en": "Backflip stunt courses"
+    },
+    "source": "https://1games.io/flip-rush",
+    "url": "https://flip-rush.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/flip-rush-icon.png",
+      "artwork": "/assets/1games/flip-rush-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/flip-rush-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/flip-rush/flip-rush.png",
+        "artwork": "https://1games.io/data/image/game/flip-rush/banner/flip-rush_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/flip-rush/flip-rush.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-03-25",
+      "genres": [
+        "sports",
+        "arcade"
+      ],
+      "tags": [
+        "flip-games",
+        "stunt-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Build power, rotate and land on your feet in Flip Rush. Practice the release timing across parkour courses with different takeoff points.",
+        "aboutTitle": "Release the rotation with the landing zone in view",
+        "about": [
+          "Flip Rush asks you to land on your feet inside a marked area. Hold the left mouse button or Space to build power and rotate. Release as you approach the position you need for the landing.",
+          "The opening tutorial walks you through the motion. Use it to see how long a short rotation takes. On later layouts, check the height and position of the next target before deciding how long to hold.",
+          "Finishing a location's levels opens the next setting. A takeoff that works in the gym may leave you rotating too late on a mountain or city stage. Start with a clean landing before trying to earn more points from another rotation."
+        ],
+        "steps": [
+          [
+            "Learn the hold and release in the tutorial",
+            "Hold left-click or Space to build the movement, then release to prepare for landing."
+          ],
+          [
+            "Read where the target begins",
+            "Check whether the landing zone is close below you or farther away. Use that distance to judge when you should stop rotating."
+          ],
+          [
+            "Correct one part after a missed attempt",
+            "If you reach the area while still turning, try releasing sooner. If you fall short of the area, compare the next takeoff without changing everything at once."
+          ],
+          [
+            "Complete a location to advance",
+            "Finish the stages in the current setting to open the next. Learn the first landing there before attempting longer combinations."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I use Space instead of the mouse?",
+            "Yes. Holding Space or the left mouse button builds power and rotation. Release to set up your landing."
+          ],
+          [
+            "What counts as a clean landing?",
+            "Finish on your feet inside the marked target zone. An awkward landing can lower the score or fail the attempt."
+          ],
+          [
+            "How do I open another location?",
+            "Complete the stages in the current location. The next setting then becomes available."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "slope-rider-3d",
+    "title": "Slope Rider 3D",
+    "category": {
+      "en": "Winter sled runner"
+    },
+    "source": "https://1games.io/slope-rider-3d",
+    "url": "https://slope-rider-3d.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/slope-rider-3d-icon.png",
+      "artwork": "/assets/1games/slope-rider-3d-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/slope-rider-3d-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/slope-rider-3d/slope-rider-3d1.png",
+        "artwork": "https://1games.io/data/image/game/slope-rider-3d/banner/slope-rider-3d-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/slope-rider-3d/slope-rider-3d.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-19",
+      "genres": [
+        "driving",
+        "arcade"
+      ],
+      "tags": [
+        "snow-games",
+        "jumping-games",
+        "endless-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Ride a sled through changing winter courses in Slope Rider 3D. Jump past logs and gaps, collect gift boxes and try Normal or Hard mode.",
+        "aboutTitle": "Set up the next turn before you leave the snow",
+        "about": [
+          "Slope Rider 3D sends you down a changing winter course. Rolling logs, falling trees and snow boulders can block space you planned to use. Read where the obstacle will be when you arrive, especially if you need to jump.",
+          "Normal and Hard modes let you choose the challenge. Use Normal to learn how long your sled stays in the air and how quickly it can steer after landing. Try Hard once you can set up the turn after a jump without swinging across the whole track.",
+          "Gift boxes unlock sleds with different performance traits. A quicker sled can give you less time between nearby obstacles. Try a new sled over a few clear descents to get used to its steering and jump timing."
+        ],
+        "steps": [
+          [
+            "Steer left or right",
+            "Use the arrow keys to guide the sled. Make a clear move before the path narrows."
+          ],
+          [
+            "Jump with the up arrow or Space",
+            "Use either key to clear a log or gap. Look for a clear landing strip before leaving the snow."
+          ],
+          [
+            "Pick up gifts when you can exit safely",
+            "Follow a gift line when there is room after it for your next turn. Leave a box behind if it is beside a moving hazard."
+          ],
+          [
+            "Compare Normal and Hard",
+            "Practice judging the distance to a log on Normal. Use the same look-ahead habit when you try Hard."
+          ]
+        ],
+        "faq": [
+          [
+            "Is the course identical on every descent?",
+            "No. The game changes the terrain and obstacle placement, so watch the current slope instead of memorizing a single route."
+          ],
+          [
+            "What can I use gift boxes for?",
+            "Collected gifts can unlock additional sleds with different handling, jumping or speed traits."
+          ],
+          [
+            "How can I jump and steer with separate controls?",
+            "Use the left and right arrows to steer and Space to jump. The up arrow also jumps."
+          ]
+        ]
+      }
+    }
   }
 ]
