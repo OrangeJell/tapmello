@@ -4801,6 +4801,486 @@
           "Non. Des couleurs similaires peuvent apparaître sur différents personnages, alors comparez également le visage et les accessoires."
         ]
       ]
+    },
+    "crafty-car": {
+      "category": "Assemblage automobile",
+      "summary": "Montez des voitures à partir du châssis et terminez-les selon les souhaits de vos clients.",
+      "about": [
+        "Posez les roues, les sièges et le moteur avant la carrosserie et la peinture.",
+        "De nouveaux modèles arrivent au fil des commandes. Les recettes servent à améliorer l’atelier."
+      ],
+      "steps": [
+        [
+          "Monter les pièces",
+          "Faites glisser chaque pièce à sa place sur la voiture."
+        ],
+        [
+          "Soigner la finition",
+          "Vérifiez la demande du client avant de peindre et de lustrer."
+        ]
+      ],
+      "faq": [
+        [
+          "Que rapportent les commandes terminées ?",
+          "Vous aurez de nouveaux modèles à monter et de quoi améliorer l’outillage et le garage."
+        ]
+      ]
+    },
+    "ramp-xtreme": {
+      "category": "Cascades à moto",
+      "summary": "Franchissez des rampes à moto et ajustez votre assiette en l’air pour retomber sur les deux roues.",
+      "about": [
+        "Prenez de l’élan avant les grands sauts et ralentissez sur les plates-formes étroites.",
+        "Les pièces gagnées en mission donnent accès à de nouvelles motos pour les parcours difficiles."
+      ],
+      "steps": [
+        [
+          "Accélérer et freiner",
+          "Maintenez W ou ↑ pour accélérer. Appuyez sur S ou ↓ pour freiner."
+        ],
+        [
+          "Incliner la moto",
+          "Utilisez A et D ou les flèches gauche et droite. En l’air, appuyez sur Espace pour faire un salto."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment réussir l’atterrissage ?",
+          "Terminez le salto assez tôt pour que les deux roues suivent la pente de réception."
+        ]
+      ]
+    },
+    "merge-infinity": {
+      "category": "Chaînes de nombres",
+      "summary": "Reliez les nombres identiques pour les fusionner en une tuile de valeur supérieure.",
+      "about": [
+        "Les tuiles voisines peuvent se suivre à l’horizontale, à la verticale ou en diagonale.",
+        "Après chaque fusion, la grille change. Essayez de garder quelques nombres identiques à portée."
+      ],
+      "steps": [
+        [
+          "Former une chaîne",
+          "Faites glisser le pointeur d’une tuile à la suivante en suivant le même nombre."
+        ],
+        [
+          "Observer la nouvelle grille",
+          "Cherchez une tuile identique à côté de celle que vous venez de créer."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand la partie s’arrête-t-elle ?",
+          "Elle se termine quand aucun groupe de nombres identiques ne peut être relié."
+        ]
+      ]
+    },
+    "fish-it-online": {
+      "category": "Pêche et collection",
+      "summary": "Lancez votre ligne depuis la rive, rembobinez au bon moment et collectionnez les poissons de différentes zones.",
+      "about": [
+        "La canne de départ suffit pour pêcher autour de l’île. Utilisez vos gains pour améliorer votre matériel.",
+        "Le bateau donne accès au large. Consultez le carnet pour repérer les poissons qui vous manquent."
+      ],
+      "steps": [
+        [
+          "Rejoindre la rive",
+          "Déplacez-vous avec WASD ou les flèches. Appuyez sur 1 du pavé numérique pour équiper la première canne."
+        ],
+        [
+          "Lancer et ramener la ligne",
+          "Utilisez le bouton gauche de la souris et suivez les indications quand un poisson mord."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment découvrir d’autres espèces ?",
+          "Rejoignez de nouveaux coins de pêche en bateau et comparez vos prises au carnet."
+        ]
+      ]
+    },
+    "skip-it": {
+      "category": "Ricochets",
+      "summary": "Faites ricocher un caillou sur l’eau et évitez les rondins et les bouées pour aller le plus loin possible.",
+      "about": [
+        "Relâchez au bon moment pour donner plus de vitesse au caillou.",
+        "Les portes d’accélération redonnent de l’élan. La distance parcourue rapporte des pièces pour améliorer le lancer et les rebonds."
+      ],
+      "steps": [
+        [
+          "Préparer le lancer",
+          "Tirez vers le bas et relâchez quand la jauge atteint la zone marquée."
+        ],
+        [
+          "Diriger le caillou",
+          "Après le lancer, faites glisser à gauche ou à droite pour éviter les obstacles et franchir les portes."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi le caillou coule-t-il ?",
+          "Il coule s’il ralentit trop ou s’il heurte un obstacle."
+        ]
+      ]
+    },
+    "pinball-master": {
+      "category": "Flipper à gemmes",
+      "summary": "Renvoyez la bille avec les deux batteurs et faites-la rebondir sur les gemmes.",
+      "about": [
+        "Brisez des gemmes pour marquer. De nouveaux bumpers apparaissent à mesure que le score monte.",
+        "Chaque bumper dévie la bille. Surveillez l’angle sous lequel elle revient."
+      ],
+      "steps": [
+        [
+          "Actionner les batteurs",
+          "Utilisez les flèches gauche et droite, ou cliquez sur les batteurs à l’écran."
+        ],
+        [
+          "Viser les gemmes",
+          "Attendez que la bille arrive sur un batteur, puis relancez-la vers un espace dégagé."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi le plateau se remplit-il ?",
+          "Des bumpers supplémentaires apparaissent tous les dix points et multiplient les rebonds possibles."
+        ]
+      ]
+    },
+    "orbit-rush": {
+      "category": "En orbite autour d’un trou noir",
+      "summary": "Maintenez une planète en orbite autour d’un trou noir en évitant les astéroïdes et les autres planètes.",
+      "about": [
+        "Si vous relâchez la commande, la gravité attire la planète vers le centre. Le propulseur la repousse.",
+        "Rester près du trou noir rapporte plus, mais laisse moins de place pour esquiver."
+      ],
+      "steps": [
+        [
+          "S’éloigner du trou noir",
+          "Maintenez le bouton de la souris enfoncé pour actionner le propulseur."
+        ],
+        [
+          "Se rapprocher du trou noir",
+          "Relâchez le bouton pour laisser la gravité ramener la planète vers le centre."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment éviter un astéroïde ?",
+          "Repérez où il va couper votre orbite et changez de distance avant d’y arriver."
+        ]
+      ]
+    },
+    "retro-blaster": {
+      "category": "Tir spatial",
+      "summary": "Pilotez un vaisseau dans des vagues ennemies et récupérez des munitions et des bonus.",
+      "about": [
+        "Les tirs partent dans l’axe du vaisseau. Orientez-vous avant que la cible n’arrive.",
+        "Les ennemis abattus peuvent lâcher des pièces et des munitions. Les pièces débloquent d’autres vaisseaux."
+      ],
+      "steps": [
+        [
+          "Tourner et freiner",
+          "Tournez avec A et D ou les flèches gauche et droite. Accélérez avec W ou ↑, freinez avec Maj."
+        ],
+        [
+          "Ouvrir le feu",
+          "Appuyez sur Espace ou cliquez pour tirer. Appuyez sur B pour utiliser une bombe."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment refaire le plein de munitions ?",
+          "Ramassez les munitions lâchées par les ennemis abattus."
+        ]
+      ]
+    },
+    "golf-puzzle": {
+      "category": "Mini-golf à cartes",
+      "summary": "Utilisez vos cartes pour faire entrer la balle dans le trou avant d’épuiser votre main.",
+      "about": [
+        "Chaque carte modifie le déplacement de la balle. Tenez compte des pentes, du sable et de l’eau.",
+        "Vous avez peu de cartes par trou. Anticipez l’endroit où la balle s’arrêtera après chaque coup."
+      ],
+      "steps": [
+        [
+          "Choisir la carte et viser",
+          "Cliquez sur une carte, puis orientez le tir à la souris."
+        ],
+        [
+          "Préparer le coup suivant",
+          "Vérifiez qu’une carte restante vous permettra d’atteindre le trou depuis le point d’arrivée."
+        ]
+      ],
+      "faq": [
+        [
+          "À quoi sert une carte de courte distance ?",
+          "Près du trou, elle évite d’envoyer la balle trop loin."
+        ]
+      ]
+    },
+    "bucket-smash": {
+      "category": "Démolition de murs",
+      "summary": "Découpez des murs à la scie circulaire et ramassez les briques qui tombent pour gagner des pièces.",
+      "about": [
+        "Scier consomme du carburant. Couper par le bas peut faire tomber plusieurs briques d’un coup.",
+        "Les pièces servent à améliorer la scie ou à agrandir le réservoir."
+      ],
+      "steps": [
+        [
+          "Manier la scie",
+          "Déplacez la scie à la souris pour que les briques détachées tombent dans le seau."
+        ],
+        [
+          "Économiser le carburant",
+          "Ramassez les bidons et commencez là où le plus de briques peuvent se détacher."
+        ]
+      ],
+      "faq": [
+        [
+          "Est-ce que je garde mes pièces quand le réservoir est vide ?",
+          "Oui, vous pouvez toujours utiliser les pièces de la partie pour vos améliorations."
+        ]
+      ]
+    },
+    "rooftop-rush": {
+      "category": "Skate sur les toits",
+      "summary": "Traversez les toits en skate, sautez d’un immeuble à l’autre et ramassez les pièces.",
+      "about": [
+        "Votre personnage avance seul. Repérez votre point de chute sur le toit suivant avant de sauter.",
+        "Collectez les lettres de FANCY pour voler brièvement au-dessus des toits."
+      ],
+      "steps": [
+        [
+          "Sauter au bord",
+          "Cliquez ou appuyez sur Espace ou ↑ juste avant le vide."
+        ],
+        [
+          "Sauter plus haut",
+          "Utilisez deux fois la commande de saut pour prendre de la hauteur."
+        ]
+      ],
+      "faq": [
+        [
+          "Qu’est-ce qui met fin à la partie ?",
+          "La partie s’arrête si vous chutez entre deux bâtiments ou si vous heurtez un obstacle."
+        ]
+      ]
+    },
+    "animal-craft": {
+      "category": "Fusion d’animaux",
+      "summary": "Combinez deux animaux, explorez avec la créature obtenue et récoltez de quoi construire une base.",
+      "about": [
+        "La créature peut hériter de capacités et de caractéristiques des deux animaux.",
+        "Explorez les environs avant de choisir un emplacement proche des ressources dont vous aurez besoin."
+      ],
+      "steps": [
+        [
+          "Créer une créature",
+          "Choisissez deux animaux dans la liste et testez la créature obtenue."
+        ],
+        [
+          "Construire une base",
+          "Récoltez des matériaux pour fabriquer des outils et bâtir des structures."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi changer de combinaison ?",
+          "Certaines combinaisons sont plus efficaces pour l’exploration, le combat ou la survie."
+        ]
+      ]
+    },
+    "dino-age": {
+      "category": "Défense de l’œuf",
+      "summary": "Déployez vos dinosaures pour protéger leur œuf des vagues d’attaquants humains.",
+      "about": [
+        "Chaque dinosaure a ses propres capacités. Placez-les sur le trajet des ennemis.",
+        "Investissez vos pièces dans vos dinosaures et vos défenses avant que les attaques s’intensifient."
+      ],
+      "steps": [
+        [
+          "Installer la défense",
+          "Cliquez sur un chemin qui mène à l’œuf pour y déployer un dinosaure."
+        ],
+        [
+          "Repousser un groupe",
+          "Quand les ennemis se rassemblent, cliquez pour envoyer un projectile ou déclencher une capacité spéciale."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment terminer un niveau ?",
+          "Protégez l’œuf jusqu’à la fin de la dernière vague."
+        ]
+      ]
+    },
+    "slide-down": {
+      "category": "Bille en descente",
+      "summary": "Dirigez une bille lumineuse sur des toits inclinés. Esquivez les blocs rouges et restez sur la piste.",
+      "about": [
+        "La bille roule toute seule sur les plates-formes, dans les tunnels et sur les surfaces inclinées.",
+        "La bille accélère sur les zones de boost. Alignez-la sur le tronçon suivant avant d’en traverser une."
+      ],
+      "steps": [
+        [
+          "Diriger la bille",
+          "Appuyez sur A ou ← pour aller à gauche et sur D ou → pour aller à droite."
+        ],
+        [
+          "Préparer la suite",
+          "Choisissez une trajectoire qui vous donne assez de place pour atteindre la plate-forme suivante."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment le score est-il calculé ?",
+          "Il dépend du nombre de tronçons franchis avant une collision ou une chute."
+        ]
+      ]
+    },
+    "glide-in": {
+      "category": "Palet dans un labyrinthe",
+      "summary": "Faites glisser un palet à travers le labyrinthe jusqu’au trou en un seul coup.",
+      "about": [
+        "Plus vous tirez en arrière, plus le palet file vite. Il rebondit sur les zones vertes, mais un mur rose arrête l’essai.",
+        "Estimez la position des obstacles mobiles au moment où le palet passera."
+      ],
+      "steps": [
+        [
+          "Viser et lâcher",
+          "Tirez en arrière depuis le palet pour régler la direction et la force, puis relâchez."
+        ],
+        [
+          "Utiliser les rebonds",
+          "Visez une zone verte si vous ne pouvez pas atteindre le trou directement."
+        ]
+      ],
+      "faq": [
+        [
+          "Peut-on changer de direction après le tir ?",
+          "Le palet suit sa trajectoire. Réglez bien l’angle et la force avant de le lâcher."
+        ]
+      ]
+    },
+    "loop-crash": {
+      "category": "Circuits croisés",
+      "summary": "Tournez sur deux boucles qui se croisent et adaptez votre vitesse pour éviter les chocs au croisement.",
+      "about": [
+        "La voiture avance toute seule. Regardez ce qui arrive sur l’autre boucle avant de vous engager.",
+        "Chaque tour rapporte des points et de la monnaie. De nouvelles voitures rejoignent le circuit au fil de la partie."
+      ],
+      "steps": [
+        [
+          "Accélérer quand la voie se libère",
+          "Appuyez sur D ou ↑ quand vous avez la place de passer."
+        ],
+        [
+          "Céder le passage",
+          "Appuyez sur A ou ↓ pour ralentir et laisser passer l’autre voiture."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand ajuster la vitesse ?",
+          "Décidez avant d’entrer dans le croisement, tant que vous avez le temps d’accélérer ou de ralentir."
+        ]
+      ]
+    },
+    "spin-blast": {
+      "category": "Tir sur roue colorée",
+      "summary": "Lancez chaque bombe dans le secteur de même couleur sur la roue et enchaînez les réussites.",
+      "about": [
+        "La roue change de vitesse. Observez le secteur visé avant de tirer.",
+        "Les bons tirs prolongent le combo et rapportent des pièces. Une erreur de couleur met fin à la partie."
+      ],
+      "steps": [
+        [
+          "Repérer le bon secteur",
+          "Vérifiez la couleur de la bombe et suivez le secteur correspondant du regard."
+        ],
+        [
+          "Tirer au bon moment",
+          "Cliquez lorsque le bon secteur arrive sur la ligne de tir."
+        ]
+      ],
+      "faq": [
+        [
+          "Que rapportent les longues séries ?",
+          "Les combos multiplient le score et aident à débloquer de nouvelles apparences de bombes."
+        ]
+      ]
+    },
+    "dunk-clash": {
+      "category": "Basket de rue en un contre un",
+      "summary": "Affrontez un adversaire en un contre un et marquez sept points avant lui.",
+      "about": [
+        "Sautez au bon moment pour contrer le tir et gardez de l’énergie pour votre prochaine percée.",
+        "Trois paniers de suite déclenchent le mode en feu et renforcent votre attaque."
+      ],
+      "steps": [
+        [
+          "Se placer",
+          "Déplacez-vous avec A et D ou les flèches. Appuyez sur Espace pour sauter ou contrer."
+        ],
+        [
+          "Doser le tir",
+          "Maintenez Espace ou le bouton gauche de la souris pour régler la puissance d’un tir ou d’un dunk."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand sauter en défense ?",
+          "Attendez que l’adversaire déclenche son tir pour être en l’air au moment où le ballon monte."
+        ]
+      ]
+    },
+    "arcade-tennis": {
+      "category": "Tennis sur cibles",
+      "summary": "Visez les anneaux lumineux avec la balle pour marquer et avancer dans les tournois.",
+      "about": [
+        "La position de l’anneau change l’angle de frappe. Placez-vous avant d’armer votre coup.",
+        "Chaque victoire vous rapproche d’adversaires plus forts et débloque des courts et des joueurs."
+      ],
+      "steps": [
+        [
+          "Se placer près de la balle",
+          "Utilisez WASD ou les flèches pour vous placer à portée de la balle."
+        ],
+        [
+          "Viser et frapper",
+          "Maintenez A ou D, ou l’une des flèches latérales, pour viser. Relâchez pour frapper."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment marquer ?",
+          "Faites passer la balle dans l’anneau lumineux."
+        ]
+      ]
+    },
+    "jelly-runner": {
+      "category": "Sauts de gelée",
+      "summary": "Faites sauter la gelée de plate-forme en plate-forme et récupérez les gouttes dorées en évitant les obstacles.",
+      "about": [
+        "La gelée avance seule. Observez où seront les plates-formes mobiles au moment de retomber.",
+        "La partie s’arrête si vous manquez une plate-forme ou heurtez un obstacle. Ne prenez les gouttes que si vous pouvez retomber en sécurité."
+      ],
+      "steps": [
+        [
+          "Sauter au bon moment",
+          "Cliquez juste avant que la gelée atteigne le bord."
+        ],
+        [
+          "Repérer où retomber",
+          "Suivez le mouvement de la plate-forme suivante et sautez quand vous aurez la place de retomber."
+        ]
+      ],
+      "faq": [
+        [
+          "Faut-il ramasser toutes les gouttes ?",
+          "Restez sur le trajet le plus sûr si une goutte vous éloigne de la prochaine plate-forme."
+        ]
+      ]
     }
   }
 }

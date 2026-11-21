@@ -4801,6 +4801,486 @@
           "No. Pueden aparecer colores similares en diferentes personajes, así que compara también la cara y los accesorios."
         ]
       ]
+    },
+    "crafty-car": {
+      "category": "Montaje de coches",
+      "summary": "Monta coches desde el chasis y acaba cada uno según lo que pida el cliente.",
+      "about": [
+        "Coloca las ruedas, los asientos y el motor antes de pasar a la carrocería y la pintura.",
+        "Cada pedido trae modelos nuevos. Invierte lo que cobres en mejorar el taller."
+      ],
+      "steps": [
+        [
+          "Montar las piezas",
+          "Arrastra cada pieza hasta su sitio en el coche."
+        ],
+        [
+          "Terminar el pedido",
+          "Revisa el acabado que pidió el cliente antes de pintar y pulir."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Qué consigo al completar los pedidos?",
+          "Recibirás encargos de otros modelos y podrás gastar lo ganado en herramientas y mejoras."
+        ]
+      ]
+    },
+    "ramp-xtreme": {
+      "category": "Acrobacias en moto",
+      "summary": "Salta por rampas empinadas y controla la inclinación de la moto en el aire para caer con las dos ruedas.",
+      "about": [
+        "Gana velocidad antes de un salto largo y reduce la marcha en las plataformas estrechas.",
+        "Las monedas de las misiones sirven para desbloquear motos para recorridos más difíciles."
+      ],
+      "steps": [
+        [
+          "Acelerar y frenar",
+          "Mantén W o ↑ para acelerar. Pulsa S o ↓ para frenar."
+        ],
+        [
+          "Inclinar la moto",
+          "Usa A y D o las flechas izquierda y derecha. Pulsa Espacio en el aire para hacer un giro completo."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo aterrizo con más control?",
+          "Acaba el giro con tiempo para alinear las dos ruedas con la pendiente de aterrizaje."
+        ]
+      ]
+    },
+    "merge-infinity": {
+      "category": "Cadenas de números",
+      "summary": "Une números iguales y fusiónalos en una ficha de mayor valor.",
+      "about": [
+        "Puedes unir fichas vecinas del mismo valor en horizontal, vertical y diagonal.",
+        "Cada fusión cambia el tablero. Intenta dejar fichas iguales cerca para la siguiente jugada."
+      ],
+      "steps": [
+        [
+          "Trazar una cadena",
+          "Arrastra por las fichas vecinas que tengan el mismo número."
+        ],
+        [
+          "Revisar el tablero",
+          "Tras la fusión, busca números iguales alrededor de la ficha nueva."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cuándo termina la partida?",
+          "Cuando ya no queda ninguna cadena de números iguales que puedas formar."
+        ]
+      ]
+    },
+    "fish-it-online": {
+      "category": "Pesca y colección",
+      "summary": "Lanza el sedal desde la orilla, recógelo a tiempo y descubre peces de distintos lugares.",
+      "about": [
+        "La caña inicial sirve para pescar por la isla. Mejora el equipo con lo que ganes por tus capturas.",
+        "Con el bote puedes pescar más lejos. Consulta el catálogo para ver qué especies te faltan."
+      ],
+      "steps": [
+        [
+          "Acercarte al agua",
+          "Muévete con WASD o las flechas. Pulsa 1 en el teclado numérico para equipar la primera caña."
+        ],
+        [
+          "Lanzar y recoger el sedal",
+          "Usa el botón izquierdo del ratón para pescar. Sigue las indicaciones cuando pique un pez."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo encuentro nuevas especies?",
+          "Ve en bote a otros lugares de pesca y compara tus capturas con el catálogo."
+        ]
+      ]
+    },
+    "skip-it": {
+      "category": "Piedras que rebotan",
+      "summary": "Haz rebotar una piedra sobre el agua y esquiva troncos y boyas para llegar lo más lejos posible.",
+      "about": [
+        "Soltar en el momento justo le da más velocidad a la piedra al salir.",
+        "Pasa por las puertas de impulso para recuperar velocidad. La distancia te da monedas para mejorar el lanzamiento y los rebotes."
+      ],
+      "steps": [
+        [
+          "Preparar el lanzamiento",
+          "Arrastra hacia abajo y suelta cuando el medidor entre en la zona marcada."
+        ],
+        [
+          "Dirigir la piedra",
+          "Tras lanzarla, arrastra hacia los lados para esquivar obstáculos y pasar por las puertas."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Por qué se hunde la piedra?",
+          "Se hunde si pierde demasiado impulso o choca con un obstáculo."
+        ]
+      ]
+    },
+    "pinball-master": {
+      "category": "Pinball de gemas",
+      "summary": "Usa las dos paletas para mantener la bola en juego y hacer que choque con las gemas.",
+      "about": [
+        "Romper gemas da puntos. Cuantos más sumas, más topes aparecen en la mesa.",
+        "Al chocar con un tope, la bola cambia de ángulo. Fíjate en la dirección en la que vuelve."
+      ],
+      "steps": [
+        [
+          "Mover las paletas",
+          "Usa las flechas izquierda y derecha o haz clic en las paletas de la pantalla."
+        ],
+        [
+          "Apuntar a las gemas",
+          "Espera a que la bola se acerque a una paleta y golpéala hacia una zona despejada."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Por qué se llena la mesa?",
+          "Cada diez puntos aparecen más topes y se abren nuevas trayectorias de rebote."
+        ]
+      ]
+    },
+    "orbit-rush": {
+      "category": "Órbita de un agujero negro",
+      "summary": "Mantén un planeta en órbita alrededor de un agujero negro y esquiva asteroides y otros planetas.",
+      "about": [
+        "Al soltar el botón, la gravedad atrae el planeta. El propulsor lo empuja hacia fuera.",
+        "Cuanto más cerca del agujero negro estés, más puntos ganas y menos espacio tienes para esquivar."
+      ],
+      "steps": [
+        [
+          "Alejarte del agujero negro",
+          "Mantén pulsado el botón del ratón para activar el propulsor."
+        ],
+        [
+          "Acercarte al agujero negro",
+          "Suelta el botón y deja que la gravedad atraiga el planeta."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo esquivo un asteroide?",
+          "Mira dónde cruzará tu órbita y cambia de distancia antes de llegar a ese punto."
+        ]
+      ]
+    },
+    "retro-blaster": {
+      "category": "Disparos espaciales",
+      "summary": "Pilota una nave con inercia entre oleadas de enemigos y recoge munición y mejoras.",
+      "about": [
+        "Los disparos siguen la dirección de la nave. Empieza a girar antes de que llegue el objetivo.",
+        "Los enemigos derribados pueden soltar monedas y munición. Usa las monedas para desbloquear otras naves."
+      ],
+      "steps": [
+        [
+          "Girar y frenar",
+          "Gira con A y D o con las flechas laterales. Acelera con W o ↑ y frena con Mayús."
+        ],
+        [
+          "Abrir fuego",
+          "Pulsa Espacio o haz clic para disparar. Pulsa B para usar una bomba."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo recupero munición?",
+          "Recoge la munición que dejan los enemigos al caer."
+        ]
+      ]
+    },
+    "golf-puzzle": {
+      "category": "Minigolf con cartas",
+      "summary": "Juega tus cartas para llevar la bola al hoyo antes de que se te acaben.",
+      "about": [
+        "Cada carta mueve la bola de un modo distinto. Ten en cuenta las pendientes, la arena y el agua.",
+        "Hay pocas cartas por hoyo. Piensa dónde quedará la bola tras cada golpe."
+      ],
+      "steps": [
+        [
+          "Elegir una carta y apuntar",
+          "Haz clic en una carta y apunta con el ratón."
+        ],
+        [
+          "Preparar el siguiente golpe",
+          "Antes de golpear, comprueba que una de las cartas restantes permita llegar al hoyo desde el punto de caída."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Para qué guardo una carta de distancia corta?",
+          "Cerca del hoyo, un golpe corto evita que la bola se pase."
+        ]
+      ]
+    },
+    "bucket-smash": {
+      "category": "Demolición de muros",
+      "summary": "Corta muros con una sierra circular y recoge en el cubo los ladrillos que caen para ganar monedas.",
+      "about": [
+        "Cortar consume combustible. Si empiezas por abajo, puedes hacer caer varios ladrillos a la vez.",
+        "Usa las monedas para conseguir una sierra más larga o ampliar el depósito."
+      ],
+      "steps": [
+        [
+          "Mover la sierra",
+          "Arrastra el ratón para cortar el muro y deja caer los ladrillos sueltos en el cubo."
+        ],
+        [
+          "Vigilar el combustible",
+          "Recoge bidones y empieza por donde puedan caer más ladrillos con un solo corte."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Conservo las monedas si se acaba el combustible?",
+          "Sí. Puedes usar las monedas de la partida para comprar mejoras."
+        ]
+      ]
+    },
+    "rooftop-rush": {
+      "category": "Monopatín en las azoteas",
+      "summary": "Recorre azoteas en monopatín, salta entre edificios y recoge monedas.",
+      "about": [
+        "El personaje avanza solo. Antes de saltar, busca un lugar para caer en la siguiente azotea.",
+        "Reúne las letras de FANCY para volar por encima de los techos durante unos instantes."
+      ],
+      "steps": [
+        [
+          "Saltar al borde",
+          "Haz clic o pulsa Espacio o ↑ justo antes del hueco."
+        ],
+        [
+          "Saltar más alto",
+          "Usa dos veces el control de salto para ganar altura."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Qué termina la partida?",
+          "Caer entre edificios o chocar contra un obstáculo."
+        ]
+      ]
+    },
+    "animal-craft": {
+      "category": "Fusión de animales",
+      "summary": "Combina dos animales y usa la criatura resultante para explorar, reunir materiales y construir una base.",
+      "about": [
+        "La criatura puede heredar rasgos y habilidades de los dos animales.",
+        "Explora primero para elegir un lugar cercano a los recursos que necesitas."
+      ],
+      "steps": [
+        [
+          "Crear un híbrido",
+          "Elige dos animales de la lista y prueba qué puede hacer la criatura resultante."
+        ],
+        [
+          "Construir una base",
+          "Reúne materiales para fabricar herramientas y levantar estructuras."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Por qué probar otra combinación?",
+          "Cada combinación puede dar lugar a una criatura más apta para explorar, luchar o sobrevivir."
+        ]
+      ]
+    },
+    "dino-age": {
+      "category": "Defensa del huevo de dinosaurio",
+      "summary": "Despliega dinosaurios para defender su huevo de las oleadas de atacantes humanos.",
+      "about": [
+        "Cada dinosaurio tiene habilidades propias. Colócalos donde puedan cortar el paso a los atacantes.",
+        "Usa las monedas para mejorar los dinosaurios y las defensas antes de las oleadas más difíciles."
+      ],
+      "steps": [
+        [
+          "Preparar la defensa",
+          "Haz clic para desplegar un dinosaurio en un camino que lleve al huevo."
+        ],
+        [
+          "Frenar a un grupo",
+          "Cuando se junten los atacantes, haz clic para lanzar un proyectil o activar una habilidad."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo supero un nivel?",
+          "Mantén intacto el huevo hasta que termine la última oleada."
+        ]
+      ]
+    },
+    "slide-down": {
+      "category": "Bola en descenso",
+      "summary": "Guía una bola luminosa por tejados inclinados, esquiva los bloques rojos y mantente en la pista.",
+      "about": [
+        "La bola rueda sola por plataformas estrechas, superficies inclinadas y túneles.",
+        "Las placas de impulso aceleran la bola. Oriéntala hacia el tramo siguiente antes de pasar por una."
+      ],
+      "steps": [
+        [
+          "Dirigir la bola",
+          "Pulsa A o ← para ir a la izquierda y D o → para ir a la derecha."
+        ],
+        [
+          "Mirar más allá del bloque",
+          "Esquiva el bloque por un lado que te deje espacio para llegar a la plataforma siguiente."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo se calcula la puntuación?",
+          "Depende de cuántos tramos recorras antes de chocar o caer."
+        ]
+      ]
+    },
+    "glide-in": {
+      "category": "Disco deslizante",
+      "summary": "Haz que el disco atraviese el laberinto y entre en el agujero de un solo tiro.",
+      "about": [
+        "Cuanto más tires hacia atrás, más rápido irá el disco. Las zonas verdes lo hacen rebotar y los muros rosas acaban con el intento.",
+        "Antes de lanzar, fíjate dónde estarán los obstáculos móviles cuando llegue el disco."
+      ],
+      "steps": [
+        [
+          "Apuntar y soltar",
+          "Arrastra hacia atrás desde el disco para ajustar la fuerza y la dirección. Luego suelta."
+        ],
+        [
+          "Aprovechar los rebotes",
+          "Apunta a una zona verde si no puedes llegar al agujero en línea recta."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Puedo cambiar la trayectoria tras lanzar?",
+          "El disco sigue el rumbo del tiro. Ajusta el ángulo y la fuerza antes de soltar."
+        ]
+      ]
+    },
+    "loop-crash": {
+      "category": "Circuitos cruzados",
+      "summary": "Conduce por dos circuitos que se cruzan y ajusta la velocidad para evitar choques.",
+      "about": [
+        "El coche avanza solo. Mira el tráfico del otro circuito antes de entrar en el cruce.",
+        "Cada vuelta da puntos y monedas. Cuanto más aguantes, más coches se incorporarán."
+      ],
+      "steps": [
+        [
+          "Acelerar cuando haya hueco",
+          "Pulsa D o ↑ si hay espacio suficiente para cruzar."
+        ],
+        [
+          "Ceder el paso",
+          "Pulsa A o ↓ para frenar y dejar pasar al otro coche."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cuándo conviene cambiar la velocidad?",
+          "Decídelo antes del cruce, cuando aún tengas margen para acelerar o frenar."
+        ]
+      ]
+    },
+    "spin-blast": {
+      "category": "Rueda de colores",
+      "summary": "Dispara bombas a las zonas del mismo color en una rueda giratoria y mantén la racha.",
+      "about": [
+        "La rueda cambia de velocidad. Fíjate en cómo se mueve tu objetivo antes de disparar.",
+        "Los aciertos consecutivos dan combos y monedas. Si fallas de color, la partida termina."
+      ],
+      "steps": [
+        [
+          "Buscar el color correcto",
+          "Mira el color de la bomba y sigue la zona del mismo color en la rueda."
+        ],
+        [
+          "Disparar a tiempo",
+          "Haz clic cuando la zona correspondiente pase por la línea de tiro."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Qué consigues con una racha larga?",
+          "Los combos multiplican la puntuación y ayudan a desbloquear nuevos diseños para las bombas."
+        ]
+      ]
+    },
+    "dunk-clash": {
+      "category": "Baloncesto callejero uno contra uno",
+      "summary": "Juega un uno contra uno y llega a siete puntos antes que tu rival.",
+      "about": [
+        "Salta a tiempo para taponar los tiros y guarda energía para tu próxima entrada a canasta.",
+        "Tres canastas seguidas activan el modo en llamas y refuerzan tu ataque."
+      ],
+      "steps": [
+        [
+          "Colocarte en la cancha",
+          "Muévete con A y D o las flechas. Pulsa Espacio para saltar o taponar."
+        ],
+        [
+          "Ajustar la potencia",
+          "Mantén pulsado Espacio o el botón izquierdo del ratón para ajustar la potencia del tiro o el mate."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cuándo salto para defender?",
+          "Espera a que tu rival lance y salta para interceptar el balón al subir."
+        ]
+      ]
+    },
+    "arcade-tennis": {
+      "category": "Tenis con aros",
+      "summary": "Golpea la pelota a través de aros luminosos para sumar puntos y avanzar en los torneos.",
+      "about": [
+        "La posición del aro marca el ángulo del golpe. Colócate antes de preparar el tiro.",
+        "Las victorias abren partidos más difíciles, nuevas pistas y más jugadores."
+      ],
+      "steps": [
+        [
+          "Colocarte cerca de la pelota",
+          "Muévete con WASD o las flechas hasta estar al alcance de la pelota."
+        ],
+        [
+          "Apuntar y golpear",
+          "Mantén pulsado A o D, o una flecha lateral, para apuntar. Suelta para golpear."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo marco un punto?",
+          "Haz que la pelota atraviese el aro luminoso."
+        ]
+      ]
+    },
+    "jelly-runner": {
+      "category": "Saltos de gelatina",
+      "summary": "Haz saltar a la gelatina por plataformas móviles y recoge gotas doradas sin chocar.",
+      "about": [
+        "La gelatina avanza sola. Fíjate dónde estarán las plataformas al aterrizar.",
+        "Si no llegas a una plataforma o chocas, termina la partida. Recoge gotas cuando puedas aterrizar con seguridad."
+      ],
+      "steps": [
+        [
+          "Saltar a tiempo",
+          "Haz clic justo antes de que la gelatina llegue al borde."
+        ],
+        [
+          "Elegir dónde caer",
+          "Observa la plataforma siguiente y salta cuando tengas espacio para aterrizar."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Tengo que recoger todas las gotas?",
+          "Sigue por el camino seguro si una gota te aparta de la próxima plataforma."
+        ]
+      ]
     }
   }
 }

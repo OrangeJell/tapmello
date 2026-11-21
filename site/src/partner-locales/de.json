@@ -4801,6 +4801,486 @@
           "Nein. Ähnliche Farben können bei verschiedenen Charakteren vorkommen, vergleichen Sie daher auch das Gesicht und die Accessoires."
         ]
       ]
+    },
+    "crafty-car": {
+      "category": "Autos zusammenbauen",
+      "summary": "Baue Autos vom Fahrgestell an auf und erfülle die Wünsche deiner Kundschaft.",
+      "about": [
+        "Montiere Räder, Sitze und Motor, bevor du dich um Karosserie und Lack kümmerst.",
+        "Neue Aufträge bringen andere Modelle in die Werkstatt. Mit dem Verdienst kannst du die Werkstatt ausbauen."
+      ],
+      "steps": [
+        [
+          "Teile einsetzen",
+          "Ziehe jedes Teil an die passende Stelle am Auto."
+        ],
+        [
+          "Auftrag abschließen",
+          "Prüfe vor dem Lackieren und Polieren, welche Ausführung bestellt wurde."
+        ]
+      ],
+      "faq": [
+        [
+          "Was bringen abgeschlossene Aufträge?",
+          "Du bekommst neue Modelle zum Zusammenbauen und Geld für Werkzeuge und den Werkstattausbau."
+        ]
+      ]
+    },
+    "ramp-xtreme": {
+      "category": "Motorrad-Stunts",
+      "summary": "Fahre über steile Rampen und richte das Motorrad in der Luft für eine Landung auf beiden Rädern aus.",
+      "about": [
+        "Hole vor weiten Sprüngen Schwung und bremse auf schmalen Plattformen.",
+        "Mit Münzen aus Missionen schaltest du Motorräder für schwierigere Strecken frei."
+      ],
+      "steps": [
+        [
+          "Gas geben und bremsen",
+          "Halte W oder ↑ zum Beschleunigen. Bremse mit S oder ↓."
+        ],
+        [
+          "Motorrad neigen",
+          "Neige das Motorrad mit A und D oder den Pfeiltasten links und rechts. Die Leertaste löst in der Luft einen Salto aus."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie lande ich sicherer?",
+          "Beende den Salto früh genug, damit beide Räder zur Neigung der Landerampe passen."
+        ]
+      ]
+    },
+    "merge-infinity": {
+      "category": "Zahlenketten",
+      "summary": "Verbinde gleiche Zahlen zu Ketten und bilde daraus einen Stein mit höherem Wert.",
+      "about": [
+        "Du kannst benachbarte Steine waagrecht, senkrecht und diagonal verbinden.",
+        "Nach jeder Fusion ändert sich das Spielfeld. Lass dir passende Zahlen für den nächsten Zug offen."
+      ],
+      "steps": [
+        [
+          "Eine Kette ziehen",
+          "Ziehe über benachbarte Steine mit der gleichen Zahl."
+        ],
+        [
+          "Das neue Feld prüfen",
+          "Suche rund um den neuen Stein nach der gleichen Zahl."
+        ]
+      ],
+      "faq": [
+        [
+          "Wann ist die Partie vorbei?",
+          "Sobald sich keine gleichen Zahlen mehr verbinden lassen."
+        ]
+      ]
+    },
+    "fish-it-online": {
+      "category": "Angeln und Sammeln",
+      "summary": "Wirf vom Ufer aus, hole die Leine im richtigen Moment ein und sammle Fische aus unterschiedlichen Gewässern.",
+      "about": [
+        "Mit der ersten Angel kannst du rund um die Insel fischen. Investiere deinen Verdienst in bessere Ausrüstung.",
+        "Mit dem Boot kommst du weiter hinaus. Im Fischlexikon siehst du, welche Arten dir noch fehlen."
+      ],
+      "steps": [
+        [
+          "Ans Wasser gehen",
+          "Bewege dich mit WASD oder den Pfeiltasten. Drücke 1 auf dem Ziffernblock, um die erste Angel auszurüsten."
+        ],
+        [
+          "Auswerfen und einholen",
+          "Angle mit der linken Maustaste und folge den Hinweisen, wenn ein Fisch anbeißt."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie finde ich neue Arten?",
+          "Fahre mit dem Boot zu neuen Angelplätzen und vergleiche deinen Fang mit dem Fischlexikon."
+        ]
+      ]
+    },
+    "skip-it": {
+      "category": "Steineflitschen",
+      "summary": "Lass einen Stein über das Wasser springen und weiche Bojen und Baumstämmen aus.",
+      "about": [
+        "Wenn du im richtigen Moment loslässt, startet der Stein mit mehr Schwung.",
+        "Beschleunigungstore geben dem Stein neuen Schwung. Die erreichte Weite bringt Münzen für bessere Würfe und Sprünge."
+      ],
+      "steps": [
+        [
+          "Wurf vorbereiten",
+          "Ziehe nach unten und lass los, sobald die Kraftanzeige im markierten Bereich ist."
+        ],
+        [
+          "Den Stein lenken",
+          "Ziehe nach dem Wurf nach links oder rechts, um Hindernissen auszuweichen und Tore zu treffen."
+        ]
+      ],
+      "faq": [
+        [
+          "Warum geht der Stein unter?",
+          "Er sinkt, wenn er zu langsam wird oder ein Hindernis trifft."
+        ]
+      ]
+    },
+    "pinball-master": {
+      "category": "Edelstein-Flipper",
+      "summary": "Halte die Kugel mit den beiden Flipperfingern im Spiel und schieße sie gegen Edelsteine.",
+      "about": [
+        "Zerstörte Edelsteine bringen Punkte. Mit steigendem Punktestand erscheinen mehr Bumper.",
+        "An den Bumpern prallt die Kugel ab. Achte darauf, aus welcher Richtung sie zurückkommt."
+      ],
+      "steps": [
+        [
+          "Flipperfinger bewegen",
+          "Drücke die linke oder rechte Pfeiltaste oder klicke auf die Flipperfinger."
+        ],
+        [
+          "Edelsteine anvisieren",
+          "Warte, bis die Kugel einen Flipperfinger erreicht, und schlage sie dann in einen freien Bereich."
+        ]
+      ],
+      "faq": [
+        [
+          "Warum wird das Spielfeld voller?",
+          "Alle zehn Punkte kommen Bumper hinzu, an denen die Kugel abprallen kann."
+        ]
+      ]
+    },
+    "orbit-rush": {
+      "category": "Umlaufbahn am Schwarzen Loch",
+      "summary": "Halte einen Planeten in der Umlaufbahn um ein Schwarzes Loch und weiche Asteroiden und anderen Planeten aus.",
+      "about": [
+        "Beim Loslassen zieht die Schwerkraft den Planeten nach innen. Das Triebwerk drückt ihn nach außen.",
+        "In der Nähe des Schwarzen Lochs bekommst du mehr Punkte, hast aber weniger Platz zum Ausweichen."
+      ],
+      "steps": [
+        [
+          "Abstand vergrößern",
+          "Halte die Maustaste gedrückt, um das Triebwerk einzuschalten."
+        ],
+        [
+          "Abstand verringern",
+          "Lass die Maustaste los, damit die Schwerkraft den Planeten nach innen zieht."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie weiche ich einem Asteroiden aus?",
+          "Schau, wo er deine Bahn kreuzt, und ändere vorher den Abstand zum Schwarzen Loch."
+        ]
+      ]
+    },
+    "retro-blaster": {
+      "category": "Weltraum-Shooter",
+      "summary": "Steuere dein Raumschiff durch Gegnerwellen und sammle Munition und Extras.",
+      "about": [
+        "Die Schüsse folgen der Ausrichtung des Schiffs. Drehe rechtzeitig in Richtung des Ziels.",
+        "Abgeschossene Gegner können Münzen und Munition hinterlassen. Münzen schalten weitere Schiffe frei."
+      ],
+      "steps": [
+        [
+          "Drehen und bremsen",
+          "Drehe mit A und D oder den seitlichen Pfeiltasten. Beschleunige mit W oder ↑ und bremse mit Umschalt."
+        ],
+        [
+          "Schießen",
+          "Schieße mit der Leertaste oder per Klick. Drücke B, um eine Bombe einzusetzen."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie fülle ich die Munition auf?",
+          "Sammle die Munition ein, die besiegte Gegner fallen lassen."
+        ]
+      ]
+    },
+    "golf-puzzle": {
+      "category": "Minigolf mit Karten",
+      "summary": "Spiele deine Bewegungskarten und loche den Ball ein, bevor dir die Karten ausgehen.",
+      "about": [
+        "Jede Karte bewegt den Ball anders. Achte bei der Routenwahl auf Gefälle, Sand und Wasser.",
+        "Pro Loch gibt es nur wenige Karten. Überlege, wo der Ball nach jedem Schlag liegen bleibt."
+      ],
+      "steps": [
+        [
+          "Karte wählen und zielen",
+          "Klicke auf eine Karte und richte den Schlag mit der Maus aus."
+        ],
+        [
+          "Den nächsten Schlag planen",
+          "Prüfe vor dem Schlag, ob eine übrige Karte vom Zielpunkt aus bis zum Loch reicht."
+        ]
+      ],
+      "faq": [
+        [
+          "Wozu eine Karte für kurze Schläge behalten?",
+          "Nah am Loch hilft ein kurzer Schlag, damit der Ball nicht vorbeifliegt."
+        ]
+      ]
+    },
+    "bucket-smash": {
+      "category": "Mauerabriss",
+      "summary": "Schneide Ziegelwände mit der Kreissäge auf und fange die Ziegel im Eimer für Münzen auf.",
+      "about": [
+        "Sägen kostet Treibstoff. Schneidest du unten an, können mehrere Ziegel zugleich herunterfallen.",
+        "Mit Münzen kannst du die Säge verlängern oder den Tank vergrößern."
+      ],
+      "steps": [
+        [
+          "Säge führen",
+          "Ziehe die Säge mit der Maus über die Wand und lass die gelösten Ziegel in den Eimer fallen."
+        ],
+        [
+          "Treibstoff sparen",
+          "Sammle Kanister ein und beginne dort, wo viele Ziegel auf einmal fallen können."
+        ]
+      ],
+      "faq": [
+        [
+          "Behalte ich die Münzen, wenn der Tank leer ist?",
+          "Ja. Du kannst die in der Runde verdienten Münzen weiterhin für Verbesserungen ausgeben."
+        ]
+      ]
+    },
+    "rooftop-rush": {
+      "category": "Skateboarden auf Dächern",
+      "summary": "Fahre mit dem Skateboard über Dächer, überspringe Lücken und sammle Münzen.",
+      "about": [
+        "Deine Figur fährt von selbst. Suche vor dem Sprung einen Landeplatz auf dem nächsten Dach.",
+        "Sammle die Buchstaben von FANCY, um kurz über den Dächern zu fliegen."
+      ],
+      "steps": [
+        [
+          "An der Kante springen",
+          "Klicke kurz vor der Lücke oder drücke die Leertaste oder ↑."
+        ],
+        [
+          "Höher springen",
+          "Betätige die Sprungsteuerung zweimal, wenn du mehr Höhe brauchst."
+        ]
+      ],
+      "faq": [
+        [
+          "Wann endet die Runde?",
+          "Wenn du zwischen die Häuser fällst oder gegen ein Hindernis prallst."
+        ]
+      ]
+    },
+    "animal-craft": {
+      "category": "Tiere kombinieren",
+      "summary": "Kombiniere zwei Tiere, ziehe mit dem neuen Wesen los und sammle Material für deine Basis.",
+      "about": [
+        "Dein Wesen kann Eigenschaften und Fähigkeiten beider Tiere erben.",
+        "Erkunde zuerst die Umgebung, damit deine Basis nah an den benötigten Rohstoffen liegt."
+      ],
+      "steps": [
+        [
+          "Ein Wesen erschaffen",
+          "Wähle zwei Tiere aus der Liste und teste das entstandene Wesen."
+        ],
+        [
+          "Eine Basis bauen",
+          "Sammle Materialien für Werkzeuge und Gebäude."
+        ]
+      ],
+      "faq": [
+        [
+          "Warum andere Kombinationen ausprobieren?",
+          "Je nach Paar eignen sich die Wesen besser zum Erkunden, Kämpfen oder Überleben."
+        ]
+      ]
+    },
+    "dino-age": {
+      "category": "Dino-Ei verteidigen",
+      "summary": "Setze Dinosaurier ein und schütze ihr Ei vor Wellen menschlicher Angreifer.",
+      "about": [
+        "Jeder Dino hat eigene Fähigkeiten. Platziere sie dort, wo sie den Weg zum Ei versperren können.",
+        "Verstärke Dinos und Verteidigung mit Münzen, bevor die Angriffswellen stärker werden."
+      ],
+      "steps": [
+        [
+          "Verteidigung aufstellen",
+          "Klicke auf einen Weg zum Ei, um dort einen Dinosaurier zu platzieren."
+        ],
+        [
+          "Eine Gruppe aufhalten",
+          "Wenn sich Gegner sammeln, klicke, um ein Geschoss abzufeuern oder eine Spezialfähigkeit zu nutzen."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie schaffe ich ein Level?",
+          "Halte das Ei bis zum Ende der letzten Angriffswelle heil."
+        ]
+      ]
+    },
+    "slide-down": {
+      "category": "Kugel auf Talfahrt",
+      "summary": "Lenke eine leuchtende Kugel über schräge Dächer, weiche roten Blöcken aus und bleib auf der Strecke.",
+      "about": [
+        "Die Kugel rollt von selbst über schmale Plattformen, durch Tunnel und über Schrägen.",
+        "Auf Beschleunigungsfeldern wird sie schneller. Richte sie schon vorher auf den nächsten Abschnitt aus."
+      ],
+      "steps": [
+        [
+          "Kugel lenken",
+          "Lenke mit A oder ← nach links und mit D oder → nach rechts."
+        ],
+        [
+          "Die nächste Plattform im Blick behalten",
+          "Wähle beim Ausweichen eine Linie, von der aus du die nächste Plattform erreichst."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie wird der Punktestand berechnet?",
+          "Er hängt davon ab, wie viele Streckenabschnitte du vor einem Zusammenstoß oder Sturz schaffst."
+        ]
+      ]
+    },
+    "glide-in": {
+      "category": "Puck-Puzzle",
+      "summary": "Schicke den Puck mit einem einzigen Schuss durch das Labyrinth ins Loch.",
+      "about": [
+        "Ziehst du weiter zurück, gleitet der Puck schneller. Grüne Felder lassen ihn abprallen, rosa Wände beenden den Versuch.",
+        "Schätze ab, wo sich bewegliche Hindernisse befinden, wenn der Puck ankommt."
+      ],
+      "steps": [
+        [
+          "Zielen und loslassen",
+          "Ziehe vom Puck nach hinten, um Richtung und Kraft einzustellen. Lass dann los."
+        ],
+        [
+          "Abpraller nutzen",
+          "Ziele auf ein grünes Feld, wenn du das Loch nicht direkt erreichen kannst."
+        ]
+      ],
+      "faq": [
+        [
+          "Kann ich nach dem Schuss noch lenken?",
+          "Der Puck folgt seiner Bahn. Stelle Winkel und Kraft vor dem Loslassen ein."
+        ]
+      ]
+    },
+    "loop-crash": {
+      "category": "Kreuzende Rundkurse",
+      "summary": "Fahre auf zwei sich kreuzenden Rundkursen und passe dein Tempo an, damit es an der Kreuzung nicht kracht.",
+      "about": [
+        "Das Auto fährt von selbst. Achte vor der Kreuzung auf Fahrzeuge auf dem anderen Rundkurs.",
+        "Jede Runde bringt Punkte und Spielgeld. Mit der Zeit kommen weitere Autos dazu."
+      ],
+      "steps": [
+        [
+          "Eine Lücke nutzen",
+          "Drücke D oder ↑ zum Beschleunigen, wenn genug Platz zum Überqueren ist."
+        ],
+        [
+          "Vorfahrt gewähren",
+          "Bremse mit A oder ↓, um ein anderes Auto vorbeizulassen."
+        ]
+      ],
+      "faq": [
+        [
+          "Wann ändere ich das Tempo?",
+          "Passe es bereits vor der Kreuzung an, solange noch Platz zum Bremsen oder Beschleunigen ist."
+        ]
+      ]
+    },
+    "spin-blast": {
+      "category": "Drehendes Farbrad",
+      "summary": "Schieße farbige Bomben in die passenden Felder eines drehenden Rads und halte deine Serie am Laufen.",
+      "about": [
+        "Das Rad ändert sein Tempo. Beobachte das Zielfeld vor dem Schuss.",
+        "Treffer in Folge bringen Kombos und Münzen. Ein Treffer in der falschen Farbe beendet die Runde."
+      ],
+      "steps": [
+        [
+          "Das passende Feld finden",
+          "Sieh dir die Farbe der Bombe an und verfolge das entsprechende Feld."
+        ],
+        [
+          "Im richtigen Moment schießen",
+          "Klicke, sobald das passende Feld auf Höhe der Schusslinie liegt."
+        ]
+      ],
+      "faq": [
+        [
+          "Was bringen längere Serien?",
+          "Kombos erhöhen den Punktemultiplikator und helfen dir, neue Bomben-Designs freizuschalten."
+        ]
+      ]
+    },
+    "dunk-clash": {
+      "category": "Streetball im Eins gegen eins",
+      "summary": "Tritt im Streetball gegen einen Gegner an und erreiche zuerst sieben Punkte.",
+      "about": [
+        "Springe im richtigen Moment zum Block und spare etwas Ausdauer für den nächsten Zug zum Korb.",
+        "Drei Körbe in Folge lösen den Feuermodus aus und verstärken deinen Angriff."
+      ],
+      "steps": [
+        [
+          "In Position gehen",
+          "Bewege dich mit A und D oder den Pfeiltasten. Springe oder blocke mit der Leertaste."
+        ],
+        [
+          "Wurfkraft einstellen",
+          "Halte die Leertaste oder die linke Maustaste, um die Kraft für den Wurf oder Dunk einzustellen."
+        ]
+      ],
+      "faq": [
+        [
+          "Wann springe ich in der Verteidigung?",
+          "Warte auf den Wurf und springe so, dass du den steigenden Ball abfangen kannst."
+        ]
+      ]
+    },
+    "arcade-tennis": {
+      "category": "Tennis mit Zielringen",
+      "summary": "Schlage den Tennisball durch leuchtende Ringe, um zu punkten und in Turnieren aufzusteigen.",
+      "about": [
+        "Je nach Ring brauchst du einen anderen Schlagwinkel. Lauf zuerst in Position.",
+        "Siege bringen dir stärkere Gegner, neue Plätze und weitere Spielfiguren."
+      ],
+      "steps": [
+        [
+          "Zum Ball laufen",
+          "Bringe dich mit WASD oder den Pfeiltasten in Schlagposition."
+        ],
+        [
+          "Zielen und schlagen",
+          "Halte A oder D oder eine seitliche Pfeiltaste zum Zielen. Lass zum Schlagen los."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie bekomme ich einen Punkt?",
+          "Schlage den Ball durch den leuchtenden Ring."
+        ]
+      ]
+    },
+    "jelly-runner": {
+      "category": "Gelee-Sprunglauf",
+      "summary": "Lass das Gelee über bewegliche Plattformen springen, weiche Hindernissen aus und sammle goldene Tropfen.",
+      "about": [
+        "Das Gelee läuft von selbst. Achte darauf, wohin sich die Plattform bis zur Landung bewegt.",
+        "Ein verpasster Sprung oder ein Treffer beendet die Runde. Sammle Tropfen, wenn du sicher landen kannst."
+      ],
+      "steps": [
+        [
+          "Im richtigen Moment springen",
+          "Klicke kurz bevor das Gelee den Rand erreicht."
+        ],
+        [
+          "Einen Landeplatz wählen",
+          "Beobachte die nächste Plattform und springe, wenn genug Platz zum Landen da ist."
+        ]
+      ],
+      "faq": [
+        [
+          "Muss ich alle Tropfen sammeln?",
+          "Bleib auf dem sicheren Weg, wenn du wegen eines Tropfens die nächste Plattform verfehlen würdest."
+        ]
+      ]
     }
   }
 }

@@ -5291,5 +5291,1351 @@
         ]
       }
     }
+  },
+  {
+    "id": "crafty-car",
+    "title": "Crafty Car",
+    "category": {
+      "en": "Car assembly"
+    },
+    "source": "https://1games.io/crafty-car",
+    "url": "https://crafty-car.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/crafty-car/crafty-car.png",
+        "artwork": "https://1games.io/data/image/game/crafty-car/banner/crafty-car-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/crafty-car/crafty-car.mp4?v1"
+      },
+      "icon": "/assets/1games/crafty-car-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/crafty-car-cover.png",
+      "preview": "/assets/1games/crafty-car-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-11-26",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "creativity-games",
+        "vehicles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Build cars from the chassis up and finish each one to the customer's specifications.",
+        "about": [
+          "Fit the wheels, seats and engine before working on the bodywork and paint.",
+          "New orders bring different vehicles into the garage, and finished jobs earn money for workshop upgrades."
+        ],
+        "steps": [
+          [
+            "Assemble the car",
+            "Drag each part into the corresponding slot on the car."
+          ],
+          [
+            "Finish the order",
+            "Check the customer's requested finish before painting and polishing the car."
+          ]
+        ],
+        "faq": [
+          [
+            "What do finished jobs unlock?",
+            "New orders give you more vehicle types to build. You can also spend your earnings on tools and garage upgrades."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "ramp-xtreme",
+    "title": "Ramp Xtreme",
+    "category": {
+      "en": "Motorcycle stunts"
+    },
+    "source": "https://1games.io/ramp-xtreme",
+    "url": "https://ramp-xtreme.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/ramp-xtreme/ramp-xtreme.png",
+        "artwork": "https://1games.io/data/image/game/ramp-xtreme/banner/ramp-xtreme-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/ramp-xtreme/ramp-xtreme.mp4?v1"
+      },
+      "icon": "/assets/1games/ramp-xtreme-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/ramp-xtreme-cover.png",
+      "preview": "/assets/1games/ramp-xtreme-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-11-10",
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "stunt-games",
+        "bike-racing-games",
+        "flip-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Take a stunt bike over steep ramps, control its tilt in the air and land on both wheels.",
+        "about": [
+          "Build speed before long jumps, then slow down on narrow platforms where there is little room for corrections.",
+          "Coins earned from missions help unlock better bikes for harder courses."
+        ],
+        "steps": [
+          [
+            "Control your speed",
+            "Hold W or the up arrow to accelerate. Press S or the down arrow to brake."
+          ],
+          [
+            "Level the bike",
+            "Use A and D or the left and right arrows to tilt. Press the spacebar in the air to flip."
+          ]
+        ],
+        "faq": [
+          [
+            "How can I land more reliably?",
+            "Pull out of the flip early enough to line up both wheels with the landing ramp."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "merge-infinity",
+    "title": "Merge Infinity",
+    "category": {
+      "en": "Number chains"
+    },
+    "source": "https://1games.io/merge-infinity",
+    "url": "https://merge-infinity.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/merge-infinity/merge-infinity.png",
+        "artwork": "https://1games.io/data/image/game/merge-infinity/banner/merge-infinity-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/merge-infinity/merge-infinity.mp4?v1"
+      },
+      "icon": "/assets/1games/merge-infinity-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/merge-infinity-cover.png",
+      "preview": "/assets/1games/merge-infinity-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-05",
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "logic",
+        "brain-training-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Connect matching numbers in any direction and combine them into a higher-value tile.",
+        "about": [
+          "You can link identical tiles horizontally, vertically and diagonally in the same chain.",
+          "Each merge changes the board. Look for a chain that also leaves useful pairs within reach for your next move."
+        ],
+        "steps": [
+          [
+            "Trace a chain",
+            "Drag through neighboring tiles with the same number."
+          ],
+          [
+            "Check the new layout",
+            "After a merge, look around the new tile for another match."
+          ]
+        ],
+        "faq": [
+          [
+            "When does a run end?",
+            "The run ends when there are no matching tiles left that you can link."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "fish-it-online",
+    "title": "Fish It Online",
+    "category": {
+      "en": "Fishing and collection"
+    },
+    "source": "https://1games.io/fish-it-online",
+    "url": "https://fish-it-online.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/fish-it-online/fish-it-online.png",
+        "artwork": "https://1games.io/data/image/game/fish-it-online/banner/fish-it-online_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/fish-it-online/fish-it-online.mp4?v1"
+      },
+      "icon": "/assets/1games/fish-it-online-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/fish-it-online-cover.png",
+      "preview": "/assets/1games/fish-it-online-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-03-06",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "collecting-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Cast from the shore, time your reeling and build a collection of fish from different waters.",
+        "about": [
+          "Your first rod is enough to start fishing around the island. Gold from catches helps you upgrade your gear.",
+          "Boats open up waters farther from shore. Check the fish index to see which species you still need."
+        ],
+        "steps": [
+          [
+            "Get to the water",
+            "Move with WASD or the arrow keys. Press 1 on the numeric keypad to equip the starter rod."
+          ],
+          [
+            "Cast and reel",
+            "Use the left mouse button for fishing actions. Follow the prompts as the fish struggles."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I find new species?",
+            "Take a boat out to new fishing spots and check your catches against the fish index."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "skip-it",
+    "title": "Skip It!",
+    "category": {
+      "en": "Stone skipping"
+    },
+    "source": "https://1games.io/skip-it",
+    "url": "https://skip-it.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/skip-it/skip-it.png",
+        "artwork": "https://1games.io/data/image/game/skip-it/banner/skip-it_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/skip-it/skip-it.mp4?v1"
+      },
+      "icon": "/assets/1games/skip-it-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/skip-it-cover.png",
+      "preview": "/assets/1games/skip-it-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-03-02",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "throwing-games",
+        "timing-games",
+        "incremental-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Skip a stone across the water, steer around logs and buoys, and see how far it goes.",
+        "about": [
+          "A well-timed release gives the stone more speed at the start.",
+          "Power gates restore speed during the run. Distance earns coins for upgrades such as launch strength and bounce."
+        ],
+        "steps": [
+          [
+            "Set up your throw",
+            "Drag downward, watch the power meter and release in the marked zone."
+          ],
+          [
+            "Steer the stone",
+            "Drag left or right after launch to dodge obstacles and reach power gates."
+          ]
+        ],
+        "faq": [
+          [
+            "Why does the stone sink?",
+            "It sinks when it loses too much speed or hits an obstacle."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "pinball-master",
+    "title": "Pinball Master",
+    "category": {
+      "en": "Gem pinball"
+    },
+    "source": "https://1games.io/pinball-master",
+    "url": "https://pinball-master.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/pinball-master/pinball-master.png",
+        "artwork": "https://1games.io/data/image/game/pinball-master/banner/pinball-master-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/pinball-master/pinball-master.mp4?v1"
+      },
+      "icon": "/assets/1games/pinball-master-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/pinball-master-cover.png",
+      "preview": "/assets/1games/pinball-master-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-02-20",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "reaction-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Use two flippers to keep the ball in play and bounce it into gems.",
+        "about": [
+          "Breaking gems raises your score, and more bumpers appear as you score.",
+          "The bumpers can send the ball back at a new angle. Keep your eye on its return path."
+        ],
+        "steps": [
+          [
+            "Work the flippers",
+            "Use the left and right arrows or click the flippers on screen."
+          ],
+          [
+            "Aim for a gem",
+            "Wait until the ball reaches a flipper, then hit it toward an open part of the table."
+          ]
+        ],
+        "faq": [
+          [
+            "Why does the table get crowded?",
+            "Extra bumpers appear for every ten points, so the ball has more surfaces to bounce off."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "orbit-rush",
+    "title": "Orbit Rush",
+    "category": {
+      "en": "Black hole survival"
+    },
+    "source": "https://1games.io/orbit-rush",
+    "url": "https://orbit-rush.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/orbit-rush/orbit-rush.png",
+        "artwork": "https://1games.io/data/image/game/orbit-rush/banner/orbit-rush-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/orbit-rush/orbit-rush.mp4?v1"
+      },
+      "icon": "/assets/1games/orbit-rush-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/orbit-rush-cover.png",
+      "preview": "/assets/1games/orbit-rush-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-02-16",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "one-button-games",
+        "avoid-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Keep a planet in orbit around a black hole while dodging asteroids and other planets.",
+        "about": [
+          "Gravity draws your planet inward whenever you let go. Firing the thruster pushes it farther out.",
+          "Flying closer to the black hole improves your score, but gives you less room to dodge."
+        ],
+        "steps": [
+          [
+            "Move outward",
+            "Hold the mouse button to fire the thruster and push away from the black hole."
+          ],
+          [
+            "Move inward",
+            "Release the button and let gravity bring the planet closer."
+          ]
+        ],
+        "faq": [
+          [
+            "How can I avoid an asteroid?",
+            "Watch where it crosses your orbit and change your distance from the black hole before you reach that point."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "retro-blaster",
+    "title": "Retro Blaster",
+    "category": {
+      "en": "Space shooter"
+    },
+    "source": "https://1games.io/retro-blaster",
+    "url": "https://retro-blaster.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/retro-blaster/retro-blaster.png",
+        "artwork": "https://1games.io/data/image/game/retro-blaster/banner/retro-blaster_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/retro-blaster/retro-blaster.mp4?v1"
+      },
+      "icon": "/assets/1games/retro-blaster-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/retro-blaster-cover.png",
+      "preview": "/assets/1games/retro-blaster-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-02-18",
+      "genres": [
+        "shooting"
+      ],
+      "tags": [
+        "shoot-em-up-games",
+        "horde-survival-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Steer a drifting spaceship through waves of enemies, picking up ammo and power-ups as you go.",
+        "about": [
+          "Your shots follow the direction your ship faces, so start your turn before the target reaches you.",
+          "Destroyed enemies can drop coins and ammo. Coins help unlock other ships."
+        ],
+        "steps": [
+          [
+            "Steer and brake",
+            "Turn with A and D or the left and right arrows. Boost with W or the up arrow and brake with Shift."
+          ],
+          [
+            "Fire at enemies",
+            "Press the spacebar or click to shoot. Press B to use a bomb."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I replenish ammunition?",
+            "Look for ammo pickups dropped by defeated enemies."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "golf-puzzle",
+    "title": "Golf Puzzle",
+    "category": {
+      "en": "Card-based mini golf"
+    },
+    "source": "https://1games.io/golf-puzzle",
+    "url": "https://golf-puzzle.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/golf-puzzle/golf-puzzle.png",
+        "artwork": "https://1games.io/data/image/game/golf-puzzle/banner/golf-puzzle-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/golf-puzzle/golf-puzzle.mp4?v1"
+      },
+      "icon": "/assets/1games/golf-puzzle-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/golf-puzzle-cover.png",
+      "preview": "/assets/1games/golf-puzzle-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-02-09",
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "logic",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Choose movement cards and guide a golf ball into the hole before your hand runs out.",
+        "about": [
+          "Each card sets how the ball will travel. Slopes, sand and water change which route makes sense.",
+          "You have a limited set of cards per hole, so work out where each shot will leave the ball."
+        ],
+        "steps": [
+          [
+            "Choose and aim",
+            "Click a card and aim the shot with the mouse."
+          ],
+          [
+            "Plan the follow-up",
+            "Before taking the shot, check that a card still in your hand can reach the hole from the landing spot."
+          ]
+        ],
+        "faq": [
+          [
+            "Why save a shorter card?",
+            "A short shot can help you finish when a longer one would send the ball past the hole."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "bucket-smash",
+    "title": "Bucket Smash",
+    "category": {
+      "en": "Brick demolition"
+    },
+    "source": "https://1games.io/bucket-smash",
+    "url": "https://bucket-smash.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bucket-smash/bucket-smash.png",
+        "artwork": "https://1games.io/data/image/game/bucket-smash/banner/bucket-smash-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/bucket-smash/bucket-smash.mp4?v1"
+      },
+      "icon": "/assets/1games/bucket-smash-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/bucket-smash-cover.png",
+      "preview": "/assets/1games/bucket-smash-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-02-06",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "destruction-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Cut through brick walls with a rotary saw and catch the falling bricks to earn coins.",
+        "about": [
+          "Fuel runs down as you work. A cut underneath a section can bring several bricks down in one pass.",
+          "Spend coins on upgrades such as a longer saw or a larger fuel tank."
+        ],
+        "steps": [
+          [
+            "Guide the saw",
+            "Drag the mouse to cut the wall and let the loose bricks fall into the bucket."
+          ],
+          [
+            "Watch your fuel",
+            "Pick up fuel cans and start cuts where the most bricks are likely to fall."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I keep my coins if the fuel runs out?",
+            "Yes. Coins earned during the run can still go toward upgrades."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "rooftop-rush",
+    "title": "Rooftop Rush",
+    "category": {
+      "en": "Rooftop skateboarding"
+    },
+    "source": "https://1games.io/rooftop-rush",
+    "url": "https://rooftop-rush.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/rooftop-rush/rooftop-rush.png",
+        "artwork": "https://1games.io/data/image/game/rooftop-rush/banner/rooftop-rush-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/rooftop-rush/rooftop-rush.mp4?v1"
+      },
+      "icon": "/assets/1games/rooftop-rush-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/rooftop-rush-cover.png",
+      "preview": "/assets/1games/rooftop-rush-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-30",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "jumping-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Skate across rooftops, jump the gaps and collect coins along the way.",
+        "about": [
+          "Your skater moves on their own. Read the next roof before jumping so you know where you can land.",
+          "Collect the letters of FANCY to fly above the rooftops for a short time."
+        ],
+        "steps": [
+          [
+            "Jump at the edge",
+            "Click or press the spacebar or up arrow just before a gap."
+          ],
+          [
+            "Jump higher",
+            "Press the jump control twice when you need extra height."
+          ]
+        ],
+        "faq": [
+          [
+            "What ends a run?",
+            "Falling between buildings or crashing into an obstacle ends the run."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "animal-craft",
+    "title": "Animal Craft",
+    "category": {
+      "en": "Animal fusion"
+    },
+    "source": "https://1games.io/animal-craft",
+    "url": "https://animal-craft.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/animal-craft/animal-craft.png",
+        "artwork": "https://1games.io/data/image/game/animal-craft/banner/animal-craft-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/animal-craft/animal-craft.mp4?v1"
+      },
+      "icon": "/assets/1games/animal-craft-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/animal-craft-cover.png",
+      "preview": "/assets/1games/animal-craft-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-13",
+      "genres": [
+        "adventure"
+      ],
+      "tags": [
+        "sandbox-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Combine two animals into a hybrid, then explore, gather materials and build a base.",
+        "about": [
+          "A hybrid can inherit different abilities and traits from its two animals.",
+          "Explore before settling down so you can choose a base location near the resources you need."
+        ],
+        "steps": [
+          [
+            "Make a hybrid",
+            "Pick two animals from the list and try out the resulting creature."
+          ],
+          [
+            "Build a base",
+            "Gather materials and use them to make tools and structures."
+          ]
+        ],
+        "faq": [
+          [
+            "Why try another animal pair?",
+            "Different pairs can produce hybrids better suited to exploration, combat or survival."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "dino-age",
+    "title": "Dino Age",
+    "category": {
+      "en": "Dinosaur defense"
+    },
+    "source": "https://1games.io/dino-age",
+    "url": "https://dino-age.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/dino-age/dino-age.png",
+        "artwork": "https://1games.io/data/image/game/dino-age/banner/dino-age-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/dino-age/dino-age.mp4?v1"
+      },
+      "icon": "/assets/1games/dino-age-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/dino-age-cover.png",
+      "preview": "/assets/1games/dino-age-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-07",
+      "genres": [
+        "strategy"
+      ],
+      "tags": [
+        "defense-games",
+        "tactical-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Deploy dinosaurs and protect their egg from waves of human attackers.",
+        "about": [
+          "Each dinosaur has its own abilities. Place units where they can interrupt enemies on their way to the egg.",
+          "Coins let you strengthen dinosaurs and defenses as later waves get tougher."
+        ],
+        "steps": [
+          [
+            "Set up a defense",
+            "Click to deploy a dinosaur along an approach to the egg."
+          ],
+          [
+            "Stop a crowd",
+            "Click to launch projectiles or trigger a special ability when attackers bunch together."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I clear a level?",
+            "Keep the egg intact until the last wave is over."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "slide-down",
+    "title": "Slide Down",
+    "category": {
+      "en": "Downhill ball rolling"
+    },
+    "source": "https://1games.io/slide-down",
+    "url": "https://slide-down.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/slide-down/slide-down.png",
+        "artwork": "https://1games.io/data/image/game/slide-down/banner/slide-down-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/slide-down/slide-down.mp4?v1"
+      },
+      "icon": "/assets/1games/slide-down-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/slide-down-cover.png",
+      "preview": "/assets/1games/slide-down-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-17",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "avoid-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Steer a neon ball along sloping rooftops and dodge red blocks without falling off the track.",
+        "about": [
+          "The ball rolls forward on its own across narrow platforms, tilted surfaces and tunnels.",
+          "Speed pads accelerate the ball automatically. Start lining up the next stretch before you reach a pad."
+        ],
+        "steps": [
+          [
+            "Steer the ball",
+            "Press A or the left arrow to move left. Press D or the right arrow to move right."
+          ],
+          [
+            "Look beyond the next block",
+            "Choose a line that leaves room to approach the next platform."
+          ]
+        ],
+        "faq": [
+          [
+            "How is the score counted?",
+            "Your score depends on the number of track sections you complete before crashing or falling."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "glide-in",
+    "title": "Glide In",
+    "category": {
+      "en": "Puck sliding puzzle"
+    },
+    "source": "https://1games.io/glide-in",
+    "url": "https://glide-in.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/glide-in/glide-in.png",
+        "artwork": "https://1games.io/data/image/game/glide-in/banner/glide-in-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/glide-in/glide-in.mp4?v1"
+      },
+      "icon": "/assets/1games/glide-in-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/glide-in-cover.png",
+      "preview": "/assets/1games/glide-in-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-05",
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "sliding-games",
+        "logic"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Aim a puck through a maze and slide it into the hole in one shot.",
+        "about": [
+          "Dragging back farther gives the puck more speed. Green pads bounce it onward, while pink walls end the attempt.",
+          "Check where moving obstacles will be when the puck reaches them."
+        ],
+        "steps": [
+          [
+            "Aim and release",
+            "Drag backward from the puck to set direction and power, then let go."
+          ],
+          [
+            "Use the bounce pads",
+            "Aim for a green pad when a direct shot cannot reach the hole."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I steer after launch?",
+            "The puck follows the path of the shot. Set the angle and power before releasing it."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "loop-crash",
+    "title": "Loop Crash",
+    "category": {
+      "en": "Intersection driving"
+    },
+    "source": "https://1games.io/loop-crash",
+    "url": "https://loop-crash.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/loop-crash/loop-crash.png",
+        "artwork": "https://1games.io/data/image/game/loop-crash/banner/loop-crash-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/loop-crash/loop-crash.mp4?v1"
+      },
+      "icon": "/assets/1games/loop-crash-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/loop-crash-cover.png",
+      "preview": "/assets/1games/loop-crash-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-02",
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "arcade-car",
+        "timing-games",
+        "avoid-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Drive around two intersecting loops and time your speed changes to avoid traffic at the crossing.",
+        "about": [
+          "The car keeps moving on its own. Watch traffic on the other loop before entering the shared crossing.",
+          "Completed laps earn points and currency. More cars join the loops as you keep going."
+        ],
+        "steps": [
+          [
+            "Accelerate through a gap",
+            "Press D or the up arrow when there is room to clear the crossing."
+          ],
+          [
+            "Slow down for traffic",
+            "Press A or the down arrow to let another car pass first."
+          ]
+        ],
+        "faq": [
+          [
+            "When should I change speed?",
+            "Make the adjustment before the crossing, while you still have room to speed up or slow down."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "spin-blast",
+    "title": "Spin Blast",
+    "category": {
+      "en": "Spinning color targets"
+    },
+    "source": "https://1games.io/spin-blast",
+    "url": "https://spin-blast.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/spin-blast/spin-blast1.png",
+        "artwork": "https://1games.io/data/image/game/spin-blast/banner/spin-blast-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/spin-blast/spin-blast.mp4?v1"
+      },
+      "icon": "/assets/1games/spin-blast-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/spin-blast-cover.png",
+      "preview": "/assets/1games/spin-blast-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-31",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "color-matching-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Fire colored bombs into matching sections of a spinning wheel and keep your streak going.",
+        "about": [
+          "The wheel changes speed, so watch how fast the target is moving before firing.",
+          "Matching shots build combos and earn coins. A shot that lands in the wrong color ends the run."
+        ],
+        "steps": [
+          [
+            "Find the matching section",
+            "Check the bomb's color and follow the corresponding part of the wheel."
+          ],
+          [
+            "Fire at the right moment",
+            "Click as the matching section reaches the firing line."
+          ]
+        ],
+        "faq": [
+          [
+            "What do longer streaks earn?",
+            "Combos can multiply your score and help you unlock new bomb styles."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "dunk-clash",
+    "title": "Dunk Clash",
+    "category": {
+      "en": "One-on-one street basketball"
+    },
+    "source": "https://1games.io/dunk-clash",
+    "url": "https://dunk-clash.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/dunk-clash/dunk-clash.png",
+        "artwork": "https://1games.io/data/image/game/dunk-clash/banner/dunk-clash-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/dunk-clash/dunk-clash.mp4?v1"
+      },
+      "icon": "/assets/1games/dunk-clash-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/dunk-clash-cover.png",
+      "preview": "/assets/1games/dunk-clash-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-29",
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "competitive-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Play one-on-one street basketball and get to seven points before your opponent.",
+        "about": [
+          "Time your jumps to contest shots and save some stamina for your next drive to the basket.",
+          "Three baskets in a row activate fire mode and boost your attack."
+        ],
+        "steps": [
+          [
+            "Get into position",
+            "Move with A and D or the arrow keys. Press the spacebar to jump or contest a shot."
+          ],
+          [
+            "Set shot power",
+            "Hold the spacebar or the left mouse button to adjust the power of a shot or dunk."
+          ]
+        ],
+        "faq": [
+          [
+            "When should I jump on defense?",
+            "Wait until the opponent commits to the shot so you are in the air when the ball goes up."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "arcade-tennis",
+    "title": "Arcade Tennis",
+    "category": {
+      "en": "Target tennis"
+    },
+    "source": "https://1games.io/arcade-tennis",
+    "url": "https://arcade-tennis.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/arcade-tennis/arcade-tennis.png",
+        "artwork": "https://1games.io/data/image/game//banner/arcade-tennis-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/arcade-tennis/arcade-tennis.mp4?v1"
+      },
+      "icon": "/assets/1games/arcade-tennis-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/arcade-tennis-cover.png",
+      "preview": "/assets/1games/arcade-tennis-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-26",
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "competitive-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Aim your tennis shots through glowing hoops to score points and advance through tournaments.",
+        "about": [
+          "Each hoop changes the angle you need for the shot. Move into position before lining up your swing.",
+          "Tournament wins unlock tougher matches and give you more courts and players to discover."
+        ],
+        "steps": [
+          [
+            "Move into position",
+            "Use WASD or the arrow keys to reach the ball."
+          ],
+          [
+            "Aim and hit",
+            "Hold A or D or the left or right arrow to aim, then release to hit the ball."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I score?",
+            "Send the ball through the glowing hoop."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "jelly-runner",
+    "title": "Jelly Runner",
+    "category": {
+      "en": "Jelly platform runner"
+    },
+    "source": "https://1games.io/jelly-runner",
+    "url": "https://1games.io/game/jelly-runner/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "sources": {
+        "icon": "https://1games.io/data/image/game/jelly-runner/jelly-runner.png",
+        "artwork": "https://1games.io/data/image/game/jelly-runner/banner/jelly-runner-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/jelly-runner/jelly-runner.mp4?v1"
+      },
+      "icon": "/assets/1games/jelly-runner-icon.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "artwork": "/assets/1games/jelly-runner-cover.png",
+      "preview": "/assets/1games/jelly-runner-preview.mp4"
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-19",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "jumping-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Bounce a jelly across moving platforms, dodge hazards and collect golden drops along the way.",
+        "about": [
+          "The jelly moves forward on its own. Some platforms shift before you land, so watch where they are headed.",
+          "Missing a platform or hitting an obstacle ends the run. Pick up golden drops when a safe landing is in reach."
+        ],
+        "steps": [
+          [
+            "Time your jump",
+            "Click just before the jelly reaches the edge of the platform."
+          ],
+          [
+            "Pick a landing",
+            "Watch the next platform's movement and jump when there is enough room to land."
+          ]
+        ],
+        "faq": [
+          [
+            "Should I chase every golden drop?",
+            "Keep to the safer route if a drop would pull you away from the next platform."
+          ]
+        ]
+      }
+    }
   }
 ]

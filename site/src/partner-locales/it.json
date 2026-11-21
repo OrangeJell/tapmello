@@ -4801,6 +4801,486 @@
           "No. Colori simili possono apparire su personaggi diversi, quindi confronta anche il viso e gli accessori."
         ]
       ]
+    },
+    "crafty-car": {
+      "category": "Montaggio di auto",
+      "summary": "Assembla ogni auto partendo dal telaio e rifiniscila come richiesto dal cliente.",
+      "about": [
+        "Monta ruote, sedili e motore prima di passare a carrozzeria e verniciatura.",
+        "Gli ordini portano nuovi modelli in officina. Usa i guadagni per migliorare l’attrezzatura."
+      ],
+      "steps": [
+        [
+          "Montare i pezzi",
+          "Trascina ogni pezzo nella posizione giusta sull’auto."
+        ],
+        [
+          "Completare l’ordine",
+          "Controlla la finitura richiesta prima di verniciare e lucidare l’auto."
+        ]
+      ],
+      "faq": [
+        [
+          "Cosa ottengo completando gli ordini?",
+          "Potrai costruire altri modelli e investire i guadagni in attrezzi e migliorie per l’officina."
+        ]
+      ]
+    },
+    "ramp-xtreme": {
+      "category": "Acrobazie in moto",
+      "summary": "Lanciati dalle rampe in moto e regola l’inclinazione in aria per atterrare su entrambe le ruote.",
+      "about": [
+        "Prendi velocità prima dei salti lunghi e rallenta sulle piattaforme strette.",
+        "Le monete delle missioni sbloccano moto adatte ai percorsi più difficili."
+      ],
+      "steps": [
+        [
+          "Accelerare e frenare",
+          "Tieni premuto W o ↑ per accelerare. Premi S o ↓ per frenare."
+        ],
+        [
+          "Inclinare la moto",
+          "Usa A e D o le frecce laterali. Premi la barra spaziatrice in aria per fare una capriola."
+        ]
+      ],
+      "faq": [
+        [
+          "Come posso atterrare meglio?",
+          "Finisci la capriola in tempo per allineare le ruote alla pendenza della rampa."
+        ]
+      ]
+    },
+    "merge-infinity": {
+      "category": "Catene di numeri",
+      "summary": "Collega numeri uguali e uniscili in una tessera di valore più alto.",
+      "about": [
+        "Puoi collegare tessere vicine in orizzontale, in verticale e in diagonale.",
+        "A ogni fusione cambia la griglia. Cerca di lasciare delle coppie disponibili per la prossima mossa."
+      ],
+      "steps": [
+        [
+          "Tracciare una catena",
+          "Trascina il puntatore sulle tessere adiacenti con lo stesso numero."
+        ],
+        [
+          "Controllare la griglia",
+          "Dopo la fusione, cerca un numero uguale vicino alla tessera nuova."
+        ]
+      ],
+      "faq": [
+        [
+          "Quando finisce la partita?",
+          "Quando non rimangono tessere con lo stesso numero che puoi collegare."
+        ]
+      ]
+    },
+    "fish-it-online": {
+      "category": "Pesca e collezione",
+      "summary": "Lancia la lenza dalla riva, riavvolgila al momento giusto e colleziona pesci di diverse zone.",
+      "about": [
+        "La prima canna basta per pescare vicino all’isola. Usa i guadagni delle catture per migliorare l’attrezzatura.",
+        "Con la barca puoi arrivare più al largo. Consulta il catalogo per vedere quali specie ti mancano."
+      ],
+      "steps": [
+        [
+          "Raggiungere la riva",
+          "Muoviti con WASD o le frecce. Premi 1 sul tastierino numerico per equipaggiare la prima canna."
+        ],
+        [
+          "Lanciare e recuperare la lenza",
+          "Usa il pulsante sinistro del mouse per pescare. Segui le istruzioni quando un pesce abbocca."
+        ]
+      ],
+      "faq": [
+        [
+          "Come trovo nuove specie?",
+          "Esplora nuovi punti di pesca in barca e confronta le catture con il catalogo."
+        ]
+      ]
+    },
+    "skip-it": {
+      "category": "Rimbalzi sull’acqua",
+      "summary": "Fai rimbalzare un sasso sull’acqua e schiva tronchi e boe per farlo andare più lontano.",
+      "about": [
+        "Rilascia al momento giusto per dare più velocità al sasso.",
+        "I varchi di accelerazione ridanno slancio al sasso. La distanza percorsa ti fa guadagnare monete per migliorare lancio e rimbalzi."
+      ],
+      "steps": [
+        [
+          "Preparare il lancio",
+          "Trascina verso il basso e rilascia quando l’indicatore è nella zona segnata."
+        ],
+        [
+          "Guidare il sasso",
+          "Dopo il lancio, trascina a destra o a sinistra per schivare gli ostacoli e attraversare i varchi."
+        ]
+      ],
+      "faq": [
+        [
+          "Perché il sasso affonda?",
+          "Affonda se perde troppo slancio o urta un ostacolo."
+        ]
+      ]
+    },
+    "pinball-master": {
+      "category": "Flipper con gemme",
+      "summary": "Usa le due palette per tenere la pallina in gioco e mandarla contro le gemme.",
+      "about": [
+        "Le gemme distrutte danno punti. Aumentando il punteggio, compaiono altri respingenti.",
+        "I respingenti cambiano l’angolo della pallina. Guarda da che parte torna."
+      ],
+      "steps": [
+        [
+          "Azionare le palette",
+          "Usa le frecce destra e sinistra o fai clic sulle palette sullo schermo."
+        ],
+        [
+          "Mirare alle gemme",
+          "Aspetta che la pallina raggiunga una paletta e colpiscila verso una zona libera."
+        ]
+      ],
+      "faq": [
+        [
+          "Perché il tavolo si riempie?",
+          "Ogni dieci punti compaiono nuovi respingenti, aumentando i rimbalzi possibili."
+        ]
+      ]
+    },
+    "orbit-rush": {
+      "category": "Orbita attorno a un buco nero",
+      "summary": "Mantieni un pianeta in orbita attorno a un buco nero e schiva asteroidi e altri pianeti.",
+      "about": [
+        "Quando rilasci il pulsante, la gravità attira il pianeta verso il centro. Il propulsore lo spinge verso l’esterno.",
+        "Più ti avvicini al buco nero, più punti guadagni e meno spazio hai per schivare."
+      ],
+      "steps": [
+        [
+          "Allontanarsi",
+          "Tieni premuto il pulsante del mouse per accendere il propulsore."
+        ],
+        [
+          "Avvicinarsi",
+          "Rilascia il pulsante e lascia che la gravità attiri il pianeta."
+        ]
+      ],
+      "faq": [
+        [
+          "Come evito un asteroide?",
+          "Osserva dove incrocerà l’orbita e cambia distanza dal buco nero prima di arrivare lì."
+        ]
+      ]
+    },
+    "retro-blaster": {
+      "category": "Sparatutto spaziale",
+      "summary": "Pilota un’astronave tra ondate di nemici e raccogli munizioni e potenziamenti.",
+      "about": [
+        "I colpi vanno nella direzione in cui punta la nave. Inizia a virare prima che arrivi il bersaglio.",
+        "I nemici abbattuti possono lasciare monete e munizioni. Con le monete sblocchi altre navi."
+      ],
+      "steps": [
+        [
+          "Virare e frenare",
+          "Vira con A e D o con le frecce laterali. Accelera con W o ↑ e frena con Maiusc."
+        ],
+        [
+          "Fare fuoco",
+          "Premi la barra spaziatrice o fai clic per sparare. Premi B per usare una bomba."
+        ]
+      ],
+      "faq": [
+        [
+          "Come recupero munizioni?",
+          "Raccogli le munizioni lasciate dai nemici abbattuti."
+        ]
+      ]
+    },
+    "golf-puzzle": {
+      "category": "Minigolf con carte",
+      "summary": "Usa le carte per mandare la pallina in buca prima di esaurirle.",
+      "about": [
+        "Ogni carta muove la pallina in modo diverso. Scegli il percorso tenendo conto di pendenze, sabbia e acqua.",
+        "Le carte per ogni buca sono limitate. Pensa a dove si fermerà la pallina dopo ogni colpo."
+      ],
+      "steps": [
+        [
+          "Scegliere e mirare",
+          "Fai clic su una carta e orienta il tiro con il mouse."
+        ],
+        [
+          "Preparare il prossimo colpo",
+          "Prima di tirare, controlla che una carta rimasta possa raggiungere la buca dal punto di arrivo."
+        ]
+      ],
+      "faq": [
+        [
+          "Perché tenere una carta per i tiri corti?",
+          "Vicino alla buca, un tiro corto evita che la pallina vada troppo lontano."
+        ]
+      ]
+    },
+    "bucket-smash": {
+      "category": "Demolizione di muri",
+      "summary": "Taglia i muri con la sega circolare e raccogli i mattoni nel secchio per guadagnare monete.",
+      "about": [
+        "La sega consuma carburante. Tagliare in basso può far cadere più mattoni in un colpo solo.",
+        "Usa le monete per allungare la sega o ingrandire il serbatoio."
+      ],
+      "steps": [
+        [
+          "Guidare la sega",
+          "Trascina il mouse per tagliare il muro e far cadere i mattoni nel secchio."
+        ],
+        [
+          "Risparmiare carburante",
+          "Raccogli le taniche e comincia dai punti in cui possono cadere più mattoni."
+        ]
+      ],
+      "faq": [
+        [
+          "Le monete restano se finisce il carburante?",
+          "Sì, puoi usare le monete del tentativo per acquistare potenziamenti."
+        ]
+      ]
+    },
+    "rooftop-rush": {
+      "category": "Skateboard sui tetti",
+      "summary": "Sfreccia in skateboard sui tetti, salta da un edificio all’altro e raccogli monete.",
+      "about": [
+        "Il personaggio avanza da solo. Prima di saltare, cerca un punto sicuro sul tetto successivo.",
+        "Raccogli le lettere di FANCY per volare sopra i tetti per qualche istante."
+      ],
+      "steps": [
+        [
+          "Saltare dal bordo",
+          "Fai clic o premi la barra spaziatrice o ↑ poco prima del vuoto."
+        ],
+        [
+          "Saltare più in alto",
+          "Usa due volte il comando di salto per guadagnare altezza."
+        ]
+      ],
+      "faq": [
+        [
+          "Cosa fa finire la partita?",
+          "Cadere tra i palazzi o urtare un ostacolo."
+        ]
+      ]
+    },
+    "animal-craft": {
+      "category": "Fusione di animali",
+      "summary": "Combina due animali, esplora con la creatura ottenuta e raccogli materiali per costruire una base.",
+      "about": [
+        "La creatura può ereditare caratteristiche e abilità di entrambi gli animali.",
+        "Esplora la zona prima di stabilirti, così potrai scegliere un posto vicino alle risorse che ti servono."
+      ],
+      "steps": [
+        [
+          "Creare un ibrido",
+          "Scegli due animali dall’elenco e prova le abilità della creatura risultante."
+        ],
+        [
+          "Costruire la base",
+          "Raccogli materiali per fabbricare strumenti e costruire strutture."
+        ]
+      ],
+      "faq": [
+        [
+          "Perché provare un’altra coppia?",
+          "Alcune combinazioni sono più adatte all’esplorazione, al combattimento o alla sopravvivenza."
+        ]
+      ]
+    },
+    "dino-age": {
+      "category": "Difesa dell’uovo di dinosauro",
+      "summary": "Schiera i dinosauri e difendi il loro uovo dalle ondate di attaccanti umani.",
+      "about": [
+        "Ogni dinosauro ha abilità diverse. Posizionali dove possono sbarrare la strada verso l’uovo.",
+        "Spendi monete per rinforzare dinosauri e difese prima delle ondate più difficili."
+      ],
+      "steps": [
+        [
+          "Organizzare la difesa",
+          "Fai clic su un percorso verso l’uovo per schierare un dinosauro."
+        ],
+        [
+          "Fermare un gruppo",
+          "Quando gli attaccanti si raggruppano, fai clic per lanciare un proiettile o attivare un’abilità speciale."
+        ]
+      ],
+      "faq": [
+        [
+          "Come supero un livello?",
+          "Proteggi l’uovo fino alla fine dell’ultima ondata."
+        ]
+      ]
+    },
+    "slide-down": {
+      "category": "Pallina in discesa",
+      "summary": "Guida una pallina luminosa sui tetti inclinati, evitando i blocchi rossi e le cadute.",
+      "about": [
+        "La pallina rotola da sola su piattaforme strette, superfici inclinate e gallerie.",
+        "Le pedane di accelerazione aumentano la velocità. Allineati al tratto seguente prima di passarci sopra."
+      ],
+      "steps": [
+        [
+          "Guidare la pallina",
+          "Premi A o ← per andare a sinistra e D o → per andare a destra."
+        ],
+        [
+          "Guardare oltre il blocco",
+          "Scegli una traiettoria che lasci spazio per raggiungere la piattaforma successiva."
+        ]
+      ],
+      "faq": [
+        [
+          "Come si calcola il punteggio?",
+          "Dipende da quanti tratti superi prima di cadere o urtare un ostacolo."
+        ]
+      ]
+    },
+    "glide-in": {
+      "category": "Disco nel labirinto",
+      "summary": "Fai scivolare il disco attraverso il labirinto e mandalo in buca con un solo tiro.",
+      "about": [
+        "Più tiri indietro, più veloce parte il disco. Le pedane verdi lo fanno rimbalzare, mentre le pareti rosa chiudono il tentativo.",
+        "Considera dove saranno gli ostacoli mobili quando arriverà il disco."
+      ],
+      "steps": [
+        [
+          "Mirare e rilasciare",
+          "Trascina all’indietro a partire dal disco per regolare direzione e forza, poi lascia andare."
+        ],
+        [
+          "Sfruttare i rimbalzi",
+          "Mira a una pedana verde se non puoi arrivare direttamente in buca."
+        ]
+      ],
+      "faq": [
+        [
+          "Posso cambiare direzione dopo il tiro?",
+          "Il disco segue la traiettoria del tiro. Regola l’angolo e la forza prima di lasciare andare."
+        ]
+      ]
+    },
+    "loop-crash": {
+      "category": "Circuiti incrociati",
+      "summary": "Guida su due circuiti che si incrociano e regola la velocità per evitare collisioni.",
+      "about": [
+        "L’auto avanza da sola. Prima dell’incrocio, guarda se arrivano auto dall’altro circuito.",
+        "Ogni giro dà punti e valuta di gioco. Più resisti, più auto entrano in pista."
+      ],
+      "steps": [
+        [
+          "Accelerare quando c’è spazio",
+          "Premi D o ↑ quando hai spazio per superare l’incrocio."
+        ],
+        [
+          "Dare la precedenza",
+          "Premi A o ↓ per rallentare e far passare prima un’altra auto."
+        ]
+      ],
+      "faq": [
+        [
+          "Quando conviene cambiare velocità?",
+          "Fallo prima dell’incrocio, quando hai ancora spazio per accelerare o frenare."
+        ]
+      ]
+    },
+    "spin-blast": {
+      "category": "Ruota di bersagli colorati",
+      "summary": "Spara bombe nei settori dello stesso colore su una ruota girevole e porta avanti la serie.",
+      "about": [
+        "La ruota cambia velocità. Osserva il bersaglio prima di sparare.",
+        "I colpi giusti in sequenza danno combo e monete. Il tentativo finisce se colpisci il colore sbagliato."
+      ],
+      "steps": [
+        [
+          "Trovare il colore giusto",
+          "Controlla il colore della bomba e segui il settore corrispondente sulla ruota."
+        ],
+        [
+          "Sparare al momento giusto",
+          "Fai clic quando il settore dello stesso colore arriva sulla linea di tiro."
+        ]
+      ],
+      "faq": [
+        [
+          "Cosa danno le serie più lunghe?",
+          "Le combo moltiplicano il punteggio e aiutano a sbloccare nuovi aspetti per le bombe."
+        ]
+      ]
+    },
+    "dunk-clash": {
+      "category": "Basket di strada uno contro uno",
+      "summary": "Sfida un avversario in un uno contro uno e arriva a sette punti prima di lui.",
+      "about": [
+        "Salta al momento giusto per stoppare il tiro e conserva energia per il prossimo attacco al canestro.",
+        "Tre canestri consecutivi attivano la modalità infuocata e potenziano l’attacco."
+      ],
+      "steps": [
+        [
+          "Prendere posizione",
+          "Muoviti con A e D o le frecce. Premi la barra spaziatrice per saltare o tentare una stoppata."
+        ],
+        [
+          "Dosare la potenza",
+          "Tieni premuta la barra spaziatrice o il pulsante sinistro del mouse per regolare la forza del tiro o della schiacciata."
+        ]
+      ],
+      "faq": [
+        [
+          "Quando salto in difesa?",
+          "Aspetta che l’avversario tiri e salta mentre la palla sale."
+        ]
+      ]
+    },
+    "arcade-tennis": {
+      "category": "Tennis con bersagli",
+      "summary": "Manda la pallina nei cerchi luminosi per fare punti e avanzare nei tornei.",
+      "about": [
+        "La posizione del cerchio determina l’angolo del colpo. Raggiungi la pallina prima di mirare.",
+        "Le vittorie sbloccano avversari più forti, campi e giocatori."
+      ],
+      "steps": [
+        [
+          "Raggiungere la pallina",
+          "Muoviti con WASD o le frecce per metterti in posizione."
+        ],
+        [
+          "Mirare e colpire",
+          "Tieni premuto A o D oppure una freccia laterale per mirare. Rilascia per colpire."
+        ]
+      ],
+      "faq": [
+        [
+          "Come faccio punto?",
+          "Fai passare la pallina attraverso il cerchio luminoso."
+        ]
+      ]
+    },
+    "jelly-runner": {
+      "category": "Salti di gelatina",
+      "summary": "Fai saltare la gelatina sulle piattaforme mobili, evita gli ostacoli e raccogli gocce dorate.",
+      "about": [
+        "La gelatina avanza da sola. Guarda dove si sposterà la piattaforma prima dell’atterraggio.",
+        "Se manchi una piattaforma o urti un ostacolo, la partita finisce. Raccogli le gocce quando puoi atterrare in sicurezza."
+      ],
+      "steps": [
+        [
+          "Saltare al momento giusto",
+          "Fai clic appena prima che la gelatina raggiunga il bordo."
+        ],
+        [
+          "Scegliere dove atterrare",
+          "Osserva la piattaforma successiva e salta quando c’è spazio per atterrare."
+        ]
+      ],
+      "faq": [
+        [
+          "Devo raccogliere tutte le gocce?",
+          "Segui il percorso più sicuro se una goccia ti allontana dalla piattaforma successiva."
+        ]
+      ]
     }
   }
 }

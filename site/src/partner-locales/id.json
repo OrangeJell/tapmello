@@ -4801,6 +4801,486 @@
           "Tidak. Warna serupa bisa muncul pada karakter berbeda, jadi bandingkan juga wajah dan aksesorinya."
         ]
       ]
+    },
+    "crafty-car": {
+      "category": "Perakitan mobil",
+      "summary": "Rakit mobil mulai dari sasis, lalu selesaikan sesuai pesanan pelanggan.",
+      "about": [
+        "Pasang roda, jok, dan mesin sebelum mengerjakan bodi serta pengecatan.",
+        "Pesanan baru membawa model lain ke bengkel. Pakai penghasilanmu untuk meningkatkan fasilitas bengkel."
+      ],
+      "steps": [
+        [
+          "Memasang komponen",
+          "Seret setiap komponen ke tempatnya pada mobil."
+        ],
+        [
+          "Menyelesaikan pesanan",
+          "Periksa hasil akhir yang diminta sebelum mengecat dan memoles mobil."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa hasilnya jika pesanan selesai?",
+          "Pesanan untuk model lain akan terbuka. Penghasilanmu bisa dipakai untuk membeli alat dan memperbaiki bengkel."
+        ]
+      ]
+    },
+    "ramp-xtreme": {
+      "category": "Aksi akrobat motor",
+      "summary": "Lompati jalur curam dengan motor dan atur kemiringannya agar mendarat dengan kedua roda.",
+      "about": [
+        "Tambah kecepatan sebelum lompatan jauh dan pelankan motor di pijakan sempit.",
+        "Koin dari misi bisa membuka motor untuk lintasan yang lebih sulit."
+      ],
+      "steps": [
+        [
+          "Gas dan rem",
+          "Tahan W atau ↑ untuk menambah kecepatan. Tekan S atau ↓ untuk mengerem."
+        ],
+        [
+          "Mengatur kemiringan",
+          "Gunakan A dan D atau panah kiri dan kanan. Tekan Spasi saat di udara untuk berputar."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara mendarat dengan stabil?",
+          "Selesaikan putaran lebih awal agar kedua roda sejajar dengan kemiringan tempat mendarat."
+        ]
+      ]
+    },
+    "merge-infinity": {
+      "category": "Rantai angka",
+      "summary": "Hubungkan angka yang sama untuk membentuk satu ubin dengan nilai lebih tinggi.",
+      "about": [
+        "Ubin yang bersebelahan bisa disambungkan ke samping, atas, bawah, atau diagonal.",
+        "Papan berubah tiap kali ubin digabung. Sisakan pasangan angka untuk langkah berikutnya."
+      ],
+      "steps": [
+        [
+          "Menarik rantai angka",
+          "Seret penunjuk melalui ubin bersebelahan yang angkanya sama."
+        ],
+        [
+          "Memeriksa susunan baru",
+          "Cari ubin bernilai sama di sekitar ubin hasil gabungan."
+        ]
+      ],
+      "faq": [
+        [
+          "Kapan permainan berakhir?",
+          "Saat tidak ada lagi ubin dengan angka sama yang bisa dihubungkan."
+        ]
+      ]
+    },
+    "fish-it-online": {
+      "category": "Memancing dan koleksi ikan",
+      "summary": "Lempar kail dari tepi air, gulung senar pada saat yang tepat, dan kumpulkan ikan dari berbagai perairan.",
+      "about": [
+        "Joran pertama bisa dipakai di sekitar pulau. Hasil tangkapan memberimu uang untuk meningkatkan perlengkapan.",
+        "Naik perahu untuk memancing lebih jauh. Buka katalog ikan untuk melihat jenis yang belum tertangkap."
+      ],
+      "steps": [
+        [
+          "Menuju tepi air",
+          "Bergerak dengan WASD atau tombol panah. Tekan 1 pada papan angka untuk memakai joran awal."
+        ],
+        [
+          "Melempar kail dan menggulung senar",
+          "Gunakan tombol kiri tetikus. Ikuti petunjuk saat ikan menyambar umpan."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara menemukan jenis ikan baru?",
+          "Pergilah ke tempat memancing lain dengan perahu, lalu cocokkan hasil tangkapan dengan katalog."
+        ]
+      ]
+    },
+    "skip-it": {
+      "category": "Lempar batu pantul",
+      "summary": "Pantulkan batu di permukaan air dan hindari kayu serta pelampung agar lemparanmu makin jauh.",
+      "about": [
+        "Lepaskan pada saat yang tepat agar batu meluncur lebih cepat.",
+        "Gerbang pemacu mengembalikan laju batu. Jarak lemparan menghasilkan koin untuk meningkatkan kekuatan lempar dan pantulan."
+      ],
+      "steps": [
+        [
+          "Menyiapkan lemparan",
+          "Seret ke bawah, lalu lepaskan saat pengukur kekuatan masuk ke zona bertanda."
+        ],
+        [
+          "Mengarahkan batu",
+          "Setelah melempar, seret ke kiri atau ke kanan untuk menghindari rintangan dan melewati gerbang pemacu."
+        ]
+      ],
+      "faq": [
+        [
+          "Kenapa batu tenggelam?",
+          "Batu tenggelam jika melambat terlalu banyak atau menabrak rintangan."
+        ]
+      ]
+    },
+    "pinball-master": {
+      "category": "Pinball permata",
+      "summary": "Pakai dua pemukul untuk menjaga bola tetap di arena dan memantulkannya ke permata.",
+      "about": [
+        "Permata yang pecah menambah skor. Semakin tinggi skor, semakin banyak pemantul di arena.",
+        "Pemantul bisa mengubah arah bola. Perhatikan dari mana bola akan kembali."
+      ],
+      "steps": [
+        [
+          "Menggerakkan pemukul",
+          "Pakai panah kiri dan kanan atau klik pemukul di layar."
+        ],
+        [
+          "Membidik permata",
+          "Tunggu sampai bola mendekati pemukul, lalu arahkan ke bagian arena yang kosong."
+        ]
+      ],
+      "faq": [
+        [
+          "Kenapa arena makin penuh?",
+          "Setiap mendapat sepuluh poin, pemantul baru muncul dan menambah kemungkinan arah pantulan."
+        ]
+      ]
+    },
+    "orbit-rush": {
+      "category": "Orbit lubang hitam",
+      "summary": "Jaga planet tetap mengorbit lubang hitam sambil menghindari asteroid dan planet lain.",
+      "about": [
+        "Saat tombol dilepas, gravitasi menarik planet ke dalam. Pendorong menggerakkannya ke luar.",
+        "Terbang lebih dekat menaikkan skor, tetapi ruang untuk menghindar jadi lebih sempit."
+      ],
+      "steps": [
+        [
+          "Menjauh dari lubang hitam",
+          "Tahan tombol tetikus untuk menyalakan pendorong."
+        ],
+        [
+          "Mendekati lubang hitam",
+          "Lepaskan tombol agar gravitasi menarik planet mendekat."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara menghindari asteroid?",
+          "Perhatikan titik potong asteroid dengan orbitmu. Ubah jarak sebelum sampai ke sana."
+        ]
+      ]
+    },
+    "retro-blaster": {
+      "category": "Tembak-menembak antariksa",
+      "summary": "Kemudikan wahana melewati gelombang musuh sambil mengambil amunisi dan penguat.",
+      "about": [
+        "Tembakan mengikuti arah wahana. Mulailah berbelok sebelum sasaran mendekat.",
+        "Musuh yang hancur bisa menjatuhkan koin dan amunisi. Koin membuka wahana lain."
+      ],
+      "steps": [
+        [
+          "Berbelok dan mengerem",
+          "Belok dengan A dan D atau panah kiri dan kanan. Percepat dengan W atau ↑ dan perlambat dengan Shift."
+        ],
+        [
+          "Menembak musuh",
+          "Tekan Spasi atau klik untuk menembak. Tekan B untuk memakai bom."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara mengisi amunisi?",
+          "Ambil amunisi yang dijatuhkan musuh yang sudah dikalahkan."
+        ]
+      ]
+    },
+    "golf-puzzle": {
+      "category": "Golf mini dengan kartu",
+      "summary": "Pakai kartu untuk memasukkan bola ke lubang sebelum kartumu habis.",
+      "about": [
+        "Setiap kartu menggerakkan bola dengan cara berbeda. Perhatikan lereng, pasir, dan air saat memilih jalur.",
+        "Jumlah kartu per lubang terbatas. Pikirkan di mana bola akan berhenti setelah tiap pukulan."
+      ],
+      "steps": [
+        [
+          "Memilih kartu dan membidik",
+          "Klik kartu, lalu arahkan pukulan dengan tetikus."
+        ],
+        [
+          "Menyiapkan pukulan berikutnya",
+          "Sebelum memukul, pastikan kartu yang tersisa bisa membawa bola ke lubang dari tempat bola berhenti."
+        ]
+      ],
+      "faq": [
+        [
+          "Kenapa perlu menyimpan kartu jarak pendek?",
+          "Di dekat lubang, pukulan pendek membantu agar bola tidak melaju terlalu jauh."
+        ]
+      ]
+    },
+    "bucket-smash": {
+      "category": "Pembongkaran tembok",
+      "summary": "Potong tembok dengan gergaji putar dan tampung bata yang jatuh untuk mendapat koin.",
+      "about": [
+        "Gergaji menghabiskan bahan bakar. Memotong dari bawah bisa menjatuhkan beberapa bata sekaligus.",
+        "Gunakan koin untuk memperpanjang gergaji atau memperbesar tangki bahan bakar."
+      ],
+      "steps": [
+        [
+          "Mengarahkan gergaji",
+          "Seret tetikus untuk memotong dan biarkan bata yang lepas jatuh ke ember."
+        ],
+        [
+          "Menjaga persediaan bahan bakar",
+          "Ambil jeriken dan mulai memotong dari tempat yang bisa menjatuhkan banyak bata."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah koin tetap tersimpan jika bahan bakar habis?",
+          "Ya. Koin yang didapat dalam permainan masih bisa dipakai untuk peningkatan."
+        ]
+      ]
+    },
+    "rooftop-rush": {
+      "category": "Papan luncur di atap",
+      "summary": "Meluncurlah dari atap ke atap, lompati celah, dan kumpulkan koin.",
+      "about": [
+        "Tokohmu bergerak sendiri. Sebelum melompat, cari tempat mendarat di atap berikutnya.",
+        "Kumpulkan huruf FANCY untuk terbang sebentar di atas atap."
+      ],
+      "steps": [
+        [
+          "Melompat dari tepi",
+          "Klik atau tekan Spasi atau ↑ tepat sebelum celah."
+        ],
+        [
+          "Melompat lebih tinggi",
+          "Gunakan kendali lompat dua kali untuk mendapat tambahan tinggi."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang mengakhiri permainan?",
+          "Jatuh di antara bangunan atau menabrak rintangan."
+        ]
+      ]
+    },
+    "animal-craft": {
+      "category": "Penggabungan hewan",
+      "summary": "Gabungkan dua hewan, lalu jelajahi dunia dan kumpulkan bahan untuk membangun markas.",
+      "about": [
+        "Makhluk baru bisa mewarisi ciri dan kemampuan dari kedua hewan asalnya.",
+        "Jelajahi sekitar lebih dulu agar bisa memilih tempat dekat sumber daya yang kamu perlukan."
+      ],
+      "steps": [
+        [
+          "Membuat makhluk gabungan",
+          "Pilih dua hewan dari daftar dan coba kemampuan makhluk hasil gabungan."
+        ],
+        [
+          "Membangun markas",
+          "Kumpulkan bahan untuk membuat alat dan mendirikan bangunan."
+        ]
+      ],
+      "faq": [
+        [
+          "Kenapa mencoba pasangan lain?",
+          "Pasangan berbeda bisa menghasilkan makhluk yang lebih cocok untuk menjelajah, bertarung, atau bertahan hidup."
+        ]
+      ]
+    },
+    "dino-age": {
+      "category": "Pertahanan telur dinosaurus",
+      "summary": "Tempatkan dinosaurus untuk menjaga telur dari gelombang serangan manusia.",
+      "about": [
+        "Setiap dinosaurus punya kemampuan sendiri. Tempatkan mereka di jalur yang menuju telur.",
+        "Gunakan koin untuk memperkuat dinosaurus dan pertahanan sebelum serangan makin berat."
+      ],
+      "steps": [
+        [
+          "Menyiapkan pertahanan",
+          "Klik jalur menuju telur untuk menempatkan dinosaurus."
+        ],
+        [
+          "Menahan serbuan",
+          "Saat musuh berkumpul, klik untuk melontarkan proyektil atau memakai kemampuan khusus."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara menuntaskan level?",
+          "Jaga telur tetap utuh sampai gelombang terakhir selesai."
+        ]
+      ]
+    },
+    "slide-down": {
+      "category": "Bola di turunan",
+      "summary": "Kendalikan bola bercahaya di atap miring, hindari balok merah, dan jangan sampai jatuh.",
+      "about": [
+        "Bola menggelinding sendiri melewati pijakan sempit, permukaan miring, dan terowongan.",
+        "Bantalan pemacu membuat bola melaju otomatis. Arahkan bola ke bagian lintasan berikutnya sebelum melewati bantalan."
+      ],
+      "steps": [
+        [
+          "Mengarahkan bola",
+          "Tekan A atau ← untuk ke kiri dan D atau → untuk ke kanan."
+        ],
+        [
+          "Melihat lintasan berikutnya",
+          "Pilih arah yang menyisakan ruang untuk mencapai pijakan berikutnya setelah menghindari balok."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana skor dihitung?",
+          "Skor bergantung pada jumlah bagian lintasan yang kamu lewati sebelum menabrak atau jatuh."
+        ]
+      ]
+    },
+    "glide-in": {
+      "category": "Teka-teki cakram luncur",
+      "summary": "Luncurkan cakram melalui labirin dan masukkan ke lubang dalam sekali tembak.",
+      "about": [
+        "Semakin jauh ditarik, semakin cepat cakram meluncur. Bantalan hijau memantulkannya, sedangkan dinding merah muda mengakhiri percobaan.",
+        "Perkirakan posisi rintangan bergerak saat cakram melintas."
+      ],
+      "steps": [
+        [
+          "Membidik dan melepas",
+          "Seret ke belakang dari cakram untuk mengatur arah dan kekuatan, lalu lepaskan."
+        ],
+        [
+          "Memakai pantulan",
+          "Bidik bantalan hijau jika cakram tidak bisa langsung mencapai lubang."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah cakram diarahkan setelah dilepas?",
+          "Cakram mengikuti jalur tembakan. Atur sudut dan kekuatan sebelum melepasnya."
+        ]
+      ]
+    },
+    "loop-crash": {
+      "category": "Dua lintasan bersilangan",
+      "summary": "Putari dua lintasan yang bersilangan dan atur laju mobil agar tidak bertabrakan.",
+      "about": [
+        "Mobil maju sendiri. Lihat kendaraan di lintasan lain sebelum masuk persilangan.",
+        "Setiap putaran memberi poin dan uang permainan. Makin lama bertahan, makin banyak mobil yang masuk."
+      ],
+      "steps": [
+        [
+          "Mempercepat saat ada celah",
+          "Tekan D atau ↑ saat persilangan cukup kosong untuk dilewati."
+        ],
+        [
+          "Memberi jalan",
+          "Tekan A atau ↓ agar mobil lain lewat lebih dulu."
+        ]
+      ],
+      "faq": [
+        [
+          "Kapan sebaiknya mengubah kecepatan?",
+          "Putuskan sebelum memasuki persilangan, selagi ada waktu untuk mempercepat atau mengerem."
+        ]
+      ]
+    },
+    "spin-blast": {
+      "category": "Roda warna berputar",
+      "summary": "Tembakkan bom ke bagian roda yang warnanya sama untuk mempertahankan rentetan tembakan tepat.",
+      "about": [
+        "Kecepatan roda berubah. Lihat gerakan bagian yang kamu incar sebelum menembak.",
+        "Tembakan tepat berturut-turut menghasilkan kombo dan koin. Salah warna mengakhiri permainan."
+      ],
+      "steps": [
+        [
+          "Mencari warna yang sama",
+          "Cek warna bom, lalu ikuti bagian roda dengan warna yang sama."
+        ],
+        [
+          "Menembak pada saat yang tepat",
+          "Klik saat bagian dengan warna yang sama melewati garis tembak."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa hasilnya jika kombo makin panjang?",
+          "Kombo bisa menggandakan skor dan membantu membuka tampilan bom baru."
+        ]
+      ]
+    },
+    "dunk-clash": {
+      "category": "Bola basket jalanan satu lawan satu",
+      "summary": "Mainkan laga satu lawan satu dan capai tujuh poin sebelum lawan.",
+      "about": [
+        "Lompat saat lawan menembak untuk memblokir bola. Sisakan tenaga untuk serangan berikutnya.",
+        "Tiga tembakan masuk berturut-turut memicu mode api dan memperkuat serangan."
+      ],
+      "steps": [
+        [
+          "Mengambil posisi",
+          "Bergerak dengan A dan D atau tombol panah. Tekan Spasi untuk melompat atau memblokir tembakan."
+        ],
+        [
+          "Mengatur kekuatan tembakan",
+          "Tahan Spasi atau tombol kiri tetikus untuk mengatur tenaga tembakan atau dunk."
+        ]
+      ],
+      "faq": [
+        [
+          "Kapan harus melompat saat bertahan?",
+          "Tunggu lawan benar-benar menembak, lalu lompat saat bola naik."
+        ]
+      ]
+    },
+    "arcade-tennis": {
+      "category": "Tenis sasaran cincin",
+      "summary": "Pukul bola melewati cincin bercahaya untuk mendapat poin dan maju di turnamen.",
+      "about": [
+        "Letak cincin menentukan sudut pukulan. Bergeraklah ke posisi yang pas sebelum membidik.",
+        "Kemenangan membuka lawan yang lebih kuat, lapangan baru, dan pemain lain."
+      ],
+      "steps": [
+        [
+          "Mendekati bola",
+          "Gunakan WASD atau tombol panah untuk menempatkan diri dalam jangkauan bola."
+        ],
+        [
+          "Membidik dan memukul",
+          "Tahan A atau D atau salah satu panah samping untuk membidik. Lepaskan untuk memukul."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara mencetak poin?",
+          "Pukul bola hingga melewati cincin bercahaya."
+        ]
+      ]
+    },
+    "jelly-runner": {
+      "category": "Lompatan jeli",
+      "summary": "Lompatkan jeli di atas pijakan yang bergerak. Hindari rintangan dan ambil tetes emas di sepanjang jalan.",
+      "about": [
+        "Jeli maju sendiri. Perhatikan ke mana pijakan bergerak sebelum kamu mendarat.",
+        "Permainan selesai jika jeli meleset atau menabrak. Ambil tetes emas jika ada tempat mendarat yang aman."
+      ],
+      "steps": [
+        [
+          "Melompat tepat waktu",
+          "Klik tepat sebelum jeli mencapai tepi pijakan."
+        ],
+        [
+          "Memilih tempat mendarat",
+          "Amati pijakan berikutnya dan lompat saat ada cukup ruang untuk mendarat."
+        ]
+      ],
+      "faq": [
+        [
+          "Perlukah mengejar semua tetes emas?",
+          "Ambil jalur yang aman jika tetes emas akan menjauhkanmu dari pijakan berikutnya."
+        ]
+      ]
     }
   }
 }
