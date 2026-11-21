@@ -701,7 +701,7 @@
           "Brechen Sie die virtuellen Requisiten auf und verknüpfen Sie Treffer in der Nähe zu Combos. Wenn Sie innerhalb des Zeitlimits mehr Objekte beseitigen, haben Sie mehr Chancen, Ihre Punktzahl zu erhöhen."
         ],
         [
-          "Welcher Schlüssel zerbricht Gegenstände?",
+          "Mit welcher Taste zerbrichst du Gegenstände?",
           "Drücken Sie die Leertaste, wenn Sie sich in Reichweite befinden. Benutze WASD oder die Pfeiltasten, um dich im Raum zu bewegen."
         ],
         [
@@ -818,7 +818,7 @@
         ],
         [
           "Üben Sie bewusste Eingaben",
-          "Vermeiden Sie zufällige Schlüsselwechsel. Versuchen Sie, pro Ankunft einen absichtlichen Schlag auszuführen, während Sie die frühen Wellen lernen."
+          "Wechsle die Tasten gezielt. Versuch in den ersten Wellen, pro Gegner einmal im richtigen Moment zuzuschlagen."
         ]
       ],
       "faq": [
@@ -847,7 +847,7 @@
       ],
       "steps": [
         [
-          "Steuern oder laufen Sie mit den gleichen Tasten",
+          "Mit denselben Tasten fahren und laufen",
           "Verwenden Sie WASD oder die Pfeiltasten. Die Steuerung steuert, wenn Sie sich in einem Fahrzeug befinden, und bewegt Ihren Charakter, wenn Sie zu Fuß unterwegs sind."
         ],
         [
@@ -1033,7 +1033,7 @@
       ],
       "faq": [
         [
-          "Benötige ich separate Schlüssel für die beiden Beine?",
+          "Gibt es für jedes Bein eine eigene Taste?",
           "Nein. Leertaste oder Linksklick wechseln, welches Bein aktiv ist."
         ],
         [
@@ -1327,7 +1327,7 @@
       ],
       "faq": [
         [
-          "Welche Schlüssel zerstören Gegenstände?",
+          "Mit welchen Tasten kannst du Gegenstände zerbrechen?",
           "Drücken Sie die Leertaste oder L, wenn sich der Charakter in Reichweite befindet. Bewegen Sie sich mit WASD oder den Pfeiltasten."
         ],
         [
@@ -1919,7 +1919,7 @@
           "Scrollen Sie mit dem Mausrad, um die aktive Waffe im Spiel zu wechseln."
         ],
         [
-          "Welcher Schlüssel wird neu geladen?",
+          "Mit welcher Taste lädst du nach?",
           "Drücken Sie R. Eine Pause zwischen den Wellen gibt Ihnen Zeit, den Nachladevorgang abzuschließen."
         ],
         [
@@ -2332,7 +2332,7 @@
       ],
       "faq": [
         [
-          "Welchen Schlüssel verwendet der zweite Spieler?",
+          "Welche Taste benutzt der zweite Spieler?",
           "Benutze den Aufwärtspfeil im Zwei-Spieler-Modus."
         ]
       ]

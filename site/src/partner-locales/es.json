@@ -169,7 +169,7 @@
       "summary": "Calcula una patada, guía la pelota por el aire y mejora su rebote en Orbit Kick, un juego a distancia que te lleva más allá de lugares emblemáticos del mundo.",
       "aboutTitle": "¿Qué lleva la pelota más lejos?",
       "about": [
-        "Comienza cada carrera con una patada cronometrada. La pelota rebota a través de colinas y rampas, y un rebote bien colocado puede llevarla más lejos. Puedes hacer pequeñas correcciones en el aire cuando el suelo aparece a la vista.",
+        "Cada intento comienza con una patada. El balón rebota en colinas y rampas, y un buen bote puede llevarlo más lejos. Haz pequeños ajustes en el aire cuando veas dónde va a caer.",
         "La distancia gana monedas que puedes gastar en patadas más fuertes, mejores rebotes o ganancias fuera de línea. Alcanza nuevas distancias para ver más puntos de referencia y desbloquear bolas y equipos adicionales.",
         "El primer rebote le ayuda a juzgar si su lanzamiento funcionó. Si la pelota llega a una sección cuesta abajo o a una rampa mientras todavía tiene velocidad, puede continuar hacia el siguiente punto de referencia. Observa lo que sucede en patadas similares antes de gastar monedas, para que puedas saber si necesitas más potencia de lanzamiento o más distancia entre rebotes."
       ],
@@ -309,7 +309,7 @@
           "Utilice el botón izquierdo del ratón para la acción actual, como pasar cuando su equipo tiene el balón o intentar robar en defensa."
         ],
         [
-          "cronometra el final",
+          "Elige el momento del mate",
           "Usa el mouse o la barra espaciadora para saltar o sumergirte dentro del alcance. En rondas con un aro en movimiento, alinee hacia donde se dirige."
         ],
         [
@@ -370,7 +370,7 @@
         ],
         [
           "¿Cuándo debo saltarme un regalo?",
-          "Sáltelo si alcanzarlo le haría cruzar frente a un obstáculo o aterrizar en el borde de una pista estrecha. Puedes recolectar más regalos en una ejecución posterior."
+          "Déjalo pasar si para recogerlo tienes que cruzarte con un obstáculo o aterrizar en el borde de una pista estrecha. Ya habrá más regalos si llegas más lejos."
         ]
       ]
     },
@@ -487,7 +487,7 @@
       ],
       "faq": [
         [
-          "¿Necesito terminar todos los objetivos opcionales en la primera ejecución?",
+          "¿Tengo que completar todos los objetivos opcionales al primer intento?",
           "Puedes volver a un nivel para probar sus objetivos adicionales después de aprender la ruta."
         ],
         [
@@ -589,7 +589,7 @@
       "summary": "Guía a un animal tambaleante a través de una carrera de obstáculos en Wobbly Pets. Calcula cada paso con la barra espaciadora o con un clic y comprueba hasta dónde puedes llegar.",
       "aboutTitle": "Encuentra un ritmo constante a través de la carrera de obstáculos.",
       "about": [
-        "Guías a una mascota pequeña a lo largo de un recorrido cronometrando sus pasos. Su movimiento responde a cada presión, por lo que un ritmo que funciona en terreno abierto puede necesitar cambiar cuando el camino se vuelve estrecho.",
+        "Controla a una mascota paso a paso. Cada pulsación mueve una pata. El ritmo que funciona en terreno llano puede fallar cuando el camino se estrecha.",
         "Observe el movimiento actual de la mascota antes de darle otra entrada. Las pulsaciones rápidas y repetidas pueden hacer que sus pasos sean menos estables, especialmente cuando ya se tambalea cerca de un obstáculo.",
         "Algunas secciones requieren una breve pausa mientras se mueve un obstáculo. Utilice ese tiempo para observar la brecha que tenemos por delante y decidir cuándo dar el siguiente paso. Una carrera mide hasta dónde puedes llevar ese control a lo largo del recorrido."
       ],
@@ -670,10 +670,10 @@
     },
     "school-fury": {
       "category": "Caja de arena de destrucción",
-      "summary": "Rompe muebles y equipos en salas virtuales cronometradas en School Fury. Encadena golpes para obtener puntos y gasta monedas para desbloquear herramientas y áreas.",
-      "aboutTitle": "Golpes de objetos en cadena en salas cronometradas",
+      "summary": "Rompe muebles y objetos antes de que se agote el tiempo. Encadena golpes para sumar puntos y usa las monedas para desbloquear herramientas y salas.",
+      "aboutTitle": "Encadena golpes antes de que se agote el tiempo",
       "about": [
-        "School Fury tiene lugar en un entorno de dibujos animados con accesorios destructibles. Muévete por aulas virtuales, pasillos y laboratorios y puntúa rompiendo muebles y equipos durante una carrera cronometrada.",
+        "Recorre aulas, pasillos y laboratorios de dibujos animados. Rompe los objetos que encuentres por el camino para sumar puntos.",
         "La distribución de la habitación da forma a tu ruta. Un grupo de accesorios te permite continuar un combo sin perder mucho tiempo moviéndote. Elimina los objetos adyacentes en una secuencia antes de cruzar un corredor para llegar al siguiente grupo.",
         "Las monedas de las carreras ayudan a desbloquear equipos y el progreso puede abrir más salas. Pruebe una nueva herramienta en una habitación que ya conoce para juzgar qué tan rápido le permite pasar de un objeto al siguiente."
       ],
@@ -730,7 +730,7 @@
         ],
         [
           "Mira el punto de lanzamiento",
-          "En salto de longitud, cronometra tu despegue en la tabla. En jabalina, observe el ángulo de lanzamiento y la línea de falta durante la aproximación."
+          "En salto de longitud, despega justo en la tabla. En jabalina, fíjate en el ángulo del lanzamiento y en la línea de falta mientras tomas carrerilla."
         ],
         [
           "Adaptarse al siguiente deporte",
@@ -999,7 +999,7 @@
           "Utilice el aumento de velocidad. Las teclas de flecha y el arrastre del mouse controlan la dirección."
         ],
         [
-          "¿Existe algún modo más allá de los partidos cronometrados?",
+          "¿Hay algún modo sin límite de tiempo?",
           "Sí. El juego también ofrece modo sin fin y misiones secundarias con sus propios objetivos."
         ]
       ]
@@ -1028,7 +1028,7 @@
         ],
         [
           "Estudia la zancada antes de una caída",
-          "Revise qué pierna estaba activa cuando el cuerpo se inclinó hacia adelante. Intente cambiar la sincronización de ese interruptor en la siguiente ejecución."
+          "Fíjate en qué pierna estaba apoyada cuando el cuerpo se inclinó. En el siguiente intento, prueba a cambiar de pierna un poco antes o después."
         ]
       ],
       "faq": [
@@ -1300,7 +1300,7 @@
     },
     "office-fury": {
       "category": "Simulación de destrucción",
-      "summary": "Rompe accesorios de oficina para combos en Office Fury. Planifica tu ruta a través de salas cronometradas y gasta las monedas obtenidas en herramientas y mejoras.",
+      "summary": "Rompe objetos de oficina y encadena golpes para subir el marcador. Planea tu recorrido antes de que se acabe el tiempo y gasta las monedas en herramientas y mejoras.",
       "aboutTitle": "Planifica una ruta combinada por cada oficina",
       "about": [
         "Office Fury te envía a través de un lugar de trabajo de dibujos animados con objetos rompibles y un temporizador. Cada objeto destruido aumenta tu puntuación. Los grupos de escritorios y equipos te dan la oportunidad de crear un combo sin cruzar un piso vacío.",
@@ -1472,7 +1472,7 @@
       "aboutTitle": "Cambiar una parte de la prueba virtual a la vez",
       "about": [
         "Lab Havoc es un sandbox de dibujos animados construido alrededor de una cámara de pruebas. Usa el mouse para colocar dispositivos virtuales, luego comienza a correr y observa cómo el juego mueve el muñeco de trapo por la habitación.",
-        "Una prueba produce una puntuación en el juego y gana recompensas. Después de la ejecución, observe qué dispositivos se activaron realmente. Si muchos quedaron inactivos, mueva un elemento y compare el siguiente resultado.",
+        "Cada prueba da puntos y recompensas. Mira qué dispositivos se activaron. Si varios se quedaron quietos, cambia uno de sitio y vuelve a probar.",
         "La moneda ganada desbloquea más herramientas. Comience con un diseño que comprenda para que pueda ver qué cambia un nuevo elemento. Repite la misma prueba varias veces si la física envía al muñeco de trapo por un camino diferente en cada carrera."
       ],
       "steps": [
@@ -1573,7 +1573,7 @@
           "Apunta hacia el centro cuando tengas un enfoque abierto. Prefiere el próximo objetivo si el actual requiere un giro repentino."
         ],
         [
-          "Comparar una actualización en una ejecución similar",
+          "Prueba la mejora en un recorrido parecido",
           "Gasta las monedas ganadas en poder, control o ganancias. Prueba la misma apertura nuevamente para que puedas ver el efecto de esa elección."
         ]
       ],
@@ -2488,7 +2488,7 @@
       ]
     },
     "ragdoll-gun-shooter-cannon-spinner-playground": {
-      "category": "Arcade de cronometraje",
+      "category": "Arcade de reflejos",
       "summary": "Dispara un cañón de dibujos animados giratorio a muñecos de palitos y completa cada etapa.",
       "aboutTitle": "Acerca de Ragdoll Gun Shooter! Cannon Spinner Playground",
       "about": [
@@ -3968,7 +3968,7 @@
       "aboutTitle": "Acerca de Hole Feast",
       "about": [
         "Mueve un agujero cada vez mayor por el mapa y traga objetos más pequeños que su abertura.",
-        "Empieza con cosas pequeñas para ganar tamaño. La batalla cronometrada y el objetivo de limpieza del mapa recompensan diferentes rutas: los rivales importan en uno, los objetos restantes en el otro."
+        "Trágate primero los objetos pequeños. En la partida con tiempo importa dónde están los rivales. Para vaciar el mapa, busca dónde quedan objetos."
       ],
       "steps": [
         [
@@ -4418,7 +4418,7 @@
       "aboutTitle": "Entrega regalos en pistas de acrobacias nevadas",
       "about": [
         "Santa Stunt Racer Christmas Delivery coloca regalos a lo largo de rampas y pistas de obstáculos. Recógelos mientras conduces el auto de Santa hacia la meta, donde te esperan los niños.",
-        "Una ejecución rápida y limpia mejora su puntuación de entrega. Calcula tu aproximación a los saltos para que puedas aterrizar listo para la siguiente rampa. Los vehículos nuevos tienen diferente manejo y velocidad."
+        "Una entrega rápida y sin choques vale más puntos. Ajusta cada salto para caer bien orientado hacia la siguiente rampa. Ten en cuenta que cada vehículo se maneja de forma distinta."
       ],
       "steps": [
         [
@@ -4587,11 +4587,11 @@
       ]
     },
     "drift-rally": {
-      "category": "Rally cronometrado a la deriva",
+      "category": "Rally de derrapes contrarreloj",
       "summary": "Pasa por los puntos de control antes de que se agote el tiempo. Entra en cada curva a una velocidad acorde con el agarre del asfalto, la grava o el barro.",
       "about": [
         "El modo Supervivencia te sigue enviando a nuevos puntos de control. Cada uno añade tiempo, por lo que una carrera constante importa más que un solo deslizamiento largo.",
-        "Las etapas de desafío te brindan objetivos como vueltas cronometradas o una puntuación de derrape. Usa la superficie para elegir una velocidad de entrada para cada giro."
+        "En los desafíos tendrás que completar vueltas a contrarreloj o alcanzar una puntuación de derrape. Adapta la velocidad de entrada de cada curva al terreno."
       ],
       "steps": [
         [

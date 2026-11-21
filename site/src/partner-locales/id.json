@@ -127,7 +127,7 @@
       "summary": "Kemudikan kereta luncur melewati bahaya musim dingin yang terus berubah di Slope Rider. Lompati batang kayu, kumpulkan koin, dan buka kereta luncur untuk turun berikutnya.",
       "aboutTitle": "Bagaimana perubahan lintasan menurun",
       "about": [
-        "Setiap lari mengirim kereta luncur Anda menuruni jalur musim dingin dengan perpaduan baru antara turunan curam, tikungan sempit, dan rintangan. Kayu gelondongan dan bongkahan salju dapat melintasi jalur yang terlihat bersih beberapa saat sebelumnya, jadi perhatikan kemiringan di depan.",
+        "Setiap percobaan membawa kamu ke lintasan salju dengan turunan, tikungan sempit, dan letak rintangan yang berbeda. Batang kayu dan bongkahan salju bisa tiba-tiba melintas, jadi lihat jalur di depan.",
         "Kumpulkan koin dan item untuk membuka lebih banyak kereta luncur. Karakteristik penanganan dan lompatannya dapat mengubah seberapa awal Anda harus bergerak ketika bahaya muncul.",
         "Berikan lebih banyak ruang pada bahaya bergerak daripada rintangan tetap. Batang kayu yang menggelinding di jalur Anda dapat terus bergerak saat Anda melompat, jadi lihatlah di mana ia akan berada saat Anda mendarat. Misi harian memberi Anda tujuan terpisah untuk dikerjakan sambil mengumpulkan koin dan mencoba berlari lebih lama."
       ],
@@ -151,7 +151,7 @@
       ],
       "faq": [
         [
-          "Apakah lintasannya sama setiap kali lari?",
+          "Apakah lintasannya sama setiap kali mencoba?",
           "Jalurnya berubah antar lintasan, dengan rintangan di tempat berbeda. Gunakan setiap upaya untuk berlatih membaca bentangan lereng berikutnya."
         ],
         [
@@ -169,7 +169,7 @@
       "summary": "Atur waktu tendangan, pandu bola di udara, dan tingkatkan pantulan bola di Orbit Kick, permainan jarak jauh yang membawa Anda melewati landmark dunia.",
       "aboutTitle": "Apa yang membawa bola lebih jauh",
       "about": [
-        "Mulailah setiap lari dengan tendangan berjangka waktu. Bola memantul melintasi bukit dan tanjakan, dan pantulan yang ditempatkan dengan baik dapat membawanya lebih jauh. Anda dapat melakukan koreksi kecil di udara saat daratan mulai terlihat.",
+        "Mulai dengan menendang pada saat yang pas. Bola memantul di perbukitan dan tanjakan. Pantulan yang tepat membawanya lebih jauh. Begitu tanah terlihat, kamu bisa sedikit mengubah arah bola.",
         "Jarak menghasilkan koin yang dapat Anda gunakan untuk tendangan yang lebih kuat, pantulan yang lebih baik, atau penghasilan offline. Jangkau jarak baru untuk melihat lebih banyak landmark dan membuka bola dan perlengkapan tambahan.",
         "Pentalan pertama membantu Anda menilai apakah peluncuran Anda berhasil. Jika bola mencapai bagian menurun atau tanjakan saat masih memiliki kecepatan, bola dapat melanjutkan menuju landmark berikutnya. Perhatikan apa yang terjadi pada tendangan serupa sebelum menghabiskan koin, sehingga Anda dapat mengetahui apakah Anda memerlukan lebih banyak daya peluncuran atau lebih banyak jarak antar pantulan."
       ],
@@ -194,7 +194,7 @@
       "faq": [
         [
           "Apa yang diubah oleh peningkatan Bounce?",
-          "Ini membantu bola terbawa lebih jauh setelah mendarat. Kekuatan mempengaruhi tendangan pada awal lari."
+          "Pantulan membantu bola melaju lebih jauh setelah menyentuh tanah. Daya tendang menentukan seberapa jauh bola melesat di awal."
         ],
         [
           "Apakah saya masih bisa mengarahkan setelah menendang bola?",
@@ -505,7 +505,7 @@
       "summary": "Klik robot menari untuk mendapatkan AstroCoins, beli peningkatan, dan buka lebih banyak karakter di Astro Robot Clicker.",
       "aboutTitle": "Habiskan AstroCoins dengan mempertimbangkan pembukaan kunci berikutnya",
       "about": [
-        "Setiap klik pada robot menghasilkan AstroCoins. Belanjakan dana tersebut untuk peningkatan guna menambah penghasilan dan mencapai pembukaan kunci berikutnya dengan lebih cepat.",
+        "Setiap klik pada robot memberimu AstroCoins. Pakai koin untuk membeli peningkatan agar pendapatan bertambah dan pilihan baru lebih cepat terbuka.",
         "Kemajuan membuka robot lain dan efek cuaca. Periksa biaya di menu peningkatan dan putuskan apakah akan membeli perbaikan kecil sekarang atau menabung untuk perbaikan yang lebih besar.",
         "Periksa harga saat Anda membuka menu peningkatan. Pilih satu pembelian yang ingin Anda tuju, lalu lihat seberapa cepat saldo Anda bertambah setelah Anda membelinya. Jika Anda ingin melihat robot baru atau efek cuaca, simpanlah untuk persyaratan berikutnya setelah Anda memiliki beberapa peningkatan awal."
       ],
@@ -675,7 +675,7 @@
       "about": [
         "School Fury berlangsung di lingkungan kartun dengan alat peraga yang dapat dirusak. Bergerak melalui ruang kelas virtual, lorong, dan laboratorium, lalu cetak skor dengan merusak furnitur dan peralatan selama jangka waktu tertentu.",
         "Tata letak ruangan membentuk rute Anda. Sekelompok alat peraga memungkinkan Anda melanjutkan kombo tanpa menghabiskan banyak waktu untuk bergerak. Bersihkan objek yang berdekatan secara berurutan sebelum melintasi koridor untuk mencapai cluster berikutnya.",
-        "Koin dari lari membantu membuka kunci peralatan, dan kemajuan dapat membuka lebih banyak ruang. Cobalah alat baru di ruangan yang sudah Anda kenal untuk menilai seberapa cepat alat tersebut memungkinkan Anda berpindah dari satu objek ke objek berikutnya."
+        "Koin dari tiap percobaan bisa dipakai untuk membuka peralatan, dan makin jauh progresmu, makin banyak ruangan yang terbuka. Coba peralatan baru di ruangan yang sudah kamu kenal."
       ],
       "steps": [
         [
@@ -759,7 +759,7 @@
       "about": [
         "Sosis Anda bergerak maju dengan sendirinya melalui dapur kartun. Tahan tombol mouse untuk mempercepat dan melepaskan untuk memperlambat. Pelarian berakhir ketika jebakan menangkap Anda.",
         "Setiap rintangan memiliki isyarat waktu yang berbeda. Palu memberi Anda kesempatan untuk menyeberang saat palu itu naik. Sebelum pisau berputar, perhatikan berapa lama bukaannya tetap bersih dan perhitungkan apa yang ada di baliknya.",
-        "Lari yang lebih lama membantu Anda mendapatkan koin untuk kostum. Bertujuan untuk kemajuan yang stabil melalui bagian yang padat. Semburan kecepatan singkat memberi Anda kontrol lebih besar saat dua jebakan berdekatan."
+        "Makin jauh kamu melaju, makin banyak koin yang bisa ditukar dengan kostum. Pertahankan kecepatan di bagian yang penuh rintangan. Percepat sebentar saat jalur terbuka."
       ],
       "steps": [
         [
@@ -1037,7 +1037,7 @@
           "Tidak. Spasi atau klik kiri akan mengganti bagian mana yang aktif."
         ],
         [
-          "Mengapa mempercepat menghentikan lari saya?",
+          "Kenapa karakter malah jatuh saat melangkah lebih cepat?",
           "Langkah yang lebih panjang dan tergesa-gesa dapat menggerakkan tubuh terlalu jauh di depan kakinya. Cobalah langkah yang lebih kecil sebelum peralihan berikutnya."
         ],
         [
@@ -1221,7 +1221,7 @@
       "about": [
         "Kereta melaju di sepanjang rangkaian rel yang tak ada habisnya. Menahan tombol mouse akan menguncinya pada rel dan memungkinkannya meningkatkan kecepatan saat turun. Lepaskan di dekat puncak ketika bagian berikutnya memberi Anda ruang untuk meluncurkan.",
         "Mendarat sama pentingnya dengan lepas landas. Pendaratan yang kasar dapat menjatuhkan mobil dari kereta, jadi ikutilah sudut lintasan berikutnya saat Anda berada di udara. Perjalanan berakhir ketika mobil terakhir hilang.",
-        "Rutenya berubah dari satu lari ke lari lainnya, dan jarak yang lebih sempit menjadi lebih menuntut seiring Anda menambah kecepatan. Ketika hanya tersisa beberapa mobil, bidiklah lompatan yang bersih dan pendek. Gunakan upaya selanjutnya untuk bereksperimen dengan tanjakan dan putaran setelah Anda dapat menyatukan kereta."
+        "Rute berubah setiap kali mencoba. Makin cepat kereta melaju, makin sulit melewati celah sempit. Saat gerbong tinggal sedikit, cari sudut yang membuat kereta mendarat dengan stabil."
       ],
       "steps": [
         [
@@ -1583,12 +1583,12 @@
           "Aturan resmi mencantumkan koin ganda untuk sasaran dan empat kali lipat koin untuk sasaran."
         ],
         [
-          "Mengapa anak panah kehilangan jarak di akhir lari?",
+          "Kenapa anak panah kehilangan laju menjelang akhir?",
           "Anak panah itu secara alami melambat saat terbang. Penyesuaian atau hambatan yang besar dapat mengurangi sejauh mana kemajuan yang dicapai."
         ],
         [
           "Apa yang bisa saya tingkatkan?",
-          "Area peningkatan yang terdaftar adalah kekuasaan, kendali, dan pendapatan. Pilih salah satu yang cocok dengan bagian lari yang ingin Anda tingkatkan."
+          "Kamu bisa meningkatkan daya luncur, kendali, atau pendapatan. Pilih berdasarkan bagian yang paling sering membuat percobaanmu terhambat."
         ]
       ]
     },
@@ -1663,7 +1663,7 @@
       ],
       "faq": [
         [
-          "Apa yang mengakhiri lari?",
+          "Kapan permainan berakhir?",
           "Pelarian berakhir ketika Anda tidak memiliki langkah hukum lagi."
         ],
         [
@@ -1881,7 +1881,7 @@
           "Ya. Seret mouse ke udara untuk memandu karakter menuju pendaratan atau peningkatan."
         ],
         [
-          "Mengapa lari dengan kekuatan yang sama berakhir pada jarak yang berbeda?",
+          "Kenapa daya luncur yang hampir sama bisa menghasilkan jarak yang berbeda?",
           "Sudut peluncuran, pantulan, dan rintangan mengubah jalur setelah lepas landas. Perhatikan di mana pendaratan pertama terjadi pada setiap putaran."
         ]
       ]
@@ -4590,7 +4590,7 @@
       "category": "Reli waktunya melayang",
       "summary": "Lewati pos pemeriksaan reli sebelum waktu habis. Ubah cara masuk tikungan sesuai permukaannya, dari aspal hingga kerikil dan lumpur.",
       "about": [
-        "Mode bertahan hidup terus mengirim Anda ke pos pemeriksaan baru. Masing-masing menambah waktu, jadi lari yang stabil lebih penting daripada satu perosotan panjang.",
+        "Mode Survival terus memberi pos pemeriksaan baru. Setiap pos menambah waktu. Lolos dengan ritme stabil lebih penting daripada membuat satu drift panjang.",
         "Tahapan tantangan memberi Anda target seperti putaran waktu atau skor drift. Gunakan permukaan untuk memilih kecepatan masuk untuk setiap belokan."
       ],
       "steps": [

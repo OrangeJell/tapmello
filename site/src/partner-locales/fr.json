@@ -461,7 +461,7 @@
     "color-rush": {
       "category": "Plateforme",
       "summary": "Sautez entre les plates-formes colorées dans Color Rush et changez la couleur de votre coureur avant d'atterrir. Revenez pour trois buts supplémentaires par niveau.",
-      "aboutTitle": "Lisez la plateforme suivante pendant que vous êtes encore en cours d'exécution",
+      "aboutTitle": "Repérez la prochaine plateforme sans ralentir",
       "about": [
         "Votre coureur avance automatiquement. Pour rester sur le cap, sautez par-dessus les espaces et faites correspondre la couleur de la plateforme sur laquelle vous vous apprêtez à atterrir. Certaines sections vous demandent de faire les deux dans le même mouvement.",
         "Les mises en page ultérieures mélangent des transitions de couleurs avec des sauts plus délicats. Chaque niveau comporte également trois objectifs optionnels, vous donnant une raison de rejouer un parcours après avoir atteint l'arrivée.",
@@ -1028,7 +1028,7 @@
         ],
         [
           "Étudier la foulée avant une chute",
-          "Vérifiez quelle jambe était active lorsque le corps se penchait en avant. Essayez de modifier le timing de ce commutateur lors de la prochaine exécution."
+          "Repérez quelle jambe avançait lorsque le corps a basculé. À l’essai suivant, changez de jambe un peu plus tôt ou un peu plus tard."
         ]
       ],
       "faq": [
@@ -1164,7 +1164,7 @@
         ],
         [
           "Que se passe-t-il lorsque je heurte une barrière ?",
-          "Le crash met fin à votre exécution en cours, donc la prochaine tentative recommence depuis le début."
+          "Une collision met fin à la partie. Vous repartez du début à l’essai suivant."
         ],
         [
           "Comment puis-je obtenir plus de voitures ?",
@@ -1472,7 +1472,7 @@
       "aboutTitle": "Changer une partie du test virtuel à la fois",
       "about": [
         "Lab Havoc est un bac à sable de dessin animé construit autour d'une chambre de test. Utilisez la souris pour placer des appareils virtuels, puis démarrez une course et regardez comment le jeu déplace le ragdoll dans la pièce.",
-        "Un test produit un score en jeu et rapporte des récompenses. Après l'exécution, regardez quels appareils sont réellement activés. Si beaucoup sont restés inactifs, déplacez un élément et comparez le résultat suivant.",
+        "Chaque essai donne un score et rapporte des récompenses. Regardez quels dispositifs se sont déclenchés. Si plusieurs sont restés inactifs, déplacez-en un avant de relancer l’essai.",
         "La monnaie gagnée débloque plus d’outils. Commencez par une mise en page que vous comprenez afin de voir ce qu'un nouvel élément change. Répétez le même test plusieurs fois si la physique envoie le ragdoll sur un chemin différent à chaque course."
       ],
       "steps": [
@@ -1485,7 +1485,7 @@
           "Activez le test et suivez le mouvement à l'écran. Notez quelle partie de la mise en page le ragdoll atteint en premier."
         ],
         [
-          "Comparez deux exécutions",
+          "Comparer deux essais",
           "Modifiez l'emplacement d'un élément et démarrez un autre test. Comparez ce qui a été activé et comment le jeu a obtenu le résultat."
         ],
         [
@@ -1545,7 +1545,7 @@
           "Vous pouvez les échanger contre une arme en jeu sélectionnée au hasard. Le résultat peut changer la façon dont vous abordez la prochaine course."
         ],
         [
-          "Dois-je détenir une clé pour courir ?",
+          "Faut-il maintenir une touche pour courir ?",
           "Non. Le coureur se déplace automatiquement. Vous contrôlez les sauts et les attaques à mesure que le chemin change."
         ]
       ]
@@ -1573,7 +1573,7 @@
           "Visez vers le centre lorsque vous avez une approche ouverte. Préférez la cible suivante si celle en cours nécessite un virage brusque."
         ],
         [
-          "Comparez une mise à niveau sur une exécution similaire",
+          "Tester l’amélioration sur un trajet comparable",
           "Dépensez les pièces gagnées en pouvoir, en contrôle ou en gains. Essayez à nouveau la même ouverture pour voir l'effet de ce choix."
         ]
       ],
@@ -4418,7 +4418,7 @@
       "aboutTitle": "Livrez des cadeaux sur des pistes de cascades enneigées",
       "about": [
         "Santa Stunt Racer Christmas Delivery place des cadeaux le long des rampes et des parcours d'obstacles. Récupérez-les pendant que vous conduisez la voiture du Père Noël vers l'arrivée, où les enfants attendent.",
-        "Une exécution rapide et propre améliore votre score de livraison. Chronométrez votre approche des sauts afin de pouvoir atterrir prêt pour la prochaine rampe. Les nouveaux véhicules ont une maniabilité et une vitesse différentes."
+        "Une livraison rapide et sans accroc rapporte plus de points. Calculez vos sauts pour pouvoir enchaîner sur la rampe suivante dès l’atterrissage. Chaque véhicule réagit différemment."
       ],
       "steps": [
         [

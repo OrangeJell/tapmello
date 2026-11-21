@@ -137,7 +137,7 @@
           "Utilizzare i tasti freccia sinistra e destra per cambiare direzione. Cerca un percorso libero oltre l'ostacolo prima di impegnarti in una mossa."
         ],
         [
-          "Cronometra ogni salto",
+          "Salta al momento giusto",
           "Premi la freccia su per saltare. Vai abbastanza tardi per eliminare il pericolo e controllare dove scenderà la slitta."
         ],
         [
@@ -166,16 +166,16 @@
     },
     "orbit-kick": {
       "category": "Sport",
-      "summary": "Cronometra un tiro, guida la palla in aria e migliora il suo rimbalzo in Orbit Kick, un gioco a distanza che ti porta oltre i monumenti del mondo.",
+      "summary": "Calcia al momento giusto e correggi la traiettoria in volo. Migliora il rimbalzo per arrivare più lontano e superare i monumenti lungo il percorso.",
       "aboutTitle": "Ciò che porta la palla più lontano",
       "about": [
-        "Inizia ogni corsa con un calcio cronometrato. La palla rimbalza su colline e rampe e un rimbalzo ben piazzato può portarla più lontano. Puoi apportare piccole correzioni in aria non appena il terreno diventa visibile.",
+        "Ogni tentativo comincia con un calcio. La palla rimbalza su colline e rampe. Un buon rimbalzo allunga il viaggio, e quando vedi il terreno puoi correggere leggermente la traiettoria.",
         "La distanza fa guadagnare monete che puoi spendere per calci più forti, rimbalzi migliori o guadagni offline. Raggiungi nuove distanze per vedere più punti di riferimento e sbloccare palline ed equipaggiamenti aggiuntivi.",
         "Il primo rimbalzo ti aiuta a giudicare se il tuo lancio ha funzionato. Se la pallina raggiunge una discesa o una rampa mentre è ancora in velocità, può proseguire verso il punto di riferimento successivo. Guarda cosa succede con calci simili prima di spendere monete, così puoi capire se hai bisogno di più potenza di lancio o di più distanza tra i rimbalzi."
       ],
       "steps": [
         [
-          "Cronometra il calcio",
+          "Scegli quando calciare",
           "Fare clic quando l'indicatore di alimentazione raggiunge la parte più potente del suo intervallo. Un lancio forte dà alla palla più velocità all'inizio."
         ],
         [
@@ -292,7 +292,7 @@
     },
     "dunk-dash": {
       "category": "Sport",
-      "summary": "Passa, ruba e cronometra una schiacciata in Dunk Dash, un gioco di basket arcade con gioco a tutto campo e canestri mobili.",
+      "summary": "Passa la palla, rubala agli avversari e scegli il momento per schiacciare. Si gioca a tutto campo e in alcune partite persino i canestri si spostano.",
       "aboutTitle": "Creare un approccio chiaro al canestro",
       "about": [
         "Prendi il possesso, aggira i difensori e usa i passaggi per creare un percorso libero verso il canestro. Il tempismo è importante vicino al canestro, dove un salto può trasformarsi in una schiacciata se sei a portata di tiro.",
@@ -309,7 +309,7 @@
           "Usa il pulsante sinistro del mouse per l'azione corrente, come passare quando la tua squadra ha la palla o tentare un recupero in difesa."
         ],
         [
-          "Cronometraggio del traguardo",
+          "Scegli quando schiacciare",
           "Usa il mouse o la barra spaziatrice per saltare o schiacciare a portata di mano. Nei round con un cerchio in movimento, allineati con la direzione in cui si sta dirigendo."
         ],
         [
@@ -586,10 +586,10 @@
     },
     "wobbly-pets": {
       "category": "Equilibrio fisico",
-      "summary": "Guida un animale traballante attraverso un percorso a ostacoli in Wobbly Pets. Cronometra ogni passo con la barra spaziatrice o con un clic e scopri quanto lontano puoi arrivare.",
+      "summary": "Guida un animaletto traballante oltre gli ostacoli. Fagli fare un passo alla volta con la barra spaziatrice o un clic e vedi fin dove riesci ad arrivare.",
       "aboutTitle": "Trova un ritmo costante attraverso il percorso a ostacoli",
       "about": [
-        "Guidi un piccolo animale domestico lungo un percorso cronometrando i suoi passi. Il suo movimento risponde a ogni pressione, quindi un ritmo che funziona su terreno aperto potrebbe dover essere modificato quando il percorso si fa stretto.",
+        "Fai avanzare l’animaletto un passo alla volta. Risponde a ogni pressione, quindi il ritmo che funziona in piano potrebbe cambiare quando la strada si stringe.",
         "Osserva il movimento attuale dell'animale prima di dargli un altro input. Pressioni veloci e ripetute possono rendere i suoi passi meno stabili, in particolare quando sta già traballando vicino a un ostacolo.",
         "Alcune sezioni richiedono una breve pausa mentre un ostacolo si muove. Usa quel tempo per guardare il divario che ci aspetta e decidere quando fare il passo successivo. Una corsa misura quanto lontano puoi mantenere quel controllo durante il percorso."
       ],
@@ -701,7 +701,7 @@
           "Rompi gli oggetti di scena virtuali e collega i colpi vicini in combo. Eliminare più oggetti entro il limite di tempo ti dà più possibilità di aumentare il tuo punteggio."
         ],
         [
-          "Quale chiave rompe gli oggetti?",
+          "Quale tasto serve per rompere gli oggetti?",
           "Premi la barra spaziatrice quando sei nel raggio d'azione. Usa WASD o i tasti freccia per muoverti nella stanza."
         ],
         [
@@ -754,7 +754,7 @@
     },
     "wurst-dash": {
       "category": "Corridore di ostacoli",
-      "summary": "Sopravvivi a un percorso a ostacoli in cucina senza fine in Wurst Dash. Tieni premuto per accelerare, rilascia per rallentare e cronometra ogni passaggio oltre le trappole.",
+      "summary": "Fuggi lungo un percorso senza fine tra le trappole di una cucina. Tieni premuto per accelerare e rilascia per rallentare al momento giusto.",
       "aboutTitle": "Leggi le trappole prima di accelerare",
       "about": [
         "La tua salsiccia avanza da sola attraverso una cucina di cartoni animati. Tieni premuto il pulsante del mouse per accelerare e rilascialo per rallentare. La corsa termina quando una trappola ti prende.",
@@ -796,7 +796,7 @@
     },
     "tap-brawl": {
       "category": "Combattimento riflesso",
-      "summary": "Colpisci a sinistra o a destra per respingere le ondate in arrivo in Tap Brawl. Cronometra i tuoi colpi, osserva entrambi i lati e guadagna monete per nuovi combattenti.",
+      "summary": "Colpisci a destra o a sinistra quando arrivano gli avversari. Tieni d’occhio entrambi i lati e usa le monete per sbloccare nuovi lottatori.",
       "aboutTitle": "Leggi entrambi i lati dell'arena",
       "about": [
         "Il tuo combattente rimane al centro mentre i nemici si avvicinano da sinistra e da destra. I tuoi due comandi colpiscono in direzioni diverse, quindi devi leggere quale nemico arriverà per primo.",
@@ -1006,7 +1006,7 @@
     },
     "long-leg-master": {
       "category": "Equilibrio nel cammino",
-      "summary": "Cambia gamba per camminare attraverso Long Leg Master. Cronometra i passi brevi, correggi il tuo equilibrio su un terreno irregolare e scopri quanto lontano può arrivare il tuo personaggio.",
+      "summary": "Alterna le gambe e avanza a piccoli passi. Correggi l’equilibrio sul terreno irregolare e prova ad andare sempre più lontano.",
       "aboutTitle": "Osserva il corpo prima di fare il passo successivo",
       "about": [
         "Long Leg Master trasforma ogni passo in una decisione di equilibrio. Premi la barra spaziatrice o fai clic per cambiare la gamba attiva, quindi osserva come si muove il personaggio prima di cambiarla nuovamente.",
@@ -1545,7 +1545,7 @@
           "Puoi scambiarli con un'arma di gioco selezionata casualmente. Il risultato può cambiare il modo in cui ti avvicini alla corsa successiva."
         ],
         [
-          "Devo tenere una chiave per correre?",
+          "Devo tenere premuto un tasto per correre?",
           "No. Il corridore si muove automaticamente. Sei tu a controllare i salti e gli attacchi mentre il percorso cambia."
         ]
       ]
@@ -1846,7 +1846,7 @@
     },
     "ragdoll-launcher": {
       "category": "Lanciatore a distanza fisica",
-      "summary": "Cronometra il lancio di un cannone in Ragdoll Launcher. Guida la bambola di pezza in aria, usa i potenziamenti e guadagna potenziamenti per corse più lunghe.",
+      "summary": "Spara dal cannone al momento giusto, guida il pupazzo in volo e sfrutta le spinte lungo la strada. Con i potenziamenti puoi volare ancora più lontano.",
       "aboutTitle": "Giudicare il lancio e il primo rimbalzo separatamente",
       "about": [
         "Un cannone mobile e un indicatore di potenza determinano l'inizio della corsa. Osserva la mira e i tempi di rilascio prima di fare clic. Un lancio forte necessita comunque di un angolo che porti il ​​personaggio in una parte aperta del percorso.",
@@ -1919,7 +1919,7 @@
           "Scorri la rotellina del mouse per cambiare l'arma attiva nel gioco."
         ],
         [
-          "Quale chiave si ricarica?",
+          "Quale tasto serve per ricaricare?",
           "Premi R. Una pausa tra le ondate ti dà il tempo di completare la ricarica."
         ],
         [
@@ -1972,7 +1972,7 @@
     },
     "bottle-hop": {
       "category": "Platform lanciabile in bottiglia",
-      "summary": "Lancia una bottiglia sui mobili del soggiorno in Bottle Hop. Cronometra salti singoli e doppi, evita i pericoli e raccogli ricompense per le pelli di bottiglia.",
+      "summary": "Fai rimbalzare una bottiglia sui mobili del salotto. Scegli quando fare un salto singolo o doppio per atterrare sul prossimo appoggio.",
       "aboutTitle": "Scegli il prossimo atterraggio prima che la bottiglia decolli",
       "about": [
         "Bottle Hop trasforma scaffali, tavoli e altoparlanti in trampolini di lancio. Fai clic per capovolgere la bottiglia dalla sua superficie attuale e puntare a quella successiva. Le corse di livello ti chiedono di raggiungere il traguardo senza toccare il pavimento.",
@@ -2089,10 +2089,10 @@
     },
     "geometry-vibes-2-online": {
       "category": "Platform a ostacoli",
-      "summary": "Vola attraverso percorsi geometrici e cronometra ogni salita e discesa per perdere punte e muri.",
+      "summary": "Vola nei percorsi geometrici. Sali o scendi al momento giusto per evitare muri e spuntoni.",
       "aboutTitle": "Informazioni su Geometry Vibes 2 Online",
       "about": [
-        "Vola attraverso percorsi geometrici e cronometra ogni salita e discesa per perdere punte e muri.",
+        "Alza o abbassa il volo per passare tra muri e spuntoni. Tieni d’occhio il prossimo varco.",
         "Tenendo premuto il controllo il tuo personaggio aumenta; rilasciandolo lo lascia cadere. Osserva il prossimo intervallo abbastanza presto per cambiare direzione nel tempo."
       ],
       "steps": [
@@ -2239,15 +2239,15 @@
     },
     "slow-mo-blade-rush": {
       "category": "Lancio arcade",
-      "summary": "Cronometra i tuoi lanci contro i bersagli dei cartoni animati e invia le lame attraverso i portali moltiplicatori per raffiche più grandi.",
+      "summary": "Scegli il momento giusto per lanciare e fai passare le lame nei varchi moltiplicatori prima di colpire i bersagli.",
       "aboutTitle": "Informazioni su Slow Mo: Blade Rush",
       "about": [
-        "Cronometra i tuoi lanci contro i bersagli dei cartoni animati e invia le lame attraverso i portali moltiplicatori per raffiche più grandi.",
+        "I varchi moltiplicatori aumentano le lame in volo. Calcola il lancio per attraversarli e raggiungere i bersagli.",
         "Guarda i bersagli in movimento e la disposizione di ogni fase prima del rilascio. Un moltiplicatore è utile quando le lame extra hanno ancora un percorso libero."
       ],
       "steps": [
         [
-          "Cronometra il lancio",
+          "Scegli il momento per lanciare",
           "Tocca o fai clic per lanciare una lama sul bersaglio."
         ],
         [
@@ -2332,7 +2332,7 @@
       ],
       "faq": [
         [
-          "Quale chiave usa il secondo giocatore?",
+          "Quale tasto usa il secondo giocatore?",
           "Usa la freccia su in modalità a due giocatori."
         ]
       ]
