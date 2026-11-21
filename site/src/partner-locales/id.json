@@ -5281,6 +5281,506 @@
           "Ambil jalur yang aman jika tetes emas akan menjauhkanmu dari pijakan berikutnya."
         ]
       ]
+    },
+    "bike-hill-3d": {
+      "category": "Balap sepeda menuruni bukit",
+      "searchTitle": "Bike Hill 3D – Balap sepeda menuruni bukit",
+      "summary": "Balapan menuruni bukit di Bike Hill 3D. Hindari pepohonan dan gundukan, tingkatkan kecepatan, dan lewati pengendara sepeda lawan sebelum garis finis.",
+      "about": [
+        "Para pesepeda mulai bersamaan dari puncak bukit. Saat semakin cepat, bersiaplah pindah jalur untuk menghindari pohon dan gundukan.",
+        "Setelah mengambil turbo, cari jalur yang lapang agar lebih mudah menyalip lawan."
+      ],
+      "steps": [
+        [
+          "Pilih jalur yang lapang",
+          "Hindari pohon dan gundukan lebih awal agar masih ada ruang untuk menyalip."
+        ],
+        [
+          "Ambil turbo",
+          "Ambil turbo saat jalur di depannya tidak terhalang."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara membuka lintasan lain?",
+          "Selesaikan balapan untuk membuka level baru."
+        ]
+      ]
+    },
+    "park-empire": {
+      "category": "Manajemen taman hiburan",
+      "searchTitle": "Park Empire – Manajemen taman hiburan",
+      "summary": "Bangun taman hiburan di Park Empire. Investasikan kembali pendapatan tiket masuk dalam wahana, loket tiket, dan parkir seiring bertambahnya jumlah pengunjung.",
+      "about": [
+        "Mulailah dengan taman kecil dan gunakan biaya masuk untuk membuka atraksi seperti Ferris Wheel.",
+        "Peningkatan perjalanan dapat meningkatkan kapasitas dan pendapatan tiket. Saat kerumunan bertambah, perhatikan pintu masuk dan tempat parkir serta wahananya."
+      ],
+      "steps": [
+        [
+          "Buka atraksi pertama Anda",
+          "Habiskan pendapatan tiket masuk awal untuk memberikan pengunjung lebih banyak hal untuk dilakukan."
+        ],
+        [
+          "Tingkatkan kapasitas taman",
+          "Tambahkan loket tiket atau tempat parkir ketika kedatangan mulai melebihi jumlah pintu masuk."
+        ]
+      ],
+      "faq": [
+        [
+          "Wahana mana yang bisa saya buka?",
+          "Atraksi selanjutnya termasuk roller coaster, wahana air, dan rumah hantu."
+        ]
+      ]
+    },
+    "funny-wheels": {
+      "category": "Lintasan rintangan kursi roda",
+      "searchTitle": "Funny Wheels – Lintasan rintangan kursi roda",
+      "summary": "Kendalikan kedua roda secara terpisah di Funny Wheels. Lewati platform bergerak, hindari jebakan yang berayun, dan capai pos berikutnya.",
+      "about": [
+        "Setiap roda memiliki kendalinya sendiri. Memindahkannya bersama-sama membantu Anda berguling ke depan, sementara mengendalikan satu roda memungkinkan Anda berbelok.",
+        "Jalur rintangan mencakup lereng licin dan platform bergerak. Pos pemeriksaan memungkinkan Anda berlatih peregangan berikutnya tanpa memulai dari awal."
+      ],
+      "steps": [
+        [
+          "Gerakkan kedua roda",
+          "Gunakan tombol panah kiri dan kanan untuk mengontrol roda yang sesuai."
+        ],
+        [
+          "Coba lagi bagian yang rumit",
+          "Tekan R untuk kembali ke pos pemeriksaan Anda dan coba rintangan itu lagi."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah ada mode balapan?",
+          "Wheel Race mengadu Anda dengan tiga rival di kursus bertema."
+        ]
+      ]
+    },
+    "retro-football": {
+      "category": "Sepak bola Amerika arkade",
+      "searchTitle": "Retro Football – Sepak bola Amerika arkade",
+      "summary": "Pilih strategi di Retro Football, game sepak bola Amerika 6 lawan 6. Atur lari, operan, dan blitz untuk merebut Retro Cup.",
+      "about": [
+        "Pilih satu dari empat pemutaran sebelum setiap jepretan. Saat menyerang, pilihan menentukan apakah Anda mencari jalur lari atau penerima terbuka.",
+        "Pada pertahanan, bandingkan cakupan zona, tugas satu lawan satu, dan serangan kilat. Serangan kilat dapat menekan quarterback tetapi menyisakan lebih sedikit pemain dalam jangkauannya."
+      ],
+      "steps": [
+        [
+          "Pilih permainan ofensif",
+          "Carilah jalur lari terbuka atau rute yang memberikan ruang bagi penerima Anda."
+        ],
+        [
+          "Baca pembelaannya",
+          "Lempar ke penerima yang memiliki ruang untuk menangkap bola dan hindari memaksakan umpan dalam ke lalu lintas."
+        ]
+      ],
+      "faq": [
+        [
+          "Berapa banyak pemain di setiap sisi?",
+          "Setiap tim menurunkan enam pemain."
+        ]
+      ]
+    },
+    "slope-rider-city": {
+      "category": "Seluncur salju 3D di kota",
+      "searchTitle": "Slope Rider City – Seluncur salju 3D di kota",
+      "summary": "Kemudikan kereta luncur melewati jalan-jalan kota bersalju di Slope Rider City. Hindari lalu lintas, lompat ke atap kendaraan dan temukan rute yang lebih tinggi.",
+      "about": [
+        "Kereta luncur Anda bergerak maju secara otomatis. Perhatikan persimpangan lalu lintas dan cari jalur landai yang membuka rute di atas jalan.",
+        "Lampu depan yang berkedip memperingatkan Anda bahwa mobil akan mengisi daya. Mengubah jalur lebih awal akan memberikan lebih banyak ruang untuk keluar dari jalurnya."
+      ],
+      "steps": [
+        [
+          "Baca persimpangan berikutnya",
+          "Lihatlah ke seberang jalan sebelum melewati persimpangan."
+        ],
+        [
+          "Ambil rute yang tinggi",
+          "Berbarislah dengan tanjakan lebih awal jika ingin melompat ke atap kendaraan."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah rutenya berubah antar lintasan?",
+          "Ya. Game ini mengacak petanya di antara proses."
+        ]
+      ]
+    },
+    "dino-game-tides": {
+      "category": "Lari dinosaurus bawah air",
+      "searchTitle": "Dino Game: Tides – Lari dinosaurus bawah air",
+      "summary": "Berlari dan berenang melalui Dino Game: Tides. Hindari rintangan karang dan darat, dapatkan cangkang dari skor Anda dan beli peningkatan.",
+      "about": [
+        "T-Rex melintasi jalan berbatu dan hamparan gurun sebelum menuju ke bawah air. Bahaya berubah seiring dengan medan.",
+        "Pergerakan di bawah air melambat, dan lompatan membawa Anda lebih tinggi. Sisakan ruang untuk turun lebih jauh ketika karang atau jangkar berada di depan."
+      ],
+      "steps": [
+        [
+          "Sesuaikan lompatan Anda",
+          "Tunggu area pendaratan yang jelas sebelum melompat melewati rintangan bawah air."
+        ],
+        [
+          "Habiskan cangkang yang Anda peroleh",
+          "Kunjungi toko setelah berlari untuk membeli peralatan atau peningkatan permanen."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara mendapatkan cangkang?",
+          "Anda mendapatkan satu cangkang untuk setiap 1.000 poin penuh yang dicetak dalam satu putaran."
+        ]
+      ]
+    },
+    "dino-game-meteor-strike": {
+      "category": "Dinosaurus dan hujan meteor",
+      "searchTitle": "Dino Game: Meteor Strike – Dinosaurus dan hujan meteor",
+      "summary": "Hindari meteor yang jatuh di Game Dino: Meteor Strike. Baca bayangan peringatan, selamat dari 20 gelombang dan hadapi dua bos.",
+      "about": [
+        "Tanda berkedip menunjukkan di mana setiap meteor akan mendarat. Kilatannya semakin cepat saat tumbukan mendekat.",
+        "Gelombang selanjutnya membawa meteor dan hujan yang lebih besar. Pindahlah ke ruang terbuka lebih awal sehingga Anda dapat bereaksi ketika beberapa bayangan muncul bersamaan."
+      ],
+      "steps": [
+        [
+          "Perhatikan tanah",
+          "Menjauhlah segera setelah bayangan peringatan terbuka di bawah Anda."
+        ],
+        [
+          "Rencanakan rute pelarian",
+          "Saat tanda tumpang tindih, lihat melampaui bayangan terdekat untuk melihat bentangan yang jelas."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya mencoba lagi gelombang?",
+          "Ya. Sebuah pos pemeriksaan memungkinkan Anda memulai kembali gelombang yang gagal."
+        ]
+      ]
+    },
+    "bounce-blast": {
+      "category": "Game arkade lontar pegulat",
+      "searchTitle": "Bounce Blast – Game arkade lontar pegulat",
+      "summary": "Luncurkan pegulat ke kerumunan permen karet di Bounce Blast. Rantai memantul, bangun momentum, dan tingkatkan lari Anda berikutnya.",
+      "about": [
+        "Seret dan lepaskan untuk meluncurkan. Mendarat dengan permen karet akan membuat pegulat terpental lagi dan dapat memperpanjang larinya.",
+        "Pegulat yang berbeda memiliki kemampuannya masing-masing. Cobalah membanting ke bawah ketika Anda melihat kelompok padat di bawah Anda."
+      ],
+      "steps": [
+        [
+          "Arahkan peluncurannya",
+          "Seret untuk menyiapkan pukulan, lalu lepaskan untuk membuat pegulat Anda terbang."
+        ],
+        [
+          "Teruslah memantul",
+          "Carilah kelompok permen karet tempat Anda bisa mendarat dan meneruskan momentum Anda."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang bisa saya mainkan setelah cerita?",
+          "Game ini menawarkan mode Stopwatch dan Rift tanpa akhir."
+        ]
+      ]
+    },
+    "obby-bicycle": {
+      "category": "Parkour sepeda",
+      "searchTitle": "Obby Bicycle – Parkour sepeda",
+      "summary": "Berkendara melintasi jalur terapung di Obby Bicycle. Lompat ke celah yang lebar, seimbangkan diri di tepian sempit dan capai pos pemeriksaan berikutnya.",
+      "about": [
+        "Sepeda membawa kecepatan lebih dari karakter berjalan kaki, sehingga Anda dapat melompat lebih jauh. Platform yang sempit menyisakan lebih sedikit ruang untuk memperbaiki pendaratan Anda.",
+        "Jika terjatuh, Anda dapat melanjutkan di pos pemeriksaan. Perlambat sebelum berbelok sempit, lalu tingkatkan kecepatan lagi di mana lintasan memberi Anda ruang."
+      ],
+      "steps": [
+        [
+          "Kemudikan sepeda Anda",
+          "Gunakan WASD atau tombol panah untuk bergerak, mengarahkan, dan mundur."
+        ],
+        [
+          "Melompati celah",
+          "Gunakan Spasi untuk melompat. Sejajarkan sepeda dengan pendaratan sebelum Anda lepas landas."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang terjadi jika saya terjatuh?",
+          "Anda kembali ke pos pemeriksaan terdekat."
+        ]
+      ]
+    },
+    "parkour-block-maker": {
+      "category": "Parkour balok dengan editor level",
+      "searchTitle": "Parkour Block Maker – Parkour balok dengan editor level",
+      "summary": "Melompati lava di Parkour Block Maker. Capai portal ungu, lalu bangun dan uji rintangan terapung Anda sendiri.",
+      "about": [
+        "Kursus parkour orang pertama memasangkan platform sempit dengan balok es, bantalan lompat, dan jatuh ke lava.",
+        "Editor level memungkinkan Anda menyusun jalur dan melihat apakah lompatannya berhasil. Uji jarak antar balok sebelum menambahkan rintangan yang lebih sulit."
+      ],
+      "steps": [
+        [
+          "Rencanakan pendaratan Anda",
+          "Lihatlah balok berikutnya sebelum memulai lompatan, terutama di atas es."
+        ],
+        [
+          "Uji rute Anda sendiri",
+          "Tempatkan beberapa blok di editor dan coba lompatan secara berurutan."
+        ]
+      ],
+      "faq": [
+        [
+          "Di manakah kursus berakhir?",
+          "Cari portal keluar berwarna ungu."
+        ]
+      ]
+    },
+    "moto-cabbie-simulator": {
+      "category": "Simulasi ojek",
+      "searchTitle": "Moto Cabbie Simulator – Simulasi ojek",
+      "summary": "Jemput penumpang di Moto Cabbie Simulator. Terima panggilan, navigasikan lalu lintas, dan dapatkan tarif untuk membuka lebih banyak sepeda motor.",
+      "about": [
+        "Setiap pekerjaan dimulai dengan panggilan telepon. Setelah Anda menerimanya, penjemputan akan muncul di peta dan ditandai di trotoar.",
+        "Tujuannya muncul setelah penumpang naik. Rem sebelum tikungan tajam sehingga Anda dapat membawa penumpang melewati lalu lintas dengan aman."
+      ],
+      "steps": [
+        [
+          "Angkat penumpang Anda",
+          "Terima panggilan dan berkendara ke lingkaran penjemputan hijau."
+        ],
+        [
+          "Berkendara ke tujuan",
+          "Gunakan WASD atau tombol panah untuk mengemudi dan Spasi untuk mengerem."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara membuka kunci sepeda baru?",
+          "Selesaikan tarif dan hemat uang yang Anda peroleh."
+        ]
+      ]
+    },
+    "busdriver": {
+      "category": "Teka-teki kursi bus",
+      "searchTitle": "Busdriver – Teka-teki kursi bus",
+      "summary": "Tempatkan penumpang di Busdriver, teka-teki logika tentang membaca petunjuk, menemukan tetangga yang cocok, dan menjaga perjalanan bus tetap berjalan.",
+      "about": [
+        "Setiap penumpang diberikan petunjuk tentang di mana mereka bisa muat. Beberapa tetangga memunculkan kebahagiaan, sementara yang lain menimbulkan perselisihan.",
+        "Setiap kursi yang Anda isi mengubah pilihan yang tersisa untuk penumpang berikutnya. Biarkan ruang yang berguna terbuka untuk orang-orang dengan preferensi yang lebih ketat."
+      ],
+      "steps": [
+        [
+          "Pilih tempat duduk",
+          "Gunakan tombol panah untuk memilih kursi dan tekan Spasi untuk konfirmasi."
+        ],
+        [
+          "Lewati pertandingan yang buruk",
+          "Tekan N untuk menolak penumpang ketika Anda tidak dapat menempatkannya dengan nyaman."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang membuat perjalanan bus tetap berjalan?",
+          "Buat penumpang senang dengan menempatkan orang-orang yang cocok dan membatasi perselisihan."
+        ]
+      ]
+    },
+    "color-arrows-maze": {
+      "category": "Labirin panah",
+      "searchTitle": "Color Arrows: Maze – Labirin panah",
+      "summary": "Urai papan Color Arrows: Maze. Keluarkan panah yang jalurnya terbuka dalam urutan yang tepat agar hati tidak berkurang.",
+      "about": [
+        "Panah hanya bisa keluar jika tidak ada yang menghalangi jalurnya sampai ke tepi. Mengeluarkan satu panah bisa membuka jalan bagi panah lain di bagian tengah papan.",
+        "Cari dulu panah yang jalurnya terbuka sampai ke tepi. Jika ada beberapa pilihan, utamakan panah yang menghalangi panah lain."
+      ],
+      "steps": [
+        [
+          "Periksa jalur panah",
+          "Sebelum mengeklik, ikuti arah panah sampai ke tepi papan."
+        ],
+        [
+          "Buka jalan untuk panah berikutnya",
+          "Setelah satu panah keluar, periksa panah mana yang kini bisa bergerak."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang terjadi kalau jalurnya terhalang?",
+          "Panah tetap di papan dan satu ikon hati berkurang."
+        ]
+      ]
+    },
+    "golden-kitchen": {
+      "category": "Game masak berpacu dengan waktu",
+      "searchTitle": "Golden Kitchen – Game masak berpacu dengan waktu",
+      "summary": "Masak dan sajikan pesanan di Golden Kitchen. Kelola pembakar, perhatikan kesabaran pelanggan, dan capai sasaran penayangan atau penghasilan setiap level.",
+      "about": [
+        "Bacalah pesanan di atas setiap pelanggan untuk melihat hidangan dan minuman apa yang mereka inginkan. Beberapa pesanan memerlukan beberapa bahan atau langkah.",
+        "Semakin banyak pelanggan yang datang, perhatikan makanan yang sudah dimasak. Memulai terlalu banyak hidangan sekaligus membuat hidangan lebih sulit disajikan sebelum gosong."
+      ],
+      "steps": [
+        [
+          "Siapkan pesanannya",
+          "Klik bahan dan peralatan untuk memasak, menuangkan minuman, dan menyiapkan makanan yang diminta."
+        ],
+        [
+          "Sajikan sebelum penantiannya habis",
+          "Kirimkan hidangan yang sudah jadi segera dan periksa tempat memasak bersama sebelum memulai pesanan lainnya."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa tujuan levelnya?",
+          "Suatu level mungkin meminta Anda untuk memperoleh jumlah target atau melayani sejumlah pelanggan tertentu."
+        ]
+      ]
+    },
+    "joy-garden": {
+      "category": "Simulasi berkebun",
+      "searchTitle": "Joy Garden – Simulasi berkebun",
+      "summary": "Tanam dan jual hasil panen di Joy Garden. Siram tanaman yang haus, singkirkan hama, dan gunakan emas Anda untuk memperluas lahan di luar lahan awal.",
+      "about": [
+        "Pilih benih dan tanam di lahan kosong. Ikon tetesan air menunjukkan kapan tanaman membutuhkan perhatian.",
+        "Kilauan menunjukkan tanaman mana yang siap dipanen. Jual apa yang Anda pilih untuk mendapatkan emas agar lebih banyak benih dan ruang untuk tumbuh."
+      ],
+      "steps": [
+        [
+          "Tanam beberapa petak",
+          "Pilih satu benih dan seret melintasi petak kosong untuk menanam lebih dari satu benih sekaligus."
+        ],
+        [
+          "Rawat tanaman di dekatnya",
+          "Pilih tanaman yang memerlukan perawatan, lalu seret alat tersebut ke tanaman lain yang memerlukan perawatan yang sama."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara mengetahui kapan panen sudah siap?",
+          "Carilah kilauan di sekitar tanaman."
+        ]
+      ]
+    },
+    "drift-masters": {
+      "category": "Game drift mobil 3D",
+      "searchTitle": "Drift Masters – Game drift mobil 3D",
+      "summary": "Sambung beberapa drift di Drift Masters. Jaga pengganda skor di tikungan pegunungan, kawasan industri, dan lintasan bersalju.",
+      "about": [
+        "Skor bertambah selama mobil melakukan drift. Sambungkan satu drift ke drift berikutnya untuk menaikkan pengganda skor.",
+        "Menabrak dinding akan memutus rangkaian drift. Masuki tikungan dengan kecepatan terkendali agar masih ada ruang untuk menyiapkan drift berikutnya."
+      ],
+      "steps": [
+        [
+          "Atur posisi sebelum tikungan",
+          "Pilih jalur yang memberi ruang untuk drift tanpa menyentuh pembatas."
+        ],
+        [
+          "Sambungkan dua drift",
+          "Saat keluar dari tikungan pertama, lihat tikungan berikutnya dan belok perlahan untuk memulai drift lagi."
+        ]
+      ],
+      "faq": [
+        [
+          "Kapan rangkaian drift terputus?",
+          "Saat mobil menabrak dinding atau pembatas lintasan."
+        ]
+      ]
+    },
+    "soccer-orbit": {
+      "category": "Tendangan bola jarak jauh",
+      "searchTitle": "Soccer Orbit – Tendangan bola jarak jauh",
+      "summary": "Atur waktu tendangan jarak jauh di Soccer Orbit. Hasilkan koin dari setiap penerbangan dan tingkatkan kekuatan, kecepatan, dan pantulan.",
+      "about": [
+        "Panah yang bergerak menentukan arah peluncuran. Klik Anda menghentikan panah dan menendang bola.",
+        "Jarak diukur dalam satuan kaki saat bola melewati landmark kota. Koin dari tembakan memungkinkan Anda membeli peningkatan sebelum tendangan berikutnya."
+      ],
+      "steps": [
+        [
+          "Atur waktu panah yang bergerak",
+          "Saksikan ia menyapu seluruh pengukur sebelum Anda mengklik untuk menendang."
+        ],
+        [
+          "Gunakan koin di antara tendangan",
+          "Tingkatkan kekuatan, kecepatan, atau pantulan dan lihat bagaimana perubahan tersebut memengaruhi penerbangan berikutnya."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah saya mengontrol bola setelah menendang?",
+          "Peluncuran waktunya menyiapkan penerbangan. Simpan penyesuaian Anda berikutnya untuk tendangan berikutnya."
+        ]
+      ]
+    },
+    "trap-the-cat": {
+      "category": "Teka-teki menjebak kucing",
+      "searchTitle": "Trap The Cat – Teka-teki menjebak kucing",
+      "summary": "Blokir rute pelarian kucing di Trap The Cat. Tutup satu ubin per putaran dan buat cincin sebelum kucing mencapai tepinya.",
+      "about": [
+        "Kucing itu bergerak setelah setiap ubin yang Anda tutup. Perhatikan ke arah mana ia menuju dan blokir rute pendeknya terlebih dahulu.",
+        "Penghalang yang lebih jauh dari kucing dapat memotong beberapa jalur keluar. Setelah rute luar tertutup, kencangkan cincin satu demi satu."
+      ],
+      "steps": [
+        [
+          "Tutup jalan keluar",
+          "Klik ubin yang menghalangi jalur langsung dari kucing ke tepi."
+        ],
+        [
+          "Periksa langkah kucing selanjutnya",
+          "Lihatlah ubin yang masih terbuka di sekitar kucing sebelum memasang balok berikutnya."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara saya menang?",
+          "Tutup setiap jalur hingga ke pinggir agar kucing tidak punya jalan keluar."
+        ]
+      ]
+    },
+    "donut-clicker": {
+      "category": "Clicker kedai donat",
+      "searchTitle": "Donut Clicker – Clicker kedai donat",
+      "summary": "Kembangkan toko roti di Donut Clicker. Buat donat dengan tangan, beli produsen otomatis, dan investasikan kembali dalam peningkatan produksi.",
+      "about": [
+        "Setiap klik menghasilkan donat. Cukup hemat bagi produsen otomatis sehingga toko roti dapat terus membuat donat sendiri.",
+        "Ketika produksi meningkat, bandingkan produsen baru dengan peningkatan peralatan yang sudah Anda miliki. Keduanya dapat mempercepat pembelian Anda berikutnya."
+      ],
+      "steps": [
+        [
+          "Buat batch pertama",
+          "Klik donat besar sampai Anda memiliki cukup donat untuk pembelian pertama Anda."
+        ],
+        [
+          "Investasikan kembali penghasilan Anda",
+          "Beli produsen atau peningkatan yang meningkatkan produksi untuk pembelian di masa mendatang."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara membuat donat tanpa klik?",
+          "Beli gedung yang menghasilkan donat secara otomatis."
+        ]
+      ]
+    },
+    "snake-game": {
+      "category": "Game ular dengan 16 mode",
+      "searchTitle": "Snake Game – Game ular dengan 16 mode",
+      "summary": "Kejar buah di Snake Game. Panjangkan ular tanpa menabrak ekornya dan coba 16 mode dengan rintangan serta aturan yang berbeda.",
+      "about": [
+        "Setiap buah menambah satu poin dan membuat ular itu lebih panjang. Saat ruang terbuka menyusut, beri diri Anda ruang untuk mencari potongan buah berikutnya.",
+        "Anda dapat memilih ukuran papan dan jumlah buah. Mode seperti Portal dan Sokoban menambahkan aturannya sendiri ke dalam game arcade yang sudah dikenal."
+      ],
+      "steps": [
+        [
+          "Rencanakan rute menuju buah tersebut",
+          "Pilih jalur yang menyisakan belokan terbuka setelah Anda makan."
+        ],
+        [
+          "Coba mode lain",
+          "Ganti mode untuk berlatih dengan aturan bahaya atau teka-teki baru."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya mengubah ukuran papan?",
+          "Ya. Anda dapat menyesuaikan ukuran papan sebelum mulai berlari."
+        ]
+      ]
     }
   }
 }

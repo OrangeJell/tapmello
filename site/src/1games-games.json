@@ -6637,5 +6637,1199 @@
         ]
       }
     }
+  },
+  {
+    "id": "bike-hill-3d",
+    "title": "Bike Hill 3D",
+    "category": {
+      "en": "Downhill bike racing"
+    },
+    "source": "https://1games.io/bike-hill-3d",
+    "url": "https://1games.io/embed/bike-hill-3d",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/bike-hill-3d-icon.webp",
+      "artwork": "/assets/1games/bike-hill-3d-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bike-hill-3d/bike-hill-3d/bike-hill-3d-2.png",
+        "artwork": "https://1games.io/data/image/game/bike-hill-3d/bike-hill-3d/bike-hill-3d-2.png"
+      }
+    },
+    "metadata": {
+      "releaseDate": "2026-11-17",
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "bike-racing-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Bike Hill 3D – Downhill bike racing",
+        "summary": "Race downhill in Bike Hill 3D. Dodge trees and bumps, pick up speed boosts and pass rival cyclists before the finish line.",
+        "about": [
+          "Riders start together at the top of a hill. Trees and bumps can force you to change lanes as you build speed.",
+          "Look for an open stretch after each boost. A clear route gives you more room to pass another rider."
+        ],
+        "steps": [
+          [
+            "Choose a clear line",
+            "Steer around trees and bumps early so you have room to pass."
+          ],
+          [
+            "Use speed boosts",
+            "Collect a boost when you can stay on a clear route after picking it up."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I unlock more tracks?",
+            "Complete races to open new levels."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "park-empire",
+    "title": "Park Empire",
+    "category": {
+      "en": "Theme park management"
+    },
+    "source": "https://1games.io/park-empire",
+    "url": "https://1games.io/game/park-empire/?v=26100704",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/park-empire-cover.webp",
+      "artwork": "/assets/1games/park-empire-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/park-empire/park-empire.png",
+        "artwork": "https://1games.io/data/image/game/park-empire/park-empire.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-09-25",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "business-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Park Empire – Theme park management",
+        "summary": "Build a theme park in Park Empire. Reinvest admission revenue in rides, ticket booths and parking as visitor numbers grow.",
+        "about": [
+          "Start with a small park and use admission fees to open attractions such as the Ferris Wheel.",
+          "Ride upgrades can improve capacity and ticket revenue. As crowds grow, watch the entrance and parking as well as the rides."
+        ],
+        "steps": [
+          [
+            "Open your first attraction",
+            "Spend early admission revenue on a ride to give visitors more to do."
+          ],
+          [
+            "Upgrade park capacity",
+            "Add ticket booths or parking when arrivals start to outgrow the entrance."
+          ]
+        ],
+        "faq": [
+          [
+            "Which rides can I unlock?",
+            "Later attractions include roller coasters, water rides and haunted houses."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "funny-wheels",
+    "title": "Funny Wheels",
+    "category": {
+      "en": "Wheelchair obstacle course"
+    },
+    "source": "https://1games.io/funny-wheels",
+    "url": "https://game.1games.io/funny-wheels/",
+    "width": 440,
+    "height": 293,
+    "media": {
+      "icon": "/assets/1games/funny-wheels-icon.webp",
+      "artwork": "/assets/1games/funny-wheels-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 800,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/funny-wheels/funny-wheels1.png",
+        "artwork": "https://1games.io/data/image/game/funny-wheels/funny-wheels1.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-11-13",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "obstacles-games",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Funny Wheels – Wheelchair obstacle course",
+        "summary": "Control each wheel separately in Funny Wheels. Cross shifting platforms, dodge swinging traps and race to checkpoints.",
+        "about": [
+          "Each wheel has its own control. Moving them together helps you roll forward, while controlling one wheel lets you turn.",
+          "The obstacle course includes slick slopes and moving platforms. Checkpoints let you practise the next stretch without starting over."
+        ],
+        "steps": [
+          [
+            "Move both wheels",
+            "Use the left and right arrow keys to control the corresponding wheels."
+          ],
+          [
+            "Retry a tricky section",
+            "Press R to return to your checkpoint and try the obstacle again."
+          ]
+        ],
+        "faq": [
+          [
+            "Is there a race mode?",
+            "Wheel Race pits you against three rivals on themed courses."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "retro-football",
+    "title": "Retro Football",
+    "category": {
+      "en": "Arcade American football"
+    },
+    "source": "https://1games.io/retro-football",
+    "url": "https://game.1games.io/retro-football/",
+    "width": 440,
+    "height": 248,
+    "media": {
+      "icon": "/assets/1games/retro-football-icon.webp",
+      "artwork": "/assets/1games/retro-football-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 675,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/retro-football/retro-football.png",
+        "artwork": "https://1games.io/data/image/game/retro-football/retro-football.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-11-06",
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "pixel-games",
+        "tactical-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Retro Football – Arcade American football",
+        "summary": "Call the plays in Retro Football, a 6-on-6 American football game with passing routes, blitzes and a Retro Cup to chase.",
+        "about": [
+          "Choose one of four plays before each snap. On offense, the choice determines whether you look for a running lane or an open receiver.",
+          "On defense, compare zone coverage, man-to-man assignments and blitzes. A blitz can pressure the quarterback but leaves fewer players in coverage."
+        ],
+        "steps": [
+          [
+            "Pick an offensive play",
+            "Look for an open running lane or a route that gives your receiver space."
+          ],
+          [
+            "Read the defense",
+            "Throw to a receiver who has room to catch the ball and avoid forcing a deep pass into traffic."
+          ]
+        ],
+        "faq": [
+          [
+            "How many players are on each side?",
+            "Each team fields six players."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "slope-rider-city",
+    "title": "Slope Rider City",
+    "category": {
+      "en": "Endless 3D sledding"
+    },
+    "source": "https://1games.io/slope-rider-city",
+    "url": "https://game.1games.io/slope-rider-city/",
+    "width": 430,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/slope-rider-city-cover.webp",
+      "artwork": "/assets/1games/slope-rider-city-cover.webp",
+      "artworkWidth": 430,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/slope-rider-city/slope-rider-city_old_1794275627.png",
+        "artwork": "https://1games.io/data/image/game/slope-rider-city/slope-rider-city_old_1794275627.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-11-10",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "snow-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Slope Rider City – Endless 3D sledding",
+        "summary": "Steer a sled through snowy city streets in Slope Rider City. Dodge traffic, jump onto vehicle roofs and find elevated routes.",
+        "about": [
+          "Your sled moves forward automatically. Watch the junctions for cross traffic and look for ramps that open a route above the street.",
+          "Flashing headlights warn you that a car is about to charge. Changing lanes early leaves more room to get out of its path."
+        ],
+        "steps": [
+          [
+            "Read the next junction",
+            "Look across the road before passing through an intersection."
+          ],
+          [
+            "Take the high route",
+            "Line up with a ramp early if you want to jump onto a vehicle roof."
+          ]
+        ],
+        "faq": [
+          [
+            "Does the route change between runs?",
+            "Yes. The game shuffles its maps between runs."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "dino-game-tides",
+    "title": "Dino Game: Tides",
+    "category": {
+      "en": "Underwater dinosaur runner"
+    },
+    "source": "https://1games.io/dino-game-tides",
+    "url": "https://game.1games.io/dino-game-tides/",
+    "width": 440,
+    "height": 293,
+    "media": {
+      "icon": "/assets/1games/dino-game-tides-icon.webp",
+      "artwork": "/assets/1games/dino-game-tides-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 800,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/dino-game-tides/dino-game-tides.png",
+        "artwork": "https://1games.io/data/image/game/dino-game-tides/dino-game-tides.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "jumping-games",
+        "pixel-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Dino Game: Tides – Underwater dinosaur runner",
+        "summary": "Run and swim through Dino Game: Tides. Dodge coral and land obstacles, earn shells from your score and buy upgrades.",
+        "about": [
+          "The T-Rex crosses rocky trails and desert stretches before heading underwater. The hazards change with the terrain.",
+          "Underwater movement slows down, and jumps carry you higher. Leave space for the longer descent when coral or anchors are ahead."
+        ],
+        "steps": [
+          [
+            "Adjust your jumps",
+            "Wait for a clear landing area before jumping past an underwater obstacle."
+          ],
+          [
+            "Spend the shells you earn",
+            "Visit the shop after a run to buy equipment or permanent upgrades."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I earn shells?",
+            "You earn one shell for each full 1,000 points scored in a run."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "dino-game-meteor-strike",
+    "title": "Dino Game: Meteor Strike",
+    "category": {
+      "en": "Dinosaur meteor survival"
+    },
+    "source": "https://1games.io/dino-game-meteor-strike",
+    "url": "https://game.1games.io/dino-game-meteor-strike/",
+    "width": 440,
+    "height": 293,
+    "media": {
+      "icon": "/assets/1games/dino-game-meteor-strike-icon.webp",
+      "artwork": "/assets/1games/dino-game-meteor-strike-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 800,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/dino-game-meteor-strike/dino-game-meteor-strike.png",
+        "artwork": "https://1games.io/data/image/game/dino-game-meteor-strike/dino-game-meteor-strike.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "avoid-games",
+        "reaction-games",
+        "pixel-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Dino Game: Meteor Strike – Dinosaur meteor survival",
+        "summary": "Dodge falling meteors in Dino Game: Meteor Strike. Read the warning shadows, survive 20 waves and face two bosses.",
+        "about": [
+          "A flashing mark shows where each meteor will land. The flashes speed up as impact approaches.",
+          "Later waves bring larger meteors and showers. Move into open space early so you can react when several shadows appear together."
+        ],
+        "steps": [
+          [
+            "Watch the ground",
+            "Move away as soon as a warning shadow opens beneath you."
+          ],
+          [
+            "Plan an escape route",
+            "When marks overlap, look beyond the nearest shadow for a clear stretch."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I retry a wave?",
+            "Yes. A checkpoint lets you restart the failed wave."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "bounce-blast",
+    "title": "Bounce Blast",
+    "category": {
+      "en": "Arcade launcher"
+    },
+    "source": "https://1games.io/bounce-blast",
+    "url": "https://game.1games.io/bounce-blast/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/bounce-blast-cover.webp",
+      "artwork": "/assets/1games/bounce-blast-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bounce-blast/bounce-blast.png",
+        "artwork": "https://1games.io/data/image/game/bounce-blast/bounce-blast.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-11-06",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "throwing-games",
+        "timing-games",
+        "incremental-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Bounce Blast – Arcade launcher",
+        "summary": "Launch a wrestler into a crowd of gummies in Bounce Blast. Chain bounces, build momentum and upgrade your next run.",
+        "about": [
+          "Drag and release to launch. Landing on gummies sends the wrestler bouncing again and can extend the run.",
+          "Different wrestlers have their own abilities. Try the downward slam when you can see a dense group below you."
+        ],
+        "steps": [
+          [
+            "Aim the launch",
+            "Drag to set up the shot, then release to send your wrestler flying."
+          ],
+          [
+            "Keep bouncing",
+            "Look for groups of gummies where you can land and carry your momentum forward."
+          ]
+        ],
+        "faq": [
+          [
+            "What can I play after the story?",
+            "The game offers Stopwatch mode and an endless Rift."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "obby-bicycle",
+    "title": "Obby Bicycle",
+    "category": {
+      "en": "Bicycle parkour"
+    },
+    "source": "https://1games.io/obby-bicycle",
+    "url": "https://1games.io/embed/obby-bicycle",
+    "width": 440,
+    "height": 259,
+    "media": {
+      "icon": "/assets/1games/obby-bicycle-icon.webp",
+      "artwork": "/assets/1games/obby-bicycle-cover.webp",
+      "artworkWidth": 800,
+      "artworkHeight": 470,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/obby-bicycle/obby-bicycle.png",
+        "artwork": "https://1games.io/data/image/game/obby-bicycle/obby-bicycle.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "adventure"
+      ],
+      "tags": [
+        "jumping-games",
+        "obstacles-games",
+        "bike-racing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Obby Bicycle – Bicycle parkour",
+        "summary": "Ride across floating tracks in Obby Bicycle. Jump wide gaps, balance on narrow ledges and reach the next checkpoint.",
+        "about": [
+          "The bike carries more speed than a character on foot, so you can jump farther. Narrow platforms leave less room to correct your landing.",
+          "If you fall, you can resume at a checkpoint. Slow down before a narrow turn, then build speed again where the track gives you room."
+        ],
+        "steps": [
+          [
+            "Steer your bicycle",
+            "Use WASD or the arrow keys to move, steer and reverse."
+          ],
+          [
+            "Jump across gaps",
+            "Use Space to jump. Line the bike up with the landing before you take off."
+          ]
+        ],
+        "faq": [
+          [
+            "What happens if I fall off?",
+            "You return to the nearest checkpoint."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "parkour-block-maker",
+    "title": "Parkour Block Maker",
+    "category": {
+      "en": "Block parkour and level editor"
+    },
+    "source": "https://1games.io/parkour-block-maker",
+    "url": "https://1games.io/embed/parkour-block-maker",
+    "width": 440,
+    "height": 273,
+    "media": {
+      "icon": "/assets/1games/parkour-block-maker-icon.webp",
+      "artwork": "/assets/1games/parkour-block-maker-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 744,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/parkour-block-maker/parkour-block-maker.png",
+        "artwork": "https://1games.io/data/image/game/parkour-block-maker/parkour-block-maker.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "jumping-games",
+        "building-games",
+        "creativity-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Parkour Block Maker – Block parkour and level editor",
+        "summary": "Jump over lava in Parkour Block Maker. Reach the purple portal, then build and test your own floating obstacle course.",
+        "about": [
+          "First-person parkour courses pair narrow platforms with ice blocks, jump pads and drops into lava.",
+          "The level editor lets you lay out a course and see whether its jumps work. Test the distance between blocks before adding harder obstacles."
+        ],
+        "steps": [
+          [
+            "Plan your landing",
+            "Look at the next block before starting a jump, especially on ice."
+          ],
+          [
+            "Test your own route",
+            "Place several blocks in the editor and try the jumps in sequence."
+          ]
+        ],
+        "faq": [
+          [
+            "Where does a course end?",
+            "Look for the purple exit portal."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "moto-cabbie-simulator",
+    "title": "Moto Cabbie Simulator",
+    "category": {
+      "en": "Motorcycle taxi simulator"
+    },
+    "source": "https://1games.io/moto-cabbie-simulator",
+    "url": "https://1games.io/embed/moto-cabbie-simulator",
+    "width": 440,
+    "height": 259,
+    "media": {
+      "icon": "/assets/1games/moto-cabbie-simulator-icon.webp",
+      "artwork": "/assets/1games/moto-cabbie-simulator-cover.webp",
+      "artworkWidth": 800,
+      "artworkHeight": 470,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/moto-cabbie-simulator/moto-cabbie-simulator.png",
+        "artwork": "https://1games.io/data/image/game/moto-cabbie-simulator/moto-cabbie-simulator.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "delivery-games",
+        "vehicles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Moto Cabbie Simulator – Motorcycle taxi simulator",
+        "summary": "Pick up passengers in Moto Cabbie Simulator. Accept calls, navigate traffic and earn fares to unlock more motorbikes.",
+        "about": [
+          "Each job begins with a phone call. Once you accept, the pickup appears on the map and is marked on the sidewalk.",
+          "The destination appears after the passenger gets on. Brake before tight turns so you can carry the passenger through traffic safely."
+        ],
+        "steps": [
+          [
+            "Pick up your passenger",
+            "Accept the call and drive into the green pickup circle."
+          ],
+          [
+            "Ride to the destination",
+            "Use WASD or the arrow keys to drive and Space to brake."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I unlock new bikes?",
+            "Complete fares and save the money you earn."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "busdriver",
+    "title": "Busdriver",
+    "category": {
+      "en": "Bus seating puzzle"
+    },
+    "source": "https://1games.io/busdriver",
+    "url": "https://1games.io/embed/busdriver",
+    "width": 440,
+    "height": 273,
+    "media": {
+      "icon": "/assets/1games/busdriver-icon.webp",
+      "artwork": "/assets/1games/busdriver-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 744,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/busdriver/busdriver.png",
+        "artwork": "https://1games.io/data/image/game/busdriver/busdriver.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "logic",
+        "decision-games",
+        "bus"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Busdriver – Bus seating puzzle",
+        "summary": "Seat passengers in Busdriver, a logic puzzle about reading hints, finding compatible neighbors and keeping the bus ride going.",
+        "about": [
+          "Each passenger comes with a clue about where they might fit. Some neighbors raise happiness, while others cause disagreements.",
+          "Every seat you fill changes the choices left for the next passenger. Leave useful spaces open for people with stricter preferences."
+        ],
+        "steps": [
+          [
+            "Choose a seat",
+            "Use the arrow keys to select a seat and press Space to confirm."
+          ],
+          [
+            "Skip a poor match",
+            "Press N to decline a passenger when you cannot place them comfortably."
+          ]
+        ],
+        "faq": [
+          [
+            "What keeps the bus ride going?",
+            "Keep passengers happy by seating compatible people together and limiting disagreements."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "color-arrows-maze",
+    "title": "Color Arrows: Maze",
+    "category": {
+      "en": "Arrow maze puzzle"
+    },
+    "source": "https://1games.io/color-arrows-maze",
+    "url": "https://1games.io/embed/color-arrows-maze",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/color-arrows-maze-icon.webp",
+      "artwork": "/assets/1games/color-arrows-maze-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 742,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/color-arrows-maze/color-arrows-maze1.png",
+        "artwork": "https://1games.io/data/image/game/color-arrows-maze/color-arrows-maze1.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "arrows-games",
+        "logic",
+        "brain-training-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Color Arrows: Maze – Arrow maze puzzle",
+        "summary": "Untangle the grid in Color Arrows: Maze. Find arrows with clear exits and remove them in order without losing hearts.",
+        "about": [
+          "An arrow can leave only when its full path is clear. Removing one arrow can open the route for another piece farther inside the grid.",
+          "Start by tracing paths that point outside the board. If several are open, remove one that frees a blocked neighbor."
+        ],
+        "steps": [
+          [
+            "Trace an arrow's path",
+            "Follow the direction of the arrow to the edge before clicking it."
+          ],
+          [
+            "Unblock the next piece",
+            "After removing an arrow, check which nearby routes just opened."
+          ]
+        ],
+        "faq": [
+          [
+            "What happens if an arrow is blocked?",
+            "The arrow stays on the board and you lose one heart."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "golden-kitchen",
+    "title": "Golden Kitchen",
+    "category": {
+      "en": "Cooking time-management game"
+    },
+    "source": "https://1games.io/golden-kitchen",
+    "url": "https://game.1games.io/golden-kitchen/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/golden-kitchen-cover.webp",
+      "artwork": "/assets/1games/golden-kitchen-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/golden-kitchen/golden-kitchen.png",
+        "artwork": "https://1games.io/data/image/game/golden-kitchen/golden-kitchen.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-10-28",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "time-management-games",
+        "shop-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Golden Kitchen – Cooking time-management game",
+        "summary": "Cook and serve orders in Golden Kitchen. Manage burners, watch customer patience and reach each level's serving or earnings goal.",
+        "about": [
+          "Read the order above each customer to see which dishes and drinks they want. Some orders need several ingredients or steps.",
+          "As more customers arrive, keep an eye on food already cooking. Starting too many dishes at once makes them harder to serve before they burn."
+        ],
+        "steps": [
+          [
+            "Prepare the order",
+            "Click ingredients and appliances to cook, pour drinks and assemble the requested meal."
+          ],
+          [
+            "Serve before the wait runs out",
+            "Deliver finished dishes promptly and check any shared cooking stations before starting another order."
+          ]
+        ],
+        "faq": [
+          [
+            "What are the level goals?",
+            "A level may ask you to earn a target amount or serve a certain number of customers."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "joy-garden",
+    "title": "Joy Garden",
+    "category": {
+      "en": "Gardening and farming simulator"
+    },
+    "source": "https://1games.io/joy-garden",
+    "url": "https://1games.io/game/joy-garden/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/joy-garden-cover.webp",
+      "artwork": "/assets/1games/joy-garden-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/joy-garden/joy-garden.png",
+        "artwork": "https://1games.io/data/image/game/joy-garden/joy-garden.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-10-19",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "plant-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Joy Garden – Gardening and farming simulator",
+        "summary": "Grow and sell crops in Joy Garden. Water thirsty plants, remove pests and use your gold to expand beyond the starter plot.",
+        "about": [
+          "Select a seed and plant it in an empty plot. A water-drop icon shows when a plant needs attention.",
+          "Sparkles show which crops are ready to harvest. Sell what you pick to earn gold for more seeds and room to grow."
+        ],
+        "steps": [
+          [
+            "Plant several plots",
+            "Select a seed and drag across empty plots to plant more than one at a time."
+          ],
+          [
+            "Care for nearby plants",
+            "Select a plant that needs care, then drag the tool across other plants that need the same treatment."
+          ]
+        ],
+        "faq": [
+          [
+            "How can I tell when a crop is ready?",
+            "Look for sparkles around the plant."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "drift-masters",
+    "title": "Drift Masters",
+    "category": {
+      "en": "3D car drifting"
+    },
+    "source": "https://1games.io/drift-masters",
+    "url": "https://1games.io/game/drift-masters/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/drift-masters-cover.webp",
+      "artwork": "/assets/1games/drift-masters-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/drift-masters/drift-masters.png",
+        "artwork": "https://1games.io/data/image/game/drift-masters/drift-masters.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-10-21",
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "car-tuning-games",
+        "race-games",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Drift Masters – 3D car drifting",
+        "summary": "Link drifts in Drift Masters. Keep the multiplier alive through mountain bends, industrial streets and snowy corners.",
+        "about": [
+          "Points build while the car is sliding. Connecting one slide to the next increases the score multiplier.",
+          "Hitting a wall breaks the streak. Enter bends under control so you have space to set up the next slide."
+        ],
+        "steps": [
+          [
+            "Set up before the bend",
+            "Choose a line that leaves enough room to slide without hitting the barrier."
+          ],
+          [
+            "Link two corners",
+            "Watch the next bend as you exit the first and steer smoothly into another slide."
+          ]
+        ],
+        "faq": [
+          [
+            "What breaks a drift streak?",
+            "A collision with a wall or track barrier interrupts your streak."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "soccer-orbit",
+    "title": "Soccer Orbit",
+    "category": {
+      "en": "One-button soccer launch"
+    },
+    "source": "https://1games.io/soccer-orbit",
+    "url": "https://1games.io/embed/soccer-orbit",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/soccer-orbit-icon.webp",
+      "artwork": "/assets/1games/soccer-orbit-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 742,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/soccer-orbit/soccer-orbit.png",
+        "artwork": "https://1games.io/data/image/game/soccer-orbit/soccer-orbit.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "one-button-games",
+        "timing-games",
+        "incremental-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Soccer Orbit – One-button soccer launch",
+        "summary": "Time a long-distance kick in Soccer Orbit. Earn coins from each flight and improve strength, speed and bounce.",
+        "about": [
+          "A moving arrow sets the launch direction. Your click stops the arrow and kicks the ball.",
+          "Distance is measured in feet as the ball climbs past city landmarks. Coins from the shot let you buy upgrades before the next kick."
+        ],
+        "steps": [
+          [
+            "Time the moving arrow",
+            "Watch it sweep across the gauge before you click to kick."
+          ],
+          [
+            "Use coins between kicks",
+            "Upgrade strength, speed or bounce and see how the change affects the next flight."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I control the ball after kicking?",
+            "The timed launch sets up the flight. Save your next adjustment for the following kick."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "trap-the-cat",
+    "title": "Trap The Cat",
+    "category": {
+      "en": "Cat trapping logic puzzle"
+    },
+    "source": "https://1games.io/trap-the-cat",
+    "url": "https://play.1gdata.com/hoe00kip/index.html",
+    "width": 440,
+    "height": 246,
+    "media": {
+      "icon": "/assets/1games/trap-the-cat-icon.webp",
+      "artwork": "/assets/1games/trap-the-cat-cover.webp",
+      "artworkWidth": 830,
+      "artworkHeight": 464,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/trap-the-cat/trap-the-cat.jpg",
+        "artwork": "https://1games.io/data/image/game/trap-the-cat/trap-the-cat.jpg"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "logic",
+        "brain-training-games",
+        "turnbased-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Trap The Cat – Cat trapping logic puzzle",
+        "summary": "Block the cat's escape routes in Trap The Cat. Close one tile per turn and build a ring before the cat reaches the edge.",
+        "about": [
+          "The cat moves after each tile you close. Watch which edge it is heading toward and block the short routes first.",
+          "A barrier farther from the cat can cut off several escape paths. Once the outer routes close, tighten the ring one tile at a time."
+        ],
+        "steps": [
+          [
+            "Close an escape route",
+            "Click a tile that blocks a direct path from the cat to the edge."
+          ],
+          [
+            "Check the cat's next move",
+            "Look at the tiles still open around the cat before placing the next block."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I win?",
+            "Close every route to the edge so the cat has no way out."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "donut-clicker",
+    "title": "Donut Clicker",
+    "category": {
+      "en": "Donut bakery clicker"
+    },
+    "source": "https://1games.io/donut-clicker",
+    "url": "https://1games.io/game/donut-clicker/?v=26101901",
+    "width": 440,
+    "height": 248,
+    "media": {
+      "icon": "/assets/1games/donut-clicker-icon.webp",
+      "artwork": "/assets/1games/donut-clicker-cover.webp",
+      "artworkWidth": 711,
+      "artworkHeight": 400,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/donut-clicker/donut-clicker.png",
+        "artwork": "https://1games.io/data/image/game/donut-clicker/donut-clicker.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-10-05",
+      "genres": [
+        "clicker"
+      ],
+      "tags": [
+        "incremental-games",
+        "bakery-games",
+        "business-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Donut Clicker – Donut bakery clicker",
+        "summary": "Grow a bakery in Donut Clicker. Make donuts by hand, buy automatic producers and reinvest in production upgrades.",
+        "about": [
+          "Each click earns donuts. Save enough for an automatic producer so the bakery can keep making donuts on its own.",
+          "As output rises, compare new producers with upgrades for equipment you already own. Both can speed up your next purchase."
+        ],
+        "steps": [
+          [
+            "Make the first batch",
+            "Click the large donut until you have enough for your first purchase."
+          ],
+          [
+            "Reinvest your earnings",
+            "Buy a producer or an upgrade that raises production for future purchases."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I make donuts without clicking?",
+            "Buy a building that produces donuts automatically."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "snake-game",
+    "title": "Snake Game",
+    "category": {
+      "en": "Classic Snake with 16 modes"
+    },
+    "source": "https://1games.io/snake-game",
+    "url": "https://1games.io/embed/snake-game",
+    "width": 440,
+    "height": 293,
+    "media": {
+      "icon": "/assets/1games/snake-game-icon.webp",
+      "artwork": "/assets/1games/snake-game-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 800,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/snake-game/snake-game1.png",
+        "artwork": "https://1games.io/data/image/game/snake-game/snake-game1.png"
+      }
+    },
+    "metadata": {
+      "releaseDate": "2026-10-01",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "reaction-games",
+        "logic"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Snake Game – Classic Snake with 16 modes",
+        "summary": "Chase fruit in Snake Game. Grow your snake, avoid its tail and try 16 modes with different hazards and board rules.",
+        "about": [
+          "Every fruit adds a point and makes the snake longer. As open space shrinks, give yourself room to turn after the next piece of fruit.",
+          "You can choose the board size and amount of fruit. Modes such as Portal and Sokoban add their own rules to the familiar arcade game."
+        ],
+        "steps": [
+          [
+            "Plan a route to the fruit",
+            "Pick a path that leaves an open turn after you eat."
+          ],
+          [
+            "Try a different mode",
+            "Switch modes to practise with a new hazard or puzzle rule."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I change the board size?",
+            "Yes. You can adjust the board size before starting a run."
+          ]
+        ]
+      }
+    }
   }
 ]

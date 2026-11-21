@@ -5281,6 +5281,506 @@
           "Bleib auf dem sicheren Weg, wenn du wegen eines Tropfens die nächste Plattform verfehlen würdest."
         ]
       ]
+    },
+    "bike-hill-3d": {
+      "category": "Downhill-Radrennen",
+      "searchTitle": "Bike Hill 3D – Downhill-Radrennen",
+      "summary": "Fahre in Bike Hill 3D den Berg hinunter. Weiche Bäumen und Bodenwellen aus, sammle Turbos und überhole deine Rivalen vor dem Ziel.",
+      "about": [
+        "Alle Fahrer starten oben auf dem Hügel. Mit zunehmendem Tempo musst du Bäumen und Bodenwellen rechtzeitig ausweichen.",
+        "Halte nach einem Turbo nach freien Streckenabschnitten Ausschau. Dort kannst du leichter überholen."
+      ],
+      "steps": [
+        [
+          "Eine freie Spur wählen",
+          "Weiche Bäumen und Bodenwellen früh aus, damit du Platz zum Überholen hast."
+        ],
+        [
+          "Turbos einsammeln",
+          "Nimm den Turbo mit, wenn die Strecke dahinter frei ist."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie schalte ich weitere Strecken frei?",
+          "Schließe Rennen ab, um neue Level freizuschalten."
+        ]
+      ]
+    },
+    "park-empire": {
+      "category": "Freizeitpark-Management",
+      "searchTitle": "Park Empire – Freizeitpark-Management",
+      "summary": "Bauen Sie einen Themenpark in Park Empire. Reinvestieren Sie die Eintrittseinnahmen in Fahrgeschäfte, Ticketschalter und Parkplätze, wenn die Besucherzahlen steigen.",
+      "about": [
+        "Beginnen Sie mit einem kleinen Park und nutzen Sie die Eintrittsgelder, um Attraktionen wie das Riesenrad zu eröffnen.",
+        "Durch Fahr-Upgrades können die Kapazität und die Ticketeinnahmen verbessert werden. Achten Sie bei wachsendem Andrang auf den Eingang, die Parkplätze und die Fahrgeschäfte."
+      ],
+      "steps": [
+        [
+          "Eröffnen Sie Ihre erste Attraktion",
+          "Geben Sie die Einnahmen aus dem frühen Eintritt für eine Fahrt aus, um den Besuchern mehr zu bieten."
+        ],
+        [
+          "Erweitern Sie die Parkkapazität",
+          "Fügen Sie Ticketschalter oder Parkplätze hinzu, wenn die Ankünfte über den Eingang hinauswachsen."
+        ]
+      ],
+      "faq": [
+        [
+          "Welche Fahrten kann ich freischalten?",
+          "Spätere Attraktionen umfassen Achterbahnen, Wasserbahnen und Spukhäuser."
+        ]
+      ]
+    },
+    "funny-wheels": {
+      "category": "Rollstuhl-Hindernisparcours",
+      "searchTitle": "Funny Wheels – Rollstuhl-Hindernisparcours",
+      "summary": "Steuern Sie in Funny Wheels jedes Rad separat. Überqueren Sie wechselnde Plattformen, weichen Sie schwingenden Fallen aus und rennen Sie zu Kontrollpunkten.",
+      "about": [
+        "Jedes Rad hat seine eigene Steuerung. Wenn Sie sie zusammen bewegen, können Sie vorwärts rollen, während Sie durch die Steuerung eines Rads drehen können.",
+        "Der Hindernisparcours umfasst glatte Hänge und bewegliche Plattformen. An Kontrollpunkten können Sie die nächste Strecke üben, ohne von vorne beginnen zu müssen."
+      ],
+      "steps": [
+        [
+          "Bewegen Sie beide Räder",
+          "Verwenden Sie die linke und rechte Pfeiltaste, um die entsprechenden Räder zu steuern."
+        ],
+        [
+          "Versuchen Sie es noch einmal mit einem schwierigen Abschnitt",
+          "Drücken Sie R, um zu Ihrem Kontrollpunkt zurückzukehren und versuchen Sie es erneut mit dem Hindernis."
+        ]
+      ],
+      "faq": [
+        [
+          "Gibt es einen Rennmodus?",
+          "Bei Wheel Race treten Sie auf Themenstrecken gegen drei Rivalen an."
+        ]
+      ]
+    },
+    "retro-football": {
+      "category": "American Football im Arcade-Stil",
+      "searchTitle": "Retro Football – American Football im Arcade-Stil",
+      "summary": "Wähle in Retro Football die Spielzüge für dein 6-gegen-6-Team. Nutze Laufwege, Pässe und Blitzes auf dem Weg zum Retro Cup.",
+      "about": [
+        "Wählen Sie vor jedem Snap einen von vier Spielzügen. In der Offensive bestimmt die Wahl, ob Sie eine Running Lane oder einen offenen Receiver suchen.",
+        "Vergleichen Sie in der Verteidigung Zonenabdeckung, Mann-zu-Mann-Einsätze und Blitzangriffe. Ein Blitz kann den Quarterback unter Druck setzen, lässt aber weniger Spieler in Deckung."
+      ],
+      "steps": [
+        [
+          "Wählen Sie einen offensiven Spielzug",
+          "Suchen Sie nach einer offenen Laufbahn oder einer Route, die Ihrem Empfänger Platz bietet."
+        ],
+        [
+          "Lesen Sie die Verteidigung",
+          "Wirf den Ball zu einem Receiver, der Platz hat, um den Ball zu fangen, und vermeide es, einen tiefen Pass in den Verkehr zu erzwingen."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie viele Spieler sind auf jeder Seite?",
+          "Jedes Team stellt sechs Spieler auf."
+        ]
+      ]
+    },
+    "slope-rider-city": {
+      "category": "3D-Schlittenfahrt ohne Ende",
+      "searchTitle": "Slope Rider City – 3D-Schlittenfahrt ohne Ende",
+      "summary": "Steuern Sie in Slope Rider City einen Schlitten durch verschneite Straßen der Stadt. Weiche dem Verkehr aus, springe auf Fahrzeugdächer und finde erhöhte Routen.",
+      "about": [
+        "Ihr Schlitten bewegt sich automatisch vorwärts. Achten Sie auf Querverkehr an den Kreuzungen und auf Rampen, die eine Route oberhalb der Straße freigeben.",
+        "Blinkende Scheinwerfer machen Sie darauf aufmerksam, dass ein Auto aufgeladen wird. Ein früher Spurwechsel lässt mehr Spielraum, um aus dem Weg zu gehen."
+      ],
+      "steps": [
+        [
+          "Lesen Sie die nächste Kreuzung",
+          "Schauen Sie auf die andere Straßenseite, bevor Sie eine Kreuzung passieren."
+        ],
+        [
+          "Nehmen Sie den Höhenweg",
+          "Wenn Sie auf das Dach eines Fahrzeugs springen möchten, stellen Sie sich frühzeitig an einer Rampe auf."
+        ]
+      ],
+      "faq": [
+        [
+          "Ändert sich die Route zwischen den Läufen?",
+          "Ja. Das Spiel mischt seine Karten zwischen den Läufen."
+        ]
+      ]
+    },
+    "dino-game-tides": {
+      "category": "Dino-Endloslauf unter Wasser",
+      "searchTitle": "Dino Game: Tides – Dino-Endloslauf unter Wasser",
+      "summary": "Laufen und schwimmen Sie durch Dino Game: Tides. Weiche Korallen- und Landhindernissen aus, verdiene Muscheln mit deiner Punktzahl und kaufe Upgrades.",
+      "about": [
+        "Der T-Rex überquert felsige Pfade und Wüstenabschnitte, bevor er unter Wasser geht. Die Gefahren ändern sich je nach Gelände.",
+        "Die Bewegung unter Wasser verlangsamt sich und Sprünge bringen Sie höher. Lassen Sie Platz für den längeren Abstieg, wenn Korallen oder Anker vor Ihnen liegen."
+      ],
+      "steps": [
+        [
+          "Passen Sie Ihre Sprünge an",
+          "Warten Sie auf einen freien Landeplatz, bevor Sie an einem Unterwasserhindernis vorbeispringen."
+        ],
+        [
+          "Gib die Muscheln aus, die du verdienst",
+          "Besuchen Sie den Shop nach einem Lauf, um Ausrüstung oder dauerhafte Upgrades zu kaufen."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie verdiene ich Muscheln?",
+          "Für jeweils volle 1.000 Punkte, die Sie in einem Lauf erzielen, erhalten Sie eine Granate."
+        ]
+      ]
+    },
+    "dino-game-meteor-strike": {
+      "category": "Dino-Spiel mit Meteorschauern",
+      "searchTitle": "Dino Game: Meteor Strike – Dino-Spiel mit Meteorschauern",
+      "summary": "Weiche fallenden Meteoren im Dino-Spiel: Meteor Strike aus. Lesen Sie die Warnschatten, überleben Sie 20 Wellen und stellen Sie sich zwei Bossen.",
+      "about": [
+        "Eine blinkende Markierung zeigt an, wo jeder Meteor landen wird. Die Blitze werden schneller, je näher der Aufprall kommt.",
+        "Spätere Wellen bringen größere Meteore und Schauer. Begeben Sie sich frühzeitig ins Freie, damit Sie reagieren können, wenn mehrere Schatten gleichzeitig auftauchen."
+      ],
+      "steps": [
+        [
+          "Beobachten Sie den Boden",
+          "Entfernen Sie sich, sobald sich unter Ihnen ein warnender Schatten öffnet."
+        ],
+        [
+          "Planen Sie einen Fluchtweg",
+          "Wenn sich Markierungen überlappen, schauen Sie über den nächsten Schatten hinaus, um eine klare Strecke zu erkennen."
+        ]
+      ],
+      "faq": [
+        [
+          "Kann ich eine Welle wiederholen?",
+          "Ja. Mit einem Prüfpunkt können Sie die fehlgeschlagene Welle neu starten."
+        ]
+      ]
+    },
+    "bounce-blast": {
+      "category": "Arcade-Katapultspiel",
+      "searchTitle": "Bounce Blast – Arcade-Katapultspiel",
+      "summary": "Schleudere in Bounce Blast einen Wrestler in eine Menge Gummibärchen. Pralle mehrmals auf und verbessere deine Ausrüstung für den nächsten Versuch.",
+      "about": [
+        "Zum Starten ziehen und loslassen. Die Landung auf Gummibärchen lässt den Wrestler erneut hüpfen und kann den Lauf verlängern.",
+        "Verschiedene Wrestler haben ihre eigenen Fähigkeiten. Versuchen Sie es mit dem Downslam, wenn Sie unter sich eine dichte Gruppe sehen können."
+      ],
+      "steps": [
+        [
+          "Zielen Sie auf den Start",
+          "Ziehen Sie, um den Schuss vorzubereiten, und lassen Sie ihn dann los, um Ihren Wrestler fliegen zu lassen."
+        ],
+        [
+          "Hüpfen Sie weiter",
+          "Suchen Sie nach Gummibärchengruppen, in denen Sie landen und Ihren Schwung weitertragen können."
+        ]
+      ],
+      "faq": [
+        [
+          "Was kann ich nach der Geschichte spielen?",
+          "Das Spiel bietet einen Stoppuhr-Modus und einen endlosen Riss."
+        ]
+      ]
+    },
+    "obby-bicycle": {
+      "category": "Fahrrad-Parkour",
+      "searchTitle": "Obby Bicycle – Fahrrad-Parkour",
+      "summary": "Fahren Sie in Obby Bicycle über schwebende Strecken. Überspringen Sie weite Lücken, balancieren Sie auf schmalen Felsvorsprüngen und erreichen Sie den nächsten Kontrollpunkt.",
+      "about": [
+        "Das Fahrrad ist schneller als eine Figur zu Fuß, sodass Sie weiter springen können. Schmale Plattformen lassen weniger Platz für die Korrektur Ihrer Landung.",
+        "Wenn Sie stürzen, können Sie an einem Kontrollpunkt weitermachen. Fahren Sie vor einer engen Kurve langsamer und steigern Sie dann wieder die Geschwindigkeit, wenn die Strecke Ihnen Platz lässt."
+      ],
+      "steps": [
+        [
+          "Lenken Sie Ihr Fahrrad",
+          "Verwenden Sie WASD oder die Pfeiltasten zum Bewegen, Lenken und Rückwärtsfahren."
+        ],
+        [
+          "Springe über Lücken",
+          "Benutze die Leertaste, um zu springen. Richten Sie das Fahrrad vor dem Abheben an der Landestelle aus."
+        ]
+      ],
+      "faq": [
+        [
+          "Was passiert, wenn ich herunterfalle?",
+          "Sie kehren zum nächstgelegenen Kontrollpunkt zurück."
+        ]
+      ]
+    },
+    "parkour-block-maker": {
+      "category": "Block-Parkour mit Level-Editor",
+      "searchTitle": "Parkour Block Maker – Block-Parkour mit Level-Editor",
+      "summary": "Springe im Parkour Block Maker über Lava. Erreichen Sie das violette Portal und bauen und testen Sie dann Ihren eigenen schwimmenden Hindernisparcours.",
+      "about": [
+        "Bei den First-Person-Parkour-Kursen werden schmale Plattformen mit Eisblöcken, Sprungpads und Abstürzen in die Lava kombiniert.",
+        "Mit dem Level-Editor können Sie einen Parcours gestalten und sehen, ob seine Sprünge funktionieren. Testen Sie den Abstand zwischen den Blöcken, bevor Sie härtere Hindernisse hinzufügen."
+      ],
+      "steps": [
+        [
+          "Planen Sie Ihre Landung",
+          "Schauen Sie sich den nächsten Block an, bevor Sie einen Sprung beginnen, insbesondere auf Eis."
+        ],
+        [
+          "Testen Sie Ihre eigene Route",
+          "Platzieren Sie mehrere Blöcke im Editor und probieren Sie die Sprünge nacheinander aus."
+        ]
+      ],
+      "faq": [
+        [
+          "Wo endet ein Kurs?",
+          "Suchen Sie nach dem violetten Ausgangsportal."
+        ]
+      ]
+    },
+    "moto-cabbie-simulator": {
+      "category": "Motorradtaxi-Simulator",
+      "searchTitle": "Moto Cabbie Simulator – Motorradtaxi-Simulator",
+      "summary": "Holen Sie Passagiere im Moto Cabbie Simulator ab. Nehmen Sie Anrufe entgegen, navigieren Sie durch den Verkehr und verdienen Sie Fahrpreise, um mehr Motorräder freizuschalten.",
+      "about": [
+        "Jeder Auftrag beginnt mit einem Anruf. Sobald Sie zustimmen, wird die Abholung auf der Karte angezeigt und auf dem Bürgersteig markiert.",
+        "Das Ziel erscheint, nachdem der Fahrgast eingestiegen ist. Bremsen Sie vor engen Kurven, damit Sie den Beifahrer sicher durch den Verkehr befördern können."
+      ],
+      "steps": [
+        [
+          "Holen Sie Ihren Beifahrer ab",
+          "Nehmen Sie den Anruf an und fahren Sie in den grünen Pickup-Kreis."
+        ],
+        [
+          "Fahrt zum Ziel",
+          "Verwenden Sie WASD oder die Pfeiltasten zum Fahren und die Leertaste zum Bremsen."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie schalte ich neue Fahrräder frei?",
+          "Schließen Sie Tarife ab und sparen Sie das Geld, das Sie verdienen."
+        ]
+      ]
+    },
+    "busdriver": {
+      "category": "Sitzplatzrätsel im Bus",
+      "searchTitle": "Busdriver – Sitzplatzrätsel im Bus",
+      "summary": "Setzen Sie Passagiere in Busdriver, einem Logikrätsel, bei dem es darum geht, Hinweise zu lesen, kompatible Nachbarn zu finden und die Busfahrt am Laufen zu halten.",
+      "about": [
+        "Jeder Passagier hat eine Ahnung, wo er hinpassen könnte. Manche Nachbarn machen glücklich, andere sorgen für Unstimmigkeiten.",
+        "Jeder Sitzplatz, den Sie besetzen, ändert die Auswahlmöglichkeiten für den nächsten Passagier. Lassen Sie nützliche Räume für Menschen mit strengeren Vorlieben offen."
+      ],
+      "steps": [
+        [
+          "Wählen Sie einen Sitzplatz",
+          "Wählen Sie mit den Pfeiltasten einen Sitzplatz aus und drücken Sie zur Bestätigung die Leertaste."
+        ],
+        [
+          "Überspringen Sie ein schlechtes Spiel",
+          "Drücken Sie N, um einen Passagier abzulehnen, wenn Sie ihn nicht bequem unterbringen können."
+        ]
+      ],
+      "faq": [
+        [
+          "Was hält die Busfahrt am Laufen?",
+          "Sorgen Sie dafür, dass die Passagiere zufrieden sind, indem Sie kompatible Personen zusammenbringen und Meinungsverschiedenheiten begrenzen."
+        ]
+      ]
+    },
+    "color-arrows-maze": {
+      "category": "Pfeil-Labyrinth",
+      "searchTitle": "Color Arrows: Maze – Pfeil-Labyrinth",
+      "summary": "Löse das Pfeil-Labyrinth in Color Arrows: Maze. Entferne zuerst Pfeile mit freier Bahn und räume das Gitter, ohne Herzen zu verlieren.",
+      "about": [
+        "Ein Pfeil verlässt das Feld nur, wenn sein ganzer Weg bis zum Rand frei ist. Räumst du ihn weg, kann weiter innen ein anderer Pfeil frei werden.",
+        "Sieh zuerst nach, welche Pfeile bis zum Rand freie Bahn haben. Gibt es mehrere, nimm den Pfeil, der einem anderen Platz macht."
+      ],
+      "steps": [
+        [
+          "Dem Pfeil bis zum Rand folgen",
+          "Prüfe vor dem Anklicken, ob ein anderer Pfeil den Weg versperrt."
+        ],
+        [
+          "Den nächsten Weg freimachen",
+          "Schau nach jedem Zug, welche Pfeile jetzt freie Bahn haben."
+        ]
+      ],
+      "faq": [
+        [
+          "Was passiert, wenn der Weg versperrt ist?",
+          "Der Pfeil bleibt liegen und du verlierst ein Herz."
+        ]
+      ]
+    },
+    "golden-kitchen": {
+      "category": "Kochspiel mit Zeitmanagement",
+      "searchTitle": "Golden Kitchen – Kochspiel mit Zeitmanagement",
+      "summary": "Kochen und servieren Sie Bestellungen in Golden Kitchen. Verwalten Sie Brenner, achten Sie auf die Geduld Ihrer Kunden und erreichen Sie das Servier- oder Ertragsziel jedes Levels.",
+      "about": [
+        "Lesen Sie die Bestellung über jedem Kunden, um zu sehen, welche Gerichte und Getränke er möchte. Manche Bestellungen erfordern mehrere Zutaten oder Schritte.",
+        "Wenn mehr Kunden eintreffen, behalten Sie die bereits gekochten Speisen im Auge. Wenn Sie zu viele Gerichte auf einmal zubereiten, ist es schwieriger, sie zu servieren, bevor sie anbrennen."
+      ],
+      "steps": [
+        [
+          "Bereiten Sie die Bestellung vor",
+          "Klicken Sie auf Zutaten und Geräte, um zu kochen, Getränke einzuschenken und die gewünschte Mahlzeit zusammenzustellen."
+        ],
+        [
+          "Servieren Sie, bevor die Wartezeit abläuft",
+          "Liefern Sie fertige Gerichte zeitnah aus und überprüfen Sie alle gemeinsam genutzten Kochstationen, bevor Sie eine weitere Bestellung starten."
+        ]
+      ],
+      "faq": [
+        [
+          "Was sind die Levelziele?",
+          "In einem Level werden Sie möglicherweise aufgefordert, einen Zielbetrag zu verdienen oder eine bestimmte Anzahl von Kunden zu bedienen."
+        ]
+      ]
+    },
+    "joy-garden": {
+      "category": "Gartensimulation",
+      "searchTitle": "Joy Garden – Gartensimulation",
+      "summary": "Bauen Sie Pflanzen in Joy Garden an und verkaufen Sie sie. Bewässern Sie durstige Pflanzen, entfernen Sie Schädlinge und nutzen Sie Ihr Gold, um über die Startparzelle hinaus zu expandieren.",
+      "about": [
+        "Wählen Sie einen Samen aus und pflanzen Sie ihn in eine leere Parzelle. Ein Wassertropfensymbol zeigt an, wenn eine Pflanze Aufmerksamkeit benötigt.",
+        "Funkeln zeigen an, welche Pflanzen zur Ernte bereit sind. Verkaufen Sie, was Sie pflücken, um Gold für mehr Samen und Platz zum Wachsen zu verdienen."
+      ],
+      "steps": [
+        [
+          "Bepflanzen Sie mehrere Parzellen",
+          "Wählen Sie einen Samen aus und ziehen Sie ihn über leere Parzellen, um mehr als einen Samen gleichzeitig zu säen."
+        ],
+        [
+          "Kümmere dich um Pflanzen in der Nähe",
+          "Wählen Sie eine Pflanze aus, die Pflege benötigt, und ziehen Sie das Werkzeug dann über andere Pflanzen, die die gleiche Behandlung benötigen."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie kann ich erkennen, wann eine Ernte fertig ist?",
+          "Suchen Sie nach Glitzern rund um die Pflanze."
+        ]
+      ]
+    },
+    "drift-masters": {
+      "category": "3D-Driftrennen",
+      "searchTitle": "Drift Masters – 3D-Driftrennen",
+      "summary": "Verbinde in Drift Masters mehrere Drifts und halte den Punktemultiplikator auf Bergstraßen, im Industriegebiet und auf verschneiten Strecken.",
+      "about": [
+        "Beim Driften sammelst du Punkte. Gehst du direkt in den nächsten Drift über, steigt dein Punktemultiplikator.",
+        "Ein Aufprall an der Streckenbegrenzung beendet die Serie. Fahre so in die Kurve, dass dir am Ausgang Platz für den nächsten Drift bleibt."
+      ],
+      "steps": [
+        [
+          "Die Kurve vorbereiten",
+          "Wähle eine Fahrlinie, die dir beim Driften genug Abstand zur Begrenzung lässt."
+        ],
+        [
+          "Zwei Drifts verbinden",
+          "Schau beim Herausfahren schon zur nächsten Kurve und lenke gleichmäßig in den nächsten Drift ein."
+        ]
+      ],
+      "faq": [
+        [
+          "Wann endet meine Driftserie?",
+          "Sobald du gegen eine Wand oder die Streckenbegrenzung fährst."
+        ]
+      ]
+    },
+    "soccer-orbit": {
+      "category": "Fußball-Weitschuss",
+      "searchTitle": "Soccer Orbit – Fußball-Weitschuss",
+      "summary": "Passen Sie in Soccer Orbit einen Distanzstoß an. Verdienen Sie Münzen bei jedem Flug und verbessern Sie Kraft, Geschwindigkeit und Sprungkraft.",
+      "about": [
+        "Ein beweglicher Pfeil gibt die Startrichtung vor. Ihr Klick stoppt den Pfeil und wirft den Ball.",
+        "Die Entfernung wird in Fuß gemessen, wenn der Ball an Wahrzeichen der Stadt vorbeifliegt. Mit Münzen aus dem Schuss können Sie vor dem nächsten Kick Upgrades kaufen."
+      ],
+      "steps": [
+        [
+          "Zeit den sich bewegenden Pfeil",
+          "Beobachten Sie, wie es über die Anzeige streicht, bevor Sie klicken, um zu treten."
+        ],
+        [
+          "Verwenden Sie Münzen zwischen den Tritten",
+          "Verbessern Sie Kraft, Geschwindigkeit oder Sprungkraft und sehen Sie, wie sich die Änderung auf den nächsten Flug auswirkt."
+        ]
+      ],
+      "faq": [
+        [
+          "Beherrsche ich den Ball nach dem Kicken?",
+          "Der zeitgesteuerte Start bereitet den Flug vor. Speichern Sie Ihre nächste Anpassung für den nächsten Kick."
+        ]
+      ]
+    },
+    "trap-the-cat": {
+      "category": "Logikrätsel mit Katze",
+      "searchTitle": "Trap The Cat – Logikrätsel mit Katze",
+      "summary": "Blockieren Sie in Trap The Cat die Fluchtwege der Katze. Schließen Sie pro Runde ein Plättchen und bauen Sie einen Ring, bevor die Katze den Rand erreicht.",
+      "about": [
+        "Die Katze bewegt sich nach jedem geschlossenen Plättchen. Achten Sie darauf, auf welche Kante es zusteuert, und blockieren Sie zuerst die kurzen Routen.",
+        "Eine weiter von der Katze entfernte Barriere kann mehrere Fluchtwege versperren. Sobald sich die äußeren Routen schließen, ziehen Sie den Ring Ziegel für Ziegel fest."
+      ],
+      "steps": [
+        [
+          "Sperren Sie einen Fluchtweg",
+          "Klicken Sie auf eine Kachel, die einen direkten Weg von der Katze zum Rand blockiert."
+        ],
+        [
+          "Überprüfen Sie den nächsten Zug der Katze",
+          "Schauen Sie sich die noch offenen Plättchen rund um die Katze an, bevor Sie den nächsten Block platzieren."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie gewinne ich?",
+          "Schließen Sie jeden Weg bis zum Rand, damit die Katze keinen Ausweg hat."
+        ]
+      ]
+    },
+    "donut-clicker": {
+      "category": "Donut-Bäckerei-Clicker",
+      "searchTitle": "Donut Clicker – Donut-Bäckerei-Clicker",
+      "summary": "Bauen Sie in Donut Clicker eine Bäckerei auf. Machen Sie Donuts von Hand, kaufen Sie automatische Hersteller und investieren Sie in Produktionsverbesserungen.",
+      "about": [
+        "Jeder Klick bringt Donuts ein. Sparen Sie genug für einen automatischen Hersteller, damit die Bäckerei weiterhin selbst Donuts herstellen kann.",
+        "Wenn die Produktion steigt, vergleichen Sie neue Hersteller mit Upgrades für Geräte, die Sie bereits besitzen. Beides kann Ihren nächsten Einkauf beschleunigen."
+      ],
+      "steps": [
+        [
+          "Machen Sie die erste Charge",
+          "Klicken Sie auf den großen Donut, bis Sie genug für Ihren ersten Einkauf haben."
+        ],
+        [
+          "Reinvestieren Sie Ihre Einnahmen",
+          "Kaufen Sie einen Produzenten oder ein Upgrade, das die Produktion für zukünftige Einkäufe steigert."
+        ]
+      ],
+      "faq": [
+        [
+          "Wie mache ich Donuts, ohne zu klicken?",
+          "Kaufen Sie ein Gebäude, das automatisch Donuts produziert."
+        ]
+      ]
+    },
+    "snake-game": {
+      "category": "Snake mit 16 Spielmodi",
+      "searchTitle": "Snake Game – Snake mit 16 Spielmodi",
+      "summary": "Verfolge Früchte im Snake Game. Lass deine Schlange wachsen, weiche ihrem Schwanz aus und probiere 16 Modi mit unterschiedlichen Gefahren und Brettregeln aus.",
+      "about": [
+        "Jede Frucht bringt einen Punkt und macht die Schlange länger. Wenn der Freiraum kleiner wird, geben Sie sich nach dem nächsten Stück Obst Raum, um sich umzudrehen.",
+        "Sie können die Brettgröße und die Obstmenge wählen. Modi wie Portal und Sokoban fügen dem bekannten Arcade-Spiel ihre eigenen Regeln hinzu."
+      ],
+      "steps": [
+        [
+          "Planen Sie eine Route zur Frucht",
+          "Wählen Sie einen Weg, der nach dem Essen eine offene Kurve hinterlässt."
+        ],
+        [
+          "Probieren Sie einen anderen Modus aus",
+          "Wechseln Sie den Modus, um mit einer neuen Gefahren- oder Rätselregel zu üben."
+        ]
+      ],
+      "faq": [
+        [
+          "Kann ich die Boardgröße ändern?",
+          "Ja. Sie können die Boardgröße anpassen, bevor Sie einen Lauf starten."
+        ]
+      ]
     }
   }
 }

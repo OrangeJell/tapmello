@@ -5281,6 +5281,506 @@
           "Sigue por el camino seguro si una gota te aparta de la próxima plataforma."
         ]
       ]
+    },
+    "bike-hill-3d": {
+      "category": "Carreras de descenso en bicicleta",
+      "searchTitle": "Bike Hill 3D – Carreras de descenso en bicicleta",
+      "summary": "Corre cuesta abajo en Bike Hill 3D. Esquiva árboles y baches, aumenta la velocidad y adelanta a los ciclistas rivales antes de la línea de meta.",
+      "about": [
+        "Todos los ciclistas salen a la vez desde lo alto de la colina. Al ganar velocidad, prepárate para cambiar de carril si ves árboles o baches.",
+        "Después de un acelerón, busca un tramo despejado. Así tendrás más espacio para adelantar."
+      ],
+      "steps": [
+        [
+          "Elige una trazada despejada",
+          "Esquiva con tiempo los árboles y los baches para dejarte espacio para adelantar."
+        ],
+        [
+          "Aprovecha los turbos",
+          "Recoge un turbo cuando veas que el camino está despejado más adelante."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo desbloqueo más circuitos?",
+          "Completa carreras para desbloquear nuevos niveles."
+        ]
+      ]
+    },
+    "park-empire": {
+      "category": "Gestión de parques temáticos",
+      "searchTitle": "Park Empire – Gestión de parques temáticos",
+      "summary": "Construye un parque temático en Park Empire. Reinvertir los ingresos por entradas en atracciones, taquillas y estacionamientos a medida que crece el número de visitantes.",
+      "about": [
+        "Comience con un parque pequeño y utilice las tarifas de entrada para abrir atracciones como la Noria.",
+        "Las mejoras de viaje pueden mejorar la capacidad y los ingresos por boletos. A medida que crece la multitud, observe la entrada y el estacionamiento, así como las atracciones."
+      ],
+      "steps": [
+        [
+          "Abre tu primera atracción",
+          "Gaste los ingresos por entradas anticipadas en una atracción para que los visitantes tengan más cosas que hacer."
+        ],
+        [
+          "Mejorar la capacidad del parque",
+          "Agregue taquillas o estacionamiento cuando las llegadas comiencen a superar la entrada."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Qué atracciones puedo desbloquear?",
+          "Las atracciones posteriores incluyen montañas rusas, atracciones acuáticas y casas encantadas."
+        ]
+      ]
+    },
+    "funny-wheels": {
+      "category": "Circuito de obstáculos en silla de ruedas",
+      "searchTitle": "Funny Wheels – Circuito de obstáculos en silla de ruedas",
+      "summary": "Controla cada rueda por separado en Funny Wheels. Cruza plataformas móviles, esquiva trampas oscilantes y corre hacia los puntos de control.",
+      "about": [
+        "Cada rueda tiene su propio control. Moverlos juntos te ayuda a avanzar, mientras que controlar una rueda te permite girar.",
+        "La carrera de obstáculos incluye pendientes resbaladizas y plataformas móviles. Los puntos de control te permiten practicar el siguiente tramo sin empezar de nuevo."
+      ],
+      "steps": [
+        [
+          "Mueve ambas ruedas",
+          "Utilice las teclas de flecha izquierda y derecha para controlar las ruedas correspondientes."
+        ],
+        [
+          "Reintentar una sección complicada",
+          "Presione R para regresar a su punto de control e intente superar el obstáculo nuevamente."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Existe un modo de carrera?",
+          "Wheel Race te enfrenta a tres rivales en recorridos temáticos."
+        ]
+      ]
+    },
+    "retro-football": {
+      "category": "Fútbol americano arcade",
+      "searchTitle": "Retro Football – Fútbol americano arcade",
+      "summary": "Elige las jugadas de Retro Football, fútbol americano arcade de 6 contra 6. Combina carreras, pases y cargas para ganar la Copa Retro.",
+      "about": [
+        "Elija una de las cuatro jugadas antes de cada jugada. En la ofensiva, la elección determina si buscas una línea de carrera o un receptor abierto.",
+        "En defensa, compare la cobertura de zona, las asignaciones de hombre a hombre y las cargas. Una carga puede presionar al mariscal de campo pero deja menos jugadores en cobertura."
+      ],
+      "steps": [
+        [
+          "Elige una jugada ofensiva",
+          "Busque un carril para correr abierto o una ruta que le dé espacio a su receptor."
+        ],
+        [
+          "leer la defensa",
+          "Lanzar a un receptor que tenga espacio para atrapar el balón y evitar forzar un pase profundo al tráfico."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cuántos jugadores hay en cada lado?",
+          "Cada equipo presenta seis jugadores."
+        ]
+      ]
+    },
+    "slope-rider-city": {
+      "category": "Descenso urbano en trineo 3D",
+      "searchTitle": "Slope Rider City – Descenso urbano en trineo 3D",
+      "summary": "Conduce un trineo por las calles nevadas de la ciudad en Slope Rider City. Esquiva el tráfico, salta a los techos de los vehículos y encuentra rutas elevadas.",
+      "about": [
+        "Tu trineo avanza automáticamente. Esté atento a los cruces para detectar tráfico cruzado y busque rampas que abran una ruta por encima de la calle.",
+        "Las luces delanteras parpadeantes le advierten que un automóvil está a punto de cargarse. Cambiar de carril temprano deja más espacio para salirse de su camino."
+      ],
+      "steps": [
+        [
+          "Leer el siguiente cruce",
+          "Mire al otro lado de la calle antes de pasar por una intersección."
+        ],
+        [
+          "Toma la ruta alta",
+          "Alinee temprano con una rampa si desea saltar al techo de un vehículo."
+        ]
+      ],
+      "faq": [
+        [
+          "¿La ruta cambia entre carreras?",
+          "Sí. El juego baraja sus mapas entre ejecuciones."
+        ]
+      ]
+    },
+    "dino-game-tides": {
+      "category": "Carrera de dinosaurios bajo el agua",
+      "searchTitle": "Dino Game: Tides – Carrera de dinosaurios bajo el agua",
+      "summary": "Corre y nada en Dino Game: Tides. Esquiva los obstáculos terrestres y de coral, gana conchas con tu puntuación y compra mejoras.",
+      "about": [
+        "El T-Rex cruza senderos rocosos y tramos desérticos antes de sumergirse. Los peligros cambian con el terreno.",
+        "El movimiento bajo el agua se ralentiza y los saltos te llevan más alto. Deje espacio para el descenso más largo cuando haya corales o anclas más adelante."
+      ],
+      "steps": [
+        [
+          "Ajusta tus saltos",
+          "Espere a que haya una zona de aterrizaje despejada antes de saltar y superar un obstáculo submarino."
+        ],
+        [
+          "Gasta las conchas que ganes",
+          "Visita la tienda después de una carrera para comprar equipo o actualizaciones permanentes."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo gano conchas?",
+          "Obtienes un caparazón por cada 1000 puntos completos obtenidos en una carrera."
+        ]
+      ]
+    },
+    "dino-game-meteor-strike": {
+      "category": "Dinosaurios y lluvia de meteoritos",
+      "searchTitle": "Dino Game: Meteor Strike – Dinosaurios y lluvia de meteoritos",
+      "summary": "Esquiva los meteoros que caen en Dino Game: Meteor Strike. Lee las sombras de advertencia, sobrevive a 20 oleadas y enfréntate a dos jefes.",
+      "about": [
+        "Una marca parpadeante muestra dónde aterrizará cada meteoro. Los destellos se aceleran a medida que se acerca el impacto.",
+        "Las ondas posteriores traen lluvias y meteoritos más grandes. Muévete temprano al espacio abierto para que puedas reaccionar cuando aparezcan varias sombras juntas."
+      ],
+      "steps": [
+        [
+          "mira el suelo",
+          "Aléjate tan pronto como se abra una sombra de advertencia debajo de ti."
+        ],
+        [
+          "Planifique una ruta de escape",
+          "Cuando las marcas se superpongan, mire más allá de la sombra más cercana para ver un tramo claro."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Puedo volver a intentar una ola?",
+          "Sí. Un punto de control le permite reiniciar la ola fallida."
+        ]
+      ]
+    },
+    "bounce-blast": {
+      "category": "Arcade de lanzamiento",
+      "searchTitle": "Bounce Blast – Arcade de lanzamiento",
+      "summary": "Lanza a un luchador contra una multitud de gomitas en Bounce Blast. Encadena rebotes, genera impulso y mejora tu próxima carrera.",
+      "about": [
+        "Arrastre y suelte para iniciar. Aterrizar sobre las gomitas hace que el luchador rebote nuevamente y puede extender la carrera.",
+        "Los diferentes luchadores tienen sus propias habilidades. Prueba el golpe hacia abajo cuando puedas ver un grupo denso debajo de ti."
+      ],
+      "steps": [
+        [
+          "Apunta el lanzamiento",
+          "Arrastra para preparar el tiro y luego suelta para enviar a tu luchador a volar."
+        ],
+        [
+          "sigue rebotando",
+          "Busca grupos de gomitas donde puedas aterrizar y llevar tu impulso hacia adelante."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Qué puedo jugar después de la historia?",
+          "El juego ofrece el modo Cronómetro y un Rift sin fin."
+        ]
+      ]
+    },
+    "obby-bicycle": {
+      "category": "Párkur en bicicleta",
+      "searchTitle": "Obby Bicycle – Párkur en bicicleta",
+      "summary": "Recorre pistas flotantes en Obby Bicycle. Salta amplios huecos, mantén el equilibrio en salientes estrechos y llega al siguiente punto de control.",
+      "about": [
+        "La bicicleta lleva más velocidad que un personaje a pie, por lo que puedes saltar más lejos. Las plataformas estrechas dejan menos espacio para corregir el aterrizaje.",
+        "Si te caes, puedes reanudar en un punto de control. Reduzca la velocidad antes de una curva estrecha, luego aumente la velocidad nuevamente donde la pista le dé espacio."
+      ],
+      "steps": [
+        [
+          "Dirige tu bicicleta",
+          "Utilice WASD o las teclas de flecha para moverse, girar y retroceder."
+        ],
+        [
+          "Saltar a través de brechas",
+          "Usa la barra espaciadora para saltar. Alinea la bicicleta con el aterrizaje antes de despegar."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Qué pasa si me caigo?",
+          "Regresas al puesto de control más cercano."
+        ]
+      ]
+    },
+    "parkour-block-maker": {
+      "category": "Párkur de bloques con editor",
+      "searchTitle": "Parkour Block Maker – Párkur de bloques con editor",
+      "summary": "Salta sobre lava en Parkour Block Maker. Llega al portal violeta, luego construye y prueba tu propia carrera de obstáculos flotantes.",
+      "about": [
+        "Los recorridos de parkour en primera persona combinan plataformas estrechas con bloques de hielo, plataformas de salto y caídas en lava.",
+        "El editor de niveles te permite diseñar un recorrido y ver si sus saltos funcionan. Pruebe la distancia entre bloques antes de agregar obstáculos más difíciles."
+      ],
+      "steps": [
+        [
+          "Planifica tu aterrizaje",
+          "Mira el siguiente bloque antes de iniciar un salto, especialmente sobre hielo."
+        ],
+        [
+          "Prueba tu propia ruta",
+          "Coloca varios bloques en el editor y prueba los saltos en secuencia."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Dónde termina un curso?",
+          "Busque el portal de salida violeta."
+        ]
+      ]
+    },
+    "moto-cabbie-simulator": {
+      "category": "Simulador de mototaxi",
+      "searchTitle": "Moto Cabbie Simulator – Simulador de mototaxi",
+      "summary": "Recoge pasajeros en Moto Cabbie Simulator. Acepta llamadas, navega por el tráfico y gana tarifas para desbloquear más motos.",
+      "about": [
+        "Cada trabajo comienza con una llamada telefónica. Una vez que aceptas, la recogida aparece en el mapa y está marcada en la acera.",
+        "El destino aparece después de que el pasajero sube. Frene antes de curvas cerradas para poder transportar al pasajero a través del tráfico de manera segura."
+      ],
+      "steps": [
+        [
+          "Recoge a tu pasajero",
+          "Acepte la llamada y conduzca hasta el círculo verde de recogida."
+        ],
+        [
+          "Viaja al destino",
+          "Utilice WASD o las teclas de flecha para conducir y Espacio para frenar."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo desbloqueo bicicletas nuevas?",
+          "Completa tarifas y ahorra el dinero que ganas."
+        ]
+      ]
+    },
+    "busdriver": {
+      "category": "Rompecabezas de asientos en el autobús",
+      "searchTitle": "Busdriver – Rompecabezas de asientos en el autobús",
+      "summary": "Sienta a los pasajeros en Busdriver, un acertijo lógico sobre cómo leer pistas, encontrar vecinos compatibles y mantener el viaje en autobús.",
+      "about": [
+        "Cada pasajero viene con una pista sobre dónde podrían caber. Algunos vecinos provocan felicidad, mientras que otros provocan desacuerdos.",
+        "Cada asiento que ocupas cambia las opciones que quedan para el siguiente pasajero. Deje espacios útiles abiertos para personas con preferencias más estrictas."
+      ],
+      "steps": [
+        [
+          "Elige un asiento",
+          "Utilice las teclas de flecha para seleccionar un asiento y presione la barra espaciadora para confirmar."
+        ],
+        [
+          "Saltar un mal partido",
+          "Presione N para rechazar a un pasajero cuando no pueda colocarlo cómodamente."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Qué hace que el viaje en autobús continúe?",
+          "Mantenga contentos a los pasajeros sentando juntas a personas compatibles y limitando los desacuerdos."
+        ]
+      ]
+    },
+    "color-arrows-maze": {
+      "category": "Laberinto de flechas",
+      "searchTitle": "Color Arrows: Maze – Laberinto de flechas",
+      "summary": "Desenreda la cuadrícula en Color Arrows: Maze. Encuentra flechas con salidas claras y elimínalas en orden sin perder corazones.",
+      "about": [
+        "Una flecha solo puede salir si tiene el camino libre hasta el borde. Al quitarla, puedes abrir paso a otra que esté más adentro.",
+        "Busca primero las flechas que tengan salida. Si puedes quitar varias, elige una que deje libre el camino de otra."
+      ],
+      "steps": [
+        [
+          "Sigue la dirección de la flecha",
+          "Antes de hacer clic, comprueba todo el trayecto hasta el borde."
+        ],
+        [
+          "Abre paso a la siguiente flecha",
+          "Después de retirar una flecha, comprueba cuáles pueden salir ahora."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Qué pasa si el camino está bloqueado?",
+          "La flecha se queda en el tablero y pierdes un corazón."
+        ]
+      ]
+    },
+    "golden-kitchen": {
+      "category": "Juego de cocina contrarreloj",
+      "searchTitle": "Golden Kitchen – Juego de cocina contrarreloj",
+      "summary": "Prepara y sirve pedidos en Golden Kitchen. Vigila los fogones y atiende a los clientes a tiempo para cumplir el objetivo de cada nivel.",
+      "about": [
+        "Lea el pedido encima de cada cliente para ver qué platos y bebidas quieren. Algunos pedidos necesitan varios ingredientes o pasos.",
+        "A medida que lleguen más clientes, esté atento a los alimentos que ya se están cocinando. Comenzar demasiados platos a la vez hace que sea más difícil servirlos antes de que se quemen."
+      ],
+      "steps": [
+        [
+          "preparar el pedido",
+          "Haga clic en ingredientes y electrodomésticos para cocinar, servir bebidas y preparar la comida solicitada."
+        ],
+        [
+          "Sirve antes de que se acabe la espera",
+          "Entregue los platos terminados con prontitud y verifique las estaciones de cocina compartidas antes de comenzar otro pedido."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cuáles son los objetivos de nivel?",
+          "Un nivel puede pedirle que gane una cantidad objetivo o atienda a una determinada cantidad de clientes."
+        ]
+      ]
+    },
+    "joy-garden": {
+      "category": "Simulador de jardinería",
+      "searchTitle": "Joy Garden – Simulador de jardinería",
+      "summary": "Cultiva y vende cultivos en Joy Garden. Riega las plantas sedientas, elimina las plagas y usa tu oro para expandirte más allá de la parcela inicial.",
+      "about": [
+        "Selecciona una semilla y plántala en un terreno vacío. Un ícono de gota de agua muestra cuando una planta necesita atención.",
+        "Los destellos muestran qué cultivos están listos para cosechar. Vende lo que elijas para ganar oro y obtener más semillas y espacio para crecer."
+      ],
+      "steps": [
+        [
+          "Plantar varias parcelas",
+          "Seleccione una semilla y arrástrela por las parcelas vacías para plantar más de una a la vez."
+        ],
+        [
+          "Cuidar las plantas cercanas",
+          "Seleccione una planta que necesite cuidados y luego arrastre la herramienta sobre otras plantas que necesiten el mismo tratamiento."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo puedo saber cuándo una cosecha está lista?",
+          "Busque destellos alrededor de la planta."
+        ]
+      ]
+    },
+    "drift-masters": {
+      "category": "Juego de derrapes en 3D",
+      "searchTitle": "Drift Masters – Juego de derrapes en 3D",
+      "summary": "Encadena derrapes en Drift Masters y mantén el multiplicador de puntos en curvas de montaña, calles industriales y pistas nevadas.",
+      "about": [
+        "El coche suma puntos mientras derrapa. Si enlazas un derrape con el siguiente, aumenta el multiplicador de puntos.",
+        "Un choque contra el muro corta la racha. Entra en la curva con el coche bajo control para preparar el siguiente derrape al salir."
+      ],
+      "steps": [
+        [
+          "Prepara la entrada en la curva",
+          "Elige una trazada que te deje espacio para derrapar sin tocar la barrera."
+        ],
+        [
+          "Enlaza dos derrapes",
+          "Al salir de la primera curva, mira hacia la siguiente y gira suavemente para iniciar otro derrape."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cuándo se pierde la racha de derrapes?",
+          "Al chocar contra un muro o una barrera de la pista."
+        ]
+      ]
+    },
+    "soccer-orbit": {
+      "category": "Fútbol de tiros largos",
+      "searchTitle": "Soccer Orbit – Fútbol de tiros largos",
+      "summary": "Elige el momento justo para chutar en Soccer Orbit. Gana monedas con cada tiro y mejora la potencia, la velocidad y el rebote del balón.",
+      "about": [
+        "Una flecha en movimiento establece la dirección de lanzamiento. Tu clic detiene la flecha y patea la pelota.",
+        "La distancia se mide en pies a medida que la pelota pasa por los puntos de referencia de la ciudad. Las monedas del tiro te permiten comprar mejoras antes del siguiente tiro."
+      ],
+      "steps": [
+        [
+          "Calcula el tiempo de la flecha en movimiento",
+          "Míralo recorrer el indicador antes de hacer clic para patear."
+        ],
+        [
+          "Usa monedas entre patadas.",
+          "Mejora la fuerza, la velocidad o el rebote y observa cómo el cambio afecta el próximo vuelo."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Controlo el balón después de patear?",
+          "El lanzamiento cronometrado prepara el vuelo. Guarde su próximo ajuste para la siguiente patada."
+        ]
+      ]
+    },
+    "trap-the-cat": {
+      "category": "Rompecabezas para atrapar al gato",
+      "searchTitle": "Trap The Cat – Rompecabezas para atrapar al gato",
+      "summary": "Bloquea las rutas de escape del gato en Trap The Cat. Cierra una ficha por turno y construye un anillo antes de que el gato llegue al borde.",
+      "about": [
+        "El gato se mueve después de cada ficha que cierras. Observe hacia qué borde se dirige y bloquee primero las rutas cortas.",
+        "Una barrera más alejada del gato puede cortar varias vías de escape. Una vez que se cierren las rutas exteriores, apriete el anillo una loseta a la vez."
+      ],
+      "steps": [
+        [
+          "Cerrar una ruta de escape",
+          "Haz clic en un mosaico que bloquee un camino directo desde el gato hasta el borde."
+        ],
+        [
+          "Comprueba el próximo movimiento del gato.",
+          "Mira las fichas que aún están abiertas alrededor del gato antes de colocar el siguiente bloque."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo gano?",
+          "Cierra todas las rutas hasta el borde para que el gato no tenga salida."
+        ]
+      ]
+    },
+    "donut-clicker": {
+      "category": "Clicker de dónuts",
+      "searchTitle": "Donut Clicker – Clicker de dónuts",
+      "summary": "Haz crecer tu pastelería en Donut Clicker. Prepara dónuts, compra máquinas que los produzcan automáticamente y reinvierte en mejoras.",
+      "about": [
+        "Cada clic gana donas. Ahorre lo suficiente para un productor automático para que la panadería pueda seguir haciendo donas por su cuenta.",
+        "A medida que aumenta la producción, compare los nuevos productores con las actualizaciones de los equipos que ya posee. Ambos pueden acelerar su próxima compra."
+      ],
+      "steps": [
+        [
+          "Haz el primer lote",
+          "Haz clic en el donut grande hasta que tengas suficiente para tu primera compra."
+        ],
+        [
+          "Reinvierte tus ganancias",
+          "Comprar un productor o una mejora que eleve la producción para futuras compras."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Cómo hago donas sin hacer clic?",
+          "Compra un edificio que produzca donas automáticamente."
+        ]
+      ]
+    },
+    "snake-game": {
+      "category": "Juego de la serpiente con 16 modos",
+      "searchTitle": "Snake Game – Juego de la serpiente con 16 modos",
+      "summary": "Persigue fruta en Snake Game. Haz crecer tu serpiente, evita su cola y prueba 16 modos con diferentes peligros y reglas del tablero.",
+      "about": [
+        "Cada fruta suma un punto y alarga la serpiente. A medida que el espacio abierto se reduce, dése espacio para girar tras la siguiente pieza de fruta.",
+        "Puedes elegir el tamaño del tablero y la cantidad de fruta. Modos como Portal y Sokoban añaden sus propias reglas al conocido juego arcade."
+      ],
+      "steps": [
+        [
+          "Planifica una ruta hacia la fruta",
+          "Elija un camino que deje un giro abierto después de comer."
+        ],
+        [
+          "Prueba un modo diferente",
+          "Cambia de modo para practicar con un nuevo peligro o regla de rompecabezas."
+        ]
+      ],
+      "faq": [
+        [
+          "¿Puedo cambiar el tamaño del tablero?",
+          "Sí. Puedes ajustar el tamaño de la tabla antes de comenzar una carrera."
+        ]
+      ]
     }
   }
 }

@@ -58,12 +58,13 @@ export const partnerGames = catalogue.map(game => {
   }
   const localized = Object.fromEntries(Object.entries(partnerLocales).flatMap(([code, locale]) => {
     const copy = locale.games[id];
-    return copy ? [[code, { ...copy, searchTitle: locale.title.replace('{title}', () => game.title) }]] : [];
+    return copy ? [[code, { ...copy, searchTitle: copy.searchTitle ?? locale.title.replace('{title}', () => game.title) }]] : [];
   }));
   const details = { ...game.details, ...localized };
   const category = { ...game.category, ...Object.fromEntries(Object.entries(localized).map(([code, copy]) => [code, copy.category])) };
   for (const [lang, copy] of Object.entries(details)) {
     assert.ok(isText(category[lang]) && isText(copy.summary), 'Localized title and summary: ' + id + '/' + lang);
+    assert.ok(copy.searchTitle === undefined || isText(copy.searchTitle), 'Localized search title: ' + id + '/' + lang);
     assert.ok((copy.aboutTitle === undefined || isText(copy.aboutTitle)) && (copy.controls === undefined || isText(copy.controls)), 'Localized details headings: ' + id + '/' + lang);
     assert.ok(copy.about.length >= 2 && copy.about.every(isText) && copy.steps.length >= 2 && copy.steps.every(isPair) && copy.faq.length >= 1 && copy.faq.every(isPair), 'Complete localized details: ' + id + '/' + lang);
   }
