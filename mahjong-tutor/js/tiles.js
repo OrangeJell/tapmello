@@ -1,12 +1,16 @@
+import { translate } from './i18n.js';
+
 const zhDigits = ['一', '二', '三', '四', '五', '六', '七', '八', '九'];
 const honorEn = ['East', 'South', 'West', 'North', 'Red dragon', 'Green dragon', 'White dragon'];
 const honorHi = ['पूर्व', 'दक्षिण', 'पश्चिम', 'उत्तर', 'लाल ड्रैगन', 'हरा ड्रैगन', 'सफेद ड्रैगन'];
 export function tileName(id, lang = 'en') {
-  if (id >= 27) return (lang === 'hi' ? honorHi : honorEn)[id - 27];
-  return `${id % 9 + 1} ${(lang==='hi'?['वान','बिंदु','बाँस']:['characters','dots','bamboo'])[Math.floor(id / 9)]}`;
+  if (id >= 27) return lang === 'hi' ? honorHi[id - 27] : translate(honorEn[id - 27], lang);
+  const suits = lang === 'hi' ? ['वान','बिंदु','बाँस'] : ['characters','dots','bamboo'];
+  return translate(`${id % 9 + 1} ${suits[Math.floor(id / 9)]}`, lang);
 }
 function shortTileName(id, lang) {
   if (lang === 'hi') return id<27?tileName(id,lang):['पूर्व','दक्षिण','पश्चिम','उत्तर','लाल','हरा','सफेद'][id-27];
+  if (lang !== 'en') return tileName(id, lang);
   if (id < 27) return `${id % 9 + 1} ${['char.', 'dots', 'bam.'][Math.floor(id / 9)]}`;
   return ['East', 'South', 'West', 'North', 'Red dr.', 'Green dr.', 'White dr.'][id - 27];
 }

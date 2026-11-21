@@ -51,8 +51,10 @@ export const partnerGames = catalogue.map(game => {
   const category = { ...game.category, ...Object.fromEntries(Object.entries(localized).map(([code, copy]) => [code, copy.category])) };
   for (const [lang, copy] of Object.entries(details)) {
     assert.ok(isText(category[lang]) && isText(copy.summary), 'Localized title and summary: ' + id + '/' + lang);
+    assert.ok((copy.aboutTitle === undefined || isText(copy.aboutTitle)) && (copy.controls === undefined || isText(copy.controls)), 'Localized details headings: ' + id + '/' + lang);
     assert.ok(copy.about.length >= 2 && copy.about.every(isText) && copy.steps.length >= 2 && copy.steps.every(isPair) && copy.faq.length >= 1 && copy.faq.every(isPair), 'Complete localized details: ' + id + '/' + lang);
   }
+  assert.ok(details.hi, 'Missing localized partner game: ' + id);
   return { ...game, details, category, cover: media.icon, artwork: media.artwork, preview: media.preview ?? null };
 });
 

@@ -171,7 +171,7 @@ function structuredData(page, c) {
         screenshot: ['first-level', 'tray-example', 'level-2'].map(name => origin + screenshot(name, page.language)),
         description: page.description, genre: ['Puzzle', 'Colour sorting'],
         applicationCategory: 'GameApplication', operatingSystem: 'Web browser',
-        inLanguage: ['en', 'hi'], isAccessibleForFree: true,
+        inLanguage: languageCodes, isAccessibleForFree: true,
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
         publisher: { '@type': 'Person', name: 'Jelly' } },
       { '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`, itemListElement: [

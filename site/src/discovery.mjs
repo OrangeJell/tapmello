@@ -3,7 +3,7 @@ import { locales } from './locales.mjs';
 import { partnerGamesFor, partnerGamePath } from './partner-games.mjs';
 
 export const escapeDiscovery = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
-export const discoveryUpdated = '2026-11-20';
+export const discoveryUpdated = '2026-11-21';
 
 const definitions = [
   ['action', 'Action', 'एक्शन', '#ffe3d9', '#a83c28', 'm13 2-9 12h7l-1 8 10-12h-7l1-8z'],

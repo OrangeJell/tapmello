@@ -1,3 +1,4 @@
+import { normalizeLanguage } from './i18n.js';
 import { levels, questionIds, legacyQuestions, legacyTarget } from './curriculum.js';
 import { patterns } from './catalog.js';
 export const STORAGE_KEY = 'mahjong-tutor.v2';
@@ -6,7 +7,7 @@ const levelIds = new Set(levels.map(l=>l.id));
 const fresh = () => ({version:2,lang:'en',labels:true,completed:[],positions:{},active:null,roundStep:0,seen:[]});
 export function migrateLegacy(raw) {
   const data=fresh();
-  data.lang=raw?.lang==='hi'?'hi':'en'; data.labels=raw?.labels!==false;
+  data.lang=normalizeLanguage(raw?.lang); data.labels=raw?.labels!==false;
   if(raw?.version!==1)return data;
   const done=Array.isArray(raw.done)?raw.done.filter(Number.isInteger):[];
   for(let chapter=0;chapter<5;chapter++) {
@@ -28,7 +29,7 @@ export function cleanProgress(raw) {
   if(raw?.version===1)return migrateLegacy(raw);
   const data=fresh();
   if(raw?.version!==2)return data;
-  data.lang=raw.lang==='hi'?'hi':'en';data.labels=raw.labels!==false;
+  data.lang=normalizeLanguage(raw.lang);data.labels=raw.labels!==false;
   data.completed=[...new Set(Array.isArray(raw.completed)?raw.completed.filter(id=>questionIds.has(id)):[])];
   data.seen=[...new Set(Array.isArray(raw.seen)?raw.seen.filter(id=>Object.hasOwn(patterns,id)):[])];
   data.active=levelIds.has(raw.active)?raw.active:null;

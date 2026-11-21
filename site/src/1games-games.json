@@ -4663,5 +4663,633 @@
         ]
       }
     }
+  },
+  {
+    "id": "stunt-rider-3d",
+    "title": "Stunt Rider 3D",
+    "category": {
+      "en": "Motocross stunts"
+    },
+    "source": "https://1games.io/stunt-rider-3d",
+    "url": "https://1games.io/game/stunt-rider-3d/",
+    "width": 200,
+    "height": 130,
+    "media": {
+      "icon": "/assets/1games/stunt-rider-3d-icon.png",
+      "artwork": "/assets/1games/stunt-rider-3d-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "sources": {
+        "icon": "https://1games.io/cache/data/image/game/stunt-rider-3d/stunt-rider-3d-m200x130.png",
+        "artwork": "https://1games.io/data/image/game/stunt-rider-3d/banner/stunt-rider-3d_1200x1200.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving",
+        "sports"
+      ],
+      "tags": [
+        "obstacles-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Ride a motocross bike over narrow platforms and high ramps. Control your speed and pitch to reach the finish and earn up to three stars.",
+        "about": [
+          "Build enough speed before a wide gap. Once airborne, use forward or backward lean to line up both wheels with the landing.",
+          "A checkpoint gives you another shot at a difficult stretch. Use it to compare a slower approach with a more aggressive launch."
+        ],
+        "steps": [
+          [
+            "Set your speed",
+            "Ease off before a narrow landing and accelerate on the approach to wider gaps."
+          ],
+          [
+            "Level the bike",
+            "Lean to follow the angle of the landing, then resume accelerating once your wheels touch down."
+          ]
+        ],
+        "faq": [
+          [
+            "Why do I crash right after landing?",
+            "Check the angle of your bike and the speed you carry onto the platform. A flatter landing gives you more room to correct."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "drift-rally",
+    "title": "Drift Rally",
+    "category": {
+      "en": "Timed rally drifting"
+    },
+    "source": "https://1games.io/drift-rally",
+    "url": "https://1games.io/game/drift-rally/",
+    "width": 200,
+    "height": 130,
+    "media": {
+      "icon": "/assets/1games/drift-rally-icon.png",
+      "artwork": "/assets/1games/drift-rally-cover.png",
+      "artworkWidth": 1024,
+      "artworkHeight": 1024,
+      "sources": {
+        "icon": "https://1games.io/cache/data/image/game/drift-rally/drift-rally-m200x130.png",
+        "artwork": "https://1games.io/data/image/game//banner/drift-rally_1024x1024.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "timing-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Slide through rally checkpoints before the clock runs out and adapt your turns to gravel, asphalt and mud.",
+        "about": [
+          "Survival mode keeps sending you to new checkpoints. Each one adds time, so a steady run matters more than a single long slide.",
+          "Challenge stages give you targets such as timed laps or a drift score. Use the surface to choose an entry speed for each turn."
+        ],
+        "steps": [
+          [
+            "Steer into a turn",
+            "Use A and D or the arrow keys. Tap Space for a handbrake turn and straighten before the next checkpoint."
+          ],
+          [
+            "Brake before slippery sections",
+            "Use S or the down arrow to slow down. Mud gives you less room to correct after the car starts sliding."
+          ]
+        ],
+        "faq": [
+          [
+            "Why does the timer keep running after a checkpoint?",
+            "Each checkpoint gives you extra seconds for the next stretch. In Survival, the bonus gets smaller as you advance."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "crop-runner",
+    "title": "Crop Runner",
+    "category": {
+      "en": "Arcade farming"
+    },
+    "source": "https://1games.io/crop-runner",
+    "url": "https://1games.io/game/crop-runner/",
+    "width": 200,
+    "height": 130,
+    "media": {
+      "icon": "/assets/1games/crop-runner-icon.png",
+      "artwork": "/assets/1games/crop-runner-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "sources": {
+        "icon": "https://1games.io/cache/data/image/game/crop-runner/crop-runner-m200x130.png",
+        "artwork": "https://1games.io/data/image/game/crop-runner/banner/crop-runner_1200x1200.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation",
+        "arcade"
+      ],
+      "tags": [
+        "collecting-games",
+        "incremental-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Guide a line of wheelbarrows through fields of crops. Sell your harvest and grow the line so you can cover more ground on the next pass.",
+        "about": [
+          "You start with three wheelbarrows. Steer along the outline of each crop pattern first so you can spot any rows you missed.",
+          "Longer wheelbarrow lines cover wider strips. Animal helpers can harvest alongside you as you unlock farms with different fields and crops."
+        ],
+        "steps": [
+          [
+            "Move through the field",
+            "Use WASD or the arrow keys. Leave room to turn at the end of a row."
+          ],
+          [
+            "Spend your harvest",
+            "Sell crops and increase the size of your wheelbarrow line when repeated passes are slowing you down."
+          ]
+        ],
+        "faq": [
+          [
+            "What makes golden crops worth collecting?",
+            "Golden crops sell for more than ordinary crops. Make a short detour when one is near your route."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "ant-flow",
+    "title": "Ant Flow",
+    "category": {
+      "en": "3D colour sorting"
+    },
+    "source": "https://1games.io/ant-flow",
+    "url": "https://1games.io/game/ant-flow/?v=26100801",
+    "width": 200,
+    "height": 130,
+    "media": {
+      "icon": "/assets/1games/ant-flow-icon.png",
+      "artwork": "/assets/1games/ant-flow-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "sources": {
+        "icon": "https://1games.io/cache/data/image/game/ant-flow/ant-flow-m200x130.png",
+        "artwork": "https://1games.io/data/image/game/ant-flow/banner/ant-flow_1200x1200.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "logic"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Send colour-matched ants to carry away blocks and reveal a 3D pixel-art figure. Plan your moves around five waiting slots.",
+        "about": [
+          "Each ant box goes into one of five slots. Its ants carry away reachable blocks of the same colour until the box is cleared.",
+          "White rings mark blocks that ants can reach. Removing those blocks can expose new ones underneath, so check the sculpture after every choice."
+        ],
+        "steps": [
+          [
+            "Start with an exposed colour",
+            "Click an ant box that matches several reachable blocks. Clearing the box makes its slot available again."
+          ],
+          [
+            "Save room for the next colour",
+            "Check which blocks a move will uncover before filling the last waiting slot."
+          ]
+        ],
+        "faq": [
+          [
+            "What happens if I pick a blocked colour?",
+            "The box waits until matching blocks become reachable. The level can jam if all five slots are occupied by colours that cannot move."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "labubu-match-up",
+    "title": "Labubu Match Up",
+    "category": {
+      "en": "Collectible matching puzzle"
+    },
+    "source": "https://1games.io/labubu-match-up",
+    "url": "https://game.1games.io/labubu-match-up/",
+    "width": 200,
+    "height": 130,
+    "media": {
+      "icon": "/assets/1games/labubu-match-up-icon.png",
+      "artwork": "/assets/1games/labubu-match-up-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "sources": {
+        "icon": "https://1games.io/cache/data/image/game/labubu-match-up/labubu-match-up-m200x130.png",
+        "artwork": "https://1games.io/data/image/game//banner/labubu-match-up_1200x1200.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "simulation"
+      ],
+      "tags": [
+        "logic",
+        "collecting-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Compare characters to the target picture, then open surprise boxes and build a collection you can dress up.",
+        "about": [
+          "Matching characters depends on small visual details. Compare faces, colours and accessories before committing to a choice.",
+          "Surprise sets add more characters to the collection. Try different clothes and accessories once you have unlocked them."
+        ],
+        "steps": [
+          [
+            "Look closely at the target",
+            "Check the face and outfit first, then compare any small details that distinguish the closest candidates."
+          ],
+          [
+            "Open sets as you progress",
+            "Look through the collection after opening a box to see which characters and items are new."
+          ]
+        ],
+        "faq": [
+          [
+            "Is matching based only on colour?",
+            "No. Similar colours can appear on different characters, so compare the face and accessories as well."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "neon-tower",
+    "title": "Neon Tower",
+    "category": {
+      "en": "Rotating tower arcade"
+    },
+    "source": "https://1games.io/neon-tower",
+    "url": "https://st.8games.net/15/igra-neonovaya-bashnya-kheliks/",
+    "width": 200,
+    "height": 130,
+    "media": {
+      "icon": "/assets/1games/neon-tower-icon.png",
+      "artwork": "/assets/1games/neon-tower-cover.png",
+      "artworkWidth": 1594,
+      "artworkHeight": 987,
+      "sources": {
+        "icon": "https://1games.io/cache/data/image/game/neon-tower/neon-tower-m200x130.png",
+        "artwork": "https://1games.io/data/image/game/neon-tower/neon-tower.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Rotate the neon tower so a bouncing ball drops through platform gaps. Chain several drops to trigger Fire Mode and avoid red blocks on ordinary bounces.",
+        "about": [
+          "Each bounce buys a moment to line the tower up with the next opening. Watch the platform below the ball while it is in the air.",
+          "Dropping through several gaps in a row can activate Fire Mode. Use that brief window to keep descending through barriers."
+        ],
+        "steps": [
+          [
+            "Rotate the tower",
+            "Drag sideways with the mouse or use the left and right arrow keys to bring a gap under the ball."
+          ],
+          [
+            "Look down the tower",
+            "Line up consecutive openings when you can. Check for red blocks before letting the ball fall."
+          ]
+        ],
+        "faq": [
+          [
+            "What does Fire Mode do?",
+            "A long drop can make the ball smash through platforms for a short time. When it ends, watch for red blocks again."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "football-free-kick",
+    "title": "Football Free Kick",
+    "category": {
+      "en": "Arcade free kicks"
+    },
+    "source": "https://1games.io/football-free-kick",
+    "url": "https://item-cdn.y8.com/Playgama/html5/football_free_kick_13-11-2026_y8/2026-11-13-132434-57d18bd0c6e4/index.html?key=12407843&ratio_tolerant=true&value=287427",
+    "width": 200,
+    "height": 130,
+    "media": {
+      "icon": "/assets/1games/football-free-kick-icon.png",
+      "artwork": "/assets/1games/football-free-kick-cover.png",
+      "artworkWidth": 1254,
+      "artworkHeight": 1254,
+      "sources": {
+        "icon": "https://1games.io/cache/data/image/game/football-free-kick/football-free-kick/football-free-kick-cover-m200x130.png",
+        "artwork": "https://1games.io/data/image/game//banner/football-free-kick.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Curve free kicks around a defensive wall and past the goalkeeper. Adjust direction, power and spin as the targets get harder to reach.",
+        "about": [
+          "A straight shot can work with a clear path to goal. If the wall blocks your angle, add spin to bend the ball toward an open corner.",
+          "Later stadiums introduce moving defenders and wind. Watch the keeper and pick your target before starting the swipe."
+        ],
+        "steps": [
+          [
+            "Choose a target",
+            "Look for a gap near a post or above the wall, then drag to send the ball toward it."
+          ],
+          [
+            "Adjust the curve",
+            "If the ball hits the wall, change your swipe angle or spin on the next attempt. Keep the amount of power similar until the curve works."
+          ]
+        ],
+        "faq": [
+          [
+            "Why does the same shot miss in a different stadium?",
+            "Wind and moving obstacles can change the shot. Check where the ball is pushed off course and adjust the next swipe."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "marble-shooter",
+    "title": "Marble Shooter",
+    "category": {
+      "en": "Marble chain puzzle"
+    },
+    "source": "https://1games.io/marble-shooter",
+    "url": "https://game.1games.io/marble-shooter/",
+    "width": 200,
+    "height": 130,
+    "media": {
+      "icon": "/assets/1games/marble-shooter-icon.png",
+      "artwork": "/assets/1games/marble-shooter-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "sources": {
+        "icon": "https://1games.io/cache/data/image/game/marble-shooter/marble-shooter-m200x130.png",
+        "artwork": "https://1games.io/data/image/game/marble-shooter/banner/1200x1200.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "shooting"
+      ],
+      "tags": [],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Fire coloured marbles into a moving chain. Match three or more of a colour and clear the track before the chain reaches the skull pit.",
+        "about": [
+          "Close a gap between two groups of the same colour to set up a chain reaction. If the current marble has no useful shot, check the reserve colour.",
+          "Filling the progress bar stops new marbles from entering. You still need to clear the chain already on the track to finish the level."
+        ],
+        "steps": [
+          [
+            "Find a matching group",
+            "Aim with the mouse and left-click to fire. A match needs three or more marbles of the same colour."
+          ],
+          [
+            "Use the reserve",
+            "Right-click to swap the current and reserve marbles when the other colour gives you a better shot."
+          ]
+        ],
+        "faq": [
+          [
+            "Why is the level still going after the bar fills?",
+            "The bar stops new arrivals. Remove the marbles already on the track before they reach the end."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "wheelie-popper",
+    "title": "Wheelie Popper",
+    "category": {
+      "en": "Motorbike wheelie balance"
+    },
+    "source": "https://1games.io/wheelie-popper",
+    "url": "https://game.1games.io/wheelie-popper/",
+    "width": 200,
+    "height": 130,
+    "media": {
+      "icon": "/assets/1games/wheelie-popper-icon.png",
+      "artwork": "/assets/1games/wheelie-popper-cover.png",
+      "artworkWidth": 1024,
+      "artworkHeight": 1024,
+      "sources": {
+        "icon": "https://1games.io/cache/data/image/game/wheelie-popper/wheelie-popper-m200x130.png",
+        "artwork": "https://1games.io/data/image/game/wheelie-popper/banner/wheelie-popper-1024x1024.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving",
+        "arcade"
+      ],
+      "tags": [
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Stay on the rear wheel as long as you can. Feather the throttle and brake, then try tricks and stars to multiply your score.",
+        "about": [
+          "Holding the gas lifts the front wheel. Too much throttle can tip the bike backward, while braking lowers the front wheel.",
+          "Tail scrapes, tricks and stars can multiply the score. Get comfortable balancing a basic wheelie before combining bonuses."
+        ],
+        "steps": [
+          [
+            "Lift the front wheel",
+            "Hold D, Right Arrow or Space to accelerate. Ease off when the front wheel climbs too far."
+          ],
+          [
+            "Correct the angle",
+            "Use A or Left Arrow to brake. Once you can hold a steady angle, try W to stand on the seat or S to perform a trick."
+          ]
+        ],
+        "faq": [
+          [
+            "Do earned points count after a fall?",
+            "Yes, the run ends, but you keep the points and coins earned during the attempt."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "farm-village",
+    "title": "Farm Village",
+    "category": {
+      "en": "Farm management"
+    },
+    "source": "https://1games.io/farm-village",
+    "url": "https://game.1games.io/farm-village/",
+    "width": 200,
+    "height": 130,
+    "media": {
+      "icon": "/assets/1games/farm-village-icon.png",
+      "artwork": "/assets/1games/farm-village-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "sources": {
+        "icon": "https://1games.io/cache/data/image/game/farm-village/farm-village-m200x130.png",
+        "artwork": "https://1games.io/data/image/game//banner/farm-village_1200x1200.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Restore a family farm, grow crops and turn your harvest into goods for shops and delivery orders.",
+        "about": [
+          "Check the quest list at the car to see which repairs and crops to start with. Crops keep growing while you are away.",
+          "Feed animals to collect ingredients for workshops. Truck orders earn coins and experience, and a train station opens larger deliveries later on."
+        ],
+        "steps": [
+          [
+            "Open the quest list",
+            "Interact with the car and follow the early tasks to repair buildings and plant wheat."
+          ],
+          [
+            "Choose a delivery",
+            "Check what the truck needs before selling ingredients at the roadside shop. Keep enough for recipes in progress."
+          ]
+        ],
+        "faq": [
+          [
+            "Will my fields grow while I am away?",
+            "Yes. Come back to harvest, then use crops in workshops or sell them through available orders."
+          ]
+        ]
+      }
+    }
   }
 ]

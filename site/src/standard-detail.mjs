@@ -1,3 +1,4 @@
+import { languages } from './languages.mjs';
 import { locales } from './locales.mjs';
 import { catalogueFor, discoveryIcon, gamesLabel, gamesPath, genrePath, genres, tagName, tagPath, taxonomyFor } from './discovery.mjs';
 import { renderGameTile } from './game-tile.mjs';
@@ -93,13 +94,14 @@ function renderMetadata(lang, game, taxonomy, sharedOnly) {
   const languageNames = new Intl.DisplayNames([lang], { type: 'language' });
   const rows = [
     [label.platforms, [label.browser, ...(metadata?.mobileReady ?? []).map(platform => platformNames[platform]?.[lang === 'hi' ? 1 : 0] ?? platform)]],
-    [label.languages, (metadata?.supportedLanguages ?? ['en', 'hi']).map(code => {
+    [label.languages, (metadata?.supportedLanguages ?? []).map(code => {
       try { return languageNames.of(code); } catch { return code; }
     })],
     [label.purchases, metadata?.inGamePurchases ? [label[metadata.inGamePurchases]] : []],
   ];
   const { byTag } = catalogueFor(lang, sharedOnly);
   return `<dl class="detail-metadata">
+    ${!game.provider ? `<div><dt>${label.languages}</dt><dd>${Object.entries(languages).map(([code, language]) => `<span lang="${code}" translate="no">${language.name}</span>`).join(' · ')}</dd></div>` : ''}
     ${rows.filter(([, values]) => values.length).map(([name, values]) => `<div><dt>${name}</dt><dd>${values.map(escape).join(' · ')}</dd></div>`).join('')}
     <div class="detail-metadata-tags"><dt>${label.genres}</dt><dd><ul>${taxonomy.categories.map(id => `<li><a href="${genrePath(lang, id)}">${genres[id][lang]}</a></li>`).join('')}</ul></dd></div>
     ${taxonomy.tags.length ? `<div class="detail-metadata-tags"><dt>${label.tags}</dt><dd><ul>${taxonomy.tags.map(id => `<li><a href="${tagPath(lang, id)}" lang="en">${escape(tagName(id))} <span class="detail-tag-count">${byTag.get(id).length}</span></a></li>`).join('')}</ul></dd></div>` : ''}

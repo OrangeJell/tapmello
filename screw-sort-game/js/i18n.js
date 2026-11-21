@@ -1,8 +1,10 @@
-export const LANGUAGES = Object.freeze({ en: 'English', hi: 'हिन्दी' });
+import { extraCopy, extraLanguageNames } from './locale-copy.js';
+
+export const LANGUAGES = Object.freeze({ en: 'English', hi: 'हिन्दी', ...extraLanguageNames });
 export const TEXT = {
   en: {
     launchTip:'Remove exposed screws and match three of the same colour to fill a box.',
-    chooseLevel:'Choose a level', completed:'Completed',
+    boardLabel:'Glass puzzle', chooseLevel:'Choose a level', completed:'Completed',
     glassAurora:'Woven aurora', glassEclipse:'Lunar eclipse', glassSwitchbacks:'Twisting passes', glassSupernova:'Supernova', glassCrown:'Crystal crown', extreme:'Extreme',
     level:'LEVEL {n}', firstTwist:'A little twist', glassGarden:'Glass garden', play:'Start twisting', continue:'Continue puzzle',
     glassNumbers:'Number garden', glassTides:'Glass tides', glassBridges:'Crossing bridges', glassOrbits:'Starry orbits', glassRipples:'Glass ripples', glassMosaic:'Colour mosaic', glassWeave:'Woven colours', glassSpiral:'Layered rhythm', glassLabyrinth:'Glass labyrinth', glassCascade:'Glass cascade', glassPrism:'Inside the prism', glassSummit:'Summit challenge',
@@ -29,7 +31,7 @@ export const TEXT = {
   },
   hi: {
     launchTip:'खुले पेंच निकालें। एक रंग के तीन पेंचों से एक डिब्बा भरें।',
-    chooseLevel:'स्तर चुनें', completed:'पूरा हुआ',
+    boardLabel:'काँच की पहेली', chooseLevel:'स्तर चुनें', completed:'पूरा हुआ',
     glassAurora:'रंगीन आभा', glassEclipse:'चंद्र ग्रहण', glassSwitchbacks:'घुमावदार रास्ते', glassSupernova:'तारकीय विस्फोट', glassCrown:'स्फटिक मुकुट', extreme:'अत्यंत कठिन',
     level:'स्तर {n}', firstTwist:'एक छोटा मोड़', glassGarden:'काँच का बगीचा', play:'खेल शुरू करें', continue:'पहेली जारी रखें',
     glassNumbers:'अंकों का बगीचा', glassTides:'काँच की तरंगें', glassBridges:'काँच के पुल', glassOrbits:'तारों की कक्षा', glassRipples:'काँच की लहरें', glassMosaic:'रंगीन टुकड़े', glassWeave:'रंगों की बुनाई', glassSpiral:'परतों की लय', glassLabyrinth:'काँच की भूलभुलैया', glassCascade:'काँच का झरना', glassPrism:'प्रिज़्म के भीतर', glassSummit:'अंतिम चुनौती',
@@ -55,5 +57,5 @@ export const TEXT = {
   },
 };
 export function translate(lang, key, vars = {}) {
-  return (TEXT[lang]?.[key] || TEXT.en[key] || key).replace(/\{(\w+)\}/g, (_, name) => vars[name] ?? `{${name}}`);
+  return (TEXT[lang]?.[key] || extraCopy[lang]?.[key] || TEXT.en[key] || key).replace(/\{(\w+)\}/g, (_, name) => vars[name] ?? `{${name}}`);
 }

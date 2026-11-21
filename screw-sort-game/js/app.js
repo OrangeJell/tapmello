@@ -52,6 +52,8 @@ function setPhase(value) {
 }
 function localize() {
   document.documentElement.lang=preferences.lang;
+  $('board').setAttribute('aria-label',t('boardLabel'));
+  $('tray').setAttribute('aria-label',t('tray'));
   document.querySelectorAll('[data-i18n]').forEach(node=>{node.textContent=t(node.dataset.i18n);});
   $('pause').innerHTML=ICONS.pause; $('pause').setAttribute('aria-label',t('pause'));
   $('progress-art').innerHTML=ICONS.chest;
@@ -188,7 +190,14 @@ function showModal(kind) {
       row.append(text,button(t(preferences[key]?'on':'off'),()=>{preferences[key]=!preferences[key];saveProgress(storage,preferences);localize();showModal('pause');},'setting-toggle')); settings.append(row);
     }
     const languages=document.createElement('div'); languages.className='language-options';
-    for (const [lang,label] of Object.entries(LANGUAGES)) languages.append(button(label,()=>{preferences.lang=lang;saveProgress(storage,preferences);localize();showModal('pause');},preferences.lang===lang?'active':''));
+    languages.setAttribute('role','group');
+    languages.setAttribute('aria-label',t('language'));
+    for (const [lang,label] of Object.entries(LANGUAGES)) {
+      const choice=button(label,()=>{preferences.lang=lang;saveProgress(storage,preferences);localize();showModal('pause');},preferences.lang===lang?'active':'');
+      choice.lang=lang;
+      choice.setAttribute('aria-pressed',String(preferences.lang===lang));
+      languages.append(choice);
+    }
     list.append(settings,languages,button(t('help'),()=>showModal('help'),'text-button'));
     if (!storageOK) { const note=document.createElement('p');note.className='save-note';note.textContent=t('storageError');list.append(note); }
   } else if (kind==='levels') {

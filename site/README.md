@@ -21,7 +21,8 @@ npm --prefix site run serve
 ## 语言资源与测试
 
 - `src/languages.mjs` 管理 13 种站内语言。英语使用根路径，印地语沿用 `/hi/`，简体中文使用 `/zh-cn/`。切换语言时打开当前页面的对应译本。
-- `src/translations/` 保存新增语言的站内文案。英语原文来自现有模板和内容库，印地语 JSON 补充四个站务页面。播放器继续读取各游戏的原有语言资源。
+- `src/translations/` 保存站点界面和通用文案。合作游戏的独立多语言文案放在 `src/partner-locales/`。各语言版都需要填写分类、简介、玩法和常见问题。
+- 三款自研游戏通过播放器地址的 `lang` 参数读取各自的语言资源。合作游戏内可用的语言来自供应商，详情页语言由站点控制。
 - 改动英文站内文案后，用 `node site/scripts/build.mjs --extract-locales` 列出待翻译的原文。用 `--extract-hi-info` 获取印地语站务页需要的原文。构建会指出缺失译文或占位符不一致的位置。
 
 日常运行三款游戏的 `npm test`，并运行英文浏览器回归。浏览器检查使用 Google Chrome，需要先启动本地预览。

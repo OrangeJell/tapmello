@@ -44,6 +44,11 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
     return value;
   }
 
+  function runtimeLanguage(value) {
+    if (!/^\/play\/(?:mahjong|marble-sort|screw-sort)\/\?/.test(value)) return value;
+    return value.replace(/([?&]lang=)en(?=&|#|$)/, (_, prefix) => prefix + code);
+  }
+
   function translateJSON(value, location, translateText, key) {
     if (Array.isArray(value)) return key === 'inLanguage' ? value : value.map(item => translateJSON(item, location, translateText, key));
     if (value && typeof value === 'object') {
@@ -103,7 +108,11 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
         if (name === 'lang' && (node.tagName === 'html' || tagLink)) {
           attribute.value = code;
         } else if (name === 'href' && rel !== 'alternate') {
-          attribute.value = value === '/manifest.webmanifest' ? localPath(code, value) : route(value);
+          attribute.value = value === '/manifest.webmanifest' ? localPath(code, value) : runtimeLanguage(route(value));
+        } else if (name === 'data-src') {
+          attribute.value = runtimeLanguage(value);
+        } else if (name === 'data-language' && attr('data-mahjong-embed') !== undefined) {
+          attribute.value = code;
         } else if (name === 'data-catalogue') {
           attribute.value = value.replace(/-en\.json$/, `-${code.toLowerCase()}.json`);
         } else if (name === 'content' && meta === 'og:locale') {
@@ -133,4 +142,4 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
   return { html, catalogue, translate };
 }
 
-export const brandNames = new Set(['tap', 'melo', 'tapmelo', 'Jelly', 'Playgama', '1Games', '1Games.IO', 'X', 'Google Analytics', 'iOS', 'Android', 'Fazier', 'EN', 'HI', 'Chrome', 'Safari']);
+export const brandNames = new Set(['tap', 'melo', 'tapmelo', 'Jelly', 'Playgama', 'AZGames', '1Games', '1Games.IO', 'X', 'Google Analytics', 'iOS', 'Android', 'Fazier', 'EN', 'HI', 'Chrome', 'Safari']);

@@ -209,8 +209,7 @@ for (const code of languageCodes) {
   for (const slug of ['marble-sort', 'screw-sort', 'mahjong']) {
     const detail = await readFile(path.join(dist, prefix, 'games', slug, 'index.html'), 'utf8');
     checkDetailLayout(detail, prefix + '/' + slug);
-    const queryLanguage = code === 'hi' ? 'hi' : 'en';
-    assert.match(detail, new RegExp(`data-src="/play/${slug}/\\?[^"]*lang=${queryLanguage}(?:&amp;|")`), `Supported iframe language: ${code}/${slug}`);
+    assert.match(detail, new RegExp(`data-src="/play/${slug}/\\?[^"]*lang=${code}(?:&amp;|")`), `Supported iframe language: ${code}/${slug}`);
     assert.match(detail, /class="detail-native-runtime"/, 'Original game retains its local loader: ' + slug);
   }
   const marble=await readFile(path.join(dist,prefix,'games/marble-sort/index.html'),'utf8');

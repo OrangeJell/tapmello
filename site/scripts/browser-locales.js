@@ -76,7 +76,7 @@ async page => {
     assert(await page.locator('main h1').count() === 1, `Missing policy page: ${code}`);
     for (const game of games) {
       await visit(`${prefix}/games/${game.slug}/`);
-      await startGame(game, code === 'hi' ? 'hi' : 'en');
+      await startGame(game, code);
     }
     results.push(code);
   }
@@ -165,7 +165,7 @@ async page => {
     await frame.locator('.screw-button:not(:disabled)').first().click();
     await frame.locator('#pause').click();
     await frame.locator('.language-options').waitFor();
-    assert((await frame.locator('.language-options button').allTextContents()).length === 2, 'Unexpected change to game language options');
+    assert((await frame.locator('.language-options button').allTextContents()).length === 13, 'Unexpected change to game language options');
 
     const context = await page.context().browser().newContext({ javaScriptEnabled: false });
     try {

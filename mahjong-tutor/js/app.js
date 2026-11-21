@@ -1,4 +1,4 @@
-import { L } from './i18n.js';
+import { L, languages, normalizeLanguage, translate } from './i18n.js';
 import { tileMarkup, tileName, tileBack, escapeHTML } from './tiles.js';
 import { levels, findQuestion, legacyTarget } from './curriculum.js';
 import { patterns, articles } from './catalog.js';
@@ -9,13 +9,13 @@ import { checkAnswer, sameSet, guidedState } from './tutorial.js';
 let storage;try{storage=window.localStorage;}catch{storage=null;}
 const loaded=loadProgress(storage);
 const params=new URLSearchParams(location.search),embedded=params.get('embed')==='1',onSite=params.get('site')==='1';
-const pageLanguage=params.get('lang');if(['en','hi'].includes(pageLanguage)){loaded.data.lang=pageLanguage;saveProgress(storage,loaded.data);}
+const pageLanguage=params.get('lang');if(Object.hasOwn(languages,pageLanguage)){loaded.data.lang=pageLanguage;saveProgress(storage,loaded.data);}
 let progress=loaded.data,storageOK=loaded.available;
 const app=document.querySelector('#app'),dialog=document.querySelector('#dialog');
 let view='home',level=levels[0],q=level.questions[0],selected=[],feedback=null,practice=null,article=null;
 let modalStack=[],lastTrigger=null,returnTo='#home';
-const t=v=>typeof v==='string'?v:v?.[progress.lang]??'';
-const tr=(zh,en)=>t(L(zh,en));
+const t=v=>typeof v==='string'?v:v?.[progress.lang]??v?.en??'';
+const tr=(_legacy,en)=>translate(en,progress.lang);
 const esc=escapeHTML;
 const arrow='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>';
 const gear='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 3-.7 2.4-2.2 1L3.7 6l-2 3.5 1.7 1.9v2.2l-1.7 1.9 2 3.5 2.4-.4 2.2 1L9 22h4l.7-2.4 2.2-1 2.4.4 2-3.5-1.7-1.9v-2.2l1.7-1.9-2-3.5-2.4.4-2.2-1L13 3Z"/><circle cx="11" cy="12.5" r="3"/></svg>';
@@ -162,7 +162,7 @@ function handleRound(action){
   }else if(action==='round-next'&&s.phase===4&&feedback?.ok)advance();
   else if(action==='round-win'&&s.phase===6&&analyzePatterns(s.hand,[],'basic')){markComplete(q.id);progress.roundStep=0;save();view='complete';newSelection();render(true);}
 }
-function settingsBody(){return `<div class="settings-row"><span>${tr('语言','Language')}</span><div>${b('set-language','हिन्दी','setting-choice',`data-id="hi" aria-pressed="${progress.lang==='hi'}"`)}${b('set-language','English','setting-choice',`data-id="en" aria-pressed="${progress.lang==='en'}"`)}</div></div><div class="settings-row"><span>${tr('显示牌名','Tile names')}</span>${b('toggle-labels',progress.labels?tr('开','On'):tr('关','Off'),'setting-choice',`aria-pressed="${progress.labels}"`)}</div>${b('reference',tr('查看牌谱','Tile reference'),'menu-row')}${b('rules',tr('本版规则','Rules used here'),'menu-row')}${b('articles',tr('图文教程','Read the guides'),'menu-row')}${b('reset',tr('重置学习记录','Reset learning progress'),'menu-row danger-text')}<p class="storage-note">${storageOK?tr('进度保存在此浏览器','Progress saved in this browser'):tr('存储不可用，离开页面后可能丢失进度','Storage is unavailable; progress may be lost on leaving the page')}</p>`;}
+function settingsBody(){return `<div class="settings-row"><span>${tr('语言','Language')}</span><div>${Object.entries(languages).map(([code,name])=>b('set-language',name,'setting-choice',`lang="${code}" data-id="${code}" aria-pressed="${progress.lang===code}"`)).join('')}</div></div><div class="settings-row"><span>${tr('显示牌名','Tile names')}</span>${b('toggle-labels',progress.labels?tr('开','On'):tr('关','Off'),'setting-choice',`aria-pressed="${progress.labels}"`)}</div>${b('reference',tr('查看牌谱','Tile reference'),'menu-row')}${b('rules',tr('本版规则','Rules used here'),'menu-row')}${b('articles',tr('图文教程','Read the guides'),'menu-row')}${b('reset',tr('重置学习记录','Reset learning progress'),'menu-row danger-text')}<p class="storage-note">${storageOK?tr('进度保存在此浏览器','Progress saved in this browser'):tr('存储不可用，离开页面后可能丢失进度','Storage is unavailable; progress may be lost on leaving the page')}</p>`;}
 function referenceBody(){return [[0,9,L('万子','Characters')],[9,18,L('筒子','Dots')],[18,27,L('条子','Bamboo')],[27,34,L('字牌','Honors')]].map(([start,end,title])=>`<section class="reference-suit"><h3>${t(title)}</h3><div class="reference-grid">${Array.from({length:end-start},(_,i)=>tile(start+i,{action:'inspect',index:start+i,labels:true})).join('')}</div></section>`).join('')+`<p class="tile-inspection" role="status">${tr('点牌查看完整名称','Tap a tile for its full name')}</p>`;}
 function rulesBody(){return `<div class="modal-prose"><p>${tr('34 种牌，每种四张，共 136 张；没有花牌，不计番。','34 tile types, four copies each: 136 tiles, no flowers or scoring.')}</p><p>${tr('初中级和随机听牌练习只按四面子一对将判定；高级增加七对、十三幺，并识别碰碰胡、清一色、混一色。','Beginner, intermediate and random waiting exercises use four sets plus a pair. Advanced exercises add seven pairs and thirteen orphans, with triplet and flush classifications.')}</p><p>${tr('七对需七种不同对子，不把四张相同牌算两对。七对与十三幺都必须门清。地方规则可能不同。','Seven pairs needs seven distinct pairs; four identical tiles are not two pairs. Seven pairs and thirteen orphans must be closed. Regional rules vary.')}</p><p>${tr('吃碰杠在课程题目中练习；引导局使用固定牌序，帮助熟悉摸牌、打牌和胡牌。','Claims are practised in lesson exercises. The guided hand uses a fixed sequence to teach drawing, discarding and winning.')}</p></div>`;}
 function modalContent(entry){
@@ -199,7 +199,7 @@ function handle(event){
   else if(action==='open-question'){const found=findQuestion(id);if(found)goto(`#learn/${found.level.id}/${id}`);}
   else if(['settings','reference','rules','reset','hint','patterns','explain'].includes(action))openModal(action);
   else if(action==='close-modal')closeModal();
-  else if(action==='set-language'){progress.lang=id==='hi'?'hi':'en';save();if(embedded){parent.postMessage({type:'tapmelo-mahjong-language',language:progress.lang,route:location.hash},location.origin);}render();refreshModal();reportSize();}
+  else if(action==='set-language'){progress.lang=normalizeLanguage(id);save();if(embedded){parent.postMessage({type:'tapmelo-mahjong-language',language:progress.lang,route:location.hash},location.origin);}render();refreshModal();reportSize();}
   else if(action==='toggle-labels'){progress.labels=!progress.labels;save();render();refreshModal();}
   else if(action==='inspect'){dialog.querySelector('.tile-inspection').textContent=`${tileName(index,'en')} / ${tileName(index,'hi')}`;}
   else if(action==='confirm-reset'){const {lang,labels}=progress;progress={...cleanProgress(null),lang,labels};save();closeModal(true);goto('#home');}
@@ -213,7 +213,7 @@ function handle(event){
   else if(action.startsWith('round-'))handleRound(action);
 }
 
-function sitePrefix(){return progress.lang==='hi'?'/hi':'';}
+function sitePrefix(){return progress.lang==='en'?'':'/'+progress.lang.toLowerCase();}
 function openSiteArticles() {
   if (embedded) parent.postMessage({type:'tapmelo-mahjong-guides'}, location.origin);
   else window.top.location.href = `${sitePrefix()}/games/mahjong/#guides`;

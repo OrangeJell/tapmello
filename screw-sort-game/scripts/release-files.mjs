@@ -6,7 +6,7 @@ export const releaseFiles = [
   'assets/icon.svg',
   ...[
     'ads', 'analytics', 'app', 'board-view', 'collections-view', 'config', 'engine',
-    'geometry', 'gestures', 'glass-art', 'i18n', 'level-data', 'levels', 'motion',
+    'geometry', 'gestures', 'glass-art', 'i18n', 'locale-copy', 'level-data', 'levels', 'motion',
     'plate-motion', 'plate-physics', 'return-visit', 'return-visit-tracker',
     'rigid-runtime', 'sound', 'storage', 'telemetry',
   ].map(name => `js/${name}.js`),

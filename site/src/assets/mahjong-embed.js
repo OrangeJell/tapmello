@@ -1,7 +1,6 @@
 (() => {
   const host=document.querySelector('[data-mahjong-embed]'),frame=document.querySelector('#mahjong-frame');
   if(!host||!frame)return;
-  const localized = document.getElementById('site-localized-copy');
   const loader = createNativeLoader();
   const base = frame.dataset.src;
   window.addEventListener('message',event=>{
@@ -11,8 +10,11 @@
       frame.style.height = Math.ceil(data.height) + 'px';
       loader.ready();
     }
-    if(!localized&&data.type==='tapmelo-mahjong-language'&&['en','hi'].includes(data.language)&&data.language!==host.dataset.language){
-      const url=new URL((data.language==='hi'?'/hi':'')+'/games/mahjong/',location.origin);
+    if(data.type==='tapmelo-mahjong-language'&&data.language!==host.dataset.language){
+      const link=Array.from(document.querySelectorAll('.language-picker a[hreflang]'))
+        .find(option=>option.hreflang===data.language);
+      if(!link)return;
+      const url=new URL(link.href,location.origin);
       if(typeof data.route==='string'&&/^#(?:home|practice|learn\/[a-z0-9/-]+)$/.test(data.route))url.searchParams.set('resume',data.route);
       location.href=url.href;
     }

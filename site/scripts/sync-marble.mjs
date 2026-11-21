@@ -5,7 +5,7 @@ import path from 'node:path';
 const site=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const source=path.resolve(site,'../marble-sort-game'),target=path.join(site,'dist/play/marble-sort');
 // Explicit release list keeps tests, reference solutions tooling and development files out.
-const files=['assets/clay-toys.webp','assets/fox-avatar-128.png','styles.css','vendor/matter.min.js','vendor/MATTER-LICENSE.txt',...['app','engine','physics','view','house-art','toys','commuters','levels','shift-patterns','i18n','scenes','platform','audio','music','feedback'].map(name=>`js/${name}.js`)];
+const files=['assets/clay-toys.webp','assets/fox-avatar-128.png','styles.css','vendor/matter.min.js','vendor/MATTER-LICENSE.txt',...['app','engine','physics','view','house-art','toys','commuters','levels','shift-patterns','i18n','locale-copy','scenes','platform','audio','music','feedback'].map(name=>`js/${name}.js`)];
 await rm(target,{recursive:true,force:true});
 for(const file of files){
  await mkdir(path.dirname(path.join(target,file)),{recursive:true});

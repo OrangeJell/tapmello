@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 const site=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const source=path.resolve(site,'../mahjong-tutor'),target=path.join(site,'dist/play/mahjong');
-const files=['styles.css','assets/icon.svg','assets/outfit.woff2','assets/OFL.txt',...['app','articles','catalog','curriculum','hi','i18n','lessons','rules','storage','tiles','tutorial'].map(x=>`js/${x}.js`)];
+const files=['styles.css','assets/icon.svg','assets/outfit.woff2','assets/OFL.txt',...['app','articles','catalog','curriculum','hi','i18n','locale-copy','lessons','rules','storage','tiles','tutorial'].map(x=>`js/${x}.js`)];
 await rm(target,{recursive:true,force:true});
 for(const file of files){await mkdir(path.dirname(path.join(target,file)),{recursive:true});
  if(file.endsWith('.js')){
