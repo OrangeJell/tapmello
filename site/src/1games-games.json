@@ -4227,5 +4227,441 @@
         ]
       }
     }
+  },
+  {
+    "id": "escape-tsunami-brainrots-online",
+    "title": "Escape Tsunami Brainrots Online",
+    "category": {
+      "en": "Obstacle runner and base building"
+    },
+    "source": "https://1games.io/escape-tsunami-brainrots-online",
+    "url": "https://escape-tsunami-brainrots-online.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/escape-tsunami-brainrots-online-icon.png",
+      "artwork": "/assets/1games/escape-tsunami-brainrots-online-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/escape-tsunami-brainrots-online-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/escape-tsunami-brainrots-online/escape-tsunami-brainrots-online.png",
+        "artwork": "https://1games.io/data/image/game/escape-tsunami-brainrots-online/banner/escape-tsunami-brainrots-online_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/escape-tsunami-brainrots-online/escape-tsunami-brainrots-online.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-03-11",
+      "genres": [
+        "arcade",
+        "simulation"
+      ],
+      "tags": [
+        "obstacles-games",
+        "collecting-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Collect Brainrots and get back to base before waves sweep the course. Use trenches for shelter and upgrade your speed, carrying capacity and base.",
+        "aboutTitle": "Pick a return route with a trench in reach",
+        "about": [
+          "Brainrots appear on platforms along the course. Collect one and bring it back to base to start earning income from it. A farther platform can offer a more valuable pickup, but it also leaves a longer trip back.",
+          "A tsunami can sweep the course while you are out collecting. Trenches give you a place to wait for it to pass. Before heading farther out, look for a trench you can reach from the platform you are aiming for.",
+          "Income from returned units pays for improvements. Speed helps when the trip itself takes too long. Capacity lets you carry more in one outing, while extra slots give you room for more units at base."
+        ],
+        "steps": [
+          [
+            "Set out and check the route",
+            "Move with WASD or the arrow keys. Use the right mouse button to adjust the camera so you can see the platforms and nearby trenches."
+          ],
+          [
+            "Pick up a Brainrot",
+            "Press E when you are close enough to a unit. Use Space to jump over gaps in the course and check your landing before leaving the platform."
+          ],
+          [
+            "Get out of the wave's path",
+            "If a wave approaches and the base is too far away, aim for a trench and wait for the wave to pass before continuing."
+          ],
+          [
+            "Use the income to improve the next trip",
+            "Return the Brainrot to base. Consider a speed upgrade if travel time keeps cutting your trips short, or capacity if you often leave reachable units behind."
+          ]
+        ],
+        "faq": [
+          [
+            "Where can I wait for a wave to pass?",
+            "The trenches along the running track serve as safe zones. Look for one before you head into a distant section."
+          ],
+          [
+            "When do Brainrots start earning income?",
+            "Bring them back and place them at your base. Units still on the course do not contribute to the base."
+          ],
+          [
+            "What can I upgrade between trips?",
+            "The game lets you improve movement speed, carrying capacity and the number of available base slots."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "ragdoll-launcher",
+    "title": "Ragdoll Launcher",
+    "category": {
+      "en": "Physics distance launcher"
+    },
+    "source": "https://1games.io/ragdoll-launcher",
+    "url": "https://ragdoll-launcher.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/ragdoll-launcher-icon.png",
+      "artwork": "/assets/1games/ragdoll-launcher-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/ragdoll-launcher-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/ragdoll-launcher/ragdoll-launcher.png",
+        "artwork": "https://1games.io/data/image/game/ragdoll-launcher/banner/ragdoll-launcher_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/ragdoll-launcher/ragdoll-launcher.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-03-23",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "throwing-games",
+        "timing-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Time a cannon launch in Ragdoll Launcher. Guide the ragdoll through the air, use boosts and earn upgrades for longer runs.",
+        "aboutTitle": "Judge the launch and first bounce separately",
+        "about": [
+          "A moving cannon and a power indicator determine the start of the run. Watch the aim and release timing before clicking. A strong launch still needs an angle that carries the character into an open part of the course.",
+          "You can drag the mouse to make small adjustments once the ragdoll is airborne. A trampoline or another in-game boost can keep the flight going. Scan for a clean way through before making a large adjustment toward one.",
+          "Distance earns rewards that help unlock improvements. Watch the first landing on early attempts. If you lose momentum immediately, compare a different launch timing before changing the upgrade you are saving for."
+        ],
+        "steps": [
+          [
+            "Watch the indicator before clicking",
+            "Wait until the cannon points toward a clear route and the power indicator is near the part of its range you want."
+          ],
+          [
+            "Make a small correction in the air",
+            "Drag the mouse to guide the ragdoll. Let the movement settle before making another change."
+          ],
+          [
+            "Look for a reachable boost",
+            "Use a trampoline or other boost when it is near the flight path. Keep a clear route through the next set of obstacles."
+          ],
+          [
+            "Compare two launches",
+            "Try similar power with a slightly different aim. See which one reaches a better first bounce before investing in another upgrade."
+          ]
+        ],
+        "faq": [
+          [
+            "Which control launches the ragdoll?",
+            "Click when the cannon and power indicator are where you want them."
+          ],
+          [
+            "Can I adjust direction after launch?",
+            "Yes. Drag the mouse in the air to guide the character toward a landing or boost."
+          ],
+          [
+            "Why do runs with similar power end at different distances?",
+            "Launch angle, bounces and obstacles change the path after takeoff. Watch where the first landing occurs in each run."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "dead-strike",
+    "title": "Dead Strike",
+    "category": {
+      "en": "Zombie wave shooter"
+    },
+    "source": "https://1games.io/dead-strike",
+    "url": "https://dead-strike.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/dead-strike-icon.png",
+      "artwork": "/assets/1games/dead-strike-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/dead-strike-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/dead-strike/dead-strike.png",
+        "artwork": "https://1games.io/data/image/game/dead-strike/banner/dead-strike_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/dead-strike/dead-strike.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-03-18",
+      "genres": [
+        "shooting"
+      ],
+      "tags": [
+        "horde-survival-games",
+        "reaction-games",
+        "arena-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Face zombie waves in Dead Strike. Learn the controls, use breaks to reload and spend mission rewards on upgrades for later encounters.",
+        "aboutTitle": "Learn how each upgrade changes a wave",
+        "about": [
+          "Dead Strike puts you in ruined urban game maps with waves of zombies. Some enemies reach you more quickly than others. Follow the movement on screen before committing to one target.",
+          "Your in-game loadout can change during a mission. Keep track of the current magazine and use a break between waves to reload. Check the selected weapon after switching so the next shot behaves the way you expect.",
+          "Mission rewards can buy upgrades to attributes such as reload speed and magazine capacity. Pay attention to where a run gets difficult. If frequent reloads interrupt a wave, compare improvements that address that part of the game."
+        ],
+        "steps": [
+          [
+            "Move with the keyboard",
+            "Use WASD or the arrow keys to reposition your character and keep the approaching wave in view."
+          ],
+          [
+            "Aim and fire with the mouse",
+            "Move the pointer to aim at an on-screen zombie, then click to fire the active game weapon."
+          ],
+          [
+            "Reload and switch between waves",
+            "Press R to reload and use the mouse wheel to switch the active weapon. Check the new selection before the next group arrives."
+          ],
+          [
+            "Spend a mission reward on one improvement",
+            "Compare the listed changes to damage, reload speed or magazine size. Test the upgrade in a familiar mission before spending again."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I change weapons?",
+            "Scroll the mouse wheel to switch the active in-game weapon."
+          ],
+          [
+            "Which key reloads?",
+            "Press R. A break between waves gives you time to complete the reload."
+          ],
+          [
+            "What can mission currency improve?",
+            "The game offers upgrades such as damage, accuracy, reload speed and magazine size, as well as equipment unlocks."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "goo-goo-gaga-clicker",
+    "title": "Goo Goo Gaga Clicker",
+    "category": {
+      "en": "Idle clicker"
+    },
+    "source": "https://1games.io/goo-goo-gaga-clicker",
+    "url": "https://goo-goo-gaga-clicker.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/goo-goo-gaga-clicker-icon.png",
+      "artwork": "/assets/1games/goo-goo-gaga-clicker-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/goo-goo-gaga-clicker-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/goo-goo-gaga-clicker/goo-goo-gaga-clicker.png",
+        "artwork": "https://1games.io/data/image/game/goo-goo-gaga-clicker/banner/goo-goo-gaga-clicker_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/goo-goo-gaga-clicker/goo-goo-gaga-clicker.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-03-16",
+      "genres": [
+        "clicker"
+      ],
+      "tags": [
+        "incremental-games",
+        "one-button-games",
+        "characters-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Click the meme character for points in Goo Goo Gaga Clicker. Buy per-click or automatic upgrades and use temporary bonuses to reach new characters.",
+        "aboutTitle": "Spend points on how you want to earn them",
+        "about": [
+          "Clicking the character earns points for your first upgrades. Some purchases raise the value of each click. Others earn points automatically while the game runs, giving you a different way to reach the next milestone.",
+          "The bonus bar rewards active clicking. When it fills, the points from each click double. If a temporary power-up appears, watch its effect before using your balance on a permanent change.",
+          "New forms appear as you reach milestones. Try one upgrade and watch your next round of earnings before buying again. Compare points from a short clicking burst with what the automatic upgrades produce when you pause."
+        ],
+        "steps": [
+          [
+            "Click the character to earn points",
+            "Start on the main screen and watch the total after each click. Open the upgrade options when you can afford one."
+          ],
+          [
+            "Pick an active or automatic upgrade",
+            "Choose more points per click for an active session. Pick automatic production when you want the total to keep rising between clicks."
+          ],
+          [
+            "Watch the bonus bar",
+            "Track the bar while you click. Use the doubled per-click reward while it is active."
+          ],
+          [
+            "Review the next milestone",
+            "Check the next upgrade cost after a bonus ends. Save toward a purchase that supports the way you plan to play."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I have to click continuously?",
+            "Some upgrades produce points automatically while the game runs. Early clicks help you afford the first of those upgrades."
+          ],
+          [
+            "What happens when the bonus bar fills?",
+            "It doubles the points earned per click. Watch the bar to see when the bonus ends."
+          ],
+          [
+            "How do new characters appear?",
+            "New character forms are unlocked as you reach progression milestones."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "bottle-hop",
+    "title": "Bottle Hop",
+    "category": {
+      "en": "Bottle flipping platformer"
+    },
+    "source": "https://1games.io/bottle-hop",
+    "url": "https://bottle-hop.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/bottle-hop-icon.png",
+      "artwork": "/assets/1games/bottle-hop-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/bottle-hop-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bottle-hop/bottle-hop.png",
+        "artwork": "https://1games.io/data/image/game/bottle-hop/banner/bottle-hop_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/bottle-hop/bottle-hop.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-03-13",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "flip-games",
+        "jumping-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Flip a bottle across living-room furniture in Bottle Hop. Time single and double jumps, avoid hazards and collect rewards for bottle skins.",
+        "aboutTitle": "Choose the next landing before the bottle takes off",
+        "about": [
+          "Bottle Hop turns shelves, tables and speakers into stepping stones. Click to flip the bottle off its current surface and aim for the next one. Level runs ask you to reach the finish without touching the floor.",
+          "A double click gives you an extra jump for larger gaps. Use it when the next surface is beyond the reach of a single flip. On short hops, the extra movement can carry the bottle past an otherwise easy landing.",
+          "Later layouts add moving hazards, such as fans and falling objects. Watch the landing area long enough to see whether it stays clear. Endless mode lets you try a longer sequence of flips, and collected gems and caps can unlock more skins."
+        ],
+        "steps": [
+          [
+            "Click once for a nearby surface",
+            "Look at the closest piece of furniture and tap the left mouse button to flip toward it."
+          ],
+          [
+            "Use a double jump for wider gaps",
+            "Double-click when a single flip will fall short. Check where the bottle can come down after the extra jump."
+          ],
+          [
+            "Wait for a moving hazard to clear",
+            "Watch how a fan or other moving object affects the landing area. Start the jump when there is room to reach the surface."
+          ],
+          [
+            "Practice a short route before Endless",
+            "Use level stages to get used to the distance of a single flip. In Endless, apply that timing when the route gives you a narrow platform."
+          ]
+        ],
+        "faq": [
+          [
+            "Which input makes the bottle flip?",
+            "Use a left click for a single flip. A double click gives you the extra jump."
+          ],
+          [
+            "What happens if the bottle touches the floor?",
+            "The level attempt ends. Look for a piece of furniture you can reach with the jump you have available."
+          ],
+          [
+            "What are gems and gold caps for?",
+            "They help unlock bottle skins you can use in later runs."
+          ]
+        ]
+      }
+    }
   }
 ]
