@@ -130,7 +130,8 @@ export function renderStandardDetail(lang, game, {
   const width = game.media?.artworkWidth ?? game.width;
   const height = game.media?.artworkHeight ?? game.height;
   const coverDimensions = ` width="${width}" height="${height}"`;
-  const showArtwork = !game.preview || !game.media?.artworkAsPosterOnly;
+  const showArtwork = game.provider !== '1games' && (!game.preview || !game.media?.artworkAsPosterOnly);
+  const screenshots = game.provider === '1games' ? game.media?.screenshots ?? [] : [];
   const recommendations = recommendGames(lang, game, sharedOnly).slice(0, 18).map(({ item }) => item);
 
   return `<main id="main" class="detail-layout" tabindex="-1">
@@ -195,7 +196,7 @@ export function renderStandardDetail(lang, game, {
           </div>
           ${renderMetadata(lang, game, taxonomy, sharedOnly)}
         </section>
-        <section class="detail-block detail-media">
+        ${showArtwork || game.preview || screenshots.length ? `<section class="detail-block detail-media">
           <h2>${label.media}</h2>
           <div class="detail-media-grid">
             ${showArtwork ? `<figure class="detail-artwork">
@@ -206,8 +207,11 @@ export function renderStandardDetail(lang, game, {
               <video src="${escape(game.preview)}" poster="${escape(cover)}" controls playsinline preload="none" aria-label="${label.preview}"></video>
               <figcaption>${label.preview}</figcaption>
             </figure>` : ''}
+            ${screenshots.map(({ src, width, height, alt }) => `<figure class="detail-screenshot">
+              <img src="${escape(src)}" width="${width}" height="${height}" alt="${escape(alt)}" loading="lazy" decoding="async">
+            </figure>`).join('')}
           </div>
-        </section>
+        </section>` : ''}
         <section class="detail-block detail-about">
           <h2>${escape(aboutTitle || label.about)}</h2>
           ${about.map(paragraph => `<p>${escape(paragraph)}</p>`).join('')}

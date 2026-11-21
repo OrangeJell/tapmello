@@ -497,10 +497,10 @@ html.detail-expanded { overflow: hidden; }
 .detail-media-grid { display: grid; gap: 16px; align-items: start; }
 .detail-media figure { margin: 0; min-width: 0; }
 @container (min-width: 380px) {
-  .detail-media-grid:has(.detail-artwork + .detail-media-preview) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .detail-media-grid:has(figure + figure) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 .detail-media figcaption { margin-top: 7px; color: var(--muted); font-size: .8125rem; }
-.detail-media .detail-artwork img {
+.detail-media :is(.detail-artwork, .detail-screenshot) img {
   height: auto;
   max-height: 300px;
   background: var(--paper);

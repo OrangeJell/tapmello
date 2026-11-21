@@ -176,9 +176,9 @@ for (const [code, locale] of Object.entries(partnerLocales)) {
   }
 }
 
-function checkDetailLayout(html, page) {
+function checkDetailLayout(html, page, hasMedia = true) {
   const sections = ['detail-player', 'detail-discovery', 'detail-title-block', 'detail-media', 'detail-about', 'detail-how', 'detail-faq', 'detail-rail'];
-  const positions = sections.map(section => html.indexOf('class="' + (['detail-title-block', 'detail-media', 'detail-about', 'detail-how', 'detail-faq'].includes(section) ? 'detail-block ' : '') + section + '"'));
+  const positions = sections.filter(section => hasMedia || section !== 'detail-media').map(section => html.indexOf('class="' + (['detail-title-block', 'detail-media', 'detail-about', 'detail-how', 'detail-faq'].includes(section) ? 'detail-block ' : '') + section + '"'));
   assert.ok(positions.every((position, index) => position >= 0 && (!index || position > positions[index - 1])), 'Standard detail layout: ' + page);
   assert.match(html, /class="detail-instruction"/, 'Game has instructions: ' + page);
   assert.match(html, /class="detail-block detail-faq"[\s\S]*?<details><summary>/, 'Game has FAQs: ' + page);
@@ -207,7 +207,16 @@ for (const lang of ['en']) {
     const gamePath = partnerGamePath(lang, game);
     assert.ok(home.includes(`href="${gamePath}"`), `Partner game card link: ${gamePath}`);
     const player = await readFile(path.join(dist, gamePath, 'index.html'), 'utf8');
-    checkDetailLayout(player, gamePath);
+    const screenshots = game.media.screenshots ?? [];
+    const hasMedia = game.provider !== '1games' || Boolean(game.preview) || screenshots.length > 0;
+    checkDetailLayout(player, gamePath, hasMedia);
+    if (game.provider === '1games') {
+      const media = player.match(/<section class="detail-block detail-media">[\s\S]*?<\/section>/)?.[0];
+      assert.equal(Boolean(media), hasMedia, `1Games media section presence: ${gamePath}`);
+      assert.equal(Boolean(media?.match(/<video\b[^>]*\bcontrols\b/)), Boolean(game.preview), `1Games playable video: ${gamePath}`);
+      const imageSources = [...(media ?? '').matchAll(/<img\s+src="([^"]+)"/g)].map(([, src]) => src);
+      assert.deepEqual(imageSources, screenshots.map(({ src }) => src), `1Games media shows only registered screenshots as images: ${gamePath}`);
+    }
     assert.match(player, /class="detail-tile"[^>]+data-game-tile[^>]*>\s*<span class="game-tile-art">\s*<img[^>]*>\s*(?:<video[^>]*><\/video>\s*)?<span class="game-tile-label">/, 'Recommendation labels are inside the artwork');
     const { categories, tags } = taxonomyFor(game);
     const breadcrumb = player.match(/class="discovery-breadcrumb"[\s\S]*?<\/nav>/)?.[0];

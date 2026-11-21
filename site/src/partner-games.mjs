@@ -34,6 +34,19 @@ export const partnerGames = catalogue.map(game => {
   assert.ok(isText(game.title) && URL.canParse(game.url) && new URL(game.url).protocol === 'https:', 'Game title and HTTPS embed: ' + id);
   assert.ok(asset(media.icon) && asset(media.artwork) && (!media.preview || asset(media.preview)), 'Playable media paths: ' + id);
   assert.ok([game.width, game.height, media.artworkWidth, media.artworkHeight].every(n => Number.isInteger(n) && n > 0), 'Image dimensions: ' + id);
+  if (provider === '1games' && media.screenshots !== undefined) {
+    assert.ok(Array.isArray(media.screenshots), 'Screenshot list: ' + id);
+    const images = new Set([media.icon, media.artwork]);
+    const sources = new Set([media.sources?.icon, media.sources?.artwork]);
+    for (const { src, width, height, alt, source } of media.screenshots) {
+      assert.ok(asset(src) && /^\/assets\/1games\/.+\.(?:png|jpg|webp)$/i.test(src), 'Local screenshot image: ' + id);
+      assert.ok(URL.canParse(source) && new URL(source).protocol === 'https:', 'Screenshot source: ' + id);
+      assert.ok([width, height].every(n => Number.isInteger(n) && n > 0) && isText(alt), 'Screenshot dimensions and description: ' + id);
+      assert.ok(!images.has(src) && !sources.has(source), 'Distinct screenshot: ' + id);
+      images.add(src);
+      sources.add(source);
+    }
+  }
   for (const field of ['genres', 'tags', 'mobileReady', 'supportedLanguages']) {
     assert.ok(Array.isArray(metadata[field]) && metadata[field].every(isText), 'Catalogue ' + field + ': ' + id);
   }
