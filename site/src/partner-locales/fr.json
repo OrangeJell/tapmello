@@ -6281,6 +6281,1006 @@
           "Oui. Daily Race propose aux joueurs un défi partagé et offre une récompense en pièces."
         ]
       ]
+    },
+    "street-rider": {
+      "category": "Skate sans fin en 3D",
+      "searchTitle": "Street Rider – Skate sans fin en 3D",
+      "summary": "Patinez dans la circulation dans Street Rider. Sautez depuis les rampes, glissez le long des rails et déverrouillez les planches tout en relevant des défis.",
+      "about": [
+        "L'itinéraire change entre les courses. Regardez devant vous les voitures, le mobilier urbain et les rampes.",
+        "Les rails et les toits des véhicules offrent des chances de marquer. Vérifiez où vous atterrirez avant de quitter le sol."
+      ],
+      "steps": [
+        [
+          "Contourner la circulation",
+          "Utilisez A et D ou les touches fléchées gauche et droite pour diriger."
+        ],
+        [
+          "Regardez au-delà de la rampe",
+          "Choisissez une zone d'atterrissage dégagée avant de sauter."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je débloquer plus de tableaux ?",
+          "Oui. Relevez des défis et continuez à jouer pour débloquer des tableaux."
+        ]
+      ]
+    },
+    "challenge-rush": {
+      "category": "Plateforme rythmique avec éditeur",
+      "searchTitle": "Challenge Rush – Plateforme rythmique avec éditeur",
+      "summary": "Chronométrez vos sauts au rythme de la musique dans Challenge Rush. Jouez aux niveaux communautaires ou créez et testez un parcours d'obstacles dans l'éditeur.",
+      "about": [
+        "Chaque parcours combine de la musique avec des obstacles qui exigent un timing précis.",
+        "L'éditeur vous permet de créer et de tester un cours. Les niveaux communautaires offrent plus de configurations pour s'entraîner."
+      ],
+      "steps": [
+        [
+          "Regardez le prochain obstacle",
+          "Utilisez le rythme pour anticiper le moment où sauter."
+        ],
+        [
+          "Testez le cours que vous créez",
+          "Jouez sur votre propre tracé pour vérifier le timing des obstacles consécutifs."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je créer mes propres niveaux ?",
+          "Oui. Le jeu comprend un éditeur de niveau."
+        ]
+      ]
+    },
+    "shape-rush": {
+      "category": "Course rythmique géométrique",
+      "searchTitle": "Shape Rush – Course rythmique géométrique",
+      "summary": "Passez au rythme de la musique dans Shape Rush. Guidez un personnage géométrique à travers des parcours rapides et débloquez de nouveaux looks dans le garage.",
+      "about": [
+        "Votre personnage avance automatiquement. Chronométrez chaque saut pour éliminer les obstacles le long du parcours.",
+        "Différents niveaux de difficulté offrent différents défis. Répéter une courte section peut vous aider à apprendre son rythme."
+      ],
+      "steps": [
+        [
+          "Chronométrer le saut",
+          "Cliquez ou appuyez sur Espace lorsque vous approchez d'un obstacle."
+        ],
+        [
+          "Lire le prochain atterrissage",
+          "Regardez devant vous pour voir combien d'espace vous avez après avoir franchi l'obstacle."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je changer l'apparence de mon personnage ?",
+          "Oui. Le garage propose des skins et des options de couleurs."
+        ]
+      ]
+    },
+    "pixel-path": {
+      "category": "Plateforme pixelisée à pièges",
+      "searchTitle": "Pixel Path – Plateforme pixelisée à pièges",
+      "summary": "Atteignez la sortie dans Pixel Path. Sautez par-dessus les pointes et surveillez les plates-formes qui changent à mesure que vous vous approchez.",
+      "about": [
+        "Chaque étape a une porte à atteindre. Certains dangers ne deviennent visibles qu’une fois que vous vous en rapprochez.",
+        "Lorsqu'un piège vous surprend, rappelez-vous où il est apparu et changez d'approche à la prochaine tentative."
+      ],
+      "steps": [
+        [
+          "Vérifiez le chemin avant de sauter",
+          "Cherchez un endroit sûr pour atterrir avant de quitter une plate-forme."
+        ],
+        [
+          "Découvrez où apparaissent les pièges",
+          "Utilisez une tentative infructueuse pour planifier votre prochain itinéraire à travers la même pièce."
+        ]
+      ],
+      "faq": [
+        [
+          "Quel est le but de chaque étape ?",
+          "Atteignez la porte de sortie pour avancer."
+        ]
+      ]
+    },
+    "golf-hit": {
+      "category": "Golf de distance",
+      "searchTitle": "Golf Hit – Golf de distance",
+      "summary": "Frappez la balle aussi loin que possible dans Golf Hit. Chronométrez votre swing, collectez des pièces et achetez des améliorations pour des tirs plus longs.",
+      "about": [
+        "Un swing chronométré envoie la balle à travers la carte. Il peut rebondir et continuer à voyager après le premier atterrissage.",
+        "La distance et les pièces vous aident à progresser. Dépensez vos récompenses en améliorations et essayez de battre votre tir le plus long."
+      ],
+      "steps": [
+        [
+          "Frappez au bon moment",
+          "Surveillez l’indicateur de visée avant de tirer."
+        ],
+        [
+          "Mise à niveau entre les prises de vue",
+          "Dépensez vos récompenses et comparez la distance lors de votre prochaine tentative."
+        ]
+      ],
+      "faq": [
+        [
+          "Dois-je viser un trou ?",
+          "Votre objectif principal est d'envoyer la balle de golf le plus loin possible."
+        ]
+      ]
+    },
+    "flip-physics": {
+      "category": "Gymnastique à la barre fixe",
+      "searchTitle": "Flip Physics – Gymnastique à la barre fixe",
+      "summary": "Balancez-vous à partir d'une barre horizontale dans Flip Physics. Prenez de l'élan, choisissez quand lâcher prise et contrôlez votre rotation avant d'atterrir.",
+      "about": [
+        "Balancez-vous d'avant en arrière sur la barre pour créer un élan. Le moment de votre libération affecte votre trajectoire de vol.",
+        "Rentrer votre corps vous aide à tourner plus rapidement. Prévoyez du temps pour préparer l’atterrissage après le flip."
+      ],
+      "steps": [
+        [
+          "Créer un élan sur la barre",
+          "Augmentez la taille de votre swing avant de relâcher votre prise."
+        ],
+        [
+          "Contrôler la rotation",
+          "Rentrez pour tourner plus vite et préparez-vous à atterrir avant d’atterrir."
+        ]
+      ],
+      "faq": [
+        [
+          "Qu'est-ce qui change la direction de mon saut ?",
+          "Le point de votre swing auquel vous relâchez la barre change votre trajectoire."
+        ]
+      ]
+    },
+    "paint-hide-seek": {
+      "category": "Cache-cache avec camouflage peint",
+      "searchTitle": "Paint Hide & Seek – Cache-cache avec camouflage peint",
+      "summary": "Fondez-vous dans le décor de Paint Hide & Seek. Peignez votre camouflage pour vous cacher ou inspectez la pièce pour trouver les autres joueurs.",
+      "about": [
+        "Les cacheurs peuvent changer leur apparence pour correspondre aux couleurs proches. Une pose bien choisie peut aider le déguisement à s'adapter à la scène.",
+        "Les chercheurs recherchent des détails qui se démarquent de l’environnement. Regardez les formes ainsi que les couleurs."
+      ],
+      "steps": [
+        [
+          "Faites correspondre l'arrière-plan",
+          "Choisissez des couleurs qui ressemblent à la surface derrière vous."
+        ],
+        [
+          "Vérifiez les formes inhabituelles",
+          "En tant que chercheur, recherchez des objets dont la forme ou la position ne semble pas à sa place."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je jouer les deux rôles ?",
+          "Oui. Le jeu propose des tours en tant que cacheur ou chercheur."
+        ]
+      ]
+    },
+    "duck-playground-3d": {
+      "category": "Bac à sable physique avec des canards",
+      "searchTitle": "Duck Playground 3D – Bac à sable physique avec des canards",
+      "summary": "Construisez et testez des structures dans Duck Playground 3D. Placez des accessoires et utilisez l'outil de gravité pour déplacer ou faire pivoter des objets.",
+      "about": [
+        "Ouvrez le menu pour placer des murs, des meubles et des personnages. Combinez-les pour construire des salles, des tours ou des parcours d'obstacles.",
+        "Les objets réagissent à la gravité, au poids et aux collisions. Essayez de changer ce que vous placez pour voir comment cela affecte le résultat."
+      ],
+      "steps": [
+        [
+          "Mettre en place une petite structure",
+          "Commencez avec quelques pièces pour voir comment elles bougent lorsqu’elles entrent en collision."
+        ],
+        [
+          "Repositionner un objet",
+          "Utilisez l'outil de gravité pour maintenir et faire pivoter un accessoire avant de le poser."
+        ]
+      ],
+      "faq": [
+        [
+          "Y a-t-il une limite de temps ?",
+          "Le bac à sable vous permet d'expérimenter sans minuterie."
+        ]
+      ]
+    },
+    "blockader": {
+      "category": "Roguelite en arène lunaire",
+      "searchTitle": "Blockader – Roguelite en arène lunaire",
+      "summary": "Survivez aux vagues ennemies sur la lune dans Blockader. Déplacez-vous dans l’arène et choisissez une carte d’amélioration après chaque vague.",
+      "about": [
+        "Vos armes attaquent automatiquement à l'approche des ennemis. Continuez à avancer pour faire de la place au groupe suivant.",
+        "Vaincre les ennemis remplit le compteur d'ondes. À la fin de la vague, choisissez une amélioration parmi les cartes proposées."
+      ],
+      "steps": [
+        [
+          "Gardez un itinéraire clair",
+          "Éloignez-vous des groupes qui s’approchent avant qu’ils ne vous entourent."
+        ],
+        [
+          "Choisissez une carte de mise à niveau",
+          "Choisissez une carte qui fonctionne avec les mises à niveau dont vous disposez déjà."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand puis-je bénéficier d’une autre mise à niveau ?",
+          "Le jeu propose un nouveau choix après avoir terminé une vague."
+        ]
+      ]
+    },
+    "roller-coaster-obby-race": {
+      "category": "Course de wagonnets à obstacles",
+      "searchTitle": "Roller Coaster: Obby Race – Course de wagonnets à obstacles",
+      "summary": "Guidez votre minecart à travers Roller Coaster: Obby Race. Freinez pour les virages serrés et les sauts de temps sur les interstices des rails.",
+      "about": [
+        "Les sections droites donnent au chariot la possibilité de gagner de la vitesse. Les virages serrés laissent moins de place pour corriger votre trajectoire.",
+        "Vérifiez la piste après chaque virage. Vous devrez peut-être reprendre de la vitesse pour franchir un écart."
+      ],
+      "steps": [
+        [
+          "Freiner avant le virage",
+          "Ralentissez avant de prendre un virage serré."
+        ],
+        [
+          "Approchez-vous de l'écart tout droit",
+          "Alignez-vous avec les rails devant vous avant de sauter."
+        ]
+      ],
+      "faq": [
+        [
+          "Où puis-je prendre de la vitesse en toute sécurité ?",
+          "Utilisez des sections droites avec une vue dégagée sur la piste devant vous."
+        ]
+      ]
+    },
+    "turbo-horizon-racing": {
+      "category": "Course automobile arcade rétro",
+      "searchTitle": "Turbo Horizon Racing – Course automobile arcade rétro",
+      "summary": "Parcourez le World Tour dans Turbo Horizon Racing. Gérez l'adhérence des pneus et économisez de la nitro pour les dépassements sur les tronçons ouverts.",
+      "about": [
+        "Le World Tour vous emmène à travers différentes conditions routières et météorologiques. Ajustez votre vitesse en fonction de la piste.",
+        "L'écran de course affiche l'adhérence, la chaleur et d'autres informations sur votre voiture. Surveillez le compteur de nitro pendant que vous conduisez."
+      ],
+      "steps": [
+        [
+          "Vérifiez votre adhérence avant de tourner",
+          "Réduisez votre vitesse tôt si le prochain virage est serré ou si la surface offre moins d’adhérence."
+        ],
+        [
+          "Utilisez de la nitro là où la route s'ouvre",
+          "Attendez qu'il y ait de la place pour accélérer avant de dépenser votre boost."
+        ]
+      ],
+      "faq": [
+        [
+          "Le jeu a-t-il un mode visite ?",
+          "Oui. World Tour propose des courses dans plusieurs environnements."
+        ]
+      ]
+    },
+    "blockfootball-3d-football-manager": {
+      "category": "Gestion de club de football en 3D",
+      "searchTitle": "Blockfootball: 3D Football Manager – Gestion de club de football en 3D",
+      "summary": "Gérez un club dans Blockfootball : 3D Football Manager. Définissez des tactiques, développez votre équipe et modifiez votre composition lors de matchs en 3D.",
+      "about": [
+        "Choisissez la formation de départ et regardez les joueurs contrôlés par ordinateur exécuter votre plan.",
+        "Les finances et les transferts du club déterminent les joueurs que vous pouvez recruter. Développez votre équipe parallèlement à vos tactiques de match."
+      ],
+      "steps": [
+        [
+          "Constituer l'équipe de départ",
+          "Choisissez les joueurs et les tactiques avant le coup d'envoi."
+        ],
+        [
+          "Ajuster pendant le match",
+          "Utilisez des substitutions ou changez de tactique lorsque le match l'exige."
+        ]
+      ],
+      "faq": [
+        [
+          "Est-ce que je dirige les joueurs directement ?",
+          "Les joueurs se déplacent automatiquement pendant que vous gérez les tactiques et les remplacements."
+        ]
+      ]
+    },
+    "rush-line": {
+      "category": "Parkour sans fin sur autoroute",
+      "searchTitle": "Rush Line – Parkour sans fin sur autoroute",
+      "summary": "Sprintez sur l'autoroute dans Rush Line. Sautez par-dessus les dangers, glissez sous les barrières et collectez des pièces sur des itinéraires plus difficiles.",
+      "about": [
+        "La vitesse augmente à mesure que la course continue. Surveillez le prochain obstacle pour pouvoir choisir de sauter, de glisser ou de changer de position.",
+        "Le hub de la ville vous permet de choisir un personnage et de visualiser les missions avant de courir. Certains itinéraires proposent des pièces supplémentaires."
+      ],
+      "steps": [
+        [
+          "Lire la hauteur de l'obstacle",
+          "Sautez par-dessus de faibles dangers et glissez sous les barrières aériennes."
+        ],
+        [
+          "Planifiez le prochain déménagement tôt",
+          "Regardez au-delà de l’obstacle actuel à mesure que votre vitesse augmente."
+        ]
+      ],
+      "faq": [
+        [
+          "L'autoroute a-t-elle une ligne d'arrivée ?",
+          "Les courses sur autoroute se poursuivent jusqu'à ce qu'un danger mette fin à la tentative."
+        ]
+      ]
+    },
+    "fly-simulator-2d": {
+      "category": "Simulation de mouche domestique",
+      "searchTitle": "Fly Simulator 2D – Simulation de mouche domestique",
+      "summary": "Explorez les pièces comme une mouche domestique dans Fly Simulator 2D. Trouvez des fruits avant que la faim ne soit faible et faites attention aux papiers anti-mouches collants.",
+      "about": [
+        "Les meubles et la nourriture semblent énormes du point de vue d'une mouche. Volez au-dessus des obstacles ou atterrissez sur des tables pour explorer.",
+        "La faim diminue avec le temps. Recherchez des aliments tels que des fruits et des conserves lorsque vous vous déplacez d'une pièce à l'autre."
+      ],
+      "steps": [
+        [
+          "Trouver de la nourriture tôt",
+          "Cherchez de la nourriture avant que votre faim ne devienne trop faible."
+        ],
+        [
+          "Évitez les surfaces collantes",
+          "En volant près des meubles, gardez vos distances avec le papier tue-mouches."
+        ]
+      ],
+      "faq": [
+        [
+          "Que peut manger la mouche ?",
+          "Les fruits et les pots de conserves font partie des sources de nourriture que vous pourrez trouver."
+        ]
+      ]
+    },
+    "asmr-squishy-keyboard-tower": {
+      "category": "Parkour ASMR dans une tour",
+      "searchTitle": "ASMR Squishy & Keyboard Tower – Parkour ASMR dans une tour",
+      "summary": "Montez la tour ASMR Squishy & Keyboard. Sautez sur des plates-formes logicielles et des touches de clavier qui émettent des sons différents lorsque vous atterrissez.",
+      "about": [
+        "La tour utilise des plates-formes gonflables et des surfaces aux textures différentes. Chaque section a ses propres sons.",
+        "Les pièces sont dispersées le long du parcours. Vérifiez la plateforme suivante avant de quitter un endroit sûr pour les récupérer."
+      ],
+      "steps": [
+        [
+          "Visez le milieu de la plateforme",
+          "Donnez-vous de l'espace pour vous ajuster après avoir atterri sur une surface rebondissante."
+        ],
+        [
+          "Écoutez chaque surface",
+          "Essayez d'atterrir sur différentes plates-formes pour entendre les sons qu'elles émettent."
+        ]
+      ],
+      "faq": [
+        [
+          "Qu'est-ce qui fait les sons ?",
+          "Les touches du clavier, le papier bulle et les objets mous émettent des sons différents lorsque vous atterrissez dessus."
+        ]
+      ]
+    },
+    "snowcross-stunts-x3m": {
+      "category": "Descente à ski et figures",
+      "searchTitle": "Snowcross Stunts X3M – Descente à ski et figures",
+      "summary": "Parcourez des parcours enneigés dans Snowcross Stunts X3M. Atterrissez pour gagner du temps et rester en équilibre dans les chutes et les boucles abruptes.",
+      "about": [
+        "Chaque parcours combine des pentes avec des sauts et des obstacles. Contrôlez la vitesse avant les chutes abruptes afin de pouvoir vous préparer à l'atterrissage.",
+        "Un retournement terminé peut réduire votre temps. Choisissez des sauts qui vous laissent suffisamment de temps pour terminer la rotation."
+      ],
+      "steps": [
+        [
+          "Préparez-vous au saut",
+          "Approchez-vous d’une rampe avec suffisamment de vitesse pour franchir la section suivante."
+        ],
+        [
+          "Terminez la rotation avant d'atterrir",
+          "Utilisez des sauts plus longs pour les flips et gardez vos skis alignés avec la pente."
+        ]
+      ],
+      "faq": [
+        [
+          "Les flips affectent-ils mon temps de course ?",
+          "Des flips réussis peuvent prendre du temps sur votre course."
+        ]
+      ]
+    },
+    "basketball-fever": {
+      "category": "Tirs de basket arcade",
+      "searchTitle": "Basketball Fever – Tirs de basket arcade",
+      "summary": "Faites glisser et relâchez pour tirer dans Basketball Fever. Ajustez l'angle et la puissance lorsque le cerceau se déplace entre les tirs réussis.",
+      "about": [
+        "Le panier peut changer de position ou de distance après un score. Vérifiez sa nouvelle position avant de prendre une autre photo.",
+        "La longueur de votre traînée contrôle la puissance du lancer. Raccourcissez-le pour un panier plus proche."
+      ],
+      "steps": [
+        [
+          "Vérifiez où le cerceau a bougé",
+          "Regardez sa hauteur et sa distance avant de viser."
+        ],
+        [
+          "Ajuster la puissance de lancement",
+          "Utilisez une traînée plus longue pour un panier plus éloigné et relâchez-la une fois que la direction est définie."
+        ]
+      ],
+      "faq": [
+        [
+          "Que se passe-t-il si je rate ?",
+          "Un tir manqué peut mettre fin à la séquence en cours."
+        ]
+      ]
+    },
+    "curryillion": {
+      "category": "Quiz NBA du jour",
+      "searchTitle": "Curryillion – Quiz NBA du jour",
+      "summary": "Répondez à sept questions quotidiennes sur la NBA dans Curryillion. Tapez des joueurs ou des équipes de mémoire et marquez plus avec des réponses correctes plus rares.",
+      "about": [
+        "Chaque question a une minuterie de 24 secondes. Tapez une réponse qui correspond à l'invite et vérifiez les suggestions au fur et à mesure que vous la saisissez.",
+        "Votre première réponse acceptée fixe le score pour cette question. Chaque invite a une réponse cachée valant 100 points."
+      ],
+      "steps": [
+        [
+          "Rappeler les candidats avant de les soumettre",
+          "Pensez aux joueurs ou aux équipes qui correspondent à toutes les parties de l'invite."
+        ],
+        [
+          "Utilisez les suggestions pour vérifier l’orthographe",
+          "Recherchez le nom que vous vouliez saisir avant de confirmer."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je réessayer après une réponse invalide ?",
+          "Oui. Vous pouvez essayer une autre réponse pendant qu'il reste du temps."
+        ]
+      ]
+    },
+    "sinkhole-rush": {
+      "category": "Jeu d’arcade du trou qui grandit",
+      "searchTitle": "Sinkhole Rush – Jeu d’arcade du trou qui grandit",
+      "summary": "Cultivez un gouffre dans Sinkhole Rush. Commencez avec de petits objets, puis avalez des véhicules et des bâtiments à mesure que le trou s'élargit.",
+      "about": [
+        "Le trou ne peut avaler que les objets adaptés. Commencez avec de petits objets proches les uns des autres pour grandir régulièrement.",
+        "Des objets plus gros deviennent disponibles à mesure que votre trou s'agrandit. Le mode Battle ajoute des rivaux et Solo vous permet de jouer seul."
+      ],
+      "steps": [
+        [
+          "Collectez d'abord les petits objets",
+          "Dirigez-vous à travers des groupes d’objets qui rentrent déjà à l’intérieur du trou."
+        ],
+        [
+          "Déplacez-vous vers des objets plus grands une fois que vous grandissez",
+          "Essayez des cibles plus grandes une fois que le trou est suffisamment large."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je jouer sans rivaux ?",
+          "Oui. Choisissez le mode Solo si vous souhaitez grandir sans rivaliser avec les autres."
+        ]
+      ]
+    },
+    "drifty-road-rush": {
+      "category": "Course de drift à un clic",
+      "searchTitle": "Drifty Road Rush – Course de drift à un clic",
+      "summary": "Dérivez sur une piste étroite au-dessus de l'eau dans Drifty Road Rush. Chronométrez chaque virage et dépassez les voitures rivales avant l'arrivée.",
+      "about": [
+        "La voiture accélère automatiquement. Concentrez-vous sur le prochain virage et surveillez la circulation sur la voie surélevée.",
+        "L'indicateur de position indique votre place dans la course. La barre de progression indique la quantité de trace restante."
+      ],
+      "steps": [
+        [
+          "Commencez à dériver à l'approche du virage",
+          "Cliquez pour dériver lorsque vous atteignez un virage."
+        ],
+        [
+          "Vérifiez la circulation après le virage",
+          "Laissez de la place aux autres voitures lorsque vous sortez de la dérive."
+        ]
+      ],
+      "faq": [
+        [
+          "Dois-je maintenir un bouton enfoncé pour accélérer ?",
+          "Non. La voiture prend de la vitesse toute seule."
+        ]
+      ]
+    },
+    "flip-or-fail": {
+      "category": "Cascades et réceptions de précision",
+      "searchTitle": "Flip Or Fail – Cascades et réceptions de précision",
+      "summary": "Lancez-vous sur les rampes dans Flip Or Fail. Chronométrez vos rotations et atterrissez debout pour marquer des points.",
+      "about": [
+        "Chaque saut part d'une rampe ou d'une plate-forme surélevée. Le temps que vous passez dans les airs limite le nombre de rotations que vous pouvez effectuer.",
+        "Des astuces supplémentaires peuvent augmenter votre score. Donnez-vous le temps de vous redresser avant d'atterrir."
+      ],
+      "steps": [
+        [
+          "Repérez la zone de réception",
+          "Vérifiez la hauteur et la distance de la cible avant de commencer un saut."
+        ],
+        [
+          "Terminez la rotation plus tôt",
+          "Arrêtez de tourner à temps pour atterrir sur vos pieds."
+        ]
+      ],
+      "faq": [
+        [
+          "Dois-je tenter autant de retournements que possible ?",
+          "Essayez plus de rotations uniquement lorsque le saut vous laisse suffisamment de temps pour atterrir debout."
+        ]
+      ]
+    },
+    "ragdoll-flip": {
+      "category": "Salto arrière sur trampoline",
+      "searchTitle": "Ragdoll Flip – Salto arrière sur trampoline",
+      "summary": "Rebondissez sur les trampolines dans Ragdoll Flip. Effectuez des backflips contrôlés pour créer une séquence et gagner des pièces pour les nouveaux personnages.",
+      "about": [
+        "Maintenez l'entrée de saut pour tourner en vol. Relâchez-le à temps pour vous aligner sur le trampoline.",
+        "Différents trampolines modifient votre hauteur de rebond. Ajustez votre timing au lieu de répéter la même rotation à chaque fois."
+      ],
+      "steps": [
+        [
+          "Pratiquez un flip propre",
+          "Commencez par une seule rotation et concentrez-vous sur l’atterrissage vertical."
+        ],
+        [
+          "Ajuster à chaque trampoline",
+          "Surveillez la hauteur de votre rebond avant de tenter d'autres rotations."
+        ]
+      ],
+      "faq": [
+        [
+          "Que puis-je débloquer avec des pièces ?",
+          "Les pièces débloquent des emplacements et des personnages avec des mouvements différents."
+        ]
+      ]
+    },
+    "skateboard-my-life-3d": {
+      "category": "Descente en skateboard",
+      "searchTitle": "Skateboard My Life 3D – Descente en skateboard",
+      "summary": "Dévalez les routes de montagne dans Skateboard My Life 3D. Contournez les voitures et le temps passe par-dessus les obstacles.",
+      "about": [
+        "Le parcours mélange des virages serrés et du trafic en mouvement. Regardez devant vous pour choisir un itinéraire à travers les véhicules.",
+        "Les rampes vous envoient dans les airs. Vérifiez où la planche peut atterrir avant de viser une rampe."
+      ],
+      "steps": [
+        [
+          "Prêt pour les virages serrés",
+          "Commencez à diriger avant que la route ne tourne brusquement."
+        ],
+        [
+          "Utilisez des rampes avec un atterrissage dégagé",
+          "Choisissez une rampe uniquement lorsque la route au-delà est ouverte."
+        ]
+      ],
+      "faq": [
+        [
+          "L'objectif est-il de terminer le cours ?",
+          "Oui. Restez sur le tableau et atteignez la ligne d'arrivée."
+        ]
+      ]
+    },
+    "mx-offroad-mountain-bike": {
+      "category": "Descente en VTT",
+      "searchTitle": "MX Offroad Mountain Bike – Descente en VTT",
+      "summary": "Parcourez des sentiers escarpés en VTT MX Offroad. Traversez des ponts étroits, atterrissez sur des chutes rocheuses et courez seul ou sur un écran partagé.",
+      "about": [
+        "Les pentes raides augmentent rapidement la vitesse. Les ponts étroits laissent peu de place pour corriger votre direction.",
+        "Un mauvais atterrissage peut vous renvoyer à votre dernier point de contrôle. Alignez le vélo avec la pente avant de toucher le sol."
+      ],
+      "steps": [
+        [
+          "Restez centré sur les ponts",
+          "Alignez-vous avec le pont avant de monter dessus."
+        ],
+        [
+          "Préparez-vous aux chutes rocheuses",
+          "Surveillez la hauteur de la chute et dirigez le vélo vers un atterrissage en toute sécurité."
+        ]
+      ],
+      "faq": [
+        [
+          "Deux personnes peuvent-elles jouer sur un seul appareil ?",
+          "Oui. Le jeu prend en charge le jeu local en écran partagé."
+        ]
+      ]
+    },
+    "crash-tower-3d": {
+      "category": "Démolition avec des véhicules lourds",
+      "searchTitle": "Crash Tower 3D – Démolition avec des véhicules lourds",
+      "summary": "Lancez un véhicule lourd dans Crash Tower 3D et chronométrez le boost pour abattre les barrières, les murs et les bâtiments.",
+      "about": [
+        "Le véhicule se dirige vers la rampe une fois que vous l'avez lancé. Le capteur de puissance vous indique quand un boost plus puissant est disponible.",
+        "Le poids du véhicule et la vitesse de lancement affectent ce qui se passe lorsque vous heurtez la structure."
+      ],
+      "steps": [
+        [
+          "Commencez la course",
+          "Activez le contrôle de lancement pour envoyer le véhicule vers la cible."
+        ],
+        [
+          "Visez la section or",
+          "Déclenchez le boost lorsque le compteur atteint la section or."
+        ]
+      ],
+      "faq": [
+        [
+          "Qu’est-ce qui change la force d’un crash ?",
+          "Le véhicule que vous choisissez et le moment du boost affectent tous deux l’impact."
+        ]
+      ]
+    },
+    "mega-ramp-car-stunts": {
+      "category": "Cascades automobiles en altitude",
+      "searchTitle": "Mega Ramp Car Stunts – Cascades automobiles en altitude",
+      "summary": "Traversez des pistes flottantes dans Mega Ramp Car Stunts. Effacez les boucles et récupérez les points de contrôle verts avant la fin du temps imparti.",
+      "about": [
+        "Chaque parcours place des routes étroites, des dénivelés et des boucles au-dessus des nuages. Dirigez-vous prudemment lorsqu'il y a peu de place de chaque côté.",
+        "Surveillez les points de contrôle verts lorsque vous suivez l'itinéraire. Récupérez-les avant que le chronomètre n’atteigne zéro."
+      ],
+      "steps": [
+        [
+          "Ralentissez sur les voies étroites",
+          "Laissez un peu d'espace pour ajuster votre ligne avant d'entrer dans une section étroite."
+        ],
+        [
+          "Vérifiez le prochain point de contrôle",
+          "Recherchez sa position avant de sauter ou de vous laisser tomber sur une piste inférieure."
+        ]
+      ],
+      "faq": [
+        [
+          "De quoi ai-je besoin pour terminer une étape ?",
+          "Récupérez tous les points de contrôle verts dans le délai imparti."
+        ]
+      ]
+    },
+    "turball-io": {
+      "category": "Football multijoueur en voitures-fusées",
+      "searchTitle": "Turball.io – Football multijoueur en voitures-fusées",
+      "summary": "Jouez au football en voiture-fusée sur Turball.io. Sautez et boostez pour frapper la balle, défendez votre but et participez à des matchs en solo ou en équipe.",
+      "about": [
+        "Conduisez dans le ballon pour changer sa direction. Sautez et tournez dans les airs lorsque le ballon est au-dessus du sol.",
+        "Boost vous aide à atteindre le ballon plus rapidement. Dans une équipe, gardez une trace de vos coéquipiers avant de vous engager dans un tir."
+      ],
+      "steps": [
+        [
+          "Alignez-vous derrière le ballon",
+          "Approche du côté qui l'envoie vers le but adverse."
+        ],
+        [
+          "Récupérer après un coup aérien",
+          "Pointez votre voiture vers le sol pour pouvoir reprendre la route après l'atterrissage."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je jouer en un contre un ?",
+          "Oui. Le mode Duel est pour deux adversaires."
+        ]
+      ]
+    },
+    "survival-in-natural-disasters": {
+      "category": "Survie multijoueur face aux catastrophes",
+      "searchTitle": "Survival in Natural Disasters – Survie multijoueur face aux catastrophes",
+      "summary": "Survivez aux inondations, aux météores et à d’autres dangers dans Survival in Natural Disasters. Lisez l'avertissement et trouvez un endroit plus sûr avant le début de chaque tour.",
+      "about": [
+        "Avant qu'un danger n'arrive, le jeu vous indique ce qui s'en vient et comment vous y préparer.",
+        "Différentes menaces appellent différentes positions. Un abri peut aider à prévenir les risques de chute, tandis que les inondations peuvent rendre les zones basses dangereuses."
+      ],
+      "steps": [
+        [
+          "Lisez d'abord l'avertissement",
+          "Profitez du bref temps de préparation pour choisir où déménager."
+        ],
+        [
+          "Continuez à bouger lorsque les conditions changent",
+          "Revérifiez votre position lorsque le danger atteint votre partie de la carte."
+        ]
+      ],
+      "faq": [
+        [
+          "Est-ce un jeu multijoueur ?",
+          "Oui. Vous partagez l'arène avec d'autres joueurs et essayez de survivre à chaque tour."
+        ]
+      ]
+    },
+    "rapid-rally": {
+      "category": "Rallye arcade de précision",
+      "searchTitle": "Rapid Rally – Rallye arcade de précision",
+      "summary": "Traversez des routes étroites et des virages serrés dans Rapid Rally. Contrôlez votre vitesse et terminez proprement chaque étape du rallye.",
+      "about": [
+        "Chaque étape a une disposition différente. Regardez au-delà du prochain virage avant d’accélérer.",
+        "Une approche régulière aide à maintenir la voiture sur des routes étroites. Réduisez votre vitesse dès que l’itinéraire change de direction."
+      ],
+      "steps": [
+        [
+          "Freiner avant les virages serrés",
+          "Donnez-vous le temps de franchir le virage."
+        ],
+        [
+          "Accélérer sur les sections ouvertes",
+          "Utilisez les lignes droites pour gagner de la vitesse lorsque la route est dégagée."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je débloquer d’autres voitures ?",
+          "Les récompenses disponibles vous permettent de débloquer plus de véhicules de rallye."
+        ]
+      ]
+    },
+    "wacky-wheels": {
+      "category": "Parcours automobile à obstacles",
+      "searchTitle": "Wacky Wheels – Parcours automobile à obstacles",
+      "summary": "Esquivez les marteaux qui se balancent et conduisez sur des plates-formes changeantes dans Wacky Wheels. Collectez des étoiles en affrontant des parcours chronométrés.",
+      "about": [
+        "Chaque parcours comporte des obstacles qui bougent ou modifient la façon dont votre voiture se comporte. Observez leur mouvement avant de vous engager dans une section étroite.",
+        "Différentes zones offrent différents tracés de pistes et obstacles. Utilisez chaque tentative pour savoir où freiner et où accélérer."
+      ],
+      "steps": [
+        [
+          "Regardez l'obstacle en mouvement",
+          "Attendez une ouverture sécuritaire avant de tenter de passer."
+        ],
+        [
+          "Alignez-vous avec la rampe",
+          "Dirigez la voiture vers l'atterrissage prévu avant de décoller."
+        ]
+      ],
+      "faq": [
+        [
+          "Dans quels domaines puis-je jouer ?",
+          "Le jeu propose Bumper Bonanza, Dungeon Dash et Space Run."
+        ]
+      ]
+    },
+    "slope-3": {
+      "category": "Bille et parcours de néon sans fin",
+      "searchTitle": "Slope 3 – Bille et parcours de néon sans fin",
+      "summary": "Dirigez une balle qui roule sur la pente 3. Restez sur des plates-formes lumineuses étroites pendant que la balle accélère et évitez les obstacles en cours de route.",
+      "about": [
+        "Le ballon avance et prend automatiquement de la vitesse. Votre travail consiste à contourner les barrières et à rester sur la piste.",
+        "Les tracés des pistes changent entre les courses. Regardez plusieurs plates-formes devant vous pour avoir le temps de réagir aux écarts et aux virages."
+      ],
+      "steps": [
+        [
+          "Regardez au-delà du ballon",
+          "Surveillez l’extrémité de la prochaine plate-forme avant de choisir une direction."
+        ],
+        [
+          "Utiliser de petites corrections de direction",
+          "Déplacez-vous juste assez loin pour éviter l’obstacle sans dépasser le bord."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je ralentir le ballon ?",
+          "Le ballon contrôle sa propre vitesse. Concentrez-vous sur la direction et la lecture de la piste."
+        ]
+      ]
+    },
+    "tap-drift": {
+      "category": "Enchaînement de drifts à un bouton",
+      "searchTitle": "Tap Drift – Enchaînement de drifts à un bouton",
+      "summary": "Chronométrez chaque dérive dans Tap Drift. Surveillez les zones jaunes, suivez les signaux d'entrée et associez des dérives propres pour un score plus élevé.",
+      "about": [
+        "La voiture avance automatiquement. Les zones jaunes indiquent où effectuer une saisie pour une dérive ou un boost.",
+        "Appuyer trop tôt ou trop tard peut mettre fin à la partie. Enchaînez les bonnes actions pour former un combo."
+      ],
+      "steps": [
+        [
+          "Attention aux zones jaunes",
+          "Préparez-vous à agir lorsque la voiture s'approche de la zone mise en évidence."
+        ],
+        [
+          "Suivez l’indication à l’écran",
+          "Appuyez ou maintenez comme indiqué au lieu de répéter la même saisie à chaque tour."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi ma course s'est-elle terminée ?",
+          "Une entrée mal programmée peut provoquer un crash de la voiture et réinitialiser la course."
+        ]
+      ]
+    },
+    "orbit-beats": {
+      "category": "Jeu de rythme à deux planètes",
+      "searchTitle": "Orbit Beats – Jeu de rythme à deux planètes",
+      "summary": "Guidez deux planètes en orbite dans Orbit Beats. Appuyez sur la musique et chronométrez chaque étape sur des pistes qui tournent au rythme.",
+      "about": [
+        "Les planètes se déplacent le long d'un itinéraire dont les motifs suivent le chant. Écoutez les changements de timing avant une nouvelle section.",
+        "Un battement manqué peut mettre fin à la course. Répétez une section difficile pour apprendre son rythme."
+      ],
+      "steps": [
+        [
+          "Écoutez un changement de modèle",
+          "Utilisez les prochains battements pour prédire quand l'itinéraire changera."
+        ],
+        [
+          "Appuyez au rythme de la musique",
+          "Observez le chemin tout en écoutant le rythme qui marque la prochaine étape."
+        ]
+      ],
+      "faq": [
+        [
+          "Que se passe-t-il si je rate un rythme ?",
+          "Un battement manqué met fin à la tentative en cours."
+        ]
+      ]
+    },
+    "car-chaos": {
+      "category": "Duel de voitures en arène",
+      "searchTitle": "Car Chaos – Duel de voitures en arène",
+      "summary": "Traversez des rampes et des boucles dans Car Chaos. Utilisez votre élan pour gagner des duels de véhicules et défiez un ami sur le même écran.",
+      "about": [
+        "Le but est de frapper la tête du conducteur adverse avec votre véhicule. Les rampes et les boucles peuvent modifier l'angle d'une collision.",
+        "Les véhicules se comportent différemment. Apprenez comment chacun réagit dans les airs avant de vous lancer dans un saut risqué."
+      ],
+      "steps": [
+        [
+          "Gagner de la vitesse sur terrain plat",
+          "Utilisez une partie ouverte de l’arène avant de monter sur une rampe."
+        ],
+        [
+          "Surveillez votre atterrissage",
+          "Gardez une trace du véhicule rival pendant que vous êtes dans les airs."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je jouer avec quelqu'un localement ?",
+          "Oui. Le jeu prend en charge deux joueurs sur un seul écran."
+        ]
+      ]
+    },
+    "traffic-rush-online": {
+      "category": "Conduite sur autoroute et drift",
+      "searchTitle": "TRAFFIC Rush Online – Conduite sur autoroute et drift",
+      "summary": "Traversez la circulation routière ou essayez les pistes de dérive dédiées dans TRAFFIC Rush Online. Gagnez des récompenses et personnalisez vos voitures.",
+      "about": [
+        "Les itinéraires autoroutiers vous obligent à surveiller les véhicules à proximité et à choisir les écarts avant de changer de voie.",
+        "Des pistes dédiées vous permettent de pratiquer des dérives. Le tableau de bord affiche la vitesse, le rapport et le régime moteur."
+      ],
+      "steps": [
+        [
+          "Surveillez la circulation avant de changer de voie",
+          "Attendez suffisamment d'espace pour vous déplacer sans heurter un autre véhicule."
+        ],
+        [
+          "Pratiquer une dérive contrôlée",
+          "Utilisez le frein à main lorsque vous entrez dans un virage sur une piste de dérive."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je personnaliser ma voiture ?",
+          "Oui. Le garage offre des améliorations et des personnalisations."
+        ]
+      ]
+    },
+    "jump-to-the-rhythm-of-songs-musical-ball": {
+      "category": "Jeu musical de balle sur dalles néon",
+      "searchTitle": "Jump to the Rhythm of Songs! Musical Ball! – Jeu musical de balle sur dalles néon",
+      "summary": "Guidez une balle rebondissante sur des carreaux de néon dans Jump to the Rhythm of Songs ! Bal Musical ! Pilotez à temps pour rester sur le cap.",
+      "about": [
+        "Le ballon rebondit automatiquement. Déplacez-le vers la gauche ou la droite pour atteindre la tuile suivante.",
+        "Chaque chanson a sa propre mise en page. Surveillez les longs coussinets et les carreaux qui se déplacent d'un côté à l'autre."
+      ],
+      "steps": [
+        [
+          "Se déplacer vers la tuile suivante",
+          "Maintenez le bouton de la souris et faites glisser latéralement pour diriger."
+        ],
+        [
+          "Regardez devant vous lors de longs rebonds",
+          "Vérifiez où se trouve la tuile suivante avant que la balle ne quitte la tuile actuelle."
+        ]
+      ],
+      "faq": [
+        [
+          "Est-ce que je fais sauter la balle ?",
+          "Le ballon saute tout seul. Vous le dirigez de côté."
+        ]
+      ]
+    },
+    "supermarket-simulator-desert": {
+      "category": "Gestion de supermarché dans le désert",
+      "searchTitle": "Supermarket Simulator: Desert – Gestion de supermarché dans le désert",
+      "summary": "Stockez les étagères, fixez les prix et servez les clients dans Supermarket Simulator: Desert. Réinvestissez vos bénéfices pour développer votre petite boutique.",
+      "about": [
+        "Chaque journée de travail consiste à acheter des marchandises, à organiser les stocks et à tenir la caisse. Regardez quels produits se vendent rapidement.",
+        "Utilisez vos gains pour vous réapprovisionner et vous développer. Les niveaux de stock et les prix affectent la quantité que vous pouvez vendre."
+      ],
+      "steps": [
+        [
+          "Remplissez les étagères",
+          "Disposez les marchandises là où les clients peuvent les trouver avant d’ouvrir le magasin."
+        ],
+        [
+          "Vérifiez les prix et les niveaux de stock",
+          "Passez en revue vos étagères pendant la journée et commandez davantage d'articles populaires."
+        ]
+      ],
+      "faq": [
+        [
+          "Que dois-je faire à la caisse ?",
+          "Servir les clients et encaisser le paiement de leurs achats."
+        ]
+      ]
+    },
+    "rooftop-flip": {
+      "category": "Saltos arrière depuis les toits",
+      "searchTitle": "Rooftop Flip – Saltos arrière depuis les toits",
+      "summary": "Lancez-vous depuis les toits et les plates-formes mobiles dans Rooftop Flip. Contrôlez votre rotation et visez la zone d'atterrissage marquée.",
+      "about": [
+        "Votre angle de lancement et votre élan affectent la distance que vous parcourez. Surveillez la cible avant de commencer un saut.",
+        "Des atterrissages propres créent des multiplicateurs de score. Les rotations supplémentaires ne sont utiles que si vous pouvez toujours atterrir en toute sécurité."
+      ],
+      "steps": [
+        [
+          "Vérifiez la zone d'atterrissage marquée",
+          "Regardez la distance et le dénivelé avant de vous lancer."
+        ],
+        [
+          "Arrêtez de tourner avant d'atterrir",
+          "Redressez votre personnage à mesure que vous vous approchez de la cible."
+        ]
+      ],
+      "faq": [
+        [
+          "Les atterrissages propres affectent-ils mon score ?",
+          "Oui. Des atterrissages consécutifs et propres aident à créer un multiplicateur plus élevé."
+        ]
+      ]
+    },
+    "crowd-gate-stickman-rush": {
+      "category": "Course de foule aux portiques chiffrés",
+      "searchTitle": "Crowd Gate: Stickman Rush – Course de foule aux portiques chiffrés",
+      "summary": "Développez votre groupe dans Crowd Gate: Stickman Rush. Choisissez des portes numérotées, évitez les obstacles et atteignez l'arrivée avec suffisamment de coureurs.",
+      "about": [
+        "Différentes portes modifient le nombre de personnes dans votre groupe. Vérifiez les numéros avant de choisir un itinéraire.",
+        "Les pièges peuvent réduire le groupe. Un itinéraire avec un bonus plus faible peut être meilleur s'il évite un obstacle dangereux."
+      ],
+      "steps": [
+        [
+          "Comparez les chiffres des deux portiques",
+          "Comparez leurs effets et choisissez celui qui vous laisse avec plus de coureurs."
+        ],
+        [
+          "Gardez vos distances avec les pièges",
+          "Déplacez-vous tôt pour que le plus grand nombre possible de coureurs puissent passer en toute sécurité."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi la taille du groupe est-elle importante ?",
+          "Un groupe plus important a de meilleures chances contre les rivaux et les patrons."
+        ]
+      ]
+    },
+    "stickman-empires": {
+      "category": "Stratégie avec des armées de stickmen",
+      "searchTitle": "Stickman Empires – Stratégie avec des armées de stickmen",
+      "summary": "Extrayez de l'or, entraînez des unités et défendez votre statue dans Stickman Empires. Gérez les ressources et adaptez votre armée à chaque bataille.",
+      "about": [
+        "L’exploitation minière produit l’or dont vous avez besoin pour entraîner les unités. Équilibrez les dépenses en nouvelles troupes avec la défense de votre base.",
+        "Différentes unités et formations conviennent à différentes situations. Vérifiez l'armée adverse avant d'envoyer vos unités vers l'avant."
+      ],
+      "steps": [
+        [
+          "Construisez votre réserve d’or",
+          "Affectez des mineurs afin de pouvoir continuer à recruter pendant la bataille."
+        ],
+        [
+          "Gardez les troupes près de la statue",
+          "Laissez les défenseurs à votre base lorsque vous envoyez le reste de l’armée vers l’avant."
+        ]
+      ],
+      "faq": [
+        [
+          "Que dois-je protéger ?",
+          "Défendez votre statue tout en construisant une armée capable de vaincre l'opposition."
+        ]
+      ]
     }
   }
 }

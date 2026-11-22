@@ -9023,5 +9023,2390 @@
         ]
       }
     }
+  },
+  {
+    "id": "street-rider",
+    "title": "Street Rider",
+    "category": {
+      "en": "Endless 3D skateboarding"
+    },
+    "source": "https://1games.io/street-rider",
+    "url": "https://game.1games.io/street-rider/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/street-rider-cover.webp",
+      "artwork": "/assets/1games/street-rider-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/street-rider/street-rider.png",
+        "artwork": "https://1games.io/data/image/game/street-rider/street-rider.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-11-03",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "stunt-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Street Rider – Endless 3D skateboarding",
+        "summary": "Skate through traffic in Street Rider. Jump from ramps, slide along rails and unlock boards as you complete challenges.",
+        "about": [
+          "The route changes between runs. Look ahead for cars, street furniture and ramps.",
+          "Rails and vehicle roofs offer chances to score. Check where you will land before leaving the ground."
+        ],
+        "steps": [
+          [
+            "Steer around traffic",
+            "Use A and D or the left and right arrow keys to steer."
+          ],
+          [
+            "Look beyond the ramp",
+            "Choose a clear landing area before you jump."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I unlock more boards?",
+            "Yes. Complete challenges and keep playing to unlock boards."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "challenge-rush",
+    "title": "Challenge Rush",
+    "category": {
+      "en": "Rhythm platformer with level editor"
+    },
+    "source": "https://1games.io/challenge-rush",
+    "url": "https://1games.io/game/challenge-rush/?v=26091901",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/challenge-rush-cover.webp",
+      "artwork": "/assets/1games/challenge-rush-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/challenge-rush/challenge-rush.png",
+        "artwork": "https://1games.io/data/image/game/challenge-rush/challenge-rush.png"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2026-07-09",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "rhythm-games",
+        "building-games",
+        "jumping-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Challenge Rush – Rhythm platformer with level editor",
+        "summary": "Time your jumps to the music in Challenge Rush. Play community levels or make and test an obstacle course in the editor.",
+        "about": [
+          "Each course combines music with obstacles that demand precise timing.",
+          "The editor lets you build and test a course. Community levels offer more layouts to practise."
+        ],
+        "steps": [
+          [
+            "Watch the next obstacle",
+            "Use the rhythm to anticipate when to jump."
+          ],
+          [
+            "Test the course you build",
+            "Play through your own layout to check the timing of consecutive obstacles."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I make my own levels?",
+            "Yes. The game includes a level editor."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "shape-rush",
+    "title": "Shape Rush",
+    "category": {
+      "en": "Geometric rhythm runner"
+    },
+    "source": "https://1games.io/shape-rush",
+    "url": "https://1games.io/embed/shape-rush",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/shape-rush-cover.webp",
+      "artwork": "/assets/1games/shape-rush-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/shape-rush/shape-rush.png",
+        "artwork": "https://1games.io/data/image/game/shape-rush/shape-rush.png"
+      }
+    },
+    "metadata": {
+      "developer": "ShapeRush.IO",
+      "releaseDate": "2026-08-05",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "rhythm-games",
+        "geometry-games",
+        "reaction-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Shape Rush – Geometric rhythm runner",
+        "summary": "Jump to the music in Shape Rush. Guide a geometric character through fast courses and unlock new looks in the garage.",
+        "about": [
+          "Your character moves forward automatically. Time each jump to clear obstacles along the course.",
+          "Different difficulty ratings offer different challenges. Repeating a short section can help you learn its rhythm."
+        ],
+        "steps": [
+          [
+            "Time the jump",
+            "Click or press Space as you approach an obstacle."
+          ],
+          [
+            "Read the next landing",
+            "Look ahead to see how much room you have after clearing the obstacle."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I change how my character looks?",
+            "Yes. The garage offers skins and color options."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "pixel-path",
+    "title": "Pixel Path",
+    "category": {
+      "en": "Pixel platformer with hidden traps"
+    },
+    "source": "https://1games.io/pixel-path",
+    "url": "https://1games.io/embed/pixel-path",
+    "width": 440,
+    "height": 294,
+    "media": {
+      "icon": "/assets/1games/pixel-path-icon.webp",
+      "artwork": "/assets/1games/pixel-path-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 801,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/pixel-path/pixel-path-5.png",
+        "artwork": "https://1games.io/data/image/game/pixel-path/pixel-path-5.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "pixel-games",
+        "jumping-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Pixel Path – Pixel platformer with hidden traps",
+        "summary": "Reach the exit in Pixel Path. Jump over spikes and watch for platforms that change as you approach.",
+        "about": [
+          "Each stage has a door to reach. Some hazards only become visible once you move closer.",
+          "When a trap surprises you, remember where it appeared and change your approach on the next attempt."
+        ],
+        "steps": [
+          [
+            "Check the path before jumping",
+            "Look for a safe place to land before leaving a platform."
+          ],
+          [
+            "Learn where traps appear",
+            "Use a failed attempt to plan your next route through the same room."
+          ]
+        ],
+        "faq": [
+          [
+            "What is the goal of each stage?",
+            "Reach the exit door to move on."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "golf-hit",
+    "title": "Golf Hit",
+    "category": {
+      "en": "Long-distance golf shots"
+    },
+    "source": "https://1games.io/golf-hit",
+    "url": "https://1games.io/embed/golf-hit",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/golf-hit-cover.webp",
+      "artwork": "/assets/1games/golf-hit-cover.webp",
+      "artworkWidth": 400,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/golf-hit/golf-hit.png",
+        "artwork": "https://1games.io/data/image/game/golf-hit/golf-hit.png"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "timing-games",
+        "incremental-games",
+        "one-button-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Golf Hit – Long-distance golf shots",
+        "summary": "Hit the ball as far as you can in Golf Hit. Time your swing, collect coins and buy upgrades for longer shots.",
+        "about": [
+          "A timed swing sends the ball across the map. It can bounce and continue traveling after the first landing.",
+          "Distance and coins help you progress. Spend your rewards on upgrades and try to beat your longest shot."
+        ],
+        "steps": [
+          [
+            "Time the swing",
+            "Watch the aiming indicator before taking your shot."
+          ],
+          [
+            "Upgrade between shots",
+            "Spend your rewards and compare the distance on your next attempt."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I need to aim for a hole?",
+            "Your main goal is to send the golf ball as far as possible."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "flip-physics",
+    "title": "Flip Physics",
+    "category": {
+      "en": "Gymnastics bar and flip simulator"
+    },
+    "source": "https://1games.io/flip-physics",
+    "url": "https://1games.io/game/flip-physics/?v=26100904",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/flip-physics-cover.webp",
+      "artwork": "/assets/1games/flip-physics-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/flip-physics/flip-physics.png",
+        "artwork": "https://1games.io/data/image/game/flip-physics/flip-physics.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-10-09",
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "flip-games",
+        "stunt-games",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Flip Physics – Gymnastics bar and flip simulator",
+        "summary": "Swing from a horizontal bar in Flip Physics. Build momentum, choose when to let go and control your rotation before landing.",
+        "about": [
+          "Swing back and forth on the bar to build momentum. Your release timing affects your flight path.",
+          "Tucking your body helps you rotate faster. Leave time to prepare for landing after the flip."
+        ],
+        "steps": [
+          [
+            "Build momentum on the bar",
+            "Increase the size of your swing before releasing your grip."
+          ],
+          [
+            "Control the rotation",
+            "Tuck to turn faster and prepare to land before you touch down."
+          ]
+        ],
+        "faq": [
+          [
+            "What changes the direction of my jump?",
+            "The point in your swing at which you release the bar changes your trajectory."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "paint-hide-seek",
+    "title": "Paint Hide & Seek",
+    "category": {
+      "en": "Camouflage hide-and-seek"
+    },
+    "source": "https://1games.io/paint-hide-seek",
+    "url": "https://1games.io/embed/paint-hide-seek",
+    "width": 440,
+    "height": 286,
+    "media": {
+      "icon": "/assets/1games/paint-hide-seek-icon.webp",
+      "artwork": "/assets/1games/paint-hide-seek-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 780,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/paint-hide-seek/paint-hide-seek.png",
+        "artwork": "https://1games.io/data/image/game/paint-hide-seek/paint-hide-seek.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "stealth-action",
+        "creativity-games",
+        "seek-and-find-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Paint Hide & Seek – Camouflage hide-and-seek",
+        "summary": "Blend into the scenery in Paint Hide & Seek. Paint a disguise as a hider or study the room as a seeker.",
+        "about": [
+          "Hiders can change their appearance to match nearby colors. A well-chosen pose can help the disguise fit the scene.",
+          "Seekers look for details that stand out from the surroundings. Look at shapes as well as colors."
+        ],
+        "steps": [
+          [
+            "Match the background",
+            "Pick colors that resemble the surface behind you."
+          ],
+          [
+            "Check unusual shapes",
+            "As a seeker, look for objects whose shape or position seems out of place."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I play both roles?",
+            "Yes. The game offers rounds as a hider or a seeker."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "duck-playground-3d",
+    "title": "Duck Playground 3D",
+    "category": {
+      "en": "Duck-themed physics sandbox"
+    },
+    "source": "https://1games.io/duck-playground-3d",
+    "url": "https://1games.io/embed/duck-playground-3d",
+    "width": 440,
+    "height": 259,
+    "media": {
+      "icon": "/assets/1games/duck-playground-3d-icon.webp",
+      "artwork": "/assets/1games/duck-playground-3d-cover.webp",
+      "artworkWidth": 800,
+      "artworkHeight": 470,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/duck-playground-3d/duck-playground-3d.png",
+        "artwork": "https://1games.io/data/image/game/duck-playground-3d/duck-playground-3d.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "sandbox-games",
+        "building-games",
+        "destruction-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Duck Playground 3D – Duck-themed physics sandbox",
+        "summary": "Build and test structures in Duck Playground 3D. Place props and use the gravity tool to move or rotate objects.",
+        "about": [
+          "Open the menu to place walls, furniture and characters. Combine them to build rooms, towers or obstacle courses.",
+          "Objects react to gravity, weight and collisions. Try changing what you place to see how it affects the result."
+        ],
+        "steps": [
+          [
+            "Set up a small structure",
+            "Start with a few pieces so you can see how they move when they collide."
+          ],
+          [
+            "Reposition an object",
+            "Use the gravity tool to hold and rotate a prop before setting it down."
+          ]
+        ],
+        "faq": [
+          [
+            "Is there a time limit?",
+            "The sandbox lets you experiment without a timer."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "blockader",
+    "title": "Blockader",
+    "category": {
+      "en": "Lunar arena roguelite"
+    },
+    "source": "https://1games.io/blockader",
+    "url": "https://1games.io/game/blockader/?v=26101901",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/blockader-cover.webp",
+      "artwork": "/assets/1games/blockader-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/blockader/blockader.png",
+        "artwork": "https://1games.io/data/image/game/blockader/blockader.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-09-23",
+      "genres": [
+        "action"
+      ],
+      "tags": [
+        "arena-games",
+        "horde-survival-games",
+        "decision-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Blockader – Lunar arena roguelite",
+        "summary": "Survive enemy waves on the moon in Blockader. Move around the arena and choose an upgrade card after each wave.",
+        "about": [
+          "Your weapons attack automatically as enemies approach. Keep moving to make room for the next group.",
+          "Defeating enemies fills the wave meter. When the wave ends, choose an upgrade from the cards on offer."
+        ],
+        "steps": [
+          [
+            "Keep a clear route",
+            "Move away from approaching groups before they surround you."
+          ],
+          [
+            "Choose an upgrade card",
+            "Pick a card that works with the upgrades you already have."
+          ]
+        ],
+        "faq": [
+          [
+            "When can I take another upgrade?",
+            "The game offers a new choice after you complete a wave."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "roller-coaster-obby-race",
+    "title": "Roller Coaster: Obby Race",
+    "category": {
+      "en": "Minecart obstacle race"
+    },
+    "source": "https://1games.io/roller-coaster-obby-race",
+    "url": "https://1games.io/embed/roller-coaster-obby-race",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/roller-coaster-obby-race-icon.webp",
+      "artwork": "/assets/1games/roller-coaster-obby-race-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 742,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/roller-coaster-obby-race/roller-coaster-obby-race.png",
+        "artwork": "https://1games.io/data/image/game/roller-coaster-obby-race/roller-coaster-obby-race.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "obstacles-games",
+        "timing-games",
+        "vehicles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Roller Coaster: Obby Race – Minecart obstacle race",
+        "summary": "Guide your minecart through Roller Coaster: Obby Race. Brake for tight curves and time jumps over gaps in the rails.",
+        "about": [
+          "Straight sections give the cart room to gain speed. Sharp turns leave less room to correct your path.",
+          "Check the track after each bend. You may need to build speed again to cross a gap."
+        ],
+        "steps": [
+          [
+            "Brake before the curve",
+            "Slow down before entering a sharp turn."
+          ],
+          [
+            "Approach the gap straight",
+            "Line up with the rails ahead before jumping."
+          ]
+        ],
+        "faq": [
+          [
+            "Where can I safely gain speed?",
+            "Use straight sections with a clear view of the track ahead."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "turbo-horizon-racing",
+    "title": "Turbo Horizon Racing",
+    "category": {
+      "en": "Retro arcade car racing"
+    },
+    "source": "https://1games.io/turbo-horizon-racing",
+    "url": "https://1games.io/embed/turbo-horizon-racing",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/turbo-horizon-racing-icon.webp",
+      "artwork": "/assets/1games/turbo-horizon-racing-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/turbo-horizon-racing/turbo-horizon-racing.png",
+        "artwork": "https://1games.io/data/image/game/turbo-horizon-racing/turbo-horizon-racing.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "race-games",
+        "vehicles-games",
+        "pixel-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Turbo Horizon Racing – Retro arcade car racing",
+        "summary": "Race through the World Tour in Turbo Horizon Racing. Manage tire grip and save nitro for overtaking on open stretches.",
+        "about": [
+          "The World Tour takes you through different road and weather conditions. Adjust your speed to match the track.",
+          "The race display shows grip, heat and other information about your car. Watch the nitro meter as you drive."
+        ],
+        "steps": [
+          [
+            "Check your grip before turning",
+            "Reduce speed early if the next corner is tight or the surface offers less grip."
+          ],
+          [
+            "Use nitro where the road opens up",
+            "Wait for room to accelerate before spending your boost."
+          ]
+        ],
+        "faq": [
+          [
+            "Does the game have a tour mode?",
+            "Yes. World Tour offers races in multiple environments."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "blockfootball-3d-football-manager",
+    "title": "Blockfootball: 3D Football Manager",
+    "category": {
+      "en": "3D football club management"
+    },
+    "source": "https://1games.io/blockfootball-3d-football-manager",
+    "url": "https://1games.io/embed/blockfootball-3d-football-manager",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/blockfootball-3d-football-manager-icon.webp",
+      "artwork": "/assets/1games/blockfootball-3d-football-manager-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/blockfootball-3d-football-manager/blockfootball-3d-football-manager.png",
+        "artwork": "https://1games.io/data/image/game/blockfootball-3d-football-manager/blockfootball-3d-football-manager.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "tactical-games",
+        "resource-management-games",
+        "decision-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Blockfootball: 3D Football Manager – 3D football club management",
+        "summary": "Manage a club in Blockfootball: 3D Football Manager. Set tactics, develop your squad and change your lineup during 3D matches.",
+        "about": [
+          "Choose the starting lineup and watch the computer-controlled players carry out your plan.",
+          "Club finances and transfers shape which players you can sign. Develop your squad alongside your match tactics."
+        ],
+        "steps": [
+          [
+            "Set up the starting team",
+            "Choose players and tactics before kickoff."
+          ],
+          [
+            "Adjust during the match",
+            "Use substitutions or change your tactics when the match calls for it."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I steer the players directly?",
+            "The players move automatically while you manage tactics and substitutions."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "rush-line",
+    "title": "Rush Line",
+    "category": {
+      "en": "Highway parkour runner"
+    },
+    "source": "https://1games.io/rush-line",
+    "url": "https://1games.io/game/rush-line/?v=26092302",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/rush-line-cover.webp",
+      "artwork": "/assets/1games/rush-line-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/rush-line/rush-line.png",
+        "artwork": "https://1games.io/data/image/game/rush-line/rush-line.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-09-18",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "jumping-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Rush Line – Highway parkour runner",
+        "summary": "Sprint down the highway in Rush Line. Jump over hazards, slide under barriers and collect coins along tougher routes.",
+        "about": [
+          "Speed rises as the run continues. Watch the next obstacle so you can choose whether to jump, slide or change position.",
+          "The city hub lets you choose a character and view missions before running. Some routes offer extra coins."
+        ],
+        "steps": [
+          [
+            "Read the obstacle height",
+            "Jump over low hazards and slide under overhead barriers."
+          ],
+          [
+            "Plan the next move early",
+            "Look past the current obstacle as your speed increases."
+          ]
+        ],
+        "faq": [
+          [
+            "Does the highway have a finish line?",
+            "Highway runs continue until a hazard ends the attempt."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "fly-simulator-2d",
+    "title": "Fly Simulator 2D",
+    "category": {
+      "en": "Housefly life simulator"
+    },
+    "source": "https://1games.io/fly-simulator-2d",
+    "url": "https://1games.io/embed/fly-simulator-2d",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/fly-simulator-2d-icon.webp",
+      "artwork": "/assets/1games/fly-simulator-2d-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/fly-simulator-2d/fly-simulator-2d.png",
+        "artwork": "https://1games.io/data/image/game/fly-simulator-2d/fly-simulator-2d.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "sandbox-games",
+        "collecting-games",
+        "avoid-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Fly Simulator 2D – Housefly life simulator",
+        "summary": "Explore rooms as a housefly in Fly Simulator 2D. Find fruit before hunger runs low and watch out for sticky flypaper.",
+        "about": [
+          "Furniture and food look huge from a fly's perspective. Fly above obstacles or land on tables to explore.",
+          "Hunger falls over time. Look for food such as fruit and preserves as you move from room to room."
+        ],
+        "steps": [
+          [
+            "Find food early",
+            "Look for food before your hunger gets too low."
+          ],
+          [
+            "Avoid sticky surfaces",
+            "Give flypaper a wide berth as you fly past furniture."
+          ]
+        ],
+        "faq": [
+          [
+            "What can the fly eat?",
+            "Fruit and jars of preserves are among the food sources you can find."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "asmr-squishy-keyboard-tower",
+    "title": "ASMR Squishy & Keyboard Tower",
+    "category": {
+      "en": "ASMR tower parkour"
+    },
+    "source": "https://1games.io/asmr-squishy-keyboard-tower",
+    "url": "https://1games.io/embed/asmr-squishy-keyboard-tower",
+    "width": 440,
+    "height": 273,
+    "media": {
+      "icon": "/assets/1games/asmr-squishy-keyboard-tower-icon.webp",
+      "artwork": "/assets/1games/asmr-squishy-keyboard-tower-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 744,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/asmr-squishy-keyboard-tower/asmr-squishy-keyboard-tower-game.png",
+        "artwork": "https://1games.io/data/image/game/asmr-squishy-keyboard-tower/asmr-squishy-keyboard-tower-game.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "asmr-games",
+        "jumping-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "ASMR Squishy & Keyboard Tower – ASMR tower parkour",
+        "summary": "Climb ASMR Squishy & Keyboard Tower. Jump across soft platforms and keyboard keys that make different sounds as you land.",
+        "about": [
+          "The tower uses bouncy platforms and surfaces with different textures. Each section has its own sounds.",
+          "Coins are scattered along the route. Check the next platform before leaving a safe spot to collect them."
+        ],
+        "steps": [
+          [
+            "Aim for the middle of the platform",
+            "Give yourself space to adjust after landing on a bouncy surface."
+          ],
+          [
+            "Listen to each surface",
+            "Try landing on different platforms to hear the sounds they make."
+          ]
+        ],
+        "faq": [
+          [
+            "What makes the sounds?",
+            "Keyboard keys, bubble wrap and soft objects make different sounds when you land on them."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "snowcross-stunts-x3m",
+    "title": "Snowcross Stunts X3M",
+    "category": {
+      "en": "Skiing stunt races"
+    },
+    "source": "https://1games.io/snowcross-stunts-x3m",
+    "url": "https://1games.io/embed/snowcross-stunts-x3m",
+    "width": 440,
+    "height": 273,
+    "media": {
+      "icon": "/assets/1games/snowcross-stunts-x3m-icon.webp",
+      "artwork": "/assets/1games/snowcross-stunts-x3m-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 744,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/snowcross-stunts-x3m/snowcross-stunts-x3m.png",
+        "artwork": "https://1games.io/data/image/game/snowcross-stunts-x3m/snowcross-stunts-x3m.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "snow-games",
+        "stunt-games",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Snowcross Stunts X3M – Skiing stunt races",
+        "summary": "Race down snowy courses in Snowcross Stunts X3M. Land flips to save time and stay balanced through steep drops and loops.",
+        "about": [
+          "Each course combines slopes with jumps and hazards. Control speed before steep drops so you can prepare for the landing.",
+          "A completed flip can reduce your time. Choose jumps that give you enough time to finish rotating."
+        ],
+        "steps": [
+          [
+            "Prepare for the jump",
+            "Approach a ramp with enough speed to clear the next section."
+          ],
+          [
+            "Finish the rotation before landing",
+            "Use longer jumps for flips and keep your skis aligned with the slope."
+          ]
+        ],
+        "faq": [
+          [
+            "Do flips affect my race time?",
+            "Successfully completed flips can take time off your run."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "basketball-fever",
+    "title": "Basketball Fever",
+    "category": {
+      "en": "Arcade basketball shooting"
+    },
+    "source": "https://1games.io/basketball-fever",
+    "url": "https://1games.io/embed/basketball-fever",
+    "width": 440,
+    "height": 286,
+    "media": {
+      "icon": "/assets/1games/basketball-fever-icon.webp",
+      "artwork": "/assets/1games/basketball-fever-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 780,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/basketball-fever/basketball-fever.png",
+        "artwork": "https://1games.io/data/image/game/basketball-fever/basketball-fever.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "timing-games",
+        "throwing-games",
+        "reaction-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Basketball Fever – Arcade basketball shooting",
+        "summary": "Drag and release to shoot in Basketball Fever. Adjust the angle and power as the hoop moves between successful shots.",
+        "about": [
+          "The basket may change position or distance after a score. Check its new position before taking another shot.",
+          "The length of your drag controls the power of the throw. Shorten it for a closer basket."
+        ],
+        "steps": [
+          [
+            "Check where the hoop moved",
+            "Look at its height and distance before aiming."
+          ],
+          [
+            "Adjust the throwing power",
+            "Use a longer drag for a farther basket and release once the direction is set."
+          ]
+        ],
+        "faq": [
+          [
+            "What happens if I miss?",
+            "A missed shot can end the current streak."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "curryillion",
+    "title": "Curryillion",
+    "category": {
+      "en": "Daily NBA trivia quiz"
+    },
+    "source": "https://1games.io/curryillion",
+    "url": "https://1games.io/embed/curryillion",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/curryillion-icon.webp",
+      "artwork": "/assets/1games/curryillion-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/curryillion/curryillion-2.png",
+        "artwork": "https://1games.io/data/image/game/curryillion/curryillion-2.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "memory-games",
+        "brain-training-games",
+        "decision-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Curryillion – Daily NBA trivia quiz",
+        "summary": "Answer seven daily NBA trivia questions in Curryillion. Type players or teams from memory and score more with rarer correct answers.",
+        "about": [
+          "Each question has a 24-second timer. Type a response that fits the prompt and check the suggestions as you enter it.",
+          "Your first accepted answer fixes the score for that question. Each prompt has a hidden answer worth 100 points."
+        ],
+        "steps": [
+          [
+            "Recall candidates before submitting",
+            "Think of players or teams that match all parts of the prompt."
+          ],
+          [
+            "Use the suggestions to check spelling",
+            "Look for the name you intended to enter before confirming."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I try again after an invalid answer?",
+            "Yes. You can try another answer while time remains."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "sinkhole-rush",
+    "title": "Sinkhole Rush",
+    "category": {
+      "en": "Growing sinkhole arcade game"
+    },
+    "source": "https://1games.io/sinkhole-rush",
+    "url": "https://1games.io/embed/sinkhole-rush",
+    "width": 200,
+    "height": 120,
+    "media": {
+      "icon": "/assets/1games/sinkhole-rush-cover.webp",
+      "artwork": "/assets/1games/sinkhole-rush-cover.webp",
+      "artworkWidth": 200,
+      "artworkHeight": 120,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/sinkhole-rush/sinkhole-rush.jpg",
+        "artwork": "https://1games.io/data/image/game/sinkhole-rush/sinkhole-rush.jpg"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "hole-io",
+        "grow-games",
+        "collecting-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Sinkhole Rush – Growing sinkhole arcade game",
+        "summary": "Grow a sinkhole in Sinkhole Rush. Start with small objects, then swallow vehicles and buildings as the hole gets wider.",
+        "about": [
+          "The hole can only swallow objects that fit. Start with small objects near one another to grow steadily.",
+          "Larger objects become available as your hole expands. Battle mode adds rivals and Solo lets you play on your own."
+        ],
+        "steps": [
+          [
+            "Collect small objects first",
+            "Steer through groups of objects that already fit inside the hole."
+          ],
+          [
+            "Move to larger objects once you grow",
+            "Try bigger targets after the hole has grown wide enough."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I play without rivals?",
+            "Yes. Choose Solo mode if you want to grow without competing against others."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "drifty-road-rush",
+    "title": "Drifty Road Rush",
+    "category": {
+      "en": "One-click drifting race"
+    },
+    "source": "https://1games.io/drifty-road-rush",
+    "url": "https://1games.io/embed/drifty-road-rush",
+    "width": 440,
+    "height": 273,
+    "media": {
+      "icon": "/assets/1games/drifty-road-rush-icon.webp",
+      "artwork": "/assets/1games/drifty-road-rush-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 744,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/drifty-road-rush/drifty-road-rush.png",
+        "artwork": "https://1games.io/data/image/game/drifty-road-rush/drifty-road-rush.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "race-games",
+        "timing-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Drifty Road Rush – One-click drifting race",
+        "summary": "Drift around a narrow track above water in Drifty Road Rush. Time each turn and pass rival cars before the finish.",
+        "about": [
+          "The car accelerates automatically. Focus on the next turn and watch for traffic on the elevated track.",
+          "The position indicator shows your place in the race. The progress bar shows how much track is left."
+        ],
+        "steps": [
+          [
+            "Start drifting as you approach the turn",
+            "Click to drift when you reach a bend."
+          ],
+          [
+            "Check traffic after the turn",
+            "Leave room for other cars as you come out of the drift."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I have to hold a button to accelerate?",
+            "No. The car builds speed on its own."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "flip-or-fail",
+    "title": "Flip Or Fail",
+    "category": {
+      "en": "Physics stunt and landing challenge"
+    },
+    "source": "https://1games.io/flip-or-fail",
+    "url": "https://1games.io/game/flip-or-fail/?v=26082802",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/flip-or-fail-cover.webp",
+      "artwork": "/assets/1games/flip-or-fail-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/flip-or-fail/flip-or-fail.png",
+        "artwork": "https://1games.io/data/image/game/flip-or-fail/flip-or-fail.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-08-24",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "flip-games",
+        "stunt-games",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Flip Or Fail – Physics stunt and landing challenge",
+        "summary": "Launch off ramps in Flip Or Fail. Time your rotations and land upright to score points.",
+        "about": [
+          "Each jump starts from a ramp or raised platform. The time you spend in the air limits how many rotations you can finish.",
+          "Extra tricks can raise your score. Give yourself time to straighten up before landing."
+        ],
+        "steps": [
+          [
+            "Watch the landing area",
+            "Check the height and distance of the target before starting a jump."
+          ],
+          [
+            "Finish the rotation early",
+            "Stop rotating in time to land on your feet."
+          ]
+        ],
+        "faq": [
+          [
+            "Should I attempt as many flips as possible?",
+            "Try more rotations only when the jump gives you enough time to land upright."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "ragdoll-flip",
+    "title": "Ragdoll Flip",
+    "category": {
+      "en": "Trampoline backflip game"
+    },
+    "source": "https://1games.io/ragdoll-flip",
+    "url": "https://1games.io/embed/ragdoll-flip",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/ragdoll-flip-cover.webp",
+      "artwork": "/assets/1games/ragdoll-flip-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/ragdoll-flip/ragdoll-flip.png",
+        "artwork": "https://1games.io/data/image/game/ragdoll-flip/ragdoll-flip.png"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "flip-games",
+        "stunt-games",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Ragdoll Flip – Trampoline backflip game",
+        "summary": "Bounce on trampolines in Ragdoll Flip. Land controlled backflips to build a streak and earn coins for new characters.",
+        "about": [
+          "Hold the jump input to rotate while airborne. Release it in time to line up with the trampoline.",
+          "Different trampolines change your bounce height. Adjust your timing instead of repeating the same rotation every time."
+        ],
+        "steps": [
+          [
+            "Practise one clean flip",
+            "Start with a single rotation and focus on landing upright."
+          ],
+          [
+            "Adjust to each trampoline",
+            "Watch your bounce height before attempting more rotations."
+          ]
+        ],
+        "faq": [
+          [
+            "What can I unlock with coins?",
+            "Coins unlock locations and characters with different movement."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "skateboard-my-life-3d",
+    "title": "Skateboard My Life 3D",
+    "category": {
+      "en": "Downhill skateboarding race"
+    },
+    "source": "https://1games.io/skateboard-my-life-3d",
+    "url": "https://1games.io/embed/skateboard-my-life-3d",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/skateboard-my-life-3d-icon.webp",
+      "artwork": "/assets/1games/skateboard-my-life-3d-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 742,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/skateboard-my-life-3d/skateboard-my-life-3d.png",
+        "artwork": "https://1games.io/data/image/game/skateboard-my-life-3d/skateboard-my-life-3d.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "stunt-games",
+        "obstacles-games",
+        "race-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Skateboard My Life 3D – Downhill skateboarding race",
+        "summary": "Race down mountain roads in Skateboard My Life 3D. Steer around cars and time jumps over obstacles.",
+        "about": [
+          "The course mixes sharp turns with moving traffic. Look ahead to choose a route through the vehicles.",
+          "Ramps send you airborne. Check where the board can land before aiming at a ramp."
+        ],
+        "steps": [
+          [
+            "Set up for tight turns",
+            "Start steering before the road bends sharply."
+          ],
+          [
+            "Use ramps with a clear landing",
+            "Pick a ramp only when the road beyond it is open."
+          ]
+        ],
+        "faq": [
+          [
+            "Is the goal to finish the course?",
+            "Yes. Stay on the board and reach the finish line."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "mx-offroad-mountain-bike",
+    "title": "MX Offroad Mountain Bike",
+    "category": {
+      "en": "Mountain bike downhill simulator"
+    },
+    "source": "https://1games.io/mx-offroad-mountain-bike",
+    "url": "https://1games.io/embed/mx-offroad-mountain-bike",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/mx-offroad-mountain-bike-icon.webp",
+      "artwork": "/assets/1games/mx-offroad-mountain-bike-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/mx-offroad-mountain-bike/mx-offroad-mountain-bike.png",
+        "artwork": "https://1games.io/data/image/game/mx-offroad-mountain-bike/mx-offroad-mountain-bike.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "bike-racing-games",
+        "stunt-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "MX Offroad Mountain Bike – Mountain bike downhill simulator",
+        "summary": "Ride steep trails in MX Offroad Mountain Bike. Cross narrow bridges, land rocky drops and race alone or on a shared screen.",
+        "about": [
+          "Steep slopes build speed quickly. Narrow bridges leave little room to correct your direction.",
+          "A bad landing can send you back to your latest checkpoint. Align the bike with the slope before touching down."
+        ],
+        "steps": [
+          [
+            "Stay centered on bridges",
+            "Line up with the bridge before riding onto it."
+          ],
+          [
+            "Prepare for rocky drops",
+            "Watch the height of the drop and point the bike toward a safe landing."
+          ]
+        ],
+        "faq": [
+          [
+            "Can two people play on one device?",
+            "Yes. The game supports local split-screen play."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "crash-tower-3d",
+    "title": "Crash Tower 3D",
+    "category": {
+      "en": "Vehicle demolition timing game"
+    },
+    "source": "https://1games.io/crash-tower-3d",
+    "url": "https://1games.io/embed/crash-tower-3d",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/crash-tower-3d-icon.webp",
+      "artwork": "/assets/1games/crash-tower-3d-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/crash-tower-3d/crash-tower-3d.png",
+        "artwork": "https://1games.io/data/image/game/crash-tower-3d/crash-tower-3d.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "destruction-games",
+        "timing-games",
+        "vehicles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Crash Tower 3D – Vehicle demolition timing game",
+        "summary": "Launch a heavy vehicle in Crash Tower 3D and time the boost to knock down barriers, walls and buildings.",
+        "about": [
+          "The vehicle drives toward the ramp once you launch it. The power meter tells you when a stronger boost is available.",
+          "Vehicle weight and launch speed affect what happens when you hit the structure."
+        ],
+        "steps": [
+          [
+            "Start the run",
+            "Activate the launch control to send the vehicle toward the target."
+          ],
+          [
+            "Aim for the gold section",
+            "Trigger the boost when the meter reaches the gold section."
+          ]
+        ],
+        "faq": [
+          [
+            "What changes the strength of a crash?",
+            "The vehicle you pick and the timing of the boost both affect the impact."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "mega-ramp-car-stunts",
+    "title": "Mega Ramp Car Stunts",
+    "category": {
+      "en": "Sky track car stunts"
+    },
+    "source": "https://1games.io/mega-ramp-car-stunts",
+    "url": "https://1games.io/embed/mega-ramp-car-stunts",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/mega-ramp-car-stunts-icon.webp",
+      "artwork": "/assets/1games/mega-ramp-car-stunts-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/mega-ramp-car-stunts/mega-ramp-car-stunts.png",
+        "artwork": "https://1games.io/data/image/game/mega-ramp-car-stunts/mega-ramp-car-stunts.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "stunt-games",
+        "obstacles-games",
+        "vehicles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Mega Ramp Car Stunts – Sky track car stunts",
+        "summary": "Drive across floating tracks in Mega Ramp Car Stunts. Clear loops and collect the green checkpoints before time runs out.",
+        "about": [
+          "Each course puts narrow roads, drops and loops above the clouds. Steer carefully when there is little room on either side.",
+          "Watch for green checkpoints as you follow the route. Collect them before the timer reaches zero."
+        ],
+        "steps": [
+          [
+            "Slow down on narrow tracks",
+            "Leave some room to adjust your line before entering a tight section."
+          ],
+          [
+            "Check the next checkpoint",
+            "Look for its position before taking a jump or dropping onto a lower track."
+          ]
+        ],
+        "faq": [
+          [
+            "What do I need to finish a stage?",
+            "Collect every green checkpoint within the time limit."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "turball-io",
+    "title": "Turball.io",
+    "category": {
+      "en": "Multiplayer rocket car soccer"
+    },
+    "source": "https://1games.io/turball-io",
+    "url": "https://1games.io/embed/turball-io",
+    "width": 440,
+    "height": 293,
+    "media": {
+      "icon": "/assets/1games/turball-io-icon.webp",
+      "artwork": "/assets/1games/turball-io-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 800,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/turball-io/turball-io1.png",
+        "artwork": "https://1games.io/data/image/game/turball-io/turball-io1.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "vehicles-games",
+        "2-player-sports",
+        "competitive-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Turball.io – Multiplayer rocket car soccer",
+        "summary": "Play rocket car soccer in Turball.io. Jump and boost to hit the ball, defend your goal and compete in solo or team matches.",
+        "about": [
+          "Drive into the ball to change its direction. Jump and turn in the air when the ball is above the ground.",
+          "Boost helps you reach the ball faster. On a team, keep track of teammates before committing to a shot."
+        ],
+        "steps": [
+          [
+            "Line up behind the ball",
+            "Approach from the side that sends it toward the opposing goal."
+          ],
+          [
+            "Recover after an aerial hit",
+            "Point your car toward the ground so you can drive again after landing."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I play one against one?",
+            "Yes. Duel mode is for two opponents."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "survival-in-natural-disasters",
+    "title": "Survival in Natural Disasters",
+    "category": {
+      "en": "Multiplayer disaster survival"
+    },
+    "source": "https://1games.io/survival-in-natural-disasters",
+    "url": "https://1games.io/embed/survival-in-natural-disasters",
+    "width": 440,
+    "height": 259,
+    "media": {
+      "icon": "/assets/1games/survival-in-natural-disasters-icon.webp",
+      "artwork": "/assets/1games/survival-in-natural-disasters-cover.webp",
+      "artworkWidth": 800,
+      "artworkHeight": 470,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/survival-in-natural-disasters/survival-in-natural-disasters.png",
+        "artwork": "https://1games.io/data/image/game/survival-in-natural-disasters/survival-in-natural-disasters.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "adventure"
+      ],
+      "tags": [
+        "avoid-games",
+        "reaction-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Survival in Natural Disasters – Multiplayer disaster survival",
+        "summary": "Survive floods, meteors and other hazards in Survival in Natural Disasters. Read the warning and find a safer place before each round begins.",
+        "about": [
+          "Before a hazard arrives, the game tells you what is coming and how to prepare.",
+          "Different threats call for different positions. Shelter may help against falling hazards, while floods can make low areas unsafe."
+        ],
+        "steps": [
+          [
+            "Read the warning first",
+            "Use the brief preparation time to choose where to move."
+          ],
+          [
+            "Keep moving when conditions change",
+            "Recheck your position when the hazard reaches your part of the map."
+          ]
+        ],
+        "faq": [
+          [
+            "Is this a multiplayer game?",
+            "Yes. You share the arena with other players and try to survive each round."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "rapid-rally",
+    "title": "Rapid Rally",
+    "category": {
+      "en": "Precision arcade rally"
+    },
+    "source": "https://1games.io/rapid-rally",
+    "url": "https://1games.io/embed/rapid-rally",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/rapid-rally-cover.webp",
+      "artwork": "/assets/1games/rapid-rally-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/rapid-rally/rapid-rally.png",
+        "artwork": "https://1games.io/data/image/game/rapid-rally/rapid-rally.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGame",
+      "releaseDate": "2026-07-20",
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "race-games",
+        "vehicles-games",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Rapid Rally – Precision arcade rally",
+        "summary": "Drive through narrow roads and sharp corners in Rapid Rally. Control your speed and finish each rally stage cleanly.",
+        "about": [
+          "Each stage has a different layout. Look beyond the next turn before accelerating.",
+          "A steady approach helps keep the car on narrow roads. Reduce speed early when the route changes direction."
+        ],
+        "steps": [
+          [
+            "Brake before sharp corners",
+            "Give yourself time to steer through the bend."
+          ],
+          [
+            "Accelerate on open sections",
+            "Use straights to gain speed when the road ahead is clear."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I unlock other cars?",
+            "Available rewards let you unlock more rally vehicles."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "wacky-wheels",
+    "title": "Wacky Wheels",
+    "category": {
+      "en": "Physics obstacle driving"
+    },
+    "source": "https://1games.io/wacky-wheels",
+    "url": "https://1games.io/embed/wacky-wheels",
+    "width": 440,
+    "height": 293,
+    "media": {
+      "icon": "/assets/1games/wacky-wheels-icon.webp",
+      "artwork": "/assets/1games/wacky-wheels-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 800,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wacky-wheels/wacky-wheels-5.jpg",
+        "artwork": "https://1games.io/data/image/game/wacky-wheels/wacky-wheels-5.jpg"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "obstacles-games",
+        "stunt-games",
+        "vehicles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Wacky Wheels – Physics obstacle driving",
+        "summary": "Dodge swinging hammers and drive across shifting platforms in Wacky Wheels. Collect stars as you tackle timed courses.",
+        "about": [
+          "Each course has obstacles that move or change how your car handles. Watch their movement before driving into a narrow section.",
+          "Different areas offer different track layouts and obstacles. Use each attempt to learn where to brake and where to accelerate."
+        ],
+        "steps": [
+          [
+            "Watch the moving obstacle",
+            "Wait for a safe opening before trying to pass."
+          ],
+          [
+            "Line up with the ramp",
+            "Point the car toward your intended landing before taking off."
+          ]
+        ],
+        "faq": [
+          [
+            "What areas can I play?",
+            "The game features Bumper Bonanza, Dungeon Dash and Space Run."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "slope-3",
+    "title": "Slope 3",
+    "category": {
+      "en": "Endless neon ball runner"
+    },
+    "source": "https://1games.io/slope-3",
+    "url": "https://1games.io/embed/slope-3",
+    "width": 440,
+    "height": 255,
+    "media": {
+      "icon": "/assets/1games/slope-3-icon.webp",
+      "artwork": "/assets/1games/slope-3-cover.webp",
+      "artworkWidth": 760,
+      "artworkHeight": 440,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/slope-3/slope-3.png",
+        "artwork": "https://1games.io/data/image/game/slope-3/slope-3.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "reaction-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Slope 3 – Endless neon ball runner",
+        "summary": "Steer a rolling ball through Slope 3. Stay on narrow neon platforms as the ball speeds up and dodge obstacles along the way.",
+        "about": [
+          "The ball moves forward and gains speed automatically. Your job is to steer around barriers and stay on the track.",
+          "Track layouts change between runs. Look several platforms ahead so you have time to react to gaps and turns."
+        ],
+        "steps": [
+          [
+            "Look past the ball",
+            "Watch the far end of the next platform before choosing a direction."
+          ],
+          [
+            "Use small steering corrections",
+            "Move just far enough to avoid the obstacle without going over the edge."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I slow down the ball?",
+            "The ball controls its own speed. Focus on steering and reading the track."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "tap-drift",
+    "title": "Tap Drift",
+    "category": {
+      "en": "One-button drift combos"
+    },
+    "source": "https://1games.io/tap-drift",
+    "url": "https://1games.io/embed/tap-drift",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/tap-drift-cover.webp",
+      "artwork": "/assets/1games/tap-drift-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/tap-drift/tap-drift.png",
+        "artwork": "https://1games.io/data/image/game/tap-drift/tap-drift.png"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "one-button-games",
+        "timing-games",
+        "race-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Tap Drift – One-button drift combos",
+        "summary": "Time each drift in Tap Drift. Watch for yellow zones, follow the input cues and link clean drifts for a higher score.",
+        "about": [
+          "The car moves forward automatically. Yellow areas mark where to perform an input for a drift or boost.",
+          "An input that comes too early or too late can end the run. Consecutive successful moves build combos."
+        ],
+        "steps": [
+          [
+            "Watch the yellow zones",
+            "Prepare to act as the car approaches the highlighted area."
+          ],
+          [
+            "Follow the input cue",
+            "Tap or hold as shown instead of repeating the same input at every turn."
+          ]
+        ],
+        "faq": [
+          [
+            "Why did my run end?",
+            "A mistimed input can cause the car to crash and reset the run."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "orbit-beats",
+    "title": "Orbit Beats",
+    "category": {
+      "en": "Two-planet rhythm game"
+    },
+    "source": "https://1games.io/orbit-beats",
+    "url": "https://1games.io/embed/orbit-beats",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/orbit-beats-cover.webp",
+      "artwork": "/assets/1games/orbit-beats-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/orbit-beats/orbit-beats.png",
+        "artwork": "https://1games.io/data/image/game/orbit-beats/orbit-beats.png"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "rhythm-games",
+        "timing-games",
+        "reaction-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Orbit Beats – Two-planet rhythm game",
+        "summary": "Guide two orbiting planets in Orbit Beats. Tap to the music and time each step along tracks that turn with the rhythm.",
+        "about": [
+          "The planets move along a route whose patterns follow the song. Listen for changes in timing before a new section.",
+          "One missed beat can end the run. Repeat a difficult section to learn its rhythm."
+        ],
+        "steps": [
+          [
+            "Listen for a change in pattern",
+            "Use the next few beats to predict when the route will change."
+          ],
+          [
+            "Time each input to the music",
+            "Watch the path while listening for the beat that marks the next step."
+          ]
+        ],
+        "faq": [
+          [
+            "What happens if I miss a beat?",
+            "A missed beat ends the current attempt."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "car-chaos",
+    "title": "Car Chaos",
+    "category": {
+      "en": "Physics car arena duels"
+    },
+    "source": "https://1games.io/car-chaos",
+    "url": "https://1games.io/embed/car-chaos",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/car-chaos-cover.webp",
+      "artwork": "/assets/1games/car-chaos-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/car-chaos/car-chaos.png",
+        "artwork": "https://1games.io/data/image/game/car-chaos/car-chaos.png"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "arena-games",
+        "stunt-games",
+        "2-player-sports"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Car Chaos – Physics car arena duels",
+        "summary": "Drive through ramps and loops in Car Chaos. Use momentum to win vehicle duels and challenge a friend on the same screen.",
+        "about": [
+          "The goal is to hit the opposing driver's head with your vehicle. Ramps and loops can change the angle of a collision.",
+          "Vehicles handle differently. Learn how each one reacts in the air before relying on a risky jump."
+        ],
+        "steps": [
+          [
+            "Build speed on flat ground",
+            "Use an open part of the arena before climbing a ramp."
+          ],
+          [
+            "Watch your landing",
+            "Keep track of the rival vehicle while you are in the air."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I play with someone locally?",
+            "Yes. The game supports two players on one screen."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "traffic-rush-online",
+    "title": "TRAFFIC Rush Online",
+    "category": {
+      "en": "Highway driving and drifting"
+    },
+    "source": "https://1games.io/traffic-rush-online",
+    "url": "https://1games.io/embed/traffic-rush-online",
+    "width": 440,
+    "height": 259,
+    "media": {
+      "icon": "/assets/1games/traffic-rush-online-icon.webp",
+      "artwork": "/assets/1games/traffic-rush-online-cover.webp",
+      "artworkWidth": 800,
+      "artworkHeight": 470,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/traffic-rush-online/traffic-rush-online.png",
+        "artwork": "https://1games.io/data/image/game/traffic-rush-online/traffic-rush-online.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "race-games",
+        "vehicles-games",
+        "car-tuning-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "TRAFFIC Rush Online – Highway driving and drifting",
+        "summary": "Drive through highway traffic or try dedicated drift tracks in TRAFFIC Rush Online. Earn rewards and customize your cars.",
+        "about": [
+          "Highway routes require you to watch nearby vehicles and choose gaps before changing lanes.",
+          "Dedicated tracks give you room to practise drifts. The dashboard shows speed, gear and engine RPM."
+        ],
+        "steps": [
+          [
+            "Watch traffic before changing lanes",
+            "Wait for enough space to move without hitting another vehicle."
+          ],
+          [
+            "Practise a controlled drift",
+            "Use the handbrake as you enter a bend on a drift track."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I customize my car?",
+            "Yes. The garage offers upgrades and customization."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "jump-to-the-rhythm-of-songs-musical-ball",
+    "title": "Jump to the Rhythm of Songs! Musical Ball!",
+    "category": {
+      "en": "Music ball and neon tiles"
+    },
+    "source": "https://1games.io/jump-to-the-rhythm-of-songs-musical-ball",
+    "url": "https://1games.io/embed/jump-to-the-rhythm-of-songs-musical-ball",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/jump-to-the-rhythm-of-songs-musical-ball-icon.webp",
+      "artwork": "/assets/1games/jump-to-the-rhythm-of-songs-musical-ball-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/jump-to-the-rhythm-of-songs-musical-ball/jump-to-the-rhythm-of-songs-musical-ball-2.png",
+        "artwork": "https://1games.io/data/image/game/jump-to-the-rhythm-of-songs-musical-ball/jump-to-the-rhythm-of-songs-musical-ball-2.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "rhythm-games",
+        "jumping-games",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Jump to the Rhythm of Songs! Musical Ball! – Music ball and neon tiles",
+        "summary": "Guide a bouncing ball across neon tiles in Jump to the Rhythm of Songs! Musical Ball! Steer in time to stay on the course.",
+        "about": [
+          "The ball bounces forward automatically. Move it left or right to reach the next tile.",
+          "Each song has its own layout. Watch for long pads and tiles that shift from side to side."
+        ],
+        "steps": [
+          [
+            "Move toward the next tile",
+            "Hold the mouse button and drag sideways to steer."
+          ],
+          [
+            "Look ahead during long bounces",
+            "Check where the next tile is before the ball leaves the current one."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I make the ball jump?",
+            "The ball jumps on its own. You steer it sideways."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "supermarket-simulator-desert",
+    "title": "Supermarket Simulator: Desert",
+    "category": {
+      "en": "Desert supermarket management"
+    },
+    "source": "https://1games.io/supermarket-simulator-desert",
+    "url": "https://1games.io/embed/supermarket-simulator-desert",
+    "width": 440,
+    "height": 259,
+    "media": {
+      "icon": "/assets/1games/supermarket-simulator-desert-icon.webp",
+      "artwork": "/assets/1games/supermarket-simulator-desert-cover.webp",
+      "artworkWidth": 800,
+      "artworkHeight": 470,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/supermarket-simulator-desert/supermarket-simulator-desert.png",
+        "artwork": "https://1games.io/data/image/game/supermarket-simulator-desert/supermarket-simulator-desert.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "shop-games",
+        "resource-management-games",
+        "business-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Supermarket Simulator: Desert – Desert supermarket management",
+        "summary": "Stock shelves, set prices and serve customers in Supermarket Simulator: Desert. Reinvest earnings to grow your small shop.",
+        "about": [
+          "Each workday involves buying goods, arranging stock and running the register. Watch which products sell quickly.",
+          "Use your earnings to restock and expand. Stock levels and prices affect how much you can sell."
+        ],
+        "steps": [
+          [
+            "Stock the shelves",
+            "Arrange goods where customers can find them before opening the store."
+          ],
+          [
+            "Check prices and stock levels",
+            "Review your shelves during the day and order more of popular items."
+          ]
+        ],
+        "faq": [
+          [
+            "What do I do at the register?",
+            "Serve customers and collect payment for their purchases."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "rooftop-flip",
+    "title": "Rooftop Flip",
+    "category": {
+      "en": "Rooftop backflip challenge"
+    },
+    "source": "https://1games.io/rooftop-flip",
+    "url": "https://1games.io/game/rooftop-flip/?v=26101701",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/rooftop-flip-cover.webp",
+      "artwork": "/assets/1games/rooftop-flip-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/rooftop-flip/rooftop-flip.png",
+        "artwork": "https://1games.io/data/image/game/rooftop-flip/rooftop-flip.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-10-12",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "flip-games",
+        "stunt-games",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Rooftop Flip – Rooftop backflip challenge",
+        "summary": "Launch from rooftops and moving platforms in Rooftop Flip. Control your rotation and aim for the marked landing zone.",
+        "about": [
+          "Your launch angle and momentum affect how far you travel. Watch the target before starting a jump.",
+          "Clean landings build scoring multipliers. Extra rotations are useful only if you can still land safely."
+        ],
+        "steps": [
+          [
+            "Check the marked landing zone",
+            "Look at the distance and height difference before launching."
+          ],
+          [
+            "Stop rotating before landing",
+            "Straighten your character as you approach the target."
+          ]
+        ],
+        "faq": [
+          [
+            "Do clean landings affect my score?",
+            "Yes. Consecutive clean landings help build a higher multiplier."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "crowd-gate-stickman-rush",
+    "title": "Crowd Gate: Stickman Rush",
+    "category": {
+      "en": "Number gate crowd runner"
+    },
+    "source": "https://1games.io/crowd-gate-stickman-rush",
+    "url": "https://1games.io/embed/crowd-gate-stickman-rush",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/crowd-gate-stickman-rush-icon.webp",
+      "artwork": "/assets/1games/crowd-gate-stickman-rush-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/crowd-gate-stickman-rush/crowd-gate-stickman-rush-logo.png",
+        "artwork": "https://1games.io/data/image/game/crowd-gate-stickman-rush/crowd-gate-stickman-rush-logo.png"
+      }
+    },
+    "metadata": {
+      "releaseDate": "2026-11-20",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "obstacles-games",
+        "collecting-games",
+        "decision-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Crowd Gate: Stickman Rush – Number gate crowd runner",
+        "summary": "Grow your group in Crowd Gate: Stickman Rush. Choose number gates, dodge obstacles and reach the finish with enough runners.",
+        "about": [
+          "Different gates change how many people are in your group. Check the numbers before choosing a route.",
+          "Traps can shrink the group. A route with a smaller bonus may be better if it avoids a dangerous obstacle."
+        ],
+        "steps": [
+          [
+            "Read both gates",
+            "Compare their effects and choose the one that leaves you with more runners."
+          ],
+          [
+            "Give traps room",
+            "Move early so as many runners as possible can pass safely."
+          ]
+        ],
+        "faq": [
+          [
+            "Why does the group size matter?",
+            "A larger group has a better chance against rivals and bosses."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "stickman-empires",
+    "title": "Stickman Empires",
+    "category": {
+      "en": "Stickman army strategy"
+    },
+    "source": "https://1games.io/stickman-empires",
+    "url": "https://1games.io/embed/stickman-empires",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/stickman-empires-cover.webp",
+      "artwork": "/assets/1games/stickman-empires-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/stickman-empires/stickman-empires.png",
+        "artwork": "https://1games.io/data/image/game/stickman-empires/stickman-empires.png"
+      }
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "genres": [
+        "strategy"
+      ],
+      "tags": [
+        "resource-management-games",
+        "defense-games",
+        "tactical-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Stickman Empires – Stickman army strategy",
+        "summary": "Mine gold, train units and defend your statue in Stickman Empires. Manage resources and adapt your army to each battle.",
+        "about": [
+          "Mining produces the gold you need to train units. Balance spending on new troops with defending your base.",
+          "Different units and formations suit different situations. Check the opposing army before sending your units forward."
+        ],
+        "steps": [
+          [
+            "Build up your gold supply",
+            "Assign miners so you can keep recruiting during the battle."
+          ],
+          [
+            "Keep troops near the statue",
+            "Leave defenders at your base when sending the rest of the army forward."
+          ]
+        ],
+        "faq": [
+          [
+            "What should I protect?",
+            "Defend your statue while building an army capable of defeating the opposition."
+          ]
+        ]
+      }
+    }
   }
 ]

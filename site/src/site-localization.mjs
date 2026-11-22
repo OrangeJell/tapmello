@@ -142,4 +142,4 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
   return { html, catalogue, translate };
 }
 
-export const brandNames = new Set(['tap', 'melo', 'tapmelo', 'Jelly', 'Playgama', 'AZGames', '1Games', '1Games.IO', 'X', 'Google Analytics', 'iOS', 'Android', 'Fazier', 'EN', 'HI', 'Chrome', 'Safari']);
+export const brandNames = new Set(['tap', 'melo', 'tapmelo', 'Jelly', 'Playgama', 'AZGames', 'AZGame', '1Games', '1Games.IO', 'ShapeRush.IO', 'X', 'Google Analytics', 'iOS', 'Android', 'Fazier', 'EN', 'HI', 'Chrome', 'Safari']);

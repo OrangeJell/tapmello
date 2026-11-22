@@ -6281,6 +6281,1006 @@
           "Ya. Balapan Harian memberi pemain tantangan bersama dan menawarkan hadiah koin."
         ]
       ]
+    },
+    "street-rider": {
+      "category": "Skateboard 3D tanpa akhir",
+      "searchTitle": "Street Rider – Skateboard 3D tanpa akhir",
+      "summary": "Berseluncur melewati lalu lintas di Street Rider. Lompat dari jalur landai, geser di sepanjang rel, dan buka papan saat Anda menyelesaikan tantangan.",
+      "about": [
+        "Rute berubah antar lintasan. Nantikan mobil, furnitur jalanan, dan jalur landai.",
+        "Rel dan atap kendaraan menawarkan peluang untuk mencetak gol. Periksa di mana Anda akan mendarat sebelum meninggalkan tanah."
+      ],
+      "steps": [
+        [
+          "Hindari kendaraan",
+          "Gunakan A dan D atau tombol panah kiri dan kanan untuk mengarahkan."
+        ],
+        [
+          "Lihatlah melampaui tanjakan",
+          "Pilih area pendaratan yang jelas sebelum Anda melompat."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya membuka lebih banyak papan?",
+          "Ya. Selesaikan tantangan dan terus bermain untuk membuka kunci papan."
+        ]
+      ]
+    },
+    "challenge-rush": {
+      "category": "Platformer ritme dengan editor level",
+      "searchTitle": "Challenge Rush – Platformer ritme dengan editor level",
+      "summary": "Atur waktu lompatan Anda mengikuti musik di Challenge Rush. Mainkan level komunitas atau buat dan uji rintangan di editor.",
+      "about": [
+        "Setiap kursus menggabungkan musik dengan rintangan yang menuntut waktu yang tepat.",
+        "Editor memungkinkan Anda membuat dan menguji kursus. Tingkat komunitas menawarkan lebih banyak tata letak untuk dipraktikkan."
+      ],
+      "steps": [
+        [
+          "Perhatikan rintangan selanjutnya",
+          "Gunakan ritme untuk mengantisipasi kapan harus melompat."
+        ],
+        [
+          "Uji kursus yang Anda buat",
+          "Mainkan tata letak Anda sendiri untuk memeriksa waktu rintangan yang berurutan."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya membuat level sendiri?",
+          "Ya. Permainan ini mencakup editor level."
+        ]
+      ]
+    },
+    "shape-rush": {
+      "category": "Lari ritmis dengan bentuk geometris",
+      "searchTitle": "Shape Rush – Lari ritmis dengan bentuk geometris",
+      "summary": "Lompat ke musik di Shape Rush. Pandu karakter geometris melalui jalur cepat dan buka tampilan baru di garasi.",
+      "about": [
+        "Karakter Anda bergerak maju secara otomatis. Atur waktu setiap lompatan untuk menghilangkan rintangan di sepanjang lintasan.",
+        "Peringkat kesulitan yang berbeda menawarkan tantangan yang berbeda. Mengulangi bagian pendek dapat membantu Anda mempelajari ritmenya."
+      ],
+      "steps": [
+        [
+          "Atur waktu lompatannya",
+          "Klik atau tekan Spasi saat Anda mendekati rintangan."
+        ],
+        [
+          "Baca pendaratan berikutnya",
+          "Lihatlah ke depan untuk melihat berapa banyak ruang yang Anda miliki setelah melewati rintangan."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya mengubah penampilan karakter saya?",
+          "Ya. Garasi menawarkan pilihan kulit dan warna."
+        ]
+      ]
+    },
+    "pixel-path": {
+      "category": "Platformer piksel dengan jebakan",
+      "searchTitle": "Pixel Path – Platformer piksel dengan jebakan",
+      "summary": "Capai pintu keluar di Pixel Path. Lompati paku dan perhatikan platform yang berubah saat Anda mendekat.",
+      "about": [
+        "Setiap tahap memiliki pintu untuk dicapai. Beberapa bahaya hanya terlihat setelah Anda mendekat.",
+        "Saat sebuah jebakan mengejutkan Anda, ingatlah di mana jebakan itu muncul dan ubah pendekatan Anda pada upaya berikutnya."
+      ],
+      "steps": [
+        [
+          "Periksa jalur sebelum melompat",
+          "Carilah tempat yang aman untuk mendarat sebelum meninggalkan peron."
+        ],
+        [
+          "Pelajari di mana jebakan muncul",
+          "Gunakan upaya yang gagal untuk merencanakan rute Anda selanjutnya melalui ruangan yang sama."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa tujuan dari setiap tahap?",
+          "Capai pintu keluar untuk melanjutkan."
+        ]
+      ]
+    },
+    "golf-hit": {
+      "category": "Pukulan golf jarak jauh",
+      "searchTitle": "Golf Hit – Pukulan golf jarak jauh",
+      "summary": "Pukul bola sejauh yang Anda bisa di Golf Hit. Atur waktu ayunan Anda, kumpulkan koin, dan beli peningkatan untuk pukulan yang lebih lama.",
+      "about": [
+        "Ayunan tepat waktu mengirim bola melintasi peta. Ia dapat memantul dan melanjutkan perjalanan setelah pendaratan pertama.",
+        "Jarak dan koin membantu Anda maju. Habiskan hadiah Anda untuk peningkatan dan cobalah untuk mengalahkan pukulan terlama Anda."
+      ],
+      "steps": [
+        [
+          "Pukul bola pada saat yang tepat",
+          "Perhatikan indikator bidik sebelum mengambil gambar."
+        ],
+        [
+          "Tingkatkan di antara pengambilan gambar",
+          "Habiskan hadiah Anda dan bandingkan jarak pada upaya Anda berikutnya."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah saya perlu mengincar lubang?",
+          "Tujuan utama Anda adalah mengirim bola golf sejauh mungkin."
+        ]
+      ]
+    },
+    "flip-physics": {
+      "category": "Senam palang dan salto",
+      "searchTitle": "Flip Physics – Senam palang dan salto",
+      "summary": "Berayun dari batang horizontal di Flip Physics. Bangun momentum, pilih kapan harus melepaskan dan kendalikan rotasi Anda sebelum mendarat.",
+      "about": [
+        "Ayunkan mistar ke depan dan ke belakang untuk membangun momentum. Waktu rilis Anda memengaruhi jalur penerbangan Anda.",
+        "Menyelipkan tubuh membantu Anda berputar lebih cepat. Sisakan waktu untuk mempersiapkan pendaratan setelah pembalikan."
+      ],
+      "steps": [
+        [
+          "Bangun momentum di atas mistar",
+          "Tingkatkan ukuran ayunan Anda sebelum melepaskan cengkeraman Anda."
+        ],
+        [
+          "Kendalikan putaran tubuh di udara",
+          "Menyelip untuk berbelok lebih cepat dan bersiap untuk mendarat sebelum Anda mendarat."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang mengubah arah lompatan saya?",
+          "Titik ayunan saat Anda melepaskan palang akan mengubah lintasan Anda."
+        ]
+      ]
+    },
+    "paint-hide-seek": {
+      "category": "Petak umpet dengan kamuflase cat",
+      "searchTitle": "Paint Hide & Seek – Petak umpet dengan kamuflase cat",
+      "summary": "Padukan dengan pemandangan di Paint Hide & Seek. Lukis penyamaran sebagai penyembunyi atau pelajari ruangan sebagai pencari.",
+      "about": [
+        "Penyembunyi dapat mengubah penampilannya agar sesuai dengan warna di dekatnya. Pose yang dipilih dengan baik dapat membantu penyamaran agar sesuai dengan pemandangan.",
+        "Pencari mencari detail yang menonjol dari lingkungan sekitar. Perhatikan bentuk dan warnanya."
+      ],
+      "steps": [
+        [
+          "Cocokkan dengan latar belakang",
+          "Pilih warna yang menyerupai permukaan di belakang Anda."
+        ],
+        [
+          "Periksa bentuk yang tidak biasa",
+          "Sebagai seorang pencari, carilah benda-benda yang bentuk atau posisinya terkesan tidak pada tempatnya."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya memainkan kedua peran tersebut?",
+          "Ya. Permainan ini menawarkan putaran sebagai penyembunyi atau pencari."
+        ]
+      ]
+    },
+    "duck-playground-3d": {
+      "category": "Sandbox fisika bertema bebek",
+      "searchTitle": "Duck Playground 3D – Sandbox fisika bertema bebek",
+      "summary": "Bangun dan uji struktur di Duck Playground 3D. Tempatkan alat peraga dan gunakan alat gravitasi untuk memindahkan atau memutar objek.",
+      "about": [
+        "Buka menu untuk menempatkan dinding, furnitur, dan karakter. Gabungkan mereka untuk membangun ruangan, menara, atau jalur rintangan.",
+        "Benda bereaksi terhadap gravitasi, berat, dan tumbukan. Coba ubah apa yang Anda tempatkan untuk melihat pengaruhnya terhadap hasilnya."
+      ],
+      "steps": [
+        [
+          "Siapkan struktur kecil",
+          "Mulailah dengan beberapa bagian sehingga Anda dapat melihat bagaimana mereka bergerak ketika bertabrakan."
+        ],
+        [
+          "Mengubah posisi suatu objek",
+          "Gunakan alat gravitasi untuk menahan dan memutar penyangga sebelum meletakkannya."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah ada batasan waktu?",
+          "Kotak pasir memungkinkan Anda bereksperimen tanpa pengatur waktu."
+        ]
+      ]
+    },
+    "blockader": {
+      "category": "Roguelite arena bulan",
+      "searchTitle": "Blockader – Roguelite arena bulan",
+      "summary": "Bertahan dari gelombang musuh di bulan di Blockader. Bergerak di sekitar arena dan pilih kartu peningkatan setelah setiap gelombang.",
+      "about": [
+        "Senjata Anda menyerang secara otomatis saat musuh mendekat. Terus bergerak untuk memberi ruang bagi kelompok berikutnya.",
+        "Mengalahkan musuh memenuhi meteran gelombang. Saat gelombang berakhir, pilih peningkatan dari kartu yang ditawarkan."
+      ],
+      "steps": [
+        [
+          "Pertahankan rute yang jelas",
+          "Menjauhlah dari kelompok yang mendekat sebelum mereka mengepung Anda."
+        ],
+        [
+          "Pilih kartu peningkatan",
+          "Pilih kartu yang sesuai dengan peningkatan yang sudah Anda miliki."
+        ]
+      ],
+      "faq": [
+        [
+          "Kapan saya dapat melakukan peningkatan lagi?",
+          "Permainan ini menawarkan pilihan baru setelah Anda menyelesaikan gelombang."
+        ]
+      ]
+    },
+    "roller-coaster-obby-race": {
+      "category": "Balap lori tambang penuh rintangan",
+      "searchTitle": "Roller Coaster: Obby Race – Balap lori tambang penuh rintangan",
+      "summary": "Pandu kereta tambang Anda melalui Roller Coaster: Obby Race. Rem untuk tikungan tajam dan lompatan waktu melewati celah di rel.",
+      "about": [
+        "Bagian yang lurus memberikan ruang bagi kereta untuk menambah kecepatan. Belokan tajam menyisakan lebih sedikit ruang untuk memperbaiki jalan Anda.",
+        "Periksa lintasan setelah setiap tikungan. Anda mungkin perlu meningkatkan kecepatan lagi untuk melewati celah."
+      ],
+      "steps": [
+        [
+          "Rem sebelum tikungan",
+          "Pelankan kecepatan sebelum memasuki tikungan tajam."
+        ],
+        [
+          "Dekati celah tersebut dengan lurus",
+          "Sejajarkan diri dengan rel di depan sebelum melompat."
+        ]
+      ],
+      "faq": [
+        [
+          "Di mana saya bisa menambah kecepatan dengan aman?",
+          "Gunakan bagian lurus dengan pandangan jelas ke trek di depan."
+        ]
+      ]
+    },
+    "turbo-horizon-racing": {
+      "category": "Balap mobil arkade retro",
+      "searchTitle": "Turbo Horizon Racing – Balap mobil arkade retro",
+      "summary": "Balapan melalui Tur Dunia di Turbo Horizon Racing. Kelola cengkeraman ban dan hemat nitro untuk menyalip di jalur terbuka.",
+      "about": [
+        "Tur Dunia membawa Anda melewati kondisi jalan dan cuaca yang berbeda. Sesuaikan kecepatan Anda agar sesuai dengan trek.",
+        "Tampilan balapan menunjukkan cengkeraman, panas, dan informasi lain tentang mobil Anda. Perhatikan meteran nitro saat Anda mengemudi."
+      ],
+      "steps": [
+        [
+          "Periksa genggaman Anda sebelum berputar",
+          "Kurangi kecepatan lebih awal jika tikungan berikutnya sempit atau permukaannya kurang memberikan cengkeraman."
+        ],
+        [
+          "Gunakan nitro di tempat jalan terbuka",
+          "Tunggu hingga ruang untuk berakselerasi sebelum menghabiskan peningkatan Anda."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah game ini memiliki mode tur?",
+          "Ya. Tur Dunia menawarkan balapan di berbagai lingkungan."
+        ]
+      ]
+    },
+    "blockfootball-3d-football-manager": {
+      "category": "Manajemen klub sepak bola 3D",
+      "searchTitle": "Blockfootball: 3D Football Manager – Manajemen klub sepak bola 3D",
+      "summary": "Kelola klub di Blockfootball: Manajer Sepak Bola 3D. Tetapkan taktik, kembangkan pasukan Anda, dan ubah susunan pemain Anda selama pertandingan 3D.",
+      "about": [
+        "Pilih susunan pemain awal dan saksikan pemain yang dikendalikan komputer melaksanakan rencana Anda.",
+        "Keuangan klub dan transfer menentukan pemain mana yang bisa Anda rekrut. Kembangkan skuad Anda seiring dengan taktik pertandingan Anda."
+      ],
+      "steps": [
+        [
+          "Susun sebelas pemain inti",
+          "Pilih pemain dan taktik sebelum kickoff."
+        ],
+        [
+          "Sesuaikan selama pertandingan",
+          "Gunakan pergantian pemain atau ubah taktik Anda saat pertandingan membutuhkannya."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah saya mengarahkan pemain secara langsung?",
+          "Para pemain bergerak secara otomatis saat Anda mengatur taktik dan pergantian pemain."
+        ]
+      ]
+    },
+    "rush-line": {
+      "category": "Parkour jalan raya tanpa akhir",
+      "searchTitle": "Rush Line – Parkour jalan raya tanpa akhir",
+      "summary": "Berlari menyusuri jalan raya di Rush Line. Melompati bahaya, meluncur di bawah penghalang dan mengumpulkan koin di sepanjang rute yang lebih sulit.",
+      "about": [
+        "Kecepatan meningkat seiring lari berlanjut. Perhatikan rintangan berikutnya sehingga Anda dapat memilih apakah akan melompat, meluncur, atau mengubah posisi.",
+        "Hub kota memungkinkan Anda memilih karakter dan melihat misi sebelum berlari. Beberapa rute menawarkan koin tambahan."
+      ],
+      "steps": [
+        [
+          "Baca ketinggian rintangan",
+          "Melompati bahaya rendah dan meluncur di bawah penghalang di atas kepala."
+        ],
+        [
+          "Rencanakan langkah selanjutnya lebih awal",
+          "Lihatlah melewati rintangan saat ini saat kecepatan Anda meningkat."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah jalan raya memiliki garis finis?",
+          "Jalan raya terus berjalan sampai bahaya mengakhiri upaya tersebut."
+        ]
+      ]
+    },
+    "fly-simulator-2d": {
+      "category": "Simulator kehidupan lalat rumah",
+      "searchTitle": "Fly Simulator 2D – Simulator kehidupan lalat rumah",
+      "summary": "Jelajahi rumah sebagai lalat di Fly Simulator 2D. Cari buah sebelum kelaparan dan jauhi kertas perangkap lalat.",
+      "about": [
+        "Perabotan dan makanan tampak besar jika dilihat dari sudut pandang lalat. Terbang di atas rintangan atau mendarat di meja untuk menjelajah.",
+        "Kelaparan menurun seiring berjalannya waktu. Carilah makanan seperti buah-buahan dan manisan saat Anda berpindah dari satu ruangan ke ruangan lain."
+      ],
+      "steps": [
+        [
+          "Temukan makanan lebih awal",
+          "Carilah makanan sebelum rasa lapar Anda menjadi terlalu rendah."
+        ],
+        [
+          "Hindari permukaan yang lengket",
+          "Berikan flypaper tempat yang luas saat Anda terbang melewati furnitur."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang bisa dimakan lalat?",
+          "Buah-buahan dan toples pengawet adalah beberapa sumber makanan yang bisa Anda temukan."
+        ]
+      ]
+    },
+    "asmr-squishy-keyboard-tower": {
+      "category": "Parkour menara ASMR",
+      "searchTitle": "ASMR Squishy & Keyboard Tower – Parkour menara ASMR",
+      "summary": "Naiki Menara Squishy & Keyboard ASMR. Melompati platform lunak dan tombol keyboard yang mengeluarkan suara berbeda saat Anda mendarat.",
+      "about": [
+        "Menara ini menggunakan platform dan permukaan goyang dengan tekstur berbeda. Setiap bagian memiliki suaranya sendiri.",
+        "Koin tersebar di sepanjang rute. Periksa platform berikutnya sebelum meninggalkan tempat aman untuk mengambilnya."
+      ],
+      "steps": [
+        [
+          "Bidik bagian tengah platform",
+          "Beri diri Anda ruang untuk menyesuaikan diri setelah mendarat di permukaan yang goyang."
+        ],
+        [
+          "Dengarkan setiap permukaan",
+          "Cobalah mendarat di platform berbeda untuk mendengarkan suara yang mereka buat."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang menimbulkan bunyi-bunyian tersebut?",
+          "Tombol keyboard, bungkus gelembung, dan benda lunak mengeluarkan suara berbeda saat Anda mendarat di atasnya."
+        ]
+      ]
+    },
+    "snowcross-stunts-x3m": {
+      "category": "Balap ski dengan aksi salto",
+      "searchTitle": "Snowcross Stunts X3M – Balap ski dengan aksi salto",
+      "summary": "Meluncurlah di lintasan bersalju dalam Snowcross Stunts X3M. Selesaikan salto untuk memangkas waktu dan jaga keseimbangan di turunan serta lintasan melingkar.",
+      "about": [
+        "Setiap jalur menggabungkan lereng dengan lompatan dan bahaya. Kontrol kecepatan sebelum turun tajam sehingga Anda dapat bersiap untuk pendaratan.",
+        "Flip yang selesai dapat mengurangi waktu Anda. Pilih lompatan yang memberi Anda cukup waktu untuk menyelesaikan putaran."
+      ],
+      "steps": [
+        [
+          "Bersiaplah untuk lompatan",
+          "Dekati jalan dengan kecepatan yang cukup untuk menyelesaikan bagian berikutnya."
+        ],
+        [
+          "Selesaikan rotasi sebelum mendarat",
+          "Gunakan lompatan yang lebih panjang untuk membalik dan jaga agar ski Anda tetap sejajar dengan kemiringan."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah gerakan membalik mempengaruhi waktu balapan saya?",
+          "Pembalikan yang berhasil diselesaikan dapat menyita waktu Anda untuk berlari."
+        ]
+      ]
+    },
+    "basketball-fever": {
+      "category": "Tembakan basket arkade",
+      "searchTitle": "Basketball Fever – Tembakan basket arkade",
+      "summary": "Seret dan lepaskan untuk menembak di Demam Bola Basket. Sesuaikan sudut dan kekuatan saat lingkaran bergerak di antara tembakan yang berhasil.",
+      "about": [
+        "Keranjang dapat berubah posisi atau jarak setelah skor. Periksa posisi barunya sebelum mengambil gambar lainnya.",
+        "Panjang tarikan Anda mengontrol kekuatan lemparan. Persingkat untuk keranjang yang lebih dekat."
+      ],
+      "steps": [
+        [
+          "Periksa ke mana lingkaran itu bergerak",
+          "Lihatlah ketinggian dan jaraknya sebelum membidik."
+        ],
+        [
+          "Sesuaikan kekuatan lemparan",
+          "Gunakan tarikan yang lebih panjang untuk keranjang yang lebih jauh dan lepaskan setelah arahnya ditentukan."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang terjadi jika saya ketinggalan?",
+          "Tembakan yang meleset dapat mengakhiri pukulan beruntun saat ini."
+        ]
+      ]
+    },
+    "curryillion": {
+      "category": "Kuis harian NBA",
+      "searchTitle": "Curryillion – Kuis harian NBA",
+      "summary": "Jawab tujuh pertanyaan trivia NBA harian di Curryillion. Ketik pemain atau tim dari memori dan skor lebih banyak dengan jawaban benar yang lebih jarang.",
+      "about": [
+        "Setiap pertanyaan memiliki pengatur waktu 24 detik. Ketik respons yang sesuai dengan perintah dan periksa saran saat Anda memasukkannya.",
+        "Jawaban pertama Anda yang diterima menentukan skor untuk pertanyaan itu. Setiap pertanyaan memiliki jawaban tersembunyi senilai 100 poin."
+      ],
+      "steps": [
+        [
+          "Ingat kandidat sebelum mengirimkan",
+          "Pikirkan pemain atau tim yang cocok dengan semua bagian prompt."
+        ],
+        [
+          "Gunakan saran untuk memeriksa ejaan",
+          "Cari nama yang ingin Anda masukkan sebelum mengonfirmasi."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya mencoba lagi setelah jawaban tidak valid?",
+          "Ya. Anda dapat mencoba jawaban lain selagi masih ada waktu."
+        ]
+      ]
+    },
+    "sinkhole-rush": {
+      "category": "Game arkade lubang pemakan benda",
+      "searchTitle": "Sinkhole Rush – Game arkade lubang pemakan benda",
+      "summary": "Kembangkan lubang pembuangan di Sinkhole Rush. Mulailah dengan benda kecil, lalu telan kendaraan dan bangunan seiring dengan semakin lebarnya lubang.",
+      "about": [
+        "Lubang tersebut hanya bisa menelan benda yang pas. Mulailah dengan benda-benda kecil yang berdekatan satu sama lain agar terus berkembang.",
+        "Objek yang lebih besar akan tersedia saat lubang Anda membesar. Mode pertempuran menambah lawan dan Solo memungkinkan Anda bermain sendiri."
+      ],
+      "steps": [
+        [
+          "Kumpulkan benda-benda kecil terlebih dahulu",
+          "Arahkan melalui kelompok benda yang sudah masuk ke dalam lubang."
+        ],
+        [
+          "Pindah ke objek yang lebih besar setelah Anda tumbuh",
+          "Cobalah target yang lebih besar setelah lubangnya cukup lebar."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya bermain tanpa saingan?",
+          "Ya. Pilih mode Solo jika Anda ingin berkembang tanpa bersaing dengan orang lain."
+        ]
+      ]
+    },
+    "drifty-road-rush": {
+      "category": "Balap drift satu klik",
+      "searchTitle": "Drifty Road Rush – Balap drift satu klik",
+      "summary": "Melayang di sekitar jalur sempit di atas air di Drifty Road Rush. Atur waktu setiap belokan dan lewati mobil lawan sebelum finis.",
+      "about": [
+        "Mobil berakselerasi secara otomatis. Fokus pada belokan berikutnya dan perhatikan lalu lintas di jalur layang.",
+        "Indikator posisi menunjukkan tempat Anda dalam perlombaan. Bilah kemajuan menunjukkan berapa banyak trek yang tersisa."
+      ],
+      "steps": [
+        [
+          "Mulailah melayang saat Anda mendekati belokan",
+          "Klik untuk melayang ketika Anda mencapai tikungan."
+        ],
+        [
+          "Periksa lalu lintas setelah belokan",
+          "Berikan ruang untuk mobil lain saat Anda keluar dari arus."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah saya harus menahan tombol untuk mempercepat?",
+          "Tidak. Mobil menambah kecepatannya sendiri."
+        ]
+      ]
+    },
+    "flip-or-fail": {
+      "category": "Aksi akrobat dan pendaratan presisi",
+      "searchTitle": "Flip Or Fail – Aksi akrobat dan pendaratan presisi",
+      "summary": "Luncurkan jalur landai di Balik Atau Gagal. Atur waktu rotasi Anda dan mendaratlah dengan tegak untuk mencetak poin.",
+      "about": [
+        "Setiap lompatan dimulai dari tanjakan atau platform yang ditinggikan. Waktu yang Anda habiskan di udara membatasi jumlah putaran yang dapat Anda selesaikan.",
+        "Trik ekstra dapat meningkatkan skor Anda. Beri diri Anda waktu untuk meluruskan diri sebelum mendarat."
+      ],
+      "steps": [
+        [
+          "Perhatikan area pendaratan",
+          "Periksa ketinggian dan jarak target sebelum memulai lompatan."
+        ],
+        [
+          "Selesaikan rotasi lebih awal",
+          "Berhenti berputar pada waktunya untuk mendarat dengan kaki Anda."
+        ]
+      ],
+      "faq": [
+        [
+          "Haruskah saya mencoba melakukan gerakan membalik sebanyak mungkin?",
+          "Cobalah lebih banyak rotasi hanya ketika lompatan memberi Anda cukup waktu untuk mendarat dengan tegak."
+        ]
+      ]
+    },
+    "ragdoll-flip": {
+      "category": "Salto belakang di trampolin",
+      "searchTitle": "Ragdoll Flip – Salto belakang di trampolin",
+      "summary": "Pantulkan trampolin di Ragdoll Flip. Backflip yang dikendalikan daratan untuk membuat pukulan beruntun dan mendapatkan koin untuk karakter baru.",
+      "about": [
+        "Tahan input lompat untuk memutar saat mengudara. Lepaskan tepat waktu agar sejajar dengan trampolin.",
+        "Trampolin yang berbeda mengubah tinggi pantulan Anda. Sesuaikan waktu Anda alih-alih mengulangi putaran yang sama setiap saat."
+      ],
+      "steps": [
+        [
+          "Latihlah satu gerakan flip yang bersih",
+          "Mulailah dengan satu putaran dan fokuslah untuk mendarat dengan tegak."
+        ],
+        [
+          "Sesuaikan dengan masing-masing trampolin",
+          "Perhatikan ketinggian pantulan Anda sebelum mencoba rotasi lebih lanjut."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang bisa saya buka dengan koin?",
+          "Koin membuka kunci lokasi dan karakter dengan gerakan berbeda."
+        ]
+      ]
+    },
+    "skateboard-my-life-3d": {
+      "category": "Balap skateboard menuruni gunung",
+      "searchTitle": "Skateboard My Life 3D – Balap skateboard menuruni gunung",
+      "summary": "Balapan menuruni jalan pegunungan di Skateboard My Life 3D. Mengarahkan mobil dan waktu melompati rintangan.",
+      "about": [
+        "Jalur ini memadukan tikungan tajam dengan lalu lintas yang bergerak. Lihatlah ke depan untuk memilih rute melalui kendaraan.",
+        "Jalur landai mengirim Anda ke udara. Periksa di mana papan dapat mendarat sebelum membidik ke arah tanjakan."
+      ],
+      "steps": [
+        [
+          "Bersiaplah untuk tikungan tajam",
+          "Mulailah mengemudi sebelum jalan menikung tajam."
+        ],
+        [
+          "Gunakan jalur landai dengan pendaratan yang jelas",
+          "Pilih tanjakan hanya jika jalan di luarnya terbuka."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah tujuannya untuk menyelesaikan kursus?",
+          "Ya. Tetap di papan dan capai garis finis."
+        ]
+      ]
+    },
+    "mx-offroad-mountain-bike": {
+      "category": "Simulasi sepeda gunung downhill",
+      "searchTitle": "MX Offroad Mountain Bike – Simulasi sepeda gunung downhill",
+      "summary": "Naiki jalan curam di MX Offroad Mountain Bike. Seberangi jembatan sempit, mendarat di jurang berbatu, dan balapan sendirian atau di layar bersama.",
+      "about": [
+        "Lereng yang curam menghasilkan kecepatan dengan cepat. Jembatan yang sempit menyisakan sedikit ruang untuk mengoreksi arah Anda.",
+        "Pendaratan yang buruk dapat mengirim Anda kembali ke pos pemeriksaan terakhir. Sejajarkan sepeda dengan kemiringan sebelum mendarat."
+      ],
+      "steps": [
+        [
+          "Tetap terpusat pada jembatan",
+          "Sejajarkan diri dengan jembatan sebelum menaikinya."
+        ],
+        [
+          "Bersiaplah menghadapi tetesan batu",
+          "Perhatikan ketinggian jatuhnya dan arahkan sepeda ke tempat pendaratan yang aman."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah dua orang bermain di satu perangkat?",
+          "Ya. Game ini mendukung pemutaran layar terpisah lokal."
+        ]
+      ]
+    },
+    "crash-tower-3d": {
+      "category": "Pembongkaran dengan kendaraan berat",
+      "searchTitle": "Crash Tower 3D – Pembongkaran dengan kendaraan berat",
+      "summary": "Luncurkan kendaraan berat di Crash Tower 3D dan atur waktu dorongan untuk merobohkan penghalang, tembok, dan bangunan.",
+      "about": [
+        "Kendaraan melaju menuju tanjakan setelah Anda meluncurkannya. Pengukur daya memberi tahu Anda kapan dorongan yang lebih kuat tersedia.",
+        "Berat kendaraan dan kecepatan peluncuran mempengaruhi apa yang terjadi ketika Anda menabrak struktur tersebut."
+      ],
+      "steps": [
+        [
+          "Mulai lari",
+          "Aktifkan kontrol peluncuran untuk mengirim kendaraan menuju target."
+        ],
+        [
+          "Bertujuan untuk bagian emas",
+          "Picu dorongan saat meteran mencapai bagian emas."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang mengubah kekuatan tabrakan?",
+          "Kendaraan yang Anda pilih dan waktu peningkatan keduanya memengaruhi dampaknya."
+        ]
+      ]
+    },
+    "mega-ramp-car-stunts": {
+      "category": "Aksi mobil di lintasan melayang",
+      "searchTitle": "Mega Ramp Car Stunts – Aksi mobil di lintasan melayang",
+      "summary": "Berkendara melintasi trek mengambang di Mega Ramp Car Stunts. Selesaikan putaran dan kumpulkan pos pemeriksaan hijau sebelum waktu habis.",
+      "about": [
+        "Setiap jalur menempatkan jalan sempit, turunan dan putaran di atas awan. Kemudikan dengan hati-hati ketika hanya ada sedikit ruang di kedua sisi.",
+        "Perhatikan pos pemeriksaan hijau saat Anda mengikuti rute. Kumpulkan sebelum penghitung waktu mencapai nol."
+      ],
+      "steps": [
+        [
+          "Perlambat di jalur sempit",
+          "Sisakan ruang untuk menyesuaikan garis Anda sebelum memasuki bagian yang ketat."
+        ],
+        [
+          "Periksa pos pemeriksaan berikutnya",
+          "Carilah posisinya sebelum melakukan lompatan atau penurunan ke lintasan yang lebih rendah."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang saya perlukan untuk menyelesaikan suatu tahapan?",
+          "Kumpulkan setiap pos pemeriksaan hijau dalam batas waktu."
+        ]
+      ]
+    },
+    "turball-io": {
+      "category": "Sepak bola mobil roket multipemain",
+      "searchTitle": "Turball.io – Sepak bola mobil roket multipemain",
+      "summary": "Mainkan sepak bola mobil roket di Turball.io. Lompat dan tingkatkan untuk memukul bola, pertahankan gawang Anda, dan berkompetisi dalam pertandingan solo atau tim.",
+      "about": [
+        "Berkendara ke dalam bola untuk mengubah arahnya. Lompat dan putar di udara saat bola berada di atas tanah.",
+        "Boost membantu Anda mencapai bola lebih cepat. Di sebuah tim, pantau rekan satu tim sebelum melakukan tembakan."
+      ],
+      "steps": [
+        [
+          "Berbaris di belakang bola",
+          "Pendekatan dari sisi yang mengirimkannya ke arah gawang lawan."
+        ],
+        [
+          "Siapkan pendaratan setelah menyundul bola dengan mobil",
+          "Arahkan mobil Anda ke tanah agar Anda dapat mengemudi lagi setelah mendarat."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya bermain satu lawan satu?",
+          "Ya. Mode duel untuk dua lawan."
+        ]
+      ]
+    },
+    "survival-in-natural-disasters": {
+      "category": "Bertahan dari bencana bersama pemain lain",
+      "searchTitle": "Survival in Natural Disasters – Bertahan dari bencana bersama pemain lain",
+      "summary": "Bertahan dari banjir, meteor, dan bahaya lainnya dalam Survival in Natural Disasters. Baca peringatannya dan temukan tempat yang lebih aman sebelum setiap putaran dimulai.",
+      "about": [
+        "Sebelum bahaya datang, permainan memberi tahu Anda apa yang akan terjadi dan bagaimana mempersiapkannya.",
+        "Ancaman yang berbeda memerlukan posisi yang berbeda. Tempat berteduh dapat membantu mencegah bahaya terjatuh, sementara banjir dapat membuat daerah rendah menjadi tidak aman."
+      ],
+      "steps": [
+        [
+          "Baca peringatannya terlebih dahulu",
+          "Gunakan waktu persiapan yang singkat untuk memilih ke mana harus pindah."
+        ],
+        [
+          "Terus bergerak ketika kondisi berubah",
+          "Periksa kembali posisi Anda ketika bahaya mencapai bagian peta Anda."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah ini permainan multipemain?",
+          "Ya. Anda berbagi arena dengan pemain lain dan mencoba bertahan di setiap putaran."
+        ]
+      ]
+    },
+    "rapid-rally": {
+      "category": "Balap reli arkade yang menguji ketepatan",
+      "searchTitle": "Rapid Rally – Balap reli arkade yang menguji ketepatan",
+      "summary": "Berkendara melalui jalan sempit dan tikungan tajam di Rapid Rally. Kontrol kecepatan Anda dan selesaikan setiap tahap reli dengan bersih.",
+      "about": [
+        "Setiap tahapan memiliki tata letak yang berbeda. Lihatlah ke luar tikungan berikutnya sebelum melakukan akselerasi.",
+        "Pendekatan yang mantap membantu menjaga mobil di jalan sempit. Kurangi kecepatan lebih awal saat rute berubah arah."
+      ],
+      "steps": [
+        [
+          "Rem sebelum tikungan tajam",
+          "Beri diri Anda waktu untuk melewati tikungan."
+        ],
+        [
+          "Percepat di bagian terbuka",
+          "Gunakan jalan lurus untuk menambah kecepatan saat jalan di depan bersih."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya membuka kunci mobil lain?",
+          "Hadiah yang tersedia memungkinkan Anda membuka lebih banyak kendaraan reli."
+        ]
+      ]
+    },
+    "wacky-wheels": {
+      "category": "Lintasan mobil penuh rintangan",
+      "searchTitle": "Wacky Wheels – Lintasan mobil penuh rintangan",
+      "summary": "Hindari palu ayun dan kendarai melintasi platform yang berpindah-pindah di Wacky Wheels. Kumpulkan bintang saat Anda mengikuti kursus berjangka waktu.",
+      "about": [
+        "Setiap jalur memiliki rintangan yang menggerakkan atau mengubah cara mobil Anda dikendalikan. Perhatikan pergerakan mereka sebelum berkendara ke bagian sempit.",
+        "Area yang berbeda menawarkan tata letak trek dan rintangan yang berbeda. Gunakan setiap upaya untuk mempelajari di mana harus mengerem dan di mana harus berakselerasi."
+      ],
+      "steps": [
+        [
+          "Perhatikan rintangan yang bergerak",
+          "Tunggu pembukaan yang aman sebelum mencoba melewatinya."
+        ],
+        [
+          "Arahkan mobil lurus ke jalur lompatan",
+          "Arahkan mobil ke arah pendaratan yang Anda inginkan sebelum lepas landas."
+        ]
+      ],
+      "faq": [
+        [
+          "Area apa yang bisa saya mainkan?",
+          "Permainan ini menampilkan Bumper Bonanza, Dungeon Dash, dan Space Run."
+        ]
+      ]
+    },
+    "slope-3": {
+      "category": "Bola neon tanpa akhir",
+      "searchTitle": "Slope 3 – Bola neon tanpa akhir",
+      "summary": "Kemudikan bola yang menggelinding melewati Lereng 3. Tetap berada di platform neon sempit saat bola melaju kencang dan menghindari rintangan di sepanjang jalan.",
+      "about": [
+        "Bola bergerak maju dan menambah kecepatan secara otomatis. Tugas Anda adalah menghindari rintangan dan tetap berada di jalur.",
+        "Tata letak trek berubah antar putaran. Lihatlah beberapa platform ke depan sehingga Anda punya waktu untuk bereaksi terhadap kesenjangan dan belokan."
+      ],
+      "steps": [
+        [
+          "Lihat melewati bola",
+          "Perhatikan ujung platform berikutnya sebelum memilih arah."
+        ],
+        [
+          "Gunakan koreksi kemudi kecil",
+          "Bergerak cukup jauh untuk menghindari rintangan tanpa melewati tepian."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya memperlambat bola?",
+          "Bola mengontrol kecepatannya sendiri. Fokus pada kemudi dan membaca lintasan."
+        ]
+      ]
+    },
+    "tap-drift": {
+      "category": "Kombo drift satu tombol",
+      "searchTitle": "Tap Drift – Kombo drift satu tombol",
+      "summary": "Atur waktu setiap penyimpangan di Tap Drift. Perhatikan zona kuning, ikuti petunjuk masukan dan tautkan arus bersih untuk mendapatkan skor lebih tinggi.",
+      "about": [
+        "Mobil bergerak maju secara otomatis. Area kuning menandai tempat melakukan input untuk drift atau boost.",
+        "Masukan yang datang terlalu dini atau terlambat dapat mengakhiri proses. Gerakan sukses berturut-turut membangun kombo."
+      ],
+      "steps": [
+        [
+          "Perhatikan zona kuning",
+          "Bersiaplah untuk bertindak saat mobil mendekati area yang disorot."
+        ],
+        [
+          "Ikuti isyarat masukan",
+          "Ketuk atau tahan seperti yang ditunjukkan alih-alih mengulangi masukan yang sama di setiap kesempatan."
+        ]
+      ],
+      "faq": [
+        [
+          "Mengapa perjalanan saya berakhir?",
+          "Input yang tidak tepat waktu dapat menyebabkan mobil mogok dan mengatur ulang laju lari."
+        ]
+      ]
+    },
+    "orbit-beats": {
+      "category": "Game ritme dua planet",
+      "searchTitle": "Orbit Beats – Game ritme dua planet",
+      "summary": "Pandu dua planet yang mengorbit di Orbit Beats. Ketuk musik dan atur waktu setiap langkah di sepanjang trek yang berputar mengikuti ritme.",
+      "about": [
+        "Planet-planet bergerak sepanjang rute yang polanya mengikuti lagu. Dengarkan perubahan waktu sebelum bagian baru.",
+        "Satu ketukan yang terlewat dapat mengakhiri larinya. Ulangi bagian yang sulit untuk mempelajari ritmenya."
+      ],
+      "steps": [
+        [
+          "Dengarkan perubahan polanya",
+          "Gunakan beberapa ketukan berikutnya untuk memprediksi kapan rute akan berubah."
+        ],
+        [
+          "Tekan sesuai ketukan musik",
+          "Perhatikan jalannya sambil mendengarkan irama yang menandai langkah selanjutnya."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang terjadi jika saya melewatkan satu irama?",
+          "Ketukan yang terlewat mengakhiri upaya saat ini."
+        ]
+      ]
+    },
+    "car-chaos": {
+      "category": "Duel mobil di arena",
+      "searchTitle": "Car Chaos – Duel mobil di arena",
+      "summary": "Berkendara melewati jalur landai dan putaran di Car Chaos. Gunakan momentum untuk memenangkan duel kendaraan dan tantang teman di layar yang sama.",
+      "about": [
+        "Tujuannya adalah untuk memukul kepala pengemudi lawan dengan kendaraan Anda. Ramp dan loop dapat mengubah sudut tumbukan.",
+        "Kendaraan menangani secara berbeda. Pelajari bagaimana masing-masing bereaksi di udara sebelum melakukan lompatan berisiko."
+      ],
+      "steps": [
+        [
+          "Bangun kecepatan di tanah datar",
+          "Gunakan bagian arena yang terbuka sebelum menaiki tanjakan."
+        ],
+        [
+          "Perhatikan pendaratan Anda",
+          "Pantau kendaraan lawan saat Anda berada di udara."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya bermain dengan seseorang secara lokal?",
+          "Ya. Permainan ini mendukung dua pemain dalam satu layar."
+        ]
+      ]
+    },
+    "traffic-rush-online": {
+      "category": "Mengemudi di tol dan drifting",
+      "searchTitle": "TRAFFIC Rush Online – Mengemudi di tol dan drifting",
+      "summary": "Berkendara melewati lalu lintas jalan raya atau coba trek drift khusus di TRAFFIC Rush Online. Dapatkan hadiah dan sesuaikan mobil Anda.",
+      "about": [
+        "Rute jalan raya mengharuskan Anda untuk mengawasi kendaraan di sekitar dan memilih celah sebelum berpindah jalur.",
+        "Trek khusus memberi Anda ruang untuk berlatih drift. Dasbor menunjukkan kecepatan, gigi, dan RPM mesin."
+      ],
+      "steps": [
+        [
+          "Perhatikan lalu lintas sebelum berpindah jalur",
+          "Tunggu hingga ada ruang yang cukup untuk bergerak tanpa menabrak kendaraan lain."
+        ],
+        [
+          "Latihlah penyimpangan yang terkendali",
+          "Gunakan rem tangan saat Anda memasuki tikungan di jalur drift."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya menyesuaikan mobil saya?",
+          "Ya. Garasi menawarkan peningkatan dan penyesuaian."
+        ]
+      ]
+    },
+    "jump-to-the-rhythm-of-songs-musical-ball": {
+      "category": "Bola musik di ubin neon",
+      "searchTitle": "Jump to the Rhythm of Songs! Musical Ball! – Bola musik di ubin neon",
+      "summary": "Pandu bola yang memantul melintasi ubin neon di Lompat ke Irama Lagu! Bola Musik! Kemudikan tepat waktu agar tetap berada di jalur.",
+      "about": [
+        "Bola memantul ke depan secara otomatis. Pindahkan ke kiri atau kanan untuk mencapai ubin berikutnya.",
+        "Setiap lagu mempunyai layout tersendiri. Perhatikan bantalan panjang dan ubin yang bergeser dari sisi ke sisi."
+      ],
+      "steps": [
+        [
+          "Pindah ke ubin berikutnya",
+          "Tahan tombol mouse dan seret ke samping untuk mengarahkan."
+        ],
+        [
+          "Lihatlah ke depan selama pantulan panjang",
+          "Periksa letak ubin berikutnya sebelum bola meninggalkan ubin saat ini."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah saya membuat bolanya melompat?",
+          "Bola melompat dengan sendirinya. Anda mengarahkannya ke samping."
+        ]
+      ]
+    },
+    "supermarket-simulator-desert": {
+      "category": "Manajemen supermarket di gurun",
+      "searchTitle": "Supermarket Simulator: Desert – Manajemen supermarket di gurun",
+      "summary": "Simpan rak, tetapkan harga, dan layani pelanggan di Supermarket Simulator: Desert. Investasikan kembali penghasilan untuk mengembangkan toko kecil Anda.",
+      "about": [
+        "Setiap hari kerja melibatkan pembelian barang, mengatur stok, dan menjalankan kasir. Perhatikan produk mana yang terjual dengan cepat.",
+        "Gunakan penghasilan Anda untuk mengisi kembali dan memperluas. Tingkat stok dan harga mempengaruhi seberapa banyak Anda dapat menjual."
+      ],
+      "steps": [
+        [
+          "Isi rak",
+          "Atur barang di tempat yang dapat ditemukan pelanggan sebelum membuka toko."
+        ],
+        [
+          "Periksa harga dan tingkat stok",
+          "Tinjau rak Anda sepanjang hari dan pesan lebih banyak barang populer."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang harus saya lakukan saat mendaftar?",
+          "Melayani pelanggan dan mengumpulkan pembayaran untuk pembelian mereka."
+        ]
+      ]
+    },
+    "rooftop-flip": {
+      "category": "Salto belakang dari atap",
+      "searchTitle": "Rooftop Flip – Salto belakang dari atap",
+      "summary": "Peluncuran dari atap dan platform bergerak di Rooftop Flip. Kontrol rotasi Anda dan bidik zona pendaratan yang ditandai.",
+      "about": [
+        "Sudut peluncuran dan momentum Anda memengaruhi seberapa jauh Anda melakukan perjalanan. Perhatikan target sebelum memulai lompatan.",
+        "Pendaratan yang bersih menghasilkan pengganda skor. Rotasi ekstra hanya berguna jika Anda masih bisa mendarat dengan selamat."
+      ],
+      "steps": [
+        [
+          "Periksa zona pendaratan yang ditandai",
+          "Lihatlah jarak dan perbedaan ketinggian sebelum meluncurkannya."
+        ],
+        [
+          "Berhenti berputar sebelum mendarat",
+          "Luruskan karakter Anda saat mendekati target."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah pendaratan yang bersih mempengaruhi skor saya?",
+          "Ya. Pendaratan bersih berturut-turut membantu membangun pengganda yang lebih tinggi."
+        ]
+      ]
+    },
+    "crowd-gate-stickman-rush": {
+      "category": "Lari berkelompok lewat gerbang angka",
+      "searchTitle": "Crowd Gate: Stickman Rush – Lari berkelompok lewat gerbang angka",
+      "summary": "Kembangkan grup Anda di Crowd Gate: Stickman Rush. Pilih gerbang nomor, hindari rintangan dan capai garis finish dengan pelari yang cukup.",
+      "about": [
+        "Gerbang yang berbeda mengubah jumlah orang dalam grup Anda. Periksa nomornya sebelum memilih rute.",
+        "Jebakan dapat mengecilkan grup. Rute dengan bonus lebih kecil mungkin lebih baik jika menghindari rintangan berbahaya."
+      ],
+      "steps": [
+        [
+          "Baca kedua gerbang",
+          "Bandingkan efeknya dan pilih salah satu yang membuat Anda memiliki lebih banyak pelari."
+        ],
+        [
+          "Jaga jarak dari jebakan",
+          "Bergerak lebih awal agar sebanyak mungkin pelari dapat lewat dengan aman."
+        ]
+      ],
+      "faq": [
+        [
+          "Mengapa ukuran grup penting?",
+          "Kelompok yang lebih besar memiliki peluang lebih baik melawan rival dan atasan."
+        ]
+      ]
+    },
+    "stickman-empires": {
+      "category": "Strategi pasukan stickman",
+      "searchTitle": "Stickman Empires – Strategi pasukan stickman",
+      "summary": "Tambang emas, latih unit, dan pertahankan patung Anda di Kerajaan Stickman. Kelola sumber daya dan sesuaikan pasukan Anda untuk setiap pertempuran.",
+      "about": [
+        "Penambangan menghasilkan emas yang Anda butuhkan untuk melatih unit. Seimbangkan pengeluaran pasukan baru dengan mempertahankan markas Anda.",
+        "Unit dan formasi yang berbeda sesuai dengan situasi yang berbeda. Periksa pasukan lawan sebelum mengirim unit Anda maju."
+      ],
+      "steps": [
+        [
+          "Tingkatkan persediaan emas Anda",
+          "Tetapkan penambang agar Anda dapat terus merekrut selama pertempuran."
+        ],
+        [
+          "Jaga pasukan di dekat patung",
+          "Tinggalkan pembela di markas Anda saat mengirim sisa pasukan ke depan."
+        ]
+      ],
+      "faq": [
+        [
+          "Apa yang harus saya lindungi?",
+          "Pertahankan patung Anda sambil membangun pasukan yang mampu mengalahkan oposisi."
+        ]
+      ]
     }
   }
 }
