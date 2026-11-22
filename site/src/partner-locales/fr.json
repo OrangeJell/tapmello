@@ -5781,6 +5781,506 @@
           "Oui. Vous pouvez ajuster la taille du tableau avant de commencer une course."
         ]
       ]
+    },
+    "football-bros": {
+      "category": "Football américain en pixel art",
+      "searchTitle": "Football Bros – Football américain en pixel art",
+      "summary": "Jouez au football américain en pixel art dans Football Bros. Choisissez vos tactiques, disputez une saison ou défiez un ami sur le même clavier.",
+      "about": [
+        "Sélectionnez un jeu offensif ou défensif avant chaque snap. En attaque, cherchez un receveur ouvert ou passez par une brèche dans la défense.",
+        "Quick Play propose des matchs individuels. La franchise vous permet de diriger une équipe tout au long d'une saison."
+      ],
+      "steps": [
+        [
+          "Sélectionnez une pièce de théâtre",
+          "Choisissez un jeu de course ou de passe avant le snap."
+        ],
+        [
+          "Trouver un récepteur ouvert",
+          "Cherchez un espace entre le receveur et les défenseurs avant de passer."
+        ]
+      ],
+      "faq": [
+        [
+          "Deux personnes peuvent-elles jouer sur un seul ordinateur ?",
+          "Oui. Sélectionnez le mode local à deux joueurs pour partager un clavier."
+        ]
+      ]
+    },
+    "bmx-stunts-3d": {
+      "category": "Courses et figures de BMX",
+      "searchTitle": "BMX Stunts 3D – Courses et figures de BMX",
+      "summary": "Affrontez un rival dans BMX Stunts 3D. Augmentez votre vitesse sur les pentes de terre, franchissez les sauts et battez les boss pour débloquer de nouveaux vélos.",
+      "about": [
+        "Chaque course se déroule sur un chemin de terre avec des rampes et un terrain accidenté. Utilisez les sections de descente pour prendre de la vitesse avant un saut.",
+        "Les courses de carrière débloquent des pistes plus difficiles. Battre les boss riders débloque de nouveaux vélos."
+      ],
+      "steps": [
+        [
+          "Construire de la vitesse en descente",
+          "Appuyez sur S ou sur la flèche vers le bas sur une section en descente pour prendre de l'élan."
+        ],
+        [
+          "Sauter d'une rampe",
+          "Appuyez sur W ou sur la flèche vers le haut pour sauter. Alignez votre vélo avec la pente avant d'atterrir."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment puis-je obtenir une accélération ?",
+          "Appuyez sur Espace pour utiliser le boost de fusée lorsqu'il est disponible."
+        ]
+      ]
+    },
+    "dont-splash": {
+      "category": "Plateforme horrifique dans une piscine",
+      "searchTitle": "Dont Splash – Plateforme horrifique dans une piscine",
+      "summary": "Échappez-vous d'une piscine abandonnée dans Dont Splash. Sautez sur les plates-formes et restez au-dessus de l'eau pour éviter une créature qui chasse au son.",
+      "about": [
+        "La créature réagit aux éclaboussures et à la nage. Sautez entre les plates-formes et éloignez-vous du bord après avoir atterri.",
+        "Recherchez dans les pièces quatre numéros cachés et utilisez l'appareil photo du jeu pour les photographier."
+      ],
+      "steps": [
+        [
+          "Planifiez vos sauts",
+          "Vérifiez la distance jusqu'à la prochaine plate-forme avant de sauter."
+        ],
+        [
+          "Distraire la créature",
+          "Jetez un caillou ou une bouteille loin du parcours que vous souhaitez emprunter."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je jouer avec un ami ?",
+          "Oui. Le jeu dispose d'un mode écran partagé local pour deux joueurs."
+        ]
+      ]
+    },
+    "popslime": {
+      "category": "Combat d’arène contre des slimes",
+      "searchTitle": "Popslime – Combat d’arène contre des slimes",
+      "summary": "Combattez des vagues de slimes dans Popslime. Déplacez le curseur sur les ennemis, collectez de l'or et débloquez des améliorations pour le prochain tour.",
+      "about": [
+        "Le cercle autour du curseur endommage les slimes lorsque vous vous déplacez dans l'arène. L'archer et les tours attaquent automatiquement.",
+        "Les slimes vaincus lâchent de l’or et des objets. Les mises à niveau vous aident à survivre plus longtemps et à atteindre des étapes ultérieures."
+      ],
+      "steps": [
+        [
+          "Passez le curseur sur les groupes de slimes",
+          "Guidez le curseur sur plusieurs ennemis en un seul mouvement."
+        ],
+        [
+          "Dépensez votre or en améliorations",
+          "Entre deux manches, utilisez l’arbre d’améliorations pour renforcer vos attaques."
+        ]
+      ],
+      "faq": [
+        [
+          "Dois-je viser avec les tours ?",
+          "Les tours attaquent automatiquement pendant que vous contrôlez le curseur."
+        ]
+      ]
+    },
+    "shady-cats": {
+      "category": "Plateforme avec des chats et des ombres",
+      "searchTitle": "Shady Cats – Plateforme avec des chats et des ombres",
+      "summary": "Récupérez des glands dans Shady Cats. Sautez entre les plates-formes et évitez les ombres qui copient vos mouvements antérieurs.",
+      "about": [
+        "Votre ombre suit l’itinéraire que vous avez emprunté plus tôt. Revenir trop tôt sur une plateforme peut vous mettre sur son chemin.",
+        "Les poissons vous aident à récolter plus de glands mais attirent les abeilles. Les lucioles suppriment temporairement les ombres."
+      ],
+      "steps": [
+        [
+          "Choisissez un nouvel itinéraire",
+          "Cherchez une autre plate-forme avant de revenir sur votre chemin."
+        ],
+        [
+          "Utilisez une luciole",
+          "Récupérez une luciole lorsque votre ombre est sur le point de vous couper la route."
+        ]
+      ],
+      "faq": [
+        [
+          "Combien de personnes peuvent jouer ensemble ?",
+          "Jusqu'à quatre joueurs peuvent partager un appareil en multijoueur local."
+        ]
+      ]
+    },
+    "atv-ultimate-offroad": {
+      "category": "Conduite de quad tout-terrain",
+      "searchTitle": "ATV Ultimate OffRoad – Conduite de quad tout-terrain",
+      "summary": "Pilotez un quad dans ATV Ultimate OffRoad. Explorez la carte, affrontez des concurrents sur circuit ou battez le chrono.",
+      "about": [
+        "Les chemins de terre, les rampes raides et les virages serrés rendent le contrôle de la vitesse important. Utilisez le boost là où vous avez de la place pour accélérer.",
+        "Dans Free Ride, vous pouvez explorer et collecter des pièces. Dépensez des pièces pour débloquer plus de VTT."
+      ],
+      "steps": [
+        [
+          "Ralentissez avant les virages serrés",
+          "Freinez assez tôt pour garder la maîtrise de votre quad sur un sol accidenté."
+        ],
+        [
+          "Utiliser le boost sur les sections ouvertes",
+          "Gardez votre boost pour une section droite ou une montée raide."
+        ]
+      ],
+      "faq": [
+        [
+          "Deux personnes peuvent-elles partager un écran ?",
+          "Oui. Free Ride et Race prennent en charge le jeu local en écran partagé."
+        ]
+      ]
+    },
+    "unbox-the-room": {
+      "category": "Déballage et rangement de pièces",
+      "searchTitle": "Unbox the Room – Déballage et rangement de pièces",
+      "summary": "Déballez les cartons dans Unbox the Room. Trouvez une place pour chaque objet et découvrez une histoire à travers les affaires laissées dans chaque pièce.",
+      "about": [
+        "Ouvrez les boîtes et placez les livres, les vêtements et les articles de cuisine à leur place. Vous pouvez modifier la position d'un objet avant de terminer la pièce.",
+        "Au fond d'une pièce, les objets égarés sont marqués en rouge. Déplacez-les pour terminer et débloquer la pièce suivante."
+      ],
+      "steps": [
+        [
+          "Déballez une boîte à la fois",
+          "Triez les articles selon leur place afin de voir de quelles étagères et tiroirs vous avez besoin."
+        ],
+        [
+          "Vérifiez les éléments marqués en rouge",
+          "Déplacez chaque élément marqué vers un endroit plus approprié avant de terminer la pièce."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment l’histoire est-elle racontée ?",
+          "Les pièces et les affaires évoluent au fil des années et montrent différentes étapes de la vie du personnage."
+        ]
+      ]
+    },
+    "collect-all-the-leaves": {
+      "category": "Ramassage de feuilles d’automne",
+      "searchTitle": "Collect All the Leaves – Ramassage de feuilles d’automne",
+      "summary": "Nettoyez une cour d’automne dans Collect All the Leaves. Remplissez les sacs, videz-les pour obtenir de l'argent et ouvrez davantage de zones à mesure que vous effacez la carte.",
+      "about": [
+        "Choisissez une carte dans le hall et ramassez les feuilles mortes avec votre équipement. Le sac limite le nombre de feuilles que vous pouvez transporter.",
+        "Apportez les sacs pleins à la poubelle pour gagner de l'argent. Effacez chaque zone pour ouvrir la suivante."
+      ],
+      "steps": [
+        [
+          "Rassemblez les feuilles par zone",
+          "Terminez d’abord une petite section pour voir quelles feuilles restent."
+        ],
+        [
+          "Videz votre sac à la poubelle",
+          "Retournez à la poubelle lorsque votre sac est plein."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand se termine un tour ?",
+          "Le tour se termine lorsque toutes les feuilles de la carte ont été collectées."
+        ]
+      ]
+    },
+    "noillirk": {
+      "category": "Devinez la réponse la plus populaire",
+      "searchTitle": "Noillirk – Devinez la réponse la plus populaire",
+      "summary": "Devinez les réponses aux enquêtes les plus populaires à Noillirk. Marquez des points pour envoyer votre ballon plus haut dans les modes Classique, Quotidien et multijoueur.",
+      "about": [
+        "Chaque question vous donne 15 secondes pour réfléchir à une réponse. Le jeu attribue des points en fonction de la popularité de votre réponse.",
+        "Vos points déterminent la distance parcourue par le ballon. En mode Classique, vous répondez à sept questions."
+      ],
+      "steps": [
+        [
+          "Pensez à une réponse commune",
+          "Choisissez une réponse que de nombreuses autres personnes sont susceptibles de donner."
+        ],
+        [
+          "Soumettre avant la fin du temps imparti",
+          "Tapez votre réponse et appuyez sur Entrée pour la soumettre."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je relever un nouveau défi chaque jour ?",
+          "Oui. Le mode quotidien offre aux joueurs la même série de questions pour la journée."
+        ]
+      ]
+    },
+    "farflung": {
+      "category": "Quiz de géographie mondiale",
+      "searchTitle": "Farflung – Quiz de géographie mondiale",
+      "summary": "Trouvez des pays sur la carte muette de Farflung à l’aide d’indices. Les bonnes réponses les moins courantes rapportent davantage de kilomètres.",
+      "about": [
+        "Lisez l'indice et choisissez un pays qui le satisfait. Faites un panoramique ou un zoom pour inspecter la carte ou recherchez un pays par son nom.",
+        "Une réponse valable gagne de la distance selon sa rareté. Les notes de terrain montrent les pays que vous avez trouvés et leur rareté."
+      ],
+      "steps": [
+        [
+          "Vérifiez le pays avant de soumettre",
+          "Placez une épingle sur terre et vérifiez le nom du pays sélectionné avant de confirmer."
+        ],
+        [
+          "Regardez au-delà de la réponse la plus familière",
+          "Si plusieurs pays correspondent à cet indice, envisagez un choix moins courant pour gagner plus de distance."
+        ]
+      ],
+      "faq": [
+        [
+          "Existe-t-il un mode sans minuterie ?",
+          "Oui. Wander vous permet de résoudre les indices sans limite de temps."
+        ]
+      ]
+    },
+    "suzy-says": {
+      "category": "Jeu d’horreur à la première personne",
+      "searchTitle": "Suzy Says – Jeu d’horreur à la première personne",
+      "summary": "Écoutez Suzy dans Suzy Says, un jeu d'horreur à la première personne. Suivez les commandes valides sur un tapis de sol coloré et surveillez les instructions trompeuses.",
+      "about": [
+        "Un étrange DVD présente Suzy et ses règles. Écoutez chaque commande avant de décider de la suivre.",
+        "Les cercles colorés sur le tapis font partie du défi. Faites attention lorsque les règles changent ou qu'une commande entre en conflit avec une instruction antérieure."
+      ],
+      "steps": [
+        [
+          "Écoutez toute la commande",
+          "Attendez de comprendre quelle instruction s’applique avant de bouger."
+        ],
+        [
+          "Vérifiez le tapis de sol",
+          "Identifiez la couleur demandée avant de monter sur un cercle."
+        ]
+      ],
+      "faq": [
+        [
+          "Le jeu contient-il des alertes de saut ?",
+          "Oui. Le jeu contient des alertes de saut et des lumières clignotantes."
+        ]
+      ]
+    },
+    "throw-food-for-animals": {
+      "category": "Lancers de nourriture et collection d’animaux",
+      "searchTitle": "Throw Food for Animals! – Lancers de nourriture et collection d’animaux",
+      "summary": "Lancez des friandises pour découvrir des animaux de compagnie dans Throw Food for Animals. Entraînez votre force, atteignez de nouvelles zones et gagnez de l'argent grâce aux animaux de compagnie de votre base.",
+      "about": [
+        "L’endroit où la nourriture atterrit détermine les animaux que vous pouvez attirer. L’entraînement en force et une meilleure alimentation peuvent vous aider à lancer plus loin.",
+        "Placez les animaux collectés dans votre base pour gagner de l'argent. Dépensez de l'argent en nourriture et en améliorations pour des lancers plus longs."
+      ],
+      "steps": [
+        [
+          "Chronométrez votre lancer",
+          "Surveillez l'indicateur de synchronisation avant de libérer la nourriture."
+        ],
+        [
+          "Entraînez-vous entre les lancers",
+          "Utilisez la barre de traction pour développer votre force avant d'essayer d'atteindre une zone plus éloignée."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment trouver des animaux plus rares ?",
+          "Jetez la nourriture plus loin pour atteindre les zones contenant des animaux plus rares."
+        ]
+      ]
+    },
+    "beat-brigade": {
+      "category": "Jeu de rythme au clavier",
+      "searchTitle": "Beat Brigade – Jeu de rythme au clavier",
+      "summary": "Appuyez sur les touches fléchées pour accéder à la musique dans Beat Brigade. Faites correspondre les notes entrantes, créez un combo et affrontez un boss à la fin de chaque chanson.",
+      "about": [
+        "Chaque monstre qui s'approche montre une flèche. Appuyez sur la touche correspondante lorsque le monstre atteint le ring.",
+        "Un timing précis aide à maintenir votre combo et crée de la fièvre. Apprenez les modèles de notes avant d'essayer des chansons plus rapides."
+      ],
+      "steps": [
+        [
+          "Faites correspondre la direction de la flèche",
+          "Lisez la flèche sur le monstre entrant avant d'appuyer sur une touche."
+        ],
+        [
+          "Attends la bague",
+          "Appuyez sur la touche lorsque le monstre atteint le ring, au rythme de la musique."
+        ]
+      ],
+      "faq": [
+        [
+          "Les chansons se terminent-elles par un combat de boss ?",
+          "Oui. Chaque chanson se termine par une rencontre avec un boss qui modifie les modèles de notes."
+        ]
+      ]
+    },
+    "train-simulator-steel-express": {
+      "category": "Simulateur de train en 3D",
+      "searchTitle": "Train Simulator: Steel Express – Simulateur de train en 3D",
+      "summary": "Conduisez des locomotives diesel et électriques dans Train Simulator: Steel Express. Suivez les signaux, gérez le freinage et arrivez aux gares à temps.",
+      "about": [
+        "Choisissez un train et un itinéraire pour commencer un voyage. Utilisez les commandes de la cabine pour régler la vitesse lorsque vous traversez des villes, des tunnels et des montagnes.",
+        "Prévoyez de l’espace pour freiner avant les signaux et les gares. Les voyages réussis rapportent de l'argent dans le jeu."
+      ],
+      "steps": [
+        [
+          "Repérez la signalisation ferroviaire",
+          "Surveillez la voie ferrée et ajustez votre vitesse en fonction des signaux ferroviaires."
+        ],
+        [
+          "Freiner avant la gare",
+          "Réduisez votre vitesse tôt pour vous arrêter au quai à l’heure prévue."
+        ]
+      ],
+      "faq": [
+        [
+          "Quels types de locomotives puis-je conduire ?",
+          "Le jeu comprend des locomotives diesel et électriques."
+        ]
+      ]
+    },
+    "beach-volleyball-clash-summer-smash": {
+      "category": "Beach-volley arcade",
+      "searchTitle": "Beach Volleyball Clash: Summer Smash – Beach-volley arcade",
+      "summary": "Servez, frappez et défendez dans Beach Volleyball Clash: Summer Smash. Jouez à des échanges rapides contre l'ordinateur ou partagez un clavier avec un ami.",
+      "about": [
+        "Chaque échange commence par un service. Déplacez-vous tôt vers le ballon pour pouvoir sauter pour le bloquer ou le renvoyer.",
+        "Plongez pour sauver les ballons bas avant qu’ils ne touchent le sable. Au filet, sautez au bon moment pour réussir votre geste."
+      ],
+      "steps": [
+        [
+          "Se mettre en position",
+          "Déplacez-vous vers le point d'atterrissage dès que vous voyez la direction de la balle."
+        ],
+        [
+          "Sauver une balle basse",
+          "Plongez lorsque le ballon est trop près du sable pour un retour debout."
+        ]
+      ],
+      "faq": [
+        [
+          "Existe-t-il un multijoueur local ?",
+          "Oui. Deux joueurs peuvent partager un clavier."
+        ]
+      ]
+    },
+    "bike-obby-draw-pencil": {
+      "category": "Parkour à vélo avec ponts à dessiner",
+      "searchTitle": "Bike Obby Draw Pencil – Parkour à vélo avec ponts à dessiner",
+      "summary": "Dessinez des rampes et des ponts avec Bike Obby Draw Pencil. Traversez les espaces à vélo et planifiez chaque ligne avant que votre crayon ne soit épuisé.",
+      "about": [
+        "Les parcours flottants contiennent des écarts que votre vélo ne peut pas franchir seul. Dessinez un pont ou une rampe pour relier les plates-formes.",
+        "Le crayon a une quantité limitée. Effacez les coups inutiles et laissez de la place au vélo pour s'approcher et atterrir."
+      ],
+      "steps": [
+        [
+          "Dessine un pont court",
+          "Reliez les bords praticables les plus proches pour économiser votre réserve de crayon."
+        ],
+        [
+          "Testez votre approche",
+          "Alignez le vélo avec le pont et laissez suffisamment d'espace pour diriger."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je effacer une partie d’un dessin ?",
+          "Oui. Utilisez la gomme pour modifier une ligne sans recommencer le cours."
+        ]
+      ]
+    },
+    "how-to-fish": {
+      "category": "Aventure de pêche entre les îles",
+      "searchTitle": "How To Fish – Aventure de pêche entre les îles",
+      "summary": "Attrapez du poisson entre les îles dans Comment pêcher. Contrôlez la tension de la ligne, accomplissez des quêtes et enregistrez vos prises dans une collection.",
+      "about": [
+        "Lancez la ligne de pêche et enroulez-la soigneusement. Trop de tension peut casser la ligne, tandis qu'une tension trop faible peut la relâcher.",
+        "Les quêtes d'île introduisent de nouvelles activités et vous récompensent pour vos prises. Utilisez vos récompenses pour améliorer votre équipement."
+      ],
+      "steps": [
+        [
+          "Surveillez la tension du fil de pêche",
+          "Ralentissez la remontée de la ligne si le fil est trop tendu."
+        ],
+        [
+          "Visitez d'autres îles",
+          "Voyagez en bateau pour trouver différentes espèces et parlez aux personnages qui proposent des quêtes."
+        ]
+      ],
+      "faq": [
+        [
+          "Les captures sont-elles enregistrées ?",
+          "Oui. Les captures réussies ajoutent des entrées à votre collection."
+        ]
+      ]
+    },
+    "wave-race": {
+      "category": "Jeu d’adresse géométrique",
+      "searchTitle": "Wave Race – Jeu d’adresse géométrique",
+      "summary": "Faites monter et descendre la flèche dans Wave Race. Évitez les pointes et les engrenages en entraînement, en course ou en mode infini.",
+      "about": [
+        "La flèche avance automatiquement. Vous contrôlez sa hauteur pour traverser les espaces entre les murs, les pentes et les engrenages rotatifs.",
+        "Le mode facile vous aide à apprendre les commandes. Plus tard, vous pourrez courir contre d'autres flèches ou tenter une course sans fin."
+      ],
+      "steps": [
+        [
+          "Maintenez la touche pour monter",
+          "Maintenez le bouton de la souris, W ou Espace pour monter."
+        ],
+        [
+          "Relâchez la touche pour descendre",
+          "Lâchez prise avant d’atteindre le sommet d’un passage étroit."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment débloquer Normal et Difficile ?",
+          "Démarrez au moins une exécution en mode Facile."
+        ]
+      ]
+    },
+    "animal-hospital-3d-sandbox": {
+      "category": "Bac à sable physique en 3D",
+      "searchTitle": "Animal Hospital 3D Sandbox – Bac à sable physique en 3D",
+      "summary": "Construisez des structures et déplacez des objets dans Animal Hospital 3D Sandbox. Utilisez des blocs, des véhicules et un outil de gravité pour tester vos propres configurations.",
+      "about": [
+        "Choisissez un monde ouvert et placez des blocs pour construire une structure. Ajoutez des personnages et des véhicules pour voir comment ils interagissent.",
+        "L'outil de gravité vous permet de ramasser et de lancer des objets. Expérimentez avec différents objets dans la même configuration."
+      ],
+      "steps": [
+        [
+          "Construire une structure simple",
+          "Empilez quelques blocs et laissez de l'espace autour d'eux pour tester ce qui se passe à l'impact."
+        ],
+        [
+          "Essayez l'outil de gravité",
+          "Ramassez un objet et relâchez-le vers la structure."
+        ]
+      ],
+      "faq": [
+        [
+          "Dois-je terminer des missions ?",
+          "Le bac à sable vous permet de construire et d'expérimenter sans missions chronométrées."
+        ]
+      ]
+    },
+    "turbo-type-3d": {
+      "category": "Course de vitesse au clavier",
+      "searchTitle": "Turbo Type 3D – Course de vitesse au clavier",
+      "summary": "Dans Turbo Type 3D, faites avancer votre voiture en tapant le texte à l’écran. Les frappes correctes chargent aussi le turbo.",
+      "about": [
+        "Tapez le texte affiché pour conduire. Une mauvaise clé arrête la voiture jusqu'à ce que vous saisissiez le bon caractère.",
+        "Une frappe propre développe la puissance du turbo. Votre position finale détermine combien vous gagnez après chaque course."
+      ],
+      "steps": [
+        [
+          "Tapez le caractère suivant",
+          "Vérifiez les espaces et la ponctuation lorsque vous suivez le texte."
+        ],
+        [
+          "Tapez avec précision",
+          "Gardez un rythme que vous pouvez maintenir afin que les erreurs n’interrompent pas votre vitesse."
+        ]
+      ],
+      "faq": [
+        [
+          "Y a-t-il une course quotidienne ?",
+          "Oui. Daily Race propose aux joueurs un défi partagé et offre une récompense en pièces."
+        ]
+      ]
     }
   }
 }

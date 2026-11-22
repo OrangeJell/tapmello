@@ -5781,6 +5781,506 @@
           "Ya. Anda dapat menyesuaikan ukuran papan sebelum mulai berlari."
         ]
       ]
+    },
+    "football-bros": {
+      "category": "Sepak bola Amerika bergaya piksel",
+      "searchTitle": "Football Bros – Sepak bola Amerika bergaya piksel",
+      "summary": "Mainkan sepak bola Amerika bergaya piksel di Football Bros. Pilih strategi, lempar umpan, dan pimpin tim selama semusim atau tantang teman.",
+      "about": [
+        "Pilih permainan ofensif atau defensif sebelum setiap jepretan. Saat menyerang, carilah penerima yang terbuka atau lari melalui celah di pertahanan.",
+        "Quick Play menawarkan pertandingan individu. Waralaba memungkinkan Anda memimpin tim melalui satu musim."
+      ],
+      "steps": [
+        [
+          "Pilih permainan",
+          "Pilih permainan lari atau passing sebelum jepretan."
+        ],
+        [
+          "Temukan penerima yang terbuka",
+          "Carilah jarak antara penerima dan pembela sebelum Anda mengoper."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah dua orang bermain di satu komputer?",
+          "Ya. Pilih mode dua pemain lokal untuk berbagi keyboard."
+        ]
+      ]
+    },
+    "bmx-stunts-3d": {
+      "category": "Balap BMX dan aksi akrobat",
+      "searchTitle": "BMX Stunts 3D – Balap BMX dan aksi akrobat",
+      "summary": "Balapan saingan di BMX Stunts 3D. Bangun kecepatan di lereng tanah, lompatan yang jelas, dan kalahkan pengendara bos untuk membuka kunci sepeda baru.",
+      "about": [
+        "Setiap balapan berlangsung di trek tanah dengan tanjakan dan medan yang tidak rata. Gunakan bagian menurun untuk membangun kecepatan sebelum melompat.",
+        "Balapan karir membuka jalur yang lebih sulit. Mengalahkan pengendara bos akan membuka kunci sepeda baru."
+      ],
+      "steps": [
+        [
+          "Tambah kecepatan saat menurun",
+          "Tekan S atau panah bawah pada bagian menurun untuk membangun momentum."
+        ],
+        [
+          "Lompat dari tanjakan",
+          "Tekan W atau panah atas untuk melompat. Sejajarkan sepeda Anda dengan kemiringan sebelum mendarat."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana saya bisa mendapatkan peningkatan kecepatan?",
+          "Tekan Spasi untuk menggunakan dorongan roket saat tersedia."
+        ]
+      ]
+    },
+    "dont-splash": {
+      "category": "Platformer horor di kolam renang",
+      "searchTitle": "Dont Splash – Platformer horor di kolam renang",
+      "summary": "Melarikan diri dari kolam yang ditinggalkan di Dont Splash. Melompat melintasi platform dan tetap berada di atas air untuk menghindari makhluk yang berburu dengan suara.",
+      "about": [
+        "Makhluk itu bereaksi terhadap cipratan dan berenang. Lompat antar platform dan menjauh dari tepi setelah Anda mendarat.",
+        "Cari empat nomor tersembunyi di ruangan dan gunakan kamera dalam game untuk memotretnya."
+      ],
+      "steps": [
+        [
+          "Rencanakan lompatan Anda",
+          "Periksa jarak ke platform berikutnya sebelum melompat."
+        ],
+        [
+          "Alihkan perhatian makhluk itu",
+          "Lemparkan kerikil atau botol jauh dari rute yang ingin Anda lalui."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya bermain dengan teman?",
+          "Ya. Gim ini memiliki mode layar terpisah lokal untuk dua pemain."
+        ]
+      ]
+    },
+    "popslime": {
+      "category": "Aksi melawan slime di arena",
+      "searchTitle": "Popslime – Aksi melawan slime di arena",
+      "summary": "Lawan gelombang slime di Popslime. Gerakkan kursor ke atas musuh, kumpulkan emas, dan buka peningkatan untuk putaran berikutnya.",
+      "about": [
+        "Lingkaran di sekitar kursor merusak slime saat Anda bergerak melintasi arena. Pemanah dan menara menyerang secara otomatis.",
+        "Slime yang dikalahkan akan menjatuhkan emas dan item. Peningkatan membantu Anda bertahan lebih lama dan mencapai tahap selanjutnya."
+      ],
+      "steps": [
+        [
+          "Gerakkan kursor ke gerombolan slime",
+          "Arahkan kursor melintasi beberapa musuh dalam satu gerakan."
+        ],
+        [
+          "Habiskan emas Anda untuk peningkatan",
+          "Gunakan pohon peningkatan di antara putaran untuk meningkatkan serangan Anda."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah saya harus membidik dengan menara?",
+          "Menara menyerang secara otomatis saat Anda mengontrol kursor."
+        ]
+      ]
+    },
+    "shady-cats": {
+      "category": "Platformer kucing dan bayangan",
+      "searchTitle": "Shady Cats – Platformer kucing dan bayangan",
+      "summary": "Kumpulkan biji ek di Shady Cats. Lompat antar platform dan hindari bayangan yang meniru gerakan Anda sebelumnya.",
+      "about": [
+        "Bayanganmu mengikuti rute yang kamu ambil tadi. Kembali ke suatu platform terlalu cepat dapat menempatkan Anda pada jalurnya.",
+        "Ikan membantu Anda mengumpulkan lebih banyak biji ek tetapi menarik lebah. Kunang-kunang menghilangkan bayangan untuk sementara."
+      ],
+      "steps": [
+        [
+          "Pilih rute baru",
+          "Carilah platform lain sebelum kembali ke tempat Anda datang."
+        ],
+        [
+          "Gunakan kunang-kunang",
+          "Kumpulkan kunang-kunang ketika bayangan Anda hendak memotong rute Anda."
+        ]
+      ],
+      "faq": [
+        [
+          "Berapa banyak orang yang bisa bermain bersama?",
+          "Hingga empat pemain dapat berbagi satu perangkat di multipemain lokal."
+        ]
+      ]
+    },
+    "atv-ultimate-offroad": {
+      "category": "Balap ATV off-road",
+      "searchTitle": "ATV Ultimate OffRoad – Balap ATV off-road",
+      "summary": "Kendarai ATV melintasi medan kasar di ATV Ultimate OffRoad. Jelajahi peta terbuka, balapan di sekitar sirkuit, atau kalahkan waktu.",
+      "about": [
+        "Jalan tanah, tanjakan curam, dan tikungan tajam membuat pengendalian kecepatan menjadi penting. Gunakan dorongan di mana Anda memiliki ruang untuk berakselerasi.",
+        "Di Free Ride Anda dapat menjelajahi dan mengumpulkan koin. Habiskan koin untuk membuka lebih banyak ATV."
+      ],
+      "steps": [
+        [
+          "Perlambat sebelum tikungan tajam",
+          "Remlah lebih awal agar ATV Anda tetap terkendali di medan yang kasar."
+        ],
+        [
+          "Gunakan peningkatan pada bagian terbuka",
+          "Simpan dorongan Anda untuk bagian lurus atau tanjakan curam."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah dua orang berbagi layar?",
+          "Ya. Free Ride and Race mendukung pemutaran layar terpisah lokal."
+        ]
+      ]
+    },
+    "unbox-the-room": {
+      "category": "Bongkar kardus dan tata ruangan",
+      "searchTitle": "Unbox the Room – Bongkar kardus dan tata ruangan",
+      "summary": "Buka kemasan kotak di Buka Kotak Ruangan. Temukan tempat untuk setiap barang dan temukan cerita melalui barang-barang yang tersisa di setiap ruangan.",
+      "about": [
+        "Buka kotak dan letakkan buku, pakaian, dan perlengkapan dapur di tempatnya. Anda dapat mengubah posisi item sebelum menyelesaikan ruangan.",
+        "Di ujung ruangan, barang yang salah letak ditandai dengan warna merah. Pindahkan mereka untuk menyelesaikan dan membuka kunci ruangan berikutnya."
+      ],
+      "steps": [
+        [
+          "Buka kemasannya satu per satu",
+          "Urutkan barang berdasarkan tempatnya sehingga Anda dapat melihat rak dan laci mana yang Anda perlukan."
+        ],
+        [
+          "Periksa item yang ditandai dengan warna merah",
+          "Pindahkan setiap item yang ditandai ke tempat yang lebih sesuai sebelum menyelesaikan ruangan."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana ceritanya diceritakan?",
+          "Kamar dan barang-barang berubah selama bertahun-tahun dan menunjukkan tahapan kehidupan karakter yang berbeda."
+        ]
+      ]
+    },
+    "collect-all-the-leaves": {
+      "category": "Bersih-bersih daun musim gugur",
+      "searchTitle": "Collect All the Leaves – Bersih-bersih daun musim gugur",
+      "summary": "Bersihkan halaman musim gugur di Kumpulkan Semua Daun. Isi tas, kosongkan untuk mendapatkan uang tunai, dan buka lebih banyak area saat Anda membersihkan peta.",
+      "about": [
+        "Pilih peta dari lobi dan kumpulkan daun-daun berguguran dengan peralatan Anda. Kantong membatasi jumlah daun yang dapat Anda bawa.",
+        "Bawa tas penuh ke tempat pembuangan untuk mendapatkan uang. Kosongkan setiap area untuk membuka area berikutnya."
+      ],
+      "steps": [
+        [
+          "Kumpulkan daun berdasarkan area",
+          "Selesaikan sebagian kecilnya terlebih dahulu agar Anda dapat melihat daun mana yang tersisa."
+        ],
+        [
+          "Kosongkan tas Anda di tempat sampah",
+          "Kembalikan ke tempat pembuangan ketika tas Anda sudah terisi."
+        ]
+      ],
+      "faq": [
+        [
+          "Kapan suatu putaran berakhir?",
+          "Putaran berakhir ketika setiap daun di peta telah terkumpul."
+        ]
+      ]
+    },
+    "noillirk": {
+      "category": "Tebak jawaban terpopuler",
+      "searchTitle": "Noillirk – Tebak jawaban terpopuler",
+      "summary": "Tebak jawaban survei paling populer di Noillirk. Skor poin untuk mengirim balon Anda lebih tinggi di mode Klasik, Harian, dan multipemain.",
+      "about": [
+        "Setiap pertanyaan memberi Anda waktu 15 detik untuk memikirkan jawabannya. Permainan ini memberikan poin berdasarkan seberapa populer jawaban Anda.",
+        "Poin Anda menentukan seberapa jauh perjalanan balon. Dalam mode Klasik, Anda menjawab tujuh pertanyaan."
+      ],
+      "steps": [
+        [
+          "Pikirkan jawaban yang umum",
+          "Pilih tanggapan yang kemungkinan besar akan diberikan oleh banyak orang."
+        ],
+        [
+          "Kirim sebelum waktu habis",
+          "Ketik jawaban Anda dan tekan Enter untuk mengirimkannya."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya memainkan tantangan baru setiap hari?",
+          "Ya. Mode harian memberi pemain serangkaian pertanyaan yang sama untuk hari itu."
+        ]
+      ]
+    },
+    "farflung": {
+      "category": "Kuis geografi dunia",
+      "searchTitle": "Farflung – Kuis geografi dunia",
+      "summary": "Ikuti petunjuk di Farflung untuk menemukan negara di peta dunia tanpa nama. Jawaban benar yang lebih jarang memberi jarak lebih jauh.",
+      "about": [
+        "Baca petunjuknya dan pilih negara yang memenuhinya. Geser atau perbesar untuk memeriksa peta, atau cari negara berdasarkan nama.",
+        "Jawaban yang valid mendapatkan jarak sesuai dengan kelangkaannya. Catatan Lapangan menunjukkan negara-negara yang Anda temukan dan kelangkaannya."
+      ],
+      "steps": [
+        [
+          "Periksa negaranya sebelum mengirimkan",
+          "Tempatkan pin di darat dan periksa nama negara yang dipilih sebelum mengonfirmasi."
+        ],
+        [
+          "Lihatlah melampaui jawaban yang paling familiar",
+          "Jika beberapa negara cocok dengan petunjuk tersebut, pertimbangkan pilihan yang kurang umum untuk mendapatkan jarak yang lebih jauh."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah ada mode tanpa pengatur waktu?",
+          "Ya. Wander memungkinkan Anda memecahkan petunjuk tanpa batas waktu."
+        ]
+      ]
+    },
+    "suzy-says": {
+      "category": "Horor sudut pandang orang pertama",
+      "searchTitle": "Suzy Says – Horor sudut pandang orang pertama",
+      "summary": "Dengarkan Suzy di Suzy Says, game horor orang pertama. Ikuti perintah yang valid pada alas lantai berwarna dan perhatikan instruksi yang menyesatkan.",
+      "about": [
+        "DVD aneh memperkenalkan Suzy dan peraturannya. Dengarkan setiap perintah sebelum memutuskan apakah akan mengikutinya.",
+        "Lingkaran berwarna di matras adalah bagian dari tantangan. Perhatikan ketika aturan berubah atau perintah bertentangan dengan instruksi sebelumnya."
+      ],
+      "steps": [
+        [
+          "Dengarkan seluruh perintah",
+          "Tunggu sampai Anda memahami instruksi mana yang berlaku sebelum melanjutkan."
+        ],
+        [
+          "Periksa keset lantai",
+          "Identifikasi warna yang diminta sebelum melangkah ke lingkaran."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah game tersebut mengandung jumpscare?",
+          "Ya. Permainan ini berisi ketakutan melompat dan lampu berkedip."
+        ]
+      ]
+    },
+    "throw-food-for-animals": {
+      "category": "Lempar makanan dan kumpulkan hewan",
+      "searchTitle": "Throw Food for Animals! – Lempar makanan dan kumpulkan hewan",
+      "summary": "Lempar camilan untuk menemukan hewan peliharaan di Throw Food for Animals. Latih kekuatan Anda, jangkau area baru, dan dapatkan uang dari hewan peliharaan di markas Anda.",
+      "about": [
+        "Lokasi lahan makanan menentukan hewan mana yang dapat Anda tarik. Latihan kekuatan dan makanan yang lebih baik dapat membantu Anda melempar lebih jauh.",
+        "Tempatkan hewan peliharaan yang dikumpulkan di markas Anda untuk mendapatkan uang. Habiskan uangnya untuk makanan dan peningkatan untuk lemparan yang lebih lama."
+      ],
+      "steps": [
+        [
+          "Atur waktu lemparan Anda",
+          "Perhatikan indikator waktu sebelum mengeluarkan makanan."
+        ],
+        [
+          "Berlatih di antara lemparan",
+          "Gunakan pull-up bar untuk membangun kekuatan sebelum mencoba menjangkau area yang lebih jauh."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara menemukan hewan langka?",
+          "Buang makanan lebih jauh untuk menjangkau area yang jarang terdapat hewan peliharaan."
+        ]
+      ]
+    },
+    "beat-brigade": {
+      "category": "Game ritme dengan keyboard",
+      "searchTitle": "Beat Brigade – Game ritme dengan keyboard",
+      "summary": "Tekan tombol panah ke musik di Beat Brigade. Cocokkan nada masuk, buat kombo, dan hadapi bos di akhir setiap lagu.",
+      "about": [
+        "Setiap monster yang mendekat menunjukkan panah. Tekan tombol yang cocok ketika monster mencapai ring.",
+        "Pengaturan waktu yang akurat membantu mempertahankan kombo Anda dan membangun Demam. Pelajari pola nadanya sebelum mencoba lagu yang lebih cepat."
+      ],
+      "steps": [
+        [
+          "Cocokkan arah panah",
+          "Baca panah pada monster yang masuk sebelum Anda menekan tombol."
+        ],
+        [
+          "Tunggu cincinnya",
+          "Tekan tombol saat monster mencapai ring, seiring dengan musik."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah lagu diakhiri dengan pertarungan bos?",
+          "Ya. Setiap lagu diakhiri dengan pertemuan bos yang mengubah pola nada."
+        ]
+      ]
+    },
+    "train-simulator-steel-express": {
+      "category": "Simulator mengemudi kereta 3D",
+      "searchTitle": "Train Simulator: Steel Express – Simulator mengemudi kereta 3D",
+      "summary": "Kendarai lokomotif diesel dan listrik di Train Simulator: Steel Express. Ikuti sinyal, atur pengereman, dan tiba di stasiun sesuai jadwal.",
+      "about": [
+        "Pilih kereta dan rute untuk memulai perjalanan. Gunakan kontrol kabin untuk menyesuaikan kecepatan saat Anda melewati kota, terowongan, dan pegunungan.",
+        "Berikan ruang untuk pengereman sebelum sinyal dan stasiun. Perjalanan yang berhasil menghasilkan uang dalam game."
+      ],
+      "steps": [
+        [
+          "Periksa sinyal di depan",
+          "Perhatikan lintasannya dan sesuaikan kecepatan Anda tepat pada sinyal kereta api."
+        ],
+        [
+          "Rem sebelum stasiun",
+          "Kurangi kecepatan lebih awal untuk berhenti di peron sesuai jadwal."
+        ]
+      ],
+      "faq": [
+        [
+          "Lokomotif jenis apa yang bisa saya kendarai?",
+          "Permainan ini mencakup lokomotif diesel dan listrik."
+        ]
+      ]
+    },
+    "beach-volleyball-clash-summer-smash": {
+      "category": "Voli pantai arkade",
+      "searchTitle": "Beach Volleyball Clash: Summer Smash – Voli pantai arkade",
+      "summary": "Melayani, melakukan spike, dan bertahan di Beach Volleyball Clash: Summer Smash. Mainkan reli cepat melawan komputer atau bagikan keyboard dengan teman.",
+      "about": [
+        "Setiap reli dimulai dengan servis. Bergerak ke arah bola lebih awal sehingga Anda bisa melompat untuk memblokir atau mengembalikannya.",
+        "Gunakan penyelaman untuk bola rendah yang hendak mengenai pasir. Pengaturan waktu penting ketika Anda melompat ke net."
+      ],
+      "steps": [
+        [
+          "Ambil posisi",
+          "Bergerak menuju tempat pendaratan segera setelah Anda melihat arah bola."
+        ],
+        [
+          "Selamatkan bola rendah",
+          "Menyelam ketika bola terlalu dekat dengan pasir untuk kembali berdiri."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah ada multipemain lokal?",
+          "Ya. Dua pemain dapat berbagi keyboard."
+        ]
+      ]
+    },
+    "bike-obby-draw-pencil": {
+      "category": "Parkour sepeda dengan jembatan gambar",
+      "searchTitle": "Bike Obby Draw Pencil – Parkour sepeda dengan jembatan gambar",
+      "summary": "Gambarlah jalur landai dan jembatan di Bike Obby Draw Pencil. Kendarai sepeda Anda melintasi celah dan rencanakan setiap baris sebelum pensil Anda habis.",
+      "about": [
+        "Jalur terapung memiliki celah yang tidak dapat dilintasi sepeda Anda sendiri. Gambarlah jembatan atau jalan untuk menghubungkan platform.",
+        "Persediaan pensil terbatas. Hapus pukulan yang tidak perlu dan sisakan ruang bagi sepeda untuk mendekat dan mendarat."
+      ],
+      "steps": [
+        [
+          "Gambarlah sebuah jembatan pendek",
+          "Hubungkan tepi terdekat yang bisa dilalui agar jatah pensil lebih hemat."
+        ],
+        [
+          "Uji pendekatan Anda",
+          "Sejajarkan sepeda dengan jembatan dan sisakan ruang yang cukup untuk mengemudi."
+        ]
+      ],
+      "faq": [
+        [
+          "Bisakah saya menghapus sebagian gambar?",
+          "Ya. Gunakan penghapus untuk mengedit baris tanpa memulai ulang kursus."
+        ]
+      ]
+    },
+    "how-to-fish": {
+      "category": "Petualangan memancing antarpulau",
+      "searchTitle": "How To Fish – Petualangan memancing antarpulau",
+      "summary": "Tangkap ikan antar pulau di How To Fish. Kontrol ketegangan garis, selesaikan misi, dan catat hasil tangkapan Anda dalam koleksi.",
+      "about": [
+        "Keluarkan tali pancing dan gulung dengan hati-hati. Ketegangan yang terlalu besar dapat mematahkan tali, sedangkan tegangan yang terlalu sedikit dapat membuatnya kendur.",
+        "Pencarian pulau memperkenalkan aktivitas baru dan memberi Anda hadiah atas hasil tangkapan. Gunakan hadiah Anda untuk meningkatkan peralatan Anda."
+      ],
+      "steps": [
+        [
+          "Perhatikan tegangan senar pancing",
+          "Gulung senar lebih pelan jika sudah terlalu tegang."
+        ],
+        [
+          "Kunjungi pulau lain",
+          "Bepergian dengan perahu untuk menemukan spesies berbeda dan berbicara dengan karakter yang menawarkan misi."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah hasil tangkapan dicatat?",
+          "Ya. Tangkapan yang berhasil menambah entri ke koleksi Anda."
+        ]
+      ]
+    },
+    "wave-race": {
+      "category": "Game ketangkasan rintangan geometris",
+      "searchTitle": "Wave Race – Game ketangkasan rintangan geometris",
+      "summary": "Atur naik turunnya panah di Wave Race. Hindari duri dan roda gigi dalam latihan, balapan, atau mode tanpa akhir.",
+      "about": [
+        "Panah bergerak maju secara otomatis. Anda mengontrol ketinggiannya untuk melewati celah antara dinding, lereng, dan roda gigi yang berputar.",
+        "Mode mudah membantu Anda mempelajari kontrolnya. Nantinya Anda bisa berpacu melawan anak panah lain atau mencoba lari tanpa akhir."
+      ],
+      "steps": [
+        [
+          "Tahan tombol agar panah naik",
+          "Tahan tombol mouse, W, atau Spasi untuk bergerak ke atas."
+        ],
+        [
+          "Lepaskan tombol agar panah turun",
+          "Lepaskan sebelum Anda mencapai puncak jalan sempit."
+        ]
+      ],
+      "faq": [
+        [
+          "Bagaimana cara membuka kunci Normal dan Keras?",
+          "Mulai setidaknya satu kali proses dalam mode Mudah."
+        ]
+      ]
+    },
+    "animal-hospital-3d-sandbox": {
+      "category": "Sandbox fisika 3D",
+      "searchTitle": "Animal Hospital 3D Sandbox – Sandbox fisika 3D",
+      "summary": "Bangun struktur dan pindahkan objek di Kotak Pasir 3D Rumah Sakit Hewan. Gunakan balok, kendaraan, dan alat gravitasi untuk menguji pengaturan Anda sendiri.",
+      "about": [
+        "Pilih dunia terbuka dan letakkan blok untuk membangun struktur. Tambahkan karakter dan kendaraan untuk melihat cara mereka berinteraksi.",
+        "Alat gravitasi memungkinkan Anda mengambil dan melempar benda. Bereksperimenlah dengan objek berbeda dalam pengaturan yang sama."
+      ],
+      "steps": [
+        [
+          "Bangun struktur sederhana",
+          "Tumpuk beberapa blok dan sisakan ruang di sekelilingnya untuk menguji dampak yang terjadi."
+        ],
+        [
+          "Coba alat gravitasi",
+          "Ambil sebuah benda dan lepaskan ke arah struktur."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah saya harus menyelesaikan misi?",
+          "Kotak pasir memungkinkan Anda membangun dan bereksperimen tanpa misi berwaktu."
+        ]
+      ]
+    },
+    "turbo-type-3d": {
+      "category": "Game balap mengetik",
+      "searchTitle": "Turbo Type 3D – Game balap mengetik",
+      "summary": "Kendalikan mobil dengan mengetik di Turbo Type 3D. Setiap karakter yang benar membuat mobil melaju sekaligus mengisi turbo.",
+      "about": [
+        "Ketikkan teks yang ditampilkan untuk mengemudi. Kunci yang salah menghentikan mobil sampai Anda memasukkan karakter yang benar.",
+        "Pengetikan yang bersih menghasilkan tenaga turbo. Posisi finis Anda menentukan berapa banyak penghasilan yang Anda peroleh setelah setiap balapan."
+      ],
+      "steps": [
+        [
+          "Ketikkan karakter berikutnya",
+          "Periksa spasi dan tanda baca saat Anda mengikuti teks."
+        ],
+        [
+          "Prioritaskan akurasi",
+          "Pertahankan ritme yang bisa Anda pertahankan agar kesalahan tidak mengganggu kecepatan Anda."
+        ]
+      ],
+      "faq": [
+        [
+          "Apakah ada balapan harian?",
+          "Ya. Balapan Harian memberi pemain tantangan bersama dan menawarkan hadiah koin."
+        ]
+      ]
     }
   }
 }

@@ -7831,5 +7831,1197 @@
         ]
       }
     }
+  },
+  {
+    "id": "football-bros",
+    "title": "Football Bros",
+    "category": {
+      "en": "Pixel-art American football"
+    },
+    "source": "https://1games.io/football-bros",
+    "url": "https://1games.io/embed/football-bros",
+    "width": 440,
+    "height": 293,
+    "media": {
+      "icon": "/assets/1games/football-bros-icon.webp",
+      "artwork": "/assets/1games/football-bros-cover.webp",
+      "artworkWidth": 1115,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/football-bros/football-bros.png",
+        "artwork": "https://1games.io/data/image/game/football-bros/football-bros.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "pixel-games",
+        "2-player-sports",
+        "tactical-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Football Bros – Pixel-art American football",
+        "summary": "Play Football Bros, a pixel-art American football game. Call plays, throw passes, and lead your team through a season or challenge a friend.",
+        "about": [
+          "Select an offensive or defensive play before each snap. On offense, look for an open receiver or run through a gap in the defense.",
+          "Quick Play offers individual matches. Franchise lets you lead a team through a season."
+        ],
+        "steps": [
+          [
+            "Select a play",
+            "Choose a running or passing play before the snap."
+          ],
+          [
+            "Find an open receiver",
+            "Look for space between the receiver and the defenders before you pass."
+          ]
+        ],
+        "faq": [
+          [
+            "Can two people play on one computer?",
+            "Yes. Select the local two-player mode to share a keyboard."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "bmx-stunts-3d",
+    "title": "BMX Stunts 3D",
+    "category": {
+      "en": "BMX racing and stunts"
+    },
+    "source": "https://1games.io/bmx-stunts-3d",
+    "url": "https://game.1games.io/bmx-stunts-3d/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/bmx-stunts-3d-cover.webp",
+      "artwork": "/assets/1games/bmx-stunts-3d-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bmx-stunts-3d/bmx-stunts-3d.png",
+        "artwork": "https://1games.io/data/image/game/bmx-stunts-3d/bmx-stunts-3d.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-11-02",
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "bike-racing-games",
+        "stunt-games",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "BMX Stunts 3D – BMX racing and stunts",
+        "summary": "Race a rival in BMX Stunts 3D. Build speed on dirt slopes, clear jumps, and beat boss riders to unlock new bikes.",
+        "about": [
+          "Each race takes place on a dirt track with ramps and uneven terrain. Use downhill sections to build speed before a jump.",
+          "Career races unlock harder tracks. Beating boss riders unlocks new bikes."
+        ],
+        "steps": [
+          [
+            "Build speed downhill",
+            "Press S or the down arrow on a downhill section to build momentum."
+          ],
+          [
+            "Jump from a ramp",
+            "Press W or the up arrow to jump. Align your bike with the slope before landing."
+          ]
+        ],
+        "faq": [
+          [
+            "How can I get a burst of speed?",
+            "Press Space to use the rocket boost when it is available."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "dont-splash",
+    "title": "Dont Splash",
+    "category": {
+      "en": "Horror platformer"
+    },
+    "source": "https://1games.io/dont-splash",
+    "url": "https://1games.io/embed/dont-splash",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/dont-splash-icon.webp",
+      "artwork": "/assets/1games/dont-splash-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/dont-splash/dont-splash-2.png",
+        "artwork": "https://1games.io/data/image/game/dont-splash/dont-splash-2.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "adventure"
+      ],
+      "tags": [
+        "horror-escape",
+        "jumping-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Dont Splash – Horror platformer",
+        "summary": "Escape an abandoned pool in Dont Splash. Jump across platforms and stay above water to avoid a creature that hunts by sound.",
+        "about": [
+          "The creature reacts to splashes and swimming. Jump between platforms and move away from the edge after you land.",
+          "Search the rooms for four hidden numbers and use the in-game camera to photograph them."
+        ],
+        "steps": [
+          [
+            "Plan your jumps",
+            "Check the distance to the next platform before jumping."
+          ],
+          [
+            "Distract the creature",
+            "Throw a pebble or bottle away from the route you want to take."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I play with a friend?",
+            "Yes. The game has a local split-screen mode for two players."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "popslime",
+    "title": "Popslime",
+    "category": {
+      "en": "Slime arena action"
+    },
+    "source": "https://1games.io/popslime",
+    "url": "https://game.1games.io/popslime/",
+    "width": 432,
+    "height": 270,
+    "media": {
+      "icon": "/assets/1games/popslime-cover.webp",
+      "artwork": "/assets/1games/popslime-cover.webp",
+      "artworkWidth": 432,
+      "artworkHeight": 270,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/popslime/popslime-2.png",
+        "artwork": "https://1games.io/data/image/game/popslime/popslime-2.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-10-30",
+      "genres": [
+        "action"
+      ],
+      "tags": [
+        "incremental-games",
+        "arena-games",
+        "collecting-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Popslime – Slime arena action",
+        "summary": "Fight waves of slimes in Popslime. Move the cursor over enemies, gather gold, and unlock upgrades for the next round.",
+        "about": [
+          "The circle around the cursor damages slimes as you move across the arena. The archer and towers attack automatically.",
+          "Defeated slimes drop gold and items. Upgrades help you survive longer and reach later stages."
+        ],
+        "steps": [
+          [
+            "Move over groups of slimes",
+            "Guide the cursor across several enemies in one movement."
+          ],
+          [
+            "Spend your gold on upgrades",
+            "Use the upgrade tree between rounds to improve your attacks."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I have to aim the towers?",
+            "The towers attack automatically while you control the cursor."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "shady-cats",
+    "title": "Shady Cats",
+    "category": {
+      "en": "Cat and shadow platformer"
+    },
+    "source": "https://1games.io/shady-cats",
+    "url": "https://game.1games.io/shady-cats/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/shady-cats-cover.webp",
+      "artwork": "/assets/1games/shady-cats-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/shady-cats/shady-cats.png",
+        "artwork": "https://1games.io/data/image/game/shady-cats/shady-cats.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-10-29",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "jumping-games",
+        "collecting-games",
+        "avoid-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Shady Cats – Cat and shadow platformer",
+        "summary": "Collect acorns in Shady Cats. Jump between platforms and avoid shadows that copy your earlier movements.",
+        "about": [
+          "Your shadow follows the route you took earlier. Returning to a platform too soon can put you in its path.",
+          "Fish help you collect more acorns but attract bees. Fireflies temporarily remove shadows."
+        ],
+        "steps": [
+          [
+            "Choose a new route",
+            "Look for another platform before going back the way you came."
+          ],
+          [
+            "Use a firefly",
+            "Collect a firefly when your shadow is about to cut off your route."
+          ]
+        ],
+        "faq": [
+          [
+            "How many people can play together?",
+            "Up to four players can share one device in local multiplayer."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "atv-ultimate-offroad",
+    "title": "ATV Ultimate OffRoad",
+    "category": {
+      "en": "ATV off-road driving"
+    },
+    "source": "https://1games.io/atv-ultimate-offroad",
+    "url": "https://1games.io/embed/atv-ultimate-offroad",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/atv-ultimate-offroad-icon.webp",
+      "artwork": "/assets/1games/atv-ultimate-offroad-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/atv-ultimate-offroad/atv-ultimate-offroad.png",
+        "artwork": "https://1games.io/data/image/game/atv-ultimate-offroad/atv-ultimate-offroad.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "driving"
+      ],
+      "tags": [
+        "vehicles-games",
+        "race-games",
+        "stunt-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "ATV Ultimate OffRoad – ATV off-road driving",
+        "summary": "Drive an ATV across rough terrain in ATV Ultimate OffRoad. Explore the open map, race around circuits, or beat the clock.",
+        "about": [
+          "Dirt roads, steep ramps, and tight turns make speed control important. Use the boost where you have room to accelerate.",
+          "In Free Ride you can explore and collect coins. Spend coins to unlock more ATVs."
+        ],
+        "steps": [
+          [
+            "Slow down before tight turns",
+            "Brake early to keep your ATV under control on rough ground."
+          ],
+          [
+            "Use the boost on open sections",
+            "Save your boost for a straight section or a steep climb."
+          ]
+        ],
+        "faq": [
+          [
+            "Can two people share a screen?",
+            "Yes. Free Ride and Race support local split-screen play."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "unbox-the-room",
+    "title": "Unbox the Room",
+    "category": {
+      "en": "Unpacking and room organization"
+    },
+    "source": "https://1games.io/unbox-the-room",
+    "url": "https://1games.io/game/unbox-the-room/?v=26093001",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/unbox-the-room-cover.webp",
+      "artwork": "/assets/1games/unbox-the-room-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/unbox-the-room/unbox-the-room.png",
+        "artwork": "https://1games.io/data/image/game/unbox-the-room/unbox-the-room.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-09-30",
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "house-games",
+        "relaxing-games",
+        "sorting-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Unbox the Room – Unpacking and room organization",
+        "summary": "Unpack boxes in Unbox the Room. Find a place for each item and discover a story through the belongings left in each room.",
+        "about": [
+          "Open boxes and place books, clothes, and kitchen items where they belong. You can change an item's position before finishing the room.",
+          "At the end of a room, misplaced items are marked in red. Move them to finish and unlock the next room."
+        ],
+        "steps": [
+          [
+            "Unpack one box at a time",
+            "Sort items by where they belong so you can see which shelves and drawers you need."
+          ],
+          [
+            "Check items marked in red",
+            "Move each marked item to a more suitable place before finishing the room."
+          ]
+        ],
+        "faq": [
+          [
+            "How is the story told?",
+            "The rooms and belongings change over the years and show different stages of the character's life."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "collect-all-the-leaves",
+    "title": "Collect All the Leaves",
+    "category": {
+      "en": "Autumn yard cleanup"
+    },
+    "source": "https://1games.io/collect-all-the-leaves",
+    "url": "https://1games.io/embed/collect-all-the-leaves",
+    "width": 440,
+    "height": 259,
+    "media": {
+      "icon": "/assets/1games/collect-all-the-leaves-icon.webp",
+      "artwork": "/assets/1games/collect-all-the-leaves-cover.webp",
+      "artworkWidth": 800,
+      "artworkHeight": 470,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/collect-all-the-leaves/collect-all-the-leaves.png",
+        "artwork": "https://1games.io/data/image/game/collect-all-the-leaves/collect-all-the-leaves.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "cleaning-games",
+        "collecting-games",
+        "relaxing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Collect All the Leaves – Autumn yard cleanup",
+        "summary": "Clean up an autumn yard in Collect All the Leaves. Fill bags, empty them for cash, and open more areas as you clear the map.",
+        "about": [
+          "Choose a map from the lobby and collect fallen leaves with your equipment. The bag limits how many leaves you can carry.",
+          "Bring full bags to the disposal bin to earn money. Clear each area to open the next one."
+        ],
+        "steps": [
+          [
+            "Gather leaves by area",
+            "Finish a small section first so you can see which leaves remain."
+          ],
+          [
+            "Empty your bag at the bin",
+            "Return to the disposal bin when your bag fills up."
+          ]
+        ],
+        "faq": [
+          [
+            "When does a round end?",
+            "The round ends when every leaf on the map has been collected."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "noillirk",
+    "title": "Noillirk",
+    "category": {
+      "en": "Guess the popular answer"
+    },
+    "source": "https://1games.io/noillirk",
+    "url": "https://1games.io/embed/noillirk",
+    "width": 440,
+    "height": 234,
+    "media": {
+      "icon": "/assets/1games/noillirk-icon.webp",
+      "artwork": "/assets/1games/noillirk-cover.webp",
+      "artworkWidth": 700,
+      "artworkHeight": 373,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/noillirk/noillirk.jpg",
+        "artwork": "https://1games.io/data/image/game/noillirk/noillirk.jpg"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "decision-games",
+        "brain-training-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Noillirk – Guess the popular answer",
+        "summary": "Guess the most popular survey answers in Noillirk. Score points to send your balloon higher across Classic, Daily, and multiplayer modes.",
+        "about": [
+          "Each question gives you 15 seconds to think of a response. The game awards points based on how popular your answer is.",
+          "Your points determine how far the balloon travels. In Classic mode, you answer seven questions."
+        ],
+        "steps": [
+          [
+            "Think of a common answer",
+            "Choose a response that many other people are likely to give."
+          ],
+          [
+            "Submit before time runs out",
+            "Type your answer and press Enter to submit it."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I play a new challenge every day?",
+            "Yes. Daily mode gives players the same set of questions for the day."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "farflung",
+    "title": "Farflung",
+    "category": {
+      "en": "World geography quiz"
+    },
+    "source": "https://1games.io/farflung",
+    "url": "https://1games.io/embed/farflung",
+    "width": 440,
+    "height": 247,
+    "media": {
+      "icon": "/assets/1games/farflung-icon.webp",
+      "artwork": "/assets/1games/farflung-cover.webp",
+      "artworkWidth": 546,
+      "artworkHeight": 307,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/farflung/farflung.jpg",
+        "artwork": "https://1games.io/data/image/game/farflung/farflung.jpg"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "brain-training-games",
+        "educational",
+        "logic"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Farflung – World geography quiz",
+        "summary": "Solve map clues in Farflung. Find countries on an unlabeled world map and earn more distance for valid answers that are less common.",
+        "about": [
+          "Read the clue and choose a country that satisfies it. Pan or zoom to inspect the map, or search for a country by name.",
+          "A valid answer earns distance according to its rarity. Field Notes show the countries you have found and their rarity."
+        ],
+        "steps": [
+          [
+            "Check the country before submitting",
+            "Place a pin on land and check the selected country name before confirming."
+          ],
+          [
+            "Look beyond the most familiar answer",
+            "If several countries fit the clue, consider a less common choice to earn more distance."
+          ]
+        ],
+        "faq": [
+          [
+            "Is there a mode without a timer?",
+            "Yes. Wander lets you solve the clues without a time limit."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "suzy-says",
+    "title": "Suzy Says",
+    "category": {
+      "en": "First-person command horror"
+    },
+    "source": "https://1games.io/suzy-says",
+    "url": "https://1games.io/embed/suzy-says",
+    "width": 352,
+    "height": 218,
+    "media": {
+      "icon": "/assets/1games/suzy-says-cover.webp",
+      "artwork": "/assets/1games/suzy-says-cover.webp",
+      "artworkWidth": 352,
+      "artworkHeight": 218,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/suzy-says/suzy-says/suzy-says.png",
+        "artwork": "https://1games.io/data/image/game/suzy-says/suzy-says/suzy-says.png"
+      }
+    },
+    "metadata": {
+      "releaseDate": "2026-11-18",
+      "genres": [
+        "adventure"
+      ],
+      "tags": [
+        "horror-escape",
+        "memory-games",
+        "reaction-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Suzy Says – First-person command horror",
+        "summary": "Listen to Suzy in Suzy Says, a first-person horror game. Follow valid commands on a colored floor mat and watch for misleading instructions.",
+        "about": [
+          "A strange DVD introduces Suzy and her rules. Listen to each command before deciding whether to follow it.",
+          "The colored circles on the mat are part of the challenge. Pay attention when the rules change or a command conflicts with an earlier instruction."
+        ],
+        "steps": [
+          [
+            "Listen to the whole command",
+            "Wait until you understand which instruction applies before moving."
+          ],
+          [
+            "Check the floor mat",
+            "Identify the requested color before stepping onto a circle."
+          ]
+        ],
+        "faq": [
+          [
+            "Does the game contain jump scares?",
+            "Yes. The game contains jump scares and flashing lights."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "throw-food-for-animals",
+    "title": "Throw Food for Animals!",
+    "category": {
+      "en": "Pet collecting and food throws"
+    },
+    "source": "https://1games.io/throw-food-for-animals",
+    "url": "https://1games.io/embed/throw-food-for-animals",
+    "width": 440,
+    "height": 258,
+    "media": {
+      "icon": "/assets/1games/throw-food-for-animals-icon.webp",
+      "artwork": "/assets/1games/throw-food-for-animals-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 704,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/throw-food-for-animals/throw-food-for-animals1.png",
+        "artwork": "https://1games.io/data/image/game/throw-food-for-animals/throw-food-for-animals1.png"
+      }
+    },
+    "metadata": {
+      "releaseDate": "2026-11-19",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "pet-games",
+        "throwing-games",
+        "incremental-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Throw Food for Animals! – Pet collecting and food throws",
+        "summary": "Throw treats to discover pets in Throw Food for Animals. Train your strength, reach new areas, and earn money from pets at your base.",
+        "about": [
+          "Where the food lands determines which animals you can attract. Strength training and better food can help you throw farther.",
+          "Place collected pets at your base to earn money. Spend the money on food and upgrades for longer throws."
+        ],
+        "steps": [
+          [
+            "Time your throw",
+            "Watch the timing indicator before releasing the food."
+          ],
+          [
+            "Train between throws",
+            "Use the pull-up bar to build strength before trying to reach a more distant area."
+          ]
+        ],
+        "faq": [
+          [
+            "How can I find rarer animals?",
+            "Throw food farther to reach areas that contain rarer pets."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "beat-brigade",
+    "title": "Beat Brigade",
+    "category": {
+      "en": "Keyboard rhythm action"
+    },
+    "source": "https://1games.io/beat-brigade",
+    "url": "https://1games.io/game/beat-brigade/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/beat-brigade-cover.webp",
+      "artwork": "/assets/1games/beat-brigade-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/beat-brigade/beat-brigade.png",
+        "artwork": "https://1games.io/data/image/game/beat-brigade/beat-brigade.png"
+      }
+    },
+    "metadata": {
+      "releaseDate": "2026-11-18",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "rhythm-games",
+        "timing-games",
+        "reaction-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Beat Brigade – Keyboard rhythm action",
+        "summary": "Hit arrow keys to the music in Beat Brigade. Match incoming notes, build a combo, and face a boss at the end of each song.",
+        "about": [
+          "Each approaching monster shows an arrow. Press the matching key when the monster reaches the ring.",
+          "Accurate timing helps maintain your combo and builds Fever. Learn the note patterns before trying faster songs."
+        ],
+        "steps": [
+          [
+            "Match the arrow direction",
+            "Read the arrow on the incoming monster before you press a key."
+          ],
+          [
+            "Wait for the ring",
+            "Press the key as the monster reaches the ring, in time with the music."
+          ]
+        ],
+        "faq": [
+          [
+            "Do songs end with a boss fight?",
+            "Yes. Each song ends with a boss encounter that changes the note patterns."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "train-simulator-steel-express",
+    "title": "Train Simulator: Steel Express",
+    "category": {
+      "en": "3D train driving simulator"
+    },
+    "source": "https://1games.io/train-simulator-steel-express",
+    "url": "https://1games.io/embed/train-simulator-steel-express",
+    "width": 440,
+    "height": 273,
+    "media": {
+      "icon": "/assets/1games/train-simulator-steel-express-icon.webp",
+      "artwork": "/assets/1games/train-simulator-steel-express-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 745,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/train-simulator-steel-express/train-simulator-steel-express1.png",
+        "artwork": "https://1games.io/data/image/game/train-simulator-steel-express/train-simulator-steel-express1.png"
+      }
+    },
+    "metadata": {
+      "releaseDate": "2026-11-16",
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "vehicles-games",
+        "time-management-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Train Simulator: Steel Express – 3D train driving simulator",
+        "summary": "Drive diesel and electric locomotives in Train Simulator: Steel Express. Follow signals, manage braking, and arrive at stations on schedule.",
+        "about": [
+          "Choose a train and route to begin a trip. Use the cab controls to adjust speed as you pass through cities, tunnels, and mountains.",
+          "Allow room for braking before signals and stations. Successful trips earn in-game money."
+        ],
+        "steps": [
+          [
+            "Check signals ahead",
+            "Watch the track and adjust your speed in time for railway signals."
+          ],
+          [
+            "Brake before the station",
+            "Reduce speed early to stop at the platform on schedule."
+          ]
+        ],
+        "faq": [
+          [
+            "What kinds of locomotives can I drive?",
+            "The game includes both diesel and electric locomotives."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "beach-volleyball-clash-summer-smash",
+    "title": "Beach Volleyball Clash: Summer Smash",
+    "category": {
+      "en": "Arcade beach volleyball"
+    },
+    "source": "https://1games.io/beach-volleyball-clash-summer-smash",
+    "url": "https://1games.io/embed/beach-volleyball-clash-summer-smash",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/beach-volleyball-clash-summer-smash-icon.webp",
+      "artwork": "/assets/1games/beach-volleyball-clash-summer-smash-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/beach-volleyball-clash-summer-smash/beach-volleyball-clash-summer-smash.png",
+        "artwork": "https://1games.io/data/image/game/beach-volleyball-clash-summer-smash/beach-volleyball-clash-summer-smash.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "sports"
+      ],
+      "tags": [
+        "2-player-sports",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Beach Volleyball Clash: Summer Smash – Arcade beach volleyball",
+        "summary": "Serve, spike, and defend in Beach Volleyball Clash: Summer Smash. Play quick rallies against the computer or share a keyboard with a friend.",
+        "about": [
+          "Each rally begins with a serve. Move toward the ball early so you can jump to block or return it.",
+          "Use a dive for low balls that are about to hit the sand. Timing matters when you jump at the net."
+        ],
+        "steps": [
+          [
+            "Get into position",
+            "Move toward the landing spot as soon as you see the ball's direction."
+          ],
+          [
+            "Save a low ball",
+            "Dive when the ball is too close to the sand for a standing return."
+          ]
+        ],
+        "faq": [
+          [
+            "Is there local multiplayer?",
+            "Yes. Two players can share a keyboard."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "bike-obby-draw-pencil",
+    "title": "Bike Obby Draw Pencil",
+    "category": {
+      "en": "Draw bridges for bike parkour"
+    },
+    "source": "https://1games.io/bike-obby-draw-pencil",
+    "url": "https://1games.io/embed/bike-obby-draw-pencil",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/bike-obby-draw-pencil-icon.webp",
+      "artwork": "/assets/1games/bike-obby-draw-pencil-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 742,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bike-obby-draw-pencil/bike-obby-draw-pencil.png",
+        "artwork": "https://1games.io/data/image/game/bike-obby-draw-pencil/bike-obby-draw-pencil.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "adventure"
+      ],
+      "tags": [
+        "creativity-games",
+        "bike-racing-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Bike Obby Draw Pencil – Draw bridges for bike parkour",
+        "summary": "Draw ramps and bridges in Bike Obby Draw Pencil. Ride your bike across gaps and plan each line before your pencil runs out.",
+        "about": [
+          "Floating courses contain gaps that your bike cannot cross on its own. Draw a bridge or ramp to connect the platforms.",
+          "The pencil has a limited supply. Erase unnecessary strokes and leave room for the bike to approach and land."
+        ],
+        "steps": [
+          [
+            "Draw a short bridge",
+            "Connect the nearest usable edges to save pencil."
+          ],
+          [
+            "Test your approach",
+            "Line up the bike with the bridge and leave enough room to steer."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I erase part of a drawing?",
+            "Yes. Use the eraser to edit a line without restarting the course."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "how-to-fish",
+    "title": "How To Fish",
+    "category": {
+      "en": "Island fishing adventure"
+    },
+    "source": "https://1games.io/how-to-fish",
+    "url": "https://1games.io/embed/how-to-fish",
+    "width": 440,
+    "height": 272,
+    "media": {
+      "icon": "/assets/1games/how-to-fish-icon.webp",
+      "artwork": "/assets/1games/how-to-fish-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 743,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/how-to-fish/how-to-fish.png",
+        "artwork": "https://1games.io/data/image/game/how-to-fish/how-to-fish.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "collecting-games",
+        "quests-games",
+        "water-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "How To Fish – Island fishing adventure",
+        "summary": "Catch fish between islands in How To Fish. Control line tension, complete quests, and record your catches in a collection.",
+        "about": [
+          "Cast the fishing line and reel it in carefully. Too much tension can snap the line, while too little can make it slack.",
+          "Island quests introduce new activities and reward you for catches. Use your rewards to improve your equipment."
+        ],
+        "steps": [
+          [
+            "Watch the line tension",
+            "Ease off when the line is under too much strain."
+          ],
+          [
+            "Visit other islands",
+            "Travel by boat to find different species and speak to characters who offer quests."
+          ]
+        ],
+        "faq": [
+          [
+            "Are catches recorded?",
+            "Yes. Successful catches add entries to your collection."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "wave-race",
+    "title": "Wave Race",
+    "category": {
+      "en": "Geometric wave obstacle game"
+    },
+    "source": "https://1games.io/wave-race",
+    "url": "https://1games.io/game/wave-race/?v=26092801",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/wave-race-cover.webp",
+      "artwork": "/assets/1games/wave-race-cover.webp",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wave-race/wave-race.png",
+        "artwork": "https://1games.io/data/image/game/wave-race/wave-race.png"
+      }
+    },
+    "metadata": {
+      "developer": "AZGames",
+      "releaseDate": "2026-09-21",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "geometry-games",
+        "one-button-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Wave Race – Geometric wave obstacle game",
+        "summary": "Guide a rising and falling arrow through geometric courses in Wave Race. Avoid spikes and gears in practice, race, and endless challenges.",
+        "about": [
+          "The arrow moves forward automatically. You control its height to pass through gaps between walls, slopes, and rotating gears.",
+          "Easy mode helps you learn the controls. Later you can race against other arrows or try an endless run."
+        ],
+        "steps": [
+          [
+            "Hold to rise",
+            "Hold the mouse button, W, or Space to move up."
+          ],
+          [
+            "Release to descend",
+            "Let go before you reach the top of a narrow passage."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I unlock Normal and Hard?",
+            "Start at least one run in Easy mode."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "animal-hospital-3d-sandbox",
+    "title": "Animal Hospital 3D Sandbox",
+    "category": {
+      "en": "3D physics sandbox"
+    },
+    "source": "https://1games.io/animal-hospital-3d-sandbox",
+    "url": "https://1games.io/embed/animal-hospital-3d-sandbox",
+    "width": 440,
+    "height": 259,
+    "media": {
+      "icon": "/assets/1games/animal-hospital-3d-sandbox-icon.webp",
+      "artwork": "/assets/1games/animal-hospital-3d-sandbox-cover.webp",
+      "artworkWidth": 800,
+      "artworkHeight": 470,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/animal-hospital-3d-sandbox/animal-hospital-3d-sandbox.png",
+        "artwork": "https://1games.io/data/image/game/animal-hospital-3d-sandbox/animal-hospital-3d-sandbox.png"
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation"
+      ],
+      "tags": [
+        "sandbox-games",
+        "building-games",
+        "destruction-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Animal Hospital 3D Sandbox – 3D physics sandbox",
+        "summary": "Build structures and move objects in Animal Hospital 3D Sandbox. Use blocks, vehicles, and a gravity tool to test your own setups.",
+        "about": [
+          "Choose an open world and place blocks to build a structure. Add characters and vehicles to see how they interact.",
+          "The gravity tool lets you pick up and throw objects. Experiment with different objects in the same setup."
+        ],
+        "steps": [
+          [
+            "Build a simple structure",
+            "Stack a few blocks and leave space around them to test what happens on impact."
+          ],
+          [
+            "Try the gravity tool",
+            "Pick up an object and release it toward the structure."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I have to finish missions?",
+            "The sandbox lets you build and experiment without timed missions."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "turbo-type-3d",
+    "title": "Turbo Type 3D",
+    "category": {
+      "en": "Typing race game"
+    },
+    "source": "https://1games.io/turbo-type-3d",
+    "url": "https://1games.io/embed/turbo-type-3d",
+    "width": 440,
+    "height": 293,
+    "media": {
+      "icon": "/assets/1games/turbo-type-3d-icon.webp",
+      "artwork": "/assets/1games/turbo-type-3d-cover.webp",
+      "artworkWidth": 1200,
+      "artworkHeight": 800,
+      "sources": {
+        "icon": "https://1games.io/data/image/game/turbo-type-3d/turbo-type-3d.jpg",
+        "artwork": "https://1games.io/data/image/game/turbo-type-3d/turbo-type-3d.jpg"
+      }
+    },
+    "metadata": {
+      "releaseDate": "2026-10-01",
+      "genres": [
+        "word"
+      ],
+      "tags": [
+        "race-games",
+        "reaction-games",
+        "educational"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": []
+    },
+    "details": {
+      "en": {
+        "searchTitle": "Turbo Type 3D – Typing race game",
+        "summary": "Type your way to the finish in Turbo Type 3D. Correct keystrokes move your car forward, and accurate typing builds turbo power.",
+        "about": [
+          "Type the displayed text to drive. A wrong key stops the car until you enter the correct character.",
+          "Clean typing builds turbo power. Your finishing position determines how much you earn after each race."
+        ],
+        "steps": [
+          [
+            "Type the next character",
+            "Check spaces and punctuation as you follow the text."
+          ],
+          [
+            "Prioritize accuracy",
+            "Keep a rhythm you can sustain so mistakes do not interrupt your speed."
+          ]
+        ],
+        "faq": [
+          [
+            "Is there a daily race?",
+            "Yes. Daily Race gives players a shared challenge and offers a coin reward."
+          ]
+        ]
+      }
+    }
   }
 ]
