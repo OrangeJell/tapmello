@@ -23,6 +23,22 @@
   text-decoration: none;
 }
 .continue-playing h2 a:hover { color: var(--discovery-accent); }
+.collection-more:not([hidden]) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: fit-content;
+  min-height: 44px;
+  margin: 24px auto 0;
+  padding-inline: 18px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--discovery-ink);
+  font-weight: 650;
+  text-decoration: none;
+}
+.collection-more:hover { background: var(--discovery-hover); }
 .played-games-empty { color: var(--discovery-muted); }
 .played-games-empty a { color: var(--discovery-accent); }
 .collection-heading, .continue-playing[hidden] + .home-games-heading {

@@ -190,7 +190,11 @@ for (const lang of ['en']) {
   const readPage = route => readFile(path.join(dist, route, 'index.html'), 'utf8');
   const tileIds = html => [...html.matchAll(/class="collection-game" id="([^"]+)"/g)].map(match => match[1]);
   const tagIndex = await readPage(tagsPath(lang));
-  assert.deepEqual(tileIds(await readPage(gamesPath(lang))), games.map(game => game.id));
+  const batchTileIds = html => [...html.matchAll(/<template data-game-batch>([\s\S]*?)<\/template>/g)].map(match => tileIds(match[1]));
+  const initialTileIds = html => tileIds(html.split('<template data-game-batch>')[0]);
+  const allGames = await readPage(gamesPath(lang));
+  assert.deepEqual(initialTileIds(allGames), games.slice(0, 36).map(game => game.id));
+  assert.deepEqual(batchTileIds(allGames).flat(), games.slice(36).map(game => game.id));
   for (const [id, matches] of byGenre) {
     assert.deepEqual(tileIds(await readPage(genrePath(lang, id))), matches.map(game => game.id), `Category membership: ${id}/${lang}`);
   }
@@ -201,8 +205,11 @@ for (const lang of ['en']) {
   }
   const home = await readFile(path.join(dist, prefix, 'index.html'), 'utf8');
   assert.doesNotMatch(home, /discovery-hero|discovery-filters|home-questions/, 'Homepage only shows the game grid');
-  const tiles = [...home.matchAll(/class="collection-game" id="([^"]+)"/g)].map(match => match[1]);
-  assert.deepEqual(tiles, ['clock-out', 'glass-twist', 'mahjong', ...partnerGames.map(game => game.id)]);
+  assert.deepEqual(initialTileIds(home), games.slice(0, 36).map(game => game.id));
+  const homeBatches = batchTileIds(home);
+  assert.ok(homeBatches.length <= 2 && homeBatches.every(batch => batch.length <= 18), 'Homepage has at most two game batches');
+  assert.deepEqual(homeBatches.flat(), games.slice(36, 72).map(game => game.id));
+  assert.match(home, /href="\/games\/" data-all-games-link/, 'Homepage links to the full game catalogue');
   for (const game of partnerGames) {
     const gamePath = partnerGamePath(lang, game);
     assert.ok(home.includes(`href="${gamePath}"`), `Partner game card link: ${gamePath}`);

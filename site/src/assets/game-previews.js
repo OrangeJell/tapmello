@@ -61,6 +61,8 @@ const status = document.querySelector('[data-game-status]');
 if (status) {
   const grid = document.querySelector('#games');
   const batches = [...document.querySelectorAll('template[data-game-batch]')];
+  const allGamesLink = document.querySelector('[data-all-games-link]');
+  if (allGamesLink) allGamesLink.hidden = true;
   let previousScrollY = window.scrollY;
   let pendingBatch;
 
@@ -74,6 +76,7 @@ if (status) {
     tiles.forEach(attachPreview);
     status.textContent = status.dataset.single + tiles.length;
     if (!batches.length) {
+      if (allGamesLink) allGamesLink.hidden = false;
       window.removeEventListener('scroll', loadWhileScrolling);
       window.removeEventListener('wheel', loadWhenPageFits);
       grid.removeEventListener('focusin', loadForKeyboard);
@@ -127,7 +130,12 @@ if (status) {
   function revealLinkedGame() {
     const id = location.hash.slice(1);
     const pendingIndex = batches.findIndex(batch => batch.content.getElementById(id));
-    if (pendingIndex === -1) return;
+    if (pendingIndex === -1) {
+      if (allGamesLink && document.querySelector('template[data-played-catalogue]')?.content.getElementById(id)) {
+        location.replace(allGamesLink.href + location.hash);
+      }
+      return;
+    }
     for (let i = 0; i <= pendingIndex; i++) appendGames();
     document.getElementById(id)?.scrollIntoView();
   }

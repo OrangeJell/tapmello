@@ -11,6 +11,9 @@ const escape = value => String(value).replace(/[&<>"']/g, character => ({
 })[character]);
 const hindiInfoLabels = { about: 'परिचय', contact: 'संपर्क', privacy: 'गोपनीयता', terms: 'शर्तें' };
 const infoLinks = [['about', 'About'], ['contact', 'Contact'], ['privacy', 'Privacy'], ['terms', 'Terms']];
+const initialGameCount = 36;
+const gameBatchSize = 18;
+const homeGameLimit = initialGameCount + 2 * gameBatchSize;
 
 function figure(name, caption, lang) {
   return `<figure class="guide-figure">
@@ -23,13 +26,25 @@ function sections(items) {
   return items.map(([title, body]) => `<section><h3>${escape(title)}</h3><p>${escape(body)}</p></section>`).join('\n');
 }
 
+function renderGameCollection(games, lang, paginate) {
+  const hi = lang === 'hi';
+  const initialCount = paginate ? initialGameCount : games.length;
+  const batches = [];
+  for (let i = initialCount; i < games.length; i += gameBatchSize) {
+    const tiles = games.slice(i, i + gameBatchSize).map(game => renderGameTile(game, { loading: 'eager' }));
+    batches.push(`    <template data-game-batch>${tiles.join('\n')}</template>`);
+  }
+  return `<div id="games" class="game-collection" tabindex="-1">
+${games.slice(0, initialCount).map(game => renderGameTile(game)).join('\n')}
+    </div>
+${batches.join('\n')}
+${batches.length ? `    <span class="collection-heading" data-game-status role="status" data-single="${hi ? 'नए खेल: ' : 'Games added: '}"></span>` : ''}`;
+}
+
 export function renderHome(lang, sharedOnly) {
   const hi = lang === 'hi';
   const { games } = catalogueFor(lang, sharedOnly);
-  const initialCount = 36;
-  const batchSize = 18;
-  const batches = [];
-  for (let i = initialCount; i < games.length; i += batchSize) batches.push(games.slice(i, i + batchSize));
+  const remaining = games.slice(homeGameLimit);
 
   return `<main id="main" class="shell collection-main" tabindex="-1">
     <section class="continue-playing" aria-labelledby="continue-playing-title" hidden>
@@ -37,14 +52,9 @@ export function renderHome(lang, sharedOnly) {
       <div class="game-collection" data-played-games></div>
     </section>
     <h1 class="home-games-heading">${hi ? 'गेम लाइब्रेरी' : 'Game library'}</h1>
-    <div id="games" class="game-collection" tabindex="-1">
-${games.slice(0, initialCount).map(game => renderGameTile(game)).join('\n')}
-    </div>
-${batches.map(batch => `    <template data-game-batch>${batch.map(game => renderGameTile(game, { loading: 'eager' })).join('\n')}</template>`).join('\n')}
-${batches.length ? `    <span class="collection-heading" data-game-status role="status" data-single="${hi ? 'नए खेल: ' : 'Games added: '}"></span>
-    <noscript><div class="game-collection" aria-label="${hi ? 'और खेल' : 'More games'}">
-${games.slice(initialCount).map(game => `<a href="${escape(game.href)}"><img src="${escape(game.cover)}" alt="${escape(game.title)}" width="${game.width}" height="${game.height}" loading="lazy"></a>`).join('\n')}
-    </div></noscript>` : ''}
+    ${renderGameCollection(games.slice(0, homeGameLimit), lang, true)}
+    <a class="collection-more" href="${gamesPath(lang)}" data-all-games-link>${gamesLabel(lang)}${discoveryIcon('next')}</a>
+${remaining.length ? `    <template data-played-catalogue>${remaining.map(game => renderGameTile(game)).join('\n')}</template>` : ''}
   </main>`;
 }
 
@@ -58,7 +68,10 @@ export function discoveryPages(lang, sharedOnly) {
   const listing = (route, heading, description, items, style = '', back = null) => page(route, heading, description, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
     ${back ? `<nav class="discovery-breadcrumb" aria-label="${hi ? 'पेज का पथ' : 'Breadcrumb'}"><a href="${back[0]}">${back[1]}</a>${discoveryIcon('next')}<span aria-current="page">${escape(heading)}</span></nav>` : ''}
     <header class="browse-heading"${style}><h1>${escape(heading)}</h1><span class="browse-count">${gameCount(lang, items.length)}</span></header>
-    <div class="game-collection" id="games" tabindex="-1">${items.map(game => renderGameTile(game)).join('')}</div>
+    ${renderGameCollection(items, lang, route === gamesPath)}
+${route === gamesPath && items.length > initialGameCount ? `    <noscript><div class="game-collection" aria-label="${hi ? 'और खेल' : 'More games'}">
+${items.slice(initialGameCount).map(game => `<a href="${escape(game.href)}"><img src="${escape(game.cover)}" alt="${escape(game.title)}" width="${game.width}" height="${game.height}" loading="lazy"></a>`).join('\n')}
+    </div></noscript>` : ''}
   </main>`);
   const tagDescription = hi ? 'सभी टैग देखें और अपनी पसंद के गेम खोजें।' : 'Browse every tag, from game mechanics to themes. Pick one to see matching games.';
   const tagHeading = tagsLabel(lang);
