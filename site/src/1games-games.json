@@ -11860,5 +11860,454 @@
         ]
       }
     }
+  },
+  {
+    "id": "sorry-bob",
+    "englishOnly": true,
+    "title": "Sorry Bob",
+    "category": {
+      "en": "Physics surgery simulation"
+    },
+    "source": "https://1games.io/sorry-bob",
+    "url": "https://sorry-bob.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/sorry-bob-icon.png",
+      "artwork": "/assets/1games/sorry-bob-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/sorry-bob-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/sorry-bob/sorry-bob.png",
+        "artwork": "https://1games.io/data/image/game/sorry-bob/banner/sorry-bob-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/sorry-bob/sorry-bob.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-02-13",
+      "genres": [
+        "simulation",
+        "arcade"
+      ],
+      "tags": [
+        "challenge-games",
+        "timing-games",
+        "1-player-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Control a deliberately clumsy virtual hand, keep track of Bob's condition, and complete the operation before the physics turn the room upside down.",
+        "aboutTitle": "Keep a grip in a chaotic operating room",
+        "about": [
+          "Sorry Bob is a dark comedy about trying to finish a virtual operation with one awkward hand. The mouse positions the hand, and separate keys move its fingers. The actual challenge is picking up an object without knocking everything around it off the table.",
+          "Look at the objective and identify the matching in-game prop before making a grab. Line up the hand first, lower it, and close the fingers once you are in reach. Trying to rotate and grab at the same time makes it much easier to lose track of what the hand is holding.",
+          "Bob's health and blood-loss indicators put a limit on repeated mistakes. Keep the tray and the immediate workspace clear so you can see your next object. If a tool slips, take a moment to reset the hand position instead of sweeping blindly across the table."
+        ],
+        "steps": [
+          [
+            "Read the operation objective",
+            "Find the prop that matches the mission before moving objects around."
+          ],
+          [
+            "Position the hand",
+            "Move the mouse to line up the hand. Use the left button to lower it and hold the right button to rotate the wrist."
+          ],
+          [
+            "Close the virtual fingers",
+            "Use A, W, E, and R for the pinky, ring, middle, and index fingers. Use Space for the thumb."
+          ],
+          [
+            "Handle one object at a time",
+            "Check Bob's status between actions and set unneeded props down away from the work area."
+          ]
+        ],
+        "faq": [
+          [
+            "Why does the tool keep falling out of my hand?",
+            "Check the alignment before closing the fingers, then move slowly until you can see that the virtual hand has a secure grip."
+          ],
+          [
+            "How do I change the angle of the hand?",
+            "Hold the right mouse button and turn the wrist before lowering the hand."
+          ],
+          [
+            "What can end a run?",
+            "The operation can fail when Bob's condition runs out. Bumping props into the work area and making repeated attempts can leave you with less room for error."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "rob-a-car",
+    "englishOnly": true,
+    "title": "Rob a Car",
+    "category": {
+      "en": "Garage-building tycoon"
+    },
+    "source": "https://1games.io/rob-a-car",
+    "url": "https://rob-a-car.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/rob-a-car-icon.png",
+      "artwork": "/assets/1games/rob-a-car-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/rob-a-car-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/rob-a-car/rob-a-car.png",
+        "artwork": "https://1games.io/data/image/game/rob-a-car/banner/rob-a-car-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/rob-a-car/rob_a_car.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-02-11",
+      "genres": [
+        "simulation",
+        "strategy"
+      ],
+      "tags": [
+        "collecting-games",
+        "vehicles-games",
+        "defense-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Build a car collection that generates income, defend your garage from other players, and decide when a raid is worth leaving your own base.",
+        "aboutTitle": "Build a garage that can hold its own",
+        "about": [
+          "Rob a Car turns a collection of vehicles into a source of income. Start with affordable cars, collect what they earn, and use the proceeds to expand the garage. More storage gives you room to grow while you save for the next vehicle.",
+          "Rival garages provide another route to expanding the collection. A crowded entrance makes a raid risky, especially if you have already left your own garage exposed. Look at the route back and check your own defenses before heading out.",
+          "The home teleport has a delay. Start it when you have time to wait for it to finish, since the situation around you can change during the countdown. An early storage or defense upgrade often gives you a steadier start than rushing into every garage you pass."
+        ],
+        "steps": [
+          [
+            "Explore the arena",
+            "Move with WASD or the arrow keys and move the mouse to look around."
+          ],
+          [
+            "Interact with vehicles",
+            "Approach a car or other interactive object and press E when it is in range."
+          ],
+          [
+            "Reinvest garage income",
+            "Collect earnings and choose whether your next purchase should add storage, a vehicle, or protection."
+          ],
+          [
+            "Leave yourself time to return",
+            "Press G to teleport home. Plan around the short countdown before you arrive."
+          ]
+        ],
+        "faq": [
+          [
+            "How do cars make money?",
+            "Cars you own generate income for your garage. Collect it and spend it on additional vehicles or upgrades."
+          ],
+          [
+            "Is teleporting home immediate?",
+            "The return takes about three seconds after pressing G, so leave room for the countdown."
+          ],
+          [
+            "What should I upgrade before making a raid?",
+            "Storage helps if your garage is already full. Defenses are a better first use of your money when rivals are getting into your base frequently."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "flipping-master",
+    "englishOnly": true,
+    "title": "Flipping Master",
+    "category": {
+      "en": "Diagonal survival runner"
+    },
+    "source": "https://1games.io/flipping-master",
+    "url": "https://flipping-master.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/flipping-master-icon.png",
+      "artwork": "/assets/1games/flipping-master-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/flipping-master-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/flipping-master/flipping-master.png",
+        "artwork": "https://1games.io/data/image/game/flipping-master/banner/flipping-master-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/flipping-master/flipping-master.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-02-02",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "jumping-games",
+        "flip-games",
+        "endless-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Flip diagonally through a three-tile course, land on enemies to recover health, and keep a high-scoring run alive through changing hazards.",
+        "aboutTitle": "Read two landings ahead",
+        "about": [
+          "Flipping Master sends you through a compact grid where every move goes diagonally. A tile that looks close may be out of reach from the side you are on. Look ahead at both possible landings before committing to the next jump.",
+          "Your health steadily drains, so the enemies in your path are also opportunities to extend the run. Land directly on one to recover health and build the score chain. If a coin and a reachable enemy are on different sides, take the enemy when your health is low.",
+          "The gaps, spikes, and fire become harder to read once you are focused on a combo. Check the tile after your intended landing, especially near an edge where the position can wrap. Save a charged special ability for a stretch where the regular route is closing off."
+        ],
+        "steps": [
+          [
+            "Choose a diagonal",
+            "Press A to flip left or D to flip right. Check the landing tile before pressing."
+          ],
+          [
+            "Recover health with an enemy landing",
+            "Aim to land directly on an enemy when you see a safe approach."
+          ],
+          [
+            "Plan around the hazards",
+            "Watch for gaps, spikes, and fire, then check where your next jump will be possible."
+          ],
+          [
+            "Keep a route open",
+            "Skip coins that would leave you on the wrong side of the grid and save your special ability for a difficult pattern."
+          ]
+        ],
+        "faq": [
+          [
+            "Why does health fall while I am still moving?",
+            "The health bar drains as the run continues. Landing on enemies gives you a way to replenish it."
+          ],
+          [
+            "How can I extend a score chain?",
+            "Look for successive enemy landings you can reach without touching a trap. Staying alive gives you more chances to continue the chain."
+          ],
+          [
+            "Can I move straight forward?",
+            "The two standard moves are diagonal. Plan a pair of opposite flips when you want to end up back on the same side."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "slap-champions",
+    "englishOnly": true,
+    "title": "Slap Champions",
+    "category": {
+      "en": "Turn-based timing duels"
+    },
+    "source": "https://1games.io/slap-champions",
+    "url": "https://slap-champions.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/slap-champions-icon.png",
+      "artwork": "/assets/1games/slap-champions-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/slap-champions-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/slap-champions/slap-champions.png",
+        "artwork": "https://1games.io/data/image/game/slap-champions/banner/slap-champions-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/slap-champions/slap-champions.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-26",
+      "genres": [
+        "arcade",
+        "sports"
+      ],
+      "tags": [
+        "timing-games",
+        "one-button-games",
+        "reaction-games",
+        "casual-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Stop the moving meter in its green zone, survive the opponent's turn, and spend your winnings on health or strength for the next match.",
+        "aboutTitle": "Win the duel one timed turn at a time",
+        "about": [
+          "Slap Champions is a cartoon tournament with alternating turns and a moving power meter. On your turn, wait until the marker reaches the green section before you tap. A tap outside that section can leave the opponent with most of their health intact.",
+          "The marker can be hard to follow if you stare only at the green zone. Watch one pass across the meter to see its pace, then focus on where the marker is going. The game uses exaggerated knockbacks to show how strongly a turn landed.",
+          "Coins from wins go into health and slap strength. Buy health if you are regularly losing before your next turn. Choose strength once you are surviving several turns and landing green-zone taps often enough to benefit from the boost."
+        ],
+        "steps": [
+          [
+            "Watch the meter move",
+            "On your turn, follow the marker until you have its rhythm."
+          ],
+          [
+            "Tap in the green section",
+            "Click or tap when the marker overlaps green to get a stronger hit."
+          ],
+          [
+            "Read both health bars",
+            "After each turn, check how close you and your opponent are to a knockout."
+          ],
+          [
+            "Choose an upgrade between matches",
+            "Spend your coins on extra health or increased strength based on where the last duel went wrong."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I tap several times to improve a turn?",
+            "The turn uses the timing of your strike. Wait for the green section before you commit."
+          ],
+          [
+            "How does a match end?",
+            "The first fighter to run out of health loses, and a knockout can send the character out of the ring."
+          ],
+          [
+            "Should I buy health or strength first?",
+            "Health is useful if you need another turn to finish a match. Strength gives you more value once you can hit the green section regularly."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "crazy-shark",
+    "englishOnly": true,
+    "title": "Crazy Shark",
+    "category": {
+      "en": "Ocean survival arcade"
+    },
+    "source": "https://1games.io/crazy-shark",
+    "url": "https://crazy-shark.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/crazy-shark-icon.png",
+      "artwork": "/assets/1games/crazy-shark-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/crazy-shark-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/crazy-shark/crazy-shark.png",
+        "artwork": "https://1games.io/data/image/game/crazy-shark/banner/crazy-shark-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/crazy-shark/crazy-shark.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-28",
+      "genres": [
+        "arcade",
+        "action"
+      ],
+      "tags": [
+        "sharks-games",
+        "water-games",
+        "eating-games",
+        "grow-games",
+        "sandbox-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Guide a hungry shark through changing depths, find enough small prey to keep going, and grow into stronger forms as you gain experience.",
+        "aboutTitle": "Feed first, then explore deeper water",
+        "about": [
+          "In Crazy Shark, the health meter runs down as you swim. Start by following small groups of prey and use short paths between meals. Crossing a long stretch of empty water can cost more health than you get back from a single catch.",
+          "The ocean opens up vertically as well as horizontally. Larger creatures can make deeper routes difficult for an early shark, so look for a way back to food before diving. Use short bursts of boost to close a gap or get away from a larger animal, then let your stamina recover.",
+          "Gaining experience unlocks larger sharks that can approach prey an early form has to avoid. During a brief Gold Rush, you become invincible and can string together catches quickly. Keep track of your route so you finish the rush somewhere with food nearby."
+        ],
+        "steps": [
+          [
+            "Guide the shark toward food",
+            "Move the mouse to steer. Start with smaller prey near your current depth."
+          ],
+          [
+            "Boost in short bursts",
+            "Hold the right mouse button for speed and release it before draining all of your stamina."
+          ],
+          [
+            "Learn which creatures to avoid",
+            "If a larger animal interrupts your feeding route, move back toward smaller prey and return after growing."
+          ],
+          [
+            "Use the Gold Rush window",
+            "Pick a route through a dense group of prey while the temporary protection is active."
+          ]
+        ],
+        "faq": [
+          [
+            "Why am I losing health even with nothing nearby?",
+            "Hunger drains health over time. Follow a route where you can keep feeding."
+          ],
+          [
+            "What changes when my shark evolves?",
+            "A larger shark has more reach and can take on prey that was difficult to catch earlier."
+          ],
+          [
+            "Does Gold Rush last for the rest of the run?",
+            "It is brief. Move back toward prey you can safely eat before the protection ends."
+          ]
+        ]
+      }
+    }
   }
 ]
