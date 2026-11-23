@@ -11408,5 +11408,457 @@
         ]
       }
     }
+  },
+  {
+    "id": "lift-off",
+    "englishOnly": true,
+    "title": "Lift Off",
+    "category": {
+      "en": "Rocket launch timing"
+    },
+    "source": "https://1games.io/lift-off",
+    "url": "https://lift-off.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/lift-off-icon.png",
+      "artwork": "/assets/1games/lift-off-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/lift-off-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/lift-off/lift-off.png",
+        "artwork": "https://1games.io/data/image/game/lift-off/banner/lift-off_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/lift-off/lift-off.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-03-06",
+      "genres": [
+        "arcade",
+        "simulation"
+      ],
+      "tags": [
+        "timing-games",
+        "one-button-games",
+        "reaction-games",
+        "incremental-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Time your rocket's stage separations, work your way through asteroid fields, and use your earnings to build a ship that can reach farther planets.",
+        "aboutTitle": "Launch, separate, and upgrade",
+        "about": [
+          "Lift Off turns a rocket launch into a sequence of timing decisions. After leaving the pad, you watch the current stage burn through its fuel. Separating too soon cuts the burn short, while waiting too long can leave the rocket without the boost it needs.",
+          "Each good separation carries you into the next stage with more momentum. Focus on the green section of the stage indicator and press once when you reach it. If you keep missing a target altitude, watch the first stage closely on your next run. An early mistake leaves less speed for every stage that follows.",
+          "Between flights, spend your earnings on more rocket stages or room for more astronauts. Extra stages give you another chance to gain altitude. Passenger upgrades help build up colonies and their income once you can reach a destination consistently. Unlocking another launch site lets you start farther into space."
+        ],
+        "steps": [
+          [
+            "Launch from the pad",
+            "Click or press Space to start the flight."
+          ],
+          [
+            "Watch the stage indicator",
+            "Press again as the indicator reaches the green zone to separate the active stage."
+          ],
+          [
+            "Time each boost separately",
+            "Follow the new stage's indicator after each separation. Avoid pressing twice in quick succession."
+          ],
+          [
+            "Choose an upgrade after landing",
+            "Add a stage if your rocket keeps falling short. Increase passenger capacity when you want to grow a colony."
+          ]
+        ],
+        "faq": [
+          [
+            "What happens if I release a stage too early?",
+            "You give up part of that stage's burn and may reach the next stage with less momentum."
+          ],
+          [
+            "Should I upgrade stages or passenger capacity first?",
+            "Extra stages help when you need a longer flight. Passenger slots pay off once you can reliably get astronauts to a destination."
+          ],
+          [
+            "What changes when I unlock a new launch site?",
+            "You can start from a farther base, such as Mars, and use it as a stepping stone toward more distant destinations."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "crazy-taxi",
+    "englishOnly": true,
+    "title": "Crazy Taxi",
+    "category": {
+      "en": "Traffic crossing arcade"
+    },
+    "source": "https://1games.io/crazy-taxi",
+    "url": "https://crazy-taxi.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/crazy-taxi-icon.png",
+      "artwork": "/assets/1games/crazy-taxi-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/crazy-taxi-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/crazy-taxi/crazy-taxi.png",
+        "artwork": "https://1games.io/data/image/game/crazy-taxi/banner/crazy-taxi_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/crazy-taxi/crazy-taxi.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-03-04",
+      "genres": [
+        "driving",
+        "arcade"
+      ],
+      "tags": [
+        "arcade-car",
+        "delivery-games",
+        "avoid-games",
+        "timing-games",
+        "one-button-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Pick up passengers and race across traffic one intersection at a time. Read the moving lanes before you commit to crossing.",
+        "aboutTitle": "Find a gap across every lane",
+        "about": [
+          "In this Crazy Taxi, your cab handles stops and passenger pickups. You take over when the next crossing comes into view. A clear lane directly in front of the cab can be misleading if a truck is about to reach the far side.",
+          "Look across the full intersection before accelerating. Track how the gaps move in each lane and aim to leave as the last vehicle in a group passes. Train crossings require a longer wait because the track stays blocked until the whole train clears it.",
+          "There is pressure to keep moving. Waiting too long can bring out a tow truck, so use the first moments at an intersection to read the pattern and make a decision. Completing trips earns progress toward vehicle unlocks, and daily missions give you a different reason to start another run."
+        ],
+        "steps": [
+          [
+            "Let the cab make its stop",
+            "The taxi picks up and drops off passengers automatically."
+          ],
+          [
+            "Look beyond the nearest lane",
+            "Check where traffic in the other lanes will be by the time you reach it."
+          ],
+          [
+            "Accelerate through the opening",
+            "Click or use Up Arrow, W, or Space to drive through the crossing."
+          ],
+          [
+            "Read the next crossing from scratch",
+            "Watch for trucks and trains and adjust your timing to the wider vehicles."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I need to steer the taxi into stops?",
+            "The cab follows the route and handles stops. Your input decides when to accelerate across traffic."
+          ],
+          [
+            "Can I stay parked at a crossing?",
+            "You can wait for an opening, but staying there too long may trigger a tow truck."
+          ],
+          [
+            "Why did I crash after the first lane was clear?",
+            "Traffic moves independently in each lane. Check for a gap far enough ahead that it stays open while you cross."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "ice-baby-quest-2",
+    "englishOnly": true,
+    "title": "Ice Baby Quest 2",
+    "category": {
+      "en": "First-person quest adventure"
+    },
+    "source": "https://1games.io/ice-baby-quest-2",
+    "url": "https://ice-baby-quest-2.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/ice-baby-quest-2-icon.png",
+      "artwork": "/assets/1games/ice-baby-quest-2-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/ice-baby-quest-2-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/ice-baby-quest-2/ice-baby-quest-2.png",
+        "artwork": "https://1games.io/data/image/game/ice-baby-quest-2/banner/ice-baby-quest-2_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/ice-baby-quest-2/ice-baby-quest-2.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-02-25",
+      "genres": [
+        "adventure",
+        "puzzle"
+      ],
+      "tags": [
+        "quests-games",
+        "search-games",
+        "mystery-games",
+        "jumping-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Explore a surreal world, follow clues from strange characters, and work out which objects move each quest forward.",
+        "aboutTitle": "Follow the clues and trade the oddest objects",
+        "about": [
+          "Ice Baby Quest 2 is a first-person adventure built around conversations and item exchanges. Meet the characters, hear what each one wants, and explore nearby rooms and paths for objects you can interact with. The characters sometimes give their best hints in the middle of a joke.",
+          "A request can lead through several trades. If someone asks for an item you have never seen, find out what the other characters offer before combing the entire map. Keep track of who asked for what so you can make the return trip when a trade finally gives you the right object.",
+          "When you reach Marsageddon, low gravity changes the way you jump and how far you travel in the air. Try a short jump before a long crossing. After your first run, the replay mode is worth exploring for changes to encounters and quest sequences."
+        ],
+        "steps": [
+          [
+            "Learn to move and look",
+            "Use WASD or the arrow keys to walk and the mouse to turn the camera."
+          ],
+          [
+            "Talk to characters and examine objects",
+            "Aim the camera at a person or object and left-click to interact."
+          ],
+          [
+            "Follow the item requests",
+            "Remember which character wants each object and return after you find it or trade for it."
+          ],
+          [
+            "Adjust your jumps to the area",
+            "Press Space to jump and hold Left Shift to sprint. In low gravity, allow more time to land."
+          ]
+        ],
+        "faq": [
+          [
+            "What should I do if a quest stalls?",
+            "Talk to nearby characters again and compare their requests. You may need to complete another exchange before the item you want becomes available."
+          ],
+          [
+            "How do I pick up an item?",
+            "Look directly at the object and left-click when you are close enough to interact."
+          ],
+          [
+            "Why do jumps feel different in Marsageddon?",
+            "Marsageddon has lower gravity. You stay airborne longer, so leave extra room for the landing."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "knife-master",
+    "englishOnly": true,
+    "title": "Knife Master",
+    "category": {
+      "en": "Physics flipping arcade"
+    },
+    "source": "https://1games.io/knife-master",
+    "url": "https://knife-master.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/knife-master-icon.png",
+      "artwork": "/assets/1games/knife-master-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/knife-master-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/knife-master/knife-master.png",
+        "artwork": "https://1games.io/data/image/game/knife-master/banner/knife-master_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/knife-master/knife-master.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-02-27",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "flip-games",
+        "knife-games",
+        "swipe-games",
+        "throwing-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Swipe to flip blades through the air and land them cleanly. Learn how different weights and challenges change the timing of each throw.",
+        "aboutTitle": "Control the arc and finish the rotation",
+        "about": [
+          "Knife Master scores the landing after the flip. Your swipe sets the arc and rotation, so a fast spin only helps if the blade comes down at the right angle. Try several throws with the same blade and change the length of the swipe a little each time.",
+          "A short flick produces a tighter arc. A longer stroke sends the blade higher and gives it more time in the air. When changing equipment, start with a familiar throw and watch how the new blade responds. Its weight can change a landing you could hit consistently before.",
+          "Use the different modes to practise different parts of the throw. Target Mode adds a moving bullseye, so you have to judge where it will be when the blade arrives. In Arcade Mode, the side-scrolling layout makes it important to look ahead to the next landing spot."
+        ],
+        "steps": [
+          [
+            "Make a short swipe",
+            "Drag and release with the mouse or swipe on a touchscreen to send the blade into a flip."
+          ],
+          [
+            "Watch the landing angle",
+            "If the blade keeps falling flat, adjust the length of the next swipe and watch when the tip points down."
+          ],
+          [
+            "Lead a moving target",
+            "In Target Mode, choose your release based on where the bullseye is headed."
+          ],
+          [
+            "Recalibrate after switching blades",
+            "Try a few ordinary landings with new equipment before attempting a double rotation."
+          ]
+        ],
+        "faq": [
+          [
+            "Does a bigger swipe guarantee a better landing?",
+            "It gives the blade a higher arc. The landing still depends on whether the blade completes its rotation at the right time."
+          ],
+          [
+            "What changes when I unlock a new blade?",
+            "Blades vary in weight and coin multiplier. The same swipe can feel different with a new piece of equipment."
+          ],
+          [
+            "What is a double flip?",
+            "It is two complete rotations in one throw. A clean landing after both rotations pays a larger coin reward."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "rob-brainrot-2",
+    "englishOnly": true,
+    "title": "Rob Brainrot 2",
+    "category": {
+      "en": "Collecting and base defense"
+    },
+    "source": "https://1games.io/rob-brainrot-2",
+    "url": "https://rob-brainrot-2.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/rob-brainrot-2-icon.png",
+      "artwork": "/assets/1games/rob-brainrot-2-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/rob-brainrot-2-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/rob-brainrot-2/robbrainrot2.png",
+        "artwork": "https://1games.io/data/image/game/rob-brainrot-2/banner/robbrainrot2-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/rob-brainrot-2/rob-brainrot-2.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-02-04",
+      "genres": [
+        "simulation",
+        "strategy"
+      ],
+      "tags": [
+        "italian-brainrot",
+        "roblox-games",
+        "collecting-games",
+        "defense-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Fill your base with income-generating Brainrots, protect your collection from raids, and decide when to trade a developed base for permanent rebirth bonuses.",
+        "aboutTitle": "Grow a collection and protect its income",
+        "about": [
+          "Rob Brainrot 2 starts with the Brainrots you place in your base. They earn cash over time, and you collect that cash to fund upgrades. Use the owned collection list to track which Brainrots you already have and which rarities or variations you are still missing.",
+          "A productive base gives you something to protect. Balance spending on new earners with upgrades that help you hold off raids. Before taking a trip to another base, learn the route back and make sure your next purchase can wait until you return.",
+          "Rebirth resets your current progress in exchange for permanent boosts. Check what you stand to gain and how quickly you could rebuild. If you are close to a collection milestone, it can make sense to finish that first and rebirth once the next run will benefit more from the multiplier."
+        ],
+        "steps": [
+          [
+            "Move around the base",
+            "Use WASD or the arrow keys to move and the mouse to look around."
+          ],
+          [
+            "Interact and collect cash",
+            "Press E when you are in range of an interactive object or collection point."
+          ],
+          [
+            "Give your income time to grow",
+            "Place Brainrots in your base and reinvest what they earn in collection space and defenses."
+          ],
+          [
+            "Read the rebirth offer",
+            "Check the bonus and decide whether it is worth giving up the progress you have in this run."
+          ]
+        ],
+        "faq": [
+          [
+            "How do Brainrots earn money?",
+            "Once placed at your base, they generate cash over time for you to collect."
+          ],
+          [
+            "Where can I see which Brainrots I already own?",
+            "Open the owned Brainrots list to review the collection and track missing entries."
+          ],
+          [
+            "Why use rebirth if it resets progress?",
+            "The permanent bonus helps later runs grow faster. Wait until the multiplier is worth rebuilding from an earlier stage."
+          ]
+        ]
+      }
+    }
   }
 ]
