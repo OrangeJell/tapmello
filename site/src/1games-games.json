@@ -12759,5 +12759,896 @@
         ]
       }
     }
+  },
+  {
+    "id": "tap-rich-idle",
+    "englishOnly": true,
+    "title": "Tap Rich Idle",
+    "category": {
+      "en": "Idle business management"
+    },
+    "source": "https://1games.io/tap-rich-idle",
+    "url": "https://1games.io/game/tap-rich-idle/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/tap-rich-idle-icon.png",
+      "artwork": "/assets/1games/tap-rich-idle-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/tap-rich-idle-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/tap-rich-idle/tap-rich-idle.png",
+        "artwork": "https://1games.io/data/image/game//banner/tap-rich-idle-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/tap-rich-idle/tap-rich-idle.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-22",
+      "genres": [
+        "clicker",
+        "simulation"
+      ],
+      "tags": [
+        "incremental-games",
+        "business-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Turn taps into startup cash, buy businesses that earn while you are away, and choose when to activate short income boosts.",
+        "aboutTitle": "Build income that keeps coming between taps",
+        "about": [
+          "Early taps give you the cash for your first business. As that business earns on its own, check how much the next upgrade would add. Buying a new source of income makes more sense when upgrading the current one would take longer to pay back.",
+          "Save temporary boosters for when you have several productive businesses. Increasing ordinary revenue before applying a multiplier gives the boost more income to work on. When you plan to step away, investing in passive income can keep the next session moving.",
+          "The futuristic technology upgrades open larger multipliers as the economy grows. Weekly country competitions add a shared leaderboard. You can work on your own income first and contribute to a team once you have a steady flow of earnings."
+        ],
+        "steps": [
+          [
+            "Start the cash flow",
+            "Click or tap to earn enough money for your first business."
+          ],
+          [
+            "Buy an income source",
+            "Use the earnings to buy a business, then compare its next upgrade with another available purchase."
+          ],
+          [
+            "Time your boost",
+            "Activate a booster when your most productive businesses are running."
+          ],
+          [
+            "Spend income when you return",
+            "Check the money earned while away and look for upgrades that raise future passive income."
+          ]
+        ],
+        "faq": [
+          [
+            "Does the game earn money while I am away?",
+            "Owned businesses generate offline income, so passive upgrades keep working between sessions."
+          ],
+          [
+            "When is a boost most effective?",
+            "Use it after improving regular earnings or buying a major business, so the multiplication applies to more income."
+          ],
+          [
+            "What is the weekly competition?",
+            "Country teams combine their progress to compete for leaderboard positions and rewards."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "tiny-arena",
+    "englishOnly": true,
+    "title": "Tiny Arena",
+    "category": {
+      "en": "Gladiator action RPG"
+    },
+    "source": "https://1games.io/tiny-arena",
+    "url": "https://1games.io/game/tiny-arena/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/tiny-arena-icon.png",
+      "artwork": "/assets/1games/tiny-arena-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/tiny-arena-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/tiny-arena/tiny-arena.png",
+        "artwork": "https://1games.io/data/image/game/tiny-arena/banner/tiny-arena-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/tiny-arena/tiny-arena.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-17",
+      "genres": [
+        "action",
+        "strategy"
+      ],
+      "tags": [
+        "gladiator-games",
+        "arena-games",
+        "fantasy-games",
+        "horde-survival-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Choose a fighter class, practise the timing of both special skills, and tune your equipment for fantasy duels or Survival Tower waves.",
+        "aboutTitle": "Build a fighter for the next arena",
+        "about": [
+          "Tiny Arena gives you four classes with different skill and equipment options. Try the basic attack and both specials early. A class that makes space comfortably can be easier to learn than one that expects you to stay within reach of a large enemy.",
+          "Opponents grow tougher as the arenas advance. Watch a new enemy act before spending both specials. If your first skill creates a chance to move, use that space to decide whether the second skill can land safely.",
+          "Weapons, armor, and artifacts change how a class performs. Adjust your loadout based on where you are losing. Survival Tower keeps the pressure on across multiple waves and puts currency at risk, so practise with unfamiliar equipment in a regular duel first."
+        ],
+        "steps": [
+          [
+            "Choose a class",
+            "Read the available skills and pick a fighter whose basic attack is comfortable to use."
+          ],
+          [
+            "Get into range",
+            "Move with A and D or the left and right arrow keys. Press Space for the basic attack."
+          ],
+          [
+            "Use specials one at a time",
+            "Press J or K for the respective special and keep one available while sizing up a new opponent."
+          ],
+          [
+            "Review equipment after the fight",
+            "Compare damage and protection before changing your weapon, armor, or artifact."
+          ]
+        ],
+        "faq": [
+          [
+            "Why do classes feel different?",
+            "A class determines which skills and types of gear you can use, which changes the openings you can take."
+          ],
+          [
+            "What is Survival Tower?",
+            "It is a wave challenge where you risk earned currency for rewards as the fights get tougher."
+          ],
+          [
+            "What should I change if a big enemy keeps winning?",
+            "Try more protection if you run out of health early. If you survive but cannot finish the duel, review your attack and skill timing."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "city-brawl",
+    "englishOnly": true,
+    "title": "City Brawl",
+    "category": {
+      "en": "Side-scrolling street fighting"
+    },
+    "source": "https://1games.io/city-brawl",
+    "url": "https://1games.io/game/city-brawl/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/city-brawl-icon.png",
+      "artwork": "/assets/1games/city-brawl-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/city-brawl-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/city-brawl/city-brawl.png",
+        "artwork": "https://1games.io/data/image/game/city-brawl/banner/city-brawl-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/city-brawl/city-brawl.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-11-24",
+      "genres": [
+        "action",
+        "arcade"
+      ],
+      "tags": [
+        "action-fighting",
+        "combat-games",
+        "fast-paced-action"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Fight through city districts with punches, kicks, grabs, and blocks. Learn where to stand before a crowd closes in.",
+        "aboutTitle": "Make space between fights in the city",
+        "about": [
+          "City Brawl takes you through city blocks where enemies can approach from either side. Move toward a clear patch of the screen when a group builds up. Having one side free makes it easier to see when a fighter is about to move in.",
+          "Punches, kicks, grabs, and blocks give you several ways to handle an encounter. Keep the first exchange short while you learn an enemy’s reach. Boss fights add patterns of their own, so watch for the pause after a move before trying a longer combo.",
+          "Street victories, quests, and achievements contribute to progression. Fighters vary in speed and power. Choose upgrades around what is holding you back. Faster movement can help when you are repeatedly cornered, while power helps if you already get regular openings."
+        ],
+        "steps": [
+          [
+            "Move around the group",
+            "Use WASD or the arrow keys to move and Space to jump."
+          ],
+          [
+            "Test your reach",
+            "Use Z to punch or X to kick. Start with one input so you can see how far it reaches."
+          ],
+          [
+            "Grab or block",
+            "Use C to grab and V to block. Give yourself time to move after an exchange."
+          ],
+          [
+            "Watch a boss repeat a move",
+            "Identify when the attack ends and take that opening before trying a longer combo."
+          ]
+        ],
+        "faq": [
+          [
+            "Why do I keep getting hit from behind?",
+            "Opponents can approach from several directions. Move out of the middle of a group before starting another combo."
+          ],
+          [
+            "How do I block or grab?",
+            "Press V to block and C to grab."
+          ],
+          [
+            "Do all fighters move at the same pace?",
+            "Fighters vary in power and speed. Try a few encounters before committing upgrades to a new character."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "santa-run",
+    "englishOnly": true,
+    "title": "Santa Run",
+    "category": {
+      "en": "Winter obstacle runner"
+    },
+    "source": "https://1games.io/santa-run",
+    "url": "https://1games.io/game/santa-run/",
+    "width": 512,
+    "height": 512,
+    "media": {
+      "icon": "/assets/1games/santa-run-icon.png",
+      "artwork": "/assets/1games/santa-run-icon.png",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "preview": "/assets/1games/santa-run-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/santa-run/santa-run.jpg",
+        "artwork": "https://1games.io/data/image/game/santa-run/santa-run.jpg",
+        "preview": "https://cdn.1games.io/file/game/santa-run/santa_run.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "santa-claus-games",
+        "holiday-games",
+        "endless-games",
+        "avoid-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Chase a coin-stealing raccoon through snowy routes. Change lanes, jump, or slide as penguins and snowmen block the path.",
+        "aboutTitle": "Find the clear lane before taking the coins",
+        "about": [
+          "Santa Run sends Santa after a raccoon through a winter obstacle course. Look for the next safe lane while you collect gold. A coin trail can be tempting, but following it too far can leave you facing a snowman with little time to move.",
+          "Some obstacles need a jump or slide while others are easier to go around. Watch the obstacle after the one in front of you. Switching lanes early gives you time to prepare a jump or slide without making both decisions at once.",
+          "The scenery and hazard combinations change as you progress. Treat a new section as a chance to learn the timing, especially when icy patches are close together. A longer run gives you more opportunities to collect coins than a risky detour for one short line."
+        ],
+        "steps": [
+          [
+            "Steer into a clear lane",
+            "Press Left or Right Arrow, or use A and D, to move sideways."
+          ],
+          [
+            "Jump over low obstacles",
+            "Press Up Arrow or W when you are close enough to clear the obstacle."
+          ],
+          [
+            "Slide under barriers",
+            "Press Down Arrow or S to slide when the route has room underneath."
+          ],
+          [
+            "Choose safe coin trails",
+            "Look beyond the last coin before committing to a lane."
+          ]
+        ],
+        "faq": [
+          [
+            "Should I follow every row of coins?",
+            "Take a coin row when you can also see a way around the next obstacle."
+          ],
+          [
+            "How do I slide?",
+            "Press Down Arrow or S to slide beneath a barrier."
+          ],
+          [
+            "Does the route stay the same?",
+            "The winter environments and combinations of obstacles change during the run. Watch the next section as it comes into view."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "wheelie-party",
+    "englishOnly": true,
+    "title": "Wheelie Party",
+    "category": {
+      "en": "One-button wheelie arcade"
+    },
+    "source": "https://1games.io/wheelie-party",
+    "url": "https://1games.io/game/wheelie-party/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/wheelie-party-icon.png",
+      "artwork": "/assets/1games/wheelie-party-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/wheelie-party-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wheelie-party/wheelie-party.png",
+        "artwork": "https://1games.io/data/image/game/wheelie-party/banner/wheelie-party-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/wheelie-party/wheelie-party.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-08",
+      "genres": [
+        "driving",
+        "arcade"
+      ],
+      "tags": [
+        "bike-racing-games",
+        "one-button-games",
+        "timing-games",
+        "stunt-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Hold and release Up Arrow to balance a bike on its rear wheel. Keep the angle steady as you ride along a 2D highway.",
+        "aboutTitle": "Control the wheelie with short corrections",
+        "about": [
+          "Wheelie Party gives you a single key for lifting the front wheel. Holding Up Arrow raises the bike, and releasing it changes the angle back toward the road. The run is about feeling how much tilt builds before the bike becomes hard to recover.",
+          "Start with a gentle lift and release when the bike is already high enough. If the front wheel begins to drop, a short press can bring it back up. Several small corrections are easier to judge than one long hold after the bike has started leaning too far.",
+          "Watch the front wheel relative to the horizon as you gain distance. The bright highway gives you a clear reference for the bike’s angle. If one run ends in a backward tip, release a little earlier at the same angle in the next attempt."
+        ],
+        "steps": [
+          [
+            "Raise the front wheel",
+            "Hold Up Arrow until you have a visible, moderate wheelie."
+          ],
+          [
+            "Release before the angle gets steep",
+            "Let go of Up Arrow as the front wheel climbs too high."
+          ],
+          [
+            "Catch a falling front wheel",
+            "Use a brief press to bring it back up when it starts dropping."
+          ],
+          [
+            "Repeat the same opening",
+            "Practise a consistent first lift, then adjust the length of later taps to keep going."
+          ]
+        ],
+        "faq": [
+          [
+            "Why do I flip backward?",
+            "A hold that lasts too long keeps increasing the bike’s angle. Release earlier on the next lift."
+          ],
+          [
+            "Do I need a separate brake key?",
+            "This version uses a held Up Arrow and its release to control the front wheel."
+          ],
+          [
+            "How can I make a wheelie last longer?",
+            "Keep the front wheel at a moderate height and use short corrections before the bike develops a large tilt."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "bounce-path",
+    "englishOnly": true,
+    "title": "Bounce Path",
+    "category": {
+      "en": "Rhythm platform arcade"
+    },
+    "source": "https://1games.io/bounce-path",
+    "url": "https://1games.io/game/bounce-path/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/bounce-path-icon.png",
+      "artwork": "/assets/1games/bounce-path-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/bounce-path-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bounce-path/bounce-path.png",
+        "artwork": "https://1games.io/data/image/game/bounce-path/banner/bounce-path-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/bounce-path/bounce-path.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-15",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "rhythm-games",
+        "jumping-games",
+        "timing-games",
+        "one-button-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Jump a colorful ball along music-synced stairs and platforms. Learn each track’s gaps to keep the sequence going and unlock more songs.",
+        "aboutTitle": "Read the stairs and listen for your next jump",
+        "about": [
+          "Bounce Path follows Blob through courses built around songs. A click makes the ball jump. The challenge is judging where the ball will be when you tap, especially when the next platform is higher or farther than the last one.",
+          "Listen for a steady beat on the opening stretch and watch how the landings line up with it. If you miss a jump, note the obstacle it happened at. Try the same opening again and change the timing of that jump first.",
+          "Later tracks make the timing less forgiving by changing platform patterns or the pace. Improve the opening route until it needs less attention. That leaves you more time to look ahead when a new gap or obstacle appears."
+        ],
+        "steps": [
+          [
+            "Start a track",
+            "Watch the first few stairs and listen for the song’s rhythm."
+          ],
+          [
+            "Jump with one input",
+            "Left-click to make Blob jump as it reaches the next gap or step."
+          ],
+          [
+            "Look past the landing",
+            "Check the next obstacle before you make the current jump."
+          ],
+          [
+            "Practise a difficult sequence",
+            "Repeat the track and change the timing at the first missed jump before trying to improve the whole run."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I control the ball?",
+            "Use the left mouse button to jump. Timing that input carries the ball through the track."
+          ],
+          [
+            "Why do I miss even when I tap to the music?",
+            "Look at the gap as well as listening. The platform layout tells you which beat gives the ball room to land."
+          ],
+          [
+            "Can I unlock more songs?",
+            "Progress through the available tracks to open additional songs with their own layouts."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "undead-invasion",
+    "englishOnly": true,
+    "title": "Undead Invasion",
+    "category": {
+      "en": "Side-scrolling zombie defense"
+    },
+    "source": "https://1games.io/undead-invasion",
+    "url": "https://undead-invasion.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/undead-invasion-icon.png",
+      "artwork": "/assets/1games/undead-invasion-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/undead-invasion-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/undead-invasion/undead-invasion.png",
+        "artwork": "https://1games.io/data/image/game/undead-invasion/banner/undead-invasion-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/undead-invasion/undead-invasion.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-10",
+      "genres": [
+        "shooting",
+        "strategy"
+      ],
+      "tags": [
+        "defense-games",
+        "horde-survival-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Build barricades, manage weapons and supplies between zombie waves, and try unlocked equipment freely in Playground.",
+        "aboutTitle": "Spend your supplies where the defense is weakest",
+        "about": [
+          "Undead Invasion combines shooting with building defenses across a side-scrolling battlefield. Each wave puts pressure on the headquarters. Check where enemies are coming from before buying a new barricade or trap, especially if one side has already taken most of the damage.",
+          "Plan for reloads and repairs. Use quiet periods to restore the part of your defense that failed first. If your structures are holding but you are running short of firepower, a weapon upgrade may do more for the next wave than an extra wall.",
+          "Available upgrades can vary between runs. Let what you find shape the plan for that attempt. Playground lets you use unlocked items without the same risk of ending a run, so it is useful for testing how two pieces of equipment work together."
+        ],
+        "steps": [
+          [
+            "Choose Defense or Playground",
+            "Pick Defense for escalating waves or Playground to try equipment without the wave pressure."
+          ],
+          [
+            "Move, attack, and reload",
+            "Use the arrow keys to move, click to attack, and press R to reload."
+          ],
+          [
+            "Switch your equipment",
+            "Press Q to change weapons and use the fence icon to build a structure."
+          ],
+          [
+            "Check the front before the next wave",
+            "Spend resources where the previous wave came closest to breaking through."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I try a trap before buying it in a run?",
+            "Playground lets you experiment with equipment you have already unlocked."
+          ],
+          [
+            "How do I reload or switch weapons?",
+            "Press R to reload and Q to switch weapons."
+          ],
+          [
+            "Should I spend on walls or weapons first?",
+            "Repair an opening if enemies are getting through. If your barriers hold and you still cannot clear a wave, put more of the next budget toward firepower."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "stickman-war",
+    "englishOnly": true,
+    "title": "Stickman War",
+    "category": {
+      "en": "Side-scrolling action RPG"
+    },
+    "source": "https://1games.io/stickman-war",
+    "url": "https://stickman-war.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/stickman-war-icon.png",
+      "artwork": "/assets/1games/stickman-war-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/stickman-war-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/stickman-war/stickman-war.png",
+        "artwork": "https://1games.io/data/image/game/stickman-war/banner/stickman-war-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/stickman-war/stickman-war.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-12",
+      "genres": [
+        "action",
+        "arcade"
+      ],
+      "tags": [
+        "action-fighting",
+        "fantasy-games",
+        "combat-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Take a stickman fighter through monster-filled arenas, unlock class skills, and manage attack cooldowns when enemies close in.",
+        "aboutTitle": "Keep one move available when the next wave closes in",
+        "about": [
+          "Stickman War uses side-scrolling arenas where enemies can fill the space in front of your fighter. Move enough to keep an opening behind you. That gives you somewhere to dash when too many monsters crowd the same stretch.",
+          "Basic attacks and special abilities serve different parts of a fight. Use normal strikes while the approach is clear, then spend a skill when there are enough enemies in reach to make it count. Using everything together can leave you waiting through several cooldowns.",
+          "Class progression opens more skills and gear. Learn the range and recovery of an ability before bringing it into a boss fight. If a new group keeps catching you between attacks, try an upgrade that helps with recovery or use the dash earlier."
+        ],
+        "steps": [
+          [
+            "Move into a clear part of the arena",
+            "Press A or D to move and W to jump past incoming threats."
+          ],
+          [
+            "Use the basic strike",
+            "Press J to attack when an enemy is in reach."
+          ],
+          [
+            "Dash to reset your position",
+            "Press K when you need room or want to leave a crowded section."
+          ],
+          [
+            "Space out special abilities",
+            "Use Numpad 1 through 4 for available specials. Keep an ability ready for a second group."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I unlock more skills?",
+            "Earn experience and currency in fights, then spend upgrades in the available paths for your class."
+          ],
+          [
+            "Which key makes my fighter dash?",
+            "Press K to dash."
+          ],
+          [
+            "Why save an ability?",
+            "Specials need time to recover. Saving one gives you an option if a new group arrives while the others are unavailable."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "mad-trails",
+    "englishOnly": true,
+    "title": "Mad Trails",
+    "category": {
+      "en": "Physics rock-crawling"
+    },
+    "source": "https://1games.io/mad-trails",
+    "url": "https://mad-trails.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/mad-trails-icon.png",
+      "artwork": "/assets/1games/mad-trails-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/mad-trails-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/mad-trails/mad-trails.png",
+        "artwork": "https://1games.io/data/image/game/mad-trails/banner/mad-trails-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/mad-trails/mad-trails.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-11-21",
+      "genres": [
+        "driving",
+        "simulation"
+      ],
+      "tags": [
+        "stunt-games",
+        "vehicles-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Climb uneven rock trails with careful throttle and steering. Tune your crawler and improve routes over narrow ridges and steep climbs.",
+        "aboutTitle": "Build enough momentum for the climb without tipping",
+        "about": [
+          "Mad Trails asks you to drive over steep slopes, loose rocks, and narrow ridges. The tires react to the terrain and can lose grip if you accelerate hard while the crawler is already tilted. Look for a line that stays steady before carrying more speed up the hill.",
+          "Too little throttle can strand you partway up a climb. Start the approach with enough speed to keep moving, then ease off before the crest. If the front of the crawler starts lifting too far, a gentler approach can help more than another push against the same rock.",
+          "Successful runs unlock vehicles and tuning options for grip, torque, and suspension. Try one change on a route you already know. A ghost run gives you a reference for finding slow corners and climbs once you can finish the course reliably."
+        ],
+        "steps": [
+          [
+            "Approach the climb",
+            "Use Up Arrow or W to go forward and line up a steady route over the obstacle."
+          ],
+          [
+            "Reverse to try another line",
+            "Press Down Arrow or S if the crawler wedges against a rock or loses its approach."
+          ],
+          [
+            "Use small steering corrections",
+            "Steer with the left and right arrow keys or A and D while crossing a narrow ridge."
+          ],
+          [
+            "Compare a tuning change",
+            "Try the same climb before and after an upgrade so you can tell how it affects your grip."
+          ]
+        ],
+        "faq": [
+          [
+            "Why does the crawler tip on steep climbs?",
+            "Too much throttle at a steep angle can lift the front and flip the vehicle. Approach more gently and ease off near the crest."
+          ],
+          [
+            "What affects how crawlers handle?",
+            "Different vehicles vary in torque, grip, and suspension. The best choice depends on the terrain."
+          ],
+          [
+            "When is a ghost useful?",
+            "Once you can finish the course, it helps show where a better line or a slower approach could save time."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "bat-smash",
+    "englishOnly": true,
+    "title": "Bat Smash",
+    "category": {
+      "en": "Baseball distance challenge"
+    },
+    "source": "https://1games.io/bat-smash",
+    "url": "https://bat-smash.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/bat-smash-icon.png",
+      "artwork": "/assets/1games/bat-smash-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/bat-smash-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bat-smash/bat-smash.png",
+        "artwork": "https://1games.io/data/image/game/bat-smash/banner/bat-smash-1200x1200.png",
+        "preview": "https://1games.io/data/file/game/bat-smash/bat-smash.mp4"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-11-28",
+      "genres": [
+        "sports",
+        "arcade"
+      ],
+      "tags": [
+        "timing-games",
+        "one-button-games",
+        "incremental-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Time a single click to drive the baseball for distance. Spend the coins from each hit on strength, swing speed, or bounce.",
+        "aboutTitle": "Find a repeatable swing before spending on distance",
+        "about": [
+          "Bat Smash measures how far the ball travels after you hit it. Watch the ball reach the hitting area and click at the point that gets the best contact. A consistent swing is a better way to measure progress than changing the timing on every attempt.",
+          "Distance earns coins that you can put into strength, swing speed, or bounce. They improve different parts of a hit. If the ball travels well in the air but stops quickly on the ground, bounce is a reasonable next upgrade to try.",
+          "The game gives you distance milestones and new bats to unlock. When you change a stat or equip a new bat, compare several well-timed hits. One unlucky swing can hide whether the new setup is giving you a better result."
+        ],
+        "steps": [
+          [
+            "Watch the incoming ball",
+            "Follow it into the hitting area before pressing anything."
+          ],
+          [
+            "Click to swing",
+            "Click once when the ball reaches your best contact point."
+          ],
+          [
+            "Choose a distance upgrade",
+            "Use coins earned on the hit to improve strength, speed, or bounce."
+          ],
+          [
+            "Compare several attempts",
+            "Try the upgraded setup on a few well-timed swings before spending again."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I swing?",
+            "Click once as the ball reaches the hitting area. Timing decides the quality of contact."
+          ],
+          [
+            "What does the bounce upgrade do?",
+            "It improves the ball’s travel after it hits the ground, so it can add distance beyond the first landing."
+          ],
+          [
+            "How do I get different bats?",
+            "Progress through the game and reach its reward milestones to unlock more bat designs."
+          ]
+        ]
+      }
+    }
   }
 ]
