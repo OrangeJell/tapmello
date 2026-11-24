@@ -61,7 +61,7 @@ test('Hindi landing page measures game loading and effective play; Hindi home st
   const home = harness({ pathname: '/hi/', scriptSrc });
   assert.equal(home.events('page_view')[0].fields.page_type, 'site');
   assert.equal(home.events('game_load_start').length, 0);
-  const h = harness({ pathname: '/hi/games/screw-sort/', scriptSrc });
+  const h = harness({ pathname: '/hi/screw-sort', scriptSrc });
   assert.equal(h.events('page_view')[0].fields.page_type, 'embedded_game');
   assert.equal(h.events('game_load_start').length, 1);
   h.game('ready', { game_language: 'hi' }); h.api.setAvailable(true);

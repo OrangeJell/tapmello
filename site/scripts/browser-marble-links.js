@@ -12,14 +12,14 @@ async page => {
    await page.locator('#start').waitFor();
    check(await page.locator('#site-back').isVisible(),'standalone return link visible '+language);
    await page.locator('#site-back').click();await page.locator('.detail-play').click();await page.locator('[data-marble-embed][data-state=ready]').waitFor();
-   check(page.url().includes(prefix+'/games/marble-sort/'),'standalone returns to matching language '+language);
+   check(page.url().includes(prefix+'/marble-sort'),'standalone returns to matching language '+language);
    const frame=page.frameLocator('#marble-frame');
    check(await frame.locator('#site-back').isHidden(),'embedded return link hidden '+language);
  }
  for(const prefix of ['','/hi']) {
-   await page.goto(base+prefix+'/games/mahjong/');await page.locator('.detail-play').click();await page.locator('[data-mahjong-embed][data-state=ready]').waitFor();
+   await page.goto(base+prefix+'/mahjong');await page.locator('.detail-play').click();await page.locator('[data-mahjong-embed][data-state=ready]').waitFor();
    check(await page.frameLocator('#mahjong-frame').locator('.level-card').count()===3,'Mahjong still loads '+prefix);
-   await page.goto(base+prefix+'/games/screw-sort/');
+   await page.goto(base+prefix+'/screw-sort');
    check(await page.locator('#game-frame').count()===1,'Glass Twist iframe preserved '+prefix);
    await page.locator('.detail-play').click();
    await page.locator('#game-embed[data-state=ready]').waitFor();

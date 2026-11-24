@@ -216,7 +216,7 @@ function handle(event){
 function sitePrefix(){return progress.lang==='en'?'':'/'+progress.lang.toLowerCase();}
 function openSiteArticles() {
   if (embedded) parent.postMessage({type:'tapmelo-mahjong-guides'}, location.origin);
-  else window.top.location.href = `${sitePrefix()}/games/mahjong/#guides`;
+  else window.top.location.href = `${sitePrefix()}/mahjong#guides`;
 }
 function openSiteArticle(id){window.top.location.href=`${sitePrefix()}/guides/mahjong/${id}/`;}
 function reportSize(){if(embedded)requestAnimationFrame(()=>parent.postMessage({type:'tapmelo-mahjong-ready',height:Math.ceil(Math.max(app.getBoundingClientRect().height+12,dialog.open?650:0)),route:location.hash},location.origin));}

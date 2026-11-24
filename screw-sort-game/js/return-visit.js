@@ -11,7 +11,7 @@
   const pageLanguage = () => siteLocale?.dataset.language ?? (/^hi(?:-|$)/i.test(document.documentElement.lang) ? 'hi' : 'en');
   const hindiPage = pageLanguage() === 'hi' || location.pathname.startsWith('/hi/') ||
     new URLSearchParams(location.search).get('lang') === 'hi';
-  const gamePath = siteLocale?.dataset.gamePath ?? (hindiPage ? '/hi/games/screw-sort/' : '/games/screw-sort/');
+  const gamePath = siteLocale?.dataset.gamePath ?? (hindiPage ? '/hi/screw-sort' : '/screw-sort');
   const gameUrl = new URL(gamePath, location.origin).href;
   const copy = {
     en: {
@@ -214,7 +214,7 @@
     const instructions = platform.inapp ? 'inapp' : platform.ios ? 'ios' : platform.android ? 'android' : platform.desktop ? 'desktop' : 'generic';
     installButton = button(text(language, 'install'), install, 'rv-primary');
     add.append(make('p', text(language, instructions)), installButton);
-    if (location.pathname !== gamePath && location.pathname !== gamePath.slice(0, -1)) {
+    if (location.pathname.replace(/\/$/, '') !== gamePath) {
       const link = make('a', text(language, 'openGame'), 'rv-game-link');
       link.href = gameUrl;
       add.append(link);

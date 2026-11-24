@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { languageCodes } from './languages.mjs';
+import { languageCodes, localPath } from './languages.mjs';
 
 const providers = ['1games', 'playgama'];
 const catalogue = providers.flatMap(provider =>
@@ -81,4 +81,4 @@ for (const id of localizedIds) assert.ok(ids.has(id), `Unknown localized partner
 export const partnerGamesFor = (lang, sharedOnly = false) =>
   lang === 'en' && !sharedOnly ? partnerGames : partnerGames.filter(game => game.details.hi);
 
-export const partnerGamePath = (lang, game) => `${lang === 'hi' ? '/hi' : ''}/play/${game.provider}/${game.id}/`;
+export const partnerGamePath = (lang, game) => localPath(lang, `/${game.id}`);

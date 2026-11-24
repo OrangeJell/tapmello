@@ -71,7 +71,7 @@ async (page) => {
   try {
     await desktopContext.addInitScript(() => localStorage.setItem('marble-sort.level', '11'));
     const desktop = await desktopContext.newPage();
-    await desktop.goto('http://127.0.0.1:4173/games/marble-sort/');
+    await desktop.goto('http://127.0.0.1:4173/marble-sort');
     await desktop.locator('.detail-play').click();
     await desktop.locator('[data-marble-embed][data-state="ready"]').waitFor();
     const frame = desktop.frameLocator('#marble-frame');

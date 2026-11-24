@@ -23,7 +23,7 @@ async page => {
     results.push({ route, width, ...layout });
   }
   await page.setViewportSize({ width: 390, height: 900 });
-  await page.goto(base + '/games/screw-sort/');
+  await page.goto(base + '/screw-sort');
   await page.waitForFunction(() => document.querySelector('#game-embed').dataset.state === 'ready');
   await page.screenshot({ path: output + 'glass-twist-game-390-top.png' });
   await page.goto(base + '/play/screw-sort/?lang=en&qa=1&previewLevel=1');

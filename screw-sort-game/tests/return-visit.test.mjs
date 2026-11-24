@@ -63,7 +63,7 @@ function controller({ saved, broken = false, embedded = false, standalone = fals
   if (analytics) window.tapmeloAnalytics = { retention: (name, fields) => events.push({ name, fields }) };
   const document = { documentElement: { lang: 'en' }, addEventListener: on, getElementById: () => null, querySelectorAll: () => [] };
   vm.runInNewContext(source, { window, document, navigator: { userAgent: '', standalone: false }, URL, URLSearchParams,
-    location: { origin: 'https://tapmelo.com', pathname: '/games/screw-sort/' },
+    location: { origin: 'https://tapmelo.com', pathname: '/screw-sort' },
     Date: class extends Date { static now() { return time; } },
     localStorage: {
       getItem(key) { if (broken) throw Error('blocked'); return values.get(key) ?? null; },

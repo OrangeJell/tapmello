@@ -5,7 +5,7 @@ async page => {
   page.on('pageerror', error => errors.push(error.message));
   for (const width of [320, 390, 1280]) {
     await page.setViewportSize({ width, height: 844 });
-    for (const route of ['/', '/hi/', '/games/screw-sort/', '/hi/games/screw-sort/', '/guides/glass-twist-level-2/', '/hi/guides/glass-twist-level-2/', '/about/', '/contact/', '/privacy/', '/terms/']) {
+    for (const route of ['/', '/hi/', '/screw-sort', '/hi/screw-sort', '/guides/glass-twist-level-2/', '/hi/guides/glass-twist-level-2/', '/about/', '/contact/', '/privacy/', '/terms/']) {
       await page.goto(base + route);
       if (route.includes('/games/')) {
         await page.locator('.detail-play').click();
@@ -35,7 +35,7 @@ async page => {
     }
   }
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto(base + '/games/screw-sort/');
+  await page.goto(base + '/screw-sort');
   await page.locator('.detail-play').click();
   await page.waitForFunction(() => document.querySelector('#game-embed').dataset.state === 'ready');
   const frame = page.frameLocator('#game-frame');
@@ -49,7 +49,7 @@ async page => {
   await page.screenshot({ path: 'screw-sort-game/output/playwright/site-game-390.png', fullPage: true });
   await page.locator('#how-to-play').screenshot({ path: 'screw-sort-game/output/playwright/site-guide-390.png' });
   await page.locator('#levels').screenshot({ path: 'screw-sort-game/output/playwright/site-levels-390.png' });
-  await page.goto(base + '/hi/games/screw-sort/');
+  await page.goto(base + '/hi/screw-sort');
   await page.locator('.detail-play').click();
   await page.waitForFunction(() => document.querySelector('#game-embed').dataset.state === 'ready');
   await page.locator('#how-to-play').screenshot({ path: 'screw-sort-game/output/playwright/site-guide-hi-390.png' });
@@ -66,7 +66,7 @@ async page => {
   const context = await page.context().browser().newContext({ javaScriptEnabled: false, viewport: { width: 320, height: 844 } });
   const staticPage = await context.newPage();
   const expectedLevels = await page.evaluate(async () => (await import('./js/levels.js')).LEVELS.length);
-  for (const route of ['/games/screw-sort/', '/hi/games/screw-sort/']) {
+  for (const route of ['/screw-sort', '/hi/screw-sort']) {
     await staticPage.goto(base + route);
     assert(await staticPage.locator('#how-to-play li').count() === 4, 'No-JS steps missing');
     assert(await staticPage.locator('#levels tbody tr').count() === expectedLevels, 'No-JS catalogue missing');
@@ -77,7 +77,7 @@ async page => {
     await staticPage.goto(base + route);
     assert(await staticPage.locator('#opening li').count() === 3, 'No-JS opening guide missing');
     assert(await staticPage.locator('article img').count() === 3, 'No-JS walkthrough screenshots missing');
-    assert(await staticPage.locator(`a[href$="/games/screw-sort/#game-embed"]`).count() === 2, 'Walkthrough return links missing');
+    assert(await staticPage.locator(`a[href$="/screw-sort#game-embed"]`).count() === 2, 'Walkthrough return links missing');
   }
   await context.close();
   assert(errors.length === 0, errors.join('\n'));

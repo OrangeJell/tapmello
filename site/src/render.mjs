@@ -51,7 +51,7 @@ export function renderHome(lang, sharedOnly) {
       <h2 id="continue-playing-title"><a href="${playedGamesPath(lang)}">${hi ? 'खेलना जारी रखें' : 'Continue playing'}${discoveryIcon('next')}</a></h2>
       <div class="game-collection" data-played-games></div>
     </section>
-    <h1 class="home-games-heading">${hi ? 'गेम लाइब्रेरी' : 'Game library'}</h1>
+    <h1 class="home-games-heading">${escape(locales[lang].homeHeading)}</h1>
     ${renderGameCollection(games.slice(0, homeGameLimit), lang, true)}
     <a class="collection-more" href="${gamesPath(lang)}" data-all-games-link>${gamesLabel(lang)}${discoveryIcon('next')}</a>
 ${remaining.length ? `    <template data-played-catalogue>${remaining.map(game => renderGameTile(game)).join('\n')}</template>` : ''}

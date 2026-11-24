@@ -68,7 +68,7 @@ export function localizeDocument() {
   for (const element of document.querySelectorAll('[data-i18n]')) element.textContent = t(element.dataset.i18n);
   const back = document.querySelector('#site-back');
   if (back && location.pathname.startsWith('/play/marble-sort/')) {
-    back.href = `${language === 'en' ? '' : '/' + language.toLowerCase()}/games/marble-sort/`;
+    back.href = `${language === 'en' ? '' : '/' + language.toLowerCase()}/marble-sort`;
     back.hidden = new URLSearchParams(location.search).get('embed') === '1';
   }
   for (const element of document.querySelectorAll('[data-i18n-label]')) element.setAttribute('aria-label', t(element.dataset.i18nLabel));

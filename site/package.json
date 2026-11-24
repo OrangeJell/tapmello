@@ -5,7 +5,7 @@
   "scripts": {
     "build": "node scripts/build.mjs && node scripts/check.mjs",
     "check": "node scripts/check.mjs",
-    "serve": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "serve": "npx --yes wrangler@4.164.0 dev --config ../wrangler.toml --port 4173 --ip 127.0.0.1",
     "check:browser": "sh scripts/check-browser.sh en",
     "check:locale": "sh scripts/check-browser.sh"
   },

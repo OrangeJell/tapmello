@@ -7,10 +7,10 @@ async page => {
     await page.setViewportSize({width,height:900});
     for(const lang of ['en','hi']){
       const prefix=lang==='hi'?'/hi':'';
-      for(const route of [prefix+'/',prefix+'/games/mahjong/',...ids.map(id=>prefix+'/guides/mahjong/'+id+'/')]){
+      for(const route of [prefix+'/',prefix+'/mahjong',...ids.map(id=>prefix+'/guides/mahjong/'+id+'/')]){
         await page.goto(base+route);
         await page.evaluate(()=>document.fonts.ready);
-        if(route.endsWith('/games/mahjong/')){
+        if(route.endsWith('/mahjong')){
           await page.locator('.detail-play').click();
           await page.locator('[data-mahjong-embed][data-state="ready"]').waitFor();
           const frame=page.frameLocator('#mahjong-frame');
@@ -33,7 +33,7 @@ async page => {
       }
     }
   }
-  await page.goto(base+'/games/mahjong/');
+  await page.goto(base+'/mahjong');
   await page.locator('.detail-play').click();
   await page.locator('[data-state="ready"]').waitFor();
   let frame=page.frameLocator('#mahjong-frame');
@@ -42,7 +42,7 @@ async page => {
   const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('mahjong-tutor.v2')).completed);
   await frame.locator('[data-action="settings"]').click();
   await frame.locator('[data-action="set-language"][data-id="hi"]').click();
-  await page.waitForURL('**/hi/games/mahjong/**');
+  await page.waitForURL(base + '/hi/mahjong');
   await page.locator('[data-state="ready"]').waitFor();
   frame=page.frameLocator('#mahjong-frame');
   await frame.locator('[data-question="'+question+'"]').waitFor();
@@ -64,9 +64,9 @@ async page => {
     assert(staticPage.url().includes('#section-'),'no-JS contents');
   }
   await ctx.close();results.push('14 articles without JavaScript');
-  for(const [name,route,width] of [['home-desktop','/',1360],['home-mobile','/',375],['home-hi-mobile','/hi/',375],['mahjong-desktop','/games/mahjong/',1440],['mahjong-mobile','/games/mahjong/',375],['article-hi-mobile','/hi/guides/mahjong/tiles/',375]]){
+  for(const [name,route,width] of [['home-desktop','/',1360],['home-mobile','/',375],['home-hi-mobile','/hi/',375],['mahjong-desktop','/mahjong',1440],['mahjong-mobile','/mahjong',375],['article-hi-mobile','/hi/guides/mahjong/tiles/',375]]){
     await page.setViewportSize({width,height:990});await page.goto(base+route);
-    if(route.endsWith('/games/mahjong/')) {
+    if(route.endsWith('/mahjong')) {
       await page.locator('.detail-play').click();
       await page.locator('[data-state="ready"]').waitFor();
     }

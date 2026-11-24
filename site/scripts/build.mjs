@@ -1,3 +1,4 @@
+import assert from 'node:assert/strict';
 import { languageCodes, translatedLanguages, localPath } from '../src/languages.mjs';
 import { createLocalizer, brandNames } from '../src/site-localization.mjs';
 import { writeFileSync } from 'node:fs';
@@ -5,6 +6,7 @@ import { createHash } from 'node:crypto';
 import { appendFile, copyFile, cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { gameDetailTitle } from '../src/game-catalog.mjs';
 import { origin, updated } from '../src/game.mjs';
 import { catalogueFor, discoveryUpdated, gamesPath, genrePath, genres, retiredGenres, tagName, taxonomyFor } from '../src/discovery.mjs';
 import { locales } from '../src/locales.mjs';
@@ -75,18 +77,19 @@ for (const edition of ['shared', 'en', 'hi']) {
   if (sharedOnly) sharedEnglishCatalogue = catalogue;
   else catalogues.push([language, catalogue]);
   const c = locales[language];
+  const gameTitleFields = gameName => ({ gameName, title: gameDetailTitle(language, gameName) });
+  const gameNameFor = id => games.find(game => game.id === id).title;
   pages.push({ language, kind: 'home', cover:'/assets/shuttle-cover.png', coverHeight:732, coverAlt:language==='hi'?'जानवर और उनकी चार बस कतारें':'Animal coworkers and their four shuttle queues', updated: discoveryUpdated, path: c.home, title: c.homeTitle, description: c.description, main: renderHome(language, sharedOnly) });
-  pages.push({ language, kind: 'game', path: c.game, title: c.gameTitle, description: c.gameDescription, updated: localizationUpdated, main: renderGame(language, sharedOnly) });
+  pages.push({ language, kind: 'game', path: c.game, ...gameTitleFields(gameNameFor('glass-twist')), description: c.gameDescription, updated: localizationUpdated, main: renderGame(language, sharedOnly) });
   const hi=language==='hi';
   for (const game of partnerGamesFor(language, sharedOnly)) {
     const gamePath = partnerGamePath(language, game);
     const url = origin + gamePath;
     const detail = game.details[language];
     const dateModified = Object.hasOwn(partnerLocales.hi.games, game.id) ? localizationUpdated : detailUpdated;
-    const playTitle = hi ? game.title + ' ऑनलाइन खेलें' : 'Play ' + game.title + ' Online';
     pages.push({
       language, kind: 'partner-play', path: gamePath, updated: dateModified, game,
-      title: (detail.searchTitle || (playTitle.length <= 61 ? playTitle : game.title)) + ' | tapmelo',
+      ...gameTitleFields(game.title),
       description: detail.summary,
       cover: game.artwork, coverWidth: game.media.artworkWidth, coverHeight: game.media.artworkHeight, coverAlt: game.title,
       structured: {
@@ -101,14 +104,13 @@ for (const edition of ['shared', 'en', 'hi']) {
       main: renderPartnerGame(language, game, sharedOnly),
     });
   }
-  const mahjongTitle=hi?'माहजोंग सीखें — टाइलें, अभ्यास और लेख | tapmelo':'Learn Mahjong Online – Free Beginner Practice | tapmelo';
   const mahjongDescription=hi?'माहजोंग के मुफ़्त अभ्यास में टाइलें पहचानें, ची और पोंग का फ़र्क समझें और हाथ पूरा करने वाली टाइल ढूँढें।':'Learn Mahjong online with free beginner exercises. Identify the tiles, build a winning hand, practise calling discards and find every tile that completes a wait.';
   const common={language,cover:'/assets/mahjong-cover.svg',coverHeight:732,coverAlt:hi?'हरी सतह पर माहजोंग टाइलें':'Mahjong tiles on a green playing surface',updated:mahjongUpdated};
-  pages.push({...common,updated:localizationUpdated,kind:'mahjong',path:mahjongPath(language),title:mahjongTitle,description:mahjongDescription,alternates:{en:mahjongPath('en'),hi:mahjongPath('hi')},main:renderMahjong(language, sharedOnly),structured:{'@context':'https://schema.org','@type':'WebApplication',name:'Mahjong basics',url:origin+mahjongPath(language),description:mahjongDescription,inLanguage:languageCodes,applicationCategory:'EducationalApplication',operatingSystem:'Web browser',isAccessibleForFree:true}});
+  pages.push({...common,updated:localizationUpdated,kind:'mahjong',path:mahjongPath(language),...gameTitleFields(gameNameFor('mahjong')),description:mahjongDescription,alternates:{en:mahjongPath('en'),hi:mahjongPath('hi')},main:renderMahjong(language, sharedOnly),structured:{'@context':'https://schema.org','@type':'WebApplication',name:'Mahjong basics',url:origin+mahjongPath(language),description:mahjongDescription,inLanguage:languageCodes,applicationCategory:'EducationalApplication',operatingSystem:'Web browser',isAccessibleForFree:true}});
   for(const a of articles){const articlePath=mahjongGuidePath(language,a.id);pages.push({...common,kind:'mahjong-guide',path:articlePath,title:a.title[language]+' | tapmelo',description:a.lead[language],alternates:{en:mahjongGuidePath('en',a.id),hi:mahjongGuidePath('hi',a.id)},main:renderMahjongArticle(a,language),structured:{'@context':'https://schema.org','@type':'Article',headline:a.title[language],description:a.lead[language],inLanguage:language,dateModified:mahjongUpdated,mainEntityOfPage:origin+articlePath,image:origin+'/assets/mahjong-cover.svg',author:{'@type':'Person',name:'Jelly'}}});}
   const marbleDescription=hi?'Clock Out! में एक रंग के यात्रियों को उनकी बस में बिठाएँ। चार कतारें पढ़ें और जानें कि इंतज़ार की 27 जगहें भरने पर जाम कैसे खोलें।':'Play Clock Out!, a free bus sorting puzzle with 60 levels. Match nine riders at a time to four shuttle queues and keep the 27-space waiting loop moving.';
   const marbleCommon={language,cover:'/assets/shuttle-cover.png',coverHeight:732,coverAlt:hi?'कर्मचारी और उनकी बसें':'Animal commuters and their shuttles',updated:marbleUpdated};
-  pages.push({...marbleCommon,updated:localizationUpdated,kind:'marble',path:marblePath(language),title:hi?'Clock Out! — बसों के रंग मिलाने का मुफ़्त खेल | tapmelo':'Clock Out! – Free Bus Sorting Game Online | tapmelo',description:marbleDescription,alternates:{en:marblePath('en'),hi:marblePath('hi')},main:renderMarble(language, sharedOnly),structured:{'@context':'https://schema.org','@type':['VideoGame','WebApplication'],name:'Clock Out!',url:origin+marblePath(language),description:marbleDescription,inLanguage:languageCodes,applicationCategory:'GameApplication',operatingSystem:'Web browser',isAccessibleForFree:true}});
+  pages.push({...marbleCommon,updated:localizationUpdated,kind:'marble',path:marblePath(language),...gameTitleFields(gameNameFor('clock-out')),description:marbleDescription,alternates:{en:marblePath('en'),hi:marblePath('hi')},main:renderMarble(language, sharedOnly),structured:{'@context':'https://schema.org','@type':['VideoGame','WebApplication'],name:'Clock Out!',url:origin+marblePath(language),description:marbleDescription,inLanguage:languageCodes,applicationCategory:'GameApplication',operatingSystem:'Web browser',isAccessibleForFree:true}});
   for(const a of marbleGuides) pages.push({...marbleCommon,kind:'marble-guide',path:marbleGuidePath(language,a.id),title:a.title[language]+' | tapmelo',description:a.lead[language],alternates:{en:marbleGuidePath('en',a.id),hi:marbleGuidePath('hi',a.id)},main:renderMarbleGuide(a,language),structured:{'@context':'https://schema.org','@type':'Article',headline:a.title[language],description:a.lead[language],inLanguage:language,datePublished:marbleUpdated,dateModified:marbleUpdated,mainEntityOfPage:origin+marbleGuidePath(language,a.id),image:origin+'/assets/shuttle-cover.png',author:{'@type':'Person',name:'Jelly'}}});
   const guide = level2Guides[language];
   pages.push({ language, kind: 'guide', path: c.guide, title: guide.title, headline: guide.heading, description: guide.description, main: renderLevel2Guide(language) });
@@ -144,10 +146,11 @@ for (const [language, catalogue] of extracting ? [] : catalogues) {
   await writeFile(path.join(root, 'dist', 'assets', `game-recommendations-${language}.json`),
     await versionAssets(JSON.stringify(catalogue)));
 }
+const pageFilename = route => route + (route.endsWith('/') ? 'index.html' : '.html');
 async function writePage(route, html) {
-  const directory = path.join(root, 'dist', route);
-  await mkdir(directory, { recursive: true });
-  await writeFile(path.join(directory, 'index.html'), await versionAssets(html));
+  const file = path.join(root, 'dist', pageFilename(route));
+  await mkdir(path.dirname(file), { recursive: true });
+  await writeFile(file, await versionAssets(html));
 }
 
 const titles = new Set([...brandNames, ...sharedEnglishCatalogue.map(game => game.title)]);
@@ -190,14 +193,17 @@ for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
     if (!fullLocale && page.kind !== 'info') continue;
     const copy = page.game && Object.hasOwn(partnerLocales[code].games, page.game.id) ? page.game.details[code] : undefined;
     let translated;
-    if (copy) {
-      const title = copy.searchTitle + ' | tapmelo';
-      const localizedPage = {
-        ...page, title, description: copy.summary,
-        structured: { ...page.structured, description: copy.summary },
-      };
-      const main = renderPartnerGame('en', page.game, true, copy);
-      const preserved = new Set([title, copy.summary, copy.category, copy.aboutTitle, copy.controls, ...copy.about, ...copy.steps.flat(), ...copy.faq.flat()]);
+    if (page.gameName) {
+      const title = gameDetailTitle(code, page.gameName);
+      const localizedPage = { ...page, title };
+      const preserved = new Set([title]);
+      let main = page.main;
+      if (copy) {
+        localizedPage.description = copy.summary;
+        localizedPage.structured = { ...page.structured, description: copy.summary };
+        main = renderPartnerGame('en', page.game, true, copy);
+        for (const text of [copy.summary, copy.category, copy.aboutTitle, copy.controls, ...copy.about, ...copy.steps.flat(), ...copy.faq.flat()]) preserved.add(text);
+      }
       translated = localizer.html(renderPage(localizedPage, main, true), page.path, preserved);
     } else {
       translated = localizer.html(html, page.path);
@@ -212,6 +218,17 @@ for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
     process.exit(0);
   }
 }
+const normalizedRoutes = new Set();
+const htmlFiles = new Set();
+for (const page of pages) {
+  const route = page.path.replace(/\/$/, '');
+  assert.ok(!normalizedRoutes.has(route), `Conflicting page route: ${page.path}`);
+  normalizedRoutes.add(route);
+  const filename = pageFilename(page.path);
+  assert.ok(!htmlFiles.has(filename), `Conflicting HTML file: ${filename}`);
+  htmlFiles.add(filename);
+}
+
 for (const page of pages.filter(page => !page.localized)) {
   await writePage(page.path, renderPage(page, page.main));
 }

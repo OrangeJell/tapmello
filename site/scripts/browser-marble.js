@@ -29,7 +29,7 @@ async (page) => {
     check(frame.y >= screen.y - 1 && frame.y + frame.height <= screen.y + screen.height + 1,`${width}px: iframe fits the available play area`);
     if(width===390||width===1440)await page.screenshot({path:`output/playwright/marble-site-${width}.png`,fullPage:true});
   }
-  await page.setViewportSize({width:390,height:844});await page.goto(base+'/games/marble-sort/');await ready();
+  await page.setViewportSize({width:390,height:844});await page.goto(base+'/marble-sort');await ready();
   await page.clock.install();
   try {
     const drain=async()=>{
@@ -75,7 +75,7 @@ async (page) => {
   } finally {await page.clock.resume();}
   await page.locator('.language-picker summary').click();
   await page.getByRole('link',{name:'हिन्दी',exact:true}).click();await ready();
-  check(page.url().includes('/hi/games/marble-sort/'),'language switch stays on the game');
+  check(page.url().includes('/hi/marble-sort'),'language switch stays on the game');
   check(await gameFrame().evaluate(()=>document.documentElement.lang)==='hi','iframe receives Hindi');
   await start();
   await gameFrame().getByRole('button',{name:'कैसे खेलें',exact:true}).click();
@@ -97,7 +97,7 @@ async (page) => {
   const context=await page.context().browser().newContext({javaScriptEnabled:false});
   const reader=await context.newPage();
   for(const prefix of ['','/hi']) {
-    await reader.goto(base+prefix+'/games/marble-sort/');
+    await reader.goto(base+prefix+'/marble-sort');
     check(await reader.locator('.game-guide-link').count()===4,`${prefix||'/en'}: four guides without JavaScript`);
     await reader.goto(base+prefix+'/guides/marble-sort/level-1-opening/');
     check(await reader.locator('.marble-route b').allTextContents().then(v=>v.join(',')==='3,1,5,2,4,3'),`${prefix||'/en'}: opening route readable without JavaScript`);
@@ -105,7 +105,7 @@ async (page) => {
   await context.close();
   // Exercise the genuine timeout and retry by blocking the iframe request once.
   await page.route('**/play/marble-sort/**',route=>route.abort());
-  await page.goto(base+'/games/marble-sort/');
+  await page.goto(base+'/marble-sort');
   try {
     await page.clock.runFor(16000);
     check(await page.locator('[data-marble-embed]').getAttribute('data-state')==='error','failed iframe shows an error');

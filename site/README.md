@@ -12,11 +12,11 @@ npm --prefix site run build
 npm --prefix site run serve
 ```
 
-首页：http://127.0.0.1:4173/ 。Marble Sort：http://127.0.0.1:4173/games/marble-sort/ 。Glass Twist：http://127.0.0.1:4173/games/screw-sort/ ，Mahjong：http://127.0.0.1:4173/games/mahjong/ 。印地语版本：http://127.0.0.1:4173/hi/games/screw-sort/ 。游戏使用 ES modules，必须通过 HTTP 访问。
+Wrangler 在 http://127.0.0.1:4173/ 提供预览。游戏详情页示例为 `/marble-sort`、`/screw-sort`、`/mahjong` 和印地语版 `/hi/screw-sort`。
 
 游戏发现页在 `/games/`（全部游戏）、`/games/category/{id}/`（按分类）、`/tags/`（全部标签及游戏数）和 `/tags/{id}/`（按标签），语言版页面使用对应前缀，例如 `/hi`、`/zh-cn` 和 `/ja`。构建时共用 `src/discovery.mjs`：合作游戏读取 `src/playgama-games.json` 的 `metadata.genres` 和 `metadata.tags`，原创游戏使用该模块内的分类和标签。独立嵌入播放器不加载站点导航。
 
-构建需要 Node.js 20.19 或更新版本。站内翻译从本地 JSON 读取，构建完成后可直接用静态文件服务预览。
+构建需要 Node.js 20.19 或更新版本。站内翻译从本地 JSON 读取，构建完成后用 Wrangler 预览短链接。
 
 ## 语言资源与测试
 
@@ -55,7 +55,7 @@ Playgama 游戏的数据只维护在 `src/playgama-games.json`。在数组末尾
 
 合作游戏实际生成的语言版本进入 sitemap，各自有 canonical；hreflang 只列出存在的版本。英文独占页面切换到其他语言时，进入对应语言的全部游戏页。三个自研游戏的独立播放器保留 `noindex, follow`。
 
-1Games 游戏单独维护在 `src/1games-games.json`，详情页使用 `/play/1games/{id}/`。按各款游戏的玩法从站内已有标签中选取。记录原始游戏页、官方嵌入地址和 `media.sources` 中的素材来源。本地文件按游戏 ID 存放在 `public/assets/1games/`。播放器背景预览和正文媒体区使用官方嵌入页 `game__video` 对应的 MP4。正文媒体区也可展示内容确实不同于封面的图片。将这些图片登记在可选的 `media.screenshots` 数组，每张填写本地 `src`、实际 `width` 和 `height`、英文 `alt` 及原始 HTTPS `source`。核对图片内容，跳过封面和图标的重复图、裁切版或缩放版。封面继续用于视频海报和分享图。视频和独立图片都没有时省略正文媒体区。
+1Games 游戏单独维护在 `src/1games-games.json`。各供应商和自研游戏的详情页统一使用 `/{slug}`，其他语言加语言前缀，例如 `/zh-cn/crop-runner`。按各款游戏的玩法从站内已有标签中选取。记录原始游戏页、官方嵌入地址和 `media.sources` 中的素材来源。本地文件按游戏 ID 存放在 `public/assets/1games/`。播放器背景预览和正文媒体区使用官方嵌入页 `game__video` 对应的 MP4。正文媒体区也可展示内容确实不同于封面的图片。将这些图片登记在可选的 `media.screenshots` 数组，每张填写本地 `src`、实际 `width` 和 `height`、英文 `alt` 及原始 HTTPS `source`。核对图片内容，跳过封面和图标的重复图、裁切版或缩放版。封面继续用于视频海报和分享图。视频和独立图片都没有时省略正文媒体区。
 
 首页首屏渲染 24 个图标，接近列表底部时挂载下一批。也可点击“Load more games”，禁用 JavaScript 时仍可从静态图标进入其余游戏。自制游戏经 `src/game-stage.mjs` 接入共用模板，保留原本的加载、重试和攻略入口。
 
@@ -77,7 +77,7 @@ Playgama 游戏的数据只维护在 `src/playgama-games.json`。在数组末尾
 | `scripts/capture-screenshots.js` | Playwright CLI 截图函数，使用真实页面点击 |
 | `scripts/capture-level-2.js` | 第二关六步开局、三步换色与中段暂存的真实操作截图 |
 | `scripts/browser-check.js` | Playwright CLI 排版、语言、iframe、FAQ、旧存档和无 JS 检查函数 |
-| `dist/` | 可直接上传到 Cloudflare Pages 的完整静态发布目录 |
+| `dist/` | 可直接上传到 Cloudflare Workers 的静态资源目录 |
 
 网页和样式在 `src/`，公开截图、品牌图标、manifest 和重定向在 `public/`，统计和收藏脚本来自游戏共享源文件。每次完整构建都会重建 `dist/`。截图脚本写进 `dist/` 的图片可以预览，选定后放进 `public/` 才会随下次构建发布。
 
@@ -97,7 +97,7 @@ Playgama 游戏的数据只维护在 `src/playgama-games.json`。在数组末尾
 
 原有十个可索引页面：`/`、`/games/screw-sort/`、`/hi/`、`/hi/games/screw-sort/`、`/guides/glass-twist-level-2/`、`/hi/guides/glass-twist-level-2/`、`/about/`、`/contact/`、`/privacy/`、`/terms/`。每页有自身 canonical；两种语言的首页和游戏页有双向 `en`、`hi`、`x-default` hreflang。默认英语，不按地区自动跳转。
 
-游戏页结构化数据包含 `WebPage`、免费游戏／Web 应用和面包屑，分享图尺寸与实际 PNG 一致。不加入虚构评分或评论。`/play/screw-sort/` 保持 `noindex, follow`；`/games/coming-soon/` 保留旧地址的 301 规则与本地后备跳转。
+游戏页结构化数据包含 `WebPage`、免费游戏／Web 应用和面包屑，分享图尺寸与实际 PNG 一致。不加入虚构评分或评论。`/play/screw-sort/` 保持 `noindex, follow`；旧游戏详情页地址和 `/games/coming-soon/` 已下线。
 
 ## 嵌入与统计
 
@@ -117,7 +117,7 @@ AdSense 网站验证仅保留 `ads.txt`，奖励行为采用上述试玩确认�
 
 使用 Cloudflare Workers 的 Git 构建时，根目录设为仓库根目录，构建命令设为 `npm --prefix site ci && npm --prefix site run build`，部署命令设为 `npx wrangler deploy`。Wrangler 通过仓库根目录的 `wrangler.toml` 读取兼容日期并发布 `site/dist/`。
 
-使用现有 Cloudflare Pages 项目手动发布时，运行 `npm run build` 后上传完整的 `dist/`。上线后验证 HTTPS、manifest、图标、canonical、语言关联、旧地址 301 与独立游戏 noindex。
+手动发布时，在仓库根目录构建后运行 `npx wrangler@4.164.0 deploy`。上线后验证短地址、旧址 404、canonical、语言关联和 sitemap。
 
 ## 2026-10-09 搜索页面与游戏改名
 

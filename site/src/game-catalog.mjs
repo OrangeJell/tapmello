@@ -1,7 +1,26 @@
+import { localPath } from './languages.mjs';
 import { locales } from './locales.mjs';
 
-export const marblePath = lang => `${lang === 'hi' ? '/hi' : ''}/games/marble-sort/`;
-export const mahjongPath = lang => `${lang === 'hi' ? '/hi' : ''}/games/mahjong/`;
+const playFreeLabels = {
+  en: 'Play Free',
+  hi: 'मुफ़्त खेलें',
+  ta: 'இலவசமாக விளையாடுங்கள்',
+  te: 'ఉచితంగా ఆడండి',
+  bn: 'বিনামূল্যে খেলুন',
+  id: 'Main Gratis',
+  'zh-CN': '免费开玩',
+  ja: '無料でプレイ',
+  fr: 'Jouer gratuitement',
+  ko: '무료 플레이',
+  es: 'Juega gratis',
+  de: 'Kostenlos spielen',
+  it: 'Gioca gratis',
+};
+
+export const gameDetailTitle = (lang, gameName) => `🎮 ${gameName} 🕹️ ${playFreeLabels[lang]} | tapmelo`;
+
+export const marblePath = lang => localPath(lang, '/marble-sort');
+export const mahjongPath = lang => localPath(lang, '/mahjong');
 
 export function gamesFor(lang) {
   return [

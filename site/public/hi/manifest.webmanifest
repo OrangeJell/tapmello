@@ -4,7 +4,7 @@
   "short_name": "tapmelo",
   "description": "Glass Twist: Screw Puzzle की पहेली के साथ एक छोटा ब्रेक लें। खेलने के लिए इंटरनेट चाहिए।",
   "lang": "hi",
-  "start_url": "/hi/games/screw-sort/",
+  "start_url": "/hi/screw-sort",
   "scope": "/",
   "display": "standalone",
   "background_color": "#f8f6ee",

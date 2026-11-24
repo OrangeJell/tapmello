@@ -4,7 +4,7 @@
   "short_name": "tapmelo",
   "description": "A little play break with Glass Twist: Screw Puzzle. Internet connection required.",
   "lang": "en-IN",
-  "start_url": "/games/screw-sort/",
+  "start_url": "/screw-sort",
   "scope": "/",
   "display": "standalone",
   "background_color": "#f8f6ee",

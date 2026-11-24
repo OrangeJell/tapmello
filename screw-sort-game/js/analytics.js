@@ -34,8 +34,7 @@
   const query = new URLSearchParams(location.search);
   const qa = local || query.get('utm_source') === 'qa';
   const standalone = document.currentScript?.src.includes('/js/analytics.js');
-  const gamePage = standalone || /^\/(?:hi\/)?games\/screw-sort\/?$/.test(location.pathname) || /^\/play\/screw-sort\//.test(location.pathname);
-  if (/^\/games\/coming-soon\/?$/.test(location.pathname)) return;
+  const gamePage = standalone || /^\/(?:[a-z]{2}(?:-[a-z]{2})?\/)?screw-sort\/?$/.test(location.pathname) || /^\/play\/screw-sort\//.test(location.pathname);
 
   function cleanUrl(value) {
     try {

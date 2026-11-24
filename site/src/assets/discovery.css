@@ -310,6 +310,7 @@
 .discovery-breadcrumb { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; color: var(--discovery-muted); font-size: .875rem; }
 .discovery-breadcrumb svg { width: 14px; height: 14px; }
 .discovery-breadcrumb a { min-height: 32px; display: inline-flex; align-items: center; color: var(--discovery-accent); text-decoration: none; font-weight: 650; }
+.discovery-breadcrumb a[aria-current="page"] { min-width: 0; overflow-wrap: anywhere; }
 .discovery-breadcrumb a:hover { text-decoration: underline; }
 .detail-info-title { display: flex; align-items: center; gap: 13px; }
 .detail-info-title img { flex: 0 0 52px; width: 52px; height: 52px; border-radius: 10px; object-fit: cover; }

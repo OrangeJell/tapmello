@@ -44,7 +44,7 @@ async page => {
     assert(await page.locator('.site-search-popup').isHidden(), 'Escape closes the search');
   }
 
-  const partner = '/play/playgama/nuts-puzzle-sort-by-color/';
+  const partner = '/nuts-puzzle-sort-by-color';
   await page.setViewportSize({ width: 390, height: 844 });
   await visit(partner);
   const baseline = await page.locator('.detail-about p').first().textContent();
@@ -68,14 +68,14 @@ async page => {
 
     await visit(prefix + '/');
     await fits(`Home overflows: ${code}`);
-    await search(code === 'zh-CN' ? '麻将' : 'Mahjong', prefix + '/games/mahjong/');
+    await search(code === 'zh-CN' ? '麻将' : 'Mahjong', prefix + '/mahjong');
     await visit(prefix + '/guides/mahjong/tiles/');
     assert(await page.locator('article .reading-section').count() >= 5, `Missing article: ${code}`);
     await fits(`Guide overflows: ${code}`);
     await visit(prefix + '/privacy/');
     assert(await page.locator('main h1').count() === 1, `Missing policy page: ${code}`);
     for (const game of games) {
-      await visit(`${prefix}/games/${game.slug}/`);
+      await visit(`${prefix}/${game.slug}`);
       await startGame(game, code);
     }
     results.push(code);
@@ -124,7 +124,7 @@ async page => {
     for (const width of [320, 1280]) {
       await page.setViewportSize({ width, height: 844 });
       for (const path of ['/', '/games/', '/games/category/puzzle/', '/tags/', partner,
-        ...games.map(game => `/games/${game.slug}/`), '/guides/glass-twist-level-2/',
+        ...games.map(game => `/${game.slug}`), '/guides/glass-twist-level-2/',
         '/guides/mahjong/winning/', '/guides/marble-sort/getting-started/', '/about/', '/privacy/']) {
         await visit(path);
         await fits(`English page overflows at ${width}px: ${path}`);
@@ -132,7 +132,7 @@ async page => {
     }
 
     await visit('/games/');
-    await search('Clock Out!', '/games/marble-sort/');
+    await search('Clock Out!', '/marble-sort');
     await page.locator('a#clock-out').click();
     let frame = await startGame(games[2], 'en');
     await frame.locator('#start').click();
@@ -142,7 +142,7 @@ async page => {
     await frame.getByRole('button', { name: 'Pause game', exact: true }).click();
     await frame.getByRole('button', { name: 'Keep playing', exact: true }).click();
 
-    await visit('/games/mahjong/');
+    await visit('/mahjong');
     frame = await startGame(games[1], 'en');
     await frame.locator('[data-action="open-level"][data-id="beginner"]').click();
     await frame.locator('[data-question]').waitFor();
@@ -159,7 +159,7 @@ async page => {
     assert(await page.locator('html').getAttribute('lang') === 'en', 'Unsupported game locale falls back to English');
     assert((await page.locator('#level-label').innerText()).toUpperCase() === 'LEVEL 3', 'Existing save was not restored');
 
-    await visit('/games/screw-sort/');
+    await visit('/screw-sort');
     frame = await startGame(games[0], 'en');
     await frame.locator('#play').click();
     await frame.locator('.screw-button:not(:disabled)').first().click();

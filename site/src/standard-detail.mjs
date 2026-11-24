@@ -189,7 +189,13 @@ export function renderStandardDetail(lang, game, {
       </nav>
       <div class="detail-blocks">
         <section class="detail-block detail-title-block">
-          <nav class="discovery-breadcrumb" aria-label="${lang === 'hi' ? 'गेम का पथ' : 'Game breadcrumb'}"><a href="${gamesPath(lang)}">${gamesLabel(lang)}</a>${discoveryIcon('next')}<a href="${genrePath(lang, primary)}">${genres[primary][lang]}</a></nav>
+          <nav class="discovery-breadcrumb" aria-label="${lang === 'hi' ? 'गेम का पथ' : 'Game breadcrumb'}">
+            <a href="${gamesPath(lang)}">${gamesLabel(lang)}</a>
+            ${discoveryIcon('next')}
+            <a href="${genrePath(lang, primary)}">${genres[primary][lang]}</a>
+            ${discoveryIcon('next')}
+            <a href="#play" aria-current="page" lang="${game.titleLang ?? 'en'}">${escape(game.title)}</a>
+          </nav>
           <div class="detail-info-title">
             <img src="${escape(game.cover)}" width="${game.width}" height="${game.height}" alt="" loading="lazy">
             <div><h2>${escape(game.title)}</h2><p class="detail-category">${escape(category)}</p></div>

@@ -3,4 +3,4 @@ compatibility_date = "2026-11-17"
 
 [assets]
 directory = "./site/dist"
-html_handling = "force-trailing-slash"
+html_handling = "auto-trailing-slash"

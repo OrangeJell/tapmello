@@ -1,11 +1,12 @@
 import { languageCodes, languagePrefix, localPath, pageAlternates, pageLanguage } from '../src/languages.mjs';
 import assert from 'node:assert/strict';
-import { parse } from 'parse5';
+import { parse, parseFragment } from 'parse5';
 import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { marbleGuides } from '../src/marble.mjs';
 import { levels, origin } from '../src/game.mjs';
+import { gameDetailTitle, gamesFor } from '../src/game-catalog.mjs';
 import { partnerGames, partnerGamesFor, partnerGamePath, partnerLocales } from '../src/partner-games.mjs';
 import { catalogueFor, gameCount, gamesPath, genrePath, playedGamesPath, tagPath, tagsPath, taxonomyFor } from '../src/discovery.mjs';
 
@@ -16,6 +17,23 @@ async function walk(directory) {
     ? walk(path.join(directory, entry.name)) : path.join(directory, entry.name)))).flat();
 }
 const files = await walk(dist), htmlFiles = files.filter(file => file.endsWith('.html'));
+const gamePages = new Set();
+const retiredGamePaths = new Set(['/games/coming-soon']);
+for (const code of languageCodes) {
+  for (const slug of ['mahjong', 'marble-sort', 'screw-sort']) {
+    gamePages.add(localPath(code, '/' + slug));
+    retiredGamePaths.add(localPath(code, '/games/' + slug));
+  }
+  for (const game of partnerGamesFor(code)) {
+    gamePages.add(localPath(code, '/' + game.id));
+    retiredGamePaths.add(localPath(code, `/play/${game.provider}/${game.id}`));
+  }
+}
+const redirects = await readFile(path.join(dist, '_redirects'), 'utf8');
+for (const rule of redirects.trim().split('\n')) {
+  const source = rule.split(/\s+/)[0].replace(/\/$/, '');
+  assert.ok(!retiredGamePaths.has(source), `Retired game redirect: ${source}`);
+}
 const runtimePaths = new Set(['/play/mahjong/', '/play/marble-sort/', '/play/screw-sort/']);
 const historyPaths = new Set(languageCodes.map(code => localPath(code, playedGamesPath('en'))));
 const partnerPages = new Map(languageCodes.flatMap(code => partnerGamesFor(code).map(game => [localPath(code, partnerGamePath('en', game)), game])));
@@ -37,9 +55,13 @@ async function localTarget(value, page) {
   const key = url.pathname + url.hash;
   if (checkedTargets.has(key)) return;
   let target = path.join(dist, decodeURIComponent(url.pathname));
-  try { if ((await stat(target)).isDirectory()) target = path.join(target, 'index.html'); }
-  catch { assert.fail(`Missing file: ${value} on ${page}`); }
-  await stat(target);
+  assert.ok(!retiredGamePaths.has(url.pathname.replace(/\/$/, '')), `Legacy game link: ${value} on ${page}`);
+  if (gamePages.has(url.pathname)) {
+    target += '.html';
+  } else if (url.pathname.endsWith('/')) {
+    target = path.join(target, 'index.html');
+  }
+  await assert.doesNotReject(stat(target), `Missing file: ${value} on ${page}`);
   if (url.hash && target.endsWith('.html')) {
     const content = await readFile(target, 'utf8');
     assert.ok(content.includes(`id="${decodeURIComponent(url.hash.slice(1))}"`), `Missing anchor: ${value} on ${page}`);
@@ -57,7 +79,7 @@ async function pngDimensions(imagePath) {
 
 for (const file of htmlFiles) {
   const html = await readFile(file, 'utf8');
-  const page = '/' + path.relative(dist, file).replace(/index\.html$/, '');
+  const page = ('/' + path.relative(dist, file)).replace(/\/index\.html$/, '/').replace(/\.html$/, '');
   const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
   assert.equal(new Set(ids).size, ids.length, `Duplicate ID: ${page}`);
   for (const [, value] of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) await localTarget(value, page);
@@ -77,7 +99,7 @@ for (const file of htmlFiles) {
     assert.match(html, /name="robots" content="noindex, follow"/);
     continue;
   }
-  if (page.includes('coming-soon')) continue;
+  assert.ok(!retiredGamePaths.has(page.replace(/\/$/, '')), `Legacy game HTML: ${page}`);
   assert.match(html, /class="discovery-nav"/, `Shared navigation: ${page}`);
   assert.match(html, /<details class="language-picker">/, `Language picker: ${page}`);
   if (historyPaths.has(page)) {
@@ -90,10 +112,31 @@ for (const file of htmlFiles) {
   assert.ok(html.includes(`<link rel="canonical" href="${origin + page}">`), `Canonical: ${page}`);
   const partnerGame = partnerPages.get(page);
   const code = pageLanguage(page);
+  if (gamePages.has(page)) {
+    const lang = code === 'hi' ? 'hi' : 'en';
+    const detailGame = partnerGame ?? gamesFor(lang).find(game => game.href === (lang === 'hi' ? page : page.slice(languagePrefix(code).length)));
+    const titleMarkup = html.match(/<title>[\s\S]*?<\/title>/)?.[0];
+    const shareTitleMarkup = html.match(/<meta property="og:title"[^>]*>/)?.[0];
+    assert.ok(titleMarkup && shareTitleMarkup, `Game title metadata: ${page}`);
+    const [title, shareTitle] = parseFragment(titleMarkup + shareTitleMarkup).childNodes;
+    const expectedTitle = gameDetailTitle(code, detailGame.title);
+    assert.equal(title.childNodes[0]?.value, expectedTitle, `Game search title: ${page}`);
+    assert.equal(shareTitle.attrs.find(attr => attr.name === 'content')?.value, expectedTitle, `Game share title: ${page}`);
+    const breadcrumb = html.match(/<nav class="discovery-breadcrumb"[\s\S]*?<\/nav>/)?.[0];
+    assert.ok(breadcrumb, `Game breadcrumb: ${page}`);
+    const links = parseFragment(breadcrumb).childNodes[0].childNodes.filter(node => node.tagName === 'a');
+    const attr = (node, name) => node.attrs.find(attribute => attribute.name === name)?.value;
+    const [primary] = taxonomyFor(detailGame).categories;
+    assert.deepEqual(links.map(link => attr(link, 'href')), [
+      localPath(code, gamesPath('en')), localPath(code, genrePath('en', primary)), '#play',
+    ], `Game breadcrumb links: ${page}`);
+    assert.equal(links[2].childNodes[0]?.value, detailGame.title, `Game breadcrumb title: ${page}`);
+    assert.equal(attr(links[2], 'aria-current'), 'page', `Current breadcrumb page: ${page}`);
+  }
   assert.ok(html.includes(`<html lang="${code === 'en' ? 'en-IN' : code}">`), `HTML language: ${page}`);
   const alternates = [...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)">/g)].map(([, language, url]) => [language, url]);
   assert.deepEqual(Object.fromEntries(alternates), Object.fromEntries(Object.entries(pageAlternates(code, page, englishOnlyRoutes.has(page))).map(([language, route]) => [language, origin + route])), `Language alternates: ${page}`);
-  if (page.endsWith('/games/screw-sort/')) {
+  if (page.endsWith('/screw-sort')) {
     assert.equal([...html.matchAll(/<details>/g)].length, 9, `FAQ count: ${page}`);
     const rows = html.match(/<tbody>([\s\S]*?)<\/tbody>/)?.[1];
     assert.equal([...rows.matchAll(/<tr>/g)].length, levels.length, `Level count: ${page}`);
@@ -121,7 +164,7 @@ for (const language of languageCodes) {
   const manifestPath = localPath(language, '/manifest.webmanifest');
   const manifest = JSON.parse(await readFile(path.join(dist, manifestPath), 'utf8'));
   assert.equal(manifest.id, '/', `Installation identity: ${language}`);
-  assert.equal(manifest.start_url, localPath(language, '/games/screw-sort/'), `Installation URL: ${language}`);
+  assert.equal(manifest.start_url, localPath(language, '/screw-sort'), `Installation URL: ${language}`);
   assert.equal(manifest.lang, language === 'en' ? 'en-IN' : language, `Installation language: ${language}`);
   await localTarget(manifest.start_url, manifestPath);
   const slug = language.toLowerCase();
@@ -136,13 +179,14 @@ for (const language of languageCodes) {
 }
 for (const route of englishOnlyRoutes) {
   for (const code of languageCodes.filter(code => code !== 'en')) {
-    await assert.rejects(stat(path.join(dist, localPath(code, route))), { code: 'ENOENT' }, `English-only route: ${code}/${route}`);
+    await assert.rejects(stat(path.join(dist, localPath(code, route) + (route.endsWith('/') ? '' : '.html'))), { code: 'ENOENT' }, `English-only route: ${code}/${route}`);
   }
 }
 const sitemap = await readFile(path.join(dist, 'sitemap.xml'), 'utf8');
 const sitemapUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(([, url]) => url);
 assert.equal(sitemapUrls.length, indexable.size, 'Sitemap URL count');
 assert.deepEqual(new Set(sitemapUrls), indexable, 'Sitemap contains only indexable pages');
+for (const route of gamePages) assert.ok(indexable.has(origin + route), `Game in sitemap: ${route}`);
 for (const url of sitemapUrls) await localTarget(url, '/');
 function pageCopy(html) {
   const copy = new Set();
@@ -165,12 +209,12 @@ for (const [code, locale] of Object.entries(partnerLocales)) {
   const search = JSON.parse(await readFile(catalogPath, 'utf8'));
   for (const game of partnerGamesFor(code).filter(game => Object.hasOwn(locale.games, game.id))) {
     const route = localPath(code, partnerGamePath('en', game));
-    const html = await readFile(path.join(dist, route, 'index.html'), 'utf8');
+    const html = await readFile(path.join(dist, route + '.html'), 'utf8');
     const copy = game.details[code];
     assert.ok(sitemapSet.has(origin + route), `Localized game in sitemap: ${route}`);
     assert.ok(search.some(entry => entry.href === route && entry.keywords.includes(game.category[code])), `Localized game in search: ${route}`);
     const renderedCopy = pageCopy(html);
-    for (const text of [copy.searchTitle + ' | tapmelo', copy.summary, ...copy.about, ...copy.steps.flat(), ...copy.faq.flat()]) {
+    for (const text of [copy.summary, ...copy.about, ...copy.steps.flat(), ...copy.faq.flat()]) {
       assert.ok(renderedCopy.has(text), `Authored localized game copy: ${route} / ${text}`);
     }
   }
@@ -212,8 +256,8 @@ for (const lang of ['en']) {
   assert.match(home, /href="\/games\/" data-all-games-link/, 'Homepage links to the full game catalogue');
   for (const game of partnerGames) {
     const gamePath = partnerGamePath(lang, game);
-    assert.ok(home.includes(`href="${gamePath}"`), `Partner game card link: ${gamePath}`);
-    const player = await readFile(path.join(dist, gamePath, 'index.html'), 'utf8');
+    assert.ok(allGames.includes(`href="${gamePath}"`), `Partner game card link: ${gamePath}`);
+    const player = await readFile(path.join(dist, gamePath + '.html'), 'utf8');
     const screenshots = game.media.screenshots ?? [];
     const hasMedia = game.provider !== '1games' || Boolean(game.preview) || screenshots.length > 0;
     checkDetailLayout(player, gamePath, hasMedia);
@@ -225,14 +269,12 @@ for (const lang of ['en']) {
       assert.deepEqual(imageSources, screenshots.map(({ src }) => src), `1Games media shows only registered screenshots as images: ${gamePath}`);
     }
     assert.match(player, /class="detail-tile"[^>]+data-game-tile[^>]*>\s*<span class="game-tile-art">\s*<img[^>]*>\s*(?:<video[^>]*><\/video>\s*)?<span class="game-tile-label">/, 'Recommendation labels are inside the artwork');
-    const { categories, tags } = taxonomyFor(game);
-    const breadcrumb = player.match(/class="discovery-breadcrumb"[\s\S]*?<\/nav>/)?.[0];
-    assert.ok(breadcrumb?.includes(`href="${gamesPath(lang)}"`) && breadcrumb.includes(`href="${genrePath(lang, categories[0])}"`), `Game breadcrumb: ${gamePath}`);
+    const { tags } = taxonomyFor(game);
     for (const id of tags) assert.ok(player.includes(`href="${tagPath(lang, id)}"`), `Game tag: ${id}/${gamePath}`);
     const frameUrl = player.match(/<iframe\b[^>]*\bsrc="([^"]+)"/)?.[1];
     assert.equal(frameUrl?.replaceAll('&amp;', '&'), game.url, `Exact partner link: ${gamePath}`);
   }
-  const mahjong = await readFile(path.join(dist, prefix, 'games/mahjong/index.html'), 'utf8');
+  const mahjong = await readFile(path.join(dist, prefix, 'mahjong.html'), 'utf8');
   assert.equal((mahjong.match(/class="game-guide-link"/g) || []).length, 7, 'seven guides');
 }
 for (const code of languageCodes) {
@@ -240,12 +282,12 @@ for (const code of languageCodes) {
   const home = await readFile(path.join(dist, prefix, 'index.html'), 'utf8');
   assert.doesNotMatch(home, /<iframe\b/, `Homepage does not start embedded games: ${code}`);
   for (const slug of ['marble-sort', 'screw-sort', 'mahjong']) {
-    const detail = await readFile(path.join(dist, prefix, 'games', slug, 'index.html'), 'utf8');
+    const detail = await readFile(path.join(dist, prefix, slug + '.html'), 'utf8');
     checkDetailLayout(detail, prefix + '/' + slug);
     assert.match(detail, new RegExp(`data-src="/play/${slug}/\\?[^"]*lang=${code}(?:&amp;|")`), `Supported iframe language: ${code}/${slug}`);
     assert.match(detail, /class="detail-native-runtime"/, 'Original game retains its local loader: ' + slug);
   }
-  const marble=await readFile(path.join(dist,prefix,'games/marble-sort/index.html'),'utf8');
+  const marble=await readFile(path.join(dist,prefix,'marble-sort.html'),'utf8');
   assert.equal((marble.match(/class="game-guide-link"/g)||[]).length,marbleGuides.length,'four Marble Sort guides');
   assert.ok(marble.includes('/assets/marble-embed.js?v='),'Marble Sort embed controller');
   assert.ok(marble.includes('/play/marble-sort/?embed=1&amp;lang='),'same-origin Marble Sort iframe');
