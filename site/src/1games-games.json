@@ -13650,5 +13650,894 @@
         ]
       }
     }
+  },
+  {
+    "id": "run-away-3",
+    "englishOnly": true,
+    "title": "Run Away 3",
+    "category": {
+      "en": "Space platform runner"
+    },
+    "source": "https://1games.io/run-away-3",
+    "url": "https://html5.gamedistribution.com/72b93213518244a5b9160348a91ec194/?gd_sdk_referrer_url=https://1games.io/run-away-3",
+    "width": 512,
+    "height": 512,
+    "media": {
+      "icon": "/assets/1games/run-away-3-icon.png",
+      "artwork": "/assets/1games/run-away-3-cover.png",
+      "artworkWidth": 1080,
+      "artworkHeight": 1080,
+      "preview": "/assets/1games/run-away-3-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/run-away-3/run-away-3.jpeg",
+        "artwork": "https://1games.io/data/image/game/run-away-3/banner/run-away-3.png",
+        "preview": "https://1games.io/data/file/game/run_away_pre.mp4"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2024-05-27",
+      "genres": [
+        "arcade",
+        "adventure"
+      ],
+      "tags": [
+        "jumping-games",
+        "obstacles-games",
+        "endless-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Guide a little alien through broken space tunnels. Try the individual courses in Explore Mode or chase a distance record in Infinite Mode.",
+        "aboutTitle": "Read the gaps before picking your landing",
+        "about": [
+          "Run Away 3 follows a small alien through tunnels suspended in space. The runner keeps moving toward platforms with holes of different sizes. Look beyond the nearest gap before jumping so you can choose a landing with more ground ahead.",
+          "Explore Mode breaks the journey into separate courses. When you keep falling on a particular course, start by adjusting your position before the jump. Lining up early is easier than trying to move all the way across the tunnel in the air.",
+          "Infinite Mode gives you a changing route and lets you compete with your own record. Start each run by looking for connected sections of platform. Rewards from your attempts can be used to unlock more character looks."
+        ],
+        "steps": [
+          [
+            "Line up with the next platform",
+            "Use the left and right arrow keys to move toward a stretch with room to land."
+          ],
+          [
+            "Jump across a break",
+            "Press Space or Up Arrow when you reach the edge of the current platform."
+          ],
+          [
+            "Make the next jump easier",
+            "Land where you can see another safe route before running off the next edge."
+          ],
+          [
+            "Choose a mode",
+            "Use Explore to work through courses or Infinite to see how far you can go on a changing map."
+          ]
+        ],
+        "faq": [
+          [
+            "Which key jumps?",
+            "Use Space or Up Arrow. Left and Right move the runner across the tunnel."
+          ],
+          [
+            "How are the two modes different?",
+            "Explore has individual courses. Infinite sends you through a changing route until the run ends."
+          ],
+          [
+            "Why do I fall after clearing a gap?",
+            "A narrow landing leaves little time for another move. Look for a wider section before you jump."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "hyper-tunnel",
+    "englishOnly": true,
+    "title": "Hyper Tunnel",
+    "category": {
+      "en": "Space tunnel reflex runner"
+    },
+    "source": "https://1games.io/hyper-tunnel",
+    "url": "https://hyper-tunnel.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/hyper-tunnel-icon.png",
+      "artwork": "/assets/1games/hyper-tunnel-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/hyper-tunnel-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/hyper-tunnel/hyper-tunnel.png",
+        "artwork": "https://1games.io/data/image/game/hyper-tunnel/banner/hyper-tunnel-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/hyper-tunnel/hyper-tunnel.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-11-19",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "avoid-games",
+        "reaction-games",
+        "endless-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Steer a ship through moving tunnel walls and narrowing gaps. Pick up coins on open stretches and adjust more precisely as your speed rises.",
+        "aboutTitle": "Line up with the openings before the tunnel bends",
+        "about": [
+          "Hyper Tunnel sends a ship through a narrow space passage filled with obstacles. Keep looking toward the next bend as you guide it. Watching only the ship gives you less time to respond when the walls shift.",
+          "Start steering when you can see an open path, then make small corrections inside it. Hard turns can send the ship too far when the next gap is close. If a tight section keeps ending your run, aim toward the middle of the opening earlier.",
+          "Speed builds as the run continues. Coins can unlock more looks for the ship, but the safest place to pick them up is along a route you can already follow. Skip a coin near a closing gap when moving toward it would leave you stuck at the edge."
+        ],
+        "steps": [
+          [
+            "Steer the ship",
+            "Use the arrow keys or WASD to move through the tunnel."
+          ],
+          [
+            "Look past the current obstacle",
+            "Find the next open gap before you leave the one in front of you."
+          ],
+          [
+            "Keep corrections small",
+            "Ease toward the centre of a tight opening instead of moving all the way to the wall."
+          ],
+          [
+            "Collect coins on a clear line",
+            "Go for coins when you can see the next opening and reach it safely afterward."
+          ]
+        ],
+        "faq": [
+          [
+            "Why do late turns become harder?",
+            "The ship is travelling faster, so you have less time to get into position before the next obstacle."
+          ],
+          [
+            "What are coins for?",
+            "They contribute to unlocks such as new ship skins."
+          ],
+          [
+            "Should I follow coins into a narrow corner?",
+            "Follow them if you can already see a clear route out of the corner. Otherwise stay on the safer line."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "blocky-rider",
+    "englishOnly": true,
+    "title": "Blocky Rider",
+    "category": {
+      "en": "Motorcycle traffic driving"
+    },
+    "source": "https://1games.io/blocky-rider",
+    "url": "https://blocky-rider.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/blocky-rider-icon.png",
+      "artwork": "/assets/1games/blocky-rider-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/blocky-rider-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/blocky-rider/blocky-rider.png",
+        "artwork": "https://1games.io/data/image/game/blocky-rider/banner/blocky-rider-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/blocky-rider/blocky-rider.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-11-17",
+      "genres": [
+        "driving",
+        "arcade"
+      ],
+      "tags": [
+        "bike-racing-games",
+        "obstacles-games",
+        "vehicles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Ride a blocky motorbike through traffic, try a timed Demolition run, or explore the streets and ramps in City Mode.",
+        "aboutTitle": "Choose the right pace for each road",
+        "about": [
+          "Blocky Rider puts a motorcycle among vehicles that can change lanes. Leave room as you approach groups of traffic. A narrow opening can disappear if the car ahead moves over while you are already passing.",
+          "Race Mode rewards momentum through an endless stream of traffic. Demolition changes the goal to cartoon collisions within a time limit. City Mode lets you explore wider streets, ramps, and an airport. Use the city to practise slow turns or try another camera angle.",
+          "Higher speed raises the potential score in a race. Coins can help too, but a lane change for a single coin can cost the run. Check the far side of a group before passing and slow down if two vehicles are closing the gap."
+        ],
+        "steps": [
+          [
+            "Choose a riding mode",
+            "Pick Race for traffic, Demolition for a timed destruction run, or City for open exploration."
+          ],
+          [
+            "Speed up or slow down",
+            "Use W or Up Arrow to move forward and S or Down Arrow to reduce speed."
+          ],
+          [
+            "Steer into an opening",
+            "Use A and D or Left and Right. Look for a clear path beyond the vehicle you are passing."
+          ],
+          [
+            "Change your view",
+            "Press C to try another camera angle when you need a better look at the traffic."
+          ]
+        ],
+        "faq": [
+          [
+            "Where can I practise without endless traffic pressure?",
+            "City Mode gives you room to explore the roads and ramps."
+          ],
+          [
+            "Does going faster help in Race Mode?",
+            "Speed raises score potential, but slowing down can preserve the run when vehicles narrow your route."
+          ],
+          [
+            "How do I change the camera?",
+            "Press C to cycle the view."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "flying-ball",
+    "englishOnly": true,
+    "title": "Flying Ball",
+    "category": {
+      "en": "Downhill ball runner"
+    },
+    "source": "https://1games.io/flying-ball",
+    "url": "https://flying-ball.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/flying-ball-icon.png",
+      "artwork": "/assets/1games/flying-ball-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/flying-ball-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/flying-ball/flying-ball.png",
+        "artwork": "https://1games.io/data/image/game/flying-ball/banner/flying-ball-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/flying-ball/flying-ball.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-11-14",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "reaction-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Guide a rolling ball along narrow slopes and across gaps. Set up clean landings and collect gems for new ball skins.",
+        "aboutTitle": "Steer for the landing before you leave the slope",
+        "about": [
+          "The ball in Flying Ball rolls forward on its own. Your job is to keep it lined up with each bend and ramp. When a platform curves away, begin steering while the ball still has room rather than waiting until it reaches the edge.",
+          "You can adjust the ball in the air with the same controls used on the slopes. Look for the broadest part of the next platform. Longer airtime can raise the score, but a clean landing keeps the run going and can earn a bonus.",
+          "Gems unlock ball skins, and the game offers additional challenges to pursue. Take a gem when it fits the course you are already following. If a moving platform is approaching, concentrate on where it will be when the ball comes down."
+        ],
+        "steps": [
+          [
+            "Follow the slope",
+            "Use the left and right arrow keys to position the ball as it rolls."
+          ],
+          [
+            "Aim before a ramp",
+            "Move toward the part of the next platform with enough room to land."
+          ],
+          [
+            "Correct lightly in the air",
+            "Use Left or Right to align with the landing without drifting past it."
+          ],
+          [
+            "Take gems on a safe route",
+            "Collect gems when you can stay on course and keep your next landing in view."
+          ]
+        ],
+        "faq": [
+          [
+            "What controls the ball in midair?",
+            "The left and right arrow keys steer it both in the air and on the slopes."
+          ],
+          [
+            "How can I raise my score?",
+            "Keep the run going and look for longer jumps you can finish with a clean landing."
+          ],
+          [
+            "What are gems used for?",
+            "Collected gems unlock additional ball skins."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "dancing-beat",
+    "englishOnly": true,
+    "title": "Dancing Beat",
+    "category": {
+      "en": "Music timing arcade"
+    },
+    "source": "https://1games.io/dancing-beat",
+    "url": "https://dancing-beat.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/dancing-beat-icon.png",
+      "artwork": "/assets/1games/dancing-beat-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/dancing-beat-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/dancing-beat/dancing-beat.png",
+        "artwork": "https://1games.io/data/image/game/dancing-beat/banner/dancing-beat-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/dancing-beat/dancing-beat.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-11-07",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "rhythm-games",
+        "timing-games",
+        "reaction-games",
+        "one-button-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Click on cue to guide a ball through shifting paths. Follow the song and watch how tighter turns change the timing.",
+        "aboutTitle": "Match each click to the path as it appears",
+        "about": [
+          "Dancing Beat builds a path around the soundtrack as your ball moves. A click at the right moment carries it through the next turn or sequence. Watch where the path changes so you know which part of the melody calls for an input.",
+          "Faster notes can arrive just before a barrier or sharp bend. Listen for a repeated phrase and compare it with the section you can see. If you miss a turn, use the start of that phrase as your cue on the next try.",
+          "Later stages introduce breaks in the beat and changes in the shape of the path. Keep your attention on the next visible cue during these stretches. Waiting for the next usable beat is often easier than clicking repeatedly through an uncertain section."
+        ],
+        "steps": [
+          [
+            "Listen to the opening",
+            "Hear the pace of the first phrase while watching how the path forms."
+          ],
+          [
+            "Click at the visible cue",
+            "Use one click when the ball reaches the timing point for its next move."
+          ],
+          [
+            "Read a quick sequence ahead",
+            "Look for turns immediately after the current one so the next input does not catch you by surprise."
+          ],
+          [
+            "Practise the phrase you missed",
+            "Repeat the level and note the sound that comes just before the difficult turn."
+          ]
+        ],
+        "faq": [
+          [
+            "Is there more than one control?",
+            "The core input is a click. Its timing guides the ball through the path."
+          ],
+          [
+            "Can I rely on the music alone?",
+            "The soundtrack helps you keep time, while the visible path tells you when an input is needed."
+          ],
+          [
+            "Why do I miss after a rhythm break?",
+            "The pace can change across a break. Watch the next turn and use it to find the new timing."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "snow-road",
+    "englishOnly": true,
+    "title": "Snow Road",
+    "category": {
+      "en": "Pixel downhill sleigh runner"
+    },
+    "source": "https://1games.io/snow-road",
+    "url": "https://snow-road.1games.io/",
+    "width": 512,
+    "height": 352,
+    "media": {
+      "icon": "/assets/1games/snow-road-icon.png",
+      "artwork": "/assets/1games/snow-road-cover.png",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "preview": "/assets/1games/snow-road-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/snow-road/snow-road-512x384-copy.png",
+        "artwork": "https://1games.io/data/image/game/snow-road/banner/snow-road.png",
+        "preview": "https://1games.io/data/file/game/snow-road.mp4"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "sports",
+        "arcade"
+      ],
+      "tags": [
+        "snow-games",
+        "endless-games",
+        "avoid-games",
+        "jumping-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Steer a sleigh through a pixel-art winter run. Dodge trees and rocks, jump over gaps, and collect rewards for different sleighs.",
+        "aboutTitle": "Pick a clear landing on the snowy descent",
+        "about": [
+          "Snow Road is a pixel-art downhill run with trees, rocks, and holes across the slope. Look beyond the nearest obstacle before steering. There may be a rock on the other side of the tree you just avoided.",
+          "Use a jump when the route provides a clear place to come down. If the next stretch is narrow, move into line before pressing jump so you have less to correct in the air. Steering around a hazard can be easier when the snow beside it is open.",
+          "Obstacles appear more often as the descent continues. Rewards across your runs open up more sleighs. Go for a reward when it is on a route you can keep following, especially once the gaps between obstacles start getting shorter."
+        ],
+        "steps": [
+          [
+            "Steer through open snow",
+            "Use Left and Right Arrow to shift the sleigh away from rocks and trees."
+          ],
+          [
+            "Jump when you can see the landing",
+            "Press Space or Up Arrow to jump over an obstacle or gap."
+          ],
+          [
+            "Check the next hazard",
+            "Pick a side that leaves room to move after the current obstacle."
+          ],
+          [
+            "Collect rewards during a safe stretch",
+            "Stay on a line where you can pass the next obstacle after picking up the reward."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I jump?",
+            "Press Space or Up Arrow."
+          ],
+          [
+            "What makes the run harder later?",
+            "Hazards appear more frequently, giving you less time to find an open path."
+          ],
+          [
+            "What can I unlock?",
+            "Rewards from playing let you collect different sleighs."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "cowboy-safari",
+    "englishOnly": true,
+    "title": "Cowboy Safari",
+    "category": {
+      "en": "Animal-hopping endless runner"
+    },
+    "source": "https://1games.io/cowboy-safari",
+    "url": "https://cowboy-safari.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/cowboy-safari-icon.png",
+      "artwork": "/assets/1games/cowboy-safari-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/cowboy-safari-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/cowboy-safari/cowboy-safari.png",
+        "artwork": "https://1games.io/data/image/game/cowboy-safari/banner/cowboy-safari-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/cowboy-safari/cowboy-safari.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-11-05",
+      "genres": [
+        "adventure",
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "collecting-games",
+        "jumping-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Jump between moving animals during a safari run and bring newly tamed creatures back to expand your Sky Zoo.",
+        "aboutTitle": "Switch mounts before your ride gets restless",
+        "about": [
+          "Cowboy Safari sends you through moving herds and obstacles. Look for an animal within reach before leaving the one you are on. A clear route between the two makes the jump easier to line up.",
+          "Some mounts become hard to control when you stay on them too long. Read their movement and give yourself room to switch. The next animal should take you toward open ground so you can settle onto it without running straight into an obstacle.",
+          "Animals you tame join your Sky Zoo. Developing its habitats contributes to progress between runs. While exploring new regions, balance looking for unfamiliar animals with keeping the run alive long enough to bring them back."
+        ],
+        "steps": [
+          [
+            "Begin the chase",
+            "Use Space to run or jump toward an animal you want to lasso."
+          ],
+          [
+            "Position yourself for the next mount",
+            "Use Left and Right Arrow to move sideways around obstacles and line up your jump."
+          ],
+          [
+            "Stay on the animal during the chase",
+            "Hold Space to remain on its back and watch for a chance to switch."
+          ],
+          [
+            "Develop your Sky Zoo",
+            "Bring back animals you tame and use the zoo’s upgrades to expand their habitats."
+          ]
+        ],
+        "faq": [
+          [
+            "When should I change mounts?",
+            "Look for another animal once your current mount starts becoming difficult to control."
+          ],
+          [
+            "How do I move sideways?",
+            "Use the left and right arrow keys."
+          ],
+          [
+            "What happens to the animals I tame?",
+            "They can join the Sky Zoo, where you can expand habitats and attract visitors."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "escape-drive",
+    "englishOnly": true,
+    "title": "Escape Drive",
+    "category": {
+      "en": "Vehicle pursuit and hill driving"
+    },
+    "source": "https://1games.io/escape-drive",
+    "url": "https://escape-drive.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/escape-drive-icon.png",
+      "artwork": "/assets/1games/escape-drive-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/escape-drive-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/escape-drive/escape-drive.png",
+        "artwork": "https://1games.io/data/image/game/escape-drive/banner/escape-drive-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/escape-drive/escape-drive.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-11-03",
+      "genres": [
+        "driving",
+        "action"
+      ],
+      "tags": [
+        "vehicles-games",
+        "car-tuning-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Balance a car across rough chase routes, time your boosts, and upgrade vehicles for city streets, desert tracks, and jungle ramps.",
+        "aboutTitle": "Keep the car level before using a boost",
+        "about": [
+          "Escape Drive moves your car forward through rough terrain while rival vehicles close in. Use the lean controls to keep the wheels lined up for hills and landings. Losing your balance at the top of a slope can cost more time than carrying a little less speed.",
+          "Boost on a section where the car is already stable and the next part of the track is visible. A ramp or steep drop may need a correction first. Save your fuel until you can use that extra speed without entering the next obstacle off balance.",
+          "Missions take you through several kinds of terrain, and earnings can go toward vehicles and their upgrades. Review where the last attempt came apart before choosing what to buy. Armor can help if rival cars are catching you, while speed matters more when you have a clear route and need to open a gap."
+        ],
+        "steps": [
+          [
+            "Read the next rise",
+            "Let the car move forward and watch for steep terrain or a ramp."
+          ],
+          [
+            "Adjust the car’s lean",
+            "Use A to lean backward and D to tip the front downward."
+          ],
+          [
+            "Use speed on steady ground",
+            "Press J to speed up and use K for the fuel control where you have room ahead."
+          ],
+          [
+            "Review upgrades after a mission",
+            "Choose speed, armor, or equipment based on what limited the previous attempt."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I keep the car level?",
+            "Use A and D for small lean corrections, especially near the top of a ramp."
+          ],
+          [
+            "Does the car move on its own?",
+            "Yes. Your inputs adjust balance, speed, and fuel use while it moves."
+          ],
+          [
+            "When is it best to speed up?",
+            "Use extra speed when the wheels are steady and you can see a clear section ahead."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "escape-road-city-2",
+    "englishOnly": true,
+    "title": "Escape Road City 2",
+    "category": {
+      "en": "Open-city pursuit driving"
+    },
+    "source": "https://1games.io/escape-road-city-2",
+    "url": "https://escape-road-city-2.1games.io/",
+    "width": 1024,
+    "height": 683,
+    "media": {
+      "icon": "/assets/1games/escape-road-city-2-icon.png",
+      "artwork": "/assets/1games/escape-road-city-2-icon.png",
+      "artworkWidth": 1024,
+      "artworkHeight": 683,
+      "preview": "/assets/1games/escape-road-city-2-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/escape-road-city-2/escape-road-city-2-1024x683.png",
+        "artwork": "https://1games.io/data/image/game/escape-road-city-2/escape-road-city-2-1024x683.png",
+        "preview": "https://cdn.1games.io/file/game/escape-road-city-2/escape-road-city-2-preview.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "driving",
+        "action"
+      ],
+      "tags": [
+        "vehicles-games",
+        "arcade-car",
+        "fast-paced-action"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Drive across a 3D city, watch the minimap, and decide when to boost, leave the car, or use a parachute to keep the chase going.",
+        "aboutTitle": "Leave room for the next turn in a city chase",
+        "about": [
+          "Escape Road City 2 keeps the pursuit moving through an open city. Glance at the minimap before turning into a narrow street. When you can see the next junction, you can brake early enough to make the turn without losing control.",
+          "The game lets you leave the vehicle when the driving route gets blocked. The exit and parachute controls give you more options, but check the surroundings before using either. A jump from the car is easier to use when you have already picked a landing or a place to move next.",
+          "Keep your boosts for streets where you can continue at speed after using one. Traffic and tight corners can shorten that window. Practice the steering and exit controls on a quieter stretch before relying on them during a crowded pursuit."
+        ],
+        "steps": [
+          [
+            "Drive and steer",
+            "Use W or Up Arrow to accelerate, and A and D or the left and right arrows to steer."
+          ],
+          [
+            "Slow for a tight corner",
+            "Use S or Down Arrow to brake or reverse before committing to a turn."
+          ],
+          [
+            "Choose when to leave the car",
+            "Press E to jump out. Use Space for the parachute when airborne."
+          ],
+          [
+            "Watch for a clear stretch",
+            "Check the minimap before holding Shift to boost."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I leave a vehicle?",
+            "Press E to jump out."
+          ],
+          [
+            "What does Space do?",
+            "It opens the parachute when you are airborne."
+          ],
+          [
+            "Which key boosts the car?",
+            "Hold Shift to boost. A straight stretch gives you more room to use it."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "mad-racers",
+    "englishOnly": true,
+    "title": "Mad Racers",
+    "category": {
+      "en": "Power-up racing arcade"
+    },
+    "source": "https://1games.io/mad-racers",
+    "url": "https://mad-racers.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/mad-racers-icon.png",
+      "artwork": "/assets/1games/mad-racers-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/mad-racers-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/mad-racers/mad-racers.png",
+        "artwork": "https://1games.io/data/image/game/mad-racers/banner/mad-racers-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/mad-racers/mad-racers.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-10-31",
+      "genres": [
+        "driving",
+        "arcade"
+      ],
+      "tags": [
+        "race-games",
+        "arcade-car",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Race with shields, rockets, and turbo cards. Choose when to use each power-up as you unlock cars and take on bosses.",
+        "aboutTitle": "Spend each power-up when it can change the race",
+        "about": [
+          "Mad Racers places cars on cartoon tracks where rivals can use rockets and shields. Read what is happening around your car before clicking a power-up. A shield does more when an attack is about to reach you than when the track is quiet.",
+          "Turbo helps when there is room to get ahead. Save a rocket for a rival that is still close enough to affect your position. You can get more out of a single card by waiting for a stretch where it answers the problem in front of you.",
+          "Cars and characters progress through upgrades, and later races add boss encounters. Try a different loadout if you keep losing to the same threat. A protective ability is worth keeping when incoming attacks are costing you more time than your top speed."
+        ],
+        "steps": [
+          [
+            "Read the available cards",
+            "Look at the power-up boxes before using one so you know what you can save for later."
+          ],
+          [
+            "Shield before an incoming rocket",
+            "Click the shield box when you see a threat approaching."
+          ],
+          [
+            "Use your rocket on a nearby rival",
+            "Click the rocket box while another racer is in a position where the hit can help you."
+          ],
+          [
+            "Save turbo for open space",
+            "Click the turbo power-up when you have room to benefit from the extra speed."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I activate a power-up?",
+            "Click its power-up box in the race."
+          ],
+          [
+            "What can help against a rocket?",
+            "Use the shield when you expect the rocket to reach you."
+          ],
+          [
+            "When should I use turbo?",
+            "Use it when the track ahead has room for the burst of speed."
+          ]
+        ]
+      }
+    }
   }
 ]
