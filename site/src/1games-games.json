@@ -12309,5 +12309,455 @@
         ]
       }
     }
+  },
+  {
+    "id": "ice-baby-quest",
+    "englishOnly": true,
+    "title": "Ice Baby Quest",
+    "category": {
+      "en": "First-person maze adventure"
+    },
+    "source": "https://1games.io/ice-baby-quest",
+    "url": "https://ice-baby-quest.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/ice-baby-quest-icon.png",
+      "artwork": "/assets/1games/ice-baby-quest-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/ice-baby-quest-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/ice-baby-quest/ice-baby-quest.png",
+        "artwork": "https://1games.io/data/image/game/ice-baby-quest/banner/ice-baby-quest_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/ice-baby-quest/ice-baby-quest.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-23",
+      "genres": [
+        "adventure",
+        "puzzle"
+      ],
+      "tags": [
+        "quests-games",
+        "search-games",
+        "collecting-games",
+        "jumping-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Explore a strange maze, talk to its cartoon residents, and put their clues and quest items together to find the Ice Age Baby.",
+        "aboutTitle": "Follow the clues through a maze of odd characters",
+        "about": [
+          "Ice Baby Quest sends you looking for the Ice Age Baby through a maze of strange characters and concealed paths. Explore a section at a time and talk to the people you meet. A throwaway line in a conversation can be your hint to investigate a door or look for a missing object.",
+          "Coins and quest objects can help you get past blocked parts of the map. When you cannot use an item right away, remember where you found it and which character mentioned something similar. Returning to a familiar junction can also help you locate a side route you missed on the first trip.",
+          "Once your investigation reaches the hiding place, the game offers a final choice with several outcomes. Spend your time before that point on routes that advance a request or solve an obstacle. Revisiting every character makes more sense after you have found a new clue to follow."
+        ],
+        "steps": [
+          [
+            "Explore one route at a time",
+            "Use WASD or the arrow keys to move, and remember a landmark before turning into a side path."
+          ],
+          [
+            "Interact with people and objects",
+            "Left-click to talk or examine something. Read dialogue for clues about the nearby areas."
+          ],
+          [
+            "Collect items as you find them",
+            "Search a room before leaving it so you have its coins or quest objects when another character needs them."
+          ],
+          [
+            "Reach the hiding place",
+            "Use Space to jump and Shift to sprint. Follow the unlocked route and choose an option at the final encounter."
+          ]
+        ],
+        "faq": [
+          [
+            "What should I do if I reach a blocked passage?",
+            "Look for an object or a conversation you may have missed nearby. The route may depend on completing a small request first."
+          ],
+          [
+            "Do I need to talk to characters who are joking?",
+            "Yes. Their jokes sometimes contain clues about a nearby path or a quest object."
+          ],
+          [
+            "Is there more than one ending?",
+            "The final encounter offers several choices, each with a different concluding sequence."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "ragdoll-arena",
+    "englishOnly": true,
+    "title": "Ragdoll Arena",
+    "category": {
+      "en": "Physics-based arena duels"
+    },
+    "source": "https://1games.io/ragdoll-arena",
+    "url": "https://ragdoll-arena.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/ragdoll-arena-icon.png",
+      "artwork": "/assets/1games/ragdoll-arena-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/ragdoll-arena-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/ragdoll-arena/ragdoll-arena.png",
+        "artwork": "https://1games.io/data/image/game/ragdoll-arena/banner/ragdoll-arena-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/ragdoll-arena/ragdoll-arena.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-21",
+      "genres": [
+        "action",
+        "arcade"
+      ],
+      "tags": [
+        "arena-games",
+        "action-fighting",
+        "avoid-games",
+        "competitive-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Keep a wobbly fighter upright, reach weapons before your rival, and use the arena's traps to make an opening in short physics-driven duels.",
+        "aboutTitle": "Win the position before starting the fight",
+        "about": [
+          "Ragdoll Arena puts two unwieldy fighters in close quarters. A small movement can turn into a tumble once you are airborne. Before chasing a dropped weapon, check what you will land on and keep enough space to stop.",
+          "Traps affect both fighters. If a rival lunges near a hazard, back away and let their momentum carry them toward it. If you rush in while your character is still rolling, it is harder to hold a weapon steady or escape the next jump.",
+          "Practice in training to learn what a short jump and a longer approach feel like. Different weapons, shields, and bonuses change how much room you need. Try new equipment where you can see its reach before relying on it close to a trap."
+        ],
+        "steps": [
+          [
+            "Move in short bursts",
+            "Use A and D or the left and right arrow keys to move. Give your fighter space to regain balance."
+          ],
+          [
+            "Jump toward a clear landing",
+            "Press Space to jump and check for traps on both sides of where you expect to come down."
+          ],
+          [
+            "Aim and use equipment",
+            "Use the mouse to aim, grab a weapon, and attack when you have a clean opening."
+          ],
+          [
+            "Practise in training",
+            "Use training to learn where your fighter will land and how different weapons change your reach."
+          ]
+        ],
+        "faq": [
+          [
+            "Why do I tumble past where I want to stop?",
+            "The fighter keeps its momentum. Start slowing down before you reach the edge or the next hazard."
+          ],
+          [
+            "When is it worth grabbing a weapon?",
+            "Go for it when you can reach it without jumping into a trap or giving the other fighter a free attack."
+          ],
+          [
+            "Can I practise the controls before facing an opponent?",
+            "The training modes are a place to get used to jumping, aiming, and recovering your balance."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "horror-nun",
+    "englishOnly": true,
+    "title": "Horror Nun",
+    "category": {
+      "en": "Stealth and escape horror"
+    },
+    "source": "https://1games.io/horror-nun",
+    "url": "https://horror-nun.1games.io/",
+    "width": 1280,
+    "height": 853,
+    "media": {
+      "icon": "/assets/1games/horror-nun-icon.png",
+      "artwork": "/assets/1games/horror-nun-cover.png",
+      "artworkWidth": 1024,
+      "artworkHeight": 1024,
+      "preview": "/assets/1games/horror-nun-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/horror-nun/horror-nun1.png",
+        "artwork": "https://1games.io/data/image/game/horror-nun/banner/horror-nun-1.png",
+        "preview": "https://cdn.1games.io/file/game/horror-nun/horror-nun.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-16",
+      "genres": [
+        "adventure",
+        "puzzle"
+      ],
+      "tags": [
+        "3d-horror",
+        "horror-escape",
+        "search-games",
+        "stealth-action"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Escape Sister Madeline's school by learning her patrol, finding puzzle items, and moving them through the halls one at a time.",
+        "aboutTitle": "Plan an escape through the school's locked halls",
+        "about": [
+          "Horror Nun puts you inside a school patrolled by Sister Madeline. You need to search rooms for clues and reach an escape route before she catches you. Listen at corners before opening up your view, and remember hiding spots as you pass them.",
+          "You carry one puzzle item at a time. If a key opens a route that also needs a tool, use the key first and leave the tool in a place you can reach again. A short, familiar route makes it easier to recover the item when the corridor is clear.",
+          "The school offers several routes out, with different requirements. Follow the clues for the route you can make progress on and check which doors your current item can open. If you hear danger approaching, crouch toward a nearby hiding spot or sprint when you have room to break away."
+        ],
+        "steps": [
+          [
+            "Learn the nearby rooms",
+            "Use WASD or the arrow keys to move and the mouse to look. Note doors, lockers, and vents before going farther."
+          ],
+          [
+            "Interact with objects",
+            "Use E or left-click to examine doors and pick up puzzle items."
+          ],
+          [
+            "Listen before crossing",
+            "Crouch with C or Ctrl when you need to move quietly. Use Shift to sprint when you need to get away quickly."
+          ],
+          [
+            "Manage the item you carry",
+            "Use G to drop an item. Remember precisely where you leave it if you need to pick it up later."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I carry a key and another tool at the same time?",
+            "You can carry one item at a time. Use the current item or leave it somewhere easy to find before taking the next one."
+          ],
+          [
+            "What can I do when Sister Madeline is close?",
+            "Listen for her approach and use the nearest available hiding spot. Lockers and vents can give you time to wait for her to pass."
+          ],
+          [
+            "Is there only one way out?",
+            "There are multiple escape routes. The puzzles and items you complete determine which route is available to you."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "police-drive",
+    "englishOnly": true,
+    "title": "Police Drive",
+    "category": {
+      "en": "City pursuit driving"
+    },
+    "source": "https://1games.io/police-drive",
+    "url": "https://police-drive.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/police-drive-icon.png",
+      "artwork": "/assets/1games/police-drive-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/police-drive-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/police-drive/police-drive.png",
+        "artwork": "https://1games.io/data/image/game/police-drive/banner/police-drive-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/police-drive/police-drive.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2026-01-09",
+      "genres": [
+        "driving",
+        "simulation"
+      ],
+      "tags": [
+        "vehicles-games",
+        "bike-racing-games",
+        "arcade-car",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Follow pursuit objectives across a 3D city and choose between a patrol car and a nimble bike as the route moves from alleys to highways.",
+        "aboutTitle": "Choose a vehicle that suits the pursuit",
+        "about": [
+          "Police Drive sets driving missions in an open 3D city. A chase can move from a wide road to a tight alley in one turn. Watch the route ahead so you can take a corner without losing so much speed that the target pulls away.",
+          "The patrol car and bike handle differently. Try the bike on routes with narrow gaps and repeated turns, or use the cruiser when a mission has longer stretches of road. Switch up your approach if you keep missing the same turn instead of trying to take it faster each time.",
+          "Completing missions opens upgraded equipment. Learn a vehicle's handling before chasing a harder objective, especially through traffic and sharp junctions. Missions involving more than one target can reward choosing a clear approach and keeping the next turn in view."
+        ],
+        "steps": [
+          [
+            "Read the current objective",
+            "Check the mission and its surroundings, then pick the patrol car or the bike for the route."
+          ],
+          [
+            "Accelerate on a clear road",
+            "Press Up Arrow or W to gain speed when you have room ahead."
+          ],
+          [
+            "Set your speed before turning",
+            "Use Down Arrow or S to slow down, then steer with Left and Right or A and D."
+          ],
+          [
+            "Review which corner costs you time",
+            "If the target keeps pulling away at the same junction, slow earlier or try a vehicle that turns more easily there."
+          ]
+        ],
+        "faq": [
+          [
+            "Do the patrol car and motorbike handle the same way?",
+            "They respond differently to turns and narrow gaps. Try each in the city before picking one for a difficult pursuit."
+          ],
+          [
+            "How do I unlock better equipment?",
+            "Complete driving challenges and pursuit objectives in the game to make upgraded equipment available."
+          ],
+          [
+            "Why do I lose the target on tight turns?",
+            "Entering too fast can make you overshoot. Slow before the junction and accelerate again as you exit."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "wheelie-master",
+    "englishOnly": true,
+    "title": "Wheelie Master",
+    "category": {
+      "en": "Side-scrolling bike balance"
+    },
+    "source": "https://1games.io/wheelie-master",
+    "url": "https://1games.io/game/wheelie-master/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/wheelie-master-icon.png",
+      "artwork": "/assets/1games/wheelie-master-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/wheelie-master-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wheelie-master/wheelie-master-game.png",
+        "artwork": "https://1games.io/data/image/game/wheelie-master/banner/wheelie-master-banner.png",
+        "preview": "https://cdn.1games.io/file/game/wheelie-master/wheelie-master.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-12-19",
+      "genres": [
+        "driving",
+        "sports"
+      ],
+      "tags": [
+        "bike-racing-games",
+        "stunt-games",
+        "timing-games",
+        "endless-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Hold a rear-wheel balance through bumps and slopes, time your corrections, and unlock bikes with different handling as your runs improve.",
+        "aboutTitle": "Keep your wheelie steady over changing terrain",
+        "about": [
+          "Wheelie Master is a side-view riding game built around staying on the rear wheel. The bike's angle changes as you cross bumps or reach the top of a slope. Watch the road immediately ahead and make small corrections before a steep section forces a big one.",
+          "Use the two lean controls to keep the front wheel at a manageable height. Holding the backward lean for too long can send the bike over, while a late forward lean can end the wheelie. Save the pose controls for even ground while you learn how the bike responds.",
+          "Longer runs and wheelies help you earn gear. A different bike can change its weight and the way it responds to a familiar input, so try a short practice ride after switching. Use the first few bumps to learn how much lean brings the front wheel back down without dropping it."
+        ],
+        "steps": [
+          [
+            "Raise the front wheel",
+            "Use Left Arrow to lean back and start riding on the rear wheel."
+          ],
+          [
+            "Correct an over-tilt early",
+            "Press Right Arrow to lean forward before the bike tips too far back."
+          ],
+          [
+            "Try poses on flatter sections",
+            "Use Up or Down Arrow to perform poses. Wait for a steady stretch before experimenting."
+          ],
+          [
+            "Relearn each bike's response",
+            "After an unlock, practise over the first few slopes before trying to beat your record."
+          ]
+        ],
+        "faq": [
+          [
+            "Why do I flip backward when I cross a bump?",
+            "A bump can add to the angle you already have. Ease forward before the front wheel rises too far."
+          ],
+          [
+            "When should I try a pose?",
+            "Try one when the wheelie is steady and the road ahead is even so you have time to correct your balance."
+          ],
+          [
+            "Do unlocked bikes ride differently?",
+            "They vary in weight and handling. Test the same lean on the new bike before trying a longer run."
+          ]
+        ]
+      }
+    }
   }
 ]
