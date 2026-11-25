@@ -60,7 +60,7 @@ export function renderMahjong(lang, sharedOnly){
    faq: [
      [copy(lang, 'Can I play against other people?', 'क्या मैं दूसरे खिलाड़ियों के साथ खेल सकता हूँ?'),
        copy(lang, 'This is a Mahjong learning game with exercises and a guided hand. It does not have opponent matches or scoring.',
-         'यह माहजोंग सीखने का खेल है। इसमें अभ्यास और निर्देशों वाला हाथ है। दूसरे खिलाड़ियों से मुकाबला या स्कोरिंग नहीं है।')],
+         'यहाँ आप अभ्यास सवाल हल कर सकते हैं या निर्देशों के साथ एक बाज़ी खेल सकते हैं। दूसरे खिलाड़ियों से मुकाबला नहीं होता और अंक नहीं गिने जाते।')],
      [copy(lang, 'Do I have to begin with the first level?', 'क्या पहले स्तर से शुरू करना ज़रूरी है?'),
        copy(lang, 'No. You can open any level and return to it later.', 'नहीं। आप कोई भी स्तर खोल सकते हैं और बाद में वापस आ सकते हैं।')],
      [copy(lang, 'Where is my lesson progress saved?', 'अभ्यास की प्रगति कहाँ सहेजी जाती है?'),

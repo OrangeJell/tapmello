@@ -252,7 +252,7 @@ export const hindi = {
   "Another hand": "दूसरा हाथ",
   "Free practice": "खुला अभ्यास",
   "Back to games": "खेलों पर वापस जाएँ",
-  "English & हिन्दी · No scoring": "English और हिन्दी · अंक नहीं गिने जाते",
+  "No scoring": "अंक नहीं गिने जाते",
   "Mahjong Tiles, Suits and Basic Sets": "टाइलें और उनके बुनियादी समूह",
   "Learn to recognise dots, bamboo, characters, winds and dragons, then use them to make pairs, sequences, triplets and quads.": "शुरुआत टाइलों पर बनी तस्वीरें पहचानने से करें। सूट और अक्षर वाली टाइलों में फर्क समझ आने लगे, तो शुरुआती अभ्यास कर सकते हैं।",
   "Sort the tiles by suit and put identical tiles next to each other. Look for two copies of the same tile for a pair or three consecutive numbers within one suit for a sequence. A 4 of dots and a 4 of bamboo belong in different groups.": "हाथ की टाइलें देखने से पहले हर शब्द याद करना ज़रूरी नहीं है। दो बातें देखें: कौन-सी टाइलें एक जैसी हैं, और किन संख्याओं से लगातार क्रम बनता है? आगे दूसरों की फेंकी टाइल लेने और जीतने वाला हाथ पहचानने में दोनों बातें काम आएँगी।",

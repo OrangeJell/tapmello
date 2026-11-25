@@ -173,10 +173,10 @@ for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
   const localizer = createLocalizer({ code, dictionary, source, routes, titles, editorialAliases });
   const fullLocale = code !== 'hi' || extractLocales;
   const startUrl = localPath(code, manifest.start_url);
-  let clientCopy;
+  let clientCopy = dictionary?.runtime;
   if (fullLocale) {
     const messages = Object.fromEntries(Object.entries(runtimeCopy).map(([key, value]) => [key, localizer.translate(value, 'runtime ' + key)]));
-    clientCopy = JSON.stringify(messages).replaceAll('<', '\\u003c');
+    clientCopy = { ...messages, ...clientCopy };
     const localManifest = { ...manifest, lang: code, start_url: startUrl,
       description: localizer.translate(manifest.description, 'manifest description') };
     const search = localizer.catalogue(englishSearch);
@@ -189,6 +189,7 @@ for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
       await writeFile(path.join(root, 'dist', 'assets', `game-recommendations-${slug}.json`), await versionAssets(JSON.stringify(recommendations)));
     }
   }
+  const runtimeJSON = clientCopy && JSON.stringify(clientCopy).replaceAll('<', '\\u003c');
   for (const [page, html] of renderedEnglish) {
     if (!fullLocale && page.kind !== 'info') continue;
     const copy = page.game && Object.hasOwn(partnerLocales[code].games, page.game.id) ? page.game.details[code] : undefined;
@@ -211,7 +212,8 @@ for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
     if (source) continue;
     const route = localPath(code, page.path);
     pages.push({ ...page, path: route, language: code, localized: true });
-    await writePage(route, !fullLocale ? translated : translated.replace('<meta charset="utf-8">', `<meta charset="utf-8">\n  <script id="site-localized-copy" type="application/json" data-language="${code}" data-game-path="${startUrl}">${clientCopy}</script>`));
+    const addRuntime = runtimeJSON && (fullLocale || page.path === '/privacy/');
+    await writePage(route, !addRuntime ? translated : translated.replace('<meta charset="utf-8">', `<meta charset="utf-8">\n  <script id="site-localized-copy" type="application/json" data-language="${code}" data-game-path="${startUrl}">${runtimeJSON}</script>`));
   }
   if (source) {
     writeFileSync(1, JSON.stringify([...source].sort()) + '\n');

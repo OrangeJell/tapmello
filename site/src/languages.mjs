@@ -1,17 +1,10 @@
 export const languages = Object.freeze({
   en: { name: 'English', og: 'en_IN' },
   hi: { name: 'हिन्दी', og: 'hi_IN' },
-  ta: { name: 'தமிழ்', og: 'ta_IN' },
-  te: { name: 'తెలుగు', og: 'te_IN' },
-  bn: { name: 'বাংলা', og: 'bn_IN' },
-  id: { name: 'Bahasa Indonesia', og: 'id_ID' },
   'zh-CN': { name: '简体中文', og: 'zh_CN' },
   ja: { name: '日本語', og: 'ja_JP' },
   fr: { name: 'Français', og: 'fr_FR' },
   ko: { name: '한국어', og: 'ko_KR' },
-  es: { name: 'Español', og: 'es_ES' },
-  de: { name: 'Deutsch', og: 'de_DE' },
-  it: { name: 'Italiano', og: 'it_IT' },
 });
 
 export const languageCodes = Object.keys(languages);

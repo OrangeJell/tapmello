@@ -15,9 +15,9 @@
   const gameUrl = new URL(gamePath, location.origin).href;
   const copy = {
     en: {
-      save: 'Save tapmelo', title: 'Your next little play break.',
+      save: 'Save tapmelo', title: 'Add tapmelo for next time',
       intro: 'Add tapmelo to your home screen or bookmarks so it is easy to find next time. An internet connection is needed to play.',
-      prompt: 'Enjoying the game? Save tapmelo for your next little break.',
+      prompt: 'Save tapmelo to find your games again.',
       add: 'Add / Bookmark', later: 'Not now', close: 'Close',
       addTitle: 'Add to home screen or desktop', bookmarkTitle: 'Bookmark this page',
       install: 'Add tapmelo', installing: 'Waiting for your browser…',
@@ -35,7 +35,7 @@
       bookmarkGeneric: 'Use the bookmark or favourites option in your browser menu. If you are in an app, open this page in your system browser first.',
       openGame: 'Open the game page to add it manually', copy: 'Copy game address', copied: 'Game address copied.',
       copyFallback: 'Copy this address and open it in your browser:',
-      confirmed: 'I have added it — stop reminding me', confirmedStatus: 'Thanks! We will stop showing game reminders on this browser.',
+      confirmed: 'I’ve added it. Don’t show this again.', confirmedStatus: 'This browser won’t show this reminder again.',
       progress: 'Progress is saved in this browser. On iPhone or iPad, a home-screen app may have separate progress.',
     },
     hi: {
@@ -63,7 +63,8 @@
       progress: 'प्रगति इसी ब्राउज़र में सहेजी जाती है। iPhone या iPad के होम स्क्रीन ऐप में प्रगति अलग हो सकती है।',
     },
   };
-  const text = (language, key) => (language === siteLocale?.dataset.language ? siteCopy['save.' + key] : copy[language === 'hi' ? 'hi' : 'en'][key]) ?? copy.en[key] ?? key;
+  const text = (language, key) => (language === siteLocale?.dataset.language ? siteCopy['save.' + key] : undefined)
+    ?? copy[language === 'hi' ? 'hi' : 'en'][key] ?? copy.en[key] ?? key;
   const stateListeners = new Set(), guideListeners = new Set();
   let state = { cooldownUntil: 0, confirmed: false, installed: false };
   let guideOpen = false;

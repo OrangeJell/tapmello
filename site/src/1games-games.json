@@ -475,7 +475,7 @@
         "about": [
           "Start each run with a timed kick. The ball bounces across hills and ramps, and a well-placed bounce can carry it farther. You can make small corrections in the air as the ground comes into view.",
           "Distance earns coins that you can spend on stronger kicks, better bounces or offline earnings. Reach new distances to see more landmarks and unlock additional balls and gear.",
-          "The first bounce helps you judge whether your launch worked. If the ball reaches a downhill section or a ramp while it still has speed, it can carry on toward the next landmark. Watch what happens on similar kicks before spending coins, so you can tell whether you need more launch power or more distance between bounces."
+          "Watch the first bounce. If the ball still has speed when it reaches a downhill slope or ramp, it can carry on to the next landmark. Compare a few kicks before deciding whether to upgrade Power or Bounce."
         ],
         "steps": [
           [
@@ -1001,8 +1001,8 @@
             "Avoid filling every small gap if it splits the last open area. Leave space for a shape you cannot place anywhere else."
           ],
           [
-            "Check the least flexible shape before placing it",
-            "Look at all available pieces and find the one with the fewest places it can fit. If it only fits in one spot, keep that spot available while you decide how to use the smaller blocks."
+            "Find a spot for the hardest piece",
+            "Check which piece fits in the fewest spots. If it fits in only one place, keep that spot clear while you work out where the smaller pieces can go."
           ]
         ],
         "faq": [
@@ -1170,7 +1170,7 @@
           ],
           [
             "Compare progress before and after an upgrade",
-            "Note your balance, click for a short stretch, and see how quickly it grows. Repeat after a purchase to decide whether you want another small upgrade or to save for a more expensive one."
+            "Check your balance, click for a few seconds, then check it again. Repeat after an upgrade to see how much extra you earn."
           ]
         ],
         "faq": [
@@ -2621,7 +2621,7 @@
         "aboutTitle": "Keep the train intact through jumps and loops",
         "about": [
           "The train travels along an endless series of tracks. Holding the mouse button locks it to the rails and lets it build speed on descents. Release near a crest when the next section gives you room to launch.",
-          "Landing is as important as takeoff. A rough landing can knock cars off the train, so follow the angle of the next track while you are in the air. The run ends when the final car is lost.",
+          "Line up with the track before landing. A hard landing can knock cars off the train. Lose the last car and the run ends.",
           "The route changes from run to run, and tighter gaps become more demanding as you pick up speed. When only a few cars remain, aim for clean, short jumps. Use later attempts to experiment with climbs and loops once you can keep a train together."
         ],
         "steps": [
@@ -3500,7 +3500,7 @@
           ],
           [
             "Use the mouse to aim and fire",
-            "Point at a zombie in the game, then use the left mouse button to fire."
+            "Aim with the mouse and left-click to fire."
           ],
           [
             "Make room if a zombie closes in",
@@ -4027,7 +4027,7 @@
             "Identify which lane holds the nearer block. Then check whether you will need to switch back for the following one."
           ],
           [
-            "Take spheres on a clear route",
+            "Grab spheres when the lane is clear",
             "Collect spheres when they are along the lane you can hold safely. Skip ones that would put you in the path of a numbered block."
           ],
           [
@@ -4371,7 +4371,7 @@
         "steps": [
           [
             "Watch the indicator before clicking",
-            "Wait until the cannon points toward a clear route and the power indicator is near the part of its range you want."
+            "Wait for the cannon to point past the obstacles. Fire when the power meter reaches the level you want."
           ],
           [
             "Make a small correction in the air",
@@ -4379,7 +4379,7 @@
           ],
           [
             "Look for a reachable boost",
-            "Use a trampoline or other boost when it is near the flight path. Keep a clear route through the next set of obstacles."
+            "Aim for a trampoline or another boost along your flight path. Check where it will send you before you take it."
           ],
           [
             "Compare two launches",
@@ -6685,7 +6685,7 @@
           ],
           [
             "Use speed boosts",
-            "Collect a boost when you can stay on a clear route after picking it up."
+            "Pick up a boost when there’s room to steer past other riders."
           ]
         ],
         "faq": [
@@ -12660,7 +12660,7 @@
           ],
           [
             "How do I unlock better equipment?",
-            "Complete driving challenges and pursuit objectives in the game to make upgraded equipment available."
+            "Finish driving challenges and pursuits to unlock better equipment."
           ],
           [
             "Why do I lose the target on tight turns?",
@@ -13167,7 +13167,7 @@
         "summary": "Hold and release Up Arrow to balance a bike on its rear wheel. Keep the angle steady as you ride along a 2D highway.",
         "aboutTitle": "Control the wheelie with short corrections",
         "about": [
-          "Wheelie Party gives you a single key for lifting the front wheel. Holding Up Arrow raises the bike, and releasing it changes the angle back toward the road. The run is about feeling how much tilt builds before the bike becomes hard to recover.",
+          "Wheelie Party gives you a single key for lifting the front wheel. Holding Up Arrow raises the bike, and releasing it changes the angle back toward the road. Watch how far the bike leans back before it becomes difficult to bring the front wheel down.",
           "Start with a gentle lift and release when the bike is already high enough. If the front wheel begins to drop, a short press can bring it back up. Several small corrections are easier to judge than one long hold after the bike has started leaning too far.",
           "Watch the front wheel relative to the horizon as you gain distance. The bright highway gives you a clear reference for the bike’s angle. If one run ends in a backward tip, release a little earlier at the same angle in the next attempt."
         ],
@@ -13289,7 +13289,7 @@
           ],
           [
             "Can I unlock more songs?",
-            "Progress through the available tracks to open additional songs with their own layouts."
+            "Finish tracks to unlock more songs and layouts."
           ]
         ]
       }
@@ -13614,7 +13614,7 @@
         "about": [
           "Bat Smash measures how far the ball travels after you hit it. Watch the ball reach the hitting area and click at the point that gets the best contact. A consistent swing is a better way to measure progress than changing the timing on every attempt.",
           "Distance earns coins that you can put into strength, swing speed, or bounce. They improve different parts of a hit. If the ball travels well in the air but stops quickly on the ground, bounce is a reasonable next upgrade to try.",
-          "The game gives you distance milestones and new bats to unlock. When you change a stat or equip a new bat, compare several well-timed hits. One unlucky swing can hide whether the new setup is giving you a better result."
+          "Reach distance milestones to unlock new bats. When you change a stat or equip a new bat, compare several well-timed hits. One unlucky swing can hide whether the new setup is giving you a better result."
         ],
         "steps": [
           [
@@ -14056,7 +14056,7 @@
         "summary": "Click on cue to guide a ball through shifting paths. Follow the song and watch how tighter turns change the timing.",
         "aboutTitle": "Match each click to the path as it appears",
         "about": [
-          "Dancing Beat builds a path around the soundtrack as your ball moves. A click at the right moment carries it through the next turn or sequence. Watch where the path changes so you know which part of the melody calls for an input.",
+          "Dancing Beat builds a path around the soundtrack as your ball moves. A click at the right moment carries it through the next turn or sequence. Watch for turns in the path and click when the beat reaches them.",
           "Faster notes can arrive just before a barrier or sharp bend. Listen for a repeated phrase and compare it with the section you can see. If you miss a turn, use the start of that phrase as your cue on the next try.",
           "Later stages introduce breaks in the beat and changes in the shape of the path. Keep your attention on the next visible cue during these stretches. Waiting for the next usable beat is often easier than clicking repeatedly through an uncertain section."
         ],
@@ -14235,7 +14235,7 @@
         "summary": "Jump between moving animals during a safari run and bring newly tamed creatures back to expand your Sky Zoo.",
         "aboutTitle": "Switch mounts before your ride gets restless",
         "about": [
-          "Cowboy Safari sends you through moving herds and obstacles. Look for an animal within reach before leaving the one you are on. A clear route between the two makes the jump easier to line up.",
+          "Ride through moving herds and jump from one animal to the next. Before you jump, pick an animal you can reach without crossing an obstacle.",
           "Some mounts become hard to control when you stay on them too long. Read their movement and give yourself room to switch. The next animal should take you toward open ground so you can settle onto it without running straight into an obstacle.",
           "Animals you tame join your Sky Zoo. Developing its habitats contributes to progress between runs. While exploring new regions, balance looking for unfamiliar animals with keeping the run alive long enough to bring them back."
         ],
@@ -14324,7 +14324,7 @@
         "summary": "Balance a car across rough chase routes, time your boosts, and upgrade vehicles for city streets, desert tracks, and jungle ramps.",
         "aboutTitle": "Keep the car level before using a boost",
         "about": [
-          "Escape Drive moves your car forward through rough terrain while rival vehicles close in. Use the lean controls to keep the wheels lined up for hills and landings. Losing your balance at the top of a slope can cost more time than carrying a little less speed.",
+          "Escape Drive moves your car forward through rough terrain while rival vehicles close in. Tilt the car to match the slope before a landing. Losing your balance at the top of a slope can cost more time than carrying a little less speed.",
           "Boost on a section where the car is already stable and the next part of the track is visible. A ramp or steep drop may need a correction first. Save your fuel until you can use that extra speed without entering the next obstacle off balance.",
           "Missions take you through several kinds of terrain, and earnings can go toward vehicles and their upgrades. Review where the last attempt came apart before choosing what to buy. Armor can help if rival cars are catching you, while speed matters more when you have a clear route and need to open a gap."
         ],

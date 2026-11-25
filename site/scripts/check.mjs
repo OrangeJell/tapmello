@@ -10,6 +10,7 @@ import { gameDetailTitle, gamesFor } from '../src/game-catalog.mjs';
 import { partnerGames, partnerGamesFor, partnerGamePath, partnerLocales } from '../src/partner-games.mjs';
 import { catalogueFor, gameCount, gamesPath, genrePath, playedGamesPath, tagPath, tagsPath, taxonomyFor } from '../src/discovery.mjs';
 
+const retiredLanguageCodes = ['ta', 'te', 'bn', 'id', 'es', 'de', 'it'];
 const dist = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../dist');
 async function walk(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -31,12 +32,18 @@ for (const code of languageCodes) {
 }
 const workerRedirects = JSON.parse(await readFile(path.join(dist, 'legacy-game-redirects.json'), 'utf8'));
 assert.deepEqual(workerRedirects, Object.fromEntries(legacyGameRedirects), 'Legacy game redirect destinations');
+for (const code of retiredLanguageCodes) {
+  for (const file of [code, `assets/game-search-${code}.json`, `assets/game-recommendations-${code}.json`]) {
+    await assert.rejects(stat(path.join(dist, file)), { code: 'ENOENT' }, `Retired locale asset: ${file}`);
+  }
+}
 const redirects = await readFile(path.join(dist, '_redirects'), 'utf8');
 const redirectSources = new Set();
 for (const line of redirects.split('\n')) {
   const rule = line.trim();
   if (!rule || rule.startsWith('#')) continue;
   const [source, , status = '302'] = rule.split(/\s+/);
+  assert.ok(!retiredLanguageCodes.includes(source.split('/')[1]), `Retired locale redirect: ${source}`);
   assert.ok(!legacyGameRedirects.has(source.replace(/\/$/, '')), `Duplicate legacy game redirect: ${source}`);
   if (status.startsWith('3')) redirectSources.add(source);
 }
@@ -118,6 +125,8 @@ for (const file of htmlFiles) {
   assert.ok(html.includes(`<link rel="canonical" href="${origin + page}">`), `Canonical: ${page}`);
   const partnerGame = partnerPages.get(page);
   const code = pageLanguage(page);
+  const picker = html.match(/<details class="language-picker">[\s\S]*?<\/details>/)?.[0];
+  assert.deepEqual([...picker.matchAll(/hreflang="([^"]+)"/g)].map(([, language]) => language), languageCodes, `Picker languages: ${page}`);
   if (gamePages.has(page)) {
     const lang = code === 'hi' ? 'hi' : 'en';
     const detailGame = partnerGame ?? gamesFor(lang).find(game => game.href === (lang === 'hi' ? page : page.slice(languagePrefix(code).length)));

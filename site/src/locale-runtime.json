@@ -1,8 +1,8 @@
 {
   "save.save": "Save tapmelo",
-  "save.title": "Your next little play break.",
+  "save.title": "Add tapmelo for next time",
   "save.intro": "Add tapmelo to your home screen or bookmarks so it is easy to find next time. An internet connection is needed to play.",
-  "save.prompt": "Enjoying the game? Save tapmelo for your next little break.",
+  "save.prompt": "Save tapmelo to find your games again.",
   "save.add": "Add / Bookmark",
   "save.later": "Not now",
   "save.close": "Close",
@@ -27,7 +27,7 @@
   "save.copy": "Copy game address",
   "save.copied": "Game address copied.",
   "save.copyFallback": "Copy this address and open it in your browser:",
-  "save.confirmed": "I have added it — stop reminding me",
-  "save.confirmedStatus": "Thanks! We will stop showing game reminders on this browser.",
+  "save.confirmed": "I’ve added it. Don’t show this again.",
+  "save.confirmedStatus": "This browser won’t show this reminder again.",
   "save.progress": "Progress is saved in this browser. On iPhone or iPad, a home-screen app may have separate progress."
 }

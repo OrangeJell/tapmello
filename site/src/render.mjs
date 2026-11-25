@@ -1,6 +1,6 @@
 import { languageCodes, languages, localPath, pageAlternates } from './languages.mjs';
 import { renderStandardDetail } from './standard-detail.mjs';
-import { catalogueFor, discoveryIcon, discoveryUpdated, gameCount, gamesLabel, gamesPath, genrePath, genres, playedGamesLabel, playedGamesPath, renderDiscoveryBrand, renderDiscoveryNav, renderMobileDiscovery, tagName, tagPath, tagsLabel, tagsPath } from './discovery.mjs';
+import { catalogueFor, discoveryIcon, discoveryUpdated, gameCount, gamesLabel, gamesPath, genrePath, genres, playedGamesLabel, playedGamesPath, renderDiscoveryBrand, renderDiscoveryNav, renderMobileDiscovery, tagLabel, tagName, tagPath, tagsLabel, tagsPath } from './discovery.mjs';
 import { renderGameDetail } from './game-stage.mjs';
 import { renderGameTile } from './game-tile.mjs';
 import { levels, origin, screenshot, updated } from './game.mjs';
@@ -65,9 +65,9 @@ export function discoveryPages(lang, sharedOnly) {
     language: lang, kind: 'browse', path: route(lang), title: `${heading} | tapmelo`, description,
     alternates: { en: route('en'), hi: route('hi') }, main, updated: discoveryUpdated,
   });
-  const listing = (route, heading, description, items, style = '', back = null) => page(route, heading, description, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
-    ${back ? `<nav class="discovery-breadcrumb" aria-label="${hi ? 'पेज का पथ' : 'Breadcrumb'}"><a href="${back[0]}">${back[1]}</a>${discoveryIcon('next')}<span aria-current="page">${escape(heading)}</span></nav>` : ''}
-    <header class="browse-heading"${style}><h1>${escape(heading)}</h1><span class="browse-count">${gameCount(lang, items.length)}</span></header>
+  const listing = (route, heading, description, items, style = '', back = null, label = heading) => page(route, heading, description, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
+    ${back ? `<nav class="discovery-breadcrumb" aria-label="${hi ? 'पेज का पथ' : 'Breadcrumb'}"><a href="${back[0]}">${back[1]}</a>${discoveryIcon('next')}<span aria-current="page">${escape(label)}</span></nav>` : ''}
+    <header class="browse-heading"${style}><h1>${escape(label)}</h1><span class="browse-count">${gameCount(lang, items.length)}</span></header>
     ${renderGameCollection(items, lang, route === gamesPath)}
 ${route === gamesPath && items.length > initialGameCount ? `    <noscript><div class="game-collection" aria-label="${hi ? 'और खेल' : 'More games'}">
 ${items.slice(initialGameCount).map(game => `<a href="${escape(game.href)}"><img src="${escape(game.cover)}" alt="${escape(game.title)}" width="${game.width}" height="${game.height}" loading="lazy"></a>`).join('\n')}
@@ -94,9 +94,9 @@ ${items.slice(initialGameCount).map(game => `<a href="${escape(game.href)}"><img
     }),
     page(tagsPath, tagHeading, tagDescription, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
       <header class="browse-heading"><div><h1>${tagHeading}</h1><p>${tagDescription}</p></div><span class="browse-count">${tags.length} ${hi ? 'टैग' : 'tags'}</span></header>
-      <ul class="discovery-tags">${tags.map(id => `<li><a href="${tagPath(lang, id)}"><span lang="en">${escape(tagName(id))}</span><span class="tag-count">${gameCount(lang, byTag.get(id).length)}</span></a></li>`).join('')}</ul>
+      <ul class="discovery-tags">${tags.map(id => `<li><a href="${tagPath(lang, id)}"><span lang="en">${escape(tagLabel(id))}</span><span class="tag-count">${gameCount(lang, byTag.get(id).length)}</span></a></li>`).join('')}</ul>
     </main>`),
-    ...tags.map(id => listing(language => tagPath(language, id), tagName(id), hi ? `“${tagName(id)}” टैग वाले गेम।` : `Games tagged “${tagName(id)}”.`, byTag.get(id), '', [tagsPath(lang), tagHeading])),
+    ...tags.map(id => listing(language => tagPath(language, id), tagName(id), hi ? `“${tagName(id)}” टैग वाले गेम।` : `Games tagged “${tagName(id)}”.`, byTag.get(id), '', [tagsPath(lang), tagHeading], tagLabel(id))),
   ];
 }
 
@@ -287,7 +287,7 @@ ${main}
     <div class="shell footer-inner">
       <p class="footer-note">${page.language==='hi'?'© 2026 tapmelo · Jelly की स्वतंत्र गेम साइट।':'© 2026 tapmelo · An independent game site by Jelly.'}</p>
       <nav class="footer-nav" aria-label="${c.footerLabel}">${infoLinks.map(([slug, label]) => `<a href="${localPath(lang, `/${slug}/`)}"${current(slug)}>${lang === 'hi' ? hindiInfoLabels[slug] : label}</a>`).join('')}</nav>
-${c.footerLanguage ? `      <p class="footer-language-note">${c.footerLanguage}</p>\n` : ''}${page.kind === 'home' ? `      <div class="footer-links">
+${page.kind === 'home' ? `      <div class="footer-links">
         <a class="footer-badge" href="https://fazier.com/launches/tapmelo.com" target="_blank" rel="noopener">
           <img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=featured&amp;theme=neutral" width="160" height="38" alt="Fazier badge" loading="lazy">
         </a>

@@ -128,6 +128,12 @@ export const genrePath = (lang, id) => `${gamesPath(lang)}category/${id}/`;
 export const tagsPath = lang => `${lang === 'hi' ? '/hi' : ''}/tags/`;
 export const tagPath = (lang, id) => `${tagsPath(lang)}${id}/`;
 export const tagName = id => id.replaceAll('-', ' ');
+const tagLabels = {
+  'borwser-games': 'browser games',
+  'chekers-games': 'checkers games',
+  'turnbased-games': 'turn-based games',
+};
+export const tagLabel = id => tagLabels[id] ?? tagName(id);
 export const gamesLabel = lang => lang === 'hi' ? 'सभी गेम' : 'All games';
 export const tagsLabel = lang => lang === 'hi' ? 'टैग' : 'Tags';
 export const gameCount = (lang, count) => lang === 'hi' ? `${count} गेम` : `${count} ${count === 1 ? 'game' : 'games'}`;

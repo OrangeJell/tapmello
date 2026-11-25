@@ -125,11 +125,11 @@
     "slope-rider": {
       "category": "Aventure",
       "summary": "Conduisez un traîneau à travers les dangers hivernaux changeants dans Slope Rider. Sautez par-dessus les bûches, collectez des pièces et débloquez des traîneaux pour votre prochaine descente.",
-      "aboutTitle": "Comment la descente change",
+      "aboutTitle": "Une piste différente à chaque descente",
       "about": [
-        "Chaque descente envoie votre traîneau sur un parcours hivernal avec un nouveau mélange de dénivelés abrupts, de virages étroits et d'obstacles. Les bûches roulantes et les blocs de neige peuvent traverser une voie qui semblait dégagée un instant plus tôt, alors surveillez la pente devant vous.",
-        "Collectez des pièces et des objets pour débloquer plus de traîneaux. Leurs caractéristiques de manipulation et de saut peuvent modifier la rapidité avec laquelle vous devez vous déplacer lorsqu'un danger apparaît.",
-        "Donnez plus d’espace aux dangers en mouvement qu’aux obstacles fixes. Une bûche qui roule sur votre chemin peut continuer à bouger pendant que vous sautez, alors regardez où elle se trouvera lorsque vous atterrirez. Les missions quotidiennes vous donnent un objectif distinct sur lequel travailler pendant que vous collectez des pièces et essayez de durer plus longtemps."
+        "À chaque descente, le traîneau rencontre de nouvelles pentes raides, des virages serrés et des obstacles. Regardez loin devant : une bûche ou un amas de neige peut traverser un passage qui semblait libre.",
+        "Ramassez des pièces et des objets pour débloquer des traîneaux. Ils ne tournent pas et ne sautent pas tous de la même façon. Essayez un nouveau modèle pour savoir quand réagir face à un obstacle.",
+        "Gardez plus de marge avec les obstacles qui bougent. Une bûche continue de rouler pendant votre saut, alors regardez où elle sera à l’atterrissage. Les défis quotidiens donnent un autre objectif pendant que vous ramassez des pièces et tentez d’aller plus loin."
       ],
       "steps": [
         [
@@ -137,8 +137,8 @@
           "Utilisez les touches fléchées gauche et droite pour changer de direction. Recherchez un itinéraire dégagé pour franchir l’obstacle avant de vous engager dans un mouvement."
         ],
         [
-          "Chronométrez chaque saut",
-          "Appuyez sur la flèche vers le haut pour sauter. Allez-y suffisamment tard pour éliminer le danger et vérifier où le traîneau va descendre."
+          "Sauter au bon moment",
+          "Appuyez sur la flèche du haut pour sauter. Vérifiez d’abord où vous pourrez retomber, puis sautez assez tard pour franchir l’obstacle."
         ],
         [
           "Laissez de la place dans la descente",
@@ -152,7 +152,7 @@
       "faq": [
         [
           "Le parcours est-il le même à chaque course ?",
-          "Le parcours change entre les courses, avec des obstacles à différents endroits. Utilisez chaque tentative pour vous entraîner à lire le prochain tronçon de pente."
+          "Non. La piste change entre deux descentes, et les obstacles ne sont pas toujours au même endroit. Profitez de chaque essai pour apprendre à lire la pente."
         ],
         [
           "Quand dois-je contourner une bûche au lieu de sauter ?",
@@ -167,20 +167,20 @@
     "orbit-kick": {
       "category": "Sport",
       "summary": "Chronométrez un coup de pied, guidez le ballon dans les airs et améliorez son rebond dans Orbit Kick, un jeu de distance qui vous emmène au-delà des monuments du monde.",
-      "aboutTitle": "Qu'est-ce qui porte le ballon plus loin",
+      "aboutTitle": "Comment envoyer le ballon plus loin",
       "about": [
-        "Commencez chaque course avec un coup de pied chronométré. La balle rebondit sur les collines et les rampes, et un rebond bien placé peut la transporter plus loin. Vous pouvez effectuer de petites corrections dans les airs lorsque le sol apparaît.",
-        "La distance rapporte des pièces que vous pouvez dépenser pour des coups de pied plus forts, de meilleurs rebonds ou des gains hors ligne. Atteignez de nouvelles distances pour voir plus de points de repère et débloquer des balles et des équipements supplémentaires.",
-        "Le premier rebond vous aide à juger si votre lancement a fonctionné. Si la balle atteint une section de descente ou une rampe alors qu'elle a encore de la vitesse, elle peut continuer vers le prochain repère. Regardez ce qui se passe sur des coups de pied similaires avant de dépenser des pièces, afin de savoir si vous avez besoin de plus de puissance de lancement ou de plus de distance entre les rebonds."
+        "Frappez le ballon au bon moment pour le faire partir. Il rebondit sur les collines et les rampes. Juste avant de toucher le sol, vous pouvez ajuster légèrement sa trajectoire.",
+        "Plus le ballon va loin, plus vous gagnez de pièces. Améliorez la frappe, le rebond ou les gains hors ligne. De nouvelles distances permettent de découvrir d’autres monuments et de débloquer des ballons et de l’équipement.",
+        "Observez le premier rebond. Si le ballon atteint une pente ou une rampe avec assez de vitesse, il peut continuer vers le monument suivant. Comparez quelques frappes avant d’améliorer la puissance ou le rebond."
       ],
       "steps": [
         [
-          "Chronométrer le coup de pied",
-          "Cliquez lorsque l'indicateur de puissance atteint la partie la plus forte de sa plage. Un lancement fort donne au ballon plus de vitesse au départ."
+          "Frapper au bon moment",
+          "Cliquez quand la jauge passe par sa zone de puissance maximale. Plus la frappe est forte, plus le ballon part vite."
         ],
         [
           "Guider le ballon en vol",
-          "Faites glisser le pointeur pour effectuer de petits ajustements. Visez un atterrissage clair ou une rampe utile."
+          "Faites glisser le pointeur pour corriger légèrement la trajectoire. Visez un endroit dégagé ou une rampe qui prolongera le rebond."
         ],
         [
           "Choisissez une mise à niveau",
@@ -198,7 +198,7 @@
         ],
         [
           "Puis-je encore diriger après avoir tapé dans le ballon ?",
-          "Oui. Faites glisser le pointeur pour de petites corrections dans les airs. Choisissez un endroit pour atterrir avant de procéder à vos ajustements."
+          "Oui. Faites glisser le pointeur pour ajuster la trajectoire en l’air. Repérez d’abord où vous voulez faire retomber le ballon."
         ],
         [
           "À quoi servent les gains hors ligne ?",
@@ -209,11 +209,11 @@
     "curve-rush": {
       "category": "Arcades",
       "summary": "Prenez de l'élan à travers les dunes du désert dans Curve Rush. Lancez-vous au-dessus de l'horizon pour obtenir des points bonus et atterrissez sur la pente pour continuer à rouler.",
-      "aboutTitle": "Augmentez votre vitesse d'une dune à l'autre",
+      "aboutTitle": "Garder sa vitesse d’une dune à l’autre",
       "about": [
-        "Votre balle roule sur une ligne infinie de dunes de sable. Vous pouvez le lancer depuis la crête d'une dune et gagner des points supplémentaires en franchissant la ligne blanche au-dessus de votre tête. Un impact violent peut mettre fin à la course.",
-        "Recherchez une surface en descente avant de revenir sur le sable. Faire correspondre la courbe vous permet de conserver plus de vitesse et vous prépare pour le prochain saut.",
-        "Essayez d'enchaîner plusieurs sauts courts. Si vous relâchez juste au moment où la dune se courbe et atterrit sur la prochaine face de descente, la balle a une chance de conserver sa vitesse dans la montée suivante. Une séquence d'atterrissages propres vous donne plus de chances de franchir la ligne blanche plus tard dans la course."
+        "La balle roule sur des dunes sans fin. Faites-la décoller du sommet d’une dune. Elle marque des points supplémentaires si elle franchit la ligne blanche dans le ciel. Un choc trop violent peut mettre fin à la partie.",
+        "Au moment de redescendre, cherchez la pente descendante de la prochaine dune. Un atterrissage dans le sens de la pente permet de garder de la vitesse pour le saut suivant.",
+        "Essayez d’enchaîner des sauts courts. Relâchez au moment où la dune remonte et retombez sur la pente descendante suivante. Si la balle garde sa vitesse, vous aurez plus de chances de franchir la ligne blanche plus loin."
       ],
       "steps": [
         [
@@ -222,7 +222,7 @@
         ],
         [
           "Lire l'atterrissage",
-          "Regardez la prochaine dune pendant que le ballon est en l'air. Essayez de rencontrer une pente descendante et de maintenir la vitesse dans la section suivante."
+          "Pendant le saut, regardez la dune suivante. Visez une pente descendante pour continuer à rouler sans perdre trop de vitesse."
         ],
         [
           "Travaillez jusqu'à des sauts plus élevés",
@@ -244,18 +244,18 @@
         ],
         [
           "Dois-je viser le saut le plus haut à chaque fois ?",
-          "Des sauts plus courts facilitent la pratique de l'atterrissage sur une pente descendante. Une fois que vous pouvez continuer à rouler après plusieurs atterrissages, utilisez cette vitesse pour essayer un vol plus élevé."
+          "Les petits sauts permettent d’apprendre à se poser dans la descente. Quand vous arrivez à conserver votre vitesse sur plusieurs sauts, utilisez-la pour monter plus haut."
         ]
       ]
     },
     "jetski-race": {
       "category": "Course",
       "summary": "Faites la course à travers les vagues, collectez des pièces et effectuez des lancers dans Jetski Race. Gérez les rampes et les obstacles pour atteindre l'arrivée devant les autres coureurs.",
-      "aboutTitle": "Utilisez les vagues sans perdre votre position de course",
+      "aboutTitle": "Profiter des vagues sans perdre de places",
       "about": [
-        "Chaque course vous fait parcourir un parcours aquatique avec des vagues, des sauts et des obstacles. La vitesse aide sur les tronçons ouverts, tandis que l'angle de votre embarcation compte lorsque vous quittez une rampe et redescendez.",
-        "Les pièces et les objectifs quotidiens vous aident à débloquer davantage d'artisanat et à améliorer la valeur des pièces ou à retourner des boosts. À mesure que les itinéraires deviennent plus difficiles, regardez plus loin pour avoir une approche claire de la prochaine vague.",
-        "Une vague vous donne la possibilité de prendre de la vitesse ou de tenter un trick. Regardez l’eau devant vous avant de vous engager dans une rotation. Si un obstacle se trouve juste au-delà de la rampe, une approche en douceur vous donne plus de temps pour diriger dès que l'engin atterrit."
+        "Les courses se déroulent sur des parcours d’eau avec des vagues, des sauts et des obstacles. Accélérez sur les portions dégagées et surveillez l’angle du jet-ski quand vous quittez une rampe ou revenez sur l’eau.",
+        "Ramassez des pièces et remplissez les objectifs du jour pour débloquer d’autres jet-skis. Vous pouvez aussi augmenter la valeur des pièces ou le boost obtenu avec une figure. Sur les parcours difficiles, repérez la vague suivante suffisamment tôt pour bien l’aborder.",
+        "Une vague permet de prendre de la vitesse ou de tenter une figure. Avant de tourner en l’air, regardez ce qui vous attend de l’autre côté. Si un obstacle se trouve juste après la rampe, posez-vous à plat pour pouvoir virer aussitôt."
       ],
       "steps": [
         [
@@ -264,7 +264,7 @@
         ],
         [
           "Atterrir proprement",
-          "Utilisez l'espace au-dessus d'une vague pour tenter un retournement. Laissez suffisamment de temps pour niveler l’engin avant qu’il ne touche le sol."
+          "Profitez du saut au-dessus d’une vague pour tenter un salto. Gardez le temps de remettre le jet-ski à plat avant de toucher l’eau."
         ],
         [
           "Choisissez votre ligne",
@@ -272,7 +272,7 @@
         ],
         [
           "Essayez un retournement avec la souris",
-          "Tout en utilisant les commandes de la souris, relâchez le bouton après le décollage et maintenez-le à nouveau en l'air pour retourner. Entraînez-vous sur une vague avec de l'eau libre devant vous afin d'avoir de la place pour corriger l'atterrissage."
+          "À la souris, relâchez le bouton après le décollage, puis maintenez-le de nouveau en l’air pour tourner. Choisissez une vague avec de l’eau libre devant vous pour pouvoir corriger l’atterrissage."
         ]
       ],
       "faq": [
@@ -281,8 +281,8 @@
           "Le jeu propose des améliorations pour la valeur des pièces et des augmentations de flip, et vous pouvez débloquer différents objets au fur et à mesure de votre progression."
         ],
         [
-          "Pourquoi l'engin chavire-t-il après un saut ?",
-          "Il peut basculer si vous terminez la rotation trop tard. Essayez un seul retournement et surveillez l'eau afin de pouvoir vous stabiliser avant d'atterrir."
+          "Pourquoi le jet-ski se retourne-t-il après un saut ?",
+          "Le jet-ski peut basculer si vous terminez la rotation trop tard. Essayez un seul tour et remettez-le à plat avant de toucher l’eau."
         ],
         [
           "Que puis-je travailler entre les courses ?",
@@ -1220,7 +1220,7 @@
       "aboutTitle": "Gardez le train intact grâce aux sauts et aux boucles",
       "about": [
         "Le train circule sur une série infinie de voies ferrées. Maintenir le bouton de la souris le verrouille sur les rails et lui permet d'augmenter sa vitesse dans les descentes. Relâchez près d'une crête lorsque la section suivante vous laisse la place de lancer.",
-        "L'atterrissage est aussi important que le décollage. Un atterrissage brutal peut faire tomber les wagons du train, alors suivez l'angle de la voie suivante pendant que vous êtes dans les airs. La course se termine lorsque la dernière voiture est perdue.",
+        "Alignez le train sur les rails avant de retomber. Un choc peut faire décrocher des wagons. La partie se termine si vous perdez le dernier.",
         "L'itinéraire change d'une course à l'autre, et les écarts plus serrés deviennent plus exigeants à mesure que vous prenez de la vitesse. Lorsqu'il ne reste que quelques voitures, visez des sauts courts et nets. Utilisez des tentatives ultérieures pour expérimenter des montées et des boucles une fois que vous pouvez garder un train ensemble."
       ],
       "steps": [
@@ -2167,12 +2167,12 @@
       "summary": "Associez des tuiles, collectez des parchemins et accomplissez des tâches tout en restaurant un manoir.",
       "aboutTitle": "À propos de Mansion Design - Match 3",
       "about": [
-        "Associez des tuiles, collectez des parchemins et accomplissez des tâches tout en restaurant un manoir.",
-        "Vérifiez l'objectif de niveau avant de faire un match. Les groupes de plus de trois peuvent vous donner des boosters pour les endroits les plus difficiles du tableau."
+        "Réussissez les objectifs des tableaux pour gagner des parchemins. Ils servent à faire avancer la restauration du manoir.",
+        "Lisez l’objectif du niveau avant d’aligner des pièces. Un alignement de plus de trois pièces peut créer un bonus pour atteindre une zone difficile."
       ],
       "steps": [
         [
-          "Faire une correspondance",
+          "Aligner des pièces identiques",
           "Associez trois pièces ou plus d’un même type."
         ],
         [
@@ -2183,7 +2183,7 @@
       "faq": [
         [
           "Quand dois-je utiliser un booster ?",
-          "Conservez-le dans un endroit où les allumettes ordinaires n'atteignent pas les pièces dont vous avez besoin."
+          "Gardez-le pour les pièces difficiles à atteindre avec un alignement ordinaire."
         ]
       ]
     },
@@ -3417,13 +3417,13 @@
       "summary": "Versez le liquide coloré entre les récipients jusqu'à ce que chaque récipient plein contienne une seule couleur.",
       "aboutTitle": "À propos de Water Sort Master: Color Puzzle",
       "about": [
-        "Versez le liquide coloré entre les récipients jusqu'à ce que chaque récipient plein contienne une seule couleur.",
-        "Gardez un récipient vide à disposition pour les versements temporaires. Évitez de verrouiller une couleur nécessaire sous une autre couleur si vous pouvez d'abord ouvrir un meilleur itinéraire."
+        "Versez les liquides d’un récipient à l’autre jusqu’à ce que chaque récipient plein contienne une seule couleur.",
+        "Gardez un récipient vide pour les transferts. Cela évite de coincer une couleur dont vous avez besoin sous une autre."
       ],
       "steps": [
         [
           "Choisissez deux bouteilles",
-          "Sélectionnez un contenant, puis une destination avec de la place et une couleur supérieure assortie ou sans liquide."
+          "Choisissez une bouteille, puis une autre qui a de la place. Elle doit être vide ou avoir la même couleur sur le dessus."
         ],
         [
           "Compléter une couleur",
@@ -4710,17 +4710,17 @@
       "category": "Puzzle de chaîne en marbre",
       "summary": "Visez la file de billes et réunissez-en au moins trois de la même couleur. Videz le parcours avant que la première bille n’atteigne le crâne.",
       "about": [
-        "Comblez un écart entre deux groupes de la même couleur pour déclencher une réaction en chaîne. Si la bille actuelle n'a pas de tir utile, vérifiez la couleur de réserve.",
+        "Comblez le trou entre deux groupes de même couleur pour provoquer une réaction en chaîne. Si la bille prête à tirer ne convient pas, regardez sa remplaçante.",
         "Remplir la barre de progression empêche l’entrée de nouvelles billes. Vous devez encore dégager la chaîne déjà sur la piste pour terminer le niveau."
       ],
       "steps": [
         [
           "Trouver un groupe correspondant",
-          "Visez avec la souris et faites un clic gauche pour tirer. Un match nécessite trois billes ou plus de la même couleur."
+          "Visez à la souris et faites un clic gauche pour tirer. Trois billes de la même couleur ou plus disparaissent lorsqu’elles se touchent."
         ],
         [
           "Utiliser la réserve",
-          "Faites un clic droit pour échanger les billes actuelles et réservées lorsque l'autre couleur vous donne une meilleure photo."
+          "Faites un clic droit pour échanger la bille prête à tirer avec celle de réserve si l’autre couleur convient mieux."
         ]
       ],
       "faq": [

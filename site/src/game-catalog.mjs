@@ -4,17 +4,10 @@ import { locales } from './locales.mjs';
 const playFreeLabels = {
   en: 'Play Free',
   hi: 'मुफ़्त खेलें',
-  ta: 'இலவசமாக விளையாடுங்கள்',
-  te: 'ఉచితంగా ఆడండి',
-  bn: 'বিনামূল্যে খেলুন',
-  id: 'Main Gratis',
   'zh-CN': '免费开玩',
   ja: '無料でプレイ',
   fr: 'Jouer gratuitement',
   ko: '무료 플레이',
-  es: 'Juega gratis',
-  de: 'Kostenlos spielen',
-  it: 'Gioca gratis',
 };
 
 export const gameDetailTitle = (lang, gameName) => `🎮 ${gameName} 🕹️ ${playFreeLabels[lang]} | tapmelo`;

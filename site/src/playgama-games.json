@@ -1238,7 +1238,7 @@
         "faq": [
           [
             "What happens if an arrow hits a blocker?",
-            "You lose one health point. A board starts with three, so save them by tracing the whole lane."
+            "No. Each piece can only move in the direction of its arrow. You choose which one goes first."
           ],
           [
             "Can I send an arrow sideways?",
@@ -5008,7 +5008,7 @@
       "en": {
         "summary": "Hold to draw the bow in Archery Ragdoll and release when the swaying archer lines up with the target. Use the last shot to adjust your aim.",
         "about": [
-          "Keep the draw steady in the game and watch the archer sway for a moment. Release when the in-game aim lines up with the target. If the next attempt starts from the same spot, you can tell whether changing the release timing helped.",
+          "Hold the draw while the archer sways, then release when the aim lines up with the target. Try again from the same spot to see what changes when you release earlier or later.",
           "If you miss high, keep a similar draw and release from a slightly lower angle. If the angle looked right but the arrow fell short, pay attention to the draw. Change one thing first so you can see what helped."
         ],
         "steps": [
@@ -8974,7 +8974,7 @@
       "en": {
         "summary": "Play ragdoll sword duels in Epic Sword Battle. Watch how far your fighter can reach and make space in the arena after a missed swing.",
         "about": [
-          "Watch the sword’s movement in the game before making your character attack. If the swing misses, check how far apart the fighters ended up. Reset your position before pressing the attack again.",
+          "Watch how far the sword swings. If you miss, check the distance between the fighters and move back into range before trying again.",
           "If you keep missing at the same range, take a shorter step in before swinging. If you are trading hits, wait for a clearer opening rather than attacking twice from the same position."
         ],
         "steps": [
@@ -10056,7 +10056,7 @@
         "summary": "Match tiles, collect scrolls and complete tasks as you restore a mansion.",
         "aboutTitle": "About Mansion Design - Match 3",
         "about": [
-          "Match tiles, collect scrolls and complete tasks as you restore a mansion.",
+          "Finish each board’s goal to earn scrolls, then spend them on jobs around the mansion.",
           "Check the level objective before making a match. Groups larger than three can give you boosters for harder spots on the board."
         ],
         "steps": [
@@ -10406,7 +10406,7 @@
         "faq": [
           [
             "How do I collect an egg?",
-            "Move over it; no extra button is required."
+            "Move over the egg to pick it up."
           ]
         ]
       }
@@ -10680,7 +10680,7 @@
           ],
           [
             "Turn and zoom the board",
-            "Swipe or drag to rotate; pinch on mobile or scroll on desktop to zoom."
+            "Swipe or drag to rotate. Pinch on mobile or scroll on desktop to zoom."
           ]
         ],
         "faq": [
@@ -14425,7 +14425,7 @@
         "aboutTitle": "About Hatch or Steal: Online",
         "about": [
           "Hatch creatures, build a collection and compete with other players for pets.",
-          "Check which pets and eggs are available before deciding where to spend your resources. Other players are pursuing their own collections at the same time."
+          "Check the pets and eggs on offer before you spend anything. Other players are building their collections alongside you."
         ],
         "steps": [
           [

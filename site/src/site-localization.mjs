@@ -15,9 +15,10 @@ const placeholders = value => (value.match(/\{[a-z][a-z\d_]*\}/gi) ?? []).sort()
 const translatableText = /[A-Za-z]/;
 
 export function createLocalizer({ code, dictionary, source, routes, titles, editorialAliases = {} }) {
-  function translate(value, location) {
+  function translate(value, location, bodyCopy) {
     const key = value.trim();
-    if (!translatableText.test(key) || titles.has(key) || /^(?:https?:\/\/|mailto:)/.test(key)) return value;
+    const override = bodyCopy?.[key];
+    if ((!override && !translatableText.test(key)) || titles.has(key) || /^(?:https?:\/\/|mailto:)/.test(key)) return value;
     if (source) {
       source.add(key);
       return value;
@@ -30,7 +31,7 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
     if (!Object.hasOwn(dictionary, translationKey) && gameTotal && pluralGameCount?.includes('2')) {
       return value.replace(key, () => pluralGameCount.replace('2', gameTotal[1]));
     }
-    const translated = Object.hasOwn(dictionary, translationKey) && dictionary[translationKey];
+    const translated = override ?? (Object.hasOwn(dictionary, translationKey) && dictionary[translationKey]);
     assert.ok(typeof translated === 'string' && translated.trim(), `Missing ${code} translation at ${location}: ${key}`);
     assert.deepEqual(placeholders(translated), placeholders(key), `Invalid ${code} placeholders at ${location}: ${key}`);
     return value.replace(key, () => translated);
@@ -62,11 +63,23 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
   }
 
   function html(input, location, preserved = new Set()) {
-    const translateText = (value, context) => preserved.has(value.trim()) ? value : translate(value, context);
     const document = parse(input, { scriptingEnabled: false });
-    function visit(node) {
+    const infoPage = /^\/(?:about|contact|privacy|terms)\/$/.test(location);
+    const textFor = bodyCopy => (value, context) => preserved.has(value.trim()) ? value : translate(value, context, bodyCopy);
+    const translateMetadata = textFor();
+    // Guide titles and leads can use different wording in the body and search metadata.
+    const translateBody = dictionary?.body ? textFor(dictionary.body) : translateMetadata;
+    function visit(node, translateText = translateMetadata) {
+      if (node.tagName === 'body') translateText = translateBody;
       if (node.nodeName === '#text') {
         node.value = translateText(node.value, location);
+        // The English spaces around inline links can split Japanese phrases and Korean particles.
+        if (infoPage && node.parentNode.tagName === 'p') {
+          if (code === 'ja' || code === 'zh-CN') node.value = node.value.trim();
+          if (code === 'ko') node.value = node.value
+            .replace(/^ +(?=[.,’]|(?:에서는|에서|로|도|의|입니다)(?:[ .]|$))/, '')
+            .replace(/(?<=‘) +$/, '');
+        }
         return;
       }
       const attr = name => node.attrs?.find(attribute => attribute.name === name)?.value;
@@ -92,7 +105,7 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
       if (node.tagName === 'script') {
         if (attr('type') === 'application/ld+json') {
           const json = JSON.parse(node.childNodes[0].value);
-          node.childNodes[0].value = JSON.stringify(translateJSON(json, location, translateText)).replaceAll('<', '\\u003c');
+          node.childNodes[0].value = JSON.stringify(translateJSON(json, location, translateMetadata)).replaceAll('<', '\\u003c');
         }
         return;
       }
@@ -119,12 +132,14 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
           attribute.value = languages[code].og;
         } else if (name === 'content' && meta === 'og:url') {
           attribute.value = route(value);
-        } else if (visibleAttributes.has(name) || (name === 'content' && textMetadata.has(meta))) {
+        } else if (name === 'content' && textMetadata.has(meta)) {
+          attribute.value = translateMetadata(value, `${location} @${name}`);
+        } else if (visibleAttributes.has(name)) {
           attribute.value = translateText(value, `${location} @${name}`);
         }
       }
-      for (const child of node.childNodes ?? []) visit(child);
-      if (node.content) visit(node.content);
+      for (const child of node.childNodes ?? []) visit(child, translateText);
+      if (node.content) visit(node.content, translateText);
     }
     visit(document);
     return serialize(document);

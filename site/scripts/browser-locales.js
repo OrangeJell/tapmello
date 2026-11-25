@@ -3,6 +3,7 @@ async page => {
   const base = initial.origin;
   const codes = initial.searchParams.get('locales')?.split(',') ?? [];
   const english = codes.length === 1 && codes[0] === 'en';
+  const supported = ['en', 'fr', 'hi', 'ja', 'ko', 'zh-CN'];
   const assert = (condition, message) => { if (!condition) throw Error(message); };
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
@@ -47,6 +48,8 @@ async page => {
   const partner = '/nuts-puzzle-sort-by-color';
   await page.setViewportSize({ width: 390, height: 844 });
   await visit(partner);
+  const pickerCodes = await page.locator('.language-picker a').evaluateAll(links => links.map(link => link.hreflang).sort());
+  assert(JSON.stringify(pickerCodes) === JSON.stringify(supported), 'The site picker lists the six supported locales');
   const baseline = await page.locator('.detail-about p').first().textContent();
   if (codes.includes('all')) codes.splice(0, codes.length, ...await page.locator('.language-picker a:not([hreflang="en"])').evaluateAll(links => links.map(link => link.hreflang)));
   assert(codes.length > 0, 'Provide a locale, en or all');
@@ -59,7 +62,7 @@ async page => {
     await page.keyboard.press('Enter');
     const link = picker.locator(`a[hreflang="${code}"]`);
     assert(await link.getAttribute('href') === prefix + partner, `Wrong switch target for ${code}`);
-    assert(await picker.locator('nav').evaluate(nav => nav.scrollHeight > nav.clientHeight), 'The language menu should scroll at 390px');
+    await fits('The language menu fits at 390px');
     await link.click();
     await page.waitForURL(base + prefix + partner);
     assert(await page.locator('html').getAttribute('lang') === (code === 'en' ? 'en-IN' : code), `Wrong page language: ${code}`);
@@ -148,15 +151,17 @@ async page => {
     await frame.locator('[data-question]').waitFor();
     await frame.locator('[data-action="settings"]').click();
     await frame.locator('[data-action="set-language"][data-id="en"]').waitFor();
+    const mahjongLanguages = await frame.locator('[data-action="set-language"]').evaluateAll(buttons => buttons.map(button => button.dataset.id).sort());
+    assert(JSON.stringify(mahjongLanguages) === JSON.stringify(supported), 'Mahjong offers the six supported locales');
 
     await visit('/play/screw-sort/?lang=en');
     await page.locator('#level-label').waitFor();
     await page.evaluate(() => {
       localStorage.removeItem('screw-sort.glass.v1.round');
-      localStorage.setItem('screw-sort.glass.v1', JSON.stringify({ unlocked: 3, completed: [1, 2], lang: 'zh', sound: false }));
+      localStorage.setItem('screw-sort.glass.v1', JSON.stringify({ unlocked: 3, completed: [1, 2], lang: 'es', sound: false }));
     });
-    await visit('/play/screw-sort/?lang=unsupported');
-    assert(await page.locator('html').getAttribute('lang') === 'en', 'Unsupported game locale falls back to English');
+    await visit('/play/screw-sort/?lang=es');
+    assert(await page.locator('html').getAttribute('lang') === 'en', 'Retired game locale falls back to English');
     assert((await page.locator('#level-label').innerText()).toUpperCase() === 'LEVEL 3', 'Existing save was not restored');
 
     await visit('/screw-sort');
@@ -165,7 +170,8 @@ async page => {
     await frame.locator('.screw-button:not(:disabled)').first().click();
     await frame.locator('#pause').click();
     await frame.locator('.language-options').waitFor();
-    assert((await frame.locator('.language-options button').allTextContents()).length === 13, 'Unexpected change to game language options');
+    const screwLanguages = await frame.locator('.language-options button').evaluateAll(buttons => buttons.map(button => button.lang).sort());
+    assert(JSON.stringify(screwLanguages) === JSON.stringify(supported), 'Glass Twist offers the six supported locales');
 
     const context = await page.context().browser().newContext({ javaScriptEnabled: false });
     try {

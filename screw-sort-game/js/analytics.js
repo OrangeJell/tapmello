@@ -9,15 +9,22 @@
   document.addEventListener('DOMContentLoaded', () => {
     const button = document.getElementById('analytics-toggle');
     if (!button) return;
-    button.textContent = disabled ? 'Enable analytics on this browser' : 'Disable analytics on this browser';
-    document.getElementById('analytics-preference').textContent = disabled ? 'Analytics is disabled on this browser.' : 'Analytics is enabled on this browser.';
+    const locale = document.getElementById('site-localized-copy');
+    const copy = locale ? JSON.parse(locale.textContent) : {};
+    const preference = document.getElementById('analytics-preference');
+    button.textContent = disabled
+      ? copy['analytics.enable'] ?? 'Enable analytics on this browser'
+      : copy['analytics.disable'] ?? 'Disable analytics on this browser';
+    preference.textContent = disabled
+      ? copy['analytics.disabled'] ?? 'Analytics is disabled on this browser.'
+      : copy['analytics.enabled'] ?? 'Analytics is enabled on this browser.';
     button.addEventListener('click', () => {
       try {
         localStorage.setItem(optOutKey, disabled ? '0' : '1');
         window[`ga-disable-${measurementId}`] = !disabled;
         location.reload();
       } catch {
-        document.getElementById('analytics-preference').textContent = 'Your browser could not save this preference. You can use the Google Analytics opt-out browser add-on linked below.';
+        preference.textContent = copy['analytics.saveError'] ?? 'Your browser could not save this preference. You can use the Google Analytics opt-out browser add-on linked below.';
       }
     });
   });

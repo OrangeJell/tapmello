@@ -84,6 +84,6 @@ npm run check:site
 
 网站首页保留 Glass Twist 与 Mahjong 两个入口。`/games/mahjong/` 和 `/hi/games/mahjong/` 嵌入三级练习；七篇文章各有英印静态页面，位于 `/[hi/]guides/mahjong/{id}/`。教程中的文章入口进入对应网站文章，文章末尾可回到相应等级练习。
 
-`js/interface-hi.json`、`js/articles-hi.json` 维护印地语翻译，以英文原文为键；`scripts/prepare-locales.mjs` 生成 `js/hi.js`，网站构建会自动执行。原始创作文件的旧中文参数仅作为编辑参考，不再作为界面语言。传统麻将牌面的汉字仍保留。旧中文偏好回退英语，不清空学习记录。不同端口属于不同浏览器存储域：4198 独立预览的记录不会自动转入 4173 网站预览。
+`js/interface-hi.json`、`js/articles-hi.json` 维护印地语翻译，以英文原文为键；`scripts/prepare-locales.mjs` 在站点构建时生成 `js/hi.js`。`js/locale-copy.js` 保存简体中文、法语、日语和韩语译文。已下线的语言偏好回退到英语，学习记录保留。4198 独立预览和 4173 网站预览各自使用浏览器存储。
 
 网站同步使用白名单，测试与开发截图不进入发布目录。使用 `npm run check:site` 验证当前构建。
