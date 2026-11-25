@@ -18,21 +18,27 @@ async function walk(directory) {
 }
 const files = await walk(dist), htmlFiles = files.filter(file => file.endsWith('.html'));
 const gamePages = new Set();
-const retiredGamePaths = new Set(['/games/coming-soon']);
+const legacyGameRedirects = new Map([['/games/coming-soon', '/screw-sort']]);
 for (const code of languageCodes) {
   for (const slug of ['mahjong', 'marble-sort', 'screw-sort']) {
     gamePages.add(localPath(code, '/' + slug));
-    retiredGamePaths.add(localPath(code, '/games/' + slug));
+    legacyGameRedirects.set(localPath(code, '/games/' + slug), localPath(code, '/' + slug));
   }
   for (const game of partnerGamesFor(code)) {
     gamePages.add(localPath(code, '/' + game.id));
-    retiredGamePaths.add(localPath(code, `/play/${game.provider}/${game.id}`));
+    legacyGameRedirects.set(localPath(code, `/play/${game.provider}/${game.id}`), partnerGamePath(code, game));
   }
 }
+const workerRedirects = JSON.parse(await readFile(path.join(dist, 'legacy-game-redirects.json'), 'utf8'));
+assert.deepEqual(workerRedirects, Object.fromEntries(legacyGameRedirects), 'Legacy game redirect destinations');
 const redirects = await readFile(path.join(dist, '_redirects'), 'utf8');
-for (const rule of redirects.trim().split('\n')) {
-  const source = rule.split(/\s+/)[0].replace(/\/$/, '');
-  assert.ok(!retiredGamePaths.has(source), `Retired game redirect: ${source}`);
+const redirectSources = new Set();
+for (const line of redirects.split('\n')) {
+  const rule = line.trim();
+  if (!rule || rule.startsWith('#')) continue;
+  const [source, , status = '302'] = rule.split(/\s+/);
+  assert.ok(!legacyGameRedirects.has(source.replace(/\/$/, '')), `Duplicate legacy game redirect: ${source}`);
+  if (status.startsWith('3')) redirectSources.add(source);
 }
 const runtimePaths = new Set(['/play/mahjong/', '/play/marble-sort/', '/play/screw-sort/']);
 const historyPaths = new Set(languageCodes.map(code => localPath(code, playedGamesPath('en'))));
@@ -55,7 +61,7 @@ async function localTarget(value, page) {
   const key = url.pathname + url.hash;
   if (checkedTargets.has(key)) return;
   let target = path.join(dist, decodeURIComponent(url.pathname));
-  assert.ok(!retiredGamePaths.has(url.pathname.replace(/\/$/, '')), `Legacy game link: ${value} on ${page}`);
+  assert.ok(!legacyGameRedirects.has(url.pathname.replace(/\/(?:index\.html)?$/, '')), `Legacy game link: ${value} on ${page}`);
   if (gamePages.has(url.pathname)) {
     target += '.html';
   } else if (url.pathname.endsWith('/')) {
@@ -99,7 +105,7 @@ for (const file of htmlFiles) {
     assert.match(html, /name="robots" content="noindex, follow"/);
     continue;
   }
-  assert.ok(!retiredGamePaths.has(page.replace(/\/$/, '')), `Legacy game HTML: ${page}`);
+  assert.ok(!legacyGameRedirects.has(page.replace(/\/$/, '')), `Legacy game HTML: ${page}`);
   assert.match(html, /class="discovery-nav"/, `Shared navigation: ${page}`);
   assert.match(html, /<details class="language-picker">/, `Language picker: ${page}`);
   if (historyPaths.has(page)) {
@@ -187,7 +193,11 @@ const sitemapUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(([, url]) =>
 assert.equal(sitemapUrls.length, indexable.size, 'Sitemap URL count');
 assert.deepEqual(new Set(sitemapUrls), indexable, 'Sitemap contains only indexable pages');
 for (const route of gamePages) assert.ok(indexable.has(origin + route), `Game in sitemap: ${route}`);
-for (const url of sitemapUrls) await localTarget(url, '/');
+for (const url of sitemapUrls) {
+  const { pathname } = new URL(url);
+  assert.ok(!redirectSources.has(pathname) && !legacyGameRedirects.has(pathname.replace(/\/(?:index\.html)?$/, '')), `Redirect in sitemap: ${url}`);
+  await localTarget(url, '/');
+}
 function pageCopy(html) {
   const copy = new Set();
   function visit(node) {

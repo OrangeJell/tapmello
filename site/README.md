@@ -77,7 +77,7 @@ Playgama 游戏的数据只维护在 `src/playgama-games.json`。在数组末尾
 | `scripts/capture-screenshots.js` | Playwright CLI 截图函数，使用真实页面点击 |
 | `scripts/capture-level-2.js` | 第二关六步开局、三步换色与中段暂存的真实操作截图 |
 | `scripts/browser-check.js` | Playwright CLI 排版、语言、iframe、FAQ、旧存档和无 JS 检查函数 |
-| `dist/` | 可直接上传到 Cloudflare Workers 的静态资源目录 |
+| `dist/` | Cloudflare Workers 的静态资源目录，含构建生成的旧游戏路径映射 |
 
 网页和样式在 `src/`，公开截图、品牌图标、manifest 和重定向在 `public/`，统计和收藏脚本来自游戏共享源文件。每次完整构建都会重建 `dist/`。截图脚本写进 `dist/` 的图片可以预览，选定后放进 `public/` 才会随下次构建发布。
 
@@ -97,7 +97,7 @@ Playgama 游戏的数据只维护在 `src/playgama-games.json`。在数组末尾
 
 原有十个可索引页面：`/`、`/games/screw-sort/`、`/hi/`、`/hi/games/screw-sort/`、`/guides/glass-twist-level-2/`、`/hi/guides/glass-twist-level-2/`、`/about/`、`/contact/`、`/privacy/`、`/terms/`。每页有自身 canonical；两种语言的首页和游戏页有双向 `en`、`hi`、`x-default` hreflang。默认英语，不按地区自动跳转。
 
-游戏页结构化数据包含 `WebPage`、免费游戏／Web 应用和面包屑，分享图尺寸与实际 PNG 一致。不加入虚构评分或评论。`/play/screw-sort/` 保持 `noindex, follow`；旧游戏详情页地址和 `/games/coming-soon/` 已下线。
+游戏页结构化数据包含 `WebPage`、免费游戏／Web 应用和面包屑，分享图尺寸与实际 PNG 一致。不加入虚构评分或评论。`/play/screw-sort/` 保持 `noindex, follow`。迁移期间，`/games/{slug}/` 下的原创游戏旧详情页、`/play/{provider}/{slug}/` 下的合作游戏旧详情页和 `/games/coming-soon/` 由 `worker.mjs` 直接 301 到对应的新详情页，保留语言和查询参数。
 
 ## 嵌入与统计
 
@@ -117,7 +117,7 @@ AdSense 网站验证仅保留 `ads.txt`，奖励行为采用上述试玩确认�
 
 使用 Cloudflare Workers 的 Git 构建时，根目录设为仓库根目录，构建命令设为 `npm --prefix site ci && npm --prefix site run build`，部署命令设为 `npx wrangler deploy`。Wrangler 通过仓库根目录的 `wrangler.toml` 读取兼容日期并发布 `site/dist/`。
 
-手动发布时，在仓库根目录构建后运行 `npx wrangler@4.164.0 deploy`。上线后验证短地址、旧址 404、canonical、语言关联和 sitemap。
+手动发布时，在仓库根目录构建后运行 `npx wrangler@4.164.0 deploy`。上线后验证短地址 200、旧游戏详情页 301、canonical、语言关联和 sitemap。
 
 ## 2026-10-09 搜索页面与游戏改名
 

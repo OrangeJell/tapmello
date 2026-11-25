@@ -241,6 +241,24 @@ const retiredCategoryRedirects = languageCodes.flatMap(code => Object.entries(re
   return [`${from.slice(0, -1)} ${to} 301`, `${from} ${to} 301`];
 }));
 await appendFile(path.join(root, 'dist', '_redirects'), retiredCategoryRedirects.join('\n') + '\n');
+
+const legacyGameRedirects = Object.fromEntries([
+  ['/games/coming-soon', locales.en.game],
+  ...languageCodes.flatMap(code => [
+    ...[locales.en.game, mahjongPath('en'), marblePath('en')].map(route => [
+      localPath(code, '/games' + route), localPath(code, route),
+    ]),
+    ...partnerGamesFor(code).map(game => [
+      localPath(code, `/play/${game.provider}/${game.id}`), partnerGamePath(code, game),
+    ]),
+  ]),
+]);
+for (const [from, to] of Object.entries(legacyGameRedirects)) {
+  assert.ok(!normalizedRoutes.has(from), `Legacy redirect shadows a page: ${from}`);
+  assert.ok(publishedRoutes.has(to), `Missing legacy redirect destination: ${from} -> ${to}`);
+}
+await writeFile(path.join(root, 'dist', 'legacy-game-redirects.json'), JSON.stringify(legacyGameRedirects));
+
 await writeFile(path.join(root, 'dist', 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.filter(page => !page.noindex).map(page => `  <url><loc>${origin + page.path}</loc><lastmod>${page.updated || updated}</lastmod></url>`).join('\n')}

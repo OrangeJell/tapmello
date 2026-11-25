@@ -1,6 +1,8 @@
 name = "green-night-bb5b"
+main = "./site/worker.mjs"
 compatibility_date = "2026-11-17"
 
 [assets]
 directory = "./site/dist"
+binding = "ASSETS"
 html_handling = "auto-trailing-slash"
