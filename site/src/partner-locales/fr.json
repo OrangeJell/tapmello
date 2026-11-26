@@ -10221,6 +10221,216 @@
           "Recherchez un verrou, un obstacle ou un mécanisme qui pourrait vous aider à utiliser."
         ]
       ]
+    },
+    "drift-hunters": {
+      "category": "Conduite en dérive 3D",
+      "summary": "Parcourez des circuits 3D ou entraînez-vous dans un espace ouvert. Comparez les voitures et les choix de réglage tout en apprenant à relier les virages en douceur.",
+      "aboutTitle": "Portez une dérive dans le virage suivant",
+      "about": [
+        "Drift Hunters vous offre un choix de voitures, de circuits et de zones d'entraînement ouvertes. Commencez par un itinéraire où vous pouvez répéter le même virage. Apprenez quand la voiture commence à glisser à une vitesse constante avant d’essayer de dériver plus longtemps.",
+        "Ralentissez avant un virage serré, puis dirigez-vous vers celui-ci et ajustez-le lorsque l'arrière de la voiture se rapproche. Une petite correction peut maintenir une diapositive. Si la voiture part en tête-à-queue ou quitte la route, essayez d'approcher ce virage plus lentement lors de la prochaine tentative.",
+        "Le réglage et une voiture différente peuvent modifier la quantité de direction ou d'accélérateur dont vous avez besoin. Comparez un changement sur une section familière. Les terrains de jeux des Docks et de la Ville vous permettent d'essayer une configuration avant de retourner sur un circuit."
+      ],
+      "steps": [
+        [
+          "Choisissez un circuit ou une zone de pratique",
+          "Choisissez un coin reproductible pour savoir comment votre voiture glisse."
+        ],
+        [
+          "Vitesse de contrôle",
+          "Utilisez W ou la flèche vers le haut pour accélérer et S ou la flèche vers le bas pour ralentir."
+        ],
+        [
+          "Traverser le virage",
+          "Utilisez A et D ou les flèches gauche et droite pour ajuster la voiture pendant qu'elle glisse."
+        ],
+        [
+          "Comparez un changement de configuration",
+          "Essayez à nouveau le même virage après avoir changé de paramètre de réglage ou de véhicule."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je dériver en dehors d’un circuit ?",
+          "Oui. Les terrains de jeux Docks et City vous offrent un espace ouvert pour vous entraîner."
+        ],
+        [
+          "Pourquoi la voiture continue-t-elle de tourner ?",
+          "Essayez d'entrer dans le virage plus lentement et d'effectuer de plus petites corrections une fois la diapositive commencée."
+        ],
+        [
+          "Comment puis-je comparer deux voitures ?",
+          "Exécutez les deux dans le même coin et comparez la facilité avec laquelle vous pouvez démarrer et maintenir la diapositive."
+        ]
+      ]
+    },
+    "ragdoll-hit-stickman": {
+      "category": "Arcade de combat de Ragdoll",
+      "summary": "Utilisez de simples touches de direction pour contrôler un combattant ragdoll. Affrontez des adversaires IA, affrontez un ami sur le même clavier ou essayez de survivre à une vague de challengers.",
+      "aboutTitle": "Découvrez comment une entrée modifie un échange de ragdoll",
+      "about": [
+        "Ragdoll Hit Stickman met les combattants disquettes dans des duels rapides. Un mouvement peut changer la position de plusieurs membres à la fois, alors regardez où se retrouve votre combattant après avoir donné une entrée. Faites une brève pause entre les changements si le personnage est toujours en train de dégringoler.",
+        "En mode solo, les adversaires IA deviennent plus coriaces et les boss ajoutent de nouveaux modèles. Essayez une approche différente si vous continuez à perdre le même échange. Reculer pour gagner de la place peut être plus utile que de pousser lorsque le combattant est déséquilibré.",
+        "Survival vous demande de durer contre des adversaires répétés, tandis que le mode local à deux joueurs utilise les deux côtés du clavier. L'équipement change la façon dont votre combattant se sent. Essayez une nouvelle arme ou pièce de protection lors d’un match court avant de la conserver plus longtemps."
+      ],
+      "steps": [
+        [
+          "Choisissez un mode",
+          "Choisissez un joueur solo, deux joueurs ou Survival."
+        ],
+        [
+          "Contrôlez votre combattant",
+          "Utilisez A et D en solo ou en Survie."
+        ],
+        [
+          "Organisez un duel local",
+          "Le joueur 1 utilise A et D, et le joueur 2 utilise les flèches gauche et droite."
+        ],
+        [
+          "Tester le matériel sur un match court",
+          "Comparez l’équilibre et la portée avant de commencer une tentative de survie plus longue."
+        ]
+      ],
+      "faq": [
+        [
+          "Deux personnes peuvent-elles jouer sur le même écran ?",
+          "Oui. Utilisez A et D pour un joueur et les flèches gauche et droite pour l'autre."
+        ],
+        [
+          "En quoi la survie est-elle différente ?",
+          "De nouveaux adversaires arrivent sans cesse et le but est de rester en course le plus longtemps possible."
+        ],
+        [
+          "Pourquoi mon combattant dépasse-t-il la position que je voulais ?",
+          "L'élan du Ragdoll transporte le corps après une entrée. Apportez de petits changements et observez comment cela se règle."
+        ]
+      ]
+    },
+    "granny-horror": {
+      "category": "Évasion d'une maison furtive",
+      "summary": "Cherchez dans la maison de grand-mère des clés et des outils, résolvez des énigmes d'évasion et découvrez quelles cachettes sont suffisamment proches pour être atteintes lorsqu'elle vous entend.",
+      "aboutTitle": "Apprenez la maison tout en réduisant le bruit",
+      "about": [
+        "Granny Horror commence à l'intérieur d'une maison patrouillé par un seul poursuivant. Mamie réagit au son, alors n'oubliez pas une cachette à proximité avant d'ouvrir ou de déplacer des objets. Les pièces familières sont plus faciles à atteindre lorsque le couloir devient soudainement dangereux.",
+        "Recherchez dans les tiroirs et les armoires les outils adaptés à un obstacle particulier. Si vous trouvez quelque chose avant de voir à quoi il appartient, rappelez-vous où il se trouve. Travailler sur un itinéraire à la fois vous aide à suivre le prochain verrou ou mécanisme.",
+        "Le mode pratique vous donne de l'espace pour apprendre les connexions entre les pièces. Utilisez-le pour identifier le placard ou le lit le plus proche de chaque croisement. Lors d'une course régulière, écoutez avant de retourner dans un couloir après avoir fait du bruit."
+      ],
+      "steps": [
+        [
+          "Regardez autour de vous d'abord",
+          "Déplacez la souris pour vérifier la pièce et localiser ses sorties."
+        ],
+        [
+          "Se déplacer dans la maison",
+          "Utilisez WASD et souvenez-vous d'une cachette à proximité avant de traverser un couloir."
+        ],
+        [
+          "Interagir avec un objet",
+          "Appuyez sur E pour inspecter ou utiliser quelque chose que vous pouvez atteindre."
+        ],
+        [
+          "Préparez la prochaine étape d'évasion",
+          "Associez une clé ou un outil à l’obstacle pour lequel il peut aider et écoutez avant de continuer."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment interagir avec les objets ?",
+          "Appuyez sur E lorsque vous êtes suffisamment proche."
+        ],
+        [
+          "Que dois-je faire si je fais du bruit ?",
+          "Déplacez-vous vers une cachette que vous connaissez déjà et écoutez avant de la quitter."
+        ],
+        [
+          "Puis-je d'abord apprendre la mise en page ?",
+          "Choisissez le mode Entraînement pour explorer la maison avant une course régulière."
+        ]
+      ]
+    },
+    "billiards-master": {
+      "category": "Simulation de piscine et de billard",
+      "summary": "Jouez au 8-ball, au 9-ball ou à un défi de score. Réglez l'angle, la puissance et la rotation de la bille blanche, puis planifiez l'endroit où la bille blanche s'arrêtera.",
+      "aboutTitle": "Visez la poche et la prochaine position de la bille blanche",
+      "about": [
+        "Billiards Master comprend des jeux de billard standard et plusieurs défis de score. Entraînez-vous à tirer droit avant d'ajouter de l'effet. Regardez où la bille blanche s'arrête, car cette position détermine si vous avez un tir de suivi facile.",
+        "Utilisez la souris pour aligner la réplique et ajuster la force du tir. Un tir plus dur peut disperser les billes ou laisser la bille blanche loin de la cible suivante. Visez suffisamment de puissance pour atteindre la poche tout en gardant un certain contrôle sur la position suivante.",
+        "Le contre-la-montre récompense une série de pots rapides, alors commencez par des tirs que vous pouvez réaliser de manière cohérente. En mode Matrix, l'ordre des numéros de balle modifie votre score. Réfléchissez au numéro que vous souhaitez laisser pour le plan suivant avant d'empoter celui en cours."
+      ],
+      "steps": [
+        [
+          "Choisissez un ensemble de règles",
+          "Essayez l'entraînement, un match de billard standard, le contre-la-montre ou le mode Matrix."
+        ],
+        [
+          "Alignez le signal",
+          "Utilisez la souris pour définir l'angle de tir et ajuster la rotation si nécessaire."
+        ],
+        [
+          "Réglez la puissance et prenez la photo",
+          "Utilisez le contrôle de puissance de la souris et cliquez sur l'icône de la balle pour jouer."
+        ],
+        [
+          "Planifier le suivi",
+          "Regardez où la bille blanche s'arrêtera par rapport à la prochaine bille jouable."
+        ]
+      ],
+      "faq": [
+        [
+          "Un ami peut-il nous rejoindre sur le même appareil ?",
+          "Oui. Utilisez Pass & Play pour vous relayer localement."
+        ],
+        [
+          "Qu'est-ce qui change en mode Matrice ?",
+          "L'ordre des numéros de boules empochées affecte le score, alors planifiez la séquence ainsi que l'angle."
+        ],
+        [
+          "Pourquoi devrais-je d’abord apprendre sans tourner ?",
+          "Un tir droit vous aide à juger de l'angle et de la puissance avant d'ajouter une autre variable."
+        ]
+      ]
+    },
+    "dude-theft-auto": {
+      "category": "Bac à sable de ville de dessin animé",
+      "summary": "Explorez une ville de dessin animé avec des activités, des véhicules et des objets optionnels. Apprenez le tracé et basculez entre la marche et la conduite.",
+      "aboutTitle": "Explorez la ville quelques rues à la fois",
+      "about": [
+        "Dude Theft Auto vous permet de parcourir une ville ouverte de dessins animés et de décider quelles activités essayer. Parcourez la zone de départ et vérifiez ce qui répond à vos entrées. Une fois que vous connaissez quelques points de repère, il est plus facile de revenir plus tard à une activité ou à un véhicule.",
+        "La souris contrôle votre vue et vous aide à interagir avec les objets. Sauter peut vous faire franchir un petit obstacle. Regardez où vous atterrirez avant de vous engager, surtout lorsque vous évoluez entre une rue très fréquentée et une zone plus calme.",
+        "Les véhicules vous permettent d'explorer plus loin dès le départ. Habituez-vous à tourner sur une route large avant d’essayer un itinéraire plus étroit. La ville propose des défis et des activités optionnels, alors choisissez une activité à la fois pendant que vous apprenez les commandes."
+      ],
+      "steps": [
+        [
+          "Déplacez-vous dans la zone de départ",
+          "Utilisez WASD ou les touches fléchées pour marcher."
+        ],
+        [
+          "Regardez avant d'interagir",
+          "Déplacez la souris pour viser votre vue et utilisez l'interaction de la souris dans le jeu."
+        ],
+        [
+          "Sauter ou grimper par-dessus des obstacles",
+          "Appuyez sur Espace lorsque vous voyez un endroit sûr pour atterrir."
+        ],
+        [
+          "Essayez un véhicule",
+          "Entraînez-vous dans une large rue et utilisez des points de repère pour retrouver votre chemin."
+        ]
+      ],
+      "faq": [
+        [
+          "Existe-t-il un itinéraire fixe à travers la ville ?",
+          "Vous pouvez explorer librement et choisir des activités optionnelles au fur et à mesure que vous les trouvez."
+        ],
+        [
+          "Qu'est-ce qui contrôle la caméra ?",
+          "Déplacez la souris pour regarder autour de vous."
+        ],
+        [
+          "Où puis-je apprendre à conduire ?",
+          "Utilisez une route plus large avec de la place pour tourner avant de vous diriger vers une zone très fréquentée."
+        ]
+      ]
     }
   }
 }

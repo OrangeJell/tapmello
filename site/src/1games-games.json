@@ -18983,5 +18983,445 @@
         ]
       }
     }
+  },
+  {
+    "id": "drift-hunters",
+    "localizedOn": "2026-11-27",
+    "title": "Drift Hunters",
+    "category": {
+      "en": "3D drift driving"
+    },
+    "source": "https://1games.io/drift-hunters",
+    "url": "https://1games.io/game/drift-hunters/",
+    "width": 768,
+    "height": 430,
+    "media": {
+      "icon": "/assets/1games/drift-hunters-icon.png",
+      "artwork": "/assets/1games/drift-hunters-cover.png",
+      "artworkWidth": 1024,
+      "artworkHeight": 1024,
+      "preview": "/assets/1games/drift-hunters-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/drift-hunters/drift-hunters.png",
+        "artwork": "https://1games.io/data/image/game/drift-hunters/banner/drift-hunters.jpeg",
+        "preview": "https://1games.io/data/file/game/drift-hunter.mp4"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "driving",
+        "simulation"
+      ],
+      "tags": [
+        "car-tuning-games",
+        "vehicles-games",
+        "race-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Drift through 3D circuits or practise in an open area. Compare cars and tuning choices while learning how to connect corners smoothly.",
+        "aboutTitle": "Carry one drift into the next corner",
+        "about": [
+          "Drift Hunters gives you a choice of cars, circuits, and open practice areas. Start on a route where you can repeat the same corner. Learn when the car begins to slide at a steady speed before trying to make a longer drift.",
+          "Slow down before a tight bend, then steer into it and adjust as the back of the car comes around. A small correction can keep a slide going. If the car spins or leaves the road, try approaching that bend more slowly on the next attempt.",
+          "Tuning and a different car can change how much steering or throttle you need. Compare one change on a familiar section. The Docks and City playgrounds give you room to try a setup before returning to a circuit."
+        ],
+        "steps": [
+          [
+            "Pick a circuit or practice area",
+            "Choose a repeatable corner to learn how your car slides."
+          ],
+          [
+            "Control speed",
+            "Use W or Up Arrow to accelerate and S or Down Arrow to slow down."
+          ],
+          [
+            "Steer through the bend",
+            "Use A and D or Left and Right Arrow to adjust the car as it slides."
+          ],
+          [
+            "Compare one setup change",
+            "Try the same corner again after switching a tuning setting or vehicle."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I drift outside a circuit?",
+            "Yes. The Docks and City playgrounds give you open space to practise."
+          ],
+          [
+            "Why does the car keep spinning?",
+            "Try entering the bend more slowly and making smaller corrections once the slide begins."
+          ],
+          [
+            "How can I compare two cars?",
+            "Run both through the same corner and compare how easily you can start and hold the slide."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "ragdoll-hit-stickman",
+    "localizedOn": "2026-11-27",
+    "title": "Ragdoll Hit Stickman",
+    "category": {
+      "en": "Ragdoll fighting arcade"
+    },
+    "source": "https://1games.io/ragdoll-hit-stickman",
+    "url": "https://1games.io/game/ragdoll-hit-stickman/",
+    "width": 432,
+    "height": 270,
+    "media": {
+      "icon": "/assets/1games/ragdoll-hit-stickman-icon.png",
+      "artwork": "/assets/1games/ragdoll-hit-stickman-cover.png",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "preview": "/assets/1games/ragdoll-hit-stickman-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/ragdoll-hit-stickman/ragdoll-hit-stickman.png",
+        "artwork": "https://1games.io/data/image/game/ragdoll-hit-stickman/banner/ragdoll-hit-stickman.png",
+        "preview": "https://cdn.1games.io/file/game/ragdoll-hit-stickman/ragdoll-hit-stickman.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-02-08",
+      "genres": [
+        "action",
+        "arcade"
+      ],
+      "tags": [
+        "action-fighting",
+        "arena-games",
+        "combat-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Use simple direction keys to control a ragdoll fighter. Face AI opponents, duel a friend on the same keyboard, or try to survive a wave of challengers.",
+        "aboutTitle": "Learn how one input changes a ragdoll exchange",
+        "about": [
+          "Ragdoll Hit Stickman puts floppy fighters into fast duels. A movement can change the position of several limbs at once, so watch where your fighter ends up after giving an input. Pause briefly between changes if the character is still tumbling.",
+          "In single-player mode, AI opponents become tougher and bosses add new patterns. Try a different approach if you keep losing the same exchange. Moving back to gain room can be more useful than pushing while the fighter is off balance.",
+          "Survival asks you to last against repeated opponents, while local two-player mode uses both sides of the keyboard. Equipment changes how your fighter feels. Try a new weapon or piece of protection in a short match before keeping it for a longer run."
+        ],
+        "steps": [
+          [
+            "Choose a mode",
+            "Pick single-player, two-player, or Survival."
+          ],
+          [
+            "Control your fighter",
+            "Use A and D in single-player or Survival."
+          ],
+          [
+            "Set up a local duel",
+            "Player 1 uses A and D, and Player 2 uses Left and Right Arrow."
+          ],
+          [
+            "Test equipment on a short match",
+            "Compare balance and reach before starting a longer Survival attempt."
+          ]
+        ],
+        "faq": [
+          [
+            "Can two people play on the same screen?",
+            "Yes. Use A and D for one player and the left and right arrows for the other."
+          ],
+          [
+            "How is Survival different?",
+            "New opponents keep coming and the aim is to stay in the run for as long as possible."
+          ],
+          [
+            "Why does my fighter move past the position I wanted?",
+            "Ragdoll momentum carries the body after an input. Make smaller changes and watch how it settles."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "granny-horror",
+    "localizedOn": "2026-11-27",
+    "title": "Granny Horror",
+    "category": {
+      "en": "Stealth house escape"
+    },
+    "source": "https://1games.io/granny-horror",
+    "url": "https://1games.io/game/granny-horror/",
+    "width": 512,
+    "height": 384,
+    "media": {
+      "icon": "/assets/1games/granny-horror-icon.png",
+      "artwork": "/assets/1games/granny-horror-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/granny-horror-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/granny-horror/granny-horror.png",
+        "artwork": "https://1games.io/data/image/game/granny-horror/banner/granny-horror.png",
+        "preview": "https://cdn.1games.io/file/game/granny-horror/granny-horror.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2025-02-22",
+      "genres": [
+        "adventure",
+        "puzzle"
+      ],
+      "tags": [
+        "3d-horror",
+        "horror-escape",
+        "search-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Search Granny’s house for keys and tools, solve escape puzzles, and learn which hiding places are close enough to reach when she hears you.",
+        "aboutTitle": "Learn the house while keeping noise low",
+        "about": [
+          "Granny Horror starts inside a house patrolled by a single pursuer. Granny reacts to sound, so remember a nearby hiding spot before opening or moving objects. Familiar rooms are easier to reach when the corridor is suddenly unsafe.",
+          "Search drawers and cupboards for tools that fit a particular obstacle. If you find something before seeing where it belongs, remember where it is. Working on one route at a time helps you keep track of the next lock or mechanism.",
+          "Practice mode gives you space to learn the connections between rooms. Use it to identify the closest closet or bed from each crossing. During a regular run, listen before moving back into a hallway after making noise."
+        ],
+        "steps": [
+          [
+            "Look around first",
+            "Move the mouse to check the room and locate its exits."
+          ],
+          [
+            "Move through the house",
+            "Use WASD and remember a nearby hiding place before crossing a hallway."
+          ],
+          [
+            "Interact with an object",
+            "Press E to inspect or use something you can reach."
+          ],
+          [
+            "Prepare the next escape step",
+            "Match a key or tool to the obstacle it can help with and listen before moving on."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I interact with objects?",
+            "Press E when close enough."
+          ],
+          [
+            "What should I do if I make noise?",
+            "Move to a hiding place you already know and listen before leaving it."
+          ],
+          [
+            "Can I learn the layout first?",
+            "Choose Practice mode to explore the house before a regular run."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "billiards-master",
+    "localizedOn": "2026-11-27",
+    "title": "Billiards Master",
+    "category": {
+      "en": "Pool and billiards simulation"
+    },
+    "source": "https://1games.io/billiards-master",
+    "url": "https://1games.io/game/billiards-master/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/billiards-master-icon.png",
+      "artwork": "/assets/1games/billiards-master-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/billiards-master-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/billiards-master/billiards-master.png",
+        "artwork": "https://1games.io/data/image/game/billiards-master/banner/billiards-master-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/billiards-master/billiards-master.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1games.io",
+      "releaseDate": "2025-08-15",
+      "genres": [
+        "sports",
+        "board"
+      ],
+      "tags": [
+        "billiards-games",
+        "2-player-pool",
+        "timing-games"
+      ],
+      "mobileReady": [],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Play 8-ball, 9-ball, or a score challenge. Set the cue angle, power, and spin, then plan where the cue ball will stop.",
+        "aboutTitle": "Aim for the pocket and the next cue-ball position",
+        "about": [
+          "Billiards Master includes standard pool games and several score challenges. Practise a straight shot before adding spin. Watch where the cue ball stops, since that position determines whether you have an easy follow-up shot.",
+          "Use the mouse to line up the cue and adjust shot strength. A harder shot can scatter the balls or leave the cue ball far from the next target. Aim for enough power to reach the pocket while keeping some control over the next position.",
+          "Time Trial rewards a series of quick pots, so start with shots you can make consistently. In Matrix Mode, the order of the ball numbers changes your score. Think about which number you want to leave for the following shot before potting the current one."
+        ],
+        "steps": [
+          [
+            "Choose a ruleset",
+            "Try Practice, a standard pool match, Time Trial, or Matrix Mode."
+          ],
+          [
+            "Line up the cue",
+            "Use the mouse to set the shot angle and adjust spin when needed."
+          ],
+          [
+            "Set power and take the shot",
+            "Use the mouse power control and click the ball icon to play."
+          ],
+          [
+            "Plan the follow-up",
+            "Watch where the cue ball will stop relative to the next playable ball."
+          ]
+        ],
+        "faq": [
+          [
+            "Can a friend join on the same device?",
+            "Yes. Use Pass & Play to take turns locally."
+          ],
+          [
+            "What changes in Matrix Mode?",
+            "The order of pocketed ball numbers affects the score, so plan the sequence as well as the angle."
+          ],
+          [
+            "Why should I learn without spin first?",
+            "A straight shot helps you judge angle and power before you add another variable."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "dude-theft-auto",
+    "localizedOn": "2026-11-27",
+    "title": "Dude Theft Auto",
+    "category": {
+      "en": "Cartoon city sandbox"
+    },
+    "source": "https://1games.io/dude-theft-auto",
+    "url": "https://1games.io/game/dude-theft-auto/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/dude-theft-auto-icon.png",
+      "artwork": "/assets/1games/dude-theft-auto-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/dude-theft-auto-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/dude-theft-auto/dude-theft-auto.png",
+        "artwork": "https://1games.io/data/image/game/dude-theft-auto/banner/dude-theft-auto-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/dude-theft-auto/dude-theft-auto.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-07-25",
+      "genres": [
+        "action",
+        "simulation"
+      ],
+      "tags": [
+        "sandbox-games",
+        "vehicles-games",
+        "quests-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Explore a cartoon city with optional activities, vehicles, and objects. Learn the layout and switch between walking and driving.",
+        "aboutTitle": "Explore the city a few streets at a time",
+        "about": [
+          "Dude Theft Auto lets you roam an open cartoon city and decide which activities to try. Walk around the starting area and check what responds to your inputs. Once you know a few landmarks, it is easier to return to an activity or vehicle later.",
+          "The mouse controls your view and helps you interact with objects. Jumping can take you over a small obstacle. Look where you will land before committing, especially when you are moving between a crowded street and a quieter area.",
+          "Vehicles let you explore farther from the start. Get used to turning on a wide road before trying a tighter route. The city has optional challenges and pursuits, so choose one activity at a time while you are learning the controls."
+        ],
+        "steps": [
+          [
+            "Move around the starting area",
+            "Use WASD or the arrow keys to walk."
+          ],
+          [
+            "Look before interacting",
+            "Move the mouse to aim your view and use the in-game mouse interaction."
+          ],
+          [
+            "Jump or climb over obstacles",
+            "Press Space when you can see a safe place to land."
+          ],
+          [
+            "Try a vehicle",
+            "Practise on a wide street and use landmarks to find your way back."
+          ]
+        ],
+        "faq": [
+          [
+            "Is there a fixed route through the city?",
+            "You can explore freely and choose optional activities as you find them."
+          ],
+          [
+            "What controls the camera?",
+            "Move the mouse to look around."
+          ],
+          [
+            "Where can I learn to drive?",
+            "Use a wider road with room to turn before heading into a crowded area."
+          ]
+        ]
+      }
+    }
   }
 ]
