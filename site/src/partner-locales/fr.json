@@ -8121,6 +8121,1266 @@
           "Sur une ligne droite assez longue pour profiter de l’accélération avant de devoir tourner."
         ]
       ]
+    },
+    "escape-road-2": {
+      "category": "Conduite de poursuite en bloc",
+      "summary": "Continuez une poursuite en ville à mesure que la poursuite se développe. Basculez entre conduire, courir et nager pour trouver un autre itinéraire ou un autre véhicule.",
+      "aboutTitle": "Planifiez votre prochain itinéraire avant de quitter la voiture",
+      "about": [
+        "Escape Road 2 commence par une poursuite en voiture à travers une ville en blocs. Plus la course se prolonge, plus de types de poursuivants se joignent à vous. Regardez au-delà de la prochaine intersection pour savoir si un virage vous amène dans une rue ouverte ou dans une impasse.",
+        "Vous pouvez quitter le véhicule actuel et continuer à pied. Choisissez une sortie lorsque vous pouvez voir où vous vous déplacerez ensuite. Si la rue se ferme à proximité de l'eau, la natation peut poursuivre la course jusqu'à ce que vous trouviez un endroit où retourner à terre.",
+        "Revenir à un véhicule modifie les itinéraires que vous pouvez emprunter à nouveau. Recherchez une voiture à proximité avec de la place pour sortir. Essayez différents véhicules sur des itinéraires que vous connaissez déjà afin de pouvoir comparer leurs virages et leurs accélérations pendant la poursuite."
+      ],
+      "steps": [
+        [
+          "Conduire avec de la place pour tourner",
+          "Utilisez WASD ou les touches fléchées pour vous déplacer. Commencez à diriger avant d’atteindre une intersection étroite."
+        ],
+        [
+          "Décidez où sortir",
+          "Appuyez sur Espace pour sortir du véhicule lorsque vous avez un itinéraire à pied."
+        ],
+        [
+          "Utiliser de l'eau lorsque la rue est fermée",
+          "Si vous atteignez l’eau, nagez vers un chemin de retour vers la terre ferme et continuez à chercher un véhicule."
+        ],
+        [
+          "Montez dans un autre véhicule",
+          "Approchez-vous d’un véhicule utilisable et appuyez sur Espace pour y entrer."
+        ]
+      ],
+      "faq": [
+        [
+          "Quelle clé entre ou sort d’un véhicule ?",
+          "L'espace gère les deux actions."
+        ],
+        [
+          "Puis-je continuer sans voiture ?",
+          "Vous pouvez courir sur terre et nager dans l’eau, puis monter dans un autre véhicule pour reprendre la route."
+        ],
+        [
+          "Que dois-je faire lorsque plusieurs poursuivants se rapprochent ?",
+          "Recherchez un virage ouvert avant de vous arrêter. S'il n'y a pas d'itinéraire clair, recherchez un endroit où continuer à pied."
+        ]
+      ]
+    },
+    "slope-xtreme": {
+      "category": "Tapis roulant néon",
+      "summary": "Dirigez une balle lumineuse le long des pentes lumineuses, des barrières mobiles et des écarts soudains. Les cyber-anneaux augmentent votre score et accélèrent la course.",
+      "aboutTitle": "Configurez votre ligne avant que la piste n'accélère",
+      "about": [
+        "Slope Xtreme lance une balle sur une piste néon qui change au fur et à mesure que vous roulez. Vérifiez la section suivante tôt afin de pouvoir vous diriger avant qu'un bloc ou une fissure ne vous laisse un seul passage.",
+        "Les barrières rotatives changent la partie de la piste qui est ouverte. Regardez où se trouvera la barrière lorsque vous l’atteindrez. Dans un tunnel, effectuez de petites corrections jusqu'à ce que vous puissiez voir où émerge la trace.",
+        "Les cyber-anneaux augmentent votre score et votre vitesse, et les coussinets d'accélération peuvent accélérer le prochain virage. Prenez une bague lorsque la piste après celle-ci a de la place pour un ajustement. Si vous ne voyez qu’un étroit rebord au-delà, restez sur votre ligne actuelle."
+      ],
+      "steps": [
+        [
+          "Guider le ballon latéralement",
+          "Utilisez A et D ou les touches fléchées gauche et droite pour diriger."
+        ],
+        [
+          "Lire la prochaine barrière mobile",
+          "Regardez quel écart s'ouvre à mesure que le ballon s'approche."
+        ],
+        [
+          "Faire la queue devant un tunnel",
+          "Entrez avec de l'espace de chaque côté et effectuez de brèves corrections lorsque la visibilité est limitée."
+        ],
+        [
+          "Choisissez quand prendre une bague",
+          "Prenez-le lorsque la piste devant vous vous laisse l'espace nécessaire pour gérer la vitesse supplémentaire."
+        ]
+      ],
+      "faq": [
+        [
+          "Que changent les cyber-rings ?",
+          "Ils ajoutent à votre score tout en augmentant la vitesse de la balle."
+        ],
+        [
+          "Ai-je besoin d’un bouton de saut ?",
+          "Les commandes principales sont la direction gauche et droite. Lisez les pentes et les écarts tôt."
+        ],
+        [
+          "Pourquoi est-ce que je perds le contrôle après un speed pad ?",
+          "Vous avez moins de temps pour corriger à une vitesse plus élevée. Alignez-vous avec la prochaine ouverture avant de traverser le pad."
+        ]
+      ]
+    },
+    "mad-pursuit": {
+      "category": "Conduite de poursuite multimode",
+      "summary": "Basculez entre les objectifs de course, de survie, d'évasion et de zone. Apprenez le maniement de chaque voiture et choisissez une caméra adaptée au parcours.",
+      "aboutTitle": "Adaptez votre conduite à l’objectif",
+      "about": [
+        "Mad Pursuit donne des objectifs de conduite différents selon le mode sélectionné. La course mesure les tours, tandis que Survival vous permet d'avancer à travers les attaques et les dangers. Getaway Driver vous demande d'atteindre une destination avec votre équipage et les Zones récompensent le fait de rester à l'intérieur de la zone active.",
+        "Les vues isométriques et à la troisième personne montrent chacune clairement différentes parties de la route. Essayez les deux sur un tronçon facile. Utilisez la vue qui vous permet de voir un virage suffisamment tôt pour régler votre vitesse avant de tourner.",
+        "Les voitures déverrouillées et les améliorations changent la sensation des itinéraires de poursuite. Une voiture que vous aimez pour un tour peut être difficile à contrôler dans une zone restreinte. Comparez quelques courses sur le même parcours avant de décider si vous avez besoin d'une voiture différente ou d'une approche plus lente."
+      ],
+      "steps": [
+        [
+          "Choisissez un objectif",
+          "Choisissez Survie, Course, Pilote Escapade ou Zones avant d'entrer."
+        ],
+        [
+          "Déplacer et diriger",
+          "Utilisez W ou la flèche vers le haut pour avancer et S ou la flèche vers le bas pour reculer. Dirigez avec A et D ou Gauche et Droite."
+        ],
+        [
+          "Ralentissez avant les virages serrés",
+          "Lisez la sortie d’un virage avant de vous engager dans un virage rapide."
+        ],
+        [
+          "Essayez une autre vue ou un autre véhicule",
+          "Modifiez un paramètre entre les tentatives afin de voir si cela aide sur la section qui vous manque toujours."
+        ]
+      ],
+      "faq": [
+        [
+          "En quoi les Zones sont-elles différentes ?",
+          "L'objectif est de rester à l'intérieur de la zone active tout en évitant les poursuivants et les dangers."
+        ],
+        [
+          "Puis-je changer la caméra de conduite ?",
+          "Le jeu propose des vues isométriques et à la troisième personne."
+        ],
+        [
+          "Quel mode est le meilleur pour apprendre les coins ?",
+          "Racing vous permet de comparer des tours répétés et de voir quelle approche coûte le moins de temps."
+        ]
+      ]
+    },
+    "bloodmoney-remake": {
+      "category": "Clicker d'histoire d'horreur",
+      "summary": "Gagnez de l'argent en cliquant, décidez quelles améliorations acheter et suivez une histoire d'horreur qui change selon vos choix.",
+      "aboutTitle": "Regardez comment les mises à niveau changent l'histoire",
+      "about": [
+        "Bloodmoney Remake commence par cliquer pour gagner de l'argent et transforme cette simple interaction en une histoire d'horreur. Les réactions d’Harvey changent à mesure que les décisions s’accumulent. Faites attention aux dialogues et aux changements visuels lorsque le jeu atteint une nouvelle étape.",
+        "Les mises à niveau aident l'argent à s'accumuler plus rapidement, mais elles affectent également le développement de l'histoire. Lisez les choix disponibles avant d’acheter quelque chose. Les réactions qui suivent peuvent vous en dire plus sur l’itinéraire que vous empruntez que sur la taille de votre solde.",
+        "Le jeu a des résultats différents en fonction de vos choix. Si vous le rejouez, modifiez une première décision et suivez ce qui se passe par la suite. Cela permet de voir plus facilement quels événements dépendaient de l'itinéraire précédent."
+      ],
+      "steps": [
+        [
+          "Gagnez le premier argent",
+          "Utilisez la souris pour cliquer et interagir avec Harvey."
+        ],
+        [
+          "A lire avant d'acheter",
+          "Vérifiez les choix et les mises à niveau lorsque vous avez gagné suffisamment pour effectuer un achat."
+        ],
+        [
+          "Notez les événements marquants",
+          "Faites une pause aux changements dans les réactions ou le dialogue d'Harvey afin de pouvoir suivre l'histoire."
+        ],
+        [
+          "Essayez un choix différent dans une rediffusion",
+          "Modifiez une décision et voyez comment les scènes ultérieures réagissent."
+        ]
+      ],
+      "faq": [
+        [
+          "Quelles commandes le jeu utilise-t-il ?",
+          "Utilisez la souris pour cliquer sur les interactions et les choix disponibles."
+        ],
+        [
+          "Les mises à niveau ne font-elles que faire croître le solde plus rapidement ?",
+          "Ils influencent également la façon dont l'histoire progresse et ce qui arrive à Harvey."
+        ],
+        [
+          "L'histoire peut-elle se terminer différemment ?",
+          "Oui. Vos clics et vos choix de mise à niveau peuvent conduire à des résultats différents."
+        ]
+      ]
+    },
+    "color-jump": {
+      "category": "Arcade réflexe de correspondance des couleurs",
+      "summary": "Faites sauter une balle à travers la couleur correspondante sur des formes tournantes. Vérifiez à nouveau la balle après un changement de couleur et ajustez-la à des rotations plus rapides.",
+      "aboutTitle": "Attendez que la couleur correspondante arrive",
+      "about": [
+        "Color Jump envoie une balle rebondissante vers des obstacles multicolores. Vous pouvez passer par la section qui correspond au ballon. Regardez la forme tourner afin de pouvoir juger où se trouvera cette section lorsque la balle la touchera.",
+        "Un changement de couleur modifie la partie du prochain obstacle qui est sûre. Regardez la balle elle-même chaque fois que vous récupérez un power-up avant de planifier un autre saut. Se souvenir de l'ancienne couleur, même pour un seul obstacle, peut mettre fin à la course.",
+        "Les rotations ultérieures laissent moins de place à une décision tardive. Le rythme du rebond peut vous aider à juger quand appuyer, mais utilisez le segment correspondant suivant comme signal principal. Essayez de le rencontrer lorsqu'il se trouve au milieu de votre chemin."
+      ],
+      "steps": [
+        [
+          "Identifiez la couleur actuelle de la balle",
+          "Vérifiez la balle avant de chercher sa correspondance sur l'obstacle."
+        ],
+        [
+          "Sauter lorsque le segment s'aligne",
+          "Cliquez ou utilisez W ou la flèche vers le haut pour rebondir sur la pièce correspondante."
+        ],
+        [
+          "Vérifiez à nouveau après une mise sous tension",
+          "Lisez la nouvelle couleur avant de choisir une ligne passant par la forme suivante."
+        ],
+        [
+          "S'adapter à une forme plus rapide",
+          "Regardez une rotation devant vous au lieu d'appuyer dès que le ballon atteint l'obstacle."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je sauter avec le clavier ?",
+          "Oui. W et Up Arrow sont des alternatives au clic."
+        ],
+        [
+          "Pourquoi ai-je choisi une couleur que j'avais effacée plus tôt ?",
+          "Un power-up peut avoir changé la couleur de la balle. Faites correspondre sa couleur actuelle à chaque saut."
+        ],
+        [
+          "Les obstacles deviennent-ils plus rapides ?",
+          "Les rotations et les changements de couleurs deviennent plus difficiles à lire à mesure que vous progressez."
+        ]
+      ]
+    },
+    "blendrix": {
+      "category": "Puzzle logique de liens de couleurs",
+      "summary": "Reliez les points correspondants avec des lignes droites et utilisez des points spéciaux pour modifier la façon dont les couleurs se déplacent sur le tableau.",
+      "aboutTitle": "Déterminez d'abord les connexions contraintes",
+      "about": [
+        "Blendrix starts with dots on a board. Faites glisser une ligne droite entre des points de la même couleur et les espaces entre eux prennent cette couleur. Avant de dessiner, vérifiez quels autres points pourraient avoir besoin de la même partie du tableau.",
+        "Des points spéciaux ajoutent de nouvelles possibilités au fur et à mesure que les énigmes progressent. Lisez leur comportement avant de les utiliser dans une longue connexion. Un mouvement qui résout un coin peut changer les directions disponibles ailleurs.",
+        "Recherchez les points qui ont très peu de connexions possibles. Placez-les en premier, puis utilisez ce qui reste pour résoudre les parties les plus flexibles. Si vous vous retrouvez avec une paire que vous ne parvenez pas à connecter, redémarrez et modifiez la ligne précédente qui a suivi son chemin."
+      ],
+      "steps": [
+        [
+          "Trouver une paire correspondante",
+          "Recherchez les points de même couleur alignés sur tout le tableau."
+        ],
+        [
+          "Tracez une liaison droite",
+          "Cliquez et faites glisser entre les points pour remplir les espaces entre eux."
+        ],
+        [
+          "Examinez chaque point spécial",
+          "Vérifiez comment cela affecte l’itinéraire dont vous avez besoin avant de vous y connecter."
+        ],
+        [
+          "Revoyez vos premiers choix",
+          "Si la dernière paire est bloquée, recommencez avec une ligne différente à travers le croisement."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je faire tourner une ligne autour d’un point ?",
+          "A normal connection is straight. Vérifiez si un point spécial dans le puzzle peut modifier vos options."
+        ],
+        [
+          "Quelle paire dois-je connecter en premier ?",
+          "Commencez par des points avec un seul itinéraire droit plausible. Les paires flexibles peuvent venir plus tard."
+        ],
+        [
+          "Que se passe-t-il lorsque je relie deux points ?",
+          "Les espaces le long de leur ligne prennent la couleur de la connexion."
+        ]
+      ]
+    },
+    "rocket-fortress": {
+      "category": "Défense incrémentielle contre les monstres",
+      "summary": "Lancez des roquettes sur des vagues de monstres de dessins animés, renforcez les défenses automatiques et enregistrez des boosts temporaires pour les raids et les boss plus coriaces.",
+      "aboutTitle": "Investissez dans des défenses qui porteront la prochaine vague",
+      "about": [
+        "Rocket Fortress place un lanceur et des unités alliées contre des vagues de monstres fantastiques. Cliquez ou appuyez sur Espace pour lancer une fusée pendant que l'armée cible automatiquement les ennemis. Voyez quels monstres parcourent le plus loin avant de dépenser pour la prochaine mise à niveau.",
+        "La mise à niveau du lanceur est utile dans les parties d'une vague où vous souhaitez un contrôle direct. Les renforts contribuent pendant que vous êtes occupé à viser ou à surveiller une autre partie du terrain. Un mélange des deux vaut la peine d’être essayé lorsqu’une mise à niveau importante ne résout plus le problème.",
+        "Les combats de boss et les raids chronométrés mettent davantage de pression sur les mêmes ressources. Enregistrez une courte mise sous tension jusqu'à ce que l'ennemi le plus fort soit sur le terrain et que vous puissiez utiliser la majeure partie de son temps d'activité. Les rencontres en coopération vous donnent une autre raison de construire une défense fiable."
+      ],
+      "steps": [
+        [
+          "Feu sur la vague entrante",
+          "Cliquez ou appuyez sur Espace pour lancer des fusées."
+        ],
+        [
+          "Observez l'armée automatique",
+          "Observez les menaces auxquelles les troupes alliées font face et celles qui atteignent la ligne de front."
+        ],
+        [
+          "Dépensez là où la ligne est la plus faible",
+          "Choisissez une mise à niveau du lanceur ou une unité supplémentaire basée sur la dernière vague."
+        ],
+        [
+          "Réservez un boost pour une rencontre difficile",
+          "Activez-le lorsqu'un boss ou une vague dense est présent et vous pourrez utiliser toute la fenêtre."
+        ]
+      ],
+      "faq": [
+        [
+          "Dois-je diriger chaque attaque alliée ?",
+          "L'armée sélectionne automatiquement les ennemis pendant que vous manipulez le lanceur."
+        ],
+        [
+          "Quel est le bon moment pour utiliser un boost ?",
+          "Utilisez-le lorsque l'ennemi qui cause des problèmes est déjà sur le champ de bataille."
+        ],
+        [
+          "Pourquoi améliorer à la fois les fusées et les unités ?",
+          "Ils contribuent de différentes manières. Les unités continuent d'attaquer entre vos lancements et les roquettes vous donnent une contribution directe."
+        ]
+      ]
+    },
+    "stack-rush": {
+      "category": "Empilement de blocs sur plateau rotatif",
+      "summary": "Tournez une plate-forme ronde sous les blocs qui tombent, insérez les pièces dans les espaces et éliminez les anneaux complets avant que la pile ne devienne trop haute.",
+      "aboutTitle": "Tournez le plateau tôt pour garder un empilement régulier",
+      "about": [
+        "Stack Rush drops blocks toward a round platform. You move the platform under each piece. Recherchez un espace adapté dès l'apparition de la pièce, car une rotation tardive vous laisse moins de temps pour comparer deux placements possibles.",
+        "A complete layer clears. Un tas haut d’un côté peut laisser un espace profond difficile à atteindre avec une forme ultérieure. Étalez les blocs et donnez la priorité au remplissage des anneaux presque complets lorsque la pièce s'ajuste sans créer un autre trou gênant.",
+        "The drops become faster as you continue. Préparez la plateforme pendant que la pièce est encore haute, puis effectuez de plus petites corrections près de la surface. Laissez un espace facile pour le bloc suivant si deux placements actuels sont également bons."
+      ],
+      "steps": [
+        [
+          "Faites pivoter le plateau",
+          "Utilisez la flèche gauche ou la flèche droite pour faire tourner la pile sous la pièce qui tombe."
+        ],
+        [
+          "Choisissez tôt un emplacement",
+          "Recherchez un espace qui correspond à la forme avant qu'il ne se rapproche de la surface."
+        ],
+        [
+          "Complétez une couche presque pleine",
+          "Alignez un morceau avec les derniers espaces pour que la couche puisse se dégager."
+        ],
+        [
+          "Gardez de la place des deux côtés",
+          "Évitez de construire une pile haute à côté d'une poche profonde où les blocs ultérieurs seront difficiles à installer."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment les blocs disparaissent-ils ?",
+          "Une couche complète disparaît et vous laisse de la place pour plus de gouttes."
+        ],
+        [
+          "Puis-je déplacer directement le bloc qui tombe ?",
+          "Les flèches gauche et droite font pivoter la plate-forme située en dessous."
+        ],
+        [
+          "Pourquoi tourner le plateau avant la fin de la chute ?",
+          "Cela vous laisse le temps d'effectuer une petite correction finale si la forme n'est pas alignée avec l'espace."
+        ]
+      ]
+    },
+    "perfect-orbit": {
+      "category": "Salle de golf avec parcours rotatif",
+      "summary": "Chronométrez un swing sur un parcours rotatif, ajustez sa puissance et gagnez des pièces pour améliorer votre tir à mesure que les obstacles changent.",
+      "aboutTitle": "Jugez le parcours avant de choisir la puissance de tir",
+      "about": [
+        "Perfect Orbit joue au golf sur un terrain qui tourne. Surveillez la ligne disponible avant de vous balancer. Si un obstacle est sur le point de se déplacer dans la direction souhaitée, attendez que le parcours présente une fenêtre plus claire.",
+        "La section verte de la flèche est votre repère de timing. La puissance modifie la distance parcourue par la balle. Utilisez moins de force lorsqu'un tir court maintient le ballon en jeu et conservez un swing plus fort pour une ligne avec de la place au-delà du premier touché.",
+        "Les pièces servent aux améliorations de puissance, de vitesse et de rebond. Choisissez une statistique basée sur un modèle que vous voyez sur plusieurs plans. Augmenter la puissance peut être utile lorsque les tirs au bon moment échouent régulièrement. Pratiquez la distance ajustée avant d'acheter une autre mise à niveau."
+      ],
+      "steps": [
+        [
+          "Regardez un passage du cours rotatif",
+          "Recherchez comment les obstacles se déplacent sur la ligne prévue."
+        ],
+        [
+          "Régler la puissance du tir",
+          "Maintenez et faites glisser pour ajuster la force avec laquelle la balle sera frappée."
+        ],
+        [
+          "Utilisez le signal de timing vert",
+          "Cliquez lorsque la flèche mobile atteint la zone verte pour un swing précis."
+        ],
+        [
+          "Comparez vos photos après la mise à niveau",
+          "Essayez quelques swings similaires lorsque vous modifiez la puissance, la vitesse ou le rebond."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment chronométrer un swing précis ?",
+          "Essayez de cliquer lorsque la flèche mobile se trouve dans la zone verte."
+        ],
+        [
+          "Comment changer la puissance ?",
+          "Maintenez et faites glisser pour l'ajuster."
+        ],
+        [
+          "Dois-je toujours utiliser la pleine puissance ?",
+          "Choisissez la puissance pour l'atterrissage disponible. Un tir plus court peut être plus facile à maintenir en jeu près d’un obstacle."
+        ]
+      ]
+    },
+    "madness-lab": {
+      "category": "Mini-jeux en laboratoire",
+      "summary": "Guidez des créatures hybrides à travers un laboratoire rempli de mini-jeux contrôlés par la souris. Apprenez les règles de chaque pièce avant de passer à l'expérience suivante.",
+      "aboutTitle": "Observez chaque salle avant d’agir",
+      "about": [
+        "Madness Lab offre à un scientifique une série de salles pour tester des hybrides animaux inhabituels. Chaque salle a sa propre tâche, du dépassement d'une presse en mouvement à la gestion d'une poursuite ou à la traversée d'une toile. Prenez un moment pour voir quelle partie de la pièce répond à votre contribution.",
+        "Le timing appris dans une pièce peut être trop rapide pour la suivante. Lorsque quelque chose continue de bouger sur le chemin, regardez un cycle entier avant de réessayer. Entrez lorsqu'il y a de la place pour terminer l'action au lieu de suivre la première ouverture que vous voyez.",
+        "Différents hybrides et améliorations changent ce que les créatures peuvent faire. Utilisez une expérience pour apprendre comment se comporte une nouvelle capacité avant d’en dépendre dans une pièce ultérieure. Une tentative ratée peut vous indiquer si le déplacement a eu lieu trop tôt ou si vous avez choisi la mauvaise partie de la pièce."
+      ],
+      "steps": [
+        [
+          "Lire l'objectif de la salle",
+          "Identifiez ce qui doit se passer avant de faire le premier clic."
+        ],
+        [
+          "Utilisez la souris pour interagir",
+          "Cliquez pour contrôler la créature ou l'expérience en cours selon les instructions de la pièce."
+        ],
+        [
+          "Regardez les obstacles répétables",
+          "Sur un obstacle en mouvement, attendez suffisamment longtemps pour voir quand il laisse une voie libre."
+        ],
+        [
+          "Essayez de nouvelles capacités une par une",
+          "Observez comment un nouvel hybride ou une mise à niveau modifie votre prochaine tentative avant d'effectuer une autre modification."
+        ]
+      ],
+      "faq": [
+        [
+          "Chaque salle a-t-elle le même objectif ?",
+          "Non. Les salles présentent différents mini-jeux et obstacles."
+        ],
+        [
+          "Quel est le contrôle principal ?",
+          "Utilisez le bouton de la souris pour interagir avec le défi de chaque pièce."
+        ],
+        [
+          "Pourquoi essayer une créature ou une mise à niveau différente ?",
+          "De nouvelles capacités peuvent changer la façon dont la créature gère un obstacle ou termine l'expérience en cours."
+        ]
+      ]
+    },
+    "planet-buster": {
+      "category": "Clicker de destruction de planète",
+      "summary": "Brisez les planètes en rotation avec des missiles automatiques et choisissez des améliorations pour éliminer les couches les plus difficiles et les planètes boss.",
+      "aboutTitle": "Dépensez des améliorations là où chaque planète vous ralentit",
+      "about": [
+        "Planet Buster lance automatiquement des missiles sur un corps en rotation. La surface se désagrège en couches et la prochaine planète peut avoir un matériau plus durable. Regardez où les tirs atterrissent avant de décider quelle mise à niveau acheter.",
+        "Cliquer sur la planète accélère l'attaque. Utilisez cette contribution supplémentaire lorsque la progression ralentit, en particulier contre une planète boss renforcée. Si des tirs manquent, d’autres lancements peuvent toujours laisser intactes les mêmes parties de la surface.",
+        "Comparez la précision et la puissance de feu sur plusieurs rotations. Une mise à niveau peut modifier la fréquence à laquelle un tir se connecte, tandis qu'une autre modifie la rapidité avec laquelle la surface se brise. Dépensez pour la faiblesse que vous pouvez voir dans le tour en cours."
+      ],
+      "steps": [
+        [
+          "Regardez une rotation complète",
+          "Laissez les missiles automatiques tirer pendant que vous voyez quelles zones subissent des dégâts."
+        ],
+        [
+          "Accélérez la volée",
+          "Cliquez sur la planète pour augmenter la cadence de tir."
+        ],
+        [
+          "Vérifier l'exactitude",
+          "Achetez une mise à niveau de précision si les tirs manquent souvent la surface visible."
+        ],
+        [
+          "Utiliser le clic actif sur les calques plus difficiles",
+          "Cliquez plus souvent lorsqu'une planète boss ralentit votre progression."
+        ]
+      ],
+      "faq": [
+        [
+          "Les missiles se lancent-ils automatiquement ?",
+          "Oui. Cliquer augmente la cadence de tir."
+        ],
+        [
+          "Pourquoi une planète boss prend-elle plus de temps ?",
+          "Ses couches les plus solides nécessitent plus de coups pour se briser."
+        ],
+        [
+          "Quand dois-je acheter de la précision ?",
+          "Choisissez-le lorsque les échecs constituent un problème plus important que la force d'un coup sûr."
+        ]
+      ]
+    },
+    "blocky-rush": {
+      "category": "Puzzle de rangées de blocs coulissants",
+      "summary": "Faites glisser les blocs latéralement pour remplir et effacer les lignes. Gardez le prochain coup ouvert à mesure que le plateau devient de plus en plus encombré.",
+      "aboutTitle": "Effacer une ligne sans piéger les blocs au-dessus",
+      "about": [
+        "Blocky Rush vous permet de déplacer les blocs déjà présents sur le plateau. Faites glisser une pièce latéralement pour combler un vide dans sa rangée. Une ligne terminée disparaît, ouvrant la place à d'autres mouvements et augmentant votre score.",
+        "Avant de combler un vide, regardez les lignes directement au-dessus et en dessous. Déplacer une longue pièce peut résoudre la rangée actuelle tout en laissant un trou qu'une autre pièce ne peut pas facilement atteindre. Utilisez la longueur de la pièce pour juger quels espaces valent la peine d'être économisés.",
+        "Si deux rangées sont presque terminées, choisissez le mouvement qui vous laisse de la place pour une seconde élimination. Lorsque vous manquez d’espace, privilégiez une rangée fiable plutôt qu’une configuration compliquée. Les peaux classiques et de chat changent la présentation du même puzzle."
+      ],
+      "steps": [
+        [
+          "Trouver une ligne presque complète",
+          "Recherchez un espace avec un bloc de la bonne longueur à proximité."
+        ],
+        [
+          "Faites glisser le bloc",
+          "Faites-le glisser vers la gauche ou la droite avec la souris."
+        ],
+        [
+          "Vérifiez ce que le clair découvrira",
+          "Regardez l'espace autour de la rangée avant de vous engager dans un mouvement."
+        ],
+        [
+          "Récupérez de la place lorsque le tableau se remplit",
+          "Terminez d’abord une ligne fiable, puis configurez la suivante."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je déplacer des blocs vers le haut ou vers le bas ?",
+          "Votre entrée déplace un bloc horizontalement."
+        ],
+        [
+          "Qu'est-ce qui fait disparaître une ligne ?",
+          "Remplissez complètement la ligne, sans espace vide."
+        ],
+        [
+          "Pourquoi les écarts isolés sont-ils difficiles ?",
+          "Un bloc doit s'adapter à la longueur vide et pouvoir glisser en position."
+        ]
+      ]
+    },
+    "curve-rush-io": {
+      "category": "Course de piste multijoueur",
+      "summary": "Faites la course avec d'autres joueurs sur les pentes du désert. Prenez de l'élan dans les descentes et organisez des atterrissages en douceur pour maintenir votre vitesse.",
+      "aboutTitle": "Transportez la vitesse d’une dune à la suivante",
+      "about": [
+        "Curve Rush IO envoie de petites balles à travers les collines du désert dans une course multijoueur. Maintenez le bouton de la souris enfoncé pour prendre de l'élan sur une pente et relâchez-le pendant que vous vous préparez à décoller. Votre approche de chaque colline change la mesure dans laquelle vous pouvez porter votre vitesse.",
+        "Regardez où commence la prochaine section de descente pendant que vous êtes dans les airs. Un atterrissage en douceur vous donne la possibilité de continuer à accélérer. Si un saut en hauteur continue de vous faire tomber dans un mauvais angle, prenez une ligne plus basse au-dessus de cette colline lors de la prochaine course.",
+        "D'autres coureurs peuvent prendre de l'avance pendant que vous alignez un atterrissage. Concentrez-vous sur le maintien de deux ou trois collines d'affilée. Un saut plus long est utile lorsque vous pouvez voir où il descendra, en particulier à proximité de changements rapides de terrain."
+      ],
+      "steps": [
+        [
+          "Prendre de l'élan sur une pente",
+          "Maintenez le bouton gauche de la souris pendant que vous descendez."
+        ],
+        [
+          "Libération avant le décollage",
+          "Lâchez prise lorsque vous voulez prendre de l'élan dans les airs."
+        ],
+        [
+          "Attendez-vous à un atterrissage en descente",
+          "Utilisez l'espace entre les collines pour repérer l'endroit le plus propre où descendre."
+        ],
+        [
+          "Gardez la prochaine colline en vue",
+          "Recommencez à prendre de la vitesse une fois que votre atterrissage est aligné avec la pente."
+        ]
+      ],
+      "faq": [
+        [
+          "La course est-elle multijoueur ?",
+          "Oui. D'autres coureurs partagent le parcours et se disputent la position."
+        ],
+        [
+          "Dois-je maintenir le bouton enfoncé pendant toute la course ?",
+          "Relâchez avant un saut pour pouvoir prendre de la vitesse hors de la pente et préparer l'atterrissage."
+        ],
+        [
+          "Qu'est-ce qui aide à récupérer un prospect perdu ?",
+          "Enchaînez les atterrissages propres et augmentez la vitesse lors de descentes consécutives."
+        ]
+      ]
+    },
+    "chase-rush": {
+      "category": "Poursuite sur autoroute au néon",
+      "summary": "Dirigez-vous dans une poursuite sans fin sur l'autoroute au néon pendant que les véhicules de police, les poursuivants plus lourds et les obstacles rétrécissent votre route.",
+      "aboutTitle": "Gardez une route ouverte pendant que la poursuite se développe",
+      "about": [
+        "Chase Rush vous place sur une autoroute lumineuse avec des poursuivants qui vous pressent par derrière. Déplacez le curseur pour changer de direction et recherchez une ouverture au-delà de l'obstacle le plus proche. Un véhicule peut combler l’écart apparent si vous vous engagez pendant qu’il traverse.",
+        "Différents poursuivants changent ce que vous devez regarder. Un véhicule volumineux prend plus de route qu’une voiture, et les menaces ultérieures peuvent arriver de plusieurs directions. Faites votre premier pas tôt afin qu’un deuxième changement de direction reste possible.",
+        "Plus vous restez dehors longtemps, plus la douceur de la direction devient importante. Un virage radical peut vous faire traverser plusieurs dangers alors qu’un mouvement plus petit éliminerait le plus proche. Utilisez un étirement silencieux pour revenir à une position offrant de l’espace des deux côtés."
+      ],
+      "steps": [
+        [
+          "Dirigez-vous avec le curseur",
+          "Faites glisser le curseur de la souris sur l'écran de jeu pour guider la voiture."
+        ],
+        [
+          "Lisez la route plus loin",
+          "Vérifiez où se dirige le trafic après la première ouverture."
+        ],
+        [
+          "Effectuer une petite correction à proximité du trafic",
+          "Déplacez-vous juste assez loin pour franchir l’obstacle et observer la prochaine menace."
+        ],
+        [
+          "Réinitialisez votre position après une évasion",
+          "Choisissez un tronçon qui laisse de la place pour diriger à nouveau lorsque la poursuite rattrape son retard."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment piloter ?",
+          "Déplacez le curseur sur l'écran de jeu."
+        ],
+        [
+          "La poursuite a-t-elle une ligne d'arrivée ?",
+          "Le défi routier est sans fin et le but est de survivre plus longtemps."
+        ],
+        [
+          "Pourquoi éviter un grand virage dans la circulation ?",
+          "Un virage large peut vous amener au véhicule suivant avant que vous ayez la possibilité de corriger."
+        ]
+      ]
+    },
+    "swipe-ball": {
+      "category": "Puzzle de visée avec rebond de balle",
+      "summary": "Faites glisser pour lancer une balle en caoutchouc dans une tasse, en utilisant les murs et les plates-formes pour orienter le rebond sur chaque niveau.",
+      "aboutTitle": "Travaillez en arrière depuis la tasse jusqu'au premier rebond",
+      "about": [
+        "Swipe Ball vous demande de faire atterrir une balle rebondissante dans une tasse. Lorsque la coupe n'a pas d'approche directe, recherchez un mur ou une plate-forme qui pourrait rediriger le ballon. Planifiez l'endroit où il doit toucher cette surface avant de choisir la traînée.",
+        "L'angle et la force affectent différentes parties d'un tir. Si la balle rebondit dans la bonne direction mais échoue, conservez l'angle et modifiez la longueur de la traînée. S'il passe à côté de la tasse, commencez par changer de direction.",
+        "De nouvelles dispositions ajoutent des obstacles et des approches plus serrées. Regardez le parcours complet de la première tentative, y compris le rebond après celui que vous aviez prévu. Un tir peut atteindre la bonne hauteur et nécessiter néanmoins un atterrissage plus doux pour rester à l'intérieur de la coupe."
+      ],
+      "steps": [
+        [
+          "Localisez la tasse",
+          "Vérifiez si vous pouvez y accéder directement ou si vous avez besoin d'un rebond."
+        ],
+        [
+          "Visez votre lancer",
+          "Faites glisser avec la souris pour choisir la direction et la force, puis relâchez."
+        ],
+        [
+          "Comparez le premier rebond",
+          "Voyez où la balle touche une surface et si elle se dirige vers la coupe."
+        ],
+        [
+          "Ajuster une partie du plan",
+          "Modifiez l'angle ou la longueur de traînée avant de réessayer."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment puis-je lancer ?",
+          "Faites glisser avec la souris et relâchez pour lancer la balle."
+        ],
+        [
+          "Que se passe-t-il si un mur bloque un lancer direct ?",
+          "Essayez d'utiliser une surface pour rediriger le rebond vers la tasse."
+        ],
+        [
+          "Comment puis-je réparer un tir qui dépasse ?",
+          "Gardez l'angle s'il était correct et essayez une traînée plus courte."
+        ]
+      ]
+    },
+    "mr-flip": {
+      "category": "Cascadeur physique",
+      "summary": "Ajustez votre décollage, tournez dans les airs et relâchez à temps pour effectuer des sauts sur les toits et autres parcours de cascades.",
+      "aboutTitle": "Prévoyez suffisamment de temps pour vous préparer à l'atterrissage",
+      "about": [
+        "Mr Flip est construit autour de trois décisions : la force du saut, le moment de la rotation et le moment où arrêter le flip. Lisez la hauteur et la distance jusqu'à l'atterrissage avant de lancer. Un saut qui fonctionne depuis un terrain peut vous emmener trop loin d'un toit.",
+        "Maintenez le bouton de la souris enfoncé pour définir le décollage, puis relâchez pour sauter. Maintenez à nouveau en l'air pour faire pivoter. Lorsque l'atterrissage est proche, relâchez suffisamment tôt pour que le personnage redescende dans une position stable.",
+        "Les combos rapportent des points, mais une deuxième rotation modifie l'espace dont vous disposez pour terminer. Entraînez-vous d’abord à effectuer un seul saut propre sur un parcours inconnu. Le mode Arcade vous offre plus de défis pour comparer les scores une fois que le moment de l'atterrissage vous semble familier."
+      ],
+      "steps": [
+        [
+          "Configurer le saut",
+          "Maintenez le bouton de la souris enfoncé pour ajuster la force de décollage."
+        ],
+        [
+          "Libérer pour lancer",
+          "Vérifiez l'atterrissage avant de lâcher prise."
+        ],
+        [
+          "Tourner dans les airs",
+          "Maintenez à nouveau le bouton de la souris pour contrôler le retournement."
+        ],
+        [
+          "Terminer la rotation pour l'atterrissage",
+          "Relâchez une fois que le personnage a eu le temps de se redresser."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi est-ce que j'atterris maladroitement après un retournement complet ?",
+          "La prochaine rotation pourrait déjà commencer. Relâchez plus tôt pour que les pieds soient prêts pour l'atterrissage."
+        ],
+        [
+          "Puis-je utiliser le même saut sur chaque parcours ?",
+          "Ajustez la force à la distance et à la hauteur du prochain atterrissage."
+        ],
+        [
+          "Où puis-je viser un score plus élevé ?",
+          "Le mode Arcade propose des défis supplémentaires axés sur le score."
+        ]
+      ]
+    },
+    "steel-legion": {
+      "category": "Action de char basée sur les collines",
+      "summary": "Conduisez des chars sur des pentes accidentées et effectuez des prises de vue chronométrées lorsque le véhicule change d'angle. Essayez différents chars pour différents terrains.",
+      "aboutTitle": "Utilisez la forme de la colline pour préparer une photo",
+      "about": [
+        "Steel Legion place les chars sur un sol irrégulier où la conduite change à la fois de position et d'angle. Regardez comment le véhicule tangue à l'approche d'une crête. Tirer lorsqu'il s'incline peut envoyer le tir sur une trajectoire différente de celle prévue.",
+        "Utilisez des mouvements courts pour trouver un endroit plus stable avant de tirer. Une crête peut ouvrir une ligne vers le prochain adversaire, mais conduire plus loin que nécessaire peut amener le char sur une autre pente raide. Déplacez-vous uniquement aussi loin que le tir l'exige.",
+        "Différents chars offrent différentes capacités et maniabilité. Apprenez leur mouvement sur un terrain doux avant de tenter un parcours difficile. Si une tentative se déroule mal, vérifiez si le problème était d'aligner le tir ou d'atteindre une bonne position."
+      ],
+      "steps": [
+        [
+          "Déplacer le réservoir",
+          "Utilisez A et D ou les touches fléchées pour traverser le terrain."
+        ],
+        [
+          "Regardez l'inclinaison du véhicule",
+          "Vérifiez ce qui arrive au char lorsqu'il atteint la crête d'une colline."
+        ],
+        [
+          "Tirez quand le tank s'aligne",
+          "Appuyez sur Espace une fois que le véhicule a atteint l'angle souhaité."
+        ],
+        [
+          "Essayez un autre réservoir",
+          "Comparez sa maniabilité et ses capacités sur une section que vous connaissez."
+        ]
+      ],
+      "faq": [
+        [
+          "Quelle clé déclenche ?",
+          "Appuyez sur Espace pour tirer."
+        ],
+        [
+          "Pourquoi le tir est-il large sur une colline ?",
+          "Le terrain modifie l’angle du char. Essayez de passer à une section plus stable avant de tirer."
+        ],
+        [
+          "Les chars se comportent-ils tous de la même manière ?",
+          "Différents chars offrent différentes capacités et réagissent différemment aux terrains accidentés."
+        ]
+      ]
+    },
+    "deer-adventure": {
+      "category": "Aventure animale en monde ouvert",
+      "summary": "Explorez une ville en tant que cerf, essayez des sauts et des sprints et utilisez un cou extensible pour interagir avec le monde du dessin animé.",
+      "aboutTitle": "Découvrez comment les cerfs se déplacent dans la ville",
+      "about": [
+        "Deer Adventure vous permet de parcourir les rues, les parcs et les bâtiments en tant que cerf. Choisissez une petite zone et voyez quels objets ou personnages vous répondent. La souris vous aide à avoir une meilleure vue avant de vous déplacer dans un quartier animé de la ville.",
+        "Sauter, se précipiter et étirer le cou donnent au cerf plusieurs façons d'atteindre les objets. Testez une entrée à la fois près d’un simple obstacle pour voir ce qu’elle fait. Utilisez un court tiret lorsque vous avez déjà de la place pour vous arrêter.",
+        "La ville réagit lorsque vous interagissez avec ses habitants ou provoquez une agitation. Explorez les sentiers et les bâtiments à proximité avant de vous déplacer dans un autre quartier. Le même ensemble de commandes peut sembler différent sur une pelouse calme et dans des rues bondées."
+      ],
+      "steps": [
+        [
+          "Promenade à travers la ville",
+          "Utilisez WASD pour vous déplacer et la souris pour regarder autour de vous."
+        ],
+        [
+          "Essayez un petit saut",
+          "Appuyez sur Espace pour sauter par-dessus un obstacle."
+        ],
+        [
+          "Étirer le cou du cerf",
+          "Maintenez Q ou le bouton droit de la souris pour étendre sa portée."
+        ],
+        [
+          "Foncez dans l’espace ouvert",
+          "Maintenez Shift lorsque vous avez un chemin clair devant vous."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment puis-je regarder autour de moi ?",
+          "Déplacez la souris pour contrôler la caméra."
+        ],
+        [
+          "Qu'est-ce qui étire le cou ?",
+          "Maintenez Q ou le bouton droit de la souris."
+        ],
+        [
+          "Dois-je me précipiter à travers la ville ?",
+          "Vous pouvez explorer librement et essayer des interactions dans différents domaines."
+        ]
+      ]
+    },
+    "subway-moto": {
+      "category": "Coureur de moto d'obstacle ferroviaire",
+      "summary": "Guidez une moto sur des rails courbes, contournez les dangers et sautez les sections cassées à mesure que le trajet s'accélère.",
+      "aboutTitle": "Choisissez votre rail avant que la voie ne casse",
+      "about": [
+        "Subway Moto permet à la moto de se déplacer sur les rails et les tunnels de montagne. Regardez deux sections à venir lorsque vous le pouvez. Vous devrez peut-être changer de direction après un virage et avant d’avoir le temps de ralentir.",
+        "Un saut aide par-dessus les sections endommagées lorsque vous pouvez également voir l'atterrissage. Déplacez-vous vers la prochaine partie dégagée du rail avant de sauter. Un changement de direction tardif dans les airs vous laisse moins de marge pour faire face au prochain obstacle.",
+        "Plus vous roulez loin, plus les virages et les obstacles peuvent apparaître. Utilisez les récompenses collectées entre les courses et gardez une trace des modèles qui vous surprennent. Un chemin régulier à travers plusieurs dangers ajoute généralement plus de distance que la poursuite d'une récompense sur un rail étroit."
+      ],
+      "steps": [
+        [
+          "Cherchez le prochain rail clair",
+          "Lisez la courbe et notez où les voies sont interrompues."
+        ],
+        [
+          "Diriger ou sauter",
+          "Utilisez les touches fléchées ou WASD pour vous déplacer et sauter."
+        ],
+        [
+          "Faites la queue avant de faire une pause",
+          "Déplacez-vous vers une section avec un atterrissage visible avant de sauter."
+        ],
+        [
+          "Restez stable après l'atterrissage",
+          "Vérifiez le virage suivant avant de poursuivre une récompense facultative."
+        ]
+      ],
+      "faq": [
+        [
+          "Le vélo bouge-t-il automatiquement ?",
+          "Oui. Vos entrées l’aident à se diriger et à sauter pendant qu’il avance."
+        ],
+        [
+          "Quand dois-je sauter un rail cassé ?",
+          "Sautez une fois que l'atterrissage dégagé est à portée de main et que votre vélo est aligné avec lui."
+        ],
+        [
+          "Qu’est-ce qui change plus loin sur le parcours ?",
+          "Il devient plus difficile de réagir aux obstacles et aux tracés."
+        ]
+      ]
+    },
+    "bounce-up": {
+      "category": "Plateforme rebondissante à un bouton",
+      "summary": "Chronométrez une balle qui rebondit sur des plates-formes en mouvement. Utilisez les surfaces dorées pour donner de l'élan et visez les boutons rouges pour multiplier votre score.",
+      "aboutTitle": "Choisissez un atterrissage en toute sécurité avant de viser un multiplicateur",
+      "about": [
+        "Bounce Up vous demande de maintenir une balle en mouvement sur des plates-formes changeantes. Les surfaces normales vous donnent un rebond régulier, tandis que les surfaces dorées envoient le ballon avec plus d'élan. Attendez-vous à la prochaine plateforme si votre rebond est sur le point de devenir plus rapide.",
+        "Les boutons rouges peuvent augmenter votre score lorsque vous atterrissez avec précision. Visez-en un lorsque la plate-forme est suffisamment à portée de main pour effectuer une correction. Un atterrissage régulier peut être le meilleur choix si le fait d'appuyer sur le bouton ne laisse aucune place à l'erreur.",
+        "Les diamants débloquent des designs visuels pour le ballon et les paramètres de difficulté vous permettent de vous entraîner à un rythme différent. Concentrez-vous sur le maintien de plusieurs atterrissages ensemble. Ajoutez ensuite des tentatives de boutons aux séquences de plateforme que vous pouvez déjà atteindre."
+      ],
+      "steps": [
+        [
+          "Regardez la prochaine plateforme",
+          "Vérifiez où il se trouvera lorsque le ballon l'atteindra."
+        ],
+        [
+          "Cliquez pour rebondir",
+          "Chronométrez le clic pour que la balle puisse atteindre une partie sûre de la plate-forme."
+        ],
+        [
+          "Préparez-vous à un boost d'or",
+          "Recherchez l’atterrissage suivant avant de rebondir sur une surface dorée."
+        ],
+        [
+          "Visez un bouton rouge",
+          "Optez pour le multiplicateur lorsque la plateforme vous laisse la possibilité d'atterrir avec précision."
+        ]
+      ],
+      "faq": [
+        [
+          "À quoi servent les plateformes aurifères ?",
+          "Ils boostent l’élan du ballon."
+        ],
+        [
+          "Comment les boutons rouges sont-ils utiles ?",
+          "Un atterrissage précis sur un bouton rouge peut multiplier le score."
+        ],
+        [
+          "A quoi servent les diamants ?",
+          "Utilisez-les pour débloquer différentes skins de balle."
+        ]
+      ]
+    },
+    "escape-raid": {
+      "category": "Poursuite en voiture dans le désert de pixels",
+      "summary": "Conduisez une voiture pixel sur les routes du désert, évitez la circulation et les dangers et continuez à avancer pour prolonger le score de poursuite.",
+      "aboutTitle": "Regardez au-delà de l'obstacle que vous êtes sur le point de franchir",
+      "about": [
+        "Escape Raid commence dans une station-service et envoie la voiture directement dans une poursuite. Observez les deux côtés lorsque la route tourne. Dériver trop loin pour éviter une voiture peut vous entraîner dans la suite.",
+        "Gardez votre vitesse dans les sections dégagées et effectuez des virages plus rapides et plus petits à proximité d’un groupe de véhicules. Vérifiez si vous pouvez revenir sur une partie utilisable de la route après un dépassement. Un écart n’est utile que s’il existe une issue.",
+        "Le score augmente à mesure que la poursuite se poursuit à grande vitesse. Si vous tombez à plusieurs reprises dans un virage serré, braquez plus tôt lors du prochain passage et facilitez la correction une fois que la voiture a terminé. Une course plus longue vous donne plus d'opportunités de marquer qu'une seule passe risquée."
+      ],
+      "steps": [
+        [
+          "Dirigez-vous à gauche ou à droite",
+          "Utilisez A et D ou les touches fléchées gauche et droite."
+        ],
+        [
+          "Lire le prochain virage",
+          "Regardez au-delà du danger actuel avant de changer de direction."
+        ],
+        [
+          "Maintenir une ligne claire à grande vitesse",
+          "Utilisez de petites corrections lorsque la circulation est proche."
+        ],
+        [
+          "Récupérer après un virage difficile",
+          "Revenez vers une section qui laisse de la place pour le prochain réglage de la direction."
+        ]
+      ],
+      "faq": [
+        [
+          "Où commence la poursuite ?",
+          "La poursuite commence lorsque vous quittez la station-service."
+        ],
+        [
+          "Comment se construisent les points ?",
+          "Continuez à avancer et évitez les accidents pour prolonger la course et ajouter des points."
+        ],
+        [
+          "Quelles clés pilotent ?",
+          "Utilisez A et D ou les touches fléchées gauche et droite."
+        ]
+      ]
+    },
+    "flamy-dash": {
+      "category": "Balançoire de corde à un bouton",
+      "summary": "Lancez une boule de feu rougeoyante à travers une grotte, relâchez la corde pour accélérer et choisissez un arc qui dégage le bord ou le cerceau suivant.",
+      "aboutTitle": "Relâchez la corde avec la prochaine ouverture en vue",
+      "about": [
+        "Flamy Dash maintient la boule de feu en mouvement à travers une grotte d'ouvertures étroites et d'arêtes vives. Un clic accroche une corde au plafond. Maintenir le bouton allonge le swing et le relâcher envoie la balle vers l'avant depuis son angle actuel.",
+        "Lisez le plafond et le sol avant de rester attaché pendant un long arc. Un long swing peut ajouter de la vitesse tout en plaçant la balle trop bas ou trop haut pour l'ouverture suivante. Relâchez plus tôt lorsque le passage se rétrécit.",
+        "Regardez au-delà d’un cerceau avant de décider de le viser. Une fois que vous quittez la corde, vérifiez où la prochaine fixation peut avoir lieu. Essayez à nouveau la même séquence avec un relâchement chronométré différemment si un virage particulier arrête votre course."
+      ],
+      "steps": [
+        [
+          "Fixer au plafond",
+          "Cliquez pour accrocher la corde."
+        ],
+        [
+          "Prolongez l'arc s'il y a de la place",
+          "Maintenez le bouton enfoncé et observez la distance parcourue par la balle."
+        ],
+        [
+          "Relâcher vers une ouverture",
+          "Lâchez prise lorsque le ballon suit la ligne souhaitée."
+        ],
+        [
+          "Planifiez le prochain crochet",
+          "Recherchez le prochain chemin dégagé avant de vous attacher à nouveau."
+        ]
+      ],
+      "faq": [
+        [
+          "Que se passe-t-il si je tiens plus longtemps ?",
+          "Le swing continue, modifiant l’élan de la balle et l’angle au moment du lancement."
+        ],
+        [
+          "Comment puis-je me lancer ?",
+          "Relâchez le bouton de la souris tout en vous balançant."
+        ],
+        [
+          "Pourquoi est-ce que je heurte un rebord après avoir relâché ?",
+          "Essayez de relâcher plus tôt ou plus tard pour que la balle quitte la corde sous un meilleur angle."
+        ]
+      ]
+    },
+    "speed-legends": {
+      "category": "Course de sprint physique",
+      "summary": "Déplacez chaque jambe séparément, ajustez l'inclinaison du coureur et construisez une foulée régulière pour les courses de plat et les haies.",
+      "aboutTitle": "Construisez un rythme reproductible avec les deux jambes",
+      "about": [
+        "Speed Legends attribue un contrôle distinct à chaque jambe. Alternez les entrées et voyez comment le coureur réagit. Appuyer plus vite peut casser votre rythme si une jambe n’a pas terminé sa foulée.",
+        "Lean change la façon dont le coureur porte son élan. Penchez-vous en avant sur une section dégagée une fois la foulée stable, et utilisez l'autre direction lorsque vous avez besoin de retrouver l'équilibre. Les obstacles rendent le rythme plus difficile à maintenir car il faut se préparer avant de les atteindre.",
+        "L’entraînement est un endroit pour comparer une cadence plus rapide avec une cadence plus propre. Une fois que vous pouvez répéter un départ, essayez les courses chronométrées ou multijoueurs. Une rediffusion peut aider à identifier où un pas inégal a d'abord ralenti le coureur."
+      ],
+      "steps": [
+        [
+          "Bougez la jambe gauche",
+          "Appuyez sur la flèche gauche pour la jambe gauche."
+        ],
+        [
+          "Alterner avec la jambe droite",
+          "Appuyez sur la flèche droite et entraînez-vous à garder les deux jambes dans un schéma stable."
+        ],
+        [
+          "Ajuster l'inclinaison",
+          "Utilisez la flèche vers le haut pour vous pencher en avant et la flèche vers le bas pour vous pencher en arrière."
+        ],
+        [
+          "Pratiquer l'approche d'un obstacle",
+          "Stabilisez la foulée quelques pas avant de l'atteindre."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi une pression plus rapide peut-elle me faire ralentir ?",
+          "Les mouvements peuvent perdre du rythme. Essayez une alternance régulière jusqu'à ce que la foulée soit stable."
+        ],
+        [
+          "Quels contrôles changent la posture ?",
+          "La flèche vers le haut se penche vers l'avant et la flèche vers le bas se penche vers l'arrière."
+        ],
+        [
+          "Puis-je pratiquer seul ?",
+          "Oui. L'entraînement vous permet d'apprendre la foulée avant les courses multijoueurs."
+        ]
+      ]
+    },
+    "chicken-flip": {
+      "category": "Saut de plateforme et retournements",
+      "summary": "Sautez un poulet à travers les interstices et les obstacles, puis utilisez un saut en l'air pour corriger l'atterrissage en campagne ou en jeu sans fin.",
+      "aboutTitle": "Utiliser le flip comme correction pendant le saut",
+      "about": [
+        "Chicken Flip place un poulet sautillant sur des parcours présentant des écarts et des atterrissages inégaux. Utilisez le côté droit de l’écran pour créer un élan. Avant de vous engager dans un grand saut, regardez où le poulet peut descendre et dans combien de temps il devra sauter à nouveau.",
+        "Cliquer sur le côté gauche ajoute un saut périlleux qui peut changer la trajectoire. Essayez-le lorsqu'un saut doit être corrigé et qu'il est encore temps de terminer le mouvement. Si l'atterrissage semble déjà bon, enregistrez les données pour un intervalle ultérieur.",
+        "La campagne vous permet d'apprendre les obstacles un parcours à la fois, tandis que l'autre mode teste combien de temps vous pouvez maintenir le rythme. De nouveaux poulets se débloquent pendant que vous jouez. À un niveau difficile, répétez la même ouverture pour pouvoir vous concentrer sur le saut que vous devez modifier."
+      ],
+      "steps": [
+        [
+          "Prendre de l'élan",
+          "Cliquez sur le côté droit de l’écran pour effectuer un saut."
+        ],
+        [
+          "Lire la distance d'atterrissage",
+          "Recherchez la prochaine plate-forme solide avant de décoller."
+        ],
+        [
+          "Corriger avec un flip",
+          "Cliquez sur le côté gauche lorsque vous avez besoin d’un saut périlleux en plein vol."
+        ],
+        [
+          "Pratiquez l'écart difficile",
+          "Essayez de sauter d'une position différente avant de modifier plusieurs entrées à la fois."
+        ]
+      ],
+      "faq": [
+        [
+          "De quel côté fait le Chicken Flip ?",
+          "Cliquez sur le côté gauche de l'écran."
+        ],
+        [
+          "À quoi sert le fait de cliquer sur le côté droit ?",
+          "Cela crée un élan pour franchir le parcours."
+        ],
+        [
+          "Comment puis-je connaître les obstacles ?",
+          "Utilisez les niveaux de campagne pour pratiquer les écarts individuels avant de tenter une campagne plus longue."
+        ]
+      ]
+    },
+    "escape-bear": {
+      "category": "Aventure au royaume du dessin animé",
+      "summary": "Explorez un royaume de dessins animés affecté par le miel violet, cherchez des chemins cachés et utilisez des sauts pour atteindre de nouvelles zones.",
+      "aboutTitle": "Explorez chaque région à la recherche d'indices et d'un itinéraire à suivre",
+      "about": [
+        "Escape Bear est une aventure en 3D dans un royaume où le miel violet a changé les animaux. Voyagez entre les forêts et d’autres zones pour enquêter. Regardez attentivement avant de suivre le chemin le plus évident, car un indice ou un itinéraire peut se trouver juste à côté du sentier principal.",
+        "Sauter et grimper vous aident à traverser des terrains difficiles. Déplacez la caméra avant un saut afin de voir si l'autre côté a de la place pour atterrir. Si un itinéraire semble ne mener nulle part, regardez-le sous un autre angle avant de partir.",
+        "Le royaume recèle de secrets et de défis répartis dans différents domaines. Parcourez une section à la fois et souvenez-vous des points de repère. Cela facilite le retour lorsqu'un nouvel indice vous ramène vers un endroit que vous avez traversé plus tôt."
+      ],
+      "steps": [
+        [
+          "Explorer une région",
+          "Utilisez WASD ou les touches fléchées pour vous déplacer dans le royaume."
+        ],
+        [
+          "Cherchez des indices",
+          "Déplacez la souris pour regarder autour de vous et interagir avec l'environnement."
+        ],
+        [
+          "Surmonter un obstacle",
+          "Appuyez sur Espace pour sauter ou grimper là où le terrain le permet."
+        ],
+        [
+          "Se souvenir d'un point de repère accessible",
+          "Utilisez un chemin familier lors de votre retour pour rechercher un itinéraire négligé."
+        ]
+      ],
+      "faq": [
+        [
+          "Qu'est-ce que le contrôle des mouvements ?",
+          "Utilisez WASD ou les touches fléchées."
+        ],
+        [
+          "Comment puis-je gravir un terrain accidenté ?",
+          "Utilisez l'espace pour sauter ou grimper et vérifiez d'abord l'atterrissage."
+        ],
+        [
+          "Où dois-je regarder lorsque les progrès s’arrêtent ?",
+          "Vérifiez les sentiers secondaires à proximité et recherchez les parties de la zone que vous n’avez pas explorées."
+        ]
+      ]
+    },
+    "stickman-slash": {
+      "category": "Combat de vagues Stickman",
+      "summary": "Survivez à des vagues d'ennemis stickman, ramassez des armes et découvrez comment chaque modèle d'attaque change votre position.",
+      "aboutTitle": "Gardez de l'espace pour la prochaine vague tout en essayant de nouveaux équipements",
+      "about": [
+        "Stickman Slash utilise des mouvements et des attaques pilotés par clic contre des vagues d'ennemis fantômes. Regardez où un clic déplacera votre combattant avant de vous engager. Attaquer en groupe peut vous laisser encerclé lorsque les prochains ennemis atteignent cet endroit.",
+        "Les armes modifient les schémas d'attaque. Essayez une nouvelle pièce d'équipement dans un tronçon avec de la place pour bouger afin que vous puissiez voir sa portée. Les armures et les capes peuvent modifier la durée de vie du combattant lorsque vous devez vous remettre d'une mauvaise position.",
+        "Une course de survie plus longue nécessite de la place pour s'adapter ainsi que des attaques rapides. Après avoir obtenu une ouverture, vérifiez d’où vient le groupe suivant avant de vous lancer à la recherche d’un élément abandonné. Récupérez l'équipement lorsque votre combattant a encore une route dégagée."
+      ],
+      "steps": [
+        [
+          "Déplacez-vous et attaquez en quelques clics",
+          "Cliquez sur l'écran de jeu pour diriger votre combattant."
+        ],
+        [
+          "Vérifiez à quelle distance la vague est",
+          "Gardez un chemin hors du groupe avant de lancer une autre attaque."
+        ],
+        [
+          "Essayez l'équipement que vous collectionnez",
+          "Apprenez la portée d'une nouvelle arme avant de l'utiliser dans une foule."
+        ],
+        [
+          "Prendre des ramassages lors d'une ouverture",
+          "Déplacez-vous vers un objet déposé lorsque vous avez de la place pour récupérer par la suite."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment contrôler le combattant ?",
+          "Cliquez sur l'écran pour vous déplacer et attaquer."
+        ],
+        [
+          "Les armes se comportent-elles différemment ?",
+          "Oui. Leurs modèles d’attaque et leur portée varient."
+        ],
+        [
+          "Pourquoi gagner de l'espace entre les vagues ?",
+          "Un côté ouvert vous donne un endroit où vous déplacer si la prochaine vague arrive pendant que vous récupérez du matériel."
+        ]
+      ]
+    },
+    "hoop-legends": {
+      "category": "Basket-ball basé sur le timing",
+      "summary": "Chronométrez les tirs de basket-ball avec une barre d'alimentation en mouvement. Essayez des matchs en tête-à-tête ou voyez combien de paniers vous pouvez réaliser avant la fin du temps imparti.",
+      "aboutTitle": "Lisez le compteur de tir avant de passer à la tentative suivante",
+      "about": [
+        "Hoop Legends utilise une flèche mobile pour indiquer quand prendre une photo. Regardez un passage du compteur tout en apprenant sa vitesse. Cliquez ensuite lorsque la flèche traverse la zone verte pour obtenir une tentative plus propre.",
+        "Le jeu en tête-à-tête et l'attaque contre la montre exercent une pression différente sur la même entrée. En attaque chronométrée, une libération répétable peut faire gagner du temps sur plusieurs tirs. Dans un duel, surveillez le compteur plutôt que de vous précipiter parce que l’autre joueur vient de marquer.",
+        "Le jeu propose des uniformes à débloquer et des modes à comparer. Utilisez quelques tentatives dans la même situation pour déterminer si vous êtes systématiquement en avance ou en retard. Modifiez légèrement le timing une fois que vous pouvez reconnaître l'erreur."
+      ],
+      "steps": [
+        [
+          "Choisissez un mode",
+          "Essayez un duel en ligne ou une session d'attaque contre la montre."
+        ],
+        [
+          "Suivez la flèche mobile",
+          "Regardez son approche vers la zone verte sur la barre de puissance."
+        ],
+        [
+          "Cliquez dans la zone verte",
+          "Tirez lorsque la flèche atteint la zone cible."
+        ],
+        [
+          "Ajuster après un échec",
+          "Regardez si vous avez cliqué tôt ou tard avant de réessayer."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment chronométrer un tir ?",
+          "Cliquez pendant que la flèche s'aligne avec la section verte."
+        ],
+        [
+          "Que mesure l’attaque temporelle ?",
+          "Réalisez autant de tirs réussis que possible dans le temps imparti."
+        ],
+        [
+          "Puis-je jouer contre quelqu'un d'autre ?",
+          "Oui. Le jeu comprend un jeu en ligne en tête-à-tête."
+        ]
+      ]
+    },
+    "kickback-dash": {
+      "category": "Arcade à distance de recul",
+      "summary": "Utilisez le recul d'un lanceur de dessins animés pour parcourir une vallée, gardez votre élan grâce aux rebonds et améliorez-vous pour des tentatives plus longues.",
+      "aboutTitle": "Enregistrez un clic pour le moment où vous perdez votre élan",
+      "about": [
+        "Kickback Dash commence par un lanceur de dessins animés au fond d'une vallée. Un clic produit un recul qui le fait basculer vers l'avant. Suivez la rotation et observez comment le prochain rebond change de direction.",
+        "Cliquez à nouveau lorsque le mouvement en cours commence à ralentir. En appuyant dès la fin du dernier clic, vous pouvez effectuer une saisie avant que cela n'ajoute beaucoup de distance. Essayez plusieurs fois la même ouverture pour comparer différents moments du rebond.",
+        "Les mises à niveau affectent la poussée initiale, la force des rafales ultérieures et le nombre de tirs que vous pouvez utiliser. Un départ plus fort est utile lorsque vous franchissez à peine le premier obstacle. Les tirs supplémentaires sont importants lorsque l'ouverture fonctionne et vous devez continuer à avancer plus loin dans la vallée."
+      ],
+      "steps": [
+        [
+          "Commencez la course",
+          "Cliquez sur l’écran pour lancer la première impulsion."
+        ],
+        [
+          "Regardez le rebond",
+          "Suivez si le lanceur avance ou commence à ralentir."
+        ],
+        [
+          "Chronométrez le prochain tiret",
+          "Cliquez à nouveau lorsque l'éclatement peut le faire avancer le long de la vallée."
+        ],
+        [
+          "Choisissez une mise à niveau",
+          "Améliorez la poussée d'ouverture ou les rafales ultérieures en fonction de la façon dont votre course s'est terminée."
+        ]
+      ],
+      "faq": [
+        [
+          "Qu’est-ce qui fait avancer le lanceur ?",
+          "Chaque clic déclenche une impulsion de recul."
+        ],
+        [
+          "Quelle amélioration essayer en premier ?",
+          "Essayez la mise à niveau du premier coup si vous perdez immédiatement votre élan. Extra shots can help later in the run."
+        ],
+        [
+          "Est-il toujours utile de cliquer tout de suite ?",
+          "Regardez d'abord le rebond. Un clic ultérieur peut amener la course plus loin lorsque le mouvement en cours a encore de la vitesse."
+        ]
+      ]
+    },
+    "lizard-lizard-clicker": {
+      "category": "Clicker de colonie de reptiles",
+      "summary": "Générez des lézards en cliquant, améliorez chaque pression et achetez une production automatique pour développer la colonie entre les rafales d'entrée.",
+      "aboutTitle": "Transformez un petit lot de lézards en une production stable",
+      "about": [
+        "Lizard Lizard Clicker commence par un écran qui fait apparaître des reptiles chaque fois que vous cliquez. Utilisez le premier groupe pour obtenir une mise à niveau. Comparez le prix de gagner plus par clic avec le prix de laisser la base engendrer automatiquement des lézards.",
+        "La production automatique maintient le total en augmentation entre les rafales actives. Une fois qu'il s'améliore, vérifiez combien de temps il faut pour atteindre le prochain achat sans cliquer. Dépensez de la puissance lorsque vous prévoyez de jouer activement et que vous souhaitez que chaque clic contribue davantage.",
+        "À mesure que la colonie grandit, le jeu révèle davantage de variations et d'entrées de reptiles. Essayez un équilibre différent entre mises à niveau actives et passives si la progression ralentit. Comparez ce que chaque achat ajoute au lieu d’acheter l’option la moins chère."
+      ],
+      "steps": [
+        [
+          "Générez les premiers lézards",
+          "Cliquez sur l'écran pour commencer à augmenter le total."
+        ],
+        [
+          "Améliorer la production active",
+          "Achetez une mise à niveau Tap si chaque clic ajoute trop peu."
+        ],
+        [
+          "Configurer la génération automatique",
+          "Investissez dans la production passive pour maintenir la colonie en croissance entre les clics."
+        ],
+        [
+          "Suivre le prochain achat",
+          "Comparez les gains de revenus et les prix avant de choisir une autre mise à niveau."
+        ]
+      ],
+      "faq": [
+        [
+          "A quoi sert un clic ?",
+          "Cela ajoute des lézards à la colonie."
+        ],
+        [
+          "Le total peut-il augmenter sans clics répétés ?",
+          "Oui. Les mises à niveau automatiques du frai ajoutent des lézards par eux-mêmes."
+        ],
+        [
+          "Comment puis-je choisir entre les mises à niveau ?",
+          "Utilisez la puissance du robinet pour le jeu actif et la génération automatique pour la croissance entre les clics."
+        ]
+      ]
+    },
+    "curve-rush-2": {
+      "category": "Coureur d'élan de pente physique",
+      "summary": "Maintenez et relâchez pour faire rouler une balle sur des pentes et des sauts. Apprenez où prendre de la vitesse et où vous préparer à un atterrissage propre.",
+      "aboutTitle": "Gardez votre élan malgré les changements de pente",
+      "about": [
+        "Curve Rush 2 envoie le ballon à travers des collines qui passent de pentes douces à des chutes soudaines. Maintenez le bouton gauche de la souris pour augmenter la vitesse sur une pente. Cherchez la fin de la pente avant de lâcher, car votre décollage change avec la forme du sol.",
+        "Un saut donne de l'élan à la section suivante. Surveillez la pente qui se trouvera sous la balle lorsque vous atterrirez. Si vous continuez à arriver sur une face en montée, modifiez le timing de déclenchement sur la colline précédente et comparez le résultat.",
+        "La piste peut changer de rythme rapidement, alors prenez une décision pour la colline actuelle et une autre pour l'atterrissage. Une transition nette entre deux courtes collines peut vous donner plus de contrôle qu'un grand saut dans une section que vous ne pouvez pas encore lire."
+      ],
+      "steps": [
+        [
+          "Prendre de la vitesse sur la pente",
+          "Maintenez le bouton gauche de la souris lorsque le sol vous permet d'accélérer."
+        ],
+        [
+          "Libération proche du décollage",
+          "Lâchez prise avant de devoir préparer le prochain saut."
+        ],
+        [
+          "Recherchez un atterrissage utilisable",
+          "Vérifiez l'angle de la prochaine colline avant que la balle ne l'atteigne."
+        ],
+        [
+          "Gardez la prochaine pente prête",
+          "Recommencez à prendre de l'élan une fois que le ballon s'est installé dans la descente."
+        ]
+      ],
+      "faq": [
+        [
+          "À quoi sert le maintien du bouton de la souris ?",
+          "Il développe la vitesse et l'élan sur les pistes."
+        ],
+        [
+          "Pourquoi relâcher avant un saut ?",
+          "Le relâchement arrête la poussée active afin que vous puissiez poursuivre votre élan vers la partie suivante de la piste."
+        ],
+        [
+          "Comment réparer un atterrissage qui perd de la vitesse ?",
+          "Essayez de relâcher à un autre point de la colline précédente pour que la balle atteigne un meilleur angle de pente."
+        ]
+      ]
     }
   }
 }

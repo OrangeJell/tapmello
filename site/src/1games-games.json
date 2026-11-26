@@ -14548,7 +14548,7 @@
   },
   {
     "id": "escape-road-2",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Escape Road 2",
     "category": {
       "en": "Blocky pursuit driving"
@@ -14637,7 +14637,7 @@
   },
   {
     "id": "slope-xtreme",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Slope Xtreme",
     "category": {
       "en": "Neon rolling runner"
@@ -14725,7 +14725,7 @@
   },
   {
     "id": "mad-pursuit",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Mad Pursuit",
     "category": {
       "en": "Multi-mode chase driving"
@@ -14814,7 +14814,7 @@
   },
   {
     "id": "bloodmoney-remake",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Bloodmoney Remake",
     "category": {
       "en": "Horror story clicker"
@@ -14903,7 +14903,7 @@
   },
   {
     "id": "color-jump",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Color Jump",
     "category": {
       "en": "Color-matching reflex arcade"
@@ -14992,7 +14992,7 @@
   },
   {
     "id": "blendrix",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Blendrix",
     "category": {
       "en": "Color-link logic puzzle"
@@ -15080,7 +15080,7 @@
   },
   {
     "id": "rocket-fortress",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Rocket Fortress",
     "category": {
       "en": "Incremental monster defense"
@@ -15169,7 +15169,7 @@
   },
   {
     "id": "stack-rush",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Stack Rush",
     "category": {
       "en": "Rotating block stacking"
@@ -15258,7 +15258,7 @@
   },
   {
     "id": "perfect-orbit",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Perfect Orbit",
     "category": {
       "en": "Rotating-course golf arcade"
@@ -15347,7 +15347,7 @@
   },
   {
     "id": "madness-lab",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Madness Lab",
     "category": {
       "en": "Creature lab minigames"
@@ -15429,6 +15429,1782 @@
           [
             "Why try a different creature or upgrade?",
             "New abilities can change how the creature handles an obstacle or completes the current experiment."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "planet-buster",
+    "localizedOn": "2026-11-26",
+    "title": "Planet Buster",
+    "category": {
+      "en": "Planet destruction clicker"
+    },
+    "source": "https://1games.io/planet-buster",
+    "url": "https://planet-buster.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/planet-buster-icon.png",
+      "artwork": "/assets/1games/planet-buster-icon.png",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "preview": "/assets/1games/planet-buster-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/planet-buster/planet-buster.png",
+        "artwork": "https://1games.io/data/image/game/planet-buster/planet-buster.png",
+        "preview": "https://cdn.1games.io/file/game/planet-buster/planet-buster.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-10-06",
+      "genres": [
+        "clicker",
+        "arcade"
+      ],
+      "tags": [
+        "incremental-games",
+        "destroy-games",
+        "one-button-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Break apart rotating planets with automatic missiles and choose upgrades to clear tougher layers and boss planets.",
+        "aboutTitle": "Spend upgrades where each planet slows you down",
+        "about": [
+          "Planet Buster automatically launches missiles at a rotating body. The surface comes apart in layers, and the next planet can have more durable material. Watch where the shots land before deciding which upgrade to buy.",
+          "Clicking on the planet speeds up the attack. Use that extra input when progress slows, particularly against a reinforced boss planet. If shots are missing, more launches may still leave the same parts of the surface intact.",
+          "Compare accuracy and firepower over several rotations. One upgrade can change how often a shot connects, while another changes how quickly the surface breaks. Spend on the weakness you can see in the current round."
+        ],
+        "steps": [
+          [
+            "Watch a full rotation",
+            "Let the automatic missiles fire while you see which areas are taking damage."
+          ],
+          [
+            "Speed up the volley",
+            "Click the planet to increase the rate of fire."
+          ],
+          [
+            "Check accuracy",
+            "Buy a precision upgrade if the shots often miss the visible surface."
+          ],
+          [
+            "Use active clicking on tougher layers",
+            "Click more often when a boss planet slows your progress."
+          ]
+        ],
+        "faq": [
+          [
+            "Do missiles launch automatically?",
+            "Yes. Clicking increases the firing pace."
+          ],
+          [
+            "Why does a boss planet take longer?",
+            "Its stronger layers take more hits to break apart."
+          ],
+          [
+            "When should I buy accuracy?",
+            "Choose it when misses are a bigger problem than the strength of a hit."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "blocky-rush",
+    "localizedOn": "2026-11-26",
+    "title": "Blocky Rush",
+    "category": {
+      "en": "Sliding block row puzzle"
+    },
+    "source": "https://1games.io/blocky-rush",
+    "url": "https://blocky-rush.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/blocky-rush-icon.png",
+      "artwork": "/assets/1games/blocky-rush-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/blocky-rush-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/blocky-rush/blocky-rush.png",
+        "artwork": "https://1games.io/data/image/game/blocky-rush/banner/blocky-rush-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/blocky-rush/blocky-rush.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-09-24",
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "sliding-games",
+        "tiles-games",
+        "logic"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Drag blocks sideways to fill and clear rows. Keep the next move open as the board becomes more crowded.",
+        "aboutTitle": "Clear a row without trapping the blocks above it",
+        "about": [
+          "Blocky Rush lets you shift the blocks already on the board. Drag a piece sideways to fill a gap in its row. A completed row disappears, opening room for more moves and adding to your score.",
+          "Before filling one gap, look at the rows directly above and below. Moving a long piece can solve the current row while leaving a hole that another piece cannot easily reach. Use the piece length to judge which spaces are worth saving.",
+          "If two rows are close to completion, pick the move that gives you room for a second clear. When you run short of space, favour a reliable row over a complicated setup. The classic and cat skins change the presentation of the same puzzle."
+        ],
+        "steps": [
+          [
+            "Find an almost complete row",
+            "Look for a gap with a block of the right length nearby."
+          ],
+          [
+            "Slide the block",
+            "Drag it left or right with the mouse."
+          ],
+          [
+            "Check what the clear will uncover",
+            "Look at the space around the row before committing to a move."
+          ],
+          [
+            "Recover room when the board fills",
+            "Finish a dependable row first, then set up the next one."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I move blocks up or down?",
+            "Your input moves a block horizontally."
+          ],
+          [
+            "What makes a row disappear?",
+            "Fill the row completely, without an empty space."
+          ],
+          [
+            "Why are isolated gaps difficult?",
+            "A block has to fit the empty length and be able to slide into position."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "curve-rush-io",
+    "localizedOn": "2026-11-26",
+    "title": "Curve Rush IO",
+    "category": {
+      "en": "Multiplayer slope racing"
+    },
+    "source": "https://1games.io/curve-rush-io",
+    "url": "https://curve-rush-io.1games.io/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/curve-rush-io-icon.png",
+      "artwork": "/assets/1games/curve-rush-io-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/curve-rush-io-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/curve-rush-io/curve-rush-io.png",
+        "artwork": "https://1games.io/data/image/game/curve-rush-io/banner/curve-rush-io-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/curve-rush-io/curve-rush-io.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "arcade",
+        "io"
+      ],
+      "tags": [
+        "speed-games",
+        "timing-games",
+        "competitive-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Race other players across desert slopes. Build momentum on descents and set up smooth landings to keep your speed.",
+        "aboutTitle": "Carry speed from one dune into the next",
+        "about": [
+          "Curve Rush IO sends small balls across desert hills in a multiplayer race. Hold the mouse button to build momentum on a slope and release as you prepare to take off. Your approach to each hill changes how far you can carry your speed.",
+          "Watch where the next downhill section starts while you are in the air. A smooth landing gives you a chance to continue accelerating. If a high jump keeps dropping you onto a bad angle, take a lower line over that hill on the next run.",
+          "Other racers can pull ahead while you are lining up a landing. Focus on keeping two or three hills flowing in a row. A longer jump is useful when you can see where it will come down, especially near fast changes in the terrain."
+        ],
+        "steps": [
+          [
+            "Build momentum on a slope",
+            "Hold the left mouse button as you descend."
+          ],
+          [
+            "Release before takeoff",
+            "Let go when you want to carry momentum into the air."
+          ],
+          [
+            "Look ahead for a downhill landing",
+            "Use the gap between hills to spot the cleanest place to come down."
+          ],
+          [
+            "Keep the next hill in view",
+            "Start building speed again once your landing has lined up with the slope."
+          ]
+        ],
+        "faq": [
+          [
+            "Is the race multiplayer?",
+            "Yes. Other racers share the course and compete for position."
+          ],
+          [
+            "Should I hold the button through the entire run?",
+            "Release before a jump so you can carry speed off the slope and set up the landing."
+          ],
+          [
+            "What helps recover a lost lead?",
+            "String together clean landings and build speed on consecutive descents."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "chase-rush",
+    "localizedOn": "2026-11-26",
+    "title": "Chase Rush",
+    "category": {
+      "en": "Neon highway chase"
+    },
+    "source": "https://1games.io/chase-rush",
+    "url": "https://chase-rush.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/chase-rush-icon.png",
+      "artwork": "/assets/1games/chase-rush-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/chase-rush-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/chase-rush/chase-rush.png",
+        "artwork": "https://1games.io/data/image/game/chase-rush/banner/chase-rush-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/chase-rush/chase-rush.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-10-01",
+      "genres": [
+        "driving",
+        "arcade"
+      ],
+      "tags": [
+        "arcade-car",
+        "avoid-games",
+        "endless-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Steer through an endless neon highway chase while police vehicles, heavier pursuers, and obstacles narrow your route.",
+        "aboutTitle": "Keep an open route as the pursuit builds",
+        "about": [
+          "Chase Rush puts you on a neon highway with pursuers pressing from behind. Move the cursor to change direction and look for an opening beyond the nearest obstacle. A vehicle can close the apparent gap if you commit while it is moving across.",
+          "Different pursuers change what you need to watch. A bulky vehicle takes up more road than a car, and later threats can arrive from more directions. Make your first move early so a second direction change remains possible.",
+          "The longer you stay out, the more important smooth steering becomes. A sweeping turn can take you across several hazards when a smaller move would clear the nearest one. Use a quiet stretch to get back to a position with room on both sides."
+        ],
+        "steps": [
+          [
+            "Steer with the cursor",
+            "Slide the mouse cursor across the game screen to guide the car."
+          ],
+          [
+            "Read the road farther ahead",
+            "Check where traffic is headed after the first opening."
+          ],
+          [
+            "Make a small correction near traffic",
+            "Move just far enough to clear the obstacle and watch the next threat."
+          ],
+          [
+            "Reset your position after an escape",
+            "Pick a stretch that leaves room to steer again when the chase catches up."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I steer?",
+            "Move the cursor across the game screen."
+          ],
+          [
+            "Does the chase have a finish line?",
+            "The highway challenge is endless and the goal is to survive longer."
+          ],
+          [
+            "Why avoid a wide turn in traffic?",
+            "A wide turn can carry you into the next vehicle before you have room to correct."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "swipe-ball",
+    "localizedOn": "2026-11-26",
+    "title": "Swipe Ball",
+    "category": {
+      "en": "Ball bounce aiming puzzle"
+    },
+    "source": "https://1games.io/swipe-ball",
+    "url": "https://swipe-ball.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/swipe-ball-icon.png",
+      "artwork": "/assets/1games/swipe-ball-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/swipe-ball-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/swipe-ball/swipe-ball.png",
+        "artwork": "https://1games.io/data/image/game/swipe-ball/banner/swipe-ball-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/swipe-ball/swipe-ball.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-09-29",
+      "genres": [
+        "puzzle",
+        "arcade"
+      ],
+      "tags": [
+        "throwing-games",
+        "timing-games",
+        "mind-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Drag to toss a rubber ball into a cup, using walls and platforms to angle the bounce across each level.",
+        "aboutTitle": "Work backward from the cup to the first bounce",
+        "about": [
+          "Swipe Ball asks you to land a bouncy ball inside a cup. When the cup has no direct approach, look for a wall or platform that could redirect the ball. Plan where it should hit that surface before choosing the drag.",
+          "Angle and strength affect different parts of a shot. If the ball bounces in the right direction but falls short, keep the angle and change the length of the drag. If it passes beside the cup, start by changing the direction.",
+          "New layouts add obstacles and tighter approaches. Watch the full path of the first attempt, including the bounce after the one you planned. A shot may reach the right height and still need a softer landing to stay inside the cup."
+        ],
+        "steps": [
+          [
+            "Locate the cup",
+            "Check whether you can go straight to it or need a bounce."
+          ],
+          [
+            "Aim your throw",
+            "Drag with the mouse to choose the direction and strength, then release."
+          ],
+          [
+            "Compare the first bounce",
+            "See where the ball hits a surface and whether it heads toward the cup."
+          ],
+          [
+            "Adjust one part of the shot",
+            "Change the angle or the drag length before trying again."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I throw?",
+            "Drag with the mouse and release to launch the ball."
+          ],
+          [
+            "What if a wall blocks a direct toss?",
+            "Try to use a surface to redirect the bounce into the cup."
+          ],
+          [
+            "How can I fix a shot that overshoots?",
+            "Keep the angle if it was right and try a shorter drag."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "mr-flip",
+    "localizedOn": "2026-11-26",
+    "title": "Mr Flip",
+    "category": {
+      "en": "Physics stunt flipping"
+    },
+    "source": "https://1games.io/mr-flip",
+    "url": "https://mr-flip.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/mr-flip-icon.png",
+      "artwork": "/assets/1games/mr-flip-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/mr-flip-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/mr-flip/mr-flip.png",
+        "artwork": "https://1games.io/data/image/game/mr-flip/banner/mr-flip-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/mr-flip/mr-flip.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-09-26",
+      "genres": [
+        "arcade",
+        "sports"
+      ],
+      "tags": [
+        "flip-games",
+        "stunt-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Adjust your takeoff, rotate in midair, and release in time to land flips on rooftops and other stunt courses.",
+        "aboutTitle": "Leave enough time to square up for the landing",
+        "about": [
+          "Mr Flip is built around three decisions: how hard to jump, when to rotate, and when to stop the flip. Read the height and distance to the landing before you launch. A jump that works from a court may carry you too far from a rooftop.",
+          "Hold the mouse button to set the takeoff, then release to jump. Hold again in the air to rotate. When the landing is close, release early enough for the character to come down in a stable position.",
+          "Combos earn points, but a second rotation changes how much room you have to finish. Practise a single clean flip on an unfamiliar course first. Arcade mode gives you more challenges for comparing scores once the landing timing feels familiar."
+        ],
+        "steps": [
+          [
+            "Set up the jump",
+            "Hold the mouse button to adjust takeoff strength."
+          ],
+          [
+            "Release to launch",
+            "Check the landing before you let go."
+          ],
+          [
+            "Rotate in the air",
+            "Hold the mouse button again to control the flip."
+          ],
+          [
+            "End the rotation for the landing",
+            "Release again once the character has time to straighten up."
+          ]
+        ],
+        "faq": [
+          [
+            "Why do I land awkwardly after a full flip?",
+            "The next rotation may already be starting. Release earlier so the feet are ready for the landing."
+          ],
+          [
+            "Can I use the same jump on every course?",
+            "Adjust strength to the distance and height of the next landing."
+          ],
+          [
+            "Where can I chase a higher score?",
+            "Arcade mode provides additional score-focused challenges."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "steel-legion",
+    "localizedOn": "2026-11-26",
+    "title": "Steel Legion",
+    "category": {
+      "en": "Hill-based tank action"
+    },
+    "source": "https://1games.io/steel-legion",
+    "url": "https://steel-legion.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/steel-legion-icon.png",
+      "artwork": "/assets/1games/steel-legion-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/steel-legion-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/steel-legion/steel-legion.png",
+        "artwork": "https://1games.io/data/image/game/steel-legion/banner/steel-legion-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/steel-legion/steel-legion.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-09-24",
+      "genres": [
+        "action",
+        "strategy"
+      ],
+      "tags": [
+        "vehicles-games",
+        "combat-games",
+        "tactical-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Drive tanks over rugged slopes and time shots as the vehicle changes angle. Try different tanks for different terrain.",
+        "aboutTitle": "Use the shape of the hill to set up a shot",
+        "about": [
+          "Steel Legion places tanks on uneven ground where driving changes both position and angle. Watch how the vehicle pitches when approaching a ridge. Firing as it tilts can send the shot along a different path than you planned.",
+          "Use short movements to find a steadier place before shooting. A ridge can open a line to the next opponent, but driving farther than necessary may bring the tank onto another steep slope. Move only as far as the shot requires.",
+          "Different tanks offer different abilities and handling. Learn their movement on gentle ground before trying a rough course. If an attempt goes badly, check whether the issue was lining up the shot or reaching a good position at all."
+        ],
+        "steps": [
+          [
+            "Move the tank",
+            "Use A and D or the arrow keys to drive across the terrain."
+          ],
+          [
+            "Watch the vehicle tilt",
+            "Check what happens to the tank as it reaches the crest of a hill."
+          ],
+          [
+            "Shoot when the tank lines up",
+            "Press Space after the vehicle reaches the angle you want."
+          ],
+          [
+            "Try a different tank",
+            "Compare its handling and abilities on a section you know."
+          ]
+        ],
+        "faq": [
+          [
+            "Which key fires?",
+            "Press Space to shoot."
+          ],
+          [
+            "Why did the shot go wide on a hill?",
+            "The terrain changes the tank’s angle. Try shifting to a steadier section before firing."
+          ],
+          [
+            "Do tanks all handle alike?",
+            "Different tanks offer different abilities and respond differently to rough ground."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "deer-adventure",
+    "localizedOn": "2026-11-26",
+    "title": "Deer Adventure",
+    "category": {
+      "en": "Open-world animal adventure"
+    },
+    "source": "https://1games.io/deer-adventure",
+    "url": "https://deer-adventure.1games.io/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/deer-adventure-icon.png",
+      "artwork": "/assets/1games/deer-adventure-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/deer-adventure-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/deer-adventure/deer-advanture.png",
+        "artwork": "https://1games.io/data/image/game/deer-adventure/banner/deer-advanture-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/deer-adventure/deer-adventure-preview.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-08-15",
+      "genres": [
+        "adventure",
+        "simulation"
+      ],
+      "tags": [
+        "sandbox-games",
+        "quests-games",
+        "jumping-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Explore a town as a deer, try jumps and sprints, and use a stretchy neck to interact with the cartoon world.",
+        "aboutTitle": "Explore how the deer moves through the town",
+        "about": [
+          "Deer Adventure lets you roam streets, parks, and buildings as a deer. Pick one small area and see which objects or characters respond to you. The mouse helps you get a better view before you move into a busy part of town.",
+          "Jumping, dashing, and stretching the neck give the deer several ways to reach things. Test one input at a time near a simple obstacle so you can see what it does. Use a short dash when you already have room to stop.",
+          "The town responds when you interact with its inhabitants or cause a commotion. Explore nearby paths and buildings before moving into another district. The same set of controls can feel different on a quiet lawn and in crowded streets."
+        ],
+        "steps": [
+          [
+            "Walk through town",
+            "Use WASD to move and the mouse to look around."
+          ],
+          [
+            "Try a short jump",
+            "Press Space to jump over an obstruction."
+          ],
+          [
+            "Stretch the deer’s neck",
+            "Hold Q or the right mouse button to extend its reach."
+          ],
+          [
+            "Dash into open space",
+            "Hold Shift when you have a clear path ahead."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I look around?",
+            "Move the mouse to control the camera."
+          ],
+          [
+            "What stretches the neck?",
+            "Hold Q or the right mouse button."
+          ],
+          [
+            "Do I have to rush through the town?",
+            "You can explore freely and try interactions in different areas."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "subway-moto",
+    "localizedOn": "2026-11-26",
+    "title": "Subway Moto",
+    "category": {
+      "en": "Rail obstacle motorcycle runner"
+    },
+    "source": "https://1games.io/subway-moto",
+    "url": "https://subway-moto.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/subway-moto-icon.png",
+      "artwork": "/assets/1games/subway-moto-icon.png",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "preview": "/assets/1games/subway-moto-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/subway-moto/subway-moto.png",
+        "artwork": "https://1games.io/data/image/game/subway-moto/subway-moto.png",
+        "preview": "https://cdn.1games.io/file/game/subway-moto/subway-moto.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-09-19",
+      "genres": [
+        "driving",
+        "arcade"
+      ],
+      "tags": [
+        "bike-racing-games",
+        "endless-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Guide a motorcycle along curving rails, steer around hazards, and jump broken sections as the ride gets faster.",
+        "aboutTitle": "Pick your rail before the track breaks",
+        "about": [
+          "Subway Moto keeps the motorcycle moving through mountain rails and tunnels. Watch two sections ahead when you can. You may need to change direction after a curve and before you have time to slow down.",
+          "A jump helps over damaged sections when you can also see the landing. Move toward the next clear part of the rail before jumping. A late direction change in the air gives you less room to deal with the next obstacle.",
+          "The farther you ride, the closer the turns and obstructions can appear. Use collected rewards between runs and keep track of the patterns that catch you out. A steady path through several hazards usually adds more distance than chasing a reward into a narrow rail."
+        ],
+        "steps": [
+          [
+            "Look for the next clear rail",
+            "Read the curve and note where tracks are broken."
+          ],
+          [
+            "Steer or jump",
+            "Use the arrow keys or WASD to move and jump."
+          ],
+          [
+            "Line up before clearing a break",
+            "Move to a section with a visible landing before you jump."
+          ],
+          [
+            "Stay steady after landing",
+            "Check the next corner before going after an optional reward."
+          ]
+        ],
+        "faq": [
+          [
+            "Does the bike move automatically?",
+            "Yes. Your inputs help it steer and jump while it moves forward."
+          ],
+          [
+            "When should I jump a broken rail?",
+            "Jump once the clear landing is in reach and your bike is lined up with it."
+          ],
+          [
+            "What changes farther along the route?",
+            "Obstacles and track patterns become harder to react to."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "bounce-up",
+    "localizedOn": "2026-11-26",
+    "title": "Bounce Up",
+    "category": {
+      "en": "One-button platform bouncing"
+    },
+    "source": "https://1games.io/bounce-up",
+    "url": "https://bounce-up.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/bounce-up-icon.png",
+      "artwork": "/assets/1games/bounce-up-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/bounce-up-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bounce-up/bounce-up.png",
+        "artwork": "https://1games.io/data/image/game/bounce-up/banner/bounce-up-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/bounce-up/bounce-up.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-09-17",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "jumping-games",
+        "timing-games",
+        "one-button-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Time a bouncing ball across moving platforms. Use gold surfaces for momentum and aim for red buttons to multiply your score.",
+        "aboutTitle": "Choose a safe landing before aiming for a multiplier",
+        "about": [
+          "Bounce Up asks you to keep a ball moving across shifting platforms. Normal surfaces give you a regular bounce, while gold ones send the ball onward with more momentum. Look ahead to the next platform if your bounce is about to become faster.",
+          "Red buttons can raise your score when you land precisely. Aim for one when the platform is far enough within reach to make a correction. A regular landing can be the better choice if going for the button would leave no room for error.",
+          "Diamonds unlock visual designs for the ball, and difficulty settings let you practise at a different pace. Focus on keeping several landings together. Then add button attempts to the platform sequences you can already reach."
+        ],
+        "steps": [
+          [
+            "Watch the next platform",
+            "Check where it will be when the ball reaches it."
+          ],
+          [
+            "Click to bounce",
+            "Time the click so the ball can reach a safe part of the platform."
+          ],
+          [
+            "Prepare for a gold boost",
+            "Look for the following landing before bouncing off a gold surface."
+          ],
+          [
+            "Aim for a red button",
+            "Go for the multiplier when the platform gives you room to land precisely."
+          ]
+        ],
+        "faq": [
+          [
+            "What do gold platforms do?",
+            "They boost the ball’s momentum."
+          ],
+          [
+            "How do red buttons help?",
+            "A precise landing on a red button can multiply the score."
+          ],
+          [
+            "What are diamonds for?",
+            "Use them to unlock different ball skins."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "escape-raid",
+    "localizedOn": "2026-11-26",
+    "title": "Escape Raid",
+    "category": {
+      "en": "Pixel desert driving chase"
+    },
+    "source": "https://1games.io/escape-raid",
+    "url": "https://escape-raid.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/escape-raid-icon.png",
+      "artwork": "/assets/1games/escape-raid-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/escape-raid-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/escape-raid/escape-raid.png",
+        "artwork": "https://1games.io/data/image/game//banner/escape-raid-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/escape-raid/escape-raid.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-09-16",
+      "genres": [
+        "driving",
+        "arcade"
+      ],
+      "tags": [
+        "arcade-car",
+        "avoid-games",
+        "fast-paced-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Steer a pixel car through desert roads, avoid traffic and hazards, and keep moving to extend the chase score.",
+        "aboutTitle": "Look beyond the obstacle you are about to pass",
+        "about": [
+          "Escape Raid begins at a gas station and sends the car straight into a pursuit. Watch both sides as the road bends. Drifting too far to dodge one car can carry you into whatever comes next.",
+          "Keep speed through clear sections and make earlier, smaller turns near a group of vehicles. Check whether you can return to a usable part of the road after passing. A gap is only helpful if it has a way out.",
+          "Score builds as the chase continues at speed. If you repeatedly crash at a sharp bend, steer earlier on the next run and ease the correction once the car is through. A longer run gives you more scoring opportunities than one risky pass."
+        ],
+        "steps": [
+          [
+            "Steer left or right",
+            "Use A and D or the Left and Right arrow keys."
+          ],
+          [
+            "Read the next bend",
+            "Look beyond the current hazard before changing direction."
+          ],
+          [
+            "Hold a clear line at speed",
+            "Use small corrections when traffic is close."
+          ],
+          [
+            "Recover after a difficult turn",
+            "Move back toward a section that gives room for the next steering adjustment."
+          ]
+        ],
+        "faq": [
+          [
+            "Where does the chase start?",
+            "The pursuit begins when you leave the gas station."
+          ],
+          [
+            "How are points built up?",
+            "Keep moving and avoid crashes to extend the run and add points."
+          ],
+          [
+            "Which keys steer?",
+            "Use A and D or the left and right arrow keys."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "flamy-dash",
+    "localizedOn": "2026-11-26",
+    "title": "Flamy Dash",
+    "category": {
+      "en": "One-button rope swinging"
+    },
+    "source": "https://1games.io/flamy-dash",
+    "url": "https://flamy-dash.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/flamy-dash-icon.png",
+      "artwork": "/assets/1games/flamy-dash-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/flamy-dash-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/flamy-dash/flamy-dash.png",
+        "artwork": "https://1games.io/data/image/game//banner/flamy-dash-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/flamy-dash/flamy-dash.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2025-09-15",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "timing-games",
+        "one-button-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Swing a glowing fireball through a cave, release the rope for speed, and choose an arc that clears the next edge or hoop.",
+        "aboutTitle": "Release the rope with the next opening in view",
+        "about": [
+          "Flamy Dash keeps the fireball moving through a cave of narrow openings and sharp edges. A click hooks a rope to the ceiling. Holding the button lengthens the swing, and releasing it sends the ball onward from its current angle.",
+          "Read the ceiling and the floor before staying attached for a long arc. A long swing can add speed yet also put the ball too low or too high for the next opening. Release earlier when the passage narrows.",
+          "Look past a hoop before deciding to aim for it. Once you leave the rope, check where the next attachment can happen. Try the same sequence again with one release timed differently if a particular corner stops your run."
+        ],
+        "steps": [
+          [
+            "Attach to the ceiling",
+            "Click to hook the rope."
+          ],
+          [
+            "Extend the arc if there is space",
+            "Hold the button and watch how far the ball moves."
+          ],
+          [
+            "Release toward an opening",
+            "Let go when the ball is following the line you want."
+          ],
+          [
+            "Plan the next hook",
+            "Look for the next clear path before attaching again."
+          ]
+        ],
+        "faq": [
+          [
+            "What happens if I hold longer?",
+            "The swing continues, changing the ball’s momentum and the angle at release."
+          ],
+          [
+            "How do I launch forward?",
+            "Release the mouse button while swinging."
+          ],
+          [
+            "Why do I hit a ledge after releasing?",
+            "Try releasing earlier or later so the ball leaves the rope at a better angle."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "speed-legends",
+    "localizedOn": "2026-11-26",
+    "title": "Speed Legends",
+    "category": {
+      "en": "Physics sprint racing"
+    },
+    "source": "https://1games.io/speed-legends",
+    "url": "https://1games.io/game/speed-legends/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/speed-legends-icon.png",
+      "artwork": "/assets/1games/speed-legends-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/speed-legends-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/speed-legends/speed-legends.png",
+        "artwork": "https://1games.io/data/image/game/speed-legends/banner/speed-legends-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/speed-legends/speed-legends.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-05-15",
+      "genres": [
+        "sports",
+        "arcade"
+      ],
+      "tags": [
+        "race-games",
+        "timing-games",
+        "competitive-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Move each leg separately, adjust the runner’s lean, and build a steady stride for flat races and hurdles.",
+        "aboutTitle": "Build a repeatable rhythm with both legs",
+        "about": [
+          "Speed Legends assigns a separate control to each leg. Alternate the inputs and see how the runner responds. Pressing faster can break your rhythm if one leg has not finished its stride.",
+          "Lean changes how the runner carries momentum. Lean forward on a clear section once the stride is stable, and use the other direction when you need to recover balance. Hurdles make the rhythm harder to maintain because you have to prepare before reaching them.",
+          "Training is a place to compare a quicker cadence with a cleaner one. Once you can repeat a start, try timed or multiplayer races. A replay can help identify where an uneven step first slowed the runner."
+        ],
+        "steps": [
+          [
+            "Move the left leg",
+            "Press Left Arrow for the left leg."
+          ],
+          [
+            "Alternate with the right leg",
+            "Press Right Arrow and practise keeping both legs in a steady pattern."
+          ],
+          [
+            "Adjust the lean",
+            "Use Up Arrow to lean forward and Down Arrow to lean backward."
+          ],
+          [
+            "Practise the approach to a hurdle",
+            "Stabilise the stride a few steps before reaching it."
+          ]
+        ],
+        "faq": [
+          [
+            "Why can pressing faster make me slower?",
+            "The movements can get out of rhythm. Try a steady alternation until the stride is stable."
+          ],
+          [
+            "Which controls change posture?",
+            "Up Arrow leans forward and Down Arrow leans backward."
+          ],
+          [
+            "Can I practise alone?",
+            "Yes. Training lets you learn the stride before multiplayer races."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "chicken-flip",
+    "localizedOn": "2026-11-26",
+    "title": "Chicken Flip",
+    "category": {
+      "en": "Platform hopping and flips"
+    },
+    "source": "https://1games.io/chicken-flip",
+    "url": "https://chicken-flip.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/chicken-flip-icon.png",
+      "artwork": "/assets/1games/chicken-flip-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/chicken-flip-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/chicken-flip/chicken-flip.png",
+        "artwork": "https://1games.io/data/image/game/chicken-flip/banner/chicken-flip_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/chicken-flip/chicken-flip.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-09-04",
+      "genres": [
+        "arcade",
+        "adventure"
+      ],
+      "tags": [
+        "flip-games",
+        "jumping-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Hop a chicken across gaps and obstacles, then use a midair flip to correct the landing in campaign or endless play.",
+        "aboutTitle": "Use the flip as a correction during the jump",
+        "about": [
+          "Chicken Flip puts a hopping chicken on courses with gaps and uneven landings. Use the right side of the screen to build momentum. Before committing to a long leap, look at where the chicken can come down and how soon it will have to jump again.",
+          "Clicking the left side adds a somersault that can change the trajectory. Try it when a jump needs correction and there is still time for the movement to finish. If the landing already looks good, save the input for a later gap.",
+          "Campaign lets you learn obstacles one course at a time, while the other mode tests how long you can maintain the pace. New chickens unlock as you play. On a difficult level, repeat the same opening so you can focus on the jump you need to change."
+        ],
+        "steps": [
+          [
+            "Gain momentum",
+            "Click the right side of the screen to move into a jump."
+          ],
+          [
+            "Read the landing distance",
+            "Look for the next solid platform before taking off."
+          ],
+          [
+            "Correct with a flip",
+            "Click the left side when you need a somersault in midair."
+          ],
+          [
+            "Practise the difficult gap",
+            "Try jumping from a different position before changing several inputs at once."
+          ]
+        ],
+        "faq": [
+          [
+            "Which side makes the chicken flip?",
+            "Click the left side of the screen."
+          ],
+          [
+            "What does clicking the right side do?",
+            "It builds momentum for jumping across the course."
+          ],
+          [
+            "How can I learn the obstacles?",
+            "Use campaign levels to practise individual gaps before attempting a longer run."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "escape-bear",
+    "localizedOn": "2026-11-26",
+    "title": "Escape Bear",
+    "category": {
+      "en": "Cartoon kingdom adventure"
+    },
+    "source": "https://1games.io/escape-bear",
+    "url": "https://escape-bear.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/escape-bear-icon.png",
+      "artwork": "/assets/1games/escape-bear-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/escape-bear-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/escape-bear/escape-bear.png",
+        "artwork": "https://1games.io/data/image/game/escape-bear/banner/escape-bear_1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/escape-bear/escape-bear.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-09-04",
+      "genres": [
+        "adventure",
+        "puzzle"
+      ],
+      "tags": [
+        "quests-games",
+        "search-games",
+        "jumping-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Explore a cartoon kingdom affected by purple honey, look for hidden paths, and use jumps to reach new areas.",
+        "aboutTitle": "Explore each region for clues and a route forward",
+        "about": [
+          "Escape Bear is a 3D adventure in a kingdom where purple honey has changed the animals. Travel between forests and other areas to investigate. Look carefully before following the most obvious path, since a clue or route can sit just off the main trail.",
+          "Jumping and climbing help you get through tricky terrain. Move the camera before a jump so you can see whether the other side has room to land. If a route appears to lead nowhere, look at it from another angle before leaving.",
+          "The kingdom has secrets and challenges tucked into different areas. Work through one section at a time and remember landmarks. That makes it easier to return when a new clue points you back toward a place you passed earlier."
+        ],
+        "steps": [
+          [
+            "Explore a region",
+            "Use WASD or the arrow keys to move around the kingdom."
+          ],
+          [
+            "Look for clues",
+            "Move the mouse to look around and interact with the environment."
+          ],
+          [
+            "Get over an obstacle",
+            "Press Space to jump or climb where the terrain allows."
+          ],
+          [
+            "Remember an accessible landmark",
+            "Use a familiar path when returning to look for an overlooked route."
+          ]
+        ],
+        "faq": [
+          [
+            "What is the movement control?",
+            "Use WASD or the arrow keys."
+          ],
+          [
+            "How do I get up uneven terrain?",
+            "Use Space to jump or climb and check the landing first."
+          ],
+          [
+            "Where should I look when progress stalls?",
+            "Check nearby side paths and look for parts of the area that you have not explored."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "stickman-slash",
+    "localizedOn": "2026-11-26",
+    "title": "Stickman Slash",
+    "category": {
+      "en": "Stickman wave combat"
+    },
+    "source": "https://1games.io/stickman-slash",
+    "url": "https://1games.io/game/stickman-slash/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/stickman-slash-icon.png",
+      "artwork": "/assets/1games/stickman-slash-icon.png",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "preview": "/assets/1games/stickman-slash-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/stickman-slash/stickman-slash.png",
+        "artwork": "https://1games.io/data/image/game/stickman-slash/stickman-slash.png",
+        "preview": "https://cdn.1games.io/file/game/stickman-slash/stickman-slash.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-08-29",
+      "genres": [
+        "action",
+        "arcade"
+      ],
+      "tags": [
+        "action-fighting",
+        "horde-survival-games",
+        "combat-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Survive waves of stickman enemies, pick up weapons, and learn how each attack pattern changes your position.",
+        "aboutTitle": "Keep space for the next wave while trying new equipment",
+        "about": [
+          "Stickman Slash uses click-driven movement and attacks against waves of shadow enemies. Look at where a click will move your fighter before committing. Attacking into a group can leave you surrounded when the next enemies reach that spot.",
+          "Weapons change attack patterns. Try a new piece of equipment in a stretch with room to move so you can see its reach. Armor and capes can change how long the fighter lasts when you have to recover from a bad position.",
+          "A longer survival run needs room to adjust as well as quick attacks. After you get an opening, check where the next group is coming from before going after a dropped item. Pick up equipment when your fighter still has a clear route out."
+        ],
+        "steps": [
+          [
+            "Move and attack with clicks",
+            "Click on the game screen to direct your fighter."
+          ],
+          [
+            "Check how close the wave is",
+            "Keep a path out of the group before starting another attack."
+          ],
+          [
+            "Try the equipment you collect",
+            "Learn the reach of a new weapon before using it in a crowd."
+          ],
+          [
+            "Take pickups during an opening",
+            "Move toward a dropped item when you have room to recover afterward."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I control the fighter?",
+            "Click on the screen to move and attack."
+          ],
+          [
+            "Do weapons behave differently?",
+            "Yes. Their attack patterns and reach vary."
+          ],
+          [
+            "Why save space between waves?",
+            "An open side gives you somewhere to move if the next wave arrives while you are picking up equipment."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "hoop-legends",
+    "localizedOn": "2026-11-26",
+    "title": "Hoop Legends",
+    "category": {
+      "en": "Timing-based basketball"
+    },
+    "source": "https://1games.io/hoop-legends",
+    "url": "https://1games.io/game/hoop-legends/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/hoop-legends-icon.png",
+      "artwork": "/assets/1games/hoop-legends-icon.png",
+      "artworkWidth": 413,
+      "artworkHeight": 260,
+      "preview": "/assets/1games/hoop-legends-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/hoop-legends/hoop-legends.png",
+        "artwork": "https://1games.io/data/image/game/hoop-legends/hoop-legends.png",
+        "preview": "https://cdn.1games.io/file/game/hoop-legends/hoop-legends.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-08-29",
+      "genres": [
+        "sports",
+        "arcade"
+      ],
+      "tags": [
+        "timing-games",
+        "competitive-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Time basketball shots with a moving power bar. Try one-on-one matches or see how many baskets you can make before time runs out.",
+        "aboutTitle": "Read the shot meter before moving to the next attempt",
+        "about": [
+          "Hoop Legends uses a moving arrow to show when to take a shot. Watch one pass of the meter while learning its speed. Then click as the arrow crosses the green zone to get a cleaner attempt.",
+          "One-on-one play and time attack put different pressure on the same input. In time attack, a repeatable release can save time over several shots. In a duel, watch the meter rather than rushing because the other player just scored.",
+          "The game offers uniforms to unlock and modes to compare. Use a few attempts from the same situation to work out whether you are consistently early or late. Change the timing slightly once you can recognise the mistake."
+        ],
+        "steps": [
+          [
+            "Choose a mode",
+            "Try an online duel or a time-attack session."
+          ],
+          [
+            "Follow the moving arrow",
+            "Watch its approach to the green area on the power bar."
+          ],
+          [
+            "Click in the green zone",
+            "Take the shot when the arrow reaches the target area."
+          ],
+          [
+            "Adjust after a miss",
+            "Watch whether you clicked early or late before trying again."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I time a shot?",
+            "Click as the arrow lines up with the green section."
+          ],
+          [
+            "What does time attack measure?",
+            "Make as many successful shots as you can within the time limit."
+          ],
+          [
+            "Can I play against someone else?",
+            "Yes. The game includes online one-on-one play."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "kickback-dash",
+    "localizedOn": "2026-11-26",
+    "title": "Kickback Dash",
+    "category": {
+      "en": "Recoil distance arcade"
+    },
+    "source": "https://1games.io/kickback-dash",
+    "url": "https://1games.io/game/kickback-dash/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/kickback-dash-icon.png",
+      "artwork": "/assets/1games/kickback-dash-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/kickback-dash-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/kichback-dash/kickback-dash.png",
+        "artwork": "https://1games.io/data/image/game//banner/kickback-dash-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/kichback-dash/kichback-dash.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2025-08-29",
+      "genres": [
+        "arcade",
+        "clicker"
+      ],
+      "tags": [
+        "timing-games",
+        "one-button-games",
+        "incremental-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Use a cartoon launcher’s recoil to travel through a valley, keep momentum through bounces, and upgrade for longer attempts.",
+        "aboutTitle": "Save a click for the moment you are losing momentum",
+        "about": [
+          "Kickback Dash begins with a cartoon launcher at the bottom of a valley. A click produces recoil that sends it tumbling forward. Follow the rotation and watch how the next bounce changes its direction.",
+          "Click again when the current movement is beginning to slow. Pressing as soon as the last click ends can spend an input before it will add much distance. Try the same opening several times to compare different moments during the bounce.",
+          "Upgrades affect the initial push, the strength of later bursts, and how many shots you can use. A stronger start helps when you barely clear the first obstacle. Extra shots matter when the opening works and you need to keep moving farther down the valley."
+        ],
+        "steps": [
+          [
+            "Start the run",
+            "Click the screen to launch the first dash."
+          ],
+          [
+            "Watch the bounce",
+            "Track whether the launcher is carrying forward or beginning to slow."
+          ],
+          [
+            "Time the next dash",
+            "Click again when the burst can keep it moving along the valley."
+          ],
+          [
+            "Choose an upgrade",
+            "Improve the opening push or the later bursts based on how your run ended."
+          ]
+        ],
+        "faq": [
+          [
+            "What makes the launcher move?",
+            "Each click gives it a recoil-powered dash."
+          ],
+          [
+            "Which upgrade should I try first?",
+            "Try the first-shot upgrade if you lose momentum immediately. Extra shots can help later in the run."
+          ],
+          [
+            "Does clicking immediately always help?",
+            "Watch the bounce first. A later click can carry the run farther when the current movement still has speed."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "lizard-lizard-clicker",
+    "localizedOn": "2026-11-26",
+    "title": "Lizard Lizard Clicker",
+    "category": {
+      "en": "Reptile colony clicker"
+    },
+    "source": "https://1games.io/lizard-lizard-clicker",
+    "url": "https://1games.io/game/lizard-lizard-clicker/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/lizard-lizard-clicker-icon.png",
+      "artwork": "/assets/1games/lizard-lizard-clicker-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/lizard-lizard-clicker-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/lizard-lizard-clicker/lizard-lizard-clicker.png",
+        "artwork": "https://1games.io/data/image/game/lizard-lizard-clicker/banner/lizard-lizard-clicker-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/lizard-lizard-clicker/lizard-lizard-clicker.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-08-29",
+      "genres": [
+        "clicker",
+        "simulation"
+      ],
+      "tags": [
+        "incremental-games",
+        "one-button-games",
+        "grow-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Spawn lizards by clicking, improve each tap, and buy automatic production to grow the colony between bursts of input.",
+        "aboutTitle": "Turn a small batch of lizards into steady production",
+        "about": [
+          "Lizard Lizard Clicker starts with a screen that spawns reptiles whenever you click. Use the first group to reach an upgrade. Compare the price of earning more per click with the price of letting the base spawn lizards automatically.",
+          "Automatic production keeps the total rising between active bursts. Once it improves, check how long it takes to reach the next purchase without clicking. Spend on tap power when you expect to play actively and want each click to contribute more.",
+          "As the colony grows, the game reveals more reptile variations and entries. Try a different balance of active and passive upgrades if progress slows. Compare what each purchase adds instead of buying whichever option happens to be cheapest."
+        ],
+        "steps": [
+          [
+            "Spawn the first lizards",
+            "Click the screen to start raising the total."
+          ],
+          [
+            "Improve active production",
+            "Buy a tap upgrade if each click is adding too little."
+          ],
+          [
+            "Set up automatic spawning",
+            "Invest in passive production to keep the colony growing between clicks."
+          ],
+          [
+            "Track the next purchase",
+            "Compare income gains and prices before choosing another upgrade."
+          ]
+        ],
+        "faq": [
+          [
+            "What does a click do?",
+            "It adds lizards to the colony."
+          ],
+          [
+            "Can the total grow without repeated clicks?",
+            "Yes. Automatic spawning upgrades add lizards on their own."
+          ],
+          [
+            "How do I choose between upgrades?",
+            "Use tap power for active play and automatic spawning for growth between clicks."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "curve-rush-2",
+    "localizedOn": "2026-11-26",
+    "title": "Curve Rush 2",
+    "category": {
+      "en": "Physics slope momentum runner"
+    },
+    "source": "https://1games.io/curve-rush-2",
+    "url": "https://1games.io/game/curve-rush-2/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/curve-rush-2-icon.png",
+      "artwork": "/assets/1games/curve-rush-2-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/curve-rush-2-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/curve-rush-2/curve-rush-2.png",
+        "artwork": "https://1games.io/data/image/game/curve-rush-2/banner/curve-rush-2-1200x1200-.png",
+        "preview": "https://cdn.1games.io/file/game/curve-rush-2/curve-rush-2.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-08-14",
+      "genres": [
+        "arcade",
+        "driving"
+      ],
+      "tags": [
+        "timing-games",
+        "speed-games",
+        "jumping-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Hold and release to roll a ball across slopes and jumps. Learn where to build speed and where to prepare for a clean landing.",
+        "aboutTitle": "Keep momentum through changing slopes",
+        "about": [
+          "Curve Rush 2 sends the ball across hills that change from smooth inclines to sudden drops. Hold the left mouse button to build speed on a slope. Look for the end of the hill before you release, since your takeoff changes with the shape of the ground.",
+          "A jump carries momentum into the next section. Watch for the slope that will be under the ball when you land. If you keep arriving on an uphill face, change the release timing on the preceding hill and compare the result.",
+          "The track can change pace quickly, so make one decision for the current hill and another for the landing. A clean transition between two short hills can give you more control than a large jump into a section you cannot yet read."
+        ],
+        "steps": [
+          [
+            "Build speed on the slope",
+            "Hold the left mouse button when the ground gives you room to accelerate."
+          ],
+          [
+            "Release near takeoff",
+            "Let go before you need to prepare the next jump."
+          ],
+          [
+            "Look for a usable landing",
+            "Check the angle of the next hill before the ball reaches it."
+          ],
+          [
+            "Keep the next slope ready",
+            "Start building momentum again after the ball settles onto the descent."
+          ]
+        ],
+        "faq": [
+          [
+            "What does holding the mouse button do?",
+            "It builds speed and momentum on the slopes."
+          ],
+          [
+            "Why release before a jump?",
+            "Releasing stops the active push so you can carry momentum into the next part of the track."
+          ],
+          [
+            "How do I fix a landing that loses speed?",
+            "Try releasing at a different point on the previous hill so the ball reaches a better slope angle."
           ]
         ]
       }
