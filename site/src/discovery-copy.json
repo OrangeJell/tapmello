@@ -1,0 +1,98 @@
+{
+  "home": {
+    "en": "Open a game to see its controls and rules below the player. Use Played games to find it again in this browser.",
+    "hi": "किसी गेम का पेज खोलें। खेलने का तरीका और नियम प्लेयर के नीचे हैं। बाद में उसी गेम को इस ब्राउज़र की खेले गए गेम वाली सूची में ढूँढ सकते हैं।"
+  },
+  "all": {
+    "en": "The collections group games by what you do in them. Pick Puzzle if you want time to plan a move, or try Arcade for short runs where timing matters.",
+    "hi": "श्रेणियों में एक जैसे खेलने वाले गेम साथ मिलेंगे। चाल सोचकर खेलना है तो पहेलियाँ देखें। कम समय के खेल में सही वक्त पर बटन दबाना पसंद है तो आर्केड खोलें।"
+  },
+  "action": {
+    "en": "Choose between quick arena bouts and scrolling stages. Some games give you a whole screen to move around in, while others keep you advancing through waves.",
+    "hi": "अखाड़े में छोटा मुकाबला खेलें या आगे बढ़ते हुए दुश्मनों की लहरें पार करें। कुछ गेम में पूरे मैदान में घूम सकते हैं।"
+  },
+  "adventure": {
+    "en": "Follow quests, explore strange places or cross obstacle courses. If you keep reaching a dead end, look for a side path or a character you haven’t spoken to yet.",
+    "hi": "मिशन पूरे करें, अनजानी जगहें देखें या बाधाओं वाला रास्ता पार करें। रास्ता बंद मिले तो बगल की राह या किसी छूटे किरदार को देखें।"
+  },
+  "arcade": {
+    "en": "Roll down a track, dodge obstacles or try to beat your last score. If a run ends at the same spot twice, change the timing of one move and see what happens.",
+    "hi": "ढलान पर गेंद चलाएँ, रुकावटों से बचें या पिछला स्कोर पार करें। उसी जगह बार-बार हारें तो वहाँ एक चाल पहले या बाद में करके देखें।"
+  },
+  "board": {
+    "en": "Plan a turn in chess, checkers or backgammon, or start with Mahjong tiles. Read the game’s rules first. A Mahjong hand-building exercise and a tile-pair puzzle use familiar tiles in different ways.",
+    "hi": "शतरंज, चेकर्स या बैकगैमौन की चाल सोचें, या माहजोंग की टाइलें देखें। माहजोंग में हाथ बनाना और बोर्ड से जोड़ी हटाना अलग खेल हैं।"
+  },
+  "card": {
+    "en": "Try a solitaire layout or a different card game. In solitaire, look at which move exposes a face-down card before sending the first available card to a foundation.",
+    "hi": "सॉलिटेयर का कोई बोर्ड या दूसरा ताश का गेम चुनें। सॉलिटेयर में पहले देखें कि किस चाल से उलटा पड़ा पत्ता खुलेगा।"
+  },
+  "clicker": {
+    "en": "Clicks pay for the first upgrade in many of these games. Once income starts arriving on its own, compare what each purchase adds before spending all you saved.",
+    "hi": "इनमें कई गेम में पहले अपग्रेड के पैसे क्लिक से मिलते हैं। अपने आप कमाई शुरू हो जाए तो खरीदने से पहले देखें कि किस अपग्रेड से कितनी कमाई बढ़ेगी।"
+  },
+  "driving": {
+    "en": "Take a bike through traffic, drift around a corner or work a vehicle over rough ground. Some tracks reward speed. On others, the important choice is when to slow down.",
+    "hi": "बाइक को ट्रैफ़िक में निकालें, मोड़ पर ड्रिफ़्ट करें या पथरीले रास्ते पर गाड़ी सँभालें। कहीं रफ़्तार काम आएगी, कहीं समय पर ब्रेक लगाना।"
+  },
+  "io": {
+    "en": "Enter an arena where collecting items can make you bigger. Watch the space between opponents before following a cluster of pickups, especially while you are small.",
+    "hi": "अखाड़े में चीज़ें इकट्ठी करके अपना आकार बढ़ाएँ। अभी छोटे हैं तो चीज़ों की कतार के पीछे जाने से पहले विरोधियों के बीच की जगह देखें।"
+  },
+  "puzzle": {
+    "en": "Sort colours, connect tiles or work out which piece frees the board. When two moves look possible, try tracing what each would leave open on the next turn.",
+    "hi": "रंग छाँटें, टाइलें जोड़ें या ऐसा टुकड़ा चुनें जिससे बोर्ड पर जगह खुले। दो चालें दिखें तो देखें कि दोनों के बाद आगे क्या कर पाएँगे।"
+  },
+  "shooting": {
+    "en": "Pick between aiming challenges, arcade runs and arenas. The first stage is a good place to check whether the game expects you to aim while moving or lets you line up each shot.",
+    "hi": "निशाना लगाने की चुनौती, आर्केड या अखाड़ा चुनें। पहले स्तर में देखें कि निशाना चलते हुए लगाना है या हर बार रुककर जमा सकते हैं।"
+  },
+  "simulation": {
+    "en": "Run a shop, build something or try out a physics sandbox. Check what each game lets you manage or change before choosing a longer session.",
+    "hi": "दुकान चलाएँ, कुछ बनाएँ या सैंडबॉक्स में चीज़ें आज़माएँ। लंबा खेलने से पहले देखें कि हर गेम में आप क्या चला या बदल सकते हैं।"
+  },
+  "sports": {
+    "en": "Play basketball, line up a kick or test how far one swing can send the ball. Choose a match if you want an opponent, or a distance challenge to practise one move.",
+    "hi": "बास्केटबॉल खेलें, किक साधें या देखें कि एक स्विंग में गेंद कितनी दूर जाती है। सामने खिलाड़ी चाहिए तो मैच चुनें। एक ही चाल सुधारनी हो तो दूरी की चुनौती लें।"
+  },
+  "strategy": {
+    "en": "Set up defenses or think through turns on a board. Before spending a limited resource, check what it lets you do when the next wave or opposing turn begins.",
+    "hi": "बचाव की तैयारी करें या बोर्ड पर अगली बारी सोचें। संसाधन कम हों तो खर्च करने से पहले देखें कि अगली लहर या सामने वाले की चाल के बाद क्या कर पाएँगे।"
+  },
+  "word": {
+    "en": "Find words in a grid, link words by association or practise typing under pressure. Check the game’s language before choosing a word puzzle.",
+    "hi": "ग्रिड में शब्द खोजें, आपस में जुड़े शब्द मिलाएँ या समय के साथ टाइपिंग करें। पहेली चुनने से पहले देखें कि शब्द किस भाषा में हैं।"
+  },
+  "color-sorting": {
+    "en": "Look ahead at what a move frees up. In Clock Out! that can mean bringing the next bus to the stop. In Glass Twist it can mean opening a box for screws already waiting in the tray.",
+    "hi": "सोचें कि चाल से क्या खुलेगा। Clock Out! में अगली बस सामने आ सकती है। Glass Twist में ट्रे में रखे पेंचों के लिए नया डिब्बा खुल सकता है।"
+  },
+  "sorting": {
+    "en": "A spare space is often what keeps a sorting puzzle moving. Check where a piece can go after you take it out, especially when more colours are hidden underneath.",
+    "hi": "छँटाई में एक खाली जगह अगली चाल बचा सकती है। कोई चीज़ निकालने से पहले देखें कि उसे कहाँ रखेंगे, ख़ासकर जब उसके नीचे दूसरा रंग छिपा हो।"
+  },
+  "bus": {
+    "en": "Some bus puzzles match riders to vehicles at the stop. Others ask you to clear a route out of the lot first. Check where your first group will board before making room for the next one.",
+    "hi": "कुछ बस पहेलियों में यात्रियों को स्टॉप की बस से मिलाना है। कुछ में पहले पार्किंग से रास्ता खोलना पड़ता है। अगला समूह भेजने से पहले देखें कि पहला कहाँ चढ़ेगा।"
+  },
+  "screw-puzzle": {
+    "en": "An exposed screw can release a plate or reveal the next screw you need. In Glass Twist, look at the open boxes before you use one of the tray’s temporary slots.",
+    "hi": "खुला पेंच निकालने से पट्टी छूट सकती है या अगला पेंच दिख सकता है। Glass Twist में ट्रे की जगह लेने से पहले खुले डिब्बों के रंग देखें।"
+  },
+  "tiles-games": {
+    "en": "Check why a tile is available. In a stacked solitaire layout it may need a free side. In a connection puzzle the route between the two tiles matters.",
+    "hi": "पहले देखें कि कोई टाइल उठ क्यों सकती है। ढेर वाले सॉलिटेयर में उसकी एक बगल खुली चाहिए। जोड़ने की पहेली में दोनों टाइलों के बीच का रास्ता देखें।"
+  },
+  "mahjong-solitaire-online": {
+    "en": "Clear the layout by matching exposed tiles. If you can choose between two pairs, start with the one that frees the edge of a stack or opens access to a tile underneath.",
+    "hi": "खुली टाइलों की जोड़ी हटाकर बोर्ड खाली करें। दो जोड़ियाँ मिलें तो उस जोड़ी से शुरू करें जो किसी ढेर का किनारा खोल दे या नीचे की टाइल दिखा दे।"
+  },
+  "timing-games": {
+    "en": "Find the moment to press, jump or release. Try the same stretch again with one input slightly earlier or later so you can see what changes.",
+    "hi": "दबाने, कूदने या छोड़ने का सही वक्त ढूँढें। उसी हिस्से को फिर खेलें और एक चाल थोड़ी पहले या बाद में करके फ़र्क देखें।"
+  },
+  "rhythm-games": {
+    "en": "Use the song to keep time and the screen to see where the input belongs. When a section keeps catching you out, listen for the note just before it.",
+    "hi": "ताल के लिए गाना सुनें और दबाने की जगह के लिए स्क्रीन देखें। किसी हिस्से में बार-बार गलती हो तो उससे ठीक पहले की आवाज़ पहचानें।"
+  }
+}

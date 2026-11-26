@@ -213,10 +213,12 @@ export function renderMarble(lang, sharedOnly){
      'Clock Out! is a bus sorting puzzle about getting nine coworkers at a time home. Tap a front-row office to send them onto the loop. Riders board when they pass a matching shuttle at the front of one of the four queues. A shuttle leaves with three riders of its colour, then the next bus in that lane pulls up.',
      'Before opening another office, count how many of its nine riders would have to wait. If the red shuttle you need is behind a blue one with two riders aboard, look for a blue rider. Filling that last seat brings red to the stop for the next three red riders.',
      'Level 1 gives you six single-colour offices and shuttles ready for all three colours. Later, a mixed office sends six riders of one colour and three of another. Question-mark offices reveal their colours as soon as they reach the front row. With just three spaces left, a mixed office can still work if its first riders board in time to make room for the rest.',
+     'When two colours look similar, compare the animal faces on the office and the buses at the stops. For a mixed office, check both faces before tapping. A match for one group still leaves the other group looking for a seat.',
    ], [
      'काम की पारी ख़त्म हुई और हर दफ़्तर से नौ साथी साथ बाहर आते हैं। एक बस अपने रंग के तीन यात्री लेती है। एक ही रंग का पूरा समूह तीन बसों से घर जा सकता है, बशर्ते उसके पहुँचने पर सही रंग आगे हो।',
      'दफ़्तर खोलने से पहले चारों कतारों की पहली बसें देखें। मान लें एक कतार में लाल बस नीली के पीछे है। लाल यात्री तब तक चक्कर लगाएँगे जब तक तीन नीले यात्री आगे वाली बस भरकर उसे रवाना न करें। अगला समूह भेजने से पहले देखें कि इंतज़ार की जगह बची है या नहीं।',
      'पहले स्तर में दफ़्तरों का एक-एक रंग है और उनकी बसें तैयार हैं। आगे दो रंग वाले और सवाल के निशान वाले दफ़्तर मिलते हैं। पथ पर सिर्फ़ तीन जगह हों, तब भी मिला-जुला दफ़्तर मदद कर सकता है अगर पहले जाने वाले यात्री चढ़कर बाकियों के लिए जगह बना दें।',
+     'दो रंग एक जैसे लगें तो दफ़्तर और सामने की बसों पर बने जानवरों के चेहरे मिलाएँ। मिले-जुले दफ़्तर में दोनों चेहरे देखें। एक समूह चढ़ सकता है, फिर भी दूसरे को जगह चाहिए।',
    ]),
    genres: copy(lang, ['Puzzle', 'Colour sorting'], ['पहेली', 'रंग छाँटना']),
    steps: [

@@ -46,7 +46,10 @@ async page => {
   }
 
   const partner = '/nuts-puzzle-sort-by-color';
+  const localizedGame = '/lift-off';
   await page.setViewportSize({ width: 390, height: 844 });
+  await visit(localizedGame);
+  const originalIntro = await page.locator('.detail-about p').first().textContent();
   await visit(partner);
   const pickerCodes = await page.locator('.language-picker a').evaluateAll(links => links.map(link => link.hreflang).sort());
   assert(JSON.stringify(pickerCodes) === JSON.stringify(supported), 'The site picker lists the six supported locales');
@@ -68,6 +71,25 @@ async page => {
     assert(await page.locator('html').getAttribute('lang') === (code === 'en' ? 'en-IN' : code), `Wrong page language: ${code}`);
     assert(code === 'en' || await page.locator('.detail-about p').first().textContent() !== baseline, `Untranslated partner details: ${code}`);
     await fits(`Partner detail overflows: ${code}`);
+
+    await visit(localizedGame);
+    await page.locator('.language-picker summary').click();
+    const gameLink = page.locator(`.language-picker a[hreflang="${code}"]`);
+    assert(await gameLink.getAttribute('href') === prefix + localizedGame, `New game translation route: ${code}`);
+    await gameLink.click();
+    await page.waitForURL(base + prefix + localizedGame);
+    assert(code === 'en' || await page.locator('.detail-about p').first().textContent() !== originalIntro, `Untranslated Lift Off details: ${code}`);
+
+    await visit(prefix + '/tags/color-sorting/');
+    const related = page.locator('.browse-topics a').first();
+    const category = prefix + '/games/category/puzzle/';
+    assert(await related.getAttribute('href') === category, `Related localized category: ${code}`);
+    if (code === 'hi') assert(await page.locator('.browse-local-tag').textContent() === 'रंगों की छँटाई', 'Hindi tag label');
+    await fits(`Tag page overflows: ${code}`);
+    await related.click();
+    await page.waitForURL(base + category);
+    assert(await page.locator('.browse-intro').isVisible(), `Missing category introduction: ${code}`);
+    await fits(`Category page overflows: ${code}`);
 
     await visit(prefix + '/');
     await fits(`Home overflows: ${code}`);

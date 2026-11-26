@@ -31,10 +31,12 @@ export function renderMahjong(lang, sharedOnly){
      'Learn to read a Mahjong hand one group at a time. Start with the three numbered suits (dots, bamboo and characters) and the winds and dragons. Then look for identical pairs, triplets and sequences of three consecutive numbers in the same suit.',
      'The usual winning hand has four sets and one pair. Set aside the finished groups and see what is missing. If you already have three sets and a pair, and your last two tiles are bamboo 4 and 5, either bamboo 3 or bamboo 6 completes the hand.',
      'Start in Beginner if you are learning tile names or building your first winning hand. Intermediate covers claims (chi, pong and kong) and hands one tile short of winning. Advanced adds patterns such as Seven Pairs and Thirteen Orphans, then takes you through a guided hand. Open an illustrated guide whenever you want to see another example.',
+     'Try a wait where the pair matters. With three finished sets and bamboo 2, 3, 4, 4 left over, bamboo 1 makes a 1–2–3 run and leaves the pair of 4s. Another bamboo 4 also works. Use one in the 2–3–4 run and the other two as the pair.',
    ], [
      'पहले माहजोंग की टाइलें पहचानें। बिंदु, बाँस और अक्षर वाले सूट हैं, साथ में दिशाएँ और ड्रैगन हैं। एक जैसी दो टाइलों की जोड़ी, एक सूट के लगातार तीन अंक और एक जैसी टाइलों के समूह पहचानकर अभ्यास करें।',
      'सामान्य जीत वाले हाथ में चार समूह और एक जोड़ी होती है। कौन-सी टाइल रखें, इससे पहले बने हुए समूह अलग करें। अगर सिर्फ़ बाँस की 4 और 5 अधूरी हैं और बाकी हाथ तैयार है, तो बाँस की 3 या 6 उस क्रम को पूरा कर सकती है।',
      'शुरुआती अभ्यास में टाइलें और जीत का हाथ पहचानते हैं। मध्यम स्तर में ची, पोंग और कॉन्ग सीखते हैं और हाथ पूरा करने वाली टाइलें खोजते हैं। आगे खास पैटर्न और निर्देशों वाला हाथ है। जिस नियम का अभ्यास चाहिए, उसे चुनें और उदाहरण के लिए उसकी चित्र वाली गाइड पढ़ें।',
+     'अब जोड़ी को ध्यान में रखकर देखें। तीन समूह तैयार हैं और बाँस की 2, 3, 4, 4 बची हैं। बाँस की 1 आए तो 1–2–3 और दो 4 की जोड़ी बनती है। एक और 4 आए तो 2–3–4 का क्रम और बची हुई दोनों 4 की जोड़ी बनेगी।',
    ]),
    introLinks: [
      { href: `/play/mahjong/?site=1&lang=${lang}&lesson=beginner`, label: copy(lang, 'Start beginner practice', 'शुरुआती अभ्यास खोलें') },

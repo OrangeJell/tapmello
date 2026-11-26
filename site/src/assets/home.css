@@ -39,6 +39,7 @@
   text-decoration: none;
 }
 .collection-more:hover { background: var(--discovery-hover); }
+.home-catalogue-note { max-width: 66ch; margin: 16px auto 0; color: var(--discovery-muted); line-height: 1.5; text-align: center; }
 .played-games-empty { color: var(--discovery-muted); }
 .played-games-empty a { color: var(--discovery-accent); }
 .collection-heading, .continue-playing[hidden] + .home-games-heading {

@@ -5,6 +5,7 @@ import { renderGameDetail } from './game-stage.mjs';
 import { renderGameTile } from './game-tile.mjs';
 import { levels, origin, screenshot, updated } from './game.mjs';
 import { locales } from './locales.mjs';
+import discoveryCopy from './discovery-copy.json' with { type: 'json' };
 
 const escape = value => String(value).replace(/[&<>"']/g, character => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
@@ -54,6 +55,7 @@ export function renderHome(lang, sharedOnly) {
     <h1 class="home-games-heading">${escape(locales[lang].homeHeading)}</h1>
     ${renderGameCollection(games.slice(0, homeGameLimit), lang, true)}
     <a class="collection-more" href="${gamesPath(lang)}" data-all-games-link>${gamesLabel(lang)}${discoveryIcon('next')}</a>
+    <p class="home-catalogue-note">${escape(discoveryCopy.home[lang])}</p>
 ${remaining.length ? `    <template data-played-catalogue>${remaining.map(game => renderGameTile(game)).join('\n')}</template>` : ''}
   </main>`;
 }
@@ -65,9 +67,26 @@ export function discoveryPages(lang, sharedOnly) {
     language: lang, kind: 'browse', path: route(lang), title: `${heading} | tapmelo`, description,
     alternates: { en: route('en'), hi: route('hi') }, main, updated: discoveryUpdated,
   });
-  const listing = (route, heading, description, items, style = '', back = null, label = heading) => page(route, heading, description, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
+  const categoryLinks = items => {
+    const counts = new Map();
+    for (const game of items) {
+      for (const id of game.categories) counts.set(id, (counts.get(id) ?? 0) + 1);
+    }
+    const categories = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'en')).slice(0, 3);
+    const label = hi ? 'इन गेम की श्रेणियाँ' : 'Categories for these games';
+    return `<nav class="browse-topics" aria-label="${label}"><span>${label}</span><ul>${categories.map(([id]) => `<li><a href="${genrePath(lang, id)}">${genres[id][lang]}</a></li>`).join('')}</ul></nav>`;
+  };
+  const listing = (route, heading, description, items, { style = '', back, label = heading, intro, tag } = {}) => page(route, heading, description, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
     ${back ? `<nav class="discovery-breadcrumb" aria-label="${hi ? 'पेज का पथ' : 'Breadcrumb'}"><a href="${back[0]}">${back[1]}</a>${discoveryIcon('next')}<span aria-current="page">${escape(label)}</span></nav>` : ''}
-    <header class="browse-heading"${style}><h1>${escape(label)}</h1><span class="browse-count">${gameCount(lang, items.length)}</span></header>
+    <header class="browse-heading"${style}>
+      <div class="browse-heading-copy">
+        <h1${hi && tag ? ' lang="en"' : ''}>${escape(label)}</h1>
+        ${hi && tag ? `<p class="browse-local-tag">${escape(tagLabel(tag, lang))}</p>` : ''}
+        ${intro ? `<p class="browse-intro">${escape(intro)}</p>` : ''}
+        ${tag ? categoryLinks(items) : ''}
+      </div>
+      <span class="browse-count">${gameCount(lang, items.length)}</span>
+    </header>
     ${renderGameCollection(items, lang, route === gamesPath)}
 ${route === gamesPath && items.length > initialGameCount ? `    <noscript><div class="game-collection" aria-label="${hi ? 'और खेल' : 'More games'}">
 ${items.slice(initialGameCount).map(game => `<a href="${escape(game.href)}"><img src="${escape(game.cover)}" alt="${escape(game.title)}" width="${game.width}" height="${game.height}" loading="lazy"></a>`).join('\n')}
@@ -78,7 +97,7 @@ ${items.slice(initialGameCount).map(game => `<a href="${escape(game.href)}"><img
   const playedHeading = playedGamesLabel(lang);
   const playedDescription = hi ? 'इस ब्राउज़र में खेले गए गेम देखें।' : 'Find the games you’ve played in this browser.';
   return [
-    listing(gamesPath, gamesLabel(lang), hi ? 'tapmelo की पूरी गेम लाइब्रेरी देखें।' : 'Explore the full tapmelo library and play any game right in your browser.', games),
+    listing(gamesPath, gamesLabel(lang), hi ? 'tapmelo की पूरी गेम लाइब्रेरी देखें।' : 'Explore the full tapmelo library and play any game right in your browser.', games, { intro: discoveryCopy.all[lang] }),
     { ...page(playedGamesPath, playedHeading, playedDescription, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
       <header class="browse-heading"><h1>${playedHeading}</h1></header>
       <div class="game-collection" data-played-games></div>
@@ -89,14 +108,19 @@ ${items.slice(initialGameCount).map(game => `<a href="${escape(game.href)}"><img
       const description = hi ? `${genre.hi} श्रेणी के गेम ब्राउज़र में खेलें।` : `Explore ${genre.en.toLowerCase()} games you can play right in your browser.`;
       return listing(
         language => genrePath(language, genre.id), genre[lang], description,
-        byGenre.get(genre.id), ` style="--browse-tint:${genre.fill};--browse-accent:${genre.ink}"`, [gamesPath(lang), gamesLabel(lang)],
+        byGenre.get(genre.id), {
+          style: ` style="--browse-tint:${genre.fill};--browse-accent:${genre.ink}"`,
+          back: [gamesPath(lang), gamesLabel(lang)], intro: discoveryCopy[genre.id][lang],
+        },
       );
     }),
     page(tagsPath, tagHeading, tagDescription, `<main id="main" class="shell collection-main browse-main" tabindex="-1">
       <header class="browse-heading"><div><h1>${tagHeading}</h1><p>${tagDescription}</p></div><span class="browse-count">${tags.length} ${hi ? 'टैग' : 'tags'}</span></header>
-      <ul class="discovery-tags">${tags.map(id => `<li><a href="${tagPath(lang, id)}"><span lang="en">${escape(tagLabel(id))}</span><span class="tag-count">${gameCount(lang, byTag.get(id).length)}</span></a></li>`).join('')}</ul>
+      <ul class="discovery-tags">${tags.map(id => `<li><a href="${tagPath(lang, id)}"><span lang="${lang}">${escape(tagLabel(id, lang))}</span><span class="tag-count">${gameCount(lang, byTag.get(id).length)}</span></a></li>`).join('')}</ul>
     </main>`),
-    ...tags.map(id => listing(language => tagPath(language, id), tagName(id), hi ? `“${tagName(id)}” टैग वाले गेम।` : `Games tagged “${tagName(id)}”.`, byTag.get(id), '', [tagsPath(lang), tagHeading], tagLabel(id))),
+    ...tags.map(id => listing(language => tagPath(language, id), tagName(id), hi ? `“${tagName(id)}” टैग वाले गेम।` : `Games tagged “${tagName(id)}”.`, byTag.get(id), {
+      back: [tagsPath(lang), tagHeading], label: tagLabel(id), intro: discoveryCopy[id]?.[lang], tag: id,
+    })),
   ];
 }
 

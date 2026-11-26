@@ -24,6 +24,7 @@ export const locales = {
       'Glass Twist is a screw puzzle with moving layers of glass. Tap an exposed screw to send it to a matching box or to the tray. A plate can swing on its last screw, fall onto another plate or uncover several screws at once. Look at what the glass is holding up before you pull its last screw.',
       `You start with two open boxes and ${rules.initialSlots} temporary slots. Each box takes three screws of its colour. If blue already holds two and a yellow screw sits in the tray, look for the third blue screw. If the replacement box is yellow, the waiting screw moves over automatically and you get a slot back.`,
       'When the exposed screws are all the wrong colour, look for one that moves a plate and uncovers something you can use. Say your red box has two screws and the third is behind a leaf. Trace what holds that leaf in place and count how many unmatched screws you would have to park before red is free.',
+      'If a plate is resting against another piece of glass, look for the screw that holds up the lower piece. When removing it would fill a box, you can make room in the tray while clearing a path to the screws above.',
     ],
     steps: [
       ['Start with an exposed screw', 'Tap Start twisting, then pick an uncovered screw the same colour as an open box. If you can see its head through another layer, move the covering glass first.'],
@@ -86,6 +87,7 @@ export const locales = {
       'Glass Twist में एक पेंच हटाते ही बोर्ड की शक्ल बदल सकती है। पट्टी आखिरी पेंच पर घूम सकती है, दूसरी पट्टी पर गिर सकती है या एक साथ कई पेंच खोल सकती है। पेंच निकालने से पहले देखें कि पट्टी किसे ढक रही है।',
       `शुरुआत में दो डिब्बे खुले हैं और अस्थायी ट्रे में ${rules.initialSlots} जगहें हैं। एक रंग के तीन पेंच उसके डिब्बे में आते हैं। मान लें नीले डिब्बे में दो पेंच हैं और ट्रे में पीला पेंच है। पहले खुला नीला पेंच ढूँढें। डिब्बा भरते ही अगला रंग आएगा। वह पीला हुआ तो ट्रे का पेंच अपने-आप उसमें चला जाएगा और एक जगह वापस मिलेगी।`,
       'कोई खुला पेंच डिब्बे के रंग का न हो तो ऐसा पेंच ढूँढें जिसके हटने से पूरी पट्टी खिसके। उससे डिब्बे का तीसरा पेंच खुल जाए तो ट्रे की एक जगह देना काम आएगा। कुछ भी न खोलने वाला पेंच उतनी ही जगह लेगा और मिलान बाकी रहेगा।',
+      'एक काँच की पट्टी दूसरी पर टिकी हो तो नीचे वाली का पेंच देखें। वह किसी खुले डिब्बे में फिट हो तो उसे निकालने से ट्रे की जगह भी बचेगी और ऊपर के पेंचों का रास्ता भी खुल सकता है।',
     ],
     steps: [
       ['खुले पेंच से शुरू करें', 'खेल शुरू करें दबाएँ, फिर ऐसा पेंच चुनें जिसके ऊपर काँच न हो। दूसरी पट्टी से दिखने वाला पेंच अभी बंद है। पेंच का रंग खुले डिब्बे से मिलाएँ।'],

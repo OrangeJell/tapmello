@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { gameDetailTitle } from '../src/game-catalog.mjs';
 import { origin, updated } from '../src/game.mjs';
-import { catalogueFor, discoveryUpdated, gamesPath, genrePath, genres, retiredGenres, tagName, taxonomyFor } from '../src/discovery.mjs';
+import { catalogueFor, discoveryUpdated, gamesPath, genrePath, genres, retiredGenres, tagLabel, tagName, taxonomyFor } from '../src/discovery.mjs';
 import { locales } from '../src/locales.mjs';
 import { partnerGamesFor, partnerGamePath, partnerLocales } from '../src/partner-games.mjs';
 const extractLocales = process.argv.includes('--extract-locales');
@@ -65,7 +65,7 @@ for (const edition of ['shared', 'en', 'hi']) {
   const { games } = catalogueFor(language, sharedOnly);
   const searchEntries = games.map(game => ({
     title: game.title, href: game.href, cover: game.cover,
-    keywords: [game.id, game.category, ...(game.searchAliases ?? []), ...game.categories.map(id => genres[id][language]), ...(game.metadata?.genres ?? []), ...game.tags].join(' '),
+    keywords: [game.id, game.category, ...(game.searchAliases ?? []), ...game.categories.map(id => genres[id][language]), ...(game.metadata?.genres ?? []), ...game.tags, ...(language === 'hi' ? game.tags.map(id => tagLabel(id, language)) : [])].join(' '),
   }));
   const searchTerms = language === 'en' && games.map(game => [game.category, ...(game.searchAliases ?? []), ...game.categories.map(id => genres[id]?.en ?? id), ...game.tags.map(tagName)].filter(Boolean));
   if (!extracting && !sharedOnly) await writeFile(path.join(root, 'dist', 'assets', `game-search-${language}.json`), JSON.stringify(searchEntries));
@@ -86,7 +86,9 @@ for (const edition of ['shared', 'en', 'hi']) {
     const gamePath = partnerGamePath(language, game);
     const url = origin + gamePath;
     const detail = game.details[language];
-    const dateModified = Object.hasOwn(partnerLocales.hi.games, game.id) ? localizationUpdated : detailUpdated;
+    const existingLocalization = !game.localizedOn && Object.hasOwn(partnerLocales.hi.games, game.id);
+    const originalDate = existingLocalization ? localizationUpdated : detailUpdated;
+    const dateModified = (hi ? game.localizedOn : undefined) ?? originalDate;
     pages.push({
       language, kind: 'partner-play', path: gamePath, updated: dateModified, game,
       ...gameTitleFields(game.title),
@@ -201,7 +203,7 @@ for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
       let main = page.main;
       if (copy) {
         localizedPage.description = copy.summary;
-        localizedPage.structured = { ...page.structured, description: copy.summary };
+        localizedPage.structured = { ...page.structured, description: copy.summary, dateModified: page.game.localizedOn ?? page.updated };
         main = renderPartnerGame('en', page.game, true, copy);
         for (const text of [copy.summary, copy.category, copy.aboutTitle, copy.controls, ...copy.about, ...copy.steps.flat(), ...copy.faq.flat()]) preserved.add(text);
       }
@@ -211,7 +213,7 @@ for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
     }
     if (source) continue;
     const route = localPath(code, page.path);
-    pages.push({ ...page, path: route, language: code, localized: true });
+    pages.push({ ...page, path: route, language: code, localized: true, updated: page.game?.localizedOn ?? page.updated });
     const addRuntime = runtimeJSON && (fullLocale || page.path === '/privacy/');
     await writePage(route, !addRuntime ? translated : translated.replace('<meta charset="utf-8">', `<meta charset="utf-8">\n  <script id="site-localized-copy" type="application/json" data-language="${code}" data-game-path="${startUrl}">${runtimeJSON}</script>`));
   }

@@ -281,6 +281,11 @@
 }
 .browse-heading h1 { font-size: clamp(1.95rem, 4vw, 3.5rem); letter-spacing: var(--heading-tracking, -.035em); line-height: var(--heading-leading, 1.12); overflow-wrap: anywhere; }
 .browse-heading p { margin-top: 7px; line-height: 1.5; }
+.browse-heading-copy { max-width: 68ch; min-width: 0; }
+.browse-local-tag { font-weight: 650; }
+.browse-topics { margin-top: 12px; font-size: .9rem; }
+.browse-topics ul { display: flex; flex-wrap: wrap; gap: 4px 14px; list-style: none; margin: 4px 0 0; padding: 0; }
+.browse-topics a { display: inline-flex; align-items: center; min-height: 24px; color: inherit; text-underline-offset: .18em; }
 .browse-count { padding: 7px 12px; border-radius: 999px; background: light-dark(#fffc, #211e2ce6); font-size: .875rem; font-weight: 650; white-space: nowrap; }
 .discovery-tags {
   display: grid;

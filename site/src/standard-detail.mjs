@@ -104,7 +104,7 @@ function renderMetadata(lang, game, taxonomy, sharedOnly) {
     ${!game.provider ? `<div><dt>${label.languages}</dt><dd>${Object.entries(languages).map(([code, language]) => `<span lang="${code}" translate="no">${language.name}</span>`).join(' · ')}</dd></div>` : ''}
     ${rows.filter(([, values]) => values.length).map(([name, values]) => `<div><dt>${name}</dt><dd>${values.map(escape).join(' · ')}</dd></div>`).join('')}
     <div class="detail-metadata-tags"><dt>${label.genres}</dt><dd><ul>${taxonomy.categories.map(id => `<li><a href="${genrePath(lang, id)}">${genres[id][lang]}</a></li>`).join('')}</ul></dd></div>
-    ${taxonomy.tags.length ? `<div class="detail-metadata-tags"><dt>${label.tags}</dt><dd><ul>${taxonomy.tags.map(id => `<li><a href="${tagPath(lang, id)}" lang="en">${escape(tagLabel(id))} <span class="detail-tag-count">${byTag.get(id).length}</span></a></li>`).join('')}</ul></dd></div>` : ''}
+    ${taxonomy.tags.length ? `<div class="detail-metadata-tags"><dt>${label.tags}</dt><dd><ul>${taxonomy.tags.map(id => `<li><a href="${tagPath(lang, id)}" lang="${lang}">${escape(tagLabel(id, lang))} <span class="detail-tag-count">${byTag.get(id).length}</span></a></li>`).join('')}</ul></dd></div>` : ''}
   </dl>`;
 }
 

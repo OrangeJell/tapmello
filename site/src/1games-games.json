@@ -114,7 +114,8 @@
         "summary": "Time your takeoff, flip and landing in Wacky Flip, a physics-based parkour game with rooftop stunt challenges.",
         "about": [
           "Send your athlete off rooftops and towers and try to land inside the marked zone. Every attempt comes down to three decisions: when to take off, when to spin and when to straighten up.",
-          "A clean landing earns points for the flips you completed in the air. Once you can land a single flip reliably, try combining moves for a multiplier."
+          "A clean landing earns points for the flips you completed in the air. Once you can land a single flip reliably, try combining moves for a multiplier.",
+          "If a flip keeps taking you past the marked zone, repeat the same jump without adding a second turn. Straighten up a little earlier and watch where your feet come down. Once you can reach the zone on one flip, try adding the second on a longer drop."
         ],
         "steps": [
           [
@@ -137,7 +138,8 @@
         "summary": "Wacky Flip में छतों से छलाँग लगाएँ और सही समय पर पलटी लेकर तय जगह पर उतरें।",
         "about": [
           "खिलाड़ी को छतों और मीनारों से उछालें और निशान वाली जगह पर उतारें। तय करें कि कब कूदना है, कब पलटी लेनी है और कब शरीर सीधा करना है।",
-          "साफ़ लैंडिंग पर हवा में पूरी की गई पलटियों के अंक मिलते हैं। एक पलटी के बाद लगातार सही उतरने लगें, तो अंक बढ़ाने के लिए अलग-अलग करतब जोड़ें।"
+          "साफ़ लैंडिंग पर हवा में पूरी की गई पलटियों के अंक मिलते हैं। एक पलटी के बाद लगातार सही उतरने लगें, तो अंक बढ़ाने के लिए अलग-अलग करतब जोड़ें।",
+          "पलटी के बाद निशान से आगे निकल जाते हैं तो दूसरी पलटी लगाए बिना वही छलाँग फिर करें। इस बार थोड़ा पहले सीधे हों और देखें कि पैर कहाँ पड़ते हैं। एक पलटी में सही उतरने लगें तो ऊँची जगह से दूसरी पलटी जोड़ें।"
         ],
         "steps": [
           [
@@ -206,7 +208,8 @@
         "summary": "Draw shapes that move under gravity to solve Brain Lines puzzles, from guiding a ball into a cup to balancing objects.",
         "about": [
           "Every puzzle has a target. You might need to guide a ball into a cup, balance an object or trigger a mechanism. Your drawings become objects that can fall, push or block things on the board.",
-          "A slanted stroke can act as a ramp. A shape placed above an object can fall onto it and give it a push. Watch where your drawing comes to rest before adding another one."
+          "A slanted stroke can act as a ramp. A shape placed above an object can fall onto it and give it a push. Watch where your drawing comes to rest before adding another one.",
+          "If the ball keeps rolling past the cup, watch where it first picks up speed. Try a flatter ramp or draw a small stop on the far side. Change one stroke at a time so you can see what sent the ball off course."
         ],
         "steps": [
           [
@@ -229,7 +232,8 @@
         "summary": "Brain Lines में आकृतियाँ बनाकर भौतिकी की पहेलियाँ हल करें। गेंद को कप तक पहुँचाएँ या वस्तुओं का संतुलन बनाएँ।",
         "about": [
           "हर पहेली का लक्ष्य अलग है। कभी गेंद को कप में पहुँचाना होता है, कभी किसी चीज़ को संतुलित करना या कोई यंत्र चलाना होता है। आपकी बनाई आकृतियाँ गिर सकती हैं और बोर्ड की दूसरी चीज़ों को धकेल या रोक सकती हैं।",
-          "तिरछी रेखा ढलान बन सकती है। किसी वस्तु के ऊपर बनाई आकृति गिरकर उसे धक्का दे सकती है। अगली रेखा बनाने से पहले देखें कि पहली कहाँ रुकती है।"
+          "तिरछी रेखा ढलान बन सकती है। किसी वस्तु के ऊपर बनाई आकृति गिरकर उसे धक्का दे सकती है। अगली रेखा बनाने से पहले देखें कि पहली कहाँ रुकती है।",
+          "गेंद प्याले के आगे निकलती रहे तो देखें कि उसकी रफ़्तार सबसे पहले कहाँ बढ़ती है। कम ढलान बनाएँ या आगे की ओर छोटी-सी रोक खींचें। एक बार में एक ही रेखा बदलें ताकि पता चले कि गेंद कहाँ से भटकी।"
         ],
         "steps": [
           [
@@ -297,7 +301,8 @@
         "summary": "Ride a motorbike through first-person highway traffic in Traffic Road. Race the clock in Career or see how far you can go in Endless.",
         "about": [
           "Ride from the motorcyclist’s point of view and scan for a clear lane. Slow down if traffic closes the gap, then pass once you have room to steer.",
-          "Career sends you through timed stages on one-way roads. Endless lets you choose one-way or two-way traffic and rewards distance. Time Trial and Free Ride unlock as you progress."
+          "Career sends you through timed stages on one-way roads. Endless lets you choose one-way or two-way traffic and rewards distance. Time Trial and Free Ride unlock as you progress.",
+          "In two-way Endless, a gap can close from either direction. Before overtaking, pick the space you’ll return to on your own side. If you can’t see that space yet, ease off and stay behind the vehicle ahead."
         ],
         "steps": [
           [
@@ -320,7 +325,8 @@
         "summary": "Traffic Road में मोटरसाइकिल से हाईवे के ट्रैफ़िक से निकलें। करियर में समय से दौड़ें या एंडलेस में लंबी दूरी तय करें।",
         "about": [
           "सड़क को मोटरसाइकिल चालक की नज़र से देखें और खाली लेन तलाशें। गाड़ियों के बीच जगह घटने पर रफ़्तार कम करें और रास्ता खुलने पर आगे निकलें।",
-          "करियर में एकतरफ़ा सड़कों पर समयबद्ध स्तर हैं। एंडलेस में एकतरफ़ा या दोतरफ़ा ट्रैफ़िक चुनकर लंबी दूरी तय करें। आगे बढ़ने पर टाइम ट्रायल और फ़्री राइड खुलते हैं।"
+          "करियर में एकतरफ़ा सड़कों पर समयबद्ध स्तर हैं। एंडलेस में एकतरफ़ा या दोतरफ़ा ट्रैफ़िक चुनकर लंबी दूरी तय करें। आगे बढ़ने पर टाइम ट्रायल और फ़्री राइड खुलते हैं।",
+          "दोनों दिशाओं वाले Endless मोड में जगह किसी भी ओर से बंद हो सकती है। आगे निकलने से पहले अपनी तरफ़ लौटने की जगह देखें। जगह न दिखे तो रफ़्तार घटाएँ और आगे वाली गाड़ी के पीछे रहें।"
         ],
         "steps": [
           [
@@ -11411,7 +11417,7 @@
   },
   {
     "id": "lift-off",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Lift Off",
     "category": {
       "en": "Rocket launch timing"
@@ -11501,7 +11507,7 @@
   },
   {
     "id": "crazy-taxi",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Crazy Taxi",
     "category": {
       "en": "Traffic crossing arcade"
@@ -11592,7 +11598,7 @@
   },
   {
     "id": "ice-baby-quest-2",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Ice Baby Quest 2",
     "category": {
       "en": "First-person quest adventure"
@@ -11682,7 +11688,7 @@
   },
   {
     "id": "knife-master",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Knife Master",
     "category": {
       "en": "Physics flipping arcade"
@@ -11772,7 +11778,7 @@
   },
   {
     "id": "rob-brainrot-2",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Rob Brainrot 2",
     "category": {
       "en": "Collecting and base defense"
@@ -11863,7 +11869,7 @@
   },
   {
     "id": "sorry-bob",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Sorry Bob",
     "category": {
       "en": "Physics surgery simulation"
@@ -11952,7 +11958,7 @@
   },
   {
     "id": "rob-a-car",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Rob a Car",
     "category": {
       "en": "Garage-building tycoon"
@@ -12042,7 +12048,7 @@
   },
   {
     "id": "flipping-master",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Flipping Master",
     "category": {
       "en": "Diagonal survival runner"
@@ -12131,7 +12137,7 @@
   },
   {
     "id": "slap-champions",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Slap Champions",
     "category": {
       "en": "Turn-based timing duels"
@@ -12221,7 +12227,7 @@
   },
   {
     "id": "crazy-shark",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Crazy Shark",
     "category": {
       "en": "Ocean survival arcade"
@@ -12312,7 +12318,7 @@
   },
   {
     "id": "ice-baby-quest",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Ice Baby Quest",
     "category": {
       "en": "First-person maze adventure"
@@ -12402,7 +12408,7 @@
   },
   {
     "id": "ragdoll-arena",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Ragdoll Arena",
     "category": {
       "en": "Physics-based arena duels"
@@ -12492,7 +12498,7 @@
   },
   {
     "id": "horror-nun",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Horror Nun",
     "category": {
       "en": "Stealth and escape horror"
@@ -12582,7 +12588,7 @@
   },
   {
     "id": "police-drive",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Police Drive",
     "category": {
       "en": "City pursuit driving"
@@ -12672,7 +12678,7 @@
   },
   {
     "id": "wheelie-master",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Wheelie Master",
     "category": {
       "en": "Side-scrolling bike balance"
@@ -12762,7 +12768,7 @@
   },
   {
     "id": "tap-rich-idle",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Tap Rich Idle",
     "category": {
       "en": "Idle business management"
@@ -12851,7 +12857,7 @@
   },
   {
     "id": "tiny-arena",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Tiny Arena",
     "category": {
       "en": "Gladiator action RPG"
@@ -12941,7 +12947,7 @@
   },
   {
     "id": "city-brawl",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "City Brawl",
     "category": {
       "en": "Side-scrolling street fighting"
@@ -13030,7 +13036,7 @@
   },
   {
     "id": "santa-run",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Santa Run",
     "category": {
       "en": "Winter obstacle runner"
@@ -13118,7 +13124,7 @@
   },
   {
     "id": "wheelie-party",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Wheelie Party",
     "category": {
       "en": "One-button wheelie arcade"
@@ -13208,7 +13214,7 @@
   },
   {
     "id": "bounce-path",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Bounce Path",
     "category": {
       "en": "Rhythm platform arcade"
@@ -13297,7 +13303,7 @@
   },
   {
     "id": "undead-invasion",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Undead Invasion",
     "category": {
       "en": "Side-scrolling zombie defense"
@@ -13386,7 +13392,7 @@
   },
   {
     "id": "stickman-war",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Stickman War",
     "category": {
       "en": "Side-scrolling action RPG"
@@ -13475,7 +13481,7 @@
   },
   {
     "id": "mad-trails",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Mad Trails",
     "category": {
       "en": "Physics rock-crawling"
@@ -13564,7 +13570,7 @@
   },
   {
     "id": "bat-smash",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Bat Smash",
     "category": {
       "en": "Baseball distance challenge"
@@ -13653,7 +13659,7 @@
   },
   {
     "id": "run-away-3",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Run Away 3",
     "category": {
       "en": "Space platform runner"
@@ -13742,7 +13748,7 @@
   },
   {
     "id": "hyper-tunnel",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Hyper Tunnel",
     "category": {
       "en": "Space tunnel reflex runner"
@@ -13831,7 +13837,7 @@
   },
   {
     "id": "blocky-rider",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Blocky Rider",
     "category": {
       "en": "Motorcycle traffic driving"
@@ -13920,7 +13926,7 @@
   },
   {
     "id": "flying-ball",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Flying Ball",
     "category": {
       "en": "Downhill ball runner"
@@ -14008,7 +14014,7 @@
   },
   {
     "id": "dancing-beat",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Dancing Beat",
     "category": {
       "en": "Music timing arcade"
@@ -14097,7 +14103,7 @@
   },
   {
     "id": "snow-road",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Snow Road",
     "category": {
       "en": "Pixel downhill sleigh runner"
@@ -14186,7 +14192,7 @@
   },
   {
     "id": "cowboy-safari",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Cowboy Safari",
     "category": {
       "en": "Animal-hopping endless runner"
@@ -14276,7 +14282,7 @@
   },
   {
     "id": "escape-drive",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Escape Drive",
     "category": {
       "en": "Vehicle pursuit and hill driving"
@@ -14365,7 +14371,7 @@
   },
   {
     "id": "escape-road-city-2",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Escape Road City 2",
     "category": {
       "en": "Open-city pursuit driving"
@@ -14453,7 +14459,7 @@
   },
   {
     "id": "mad-racers",
-    "englishOnly": true,
+    "localizedOn": "2026-11-26",
     "title": "Mad Racers",
     "category": {
       "en": "Power-up racing arcade"

@@ -7281,6 +7281,846 @@
           "Défendez votre statue tout en construisant une armée capable de vaincre l'opposition."
         ]
       ]
+    },
+    "lift-off": {
+      "category": "Lancement de fusée",
+      "summary": "Séparez les étages au bon moment pour envoyer votre fusée vers des planètes de plus en plus lointaines.",
+      "about": [
+        "Après le décollage, surveillez la jauge de l’étage en cours. En le larguant trop tôt, vous perdez une partie de sa poussée.",
+        "Si vous ratez plusieurs fois la même altitude, soignez d’abord la première séparation. La vitesse acquise au départ compte à chaque étage suivant."
+      ],
+      "steps": [
+        [
+          "Décoller",
+          "Cliquez ou appuyez sur Espace pour lancer la fusée."
+        ],
+        [
+          "Larguer un étage",
+          "Appuyez quand le repère entre dans la zone verte. Attendez la nouvelle jauge avant d’appuyer de nouveau."
+        ]
+      ],
+      "faq": [
+        [
+          "Quel achat faire en premier ?",
+          "Ajoutez un étage si vous manquez d’altitude. Augmentez le nombre de places quand vous arrivez régulièrement à destination."
+        ]
+      ]
+    },
+    "crazy-taxi": {
+      "category": "Traversée de carrefours",
+      "summary": "Emmenez vos passagers à bon port en trouvant un créneau dans la circulation à chaque carrefour.",
+      "about": [
+        "Le taxi prend et dépose les passagers tout seul. À l’approche d’un carrefour, regardez aussi les voies tout au fond. Un camion peut y arriver pendant que vous traversez.",
+        "Au passage à niveau, attendez que le dernier wagon soit passé. Aux autres carrefours, une dépanneuse risque d’arriver si vous restez arrêté trop longtemps."
+      ],
+      "steps": [
+        [
+          "Repérer un créneau",
+          "Estimez où seront les véhicules quand vous atteindrez chaque voie."
+        ],
+        [
+          "Traverser",
+          "Cliquez ou appuyez sur ↑, W ou Espace pour accélérer."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi ai-je percuté une voiture après avoir passé la première voie ?",
+          "Les files avancent à des rythmes différents. Le passage doit rester libre jusqu’au bout de la traversée."
+        ]
+      ]
+    },
+    "ice-baby-quest-2": {
+      "category": "Aventure à la première personne",
+      "summary": "Explorez un monde étrange, écoutez ses habitants et échangez les objets qui débloquent la suite de l’aventure.",
+      "about": [
+        "Une demande peut en cacher plusieurs. Si un personnage réclame un objet inconnu, allez voir ce que proposent ses voisins. Même une plaisanterie peut donner un indice.",
+        "À Marsageddon, la faible gravité prolonge les sauts. Faites un premier essai sur une petite distance avant de franchir un grand vide."
+      ],
+      "steps": [
+        [
+          "Visiter les environs",
+          "Avancez avec WASD ou les flèches et regardez autour de vous avec la souris. Espace sert à sauter et Maj à courir."
+        ],
+        [
+          "Parler et ramasser",
+          "Visez un personnage ou un objet à portée et faites un clic gauche."
+        ]
+      ],
+      "faq": [
+        [
+          "Que faire si une quête n’avance plus ?",
+          "Relisez les demandes des personnages proches. Un premier échange peut fournir l’objet nécessaire au suivant."
+        ]
+      ]
+    },
+    "knife-master": {
+      "category": "Jeu de lancer et de rotation",
+      "summary": "Faites tournoyer la lame, puis faites-la atterrir sur la pointe. Essayez ensuite de toucher une cible mobile.",
+      "about": [
+        "Gardez la même lame pour vos premiers essais. Changez légèrement la longueur du geste et regardez à quel moment la pointe se retrouve vers le bas.",
+        "Une lame plus lourde change le rythme du lancer. Retrouvez une réception stable avec le nouvel équipement avant de tenter un double tour."
+      ],
+      "steps": [
+        [
+          "Lancer la lame",
+          "Faites glisser la souris et relâchez, ou balayez l’écran tactile."
+        ],
+        [
+          "Corriger la rotation",
+          "Si la lame retombe à plat, ajustez votre geste au lancer suivant pour que la pointe arrive la première."
+        ]
+      ],
+      "faq": [
+        [
+          "Un geste plus long suffit-il pour réussir ?",
+          "Il change la trajectoire, mais la lame doit aussi terminer sa rotation au bon moment."
+        ]
+      ]
+    },
+    "rob-brainrot-2": {
+      "category": "Collection et gestion de base",
+      "summary": "Installez vos Brainrots pour gagner de l’argent, agrandissez la base et choisissez quand profiter du bonus de renaissance.",
+      "about": [
+        "Les Brainrots installés dans la base rapportent de l’argent au fil du temps. Récupérez ces gains et choisissez entre ajouter des places et renforcer les défenses.",
+        "La liste de collection montre les variantes qui vous manquent. Avant une renaissance, vérifiez si le bonus permanent vaut la progression à refaire."
+      ],
+      "steps": [
+        [
+          "Se déplacer",
+          "Utilisez WASD ou les flèches et orientez la vue avec la souris."
+        ],
+        [
+          "Encaisser les gains",
+          "Approchez-vous du point de collecte et appuyez sur E. La même touche sert aux interactions à portée."
+        ]
+      ],
+      "faq": [
+        [
+          "À quoi sert la renaissance ?",
+          "Elle permet de recommencer avec un bonus permanent. Regardez le multiplicateur avant de renoncer à votre avancée actuelle."
+        ]
+      ]
+    },
+    "sorry-bob": {
+      "category": "Simulation de physique",
+      "summary": "Commandez les doigts d’une main virtuelle et terminez l’opération de Bob avant que sa jauge d’état s’épuise.",
+      "about": [
+        "Approchez la main de l’accessoire demandé et alignez le poignet avant de fermer les doigts. Une prise de travers suffit à faire tomber l’objet.",
+        "Vérifiez l’état de Bob entre deux gestes. Posez les accessoires inutilisés à l’écart pour garder la table dégagée."
+      ],
+      "steps": [
+        [
+          "Placer la main",
+          "Déplacez la souris, faites pivoter le poignet avec le bouton droit et abaissez la main avec le bouton gauche."
+        ],
+        [
+          "Saisir un objet",
+          "A, W, E et R commandent l’auriculaire, l’annulaire, le majeur et l’index. Espace commande le pouce."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi l’outil glisse-t-il ?",
+          "Alignez la main avant de serrer les doigts. Soulevez doucement une fois la prise assurée."
+        ]
+      ]
+    },
+    "rob-a-car": {
+      "category": "Gestion de garage",
+      "summary": "Montez une collection de voitures qui rapporte de l’argent et protégez votre garage pendant vos sorties.",
+      "about": [
+        "Les premières voitures financent les suivantes. Si les places commencent à manquer, agrandissez le garage avant de dépenser dans une nouvelle acquisition.",
+        "Gardez un peu d’avance quand vous quittez la base. Le retour rapide prend quelques secondes après l’activation."
+      ],
+      "steps": [
+        [
+          "Examiner les voitures",
+          "Déplacez-vous avec WASD ou les flèches, regardez à la souris et appuyez sur E devant un objet à portée."
+        ],
+        [
+          "Réinvestir les recettes",
+          "Récupérez les gains du garage et décidez s’il vous faut des places, des voitures ou des défenses."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment rentrer rapidement ?",
+          "Appuyez sur G. La téléportation se déclenche après environ trois secondes."
+        ]
+      ]
+    },
+    "flipping-master": {
+      "category": "Course à sauts en diagonale",
+      "summary": "Sautez en diagonale sur trois colonnes et retombez sur les ennemis pour récupérer de la vie.",
+      "about": [
+        "La case la plus proche n’est pas forcément accessible. Avant de sauter, regardez les deux cases diagonales et l’endroit où chacune vous laissera ensuite.",
+        "La vie baisse au fil de la partie. Cherchez un ennemi sur une case sûre pour en récupérer et laissez passer les pièces qui vous mèneraient dans une impasse."
+      ],
+      "steps": [
+        [
+          "Choisir un côté",
+          "Appuyez sur A pour sauter à gauche ou sur D pour aller à droite."
+        ],
+        [
+          "Viser une case sûre",
+          "Repérez le feu et les pointes, puis retombez directement sur un ennemi quand le trajet est dégagé."
+        ]
+      ],
+      "faq": [
+        [
+          "Peut-on aller tout droit ?",
+          "Les deux sauts ordinaires vont en diagonale. Deux sauts de sens opposés permettent de revenir dans la même colonne."
+        ]
+      ]
+    },
+    "slap-champions": {
+      "category": "Duel de précision au tour par tour",
+      "summary": "Arrêtez le curseur dans la zone verte et utilisez vos gains pour augmenter votre force ou votre réserve de vie.",
+      "about": [
+        "Les adversaires frappent à tour de rôle. Observez le curseur avant de cliquer. Une frappe déclenchée trop tôt laisse souvent beaucoup de vie à l’autre joueur.",
+        "Si vous perdez juste avant votre prochain tour, ajoutez de la vie. Quand vous touchez régulièrement le vert, investissez dans la force."
+      ],
+      "steps": [
+        [
+          "Observer la jauge",
+          "Suivez la vitesse du curseur jusqu’à l’approche de la zone verte."
+        ],
+        [
+          "Frapper",
+          "Cliquez ou touchez l’écran quand le curseur passe dans le vert, puis vérifiez la vie restante après la riposte."
+        ]
+      ],
+      "faq": [
+        [
+          "Est-ce utile de cliquer plusieurs fois ?",
+          "La frappe dépend de l’endroit où le curseur se trouve au moment du clic. Attendez le vert."
+        ]
+      ]
+    },
+    "crazy-shark": {
+      "category": "Survie sous-marine",
+      "summary": "Nourrissez le requin en suivant les bancs de petites proies, puis revenez vers les plus grosses une fois qu’il a grandi.",
+      "about": [
+        "La faim fait baisser la vie pendant que vous nagez. Au départ, restez près de petits poissons et évitez les grandes traversées en eau vide.",
+        "Une courte accélération aide à rattraper une proie. Relâchez dès que vous êtes à portée pour garder de l’endurance pour la chasse suivante."
+      ],
+      "steps": [
+        [
+          "Choisir un banc",
+          "Déplacez la souris pour diriger le requin vers les petites proies à votre profondeur."
+        ],
+        [
+          "Accélérer par à-coups",
+          "Maintenez brièvement le bouton droit de la souris, puis relâchez."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi la vie baisse-t-elle alors que rien ne m’attaque ?",
+          "La faim la fait diminuer. Choisissez un trajet qui passe par plusieurs groupes de proies."
+        ]
+      ]
+    },
+    "ice-baby-quest": {
+      "category": "Labyrinthe à la première personne",
+      "summary": "Cherchez le bébé de l’ère glaciaire. Les habitants du labyrinthe connaissent les passages et les objets qui permettent d’avancer.",
+      "about": [
+        "Retenez un repère à chaque bifurcation. Les habitants donnent parfois l’emplacement d’un objet au détour d’une plaisanterie.",
+        "Avant de quitter une pièce, vérifiez si elle contient un objet de quête. Il peut débloquer un passage après un service rendu à un personnage voisin."
+      ],
+      "steps": [
+        [
+          "Explorer le labyrinthe",
+          "Avancez avec WASD ou les flèches. Espace sert à sauter et Maj à courir."
+        ],
+        [
+          "Enquêter",
+          "Faites un clic gauche devant un personnage ou un objet et relevez les lieux mentionnés."
+        ]
+      ],
+      "faq": [
+        [
+          "Où chercher quand un passage est fermé ?",
+          "Revenez dans les pièces proches et vérifiez si vous avez oublié un objet ou une conversation."
+        ]
+      ]
+    },
+    "ragdoll-arena": {
+      "category": "Duel en arène avec physique",
+      "summary": "Gardez votre combattant en équilibre et évaluez la réception avant de sauter sur une arme lâchée dans l’arène.",
+      "about": [
+        "Le personnage continue d’avancer quand il est en l’air. Avant de courir vers une arme, vérifiez qu’il y a assez de place pour retomber et s’arrêter.",
+        "Le mode entraînement permet de répéter les mêmes sauts et de comparer la portée des armes."
+      ],
+      "steps": [
+        [
+          "Avancer par petites touches",
+          "Utilisez A et D ou les flèches gauche et droite. Laissez au personnage le temps de retrouver son équilibre."
+        ],
+        [
+          "Sauter et viser",
+          "Appuyez sur Espace pour sauter. La souris sert à viser, ramasser les armes et attaquer."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi mon combattant dépasse-t-il le point voulu ?",
+          "Il garde son élan. Commencez à ralentir avant d’arriver au bord ou près d’un piège."
+        ]
+      ]
+    },
+    "horror-nun": {
+      "category": "Horreur et infiltration",
+      "summary": "Dans l’école de sœur Madeline, repérez des cachettes et trouvez les objets qui ouvrent une issue.",
+      "about": [
+        "Retenez où sont les casiers et les conduits d’aération avant de vous avancer dans un nouveau couloir. Écoutez les bruits de pas avant de tourner.",
+        "Vous ne pouvez porter qu’un objet à la fois. Posez celui dont vous aurez besoin plus tard dans une pièce que vous saurez retrouver."
+      ],
+      "steps": [
+        [
+          "Traverser l’école",
+          "Déplacez-vous avec WASD ou les flèches et regardez à la souris. C ou Ctrl permet de vous accroupir, Maj de courir."
+        ],
+        [
+          "Manipuler les objets",
+          "Utilisez E ou le clic gauche pour interagir. Appuyez sur G pour déposer ce que vous portez."
+        ]
+      ],
+      "faq": [
+        [
+          "Où me cacher si la sœur approche ?",
+          "Prenez le casier ou le conduit le plus proche et attendez qu’elle s’éloigne."
+        ]
+      ]
+    },
+    "police-drive": {
+      "category": "Poursuite en ville",
+      "summary": "Choisissez une voiture de police ou une moto pour les missions de poursuite dans une ville en 3D.",
+      "about": [
+        "La poursuite peut quitter une grande avenue pour une ruelle en un virage. Ralentissez avant le croisement et reprenez de la vitesse à la sortie.",
+        "Si vous perdez votre cible toujours au même endroit, essayez l’autre véhicule sur ce passage. Les deux ne réagissent pas de la même façon dans les virages serrés."
+      ],
+      "steps": [
+        [
+          "Accélérer",
+          "Sur une portion dégagée, appuyez sur ↑ ou W."
+        ],
+        [
+          "Prendre un virage",
+          "Freinez avec ↓ ou S, puis tournez avec les flèches gauche et droite ou A et D."
+        ]
+      ],
+      "faq": [
+        [
+          "Quel véhicule prendre ?",
+          "Testez les deux sur un trajet connu. Le choix dépend de la largeur des routes et de la difficulté des virages."
+        ]
+      ]
+    },
+    "wheelie-master": {
+      "category": "Équilibre à moto",
+      "summary": "Tenez sur la roue arrière dans les bosses et les pentes. Testez les motos débloquées sur un passage que vous connaissez.",
+      "about": [
+        "Une bosse fait varier la hauteur de la roue avant. Rabaissez-la un peu avant la pente pour avoir de la marge au sommet.",
+        "Attendez une portion plate pour essayer une figure. Reprenez les premières pentes quand vous changez de moto pour vous faire à son poids."
+      ],
+      "steps": [
+        [
+          "Lever la roue avant",
+          "Appuyez sur ← pour vous pencher en arrière."
+        ],
+        [
+          "Corriger l’inclinaison",
+          "Appuyez sur → pour vous pencher en avant. Les flèches haut et bas servent à faire des figures."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi la moto bascule-t-elle en arrière sur une bosse ?",
+          "La montée accentue l’inclinaison. Penchez-vous un peu en avant à l’approche du relief."
+        ]
+      ]
+    },
+    "tap-rich-idle": {
+      "category": "Jeu de gestion incrémental",
+      "summary": "Gagnez votre premier capital en cliquant, achetez des entreprises et choisissez quand multiplier vos recettes.",
+      "about": [
+        "Une première entreprise rapporte régulièrement. Avant d’y remettre de l’argent, comparez le gain de la prochaine amélioration avec celui d’un nouvel achat.",
+        "Les entreprises continuent à rapporter entre les sessions. Un multiplicateur temporaire est plus intéressant juste après une hausse de vos revenus habituels."
+      ],
+      "steps": [
+        [
+          "Réunir le capital",
+          "Cliquez ou touchez l’écran pour financer votre première entreprise."
+        ],
+        [
+          "Réinvestir",
+          "Récupérez les recettes et comparez le prix d’une amélioration et d’une nouvelle activité."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand utiliser un bonus de revenus ?",
+          "Activez-le une fois votre activité la plus rentable en marche, idéalement après une grosse amélioration."
+        ]
+      ]
+    },
+    "tiny-arena": {
+      "category": "RPG d’action en arène",
+      "summary": "Choisissez une classe, essayez ses deux techniques et préparez votre équipement pour les duels ou la Tour de survie.",
+      "about": [
+        "Les quatre classes n’ont pas les mêmes techniques ni le même équipement. Apprenez d’abord la portée de l’attaque de base, puis essayez les deux techniques spéciales.",
+        "Dans la Tour de survie, la difficulté monte de vague en vague. Gardez une technique disponible si un autre adversaire s’approche."
+      ],
+      "steps": [
+        [
+          "Apprendre l’attaque de base",
+          "Déplacez-vous avec A et D ou les flèches gauche et droite, puis appuyez sur Espace pour attaquer."
+        ],
+        [
+          "Alterner les techniques",
+          "J et K déclenchent chacune une technique. Donnez-vous le temps de voir ce que fait la première avant d’utiliser la seconde."
+        ]
+      ],
+      "faq": [
+        [
+          "Faut-il changer d’arme ou d’armure ?",
+          "Essayez plus de protection si vous perdez vite votre vie. Si vous tenez longtemps sans gagner, revoyez l’arme et le moment où vous lancez vos techniques."
+        ]
+      ]
+    },
+    "city-brawl": {
+      "category": "Combat de rue en défilement latéral",
+      "summary": "Traversez les quartiers en alternant coups, prises et gardes. Gardez un côté dégagé lorsque les adversaires se regroupent.",
+      "about": [
+        "Les adversaires arrivent des deux côtés de l’écran. Décalez-vous vers un bord libre pour les garder du même côté et mieux lire leurs mouvements.",
+        "Laissez l’attaque adverse se terminer avant de riposter. Un coup seul suffit pour apprendre la portée avant d’enchaîner."
+      ],
+      "steps": [
+        [
+          "Sortir de la foule",
+          "Déplacez-vous avec WASD ou les flèches et sautez avec Espace."
+        ],
+        [
+          "Choisir un coup",
+          "Z donne un coup de poing, X un coup de pied, C sert à saisir et V à bloquer."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi suis-je touché par derrière ?",
+          "Vous êtes peut-être entre deux groupes. Décalez-vous vers un côté libre avant de relancer un enchaînement."
+        ]
+      ]
+    },
+    "santa-run": {
+      "category": "Course d’obstacles dans la neige",
+      "summary": "Poursuivez le raton laveur et passez les pingouins et bonshommes de neige en changeant de voie, en sautant ou en glissant.",
+      "about": [
+        "Une rangée de pièces peut vous amener droit sur un obstacle. Regardez où elle se termine avant de changer de voie.",
+        "À l’approche d’une barrière, regardez si le dessous est libre. Vous pouvez parfois passer en glissant et garder une voie bien dégagée derrière."
+      ],
+      "steps": [
+        [
+          "Changer de voie",
+          "Utilisez ← et → ou A et D."
+        ],
+        [
+          "Sauter ou glisser",
+          "Utilisez ↑ ou W pour sauter, ↓ ou S pour passer sous une barrière."
+        ]
+      ],
+      "faq": [
+        [
+          "Faut-il suivre toutes les pièces ?",
+          "Prenez celles qui vous laissent le temps de contourner l’obstacle suivant."
+        ]
+      ]
+    },
+    "wheelie-party": {
+      "category": "Équilibre à moto à une touche",
+      "summary": "Maintenez et relâchez la flèche du haut pour garder la moto sur sa roue arrière.",
+      "about": [
+        "La roue avant monte tant que vous maintenez ↑. Relâchez dès que la moto se cabre assez. Il est plus facile de corriger un angle modéré.",
+        "Quand la roue redescend, donnez une courte impulsion. Répétez ces petits gestes pour garder une hauteur régulière."
+      ],
+      "steps": [
+        [
+          "Lever la roue",
+          "Maintenez ↑ juste assez longtemps pour décoller la roue avant du sol."
+        ],
+        [
+          "Rattraper la descente",
+          "Relâchez la touche, puis faites un petit appui quand la roue commence à retomber."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi est-ce que je me renverse ?",
+          "La moto se cabre trop si la touche reste enfoncée. Relâchez plus tôt au prochain essai."
+        ]
+      ]
+    },
+    "bounce-path": {
+      "category": "Jeu de plateforme musical",
+      "summary": "Faites sauter Blob de marche en marche au rythme du morceau. Terminez des parcours pour débloquer d’autres chansons.",
+      "about": [
+        "Un clic fait sauter la balle. Avant une marche plus haute ou un grand trou, regardez où elle sera au moment du saut.",
+        "Si vous butez toujours sur le même passage, recommencez et écoutez la note juste avant le saut. Elle peut vous servir de repère à l’essai suivant."
+      ],
+      "steps": [
+        [
+          "Écouter le début",
+          "Repérez le tempo en regardant les premières marches."
+        ],
+        [
+          "Sauter au bon endroit",
+          "Faites un clic gauche à l’approche de la marche ou du bord. Regardez la plateforme suivante pendant le saut."
+        ]
+      ],
+      "faq": [
+        [
+          "Peut-on suivre uniquement la musique ?",
+          "Le rythme aide à choisir le moment du clic. Regardez aussi la distance à franchir et la hauteur de la réception."
+        ]
+      ]
+    },
+    "undead-invasion": {
+      "category": "Défense contre des vagues de zombies",
+      "summary": "Tenez le quartier général en équipant votre personnage et en réparant les défenses entre les vagues.",
+      "about": [
+        "Après une attaque, regardez de quel côté les zombies se sont le plus approchés du quartier général. Renforcez d’abord cette brèche.",
+        "Si les barricades tiennent mais que la vague dure trop longtemps, essayez d’améliorer votre équipement. Le terrain d’essai permet de tester le matériel déjà débloqué."
+      ],
+      "steps": [
+        [
+          "Choisir le mode",
+          "Sélectionnez Defense pour les vagues ou Playground pour essayer le matériel."
+        ],
+        [
+          "Se déplacer et construire",
+          "Utilisez les flèches et cliquez pour attaquer. R recharge, Q change d’arme et l’icône de clôture ouvre la construction."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je essayer un piège avant une partie ?",
+          "Le mode Playground permet d’utiliser le matériel déjà débloqué."
+        ]
+      ]
+    },
+    "stickman-war": {
+      "category": "RPG d’action en défilement latéral",
+      "summary": "Faites progresser votre combattant, débloquez des capacités et gardez une sortie quand les monstres s’amassent.",
+      "about": [
+        "Quand un groupe arrive, laissez de la place derrière vous pour vous dégager. Vous pourrez revenir à portée une fois le passage libéré.",
+        "Après une technique spéciale, il faut attendre avant de la relancer. Gardez-en une disponible si la prochaine vague approche."
+      ],
+      "steps": [
+        [
+          "Se placer",
+          "A et D servent à bouger, W à sauter et J à porter le coup de base."
+        ],
+        [
+          "Se dégager ou utiliser un spécial",
+          "Appuyez sur K pour foncer. Les touches 1 à 4 du pavé numérique commandent les techniques disponibles."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment débloquer d’autres techniques ?",
+          "Gagnez de l’expérience et de la monnaie en combattant, puis investissez dans les options de votre classe."
+        ]
+      ]
+    },
+    "mad-trails": {
+      "category": "Franchissement tout-terrain",
+      "summary": "Grimpez des pentes rocheuses à faible allure et comparez les réglages sur le même obstacle.",
+      "about": [
+        "Évitez de donner un grand coup d’accélérateur lorsque le véhicule penche déjà. Cherchez d’abord un passage où les roues gardent de l’adhérence.",
+        "Bloqué contre un rocher, reculez pour repartir d’un autre angle. Levez le pied à l’approche du sommet."
+      ],
+      "steps": [
+        [
+          "Aborder la pente",
+          "Appuyez sur ↑ ou W pour avancer. Utilisez les flèches gauche et droite ou A et D pour diriger."
+        ],
+        [
+          "Reprendre son élan",
+          "Reculez avec ↓ ou S. Après une amélioration, revenez sur la même montée pour comparer."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi le véhicule se retourne-t-il ?",
+          "Une forte accélération en pente peut soulever l’avant. Arrivez doucement et relâchez à l’approche du sommet."
+        ]
+      ]
+    },
+    "bat-smash": {
+      "category": "Concours de frappe au baseball",
+      "summary": "Cliquez au moment du contact pour envoyer la balle le plus loin possible et gagner de quoi améliorer vos frappes.",
+      "about": [
+        "Regardez la balle entrer dans la zone de frappe et essayez de cliquer au même endroit plusieurs fois. Vous pourrez ainsi voir ce que change une amélioration.",
+        "Si la balle s’arrête juste après avoir touché le sol, essayez le rebond. Jugez l’effet sur plusieurs frappes avant de dépenser de nouveau."
+      ],
+      "steps": [
+        [
+          "Frapper la balle",
+          "Cliquez une fois lorsqu’elle atteint la zone où vous réussissez vos meilleurs contacts."
+        ],
+        [
+          "Dépenser les pièces",
+          "Choisissez entre la force, la vitesse de frappe et le rebond selon ce qui limite votre distance."
+        ]
+      ],
+      "faq": [
+        [
+          "Qu’apporte le rebond ?",
+          "Il prolonge le trajet après le premier contact avec le sol."
+        ]
+      ]
+    },
+    "run-away-3": {
+      "category": "Course de plateforme dans l’espace",
+      "summary": "Guidez un petit extraterrestre dans des tunnels troués. Jouez les parcours un par un ou tentez un record en mode infini.",
+      "about": [
+        "Le personnage avance tout seul. Choisissez une réception qui vous laisse aussi de la place pour préparer le saut suivant.",
+        "Explore permet de s’entraîner sur un parcours précis. Dans Infinite, le tracé évolue et la distance se joue sur une seule tentative."
+      ],
+      "steps": [
+        [
+          "Se placer sur une bande sûre",
+          "Utilisez les flèches gauche et droite pour vous aligner sur une partie large."
+        ],
+        [
+          "Sauter au bord",
+          "Appuyez sur Espace ou ↑ à l’approche du vide. Cherchez votre prochaine trajectoire dès la réception."
+        ]
+      ],
+      "faq": [
+        [
+          "Quelle est la différence entre Explore et Infinite ?",
+          "Explore propose des parcours distincts. Infinite enchaîne les passages jusqu’à la fin de la tentative."
+        ]
+      ]
+    },
+    "hyper-tunnel": {
+      "category": "Course réflexe en tunnel",
+      "summary": "Pilotez un vaisseau dans un tunnel qui se resserre. Repérez la prochaine ouverture avant de vous détourner pour une pièce.",
+      "about": [
+        "Regardez au-delà du vaisseau pour voir les murs bouger à temps. Dès qu’un passage est franchi, cherchez le suivant.",
+        "À grande vitesse, viser le milieu d’une ouverture étroite vous laisse de la place pour corriger votre trajectoire."
+      ],
+      "steps": [
+        [
+          "Diriger le vaisseau",
+          "Utilisez les flèches ou WASD et replacez-vous tôt dans les passages étroits."
+        ],
+        [
+          "Choisir les pièces",
+          "Déviez seulement si vous voyez déjà un accès clair à l’ouverture suivante."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi est-il plus dur de tourner en fin de partie ?",
+          "Le vaisseau avance plus vite. Vous avez moins de temps pour vous placer avant l’obstacle."
+        ]
+      ]
+    },
+    "blocky-rider": {
+      "category": "Conduite de moto au milieu du trafic",
+      "summary": "Traversez la circulation à moto, tentez une épreuve de démolition ou explorez les rues et les rampes en mode City.",
+      "about": [
+        "Gardez une marge quand vous dépassez. L’espace entre deux véhicules peut disparaître si l’un d’eux change de voie.",
+        "Pour apprendre à tourner et à freiner, essayez les rues du mode City. Changez de caméra si les véhicules proches gênent la vue."
+      ],
+      "steps": [
+        [
+          "Sélectionner un mode",
+          "Race propose la circulation, Demolition une épreuve chronométrée et City une ville en exploration libre."
+        ],
+        [
+          "Conduire la moto",
+          "Utilisez W ou ↑ pour accélérer, S ou ↓ pour ralentir et A, D ou les flèches gauche et droite pour tourner. C change la vue."
+        ]
+      ],
+      "faq": [
+        [
+          "Où s’entraîner tranquillement ?",
+          "Choisissez City et revenez plusieurs fois sur la même rue ou la même rampe."
+        ]
+      ]
+    },
+    "flying-ball": {
+      "category": "Descente sur pistes étroites",
+      "summary": "Gardez la balle sur des pistes suspendues et ramassez les gemmes qui débloquent de nouvelles apparences.",
+      "about": [
+        "La balle roule toute seule. Dès que la piste tourne, amorcez le mouvement tant qu’il reste assez de largeur.",
+        "Avant un tremplin, regardez où vous serez à la réception. Corrigez légèrement en l’air si la balle s’éloigne de la partie la plus large."
+      ],
+      "steps": [
+        [
+          "Suivre la piste",
+          "Utilisez les flèches gauche et droite pour aligner la balle."
+        ],
+        [
+          "Préparer la réception",
+          "Choisissez une zone d’arrivée large avant de quitter le tremplin, puis ajustez si nécessaire."
+        ]
+      ],
+      "faq": [
+        [
+          "À quoi servent les gemmes ?",
+          "Elles débloquent des apparences de balle. Prenez-les quand elles sont sur votre trajectoire."
+        ]
+      ]
+    },
+    "dancing-beat": {
+      "category": "Jeu de rythme à un clic",
+      "summary": "Suivez la chanson et cliquez aux repères pour guider la balle sur un parcours qui change de direction.",
+      "about": [
+        "La balle rejoint les virages au rythme du morceau. Regardez le chemin se dessiner pour anticiper les changements rapprochés.",
+        "Si le même virage vous fait perdre le fil, rejouez le morceau et trouvez le son qui précède le clic."
+      ],
+      "steps": [
+        [
+          "Prendre le tempo",
+          "Écoutez la première phrase musicale pendant que le parcours apparaît."
+        ],
+        [
+          "Cliquer au repère",
+          "Cliquez une fois au point de passage. Cherchez déjà le prochain virage."
+        ]
+      ],
+      "faq": [
+        [
+          "Que faire quand le tempo change ?",
+          "Prenez le prochain virage comme repère visuel pour retrouver le rythme."
+        ]
+      ]
+    },
+    "snow-road": {
+      "category": "Descente en luge en pixel art",
+      "summary": "Descendez une piste enneigée, évitez les rochers et les arbres et sautez par-dessus les trous.",
+      "about": [
+        "Regardez au-delà du premier arbre. Le détour le plus évident peut vous envoyer droit vers un rocher.",
+        "Avant un saut, choisissez un côté où vous aurez encore la place de tourner à la réception. Gardez cette marge quand une récompense apparaît au bord de la piste."
+      ],
+      "steps": [
+        [
+          "Diriger la luge",
+          "Utilisez les flèches gauche et droite pour trouver une bande de neige dégagée."
+        ],
+        [
+          "Franchir un trou",
+          "Sautez avec Espace ou ↑ quand vous voyez la zone de réception."
+        ]
+      ],
+      "faq": [
+        [
+          "À quoi servent les récompenses ?",
+          "Elles permettent de collectionner d’autres luges."
+        ]
+      ]
+    },
+    "cowboy-safari": {
+      "category": "Course de safari à dos d’animaux",
+      "summary": "Passez d’un animal à l’autre au milieu des troupeaux et ramenez vos nouvelles montures au Sky Zoo.",
+      "about": [
+        "Cherchez une autre monture dès que celle que vous chevauchez devient difficile à diriger. Alignez votre saut avec un animal à portée, sans obstacle entre les deux.",
+        "Les animaux apprivoisés peuvent rejoindre votre Sky Zoo. De retour au zoo, agrandissez leur habitat au fil des améliorations."
+      ],
+      "steps": [
+        [
+          "S’approcher d’une monture",
+          "Utilisez les flèches gauche et droite pour vous placer et Espace pour courir ou sauter vers l’animal."
+        ],
+        [
+          "Rester en selle",
+          "Maintenez Espace pour rester sur son dos le temps de choisir le prochain saut."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand changer de monture ?",
+          "Cherchez un nouvel animal dès que la monture actuelle résiste à vos changements de direction."
+        ]
+      ]
+    },
+    "escape-drive": {
+      "category": "Conduite et poursuite sur terrain accidenté",
+      "summary": "Équilibrez la voiture sur les bosses et choisissez les portions où une accélération peut faire la différence.",
+      "about": [
+        "La voiture avance toute seule. Ajustez son inclinaison à l’approche d’une bosse, puis préparez le contact des roues avec la pente.",
+        "Gardez l’accélération pour une portion dégagée avec les roues bien posées. Testez les améliorations sur un trajet dont vous connaissez déjà le relief."
+      ],
+      "steps": [
+        [
+          "Régler l’inclinaison",
+          "A fait basculer la voiture vers l’arrière et D abaisse l’avant. Corrigez par petites touches."
+        ],
+        [
+          "Ajouter de la vitesse",
+          "Utilisez J pour accélérer et K pour gérer le carburant. Regardez la route avant de les utiliser."
+        ]
+      ],
+      "faq": [
+        [
+          "La voiture avance-t-elle seule ?",
+          "Oui. Vous réglez son inclinaison, la vitesse et l’usage du carburant."
+        ]
+      ]
+    },
+    "escape-road-city-2": {
+      "category": "Poursuite en ville ouverte",
+      "summary": "Semez la poursuite dans une ville en 3D en alternant conduite, accélérations et sorties de véhicule.",
+      "about": [
+        "Jetez un œil à la mini-carte avant de vous engager dans une ruelle. Vous pourrez freiner avant le croisement si vous connaissez déjà la sortie.",
+        "Sur une ligne droite, vous avez le temps d’utiliser le boost. Si vous quittez la voiture en l’air, gardez la touche du parachute à portée."
+      ],
+      "steps": [
+        [
+          "Prendre un virage",
+          "Accélérez avec W ou ↑, freinez ou reculez avec S ou ↓ et tournez avec A, D ou les flèches gauche et droite."
+        ],
+        [
+          "Poursuivre autrement",
+          "Maintenez Maj pour le boost. Appuyez sur E pour sortir de la voiture et sur Espace pour ouvrir le parachute en l’air."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment quitter un véhicule ?",
+          "Appuyez sur E. Regardez où vous allez retomber."
+        ]
+      ]
+    },
+    "mad-racers": {
+      "category": "Course automobile à bonus",
+      "summary": "Affrontez les autres voitures en choisissant quand utiliser le bouclier, les roquettes ou le turbo.",
+      "about": [
+        "Vérifiez quels bonus sont disponibles avant de cliquer. Si une roquette approche, attendez qu’elle soit près de vous pour activer le bouclier.",
+        "Gardez le turbo pour une portion où vous pouvez profiter de la vitesse. Une roquette peut dégager le passage devant un véhicule qui vous bloque."
+      ],
+      "steps": [
+        [
+          "Lire la barre de bonus",
+          "Repérez les cartes disponibles. Cliquez sur la case correspondant à celle que vous voulez activer."
+        ],
+        [
+          "Choisir le bon moment",
+          "Employez le bouclier quand une attaque arrive et attendez un tronçon dégagé pour accélérer."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand lancer le turbo ?",
+          "Sur une ligne droite assez longue pour profiter de l’accélération avant de devoir tourner."
+        ]
+      ]
     }
   }
 }

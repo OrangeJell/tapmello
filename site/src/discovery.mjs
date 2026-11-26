@@ -1,6 +1,7 @@
 import { gamesFor } from './game-catalog.mjs';
 import { locales } from './locales.mjs';
 import { partnerGamesFor, partnerGamePath } from './partner-games.mjs';
+import hindiTags from './translations/tags-hi.json' with { type: 'json' };
 
 export const escapeDiscovery = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 export const discoveryUpdated = '2026-11-21';
@@ -133,7 +134,7 @@ const tagLabels = {
   'chekers-games': 'checkers games',
   'turnbased-games': 'turn-based games',
 };
-export const tagLabel = id => tagLabels[id] ?? tagName(id);
+export const tagLabel = (id, lang = 'en') => (lang === 'hi' ? hindiTags[id] : tagLabels[id]) ?? tagName(id);
 export const gamesLabel = lang => lang === 'hi' ? 'सभी गेम' : 'All games';
 export const tagsLabel = lang => lang === 'hi' ? 'टैग' : 'Tags';
 export const gameCount = (lang, count) => lang === 'hi' ? `${count} गेम` : `${count} ${count === 1 ? 'game' : 'games'}`;
