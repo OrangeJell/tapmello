@@ -14545,5 +14545,893 @@
         ]
       }
     }
+  },
+  {
+    "id": "escape-road-2",
+    "englishOnly": true,
+    "title": "Escape Road 2",
+    "category": {
+      "en": "Blocky pursuit driving"
+    },
+    "source": "https://1games.io/escape-road-2",
+    "url": "https://escape-road-2.1games.io/",
+    "width": 512,
+    "height": 331,
+    "media": {
+      "icon": "/assets/1games/escape-road-2-icon.png",
+      "artwork": "/assets/1games/escape-road-2-cover.png",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "preview": "/assets/1games/escape-road-2-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/escape-road-2/escape-road-2-3.png",
+        "artwork": "https://1games.io/data/image/game/escape-road-2/banner/escape-road-2-game.png",
+        "preview": "https://cdn.1games.io/file/game/escape-road-2/ecape-road-2.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2024-11-25",
+      "genres": [
+        "driving",
+        "action"
+      ],
+      "tags": [
+        "arcade-car",
+        "vehicles-games",
+        "fast-paced-action"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Keep a blocky city chase going as the pursuit grows. Switch between driving, running, and swimming to find another route or vehicle.",
+        "aboutTitle": "Plan your next route before leaving the car",
+        "about": [
+          "Escape Road 2 starts as a driving chase through a blocky city. The longer the run goes on, the more types of pursuers join in. Look past the next intersection so you can tell whether a turn brings you onto an open street or into a dead end.",
+          "You can leave the current vehicle and continue on foot. Choose an exit when you can see where you will move next. If the street closes off near water, swimming can keep the run going until you find somewhere to return to land.",
+          "Returning to a vehicle changes which routes you can take again. Look for a nearby car with room to pull out. Try different vehicles on routes you already know so you can compare their turning and acceleration during the chase."
+        ],
+        "steps": [
+          [
+            "Drive with room to turn",
+            "Use WASD or the arrow keys to move. Begin steering before you reach a tight intersection."
+          ],
+          [
+            "Decide where to get out",
+            "Press Space to exit the vehicle when you have a route on foot."
+          ],
+          [
+            "Use water when the street closes",
+            "If you reach water, swim toward a way back to land and continue searching for a vehicle."
+          ],
+          [
+            "Get into another vehicle",
+            "Approach a usable vehicle and press Space to enter it."
+          ]
+        ],
+        "faq": [
+          [
+            "Which key enters or exits a vehicle?",
+            "Space handles both actions."
+          ],
+          [
+            "Can I keep going without a car?",
+            "You can run on land and swim in water, then enter another vehicle to resume driving."
+          ],
+          [
+            "What should I do when several pursuers close in?",
+            "Look for an open turn before stopping. If there is no clear driving route, check for somewhere to continue on foot."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "slope-xtreme",
+    "englishOnly": true,
+    "title": "Slope Xtreme",
+    "category": {
+      "en": "Neon rolling runner"
+    },
+    "source": "https://1games.io/slope-xtreme",
+    "url": "https://slope-xtreme.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/slope-xtreme-icon.png",
+      "artwork": "/assets/1games/slope-xtreme-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/slope-xtreme-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/slope-xtreme/slope-xtreme.png",
+        "artwork": "https://1games.io/data/image/game/slope-xtreme/banner/slope-xtreme-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/slope-xtreme/slope-xtreme.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-10-27",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "endless-games",
+        "reaction-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Steer a glowing ball along neon slopes, moving barriers, and sudden gaps. Cyber rings raise your score and make the run faster.",
+        "aboutTitle": "Set up your line before the track speeds up",
+        "about": [
+          "Slope Xtreme launches a ball onto a neon track that changes as you roll. Check the next section early so you can steer before a block or crack leaves you with only one way through.",
+          "Rotating barriers change which part of the track is open. Look where the barrier will be when you reach it. In a tunnel, use small corrections until you can see where the track emerges.",
+          "Cyber rings raise your score and speed, and acceleration pads can make the next turn arrive quickly. Pick up a ring when the track after it has room for an adjustment. If you can only see a narrow ledge beyond it, stay on your current line."
+        ],
+        "steps": [
+          [
+            "Guide the ball sideways",
+            "Use A and D or the Left and Right arrow keys to steer."
+          ],
+          [
+            "Read the next moving barrier",
+            "Watch which gap is opening as the ball approaches."
+          ],
+          [
+            "Line up before a tunnel",
+            "Enter with room on either side and use brief corrections while visibility is limited."
+          ],
+          [
+            "Choose when to take a ring",
+            "Take it when the track ahead gives you space to handle the added speed."
+          ]
+        ],
+        "faq": [
+          [
+            "What do the cyber rings change?",
+            "They add to your score while increasing the speed of the ball."
+          ],
+          [
+            "Do I need a jump button?",
+            "The core controls are left and right steering. Read the slopes and gaps early."
+          ],
+          [
+            "Why do I lose control after a speed pad?",
+            "You have less time to correct at higher speed. Get lined up with the next opening before crossing the pad."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "mad-pursuit",
+    "englishOnly": true,
+    "title": "Mad Pursuit",
+    "category": {
+      "en": "Multi-mode chase driving"
+    },
+    "source": "https://1games.io/mad-pursuit",
+    "url": "https://mad-pursuit.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/mad-pursuit-icon.png",
+      "artwork": "/assets/1games/mad-pursuit-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/mad-pursuit-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/mad-pursuit/mad-pursuit.png",
+        "artwork": "https://1games.io/data/image/game/mad-pursuit/banner/mad-pursuit-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/mad-pursuit/mad-pursuit.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-10-24",
+      "genres": [
+        "driving",
+        "action"
+      ],
+      "tags": [
+        "race-games",
+        "vehicles-games",
+        "car-tuning-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Switch between racing, survival, getaway, and zone objectives. Learn the handling of each car and pick a camera that suits the course.",
+        "aboutTitle": "Adapt your driving to the objective",
+        "about": [
+          "Mad Pursuit gives driving different goals depending on the selected mode. Racing measures laps, while Survival keeps you moving through attacks and hazards. Getaway Driver asks you to reach a destination with your crew, and Zones rewards staying inside the active area.",
+          "The isometric and third-person views each show different parts of the road clearly. Try both on an easy stretch. Use the view that lets you see a corner early enough to set your speed before you turn.",
+          "Unlocked cars and upgrades change how pursuit routes feel. A car you like for a lap may be hard to control inside a tight zone. Compare a few runs on the same course before deciding whether you need a different car or a slower approach."
+        ],
+        "steps": [
+          [
+            "Pick an objective",
+            "Choose Survival, Racing, Getaway Driver, or Zones before entering."
+          ],
+          [
+            "Move and steer",
+            "Use W or Up Arrow to drive forward and S or Down Arrow to reverse. Steer with A and D or Left and Right."
+          ],
+          [
+            "Slow ahead of sharp turns",
+            "Read the exit of a corner before you commit to a fast turn."
+          ],
+          [
+            "Try a different view or vehicle",
+            "Change one setting between attempts so you can see whether it helps on the section you keep missing."
+          ]
+        ],
+        "faq": [
+          [
+            "What is different about Zones?",
+            "The objective is to stay inside the active zone while avoiding pursuers and hazards."
+          ],
+          [
+            "Can I switch the driving camera?",
+            "The game offers isometric and third-person views."
+          ],
+          [
+            "Which mode is best for learning corners?",
+            "Racing lets you compare repeated laps and see which approach costs the least time."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "bloodmoney-remake",
+    "englishOnly": true,
+    "title": "Bloodmoney Remake",
+    "category": {
+      "en": "Horror story clicker"
+    },
+    "source": "https://1games.io/bloodmoney-remake",
+    "url": "https://bloodmoney-remake.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/bloodmoney-remake-icon.png",
+      "artwork": "/assets/1games/bloodmoney-remake-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/bloodmoney-remake-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/bloodmoney-remake/bloodmoney-remake.png",
+        "artwork": "https://1games.io/data/image/game/bloodmoney-remake/banner/bloodmoney-remake-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/bloodmoney-remake/bloodmoney-remake.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-10-21",
+      "genres": [
+        "clicker",
+        "adventure"
+      ],
+      "tags": [
+        "one-button-games",
+        "decision-games",
+        "incremental-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Earn money by clicking, decide which upgrades to buy, and follow a horror story that changes with your choices.",
+        "aboutTitle": "Watch how upgrades change the story",
+        "about": [
+          "Bloodmoney Remake begins with clicking to earn money and turns that simple interaction into a horror story. Harvey’s reactions change as decisions accumulate. Pay attention to the dialogue and visual changes when the game reaches a new milestone.",
+          "Upgrades help the money add up faster, but they also affect how the story develops. Read the available choices before buying something. The reactions that follow can tell you more about the route you are on than the size of your balance.",
+          "The game has different outcomes based on your choices. If you replay it, change one early decision and follow what happens afterward. That makes it easier to see which events depended on the previous route."
+        ],
+        "steps": [
+          [
+            "Earn the first money",
+            "Use the mouse to click and interact with Harvey."
+          ],
+          [
+            "Read before buying",
+            "Check the choices and upgrades when you have earned enough to make a purchase."
+          ],
+          [
+            "Notice the milestone events",
+            "Pause at changes in Harvey’s reactions or dialogue so you can follow the story."
+          ],
+          [
+            "Try a different choice in a replay",
+            "Change one decision and see how the later scenes respond."
+          ]
+        ],
+        "faq": [
+          [
+            "What controls does the game use?",
+            "Use the mouse to click on the available interactions and choices."
+          ],
+          [
+            "Do upgrades only make the balance grow faster?",
+            "They also influence how the story progresses and what happens to Harvey."
+          ],
+          [
+            "Can the story end differently?",
+            "Yes. Your clicks and upgrade choices can lead to different outcomes."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "color-jump",
+    "englishOnly": true,
+    "title": "Color Jump",
+    "category": {
+      "en": "Color-matching reflex arcade"
+    },
+    "source": "https://1games.io/color-jump",
+    "url": "https://color-jump.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/color-jump-icon.png",
+      "artwork": "/assets/1games/color-jump-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/color-jump-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/color-jump/color-jump.png",
+        "artwork": "https://1games.io/data/image/game/color-jump/banner/color-jump-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/color-jump/color-jump.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-10-20",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "color-matching-games",
+        "jumping-games",
+        "timing-games",
+        "one-button-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Jump a ball through the matching color on spinning shapes. Check the ball again after a color change and adjust to faster rotations.",
+        "aboutTitle": "Wait for the matching color to come around",
+        "about": [
+          "Color Jump sends a bouncing ball toward multicolored obstacles. You can pass through the section that matches the ball. Watch the shape rotate so you can judge where that section will be when the ball touches it.",
+          "A color change alters which part of the next obstacle is safe. Look at the ball itself whenever you collect a power-up before planning another jump. Remembering the old color for even one obstacle can end the run.",
+          "Later rotations leave less room for a late decision. The rhythm of the bounce can help you judge when to tap, but use the next matching segment as your main cue. Aim to meet it when it is in the middle of your path."
+        ],
+        "steps": [
+          [
+            "Identify the ball’s current color",
+            "Check the ball before looking for its match on the obstacle."
+          ],
+          [
+            "Jump when the segment lines up",
+            "Click or use W or Up Arrow to bounce through the matching part."
+          ],
+          [
+            "Check again after a power-up",
+            "Read the new color before choosing a line through the next shape."
+          ],
+          [
+            "Adjust to a faster shape",
+            "Look one rotation ahead instead of pressing as soon as the ball reaches the obstacle."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I jump with the keyboard?",
+            "Yes. W and Up Arrow are alternatives to clicking."
+          ],
+          [
+            "Why did I hit a color I cleared earlier?",
+            "A power-up may have changed the ball’s color. Match its current color on every jump."
+          ],
+          [
+            "Do obstacles get faster?",
+            "The rotations and color changes become harder to read as you progress."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "blendrix",
+    "englishOnly": true,
+    "title": "Blendrix",
+    "category": {
+      "en": "Color-link logic puzzle"
+    },
+    "source": "https://1games.io/blendrix",
+    "url": "https://blendrix.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/blendrix-icon.png",
+      "artwork": "/assets/1games/blendrix-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/blendrix-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/blendrix/blendrix.png",
+        "artwork": "https://1games.io/data/image/game/blendrix/banner/blendrix-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/blendrix/blendeix.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-10-17",
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "connect-games",
+        "logic",
+        "color-matching-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Connect matching dots with straight lines and use special dots to change how colors travel across the board.",
+        "aboutTitle": "Work out the constrained connections first",
+        "about": [
+          "Blendrix starts with dots on a board. Drag a straight line between dots of the same color, and the spaces between them take on that color. Before drawing, check which other dots could need the same part of the board.",
+          "Special dots add new possibilities as the puzzles progress. Read their behavior before using them in a long connection. A move that solves one corner can change which directions are available elsewhere.",
+          "Look for dots that have very few possible connections. Place those first, then use what remains to solve the more flexible parts. If you end up with a pair you cannot connect, restart and change the earlier line that took up its path."
+        ],
+        "steps": [
+          [
+            "Find a matching pair",
+            "Look for same-colored dots that line up across the board."
+          ],
+          [
+            "Draw a straight connection",
+            "Click and drag between the dots to fill the spaces between them."
+          ],
+          [
+            "Consider each special dot",
+            "Check how it affects the route you need before making a connection to it."
+          ],
+          [
+            "Revisit the first choices",
+            "If the last pair is blocked, restart with a different line through the crossing."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I bend a line around a dot?",
+            "A normal connection is straight. Check whether a special dot in the puzzle can change your options."
+          ],
+          [
+            "Which pair should I connect first?",
+            "Start with dots with only one plausible straight route. Flexible pairs can come later."
+          ],
+          [
+            "What changes when I connect two dots?",
+            "The spaces along their line take on the connection’s color."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "rocket-fortress",
+    "englishOnly": true,
+    "title": "Rocket Fortress",
+    "category": {
+      "en": "Incremental monster defense"
+    },
+    "source": "https://1games.io/rocket-fortress",
+    "url": "https://rocket-fortress.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/rocket-fortress-icon.png",
+      "artwork": "/assets/1games/rocket-fortress-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/rocket-fortress-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/rocket-fortress/rocket-fortress.png",
+        "artwork": "https://1games.io/data/image/game/rocket-fortress/banner/rocket-fortress-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/rocket-fortress/rocket-fortress.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-10-13",
+      "genres": [
+        "clicker",
+        "strategy"
+      ],
+      "tags": [
+        "defense-games",
+        "horde-survival-games",
+        "incremental-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Launch rockets at cartoon monster waves, strengthen automatic defenses, and save temporary boosts for tougher raids and bosses.",
+        "aboutTitle": "Invest in defenses that carry the next wave",
+        "about": [
+          "Rocket Fortress puts a launcher and allied units against waves of fantasy monsters. Click or press Space to launch a rocket while the army targets enemies automatically. See which monsters make it the farthest before spending on the next upgrade.",
+          "Upgrading the launcher helps in parts of a wave where you want direct control. Reinforcements contribute while you are busy aiming or watching another part of the field. A mix of the two is worth trying when one large upgrade has stopped solving the problem.",
+          "Boss fights and timed raids put more pressure on the same resources. Save a short power-up until the stronger enemy is on the field and you can use most of its active time. Co-op encounters give you another reason to build a reliable defense."
+        ],
+        "steps": [
+          [
+            "Fire at the incoming wave",
+            "Click or press Space to launch rockets."
+          ],
+          [
+            "Observe the automatic army",
+            "Watch which threats the allied troops handle and which reach the front line."
+          ],
+          [
+            "Spend where the line is weakest",
+            "Choose a launcher upgrade or an additional unit based on the last wave."
+          ],
+          [
+            "Reserve a boost for a hard encounter",
+            "Activate it when a boss or dense wave is present and you can use the full window."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I have to direct every allied attack?",
+            "The army selects enemies automatically while you handle the launcher."
+          ],
+          [
+            "What is a good time to use a boost?",
+            "Use it when the enemy that is causing trouble is already on the battlefield."
+          ],
+          [
+            "Why upgrade both rockets and units?",
+            "They contribute in different ways. Units keep attacking between your launches, and rockets give you direct input."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "stack-rush",
+    "englishOnly": true,
+    "title": "Stack Rush",
+    "category": {
+      "en": "Rotating block stacking"
+    },
+    "source": "https://1games.io/stack-rush",
+    "url": "https://stack-rush.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/stack-rush-icon.png",
+      "artwork": "/assets/1games/stack-rush-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/stack-rush-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/stack-rush/stack-rush.png",
+        "artwork": "https://1games.io/data/image/game/stack-rush/banner/stack-rush-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/stack-rush/stack-rush.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-10-15",
+      "genres": [
+        "puzzle",
+        "arcade"
+      ],
+      "tags": [
+        "tiles-games",
+        "timing-games",
+        "tetris-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Turn a round platform beneath falling blocks, fit pieces into gaps, and clear complete rings before the stack gets too high.",
+        "aboutTitle": "Rotate early and keep the ring level",
+        "about": [
+          "Stack Rush drops blocks toward a round platform. You move the platform under each piece. Look for a suitable space as soon as the piece appears, since a late rotation gives you less time to compare two possible placements.",
+          "A complete layer clears. A tall pile on one side can leave a deep gap that is hard to reach with a later shape. Spread out the blocks and prioritise filling almost-complete rings when the piece fits without creating another awkward hole.",
+          "The drops become faster as you continue. Prepare the platform while the piece is still high, then make smaller corrections near the surface. Leave an easy gap for the next block if two current placements are equally good."
+        ],
+        "steps": [
+          [
+            "Rotate the platform",
+            "Use Left Arrow or Right Arrow to turn the stack beneath the falling piece."
+          ],
+          [
+            "Choose a landing early",
+            "Look for a gap that fits the shape before it gets close to the surface."
+          ],
+          [
+            "Finish a nearly complete layer",
+            "Line up a piece with the last gaps so the layer can clear."
+          ],
+          [
+            "Keep both sides usable",
+            "Avoid building a tall pile beside a deep pocket where later blocks will be difficult to fit."
+          ]
+        ],
+        "faq": [
+          [
+            "What clears the blocks?",
+            "A complete layer disappears and gives you room for more drops."
+          ],
+          [
+            "Do I move the falling block directly?",
+            "The left and right arrows rotate the platform below it."
+          ],
+          [
+            "Why is an early turn helpful?",
+            "It gives you time for a small final correction if the shape is not aligned with the gap."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "perfect-orbit",
+    "englishOnly": true,
+    "title": "Perfect Orbit",
+    "category": {
+      "en": "Rotating-course golf arcade"
+    },
+    "source": "https://1games.io/perfect-orbit",
+    "url": "https://perfect-orbit.1games.io/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/perfect-orbit-icon.png",
+      "artwork": "/assets/1games/perfect-orbit-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/perfect-orbit-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/perfect-orbit/perfect-orbit.png",
+        "artwork": "https://1games.io/data/image/game/perfect-orbit/banner/perfect-orbit-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/perfect-orbit/perfect-orbit.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-10-10",
+      "genres": [
+        "sports",
+        "arcade"
+      ],
+      "tags": [
+        "timing-games",
+        "casual-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Time a swing on a rotating course, adjust its power, and earn coins to improve your shot as the obstacles change.",
+        "aboutTitle": "Judge the course before choosing shot power",
+        "about": [
+          "Perfect Orbit plays golf on terrain that rotates. Watch the available line before swinging. If an obstacle is about to move across the direction you want, wait for the course to present a clearer window.",
+          "The arrow’s green section is your timing cue. Power changes how far the ball travels. Use less force when a short shot keeps the ball in play, and save a stronger swing for a line with room beyond the first landing.",
+          "Coins go toward Power, Speed, and Bounce upgrades. Pick a stat based on a pattern you see in several shots. Increasing power can help when well-timed shots regularly fall short. Practice the adjusted distance before buying another upgrade."
+        ],
+        "steps": [
+          [
+            "Watch one pass of the rotating course",
+            "Look for how the obstacles move across your intended line."
+          ],
+          [
+            "Set the shot power",
+            "Hold and drag to adjust how hard the ball will be hit."
+          ],
+          [
+            "Use the green timing cue",
+            "Click when the moving arrow reaches the green zone for a precise swing."
+          ],
+          [
+            "Compare your shots after upgrading",
+            "Try a few similar swings when you change Power, Speed, or Bounce."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I time a precise swing?",
+            "Aim to click when the moving arrow is in the green zone."
+          ],
+          [
+            "How do I change the power?",
+            "Hold and drag to adjust it."
+          ],
+          [
+            "Should I always use full power?",
+            "Choose power for the available landing. A shorter shot can be easier to keep in play near an obstacle."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "madness-lab",
+    "englishOnly": true,
+    "title": "Madness Lab",
+    "category": {
+      "en": "Creature lab minigames"
+    },
+    "source": "https://1games.io/madness-lab",
+    "url": "https://madness-lab.1games.io/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/madness-lab-icon.png",
+      "artwork": "/assets/1games/madness-lab-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/madness-lab-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/madness-lab/madness-lab.png",
+        "artwork": "https://1games.io/data/image/game//banner/madness-lab-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/madness-lab/madness-lab.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-09-15",
+      "genres": [
+        "arcade",
+        "puzzle"
+      ],
+      "tags": [
+        "minigames",
+        "creativity-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Guide hybrid creatures through a lab full of mouse-controlled minigames. Learn the rules of each room before moving on to the next experiment.",
+        "aboutTitle": "Read the room before making the first move",
+        "about": [
+          "Madness Lab gives a scientist a series of rooms for testing unusual animal hybrids. Each room has its own task, from getting past a moving press to handling a chase or crossing a web. Take a moment to see which part of the room responds to your input.",
+          "Timing learned in one room may be too fast for the next. When something keeps moving across the path, watch an entire cycle before trying again. Enter when there is room to finish the action instead of following the first opening you see.",
+          "Different hybrids and upgrades change what the creatures can do. Use an experiment to learn how a new ability behaves before depending on it in a later room. A failed attempt can tell you whether the move was too early or whether you picked the wrong part of the room."
+        ],
+        "steps": [
+          [
+            "Read the room’s goal",
+            "Identify what needs to happen before making the first click."
+          ],
+          [
+            "Use the mouse to interact",
+            "Click to control the creature or the current experiment as the room instructs."
+          ],
+          [
+            "Watch repeatable obstacles",
+            "On a moving obstacle, wait long enough to see when it leaves a clear path."
+          ],
+          [
+            "Try new abilities one at a time",
+            "Observe how a new hybrid or upgrade changes your next attempt before making another change."
+          ]
+        ],
+        "faq": [
+          [
+            "Does each room have the same objective?",
+            "No. Rooms introduce different minigames and obstacles."
+          ],
+          [
+            "What is the main control?",
+            "Use the mouse button to interact with each room’s challenge."
+          ],
+          [
+            "Why try a different creature or upgrade?",
+            "New abilities can change how the creature handles an obstacle or completes the current experiment."
+          ]
+        ]
+      }
+    }
   }
 ]
