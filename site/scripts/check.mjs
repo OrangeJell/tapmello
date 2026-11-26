@@ -19,6 +19,11 @@ async function walk(directory) {
     ? walk(path.join(directory, entry.name)) : path.join(directory, entry.name)))).flat();
 }
 const files = await walk(dist), htmlFiles = files.filter(file => file.endsWith('.html'));
+assert.deepEqual(
+  partnerGames.filter(game => !game.details.hi).map(game => game.id),
+  [],
+  'Publish partner games in all supported languages',
+);
 const gamePages = new Set();
 const legacyGameRedirects = new Map([['/games/coming-soon', '/screw-sort']]);
 for (const code of languageCodes) {

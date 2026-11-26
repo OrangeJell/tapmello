@@ -22,7 +22,7 @@ Wrangler 在 http://127.0.0.1:4173/ 提供预览。游戏详情页示例为 `/ma
 
 - `src/languages.mjs` 管理六种站内语言。英语使用根路径，其他语言沿用 `/zh-cn/`、`/fr/`、`/hi/`、`/ja/`、`/ko/`。切换语言时打开当前页面的对应译本。
 - 已下线的语言地址返回 404。对应语言页已从 sitemap、hreflang 和语言菜单移除。
-- `src/translations/` 保存站点界面和通用文案。合作游戏的独立多语言文案放在 `src/partner-locales/`。各语言版都需要填写分类、简介、玩法和常见问题。
+- `src/translations/` 保存站点界面和通用文案。新增游戏或修改已有游戏的内容时，在同一次提交里更新 `src/languages.mjs` 中的全部站点语言。合作游戏的英文文案放在供应商目录 JSON，译文维护在 `src/partner-locales/`，同步分类、摘要、介绍、操作和常见问题。
 - 三款自研游戏通过播放器地址的 `lang` 参数读取各自的语言资源。合作游戏内可用的语言来自供应商，详情页语言由站点控制。
 - 改动英文站内文案后，用 `node site/scripts/build.mjs --extract-locales` 列出待翻译的原文。用 `--extract-hi-info` 获取印地语站务页需要的原文。构建会指出缺失译文或占位符不一致的位置。
 
@@ -47,14 +47,14 @@ npm --prefix site run check:locale             # 全部非英文语言冒烟
 
 所有游戏详情页统一用 `src/standard-detail.mjs` 的 `renderStandardDetail(lang, game, content)` 生成正文。模板接收游戏 ID、标题、分类、封面及尺寸、iframe 地址，以及可选的横版封面和预览视频。每种语言的内容提供介绍段落、带小标题的操作步骤和问答，控件由模板翻译。游戏页样式和交互在 `src/assets/standard-detail.css` 和 `src/assets/standard-detail.js`。Nuts Puzzle 的记录在 Playgama JSON 里，可作为长文案的接入示例。
 
-Playgama 游戏的数据只维护在 `src/playgama-games.json`。在数组末尾添加一条记录后运行构建即可生成详情页、首页图标和站内推荐候选。只有 `details.en` 的游戏仅进入英文站；补齐 `category.hi`、`details.hi` 和其他站内语言词库后，才会进入其他语言版本。每条记录包含：
+Playgama 游戏的目录数据维护在 `src/playgama-games.json`。在数组末尾添加记录并补齐各语言文案，构建会生成详情页、首页图标和站内推荐候选。每条记录包含：
 
 - `id`、`title`、`url` 和 `category.en`（多语言游戏另加 `category.hi`）。用导出的 slug 当 ID，保留游戏地址里的 `clid`。
 - `width`、`height` 是图标尺寸；`media.icon`、`media.artwork`、`media.artworkWidth`、`media.artworkHeight` 分别指图标、横版图片和横版图片尺寸。`media.preview` 可设为 `null`。媒体地址支持 `/assets/` 或 HTTPS，`media.sources` 保留原始图像链接和视频 ID，便于以后更新。有视频时默认同时展示图片和视频。设置 `media.artworkAsPosterOnly: true` 时，图片只用作视频封面；没有视频时仍单独展示图片。
 - `details.en`（以及多语言游戏的 `details.hi`）维护搜索摘要 `summary`、介绍标题 `aboutTitle`、介绍段落 `about`、玩法步骤 `steps` 和问答 `faq`。可选的 `searchTitle` 用于搜索结果标题，`title` 字符串数组用于把播放器标题分成两行。
 - `metadata` 保留 Playgama 导出的 `mobileReady`、`gender`、`inGamePurchases`、`supportedLanguages`、`genres` 与 `tags`，由模板在简介卡片统一显示。游戏内语言单独列出。
 
-合作游戏实际生成的语言版本进入 sitemap，各自有 canonical；hreflang 只列出存在的版本。英文独占页面切换到其他语言时，进入对应语言的全部游戏页。三个自研游戏的独立播放器保留 `noindex, follow`。
+各语言游戏详情页进入 sitemap，并使用各自的 canonical 和对应的 hreflang。三个自研游戏的独立播放器保留 `noindex, follow`。
 
 1Games 游戏单独维护在 `src/1games-games.json`。各供应商和自研游戏的详情页统一使用 `/{slug}`，其他语言加语言前缀，例如 `/zh-cn/crop-runner`。按各款游戏的玩法从站内已有标签中选取。记录原始游戏页、官方嵌入地址和 `media.sources` 中的素材来源。本地文件按游戏 ID 存放在 `public/assets/1games/`。播放器背景预览和正文媒体区使用官方嵌入页 `game__video` 对应的 MP4。正文媒体区也可展示内容确实不同于封面的图片。将这些图片登记在可选的 `media.screenshots` 数组，每张填写本地 `src`、实际 `width` 和 `height`、英文 `alt` 及原始 HTTPS `source`。核对图片内容，跳过封面和图标的重复图、裁切版或缩放版。封面继续用于视频海报和分享图。视频和独立图片都没有时省略正文媒体区。
 

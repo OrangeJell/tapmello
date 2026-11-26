@@ -9381,6 +9381,846 @@
           "Essayez de relâcher à un autre point de la colline précédente pour que la balle atteigne un meilleur angle de pente."
         ]
       ]
+    },
+    "icy-dash": {
+      "category": "Course de snowboard",
+      "summary": "Dévalez les pistes enneigées, contournez les dangers en mouvement et effectuez des sauts aériens sans perdre votre ligne.",
+      "aboutTitle": "Alignez votre atterrissage avant de tenter un flip",
+      "about": [
+        "Icy Dash met plusieurs snowboarders sur un même parcours enneigé. Regardez au-delà du coureur devant vous pour voir où le sentier se courbe ou se rétrécit.",
+        "Les blocs de neige et les boules de neige qui roulent modifient ce qui serait autrement une ligne claire. Faites de petites corrections de direction à mesure que vous vous en approchez et laissez de la place pour le prochain virage.",
+        "Les flips aériens vous offrent un autre choix lors d'un saut. Essayez-en un lorsque vous pouvez voir un large atterrissage. Lors d'un saut court près d'un obstacle, concentrez-vous sur la descente là où vous pouvez à nouveau vous diriger."
+      ],
+      "steps": [
+        [
+          "Lire le cours",
+          "Attendez-vous au prochain virage et aux boules de neige en mouvement."
+        ],
+        [
+          "Diriger la descente",
+          "Utilisez WASD ou les touches fléchées pour contourner les dangers."
+        ],
+        [
+          "Choisissez un saut avec un atterrissage clair",
+          "Utilisez une prise en vol pour effectuer un retournement lorsque vous avez la place de le terminer."
+        ],
+        [
+          "Préparez-vous pour le prochain tour",
+          "Pointez vers le côté ouvert avant que la planche ne touche le sol."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment piloter ?",
+          "Utilisez WASD ou les touches fléchées."
+        ],
+        [
+          "Quand dois-je essayer un flip ?",
+          "Essayez-le lorsque le prochain atterrissage est visible et que vous avez de la place pour vous aligner."
+        ],
+        [
+          "Pourquoi ma ligne disparaît-elle ?",
+          "Le déplacement d’obstacles peut combler un écart. Anticipez avant de vous engager."
+        ]
+      ]
+    },
+    "meme-puzzle": {
+      "category": "Puzzle de mémoire d'assemblage de personnages",
+      "summary": "Placez les pièces qui apparaissent pour reconstruire les personnages de dessins animés de mémoire. Assemblez-en un en mode simple ou triez les pièces pour deux en mode mixte.",
+      "aboutTitle": "Construisez une image mentale avant de placer chaque pièce",
+      "about": [
+        "Meme Puzzle présente les pièces de personnages une par une. Déplacez la pièce avec la souris et cliquez à l'endroit où elle doit se trouver. Une fois placé, il disparaît, vous devez donc vous souvenir de ce que vous avez déjà assemblé.",
+        "Utilisez un élément important tel qu'une tête ou un accessoire distinctif comme référence. Sur des figures inconnues, imaginez où la pièce actuelle devrait se situer par rapport à cette caractéristique avant de cliquer.",
+        "Le mode unique vous donne un sujet. Le mode mixte en introduit deux, alors identifiez à quelle figure appartient une pièce avant de décider où la placer. Une couleur ou une forme distinctive peut aider à séparer les deux."
+      ],
+      "steps": [
+        [
+          "Choisissez un mode",
+          "Choisissez le mode unique pour un personnage ou le mode mixte pour deux."
+        ],
+        [
+          "Regardez la pièce",
+          "Identifiez l'entité qu'il représente avant de le déplacer."
+        ],
+        [
+          "Déplacez-le et placez-le",
+          "Guidez la pièce avec la souris et cliquez sur la position prévue."
+        ],
+        [
+          "Mémoriser le dernier emplacement",
+          "Utilisez-le comme référence après la disparition de la pièce."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je voir les pièces que j'ai placées ?",
+          "Ils disparaissent après le placement, alors gardez une image mentale."
+        ],
+        [
+          "Qu'est-ce qui change en mode mixte ?",
+          "Des pièces pour deux personnages apparaissent dans le même défi."
+        ],
+        [
+          "Comment éviter de mélanger les personnages ?",
+          "Utilisez une fonctionnalité distincte pour identifier chacun avant de placer la pièce."
+        ]
+      ]
+    },
+    "wyrmdash": {
+      "category": "Coureur d'élan du dragon",
+      "summary": "Chevauchez un dragon à travers les collines et les routes des forteresses. Plongez sous terre et relâchez vers une pente descendante pour prendre de la vitesse jusqu'au prochain saut.",
+      "aboutTitle": "Utilisez la forme du sol pour gagner de la vitesse",
+      "about": [
+        "Wyrmdash suit une princesse sur un dragon à travers les collines et les fortifications. Tenir la souris envoie le dragon sous terre et le relâcher le renvoie dans les airs. La pente à proximité de cette version change la direction dans laquelle vous vous déplacez.",
+        "Une bonne plongée entraîne le dragon vers le bas d’une colline avec rapidité. Recherchez un segment de descente avant de vous engager. Déboucher sur une face en montée peut vous éloigner de la partie suivante de l'itinéraire.",
+        "Après un saut, cherchez la prochaine descente avant que le dragon ne redescende. Vous pouvez récupérer d'une section lente en enchaînant quelques plongées modestes au lieu d'essayer de parcourir tout le tronçon en un seul saut."
+      ],
+      "steps": [
+        [
+          "Repérer une section de descente",
+          "Regardez le terrain devant vous avant de plonger."
+        ],
+        [
+          "Plongez sous terre",
+          "Maintenez le bouton gauche de la souris."
+        ],
+        [
+          "Relâchez vers la prochaine colline",
+          "Lâchez prise pour envoyer le dragon dans les airs."
+        ],
+        [
+          "Planifiez la prochaine plongée",
+          "Regardez où le dragon atterrira et utilisez la pente suivante pour prendre de la vitesse."
+        ]
+      ],
+      "faq": [
+        [
+          "Que se passe-t-il lorsque je tiens la souris ?",
+          "Le dragon plonge sous terre."
+        ],
+        [
+          "Comment puis-je revenir en arrière ?",
+          "Relâchez le bouton de la souris."
+        ],
+        [
+          "Où dois-je créer une dynamique ?",
+          "Choisissez une pente descendante pour que le prochain saut soit plus rapide."
+        ]
+      ]
+    },
+    "titans-clicker": {
+      "category": "Clicker de combat de monstres",
+      "summary": "Cliquez sur des vagues de monstres fantastiques, collectez des pièces et améliorez votre Titan lorsque des rencontres plus difficiles ralentissent la course.",
+      "aboutTitle": "Choisissez des améliorations en fonction de ce qui arrête le Titan",
+      "about": [
+        "Titans Clicker vous permet d'endommager des monstres de dessins animés à chaque clic. Vaincre un ennemi vous donne des ressources pour les améliorations. Regardez combien de clics un ennemi plus fort prend avant de dépenser.",
+        "Utilisez les premières rencontres pour construire le Titan de base. Comme les ennemis mettent plus de temps à être éliminés, comparez une amélioration immédiate des dégâts avec une économie pour un achat plus important. L’option la plus forte est celle qui vous aide à passer au groupe suivant.",
+        "Les rencontres de boss sont de bons endroits pour juger de vos progrès. Si votre rythme d'attaques semble stable mais que leur santé bouge à peine, renforcez le Titan avant de réessayer. Réinvestissez les récompenses à mesure que la difficulté de l’ennemi augmente."
+      ],
+      "steps": [
+        [
+          "Commencez la rencontre",
+          "Cliquez sur le monstre pour attaquer."
+        ],
+        [
+          "Récupérez la récompense",
+          "Utilisez les pièces et les ressources gagnées par un ennemi vaincu."
+        ],
+        [
+          "Améliorez votre Titan",
+          "Achetez une mise à niveau lorsque les monstres mettent systématiquement plus de temps à vaincre."
+        ],
+        [
+          "Comparez les progrès chez le prochain boss",
+          "Vérifiez si la nouvelle mise à niveau réduit le nombre de clics dont vous avez besoin."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment attaquer ?",
+          "Cliquez sur le monstre."
+        ],
+        [
+          "D'où proviennent les ressources de mise à niveau ?",
+          "Les ennemis vaincus fournissent les pièces et les ressources que vous dépensez."
+        ],
+        [
+          "Pourquoi est-ce que je ralentis ?",
+          "Les monstres ultérieurs peuvent subir plus de coups. Améliorez le Titan si vos attaques perdent du terrain."
+        ]
+      ]
+    },
+    "wacky-nursery-2": {
+      "category": "Suite du puzzle de l'histoire de l'école",
+      "summary": "Retournez dans une école étrange mardi, suivez les missions des personnages et décidez quand livrer des objets ou enquêter sur des pièces interdites.",
+      "aboutTitle": "Suivez une mission à travers les périodes scolaires changeantes",
+      "about": [
+        "Wacky Nursery 2 continue le mystère de l'école avec une journée et des routines différentes. Parlez d’abord aux personnes liées à votre tâche actuelle. Une demande peut dépendre de la visite d’une personne en particulier avant le changement de période scolaire.",
+        "Gardez une trace de ce que vous transportez et de qui l’a demandé. Une distraction peut ouvrir un chemin vers une zone autrement inaccessible. Attendez que votre tâche actuelle vous donne une raison de l'utiliser plutôt que de vous éloigner à mi-parcours.",
+        "Si un choix met fin à la tentative, rappelez-vous quel événement l'a déclenché. Redémarrez et effectuez une modification au début de la séquence. Cela permet de distinguer un élément que vous avez manqué d'une conversation que vous avez commencée trop tard."
+      ],
+      "steps": [
+        [
+          "Trouver la mission en cours",
+          "Vérifiez ce que veut le personnage avant de quitter la zone."
+        ],
+        [
+          "Marchez jusqu'à la personne ou la pièce suivante",
+          "Utilisez WASD ou les touches fléchées pour vous déplacer."
+        ],
+        [
+          "Interagissez lorsque vous atteignez la cible",
+          "Utilisez l'espace ou cliquez avec le bouton gauche pour sélectionner ou interagir."
+        ],
+        [
+          "Revoir la séquence après une erreur",
+          "Modifiez une conversation ou une livraison la prochaine fois."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment sélectionner une option de dialogue ?",
+          "Appuyez sur Espace ou cliquez avec le bouton gauche."
+        ],
+        [
+          "Est-ce le même jour d'école que le premier match ?",
+          "La suite a lieu mardi, avec de nouvelles routines et missions."
+        ],
+        [
+          "Que se passe-t-il si une pièce est interdite d'accès ?",
+          "Suivez la mission en cours et recherchez une distraction ou une tâche qui vous donne accès."
+        ]
+      ]
+    },
+    "wacky-nursery": {
+      "category": "Aventure scolaire en boucle temporelle",
+      "summary": "Revivez une journée d'école insolite pour apprendre les routines des élèves, rassembler des objets et découvrir le mystère de leurs disparitions.",
+      "aboutTitle": "Utilisez chaque répétition de la journée pour suivre une piste plus claire",
+      "about": [
+        "Wacky Nursery place un nouvel élève dans une école primaire où il redouble le même jour. Parlez à vos camarades de classe et faites attention à ce qui change lorsque vous répondez différemment. Une petite demande peut devenir la prochaine étape d’un plus grand mystère.",
+        "Une mission peut dépendre du déroulement des tâches dans l'ordre. Si vous trouvez un objet avant de savoir qui en a besoin, rappelez-vous où vous l'avez trouvé. Suivre les demandes d’un personnage peut être plus facile que de basculer entre plusieurs itinéraires incomplets.",
+        "Utilisez une tentative infructueuse pour apprendre un détail utile sur l’école. Essayez la même ouverture en changeant une conversation ou en récupérant un objet. Une fois que vous savez quelle action a causé le problème, vous pouvez planifier le lendemain."
+      ],
+      "steps": [
+        [
+          "Choisissez quelqu'un à qui parler",
+          "Trouvez un camarade de classe avec une demande que vous pouvez suivre."
+        ],
+        [
+          "Se déplacer dans l'école",
+          "Utilisez WASD ou les touches fléchées."
+        ],
+        [
+          "Interagissez ou sélectionnez une option",
+          "Appuyez sur Espace ou cliquez avec le bouton gauche."
+        ],
+        [
+          "Poursuivez la leçon dans la boucle suivante",
+          "Souvenez-vous de la conversation ou de l'élément qui a changé le résultat."
+        ]
+      ],
+      "faq": [
+        [
+          "Que dois-je faire si la journée recommence ?",
+          "Utilisez ce que vous avez appris lors de la tentative précédente pour tenter un choix différent."
+        ],
+        [
+          "Puis-je résoudre les tâches des personnages dans n'importe quel ordre ?",
+          "Certaines missions dépendent de conversations et d'objets antérieurs. Suivez leurs indices dans l’ordre."
+        ],
+        [
+          "Comment choisir une réponse ?",
+          "Utilisez Espace ou cliquez avec le bouton gauche pour sélectionner l'option."
+        ]
+      ]
+    },
+    "mama-s-cookeria": {
+      "category": "Simulation de cuisson de recettes",
+      "summary": "Suivez les tâches de cuisson à l'écran, depuis le hachage et le mélange jusqu'au contrôle de la chaleur, en passant par le chronométrage de chaque étape et le dressage du plat.",
+      "aboutTitle": "Lisez chaque tâche de cuisine avant d'utiliser la souris",
+      "about": [
+        "Mama's Cookeria transforme les recettes en courtes tâches contrôlées par la souris. Le même ingrédient peut nécessiter différentes actions dans différentes recettes. Vérifiez si l'étape en cours vous demande de trancher, mélanger, cuire ou décorer avant de déplacer la souris.",
+        "Changer d’ustensile change le type de timing dont vous avez besoin. Le travail de préparation est récompensé en suivant le mouvement indiqué, tandis qu'une poêle ou un four demande de surveiller la chaleur et les minuteries. Terminez l’instruction en cours avant de vous tourner vers le placage.",
+        "Les recettes deviennent plus faciles à répéter une fois que vous reconnaissez la séquence des tâches. Si votre timing n'a pas été le bon moment pour une étape, concentrez-vous sur cette partie la prochaine fois que vous cuisinerez le plat. Le guide en jeu montre quelle action est nécessaire lorsque vous modifiez des recettes."
+      ],
+      "steps": [
+        [
+          "Lire la première instruction",
+          "Vérifiez ce que la recette attend avant de toucher un ingrédient."
+        ],
+        [
+          "Préparer les ingrédients",
+          "Utilisez la souris pour l'action indiquée pour trancher, hacher ou mélanger."
+        ],
+        [
+          "Regardez l'étape de cuisson",
+          "Suivez les instructions de chauffage et de minuterie à l'écran."
+        ],
+        [
+          "Terminer le plat",
+          "Utilisez la souris pour terminer le placage ou la décoration lorsque vous y êtes invité."
+        ]
+      ],
+      "faq": [
+        [
+          "Ce jeu utilise-t-il les commandes du clavier pour les recettes ?",
+          "Les actions de cuisine utilisent la souris."
+        ],
+        [
+          "Est-ce que tous les plats suivent les mêmes étapes ?",
+          "Les recettes sont composées de différentes tâches de préparation, de cuisson et de finition."
+        ],
+        [
+          "Que dois-je surveiller lorsque je réchauffe des aliments ?",
+          "Suivez les instructions de température et de minuterie du jeu pour l’étape en cours."
+        ]
+      ]
+    },
+    "trimerge": {
+      "category": "Fusion de tuiles numériques",
+      "summary": "Faites glisser les nombres sur le tableau, associez un 1 à un 2 pour former 3, puis combinez des multiples de trois correspondants tout en gardant l'espace ouvert.",
+      "aboutTitle": "Gardez un faible nombre de partenaires à proximité et laissez un avantage libre",
+      "about": [
+        "TriMerge déplace le tableau lorsque vous faites glisser votre doigt. Un 1 et un 2 peuvent se combiner en 3, tandis que des valeurs plus élevées fusionnent avec une tuile correspondante. Vérifiez quelles petites tuiles ont encore besoin de partenaires avant de pousser l'ensemble du plateau dans une nouvelle direction.",
+        "Essayez de garder les valeurs les plus grandes vers un bord. Cela laisse une zone plus dégagée pour les nouvelles tuiles 1 et 2. Si un simple glissement devait séparer une petite paire dans tous les domaines, voyez si une autre direction peut les combiner plus tôt.",
+        "Un échiquier bondé peut ne laisser qu'un seul coup utile. Déterminez ce que cette diapositive fera à chaque ligne avant de l'utiliser. Lorsque vous pouvez effacer deux espaces adjacents dans l’ordre, la deuxième fusion peut avoir plus de valeur qu’une grande valeur."
+      ],
+      "steps": [
+        [
+          "Trouver une paire 1 et 2",
+          "Rassemblez les deux petites valeurs pour former un 3."
+        ],
+        [
+          "Glissez pour déplacer le tableau",
+          "Utilisez la souris pour faire glisser les tuiles dans la direction choisie."
+        ],
+        [
+          "Fusionner les nombres supérieurs correspondants",
+          "Alignez deux tuiles égales une fois qu'elles sont au moins 3."
+        ],
+        [
+          "Gardez un avantage utilisable",
+          "Recherchez une direction avec un mouvement de suivi lorsque la grille se remplit."
+        ]
+      ],
+      "faq": [
+        [
+          "Deux tuiles 1 peuvent-elles fusionner ?",
+          "Un 1 a besoin d’un 2 pour former 3."
+        ],
+        [
+          "Comment fusionner des tuiles plus grandes ?",
+          "Déplacez ensemble les nombres supérieurs correspondants."
+        ],
+        [
+          "Pourquoi garder les grands nombres près d’un bord ?",
+          "Cela laisse plus de place pour créer des correspondances entre les tuiles plus petites."
+        ]
+      ]
+    },
+    "tung-sahur-clicker": {
+      "category": "Cliqueur de pièces de monnaie",
+      "summary": "Appuyez ou appuyez sur Espace pour gagner des pièces grâce à la danse de Tung Sahur, puis achetez des augmentations de revenus, des skins et des effets météorologiques.",
+      "aboutTitle": "Générez des revenus en pièces avant d'acheter le prochain déverrouillage visuel",
+      "about": [
+        "Tung Sahur Clicker place son danseur au coin d'une rue et transforme chaque clic en pièces de monnaie. Une fois que vous pouvez vous permettre une mise à niveau, comparez combien elle ajoutera à vos revenus avant de la dépenser.",
+        "Les clics manuels peuvent déclencher une opportunité de double revenu. Utilisez le boost lorsque vous pouvez continuer à appuyer pendant la fenêtre. Les multiplicateurs ont plus de valeur une fois que votre taux de pièces habituel est plus élevé.",
+        "Les skins et les effets météorologiques changent l'apparence de la scène au fur et à mesure de votre progression. Si vous souhaitez un nouvel effet, vérifiez combien de clics ordinaires cela prendrait. Une augmentation de revenu peut d’abord faciliter l’épargne."
+      ],
+      "steps": [
+        [
+          "Gagnez les premières pièces",
+          "Cliquez sur l'écran ou appuyez sur Espace."
+        ],
+        [
+          "Vérifiez la prochaine mise à jour",
+          "Recherchez un changement dans les gains ou un multiplicateur."
+        ],
+        [
+          "Utilisez le bonus de clic manuel",
+          "Continuez à exploiter pendant l’opportunité de double revenu."
+        ],
+        [
+          "Économisez pour un déverrouillage visuel",
+          "Utilisez des revenus plus élevés pour obtenir l’effet de peau ou météo souhaité."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je gagner des pièces avec le clavier ?",
+          "Oui. Appuyez sur Espace."
+        ],
+        [
+          "Que puis-je débloquer d'autre ?",
+          "Les mises à niveau incluent des skins, des effets météorologiques et des modifications des gains en pièces."
+        ],
+        [
+          "Quand un multiplicateur est-il le plus utile ?",
+          "Utilisez-le une fois que votre revenu régulier est suffisamment élevé pour bénéficier de ce coup de pouce."
+        ]
+      ]
+    },
+    "tic-tac-toe-io": {
+      "category": "Morpion configurable",
+      "summary": "Jouez contre l'ordinateur, un ami local ou un adversaire en ligne. Choisissez la taille du tableau et si trois ou cinq marques forment une ligne.",
+      "aboutTitle": "Lisez la ligne gagnante avant de placer une marque",
+      "about": [
+        "Tic Tac Toe IO vous permet de définir le tableau et les conditions de victoire avant de commencer. Un jeu à trois points vous demande de surveiller les lignes courtes, tandis qu'un plateau plus grand à cinq points donne aux menaces plus de marge pour se développer dans plusieurs directions.",
+        "Recherchez les mouvements qui laissent ouvertes deux lignes possibles. Lorsqu'un adversaire a déjà une ligne presque terminée, bloquez-la avant de développer la vôtre, à moins que vous ne puissiez terminer immédiatement.",
+        "Le mode local à deux joueurs partage le même plateau, tandis que les modes ordinateur et en ligne vous proposent des adversaires différents. Essayez quelques tours sur la plus petite grille pour vous entraîner à voir les lignes, les colonnes et les diagonales avant de l'agrandir."
+      ],
+      "steps": [
+        [
+          "Choisissez un tableau et gagnez la condition",
+          "Sélectionnez la grille et le nombre de marques qui complèteront une ligne."
+        ],
+        [
+          "Placer une marque",
+          "Cliquez sur une case vide à votre tour."
+        ],
+        [
+          "Vérifiez toutes les directions",
+          "Recherchez une ligne que votre adversaire pourra compléter ensuite."
+        ],
+        [
+          "Configurez une autre option gagnante",
+          "Une fois la menace immédiate couverte, visez un mouvement avec deux continuations."
+        ]
+      ],
+      "faq": [
+        [
+          "Deux personnes peuvent-elles partager un appareil ?",
+          "Oui. Utilisez le mode local à deux joueurs et cliquez à tour de rôle."
+        ],
+        [
+          "Combien de points gagnent ?",
+          "Les paramètres proposent des règles de trois ou cinq à la suite."
+        ],
+        [
+          "Puis-je pratiquer seul ?",
+          "Utilisez le mode ordinateur et choisissez une difficulté."
+        ]
+      ]
+    },
+    "fire-flush": {
+      "category": "Arcade aérienne de lutte contre les incendies",
+      "summary": "Remplissez un avion de lutte contre les incendies depuis les lacs et libérez de l'eau sur les incendies de forêt. Utilisez des montées et des virages prudents pour accomplir des missions.",
+      "aboutTitle": "Donnez à l'avion de l'espace pour se stabiliser avant de libérer de l'eau",
+      "about": [
+        "Fire Flush envoie Scruffy dans un avion de lutte contre les incendies avec un approvisionnement en eau limité. Remplissez le réservoir d'un lac avant de planifier votre prochain largage. Vérifiez le terrain devant vous afin de pouvoir vous arrêter après le ravitaillement.",
+        "Une approche de niveau facilite l'alignement d'une goutte avec le feu. Commencez à corriger votre angle avant d’atteindre les flammes. Un col raide rend plus difficile de déterminer où l'eau va atterrir.",
+        "Les falaises et les grottes peuvent rendre le retour plus difficile que le premier col. Planifiez comment retourner à l'eau après chaque goutte. La progression de la mission ouvre des avions et des améliorations que vous pouvez essayer sur des itinéraires familiers."
+      ],
+      "steps": [
+        [
+          "Trouver une source d'eau",
+          "Utilisez un lac pour remplir le réservoir avant de vous approcher d’un incendie."
+        ],
+        [
+          "Sortez de la recharge",
+          "Utilisez W ou la flèche vers le haut pour monter."
+        ],
+        [
+          "Définir l'angle",
+          "Appuyez sur A ou D, ou sur Gauche ou Droite, pour régler l'inclinaison."
+        ],
+        [
+          "Versez de l'eau sur le feu",
+          "Appuyez sur Espace une fois l'avion aligné."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment remplir le réservoir ?",
+          "Descendez jusqu’à un lac, puis remontez une fois que vous avez de l’eau."
+        ],
+        [
+          "Quelle clé fait couler de l'eau ?",
+          "Utilisez l'espace."
+        ],
+        [
+          "Pourquoi rater les flammes dans un col raide ?",
+          "Une approche par niveaux vous donne une ligne plus claire et plus de temps pour juger la version."
+        ]
+      ]
+    },
+    "fury-chase-2": {
+      "category": "Conduite de poursuite dans les déserts",
+      "summary": "Participez à une poursuite dans un désert de dessins animés, contournez les falaises et les rampes et débloquez des véhicules pour des missions plus exigeantes.",
+      "aboutTitle": "Lisez la route avant de vous lancer dans une poursuite",
+      "about": [
+        "Fury Chase 2 utilise des routes en friche avec des poursuivants et des transitions difficiles. Regardez au-delà du véhicule le plus proche avant de changer de direction. Une falaise ou une rampe étroite peut laisser peu de place pour un virage supplémentaire.",
+        "Lorsque la surface s'ouvre, augmentez la vitesse pendant que le véhicule est stable. Ralentissez avant d’entrer dans un virage serré, puis accélérez à la sortie. Si le prochain obstacle est un saut, alignez la voiture avant de quitter le sol.",
+        "Les missions ultérieures introduisent de nouveaux véhicules et des configurations plus difficiles. Comparez le comportement d'une nouvelle voiture sur un terrain simple avant d'essayer un itinéraire comportant plusieurs sauts. Un véhicule doté d'une direction confortable peut aider à bien plus qu'une vitesse supplémentaire sur un parcours étroit."
+      ],
+      "steps": [
+        [
+          "Accélérer ou ralentir",
+          "Utilisez W ou la flèche vers le haut pour accélérer et S ou la flèche vers le bas pour ralentir."
+        ],
+        [
+          "Diriger avant un virage",
+          "Utilisez A et D ou les touches fléchées pour sélectionner une ligne ouverte."
+        ],
+        [
+          "Utiliser le contrôle d'action",
+          "Appuyez sur Espace lorsque le jeu demande une action."
+        ],
+        [
+          "Ajuster la prochaine tentative",
+          "Essayez un autre véhicule ou une autre approche si vous continuez à perdre le contrôle dans une section."
+        ]
+      ],
+      "faq": [
+        [
+          "Quelle touche correspond à l'entrée d'action ?",
+          "Utilisez l'espace."
+        ],
+        [
+          "Pourquoi est-ce que je dépasse les virages ?",
+          "Vous entrez peut-être trop vite. Ralentissez avant le virage et accélérez une fois dégagé."
+        ],
+        [
+          "Les missions changent-elles la route ?",
+          "Oui. Les zones ultérieures apportent différents virages, falaises et rampes."
+        ]
+      ]
+    },
+    "labubu-clicker": {
+      "category": "Clicker de pièces de collection",
+      "summary": "Appuyez sur Labubu pour gagner des pièces, améliorer la puissance du robinet et les revenus automatiques, et ouvrez des boîtes aveugles pour découvrir des objets de collection.",
+      "aboutTitle": "Équilibrer la production de pièces de monnaie avec le prochain objectif de collection",
+      "about": [
+        "Labubu Clicker vous donne des pièces lorsque vous appuyez sur le personnage. Dépensez les premiers gains pour une mise à niveau qui correspond à la façon dont vous souhaitez jouer. La puissance du robinet est payante lorsque vous cliquez, tandis que le revenu automatique ajoute des pièces entre les rafales.",
+        "Les boîtes aveugles ajoutent une boucle de collecte. Continuez à cliquer pour ouvrir une boîte lorsqu'elle apparaît, puis cochez le nouvel élément. Si le prochain déverrouillage coûte cher, une mise à niveau de production peut vous aider à l’atteindre plus tôt.",
+        "À mesure que le solde augmente, comparez le montant ajouté à chaque nouvel achat. Essayez quelques secondes avec le revenu automatique actif, puis avec des clics également. Cela vous donne une idée de si une autre mise à niveau du robinet modifiera suffisamment le rythme pour l'acheter."
+      ],
+      "steps": [
+        [
+          "Appuyez sur le personnage",
+          "Cliquez sur Labubu sur l'écran pour gagner des pièces."
+        ],
+        [
+          "Choisissez une augmentation de revenu",
+          "Comparez la puissance du robinet avec les gains automatiques."
+        ],
+        [
+          "Ouvrir une boîte aveugle",
+          "Continuez à cliquer lorsque le jeu présente une boîte."
+        ],
+        [
+          "Construisez vers le prochain objet de collection",
+          "Dépenser pour la production si l’épargne directe prend trop de temps."
+        ]
+      ],
+      "faq": [
+        [
+          "D’où viennent les pièces ?",
+          "Cliquez sur l'image Labubu ou laissez les mises à niveau automatiques les générer."
+        ],
+        [
+          "Comment s’ouvrent les boîtes aveugles ?",
+          "Cliquez plusieurs fois sur la boîte jusqu'à ce qu'elle s'ouvre."
+        ],
+        [
+          "À quoi sert une mise à niveau automatique ?",
+          "Il continue de gagner des pièces entre vos propres clics."
+        ]
+      ]
+    },
+    "neon-leap": {
+      "category": "Puzzle d'éclairage de plate-forme au néon",
+      "summary": "Sautez à gauche et à droite pour éclairer chaque plate-forme. Utilisez un double saut pour atteindre des formes plus élevées et collecter des étoiles le long du parcours.",
+      "aboutTitle": "Planifiez un itinéraire qui atteint toutes les plates-formes non éclairées",
+      "about": [
+        "Neon Leap vous demande de toucher chaque forme pour qu'elle s'allume. Commencez par rechercher une plateforme sur laquelle il sera difficile de revenir. Si vous le laissez pour la fin, vous devrez peut-être répéter plusieurs sauts pour l'atteindre.",
+        "Les sauts gauche et droit ont des entrées séparées. Une double pression donne une hauteur supplémentaire, ce qui est utile lorsque la forme suivante se situe au-dessus de votre portée habituelle. Enregistrez ce mouvement pour un chemin où un saut standard s'arrêterait net.",
+        "Les étoiles vous donnent une autre raison de prendre un chemin différent. Obtenez les plates-formes nécessaires en vue avant de chasser une étoile. Un itinéraire qui le récupère tout en éclairant la forme suivante utilise le saut plus efficacement."
+      ],
+      "steps": [
+        [
+          "Trouver les formes non éclairées",
+          "Recherchez une plate-forme qui peut être difficile à atteindre de l'autre côté."
+        ],
+        [
+          "Sautez vers lui",
+          "Utilisez A ou la flèche gauche pour sauter à gauche et D ou la flèche droite pour sauter à droite."
+        ],
+        [
+          "Utiliser un double saut",
+          "Appuyez deux fois sur la touche de direction pour gagner de la hauteur supplémentaire."
+        ],
+        [
+          "Vérifiez le niveau avant de terminer",
+          "Assurez-vous que chaque plate-forme requise brille."
+        ]
+      ],
+      "faq": [
+        [
+          "Qu'est-ce qui complète le niveau ?",
+          "Touchez les plates-formes pour que toutes les formes requises s'allument."
+        ],
+        [
+          "Comment puis-je sauter plus haut ?",
+          "Appuyez deux fois sur la saisie de direction."
+        ],
+        [
+          "A quoi servent les étoiles ?",
+          "Collectionnez-les pour les ajouter à votre score en cours de route."
+        ]
+      ]
+    },
+    "tap-road-beat": {
+      "category": "Coureur rythmique à deux voies",
+      "summary": "Faites basculer une boule roulante entre deux voies de néon. Réagissez aux obstacles dans la course sans fin ou suivez la musique à travers les niveaux.",
+      "aboutTitle": "Surveillez les deux voies tout en chronométrant chaque changement",
+      "about": [
+        "Tap Road Beat déplace la balle le long de deux voies lumineuses. Chaque clic change de voie. Regardez plus loin que l'obstacle le plus proche pour voir si un interrupteur enverra la balle dans le suivant.",
+        "Le mode Level lie l’itinéraire à une chanson. Écoutez le rythme près d'un interrupteur tout en regardant où se trouvent les barrières. Une phrase musicale répétée peut vous aider à vous rappeler quand changer de côté lors de la prochaine tentative.",
+        "Le parcours sans fin augmente la pression à mesure qu’il continue. Résistez à cliquer deux fois lorsqu’un seul changement est nécessaire. Gardez les yeux sur les deux voies après chaque mouvement et revenez en arrière lorsqu'un nouvel écart l'exige."
+      ],
+      "steps": [
+        [
+          "Regardez les deux voies",
+          "Repérez les deux premiers obstacles avant d’effectuer un changement."
+        ],
+        [
+          "Cliquez une fois pour changer",
+          "Passez à l’autre voie lorsqu’il y a de la place devant vous."
+        ],
+        [
+          "Suivre un niveau de rythme",
+          "Écoutez la phrase et regardez quel rythme correspond au prochain changement."
+        ],
+        [
+          "Préparez l'interrupteur de retour",
+          "Cherchez une brèche dans la voie que vous venez de quitter."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment contrôler le ballon ?",
+          "Cliquez pour basculer entre les deux voies."
+        ],
+        [
+          "Qu'est-ce qui change dans le mode Niveau ?",
+          "Vous suivez la musique et jouez à travers un parcours avec un point final."
+        ],
+        [
+          "Dois-je cliquer deux fois pour corriger un mouvement ?",
+          "Le deuxième clic vous renvoie. Regardez les obstacles à venir avant de changer à nouveau."
+        ]
+      ]
+    },
+    "american-truck-driving": {
+      "category": "Simulation de camion routier",
+      "summary": "Conduisez des camions lourds dans les rues de la ville et sur les autoroutes. Explorez la carte, effectuez des tâches facultatives et découvrez comment l'élan affecte les virages.",
+      "aboutTitle": "Établissez des virages larges avant d’entrer dans une intersection",
+      "about": [
+        "American Truck Driving vous permet de choisir un camion et un terrain avant de prendre la route. Les rues de la ville nécessitent une direction plus serrée, tandis que les autoroutes vous donnent plus d’espace pour vous habituer à l’accélération du véhicule.",
+        "Un camion lourd demande de la planification pour tourner en douceur. Ralentissez à l’approche et vérifiez l’espace disponible à l’intersection. Tournez une fois que vous avez suffisamment d’espace pour que l’arrière du camion suive le même virage.",
+        "Vous pouvez explorer sans suivre un itinéraire strict ou effectuer des missions secondaires pour un voyage plus ciblé. Utilisez une section calme pour pratiquer les changements de vitesse. Une boucle familière permet de tester plus facilement la réaction d'un autre camion."
+      ],
+      "steps": [
+        [
+          "Choisissez un véhicule et un terrain",
+          "Sélectionnez le style de conduite que vous souhaitez apprendre."
+        ],
+        [
+          "Contrôler le camion",
+          "Utilisez les touches fléchées pour vous déplacer et vous diriger."
+        ],
+        [
+          "Planifiez un virage à l'avance",
+          "Entrez à une vitesse qui laisse le temps de diriger un long véhicule."
+        ],
+        [
+          "Explorez ou acceptez une tâche secondaire",
+          "Choisissez une destination après avoir appris les routes à proximité."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je conduire librement ?",
+          "Oui. Vous pouvez explorer la carte ou effectuer des tâches facultatives."
+        ],
+        [
+          "Qu'est-ce qui contrôle le camion ?",
+          "Utilisez les touches fléchées pour vous déplacer et vous diriger."
+        ],
+        [
+          "Où puis-je pratiquer les virages ?",
+          "Commencez sur une route offrant beaucoup d’espace, puis essayez des rues urbaines plus étroites."
+        ]
+      ]
+    },
+    "soccer-random": {
+      "category": "Football ragdoll à une touche",
+      "summary": "Sautez et donnez des coups de pied avec une seule touche dans le football ragdoll. Atteignez d'abord cinq objectifs à mesure que le terrain et les conditions changent entre les objectifs.",
+      "aboutTitle": "Utilisez le prochain saut de l’équipe pour rencontrer le ballon",
+      "about": [
+        "Soccer Random fait réagir les deux membres de votre équipe à une seule entrée. Leur mouvement maladroit signifie qu’un saut peut envoyer le ballon vers l’un ou l’autre but. Regardez où tombe la balle avant d'appuyer à nouveau.",
+        "Les conditions changent après les buts, donc un timing qui a fonctionné lors d'un tour peut être différent sur le terrain suivant. Lisez le premier rebond et déplacez-vous lorsque le ballon est suffisamment proche pour que vos joueurs puissent le rencontrer.",
+        "Jouez contre l'ordinateur ou partagez le clavier avec un ami. La première équipe à cinq gagne. Si le ballon est proche de votre propre filet, laissez les joueurs ragdoll s'installer avant d'essayer de le dégager."
+      ],
+      "steps": [
+        [
+          "Choisissez le mode solo ou à deux joueurs",
+          "Choisissez l'ordinateur ou un ami sur le même clavier."
+        ],
+        [
+          "Contrôler la première équipe",
+          "Le joueur 1 utilise W."
+        ],
+        [
+          "Contrôler la deuxième équipe",
+          "Le joueur 2 utilise la flèche vers le haut."
+        ],
+        [
+          "Surveiller le terrain après un but",
+          "Adaptez-vous aux nouvelles conditions et visez cinq objectifs."
+        ]
+      ],
+      "faq": [
+        [
+          "Combien de buts gagnés ?",
+          "La première équipe à marquer cinq victoires."
+        ],
+        [
+          "Deux personnes peuvent-elles utiliser un seul clavier ?",
+          "Oui. Utilisez W pour une équipe et Up Arrow pour l’autre."
+        ],
+        [
+          "Pourquoi le tour est-il différent après un but ?",
+          "Le terrain et les conditions de jeu peuvent changer entre les buts."
+        ]
+      ]
+    },
+    "basketball-stars": {
+      "category": "Duels de basket-ball d'arcade",
+      "summary": "Jouez des matchs de basket-ball rapides en format un contre un ou deux contre deux. Créez de l'espace pour un tir et réagissez aux interceptions et aux blocages.",
+      "aboutTitle": "Recherchez un tir clair avant de commettre une attaque",
+      "about": [
+        "Basketball Stars propose des jeux rapides et des compétitions plus longues avec des options de solo et de clavier partagé. Un mouvement rapide vers le panier peut marquer, mais un défenseur déjà à portée peut l'arrêter. Créez de l'espace avant d'essayer de tirer.",
+        "Les actions de tir, de passe et défensives utilisent différentes entrées selon le joueur et le mode. Vérifiez le panneau de contrôle avant le match. Habituez-vous à un mouvement à la fois afin que la bonne clé soit facile à atteindre en possession rapprochée.",
+        "En défense, surveillez le manieur du ballon avant de tenter un vol ou un blocage. Un saut précoce laisse le panier ouvert si l'adversaire attend. Utilisez une partie rapide pour vous entraîner à répondre à une version avant de commencer un tournoi."
+      ],
+      "steps": [
+        [
+          "Choisissez une correspondance",
+          "Choisissez de jouer en solo ou en local, puis choisissez la taille de l'équipe disponible."
+        ],
+        [
+          "Vérifiez la disposition de vos contrôles",
+          "Utilisez les touches de mouvement et d'action indiquées pour votre camp avant l'alerte."
+        ],
+        [
+          "Créer de l'espace pour une prise de vue",
+          "Éloignez-vous du défenseur ou attendez la fin d'une tentative défensive."
+        ],
+        [
+          "Gardez la prochaine possession",
+          "Suivez le gestionnaire du ballon avant d'effectuer un vol ou un blocage."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je jouer avec un ami ?",
+          "Oui. Le jeu propose des confrontations locales pour un jeu partagé."
+        ],
+        [
+          "Tous les matchs sont-ils en tête-à-tête ?",
+          "Les confrontations disponibles incluent un contre un et deux contre deux."
+        ],
+        [
+          "Pourquoi attendre avant de bloquer ?",
+          "Bloquer trop tôt peut laisser de la place pour un tir ultérieur."
+        ]
+      ]
+    },
+    "head-soccer-2024": {
+      "category": "Football de tête d'arcade",
+      "summary": "Jouez de courts duels de football, déplacez-vous pour rencontrer le ballon et utilisez les deux commandes de tir pour réagir à différentes situations.",
+      "aboutTitle": "Positionnez votre joueur là où vous pouvez attaquer et défendre",
+      "about": [
+        "Head Soccer 2024 place un petit groupe de joueurs sur un terrain court où le prochain rebond peut rapidement se transformer en une occasion de marquer. Gardez votre joueur entre le ballon et votre propre but lorsque l'adversaire est dans la meilleure position.",
+        "Chaque côté a un mouvement et deux entrées de tir. Essayez les deux tirs lorsque le ballon est proche afin de voir comment ils se comportent. Regardez où se dirige le ballon avant d’avancer après un tir.",
+        "Les matchs en solo et à deux joueurs vous permettent de vous entraîner contre différents adversaires. Si une approche rapide mène à un but ouvert derrière vous, commencez le jeu suivant plus près de vous et sortez une fois que vous pouvez atteindre le ballon."
+      ],
+      "steps": [
+        [
+          "Choisissez le type de correspondance",
+          "Sélectionnez le jeu en solo ou invitez quelqu'un à partager le clavier."
+        ],
+        [
+          "Se mettre en position",
+          "Utilisez les flèches en jeu solo. En mode deux joueurs, chaque camp possède ses propres touches de mouvement."
+        ],
+        [
+          "Essayez les deux commandes de tir",
+          "Utilisez Z et X en jeu solo, ou V et B et K et L pour les deux côtés."
+        ],
+        [
+          "Récupérer après un tir",
+          "Revenez vers votre objectif lorsque le prochain rebond favorise l'autre joueur."
+        ]
+      ],
+      "faq": [
+        [
+          "Quelles touches déclenchent en jeu solo ?",
+          "Utilisez Z et X."
+        ],
+        [
+          "Puis-je jouer contre quelqu'un à proximité ?",
+          "Oui. Le mode à deux joueurs donne à chaque côté des commandes distinctes."
+        ],
+        [
+          "Quand dois-je avancer ?",
+          "Avancez lorsque vous pouvez atteindre le ballon sans laisser votre but ouvert au prochain rebond."
+        ]
+      ]
+    },
+    "granny-horror-2": {
+      "category": "Horreur d'évasion à deux poursuivants",
+      "summary": "Cherchez dans une maison verrouillée des objets utiles et des indices de puzzle tout en évitant grand-mère et grand-père. Apprenez la mise en page en mode Entraînement.",
+      "aboutTitle": "Apprenez où aller lorsque les deux poursuivants sont proches",
+      "about": [
+        "Granny Horror 2 vous place dans une maison patrouillé par grand-mère et grand-père. Recherchez des clés et des outils tout en apprenant quelles pièces se connectent. Avant de quitter une pièce, identifiez où vous pouvez aller si le couloir est bloqué.",
+        "Chaque élément aide à surmonter un obstacle particulier. Vérifiez ce dont une porte ou un mécanisme a besoin, puis choisissez l'élément à récupérer. Si une recherche vous mène plus loin dans la maison, souvenez-vous d'un endroit à proximité où vous pouvez retourner sans deviner.",
+        "Le mode entraînement vous permet d'apprendre le tracé avant d'affronter les deux poursuivants. Dans le cadre d'une tentative régulière, écoutez et faites une pause à un passage à niveau si nécessaire. Connaître la pièce voisine est plus utile que de se précipiter dans un passage que l’on n’a jamais vu."
+      ],
+      "steps": [
+        [
+          "Choisissez une difficulté",
+          "Utilisez Entraînement pour apprendre les pièces ou choisissez un autre mode pour la poursuite."
+        ],
+        [
+          "Rechercher un outil ou une clé",
+          "Recherchez dans les pièces voisines des objets correspondant à un itinéraire bloqué."
+        ],
+        [
+          "Gardez une trace d'un itinéraire de secours",
+          "N'oubliez pas une pièce que vous pouvez atteindre lorsque le couloir devient dangereux."
+        ],
+        [
+          "Travailler sur une sortie à la fois",
+          "Utilisez l’élément que vous avez trouvé là où il convient et recherchez l’exigence suivante."
+        ]
+      ],
+      "faq": [
+        [
+          "Qui me suit dans la maison ?",
+          "Grand-mère et grand-père sont tous deux présents régulièrement."
+        ],
+        [
+          "Puis-je m'entraîner sans poursuite ?",
+          "Choisissez le mode Entraînement pour explorer la mise en page."
+        ],
+        [
+          "Et si un objet ne vous est pas familier ?",
+          "Recherchez un verrou, un obstacle ou un mécanisme qui pourrait vous aider à utiliser."
+        ]
+      ]
     }
   }
 }

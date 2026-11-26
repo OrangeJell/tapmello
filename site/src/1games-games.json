@@ -17209,5 +17209,1779 @@
         ]
       }
     }
+  },
+  {
+    "id": "icy-dash",
+    "localizedOn": "2026-11-26",
+    "title": "Icy Dash",
+    "category": {
+      "en": "Snowboard racing"
+    },
+    "source": "https://1games.io/icy-dash",
+    "url": "https://1games.io/game/icy-dash/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/icy-dash-icon.png",
+      "artwork": "/assets/1games/icy-dash-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/icy-dash-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/icy-dash/icy-dash.png",
+        "artwork": "https://1games.io/data/image/game/icy-dash/banner/icy-dash-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/icy-dash/icy-dash.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-08-05",
+      "genres": [
+        "sports",
+        "driving"
+      ],
+      "tags": [
+        "snow-games",
+        "race-games",
+        "stunt-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Race down snowy tracks, steer around moving hazards, and time aerial flips without losing your line.",
+        "aboutTitle": "Line up your landing before attempting a flip",
+        "about": [
+          "Icy Dash puts several snowboarders on the same snowy course. Watch beyond the rider in front of you so you can see where the trail bends or narrows.",
+          "Snow blocks and rolling snowballs change what would otherwise be a clear line. Make small steering corrections as you approach them and leave room for the next turn.",
+          "Aerial flips give you another choice on a jump. Try one when you can see a broad landing. On a short jump near an obstacle, concentrate on coming down where you can steer again."
+        ],
+        "steps": [
+          [
+            "Read the course",
+            "Look ahead for the next bend and for moving snowballs."
+          ],
+          [
+            "Steer downhill",
+            "Use WASD or the arrow keys to move around hazards."
+          ],
+          [
+            "Choose a jump with a clear landing",
+            "Use an airborne hold to perform a flip when you have room to finish it."
+          ],
+          [
+            "Prepare for the next turn",
+            "Point toward the open side before the board touches down."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I steer?",
+            "Use WASD or the arrow keys."
+          ],
+          [
+            "When should I try a flip?",
+            "Attempt it when the next landing is visible and you have room to line up."
+          ],
+          [
+            "Why does my line disappear?",
+            "Moving obstacles can close a gap. Look ahead before committing to it."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "meme-puzzle",
+    "localizedOn": "2026-11-26",
+    "title": "Meme Puzzle",
+    "category": {
+      "en": "Character assembly memory puzzle"
+    },
+    "source": "https://1games.io/meme-puzzle",
+    "url": "https://1games.io/game/meme-puzzle/",
+    "width": 413,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/meme-puzzle-icon.png",
+      "artwork": "/assets/1games/meme-puzzle-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/meme-puzzle-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/meme-puzzle/meme-puzzle.png",
+        "artwork": "https://1games.io/data/image/game/meme-puzzle/banner/meme-puzzle-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/meme-puzzle/meme-puzzle.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-08-23",
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "memory-games",
+        "logic",
+        "characters-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Place appearing pieces to rebuild cartoon characters from memory. Assemble one in Single Mode or sort pieces for two in Mixed Mode.",
+        "aboutTitle": "Build a mental picture before placing each piece",
+        "about": [
+          "Meme Puzzle presents character pieces one at a time. Move the piece with the mouse and click where it belongs. Once placed, it disappears, so you need to remember what you have already assembled.",
+          "Use a prominent feature such as a head or distinctive accessory as a reference. On unfamiliar figures, imagine where the current piece should sit in relation to that feature before clicking.",
+          "Single Mode gives you one subject. Mixed Mode introduces two, so identify which figure a part belongs to before deciding where to place it. A distinctive colour or shape can help separate the two."
+        ],
+        "steps": [
+          [
+            "Choose a mode",
+            "Pick Single Mode for one character or Mixed Mode for two."
+          ],
+          [
+            "Look at the piece",
+            "Identify which feature it represents before moving it."
+          ],
+          [
+            "Move and place it",
+            "Guide the piece with the mouse and click on its intended position."
+          ],
+          [
+            "Remember the last placement",
+            "Use it as a reference after the piece disappears."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I see the pieces I have placed?",
+            "They disappear after placement, so keep a mental picture."
+          ],
+          [
+            "What changes in Mixed Mode?",
+            "Pieces for two characters appear in the same challenge."
+          ],
+          [
+            "How can I avoid mixing up characters?",
+            "Use a distinct feature to identify each one before placing the part."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "wyrmdash",
+    "localizedOn": "2026-11-26",
+    "title": "Wyrmdash",
+    "category": {
+      "en": "Dragon momentum runner"
+    },
+    "source": "https://1games.io/wyrmdash",
+    "url": "https://1games.io/game/wyrmdash/",
+    "width": 401,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/wyrmdash-icon.png",
+      "artwork": "/assets/1games/wyrmdash-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/wyrmdash-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wyrmdash/wyrmdash1.png",
+        "artwork": "https://1games.io/data/image/game/wyrmdash/banner/wyrmdash-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/wyrmdash/wyrmdash.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-04-17",
+      "genres": [
+        "arcade",
+        "adventure"
+      ],
+      "tags": [
+        "timing-games",
+        "fantasy-games",
+        "one-button-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Ride a dragon across hills and fortress routes. Dive underground and release toward a downhill slope to carry speed into the next leap.",
+        "aboutTitle": "Use the shape of the ground to build speed",
+        "about": [
+          "Wyrmdash follows a princess on a dragon through hills and fortifications. Holding the mouse sends the dragon underground, and releasing sends it back into the air. The slope near that release changes the direction in which you travel.",
+          "A good dive carries the dragon down a hill with speed. Look for a downhill segment before you commit. Emerging onto an uphill face can point you away from the next part of the route.",
+          "After a leap, look for the next descent before the dragon comes back down. You can recover from a slow section by connecting a few modest dives instead of trying to clear the whole stretch in a single jump."
+        ],
+        "steps": [
+          [
+            "Spot a downhill section",
+            "Look at the terrain ahead before diving."
+          ],
+          [
+            "Dive underground",
+            "Hold the left mouse button."
+          ],
+          [
+            "Release toward the next hill",
+            "Let go to send the dragon into the air."
+          ],
+          [
+            "Plan the next dive",
+            "Watch where the dragon will land and use the next slope to build speed."
+          ]
+        ],
+        "faq": [
+          [
+            "What happens when I hold the mouse?",
+            "The dragon dives underground."
+          ],
+          [
+            "How do I leap back out?",
+            "Release the mouse button."
+          ],
+          [
+            "Where should I build momentum?",
+            "Choose a downhill slope so the next leap carries more speed."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "titans-clicker",
+    "localizedOn": "2026-11-26",
+    "title": "Titans Clicker",
+    "category": {
+      "en": "Monster battle clicker"
+    },
+    "source": "https://1games.io/titans-clicker",
+    "url": "https://1games.io/game/titans-clicker/",
+    "width": 1280,
+    "height": 854,
+    "media": {
+      "icon": "/assets/1games/titans-clicker-icon.png",
+      "artwork": "/assets/1games/titans-clicker-cover.png",
+      "artworkWidth": 1080,
+      "artworkHeight": 1080,
+      "preview": "/assets/1games/titans-clicker-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/titans-clicker/titans-clicker.png",
+        "artwork": "https://1games.io/data/image/game/titans-clicker/banner/titans-clicker-1.png",
+        "preview": "https://1games.io/data/file/game/titan-clicker.mp4"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "clicker",
+        "action"
+      ],
+      "tags": [
+        "incremental-games",
+        "fantasy-games",
+        "one-button-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Click through waves of fantasy monsters, collect coins, and improve your Titan when tougher encounters slow the run.",
+        "aboutTitle": "Choose upgrades based on what stops the Titan",
+        "about": [
+          "Titans Clicker lets you damage cartoon monsters with each click. Defeating an enemy gives you resources for upgrades. Watch how many clicks a stronger enemy takes before spending.",
+          "Use early encounters to build up the basic Titan. As enemies take longer to clear, compare an immediate damage upgrade with saving for a larger purchase. The stronger option is the one that helps you continue through the next group.",
+          "Boss encounters are good places to judge your progress. If your rate of attacks feels steady but their health barely moves, strengthen the Titan before trying again. Reinvest rewards as enemy difficulty increases."
+        ],
+        "steps": [
+          [
+            "Start the encounter",
+            "Click the monster to attack."
+          ],
+          [
+            "Collect the reward",
+            "Use the coins and resources earned from a defeated enemy."
+          ],
+          [
+            "Improve your Titan",
+            "Buy an upgrade when monsters consistently take longer to defeat."
+          ],
+          [
+            "Compare progress at the next boss",
+            "See whether the new upgrade reduces the number of clicks you need."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I attack?",
+            "Click on the monster."
+          ],
+          [
+            "Where do upgrade resources come from?",
+            "Defeated enemies provide the coins and resources you spend."
+          ],
+          [
+            "Why am I slowing down?",
+            "Later monsters can take more hits. Upgrade the Titan if your attacks are losing ground."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "wacky-nursery-2",
+    "localizedOn": "2026-11-26",
+    "title": "Wacky Nursery 2",
+    "category": {
+      "en": "School story puzzle sequel"
+    },
+    "source": "https://1games.io/wacky-nursery-2",
+    "url": "https://1games.io/game/wacky-nursery-2/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/wacky-nursery-2-icon.png",
+      "artwork": "/assets/1games/wacky-nursery-2-cover.png",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "preview": "/assets/1games/wacky-nursery-2-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wacky-nursery-2/wacky-nursery-2.png",
+        "artwork": "https://1games.io/data/image/game/wacky-nursery-2/banner/wacky-nursery-2-512x512_logo.png",
+        "preview": "https://cdn.1games.io/file/game/wacky-nursery-2/wacky-nursery-2.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-06-12",
+      "genres": [
+        "adventure",
+        "puzzle"
+      ],
+      "tags": [
+        "quests-games",
+        "mystery-games",
+        "decision-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Return to a strange school on Tuesday, follow character missions, and decide when to deliver items or investigate off-limits rooms.",
+        "aboutTitle": "Follow one mission through the changing school periods",
+        "about": [
+          "Wacky Nursery 2 continues the school mystery with a different day and different routines. Talk to the people connected to your current task first. A request can depend on seeing a particular person before the school period changes.",
+          "Keep track of what you are carrying and who asked for it. A distraction can open a route into an otherwise inaccessible area. Wait until your current task gives you a reason to use it rather than wandering away mid-route.",
+          "If a choice ends the attempt, remember which event triggered it. Restart and make one change early in the sequence. That helps separate an item you missed from a conversation you started too late."
+        ],
+        "steps": [
+          [
+            "Find the current mission",
+            "Check what the character wants before leaving the area."
+          ],
+          [
+            "Walk to the next person or room",
+            "Use WASD or the arrow keys to move."
+          ],
+          [
+            "Interact when you reach the target",
+            "Use Space or left-click to select or interact."
+          ],
+          [
+            "Revisit the sequence after a mistake",
+            "Change one conversation or delivery the next time through."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I select a dialogue option?",
+            "Press Space or left-click."
+          ],
+          [
+            "Is this the same school day as the first game?",
+            "The sequel takes place on Tuesday, with new routines and missions."
+          ],
+          [
+            "What if a room is off-limits?",
+            "Follow the current mission and look for a distraction or a task that gives you access."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "wacky-nursery",
+    "localizedOn": "2026-11-26",
+    "title": "Wacky Nursery",
+    "category": {
+      "en": "Time-loop school adventure"
+    },
+    "source": "https://1games.io/wacky-nursery",
+    "url": "https://1games.io/game/wacky-nursery/",
+    "width": 399,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/wacky-nursery-icon.png",
+      "artwork": "/assets/1games/wacky-nursery-cover.png",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "preview": "/assets/1games/wacky-nursery-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/wacky-nursery/wacky-nursery.png",
+        "artwork": "https://1games.io/data/image/game/wacky-nursery/banner/wacky-nursery-512x512_logo.png",
+        "preview": "https://cdn.1games.io/file/game/wacky-nursery/wacky-nursery.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-06-06",
+      "genres": [
+        "adventure",
+        "puzzle"
+      ],
+      "tags": [
+        "quests-games",
+        "mystery-games",
+        "decision-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Repeat an unusual school day to learn the pupils’ routines, gather items, and uncover the mystery behind their disappearances.",
+        "aboutTitle": "Use each repeat of the day to follow a clearer lead",
+        "about": [
+          "Wacky Nursery places a new pupil in a primary school where the same day repeats. Talk to classmates and pay attention to what changes when you reply differently. A small request can become the next step of a larger mystery.",
+          "A mission can depend on tasks happening in order. If you find an item before you know who needs it, remember where you found it. Following one character’s requests can be easier than switching between several incomplete routes.",
+          "Use a failed attempt to learn a useful detail about the school. Try the same opening while changing one conversation or item pickup. Once you know which action caused the problem, you can plan around it on the next day."
+        ],
+        "steps": [
+          [
+            "Pick someone to talk to",
+            "Find a classmate with a request you can follow."
+          ],
+          [
+            "Move through the school",
+            "Use WASD or the arrow keys."
+          ],
+          [
+            "Interact or select an option",
+            "Press Space or left-click."
+          ],
+          [
+            "Carry the lesson into the next loop",
+            "Remember the conversation or item that changed the outcome."
+          ]
+        ],
+        "faq": [
+          [
+            "What should I do if the day starts over?",
+            "Use what you learned during the previous attempt to try a different choice."
+          ],
+          [
+            "Can I solve character tasks in any order?",
+            "Some missions depend on earlier conversations and items. Follow their clues in sequence."
+          ],
+          [
+            "How do I pick a response?",
+            "Use Space or left-click to select the option."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "mama-s-cookeria",
+    "localizedOn": "2026-11-26",
+    "title": "Mama's Cookeria",
+    "category": {
+      "en": "Recipe cooking simulation"
+    },
+    "source": "https://1games.io/mama-s-cookeria",
+    "url": "https://1games.io/game/mama-s-cookeria/",
+    "width": 402,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/mama-s-cookeria-icon.png",
+      "artwork": "/assets/1games/mama-s-cookeria-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/mama-s-cookeria-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/mama-s-cookeria/mama-cookeria.png",
+        "artwork": "https://1games.io/data/image/game/mama-s-cookeria/banner/mama-cookeria-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/mama-s-cookeria/mama-s-cookeria.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-03-25",
+      "genres": [
+        "simulation",
+        "arcade"
+      ],
+      "tags": [
+        "casual-games",
+        "timing-games",
+        "time-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Follow on-screen cooking tasks from chopping and mixing to controlling heat, timing each step, and plating the dish.",
+        "aboutTitle": "Read each kitchen task before using the mouse",
+        "about": [
+          "Mama’s Cookeria turns recipes into short mouse-controlled tasks. The same ingredient can need different actions in different recipes. Read whether the current step asks you to slice, mix, cook, or decorate before moving the mouse.",
+          "Switching utensils changes the kind of timing you need. Prep work rewards following the indicated motion, while a pan or oven calls for watching heat and timers. Finish the current instruction before looking ahead to plating.",
+          "Recipes become easier to repeat once you recognise the sequence of tasks. If your timing was poor in one step, focus on that part the next time you cook the dish. The in-game guide shows which action is needed when you change recipes."
+        ],
+        "steps": [
+          [
+            "Read the first instruction",
+            "Check what the recipe expects before touching an ingredient."
+          ],
+          [
+            "Prepare ingredients",
+            "Use the mouse for the indicated slicing, chopping, or mixing action."
+          ],
+          [
+            "Watch the cooking stage",
+            "Follow the on-screen heat and timer guidance."
+          ],
+          [
+            "Finish the dish",
+            "Use the mouse to complete plating or decoration when prompted."
+          ]
+        ],
+        "faq": [
+          [
+            "Does this game use keyboard controls for recipes?",
+            "The cooking actions use the mouse."
+          ],
+          [
+            "Do all dishes use the same steps?",
+            "Recipes are made of different preparation, cooking, and finishing tasks."
+          ],
+          [
+            "What should I watch while heating food?",
+            "Follow the game’s temperature and timer instructions for the current step."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "trimerge",
+    "localizedOn": "2026-11-26",
+    "title": "TriMerge",
+    "category": {
+      "en": "Number tile merging"
+    },
+    "source": "https://1games.io/trimerge",
+    "url": "https://1games.io/game/trimerge/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/trimerge-icon.png",
+      "artwork": "/assets/1games/trimerge-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/trimerge-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/trimerge/trimerge.png",
+        "artwork": "https://1games.io/data/image/game/trimerge/banner/trimerge-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/trimerge/trimerge.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-08-14",
+      "genres": [
+        "puzzle"
+      ],
+      "tags": [
+        "logic",
+        "sliding-games",
+        "tiles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Slide numbers across the board, pair a 1 with a 2 to make 3, then combine matching multiples of three while keeping space open.",
+        "aboutTitle": "Keep low numbers near partners and leave a free edge",
+        "about": [
+          "TriMerge shifts the board when you swipe. A 1 and a 2 can combine into 3, while higher values merge with a matching tile. Check which small tiles still need partners before pushing the whole board in a new direction.",
+          "Try keeping the largest values toward one edge. That leaves a clearer area for new 1 and 2 tiles. If a swipe would separate a small pair across the board, see whether another direction can combine them sooner.",
+          "A crowded board may leave just one useful move. Work out what that slide will do to every row before using it. When you can clear two adjacent spaces in order, the second merge can be more valuable than one large value."
+        ],
+        "steps": [
+          [
+            "Find a 1 and 2 pair",
+            "Bring the two small values together to form a 3."
+          ],
+          [
+            "Swipe to shift the board",
+            "Use the mouse to slide the tiles in the chosen direction."
+          ],
+          [
+            "Merge matching higher numbers",
+            "Line up two equal tiles once they are at least 3."
+          ],
+          [
+            "Keep an edge usable",
+            "Look for a direction with a follow-up move when the grid fills."
+          ]
+        ],
+        "faq": [
+          [
+            "Can two 1 tiles merge?",
+            "A 1 needs a 2 to form 3."
+          ],
+          [
+            "How do I merge larger tiles?",
+            "Move matching higher numbers together."
+          ],
+          [
+            "Why keep big numbers near an edge?",
+            "It leaves more room to build matches among the smaller tiles."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "tung-sahur-clicker",
+    "localizedOn": "2026-11-26",
+    "title": "Tung Sahur Clicker",
+    "category": {
+      "en": "Meme coin clicker"
+    },
+    "source": "https://1games.io/tung-sahur-clicker",
+    "url": "https://1games.io/game/tung-sahur-clicker/",
+    "width": 401,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/tung-sahur-clicker-icon.png",
+      "artwork": "/assets/1games/tung-sahur-clicker-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/tung-sahur-clicker-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/tung-sahur-clicker/tung-sahur-clicker.png",
+        "artwork": "https://1games.io/data/image/game/tung-sahur-clicker/banner/tung-sahur-clicker-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/tung-sahur-clicker/tung-sahur-clicker.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games.IO",
+      "releaseDate": "2025-05-15",
+      "genres": [
+        "clicker",
+        "arcade"
+      ],
+      "tags": [
+        "incremental-games",
+        "italian-brainrot",
+        "one-button-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Tap or press Space to earn coins from Tung Sahur’s dance, then buy income boosts, skins, and weather effects.",
+        "aboutTitle": "Build coin income before buying the next visual unlock",
+        "about": [
+          "Tung Sahur Clicker puts its dancer on a street corner and turns each click into coins. Once you can afford an upgrade, compare how much it will add to your earnings before spending.",
+          "Manual clicks can trigger a double-income opportunity. Use the boost when you can keep tapping during the window. Multipliers are more valuable once your usual coin rate is higher.",
+          "Skins and weather effects change how the scene looks as you progress. If you want a new effect, check how many ordinary clicks it would take. An income upgrade first can make saving for it easier."
+        ],
+        "steps": [
+          [
+            "Earn the first coins",
+            "Click the screen or press Space."
+          ],
+          [
+            "Check the next upgrade",
+            "Look for a change to earnings or a multiplier."
+          ],
+          [
+            "Use the manual-tap bonus",
+            "Keep tapping during the double-income opportunity."
+          ],
+          [
+            "Save for a visual unlock",
+            "Use stronger income to reach the skin or weather effect you want."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I earn coins with the keyboard?",
+            "Yes. Press Space."
+          ],
+          [
+            "What else can I unlock?",
+            "Upgrades include skins, weather effects, and changes to coin earnings."
+          ],
+          [
+            "When does a multiplier help most?",
+            "Use it after your regular income is high enough to benefit from the boost."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "tic-tac-toe-io",
+    "localizedOn": "2026-11-26",
+    "title": "Tic Tac Toe IO",
+    "category": {
+      "en": "Configurable noughts and crosses"
+    },
+    "source": "https://1games.io/tic-tac-toe-io",
+    "url": "https://1games.io/game/tic-tac-toe-io/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/tic-tac-toe-io-icon.png",
+      "artwork": "/assets/1games/tic-tac-toe-io-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/tic-tac-toe-io-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/tic-tac-toe-io/tic-tac-toe-io.png",
+        "artwork": "https://1games.io/data/image/game/tic-tac-toe-io/banner/tic-tac-toe-io-1200x1200_.png",
+        "preview": "https://cdn.1games.io/file/game/tic-tac-toe-io/tic-tac-toe-io.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-07-10",
+      "genres": [
+        "board",
+        "strategy"
+      ],
+      "tags": [
+        "2-player-board",
+        "turnbased-games",
+        "logic"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Play against the computer, a local friend, or an online opponent. Choose the board size and whether three or five marks make a line.",
+        "aboutTitle": "Read the winning line before placing a mark",
+        "about": [
+          "Tic Tac Toe IO lets you set the board and win condition before starting. A three-mark game asks you to watch short lines, while a larger five-mark board gives threats more room to develop from several directions.",
+          "Look for moves that leave two possible lines open. When an opponent already has a line close to completion, block it before developing your own unless you can finish immediately.",
+          "Local two-player mode shares the same board, while the computer and online modes give you different opponents. Try a few rounds on the smallest grid to practise seeing rows, columns, and diagonals before expanding it."
+        ],
+        "steps": [
+          [
+            "Choose a board and win condition",
+            "Select the grid and how many marks will complete a line."
+          ],
+          [
+            "Place a mark",
+            "Click an empty square on your turn."
+          ],
+          [
+            "Check every direction",
+            "Look for a line your opponent can complete next."
+          ],
+          [
+            "Set up another winning option",
+            "Once the immediate threat is covered, aim for a move with two continuations."
+          ]
+        ],
+        "faq": [
+          [
+            "Can two people share a device?",
+            "Yes. Use local Two Player mode and take turns clicking."
+          ],
+          [
+            "How many marks win?",
+            "The settings offer three- or five-in-a-row rules."
+          ],
+          [
+            "Can I practise alone?",
+            "Use the computer mode and choose a difficulty."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "fire-flush",
+    "localizedOn": "2026-11-26",
+    "title": "Fire Flush",
+    "category": {
+      "en": "Aerial firefighting arcade"
+    },
+    "source": "https://1games.io/fire-flush",
+    "url": "https://1games.io/game/fire-flush/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/fire-flush-icon.png",
+      "artwork": "/assets/1games/fire-flush-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/fire-flush-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/fire-flush/fire-flush.png",
+        "artwork": "https://1games.io/data/image/game/fire-flush/banner/fire-flush-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/fire-flush/fire-flush.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-06-17",
+      "genres": [
+        "arcade",
+        "simulation"
+      ],
+      "tags": [
+        "aviation-games",
+        "water-games",
+        "timing-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Refill a firefighting plane from lakes and release water over wildfires. Use careful climbs and turns to complete missions.",
+        "aboutTitle": "Give the plane space to level out before releasing water",
+        "about": [
+          "Fire Flush sends Scruffy up in a firefighting plane with a limited water supply. Refill the tank from a lake before planning your next drop. Check the terrain ahead so you can pull up after the refill.",
+          "A level approach makes it easier to line up a drop with the fire. Start correcting your angle before you reach the flames. A steep pass makes it harder to judge where the water will land.",
+          "Cliffs and caves can make a return trip more difficult than the first pass. Plan how to get back to water after each drop. Mission progress opens aircraft and upgrades you can try on familiar routes."
+        ],
+        "steps": [
+          [
+            "Find a water source",
+            "Use a lake to refill the tank before approaching a fire."
+          ],
+          [
+            "Climb out of the refill",
+            "Use W or Up Arrow to ascend."
+          ],
+          [
+            "Set the angle",
+            "Press A or D, or Left or Right, to adjust tilt."
+          ],
+          [
+            "Drop water over the fire",
+            "Press Space once the plane is lined up."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I refill the tank?",
+            "Fly down to a lake, then climb back out once you have water."
+          ],
+          [
+            "Which key drops water?",
+            "Use Space."
+          ],
+          [
+            "Why miss the flames on a steep pass?",
+            "A level approach gives you a clearer line and more time to judge the release."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "fury-chase-2",
+    "localizedOn": "2026-11-26",
+    "title": "Fury Chase 2",
+    "category": {
+      "en": "Wasteland chase driving"
+    },
+    "source": "https://1games.io/fury-chase-2",
+    "url": "https://1games.io/game/fury-chase-2/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/fury-chase-2-icon.png",
+      "artwork": "/assets/1games/fury-chase-2-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/fury-chase-2-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/fury-chase-2/fury-chase-2.png",
+        "artwork": "https://1games.io/data/image/game/fury-chase-2/banner/fury-chase-2-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/fury-chase-2/fury-chase-2.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-07-14",
+      "genres": [
+        "driving",
+        "action"
+      ],
+      "tags": [
+        "vehicles-games",
+        "fast-paced-action",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Drive through a cartoon wasteland pursuit, steer around cliffs and ramps, and unlock vehicles for more demanding missions.",
+        "aboutTitle": "Read the road before accelerating into a chase",
+        "about": [
+          "Fury Chase 2 uses wasteland routes with pursuers and rough transitions. Look past the nearest vehicle before changing direction. A narrow cliff or ramp can leave little room for an extra turn.",
+          "When the surface opens up, build speed while the vehicle is stable. Slow before entering a sharp bend, then accelerate on the exit. If the next obstacle is a jump, line up the car before leaving the ground.",
+          "Later missions introduce new vehicles and harder layouts. Compare how a new car handles on simple terrain before trying a route with several jumps. A vehicle with comfortable steering may help more than extra speed on a narrow course."
+        ],
+        "steps": [
+          [
+            "Accelerate or slow down",
+            "Use W or Up Arrow for speed and S or Down Arrow to slow."
+          ],
+          [
+            "Steer before a corner",
+            "Use A and D or the arrow keys to pick an open line."
+          ],
+          [
+            "Use the action control",
+            "Press Space when the game calls for an action."
+          ],
+          [
+            "Adjust the next attempt",
+            "Try a different vehicle or approach if you keep losing control in one section."
+          ]
+        ],
+        "faq": [
+          [
+            "Which key is the action input?",
+            "Use Space."
+          ],
+          [
+            "Why do I overshoot turns?",
+            "You may be entering with too much speed. Slow before the bend and accelerate once clear."
+          ],
+          [
+            "Do missions change the road?",
+            "Yes. Later zones bring different turns, cliffs, and ramps."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "labubu-clicker",
+    "localizedOn": "2026-11-26",
+    "title": "Labubu Clicker",
+    "category": {
+      "en": "Collectible coin clicker"
+    },
+    "source": "https://1games.io/labubu-clicker",
+    "url": "https://1games.io/game/labubu-clicker/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/labubu-clicker-icon.png",
+      "artwork": "/assets/1games/labubu-clicker-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/labubu-clicker-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/labubu-clicker/labubu-clicker.png",
+        "artwork": "https://1games.io/data/image/game/labubu-clicker/banner/labubu-clicker-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/labubu-clicker/labubu-clicker.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "clicker",
+        "simulation"
+      ],
+      "tags": [
+        "incremental-games",
+        "collecting-games",
+        "one-button-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Tap Labubu to earn coins, improve tap power and automatic income, and open blind boxes to discover collectibles.",
+        "aboutTitle": "Balance coin production with the next collection goal",
+        "about": [
+          "Labubu Clicker gives you coins when you tap the character. Spend the first earnings on an upgrade that fits the way you want to play. Tap power pays off while you are clicking, while automatic income adds coins between bursts.",
+          "Blind boxes add a collection loop. Keep clicking to open a box when it appears, then check the new item. If the next unlock is expensive, a production upgrade may help you reach it sooner.",
+          "As the balance grows, compare how much each new purchase adds. Try a few seconds with automatic income active, then with clicks as well. That gives you an idea of whether another tap upgrade will change the pace enough to buy it."
+        ],
+        "steps": [
+          [
+            "Tap the character",
+            "Click Labubu on the screen to earn coins."
+          ],
+          [
+            "Pick an income upgrade",
+            "Compare tap power with automatic earnings."
+          ],
+          [
+            "Open a blind box",
+            "Keep clicking when the game presents a box."
+          ],
+          [
+            "Build toward the next collectible",
+            "Spend on production if saving directly would take too long."
+          ]
+        ],
+        "faq": [
+          [
+            "Where do coins come from?",
+            "Click the Labubu image or let automatic upgrades generate them."
+          ],
+          [
+            "How do blind boxes open?",
+            "Click repeatedly on the box until it opens."
+          ],
+          [
+            "What does an automatic upgrade do?",
+            "It keeps earning coins between your own clicks."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "neon-leap",
+    "localizedOn": "2026-11-26",
+    "title": "Neon Leap",
+    "category": {
+      "en": "Neon platform lighting puzzle"
+    },
+    "source": "https://1games.io/neon-leap",
+    "url": "https://1games.io/game/neon-leap/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/neon-leap-icon.png",
+      "artwork": "/assets/1games/neon-leap-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/neon-leap-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/neon-leap/neon-leap.png",
+        "artwork": "https://1games.io/data/image/game/neon-leap/banner/neon-leap-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/neon-leap/neon-leap.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-08-21",
+      "genres": [
+        "arcade",
+        "puzzle"
+      ],
+      "tags": [
+        "jumping-games",
+        "timing-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Jump left and right to light every platform. Use a double jump to reach higher shapes and collect stars along the route.",
+        "aboutTitle": "Plan a route that reaches every unlit platform",
+        "about": [
+          "Neon Leap asks you to touch each shape so it lights up. Start by looking for one platform that will be difficult to return to. If you leave it until last, you may have to repeat several jumps to reach it.",
+          "Left and right jumps have separate inputs. A double press gives extra height, which helps when the next shape sits above your regular reach. Save that move for a path where a standard jump would stop short.",
+          "Stars give you another reason to take a different route. Get the needed platforms in view before chasing a star. A route that collects it while lighting the next shape uses the jump more efficiently."
+        ],
+        "steps": [
+          [
+            "Find the unlit shapes",
+            "Look for a platform that may be difficult to reach from the other side."
+          ],
+          [
+            "Jump toward it",
+            "Use A or Left Arrow to jump left and D or Right Arrow to jump right."
+          ],
+          [
+            "Use a double jump",
+            "Press the direction input twice to gain extra height."
+          ],
+          [
+            "Check the level before finishing",
+            "Make sure every required platform is glowing."
+          ]
+        ],
+        "faq": [
+          [
+            "What completes the level?",
+            "Touch the platforms so all required shapes light up."
+          ],
+          [
+            "How can I jump higher?",
+            "Double-press the direction input."
+          ],
+          [
+            "What are stars for?",
+            "Collect them to add to your score along the way."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "tap-road-beat",
+    "localizedOn": "2026-11-26",
+    "title": "Tap Road Beat",
+    "category": {
+      "en": "Two-lane rhythm runner"
+    },
+    "source": "https://1games.io/tap-road-beat",
+    "url": "https://1games.io/game/tap-road-beat/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/tap-road-beat-icon.png",
+      "artwork": "/assets/1games/tap-road-beat-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/tap-road-beat-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/tap-road-beat/tap-road-beat.png",
+        "artwork": "https://1games.io/data/image/game/tap-road-beat/banner/tap-road-beat-1200x1200_.png",
+        "preview": "https://cdn.1games.io/file/game/tap-road-beat/tap-road-beat.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-05-29",
+      "genres": [
+        "arcade"
+      ],
+      "tags": [
+        "rhythm-games",
+        "one-button-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Switch a rolling ball between two neon lanes. React to obstacles in the endless run or follow the music through levels.",
+        "aboutTitle": "Watch both lanes while timing each switch",
+        "about": [
+          "Tap Road Beat moves the ball along a pair of neon lanes. Each click switches lanes. Look farther ahead than the closest obstacle so you can see whether a switch will send the ball into the next one.",
+          "Level Mode ties the route to a song. Listen for the beat near a switch while watching where the barriers stand. A repeated musical phrase can help you remember when to change sides on the next attempt.",
+          "The endless route increases the pressure as it continues. Resist clicking twice when only one change is needed. Keep your eyes on both lanes after each move and switch back when a new gap calls for it."
+        ],
+        "steps": [
+          [
+            "Watch the two lanes",
+            "Spot the first two obstacles before making a change."
+          ],
+          [
+            "Click once to switch",
+            "Move onto the other lane when it has room ahead."
+          ],
+          [
+            "Follow a rhythm level",
+            "Listen to the phrase and watch which beat goes with the next change."
+          ],
+          [
+            "Prepare the return switch",
+            "Look for a gap in the lane you just left."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I control the ball?",
+            "Click to switch between the two lanes."
+          ],
+          [
+            "What changes in Level Mode?",
+            "You follow music and play through a course with an endpoint."
+          ],
+          [
+            "Should I click twice to correct a move?",
+            "The second click sends you back. Watch the upcoming obstacles before switching again."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "american-truck-driving",
+    "localizedOn": "2026-11-26",
+    "title": "American Truck Driving",
+    "category": {
+      "en": "Open-road truck simulation"
+    },
+    "source": "https://1games.io/american-truck-driving",
+    "url": "https://1games.io/game/american-truck-driving/",
+    "width": 400,
+    "height": 260,
+    "media": {
+      "icon": "/assets/1games/american-truck-driving-icon.png",
+      "artwork": "/assets/1games/american-truck-driving-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/american-truck-driving-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/american-truck-driving/american-truck-driving.png",
+        "artwork": "https://1games.io/data/image/game/american-truck-driving/banner/american-truck-driving-1200x1200.png",
+        "preview": "https://cdn.1games.io/file/game/american-truck-driving/american-truck-driving.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-06-06",
+      "genres": [
+        "driving",
+        "simulation"
+      ],
+      "tags": [
+        "vehicles-games",
+        "delivery-games",
+        "obstacles-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Drive heavy trucks through city streets and on highways. Explore the map, take optional tasks, and learn how momentum affects turns.",
+        "aboutTitle": "Set up wide turns before entering an intersection",
+        "about": [
+          "American Truck Driving lets you choose a truck and terrain before taking to the road. City streets require tighter steering, while highways give you more space to get used to the vehicle’s acceleration.",
+          "A heavy truck takes planning to turn smoothly. Slow on the approach and check how much space is available across the junction. Turn once you have enough room for the back of the truck to follow the same corner.",
+          "You can explore without following a strict route or take side missions for a more focused trip. Use a quiet section to practise changes in speed. A familiar loop makes it easier to test how a different truck responds."
+        ],
+        "steps": [
+          [
+            "Choose a vehicle and terrain",
+            "Select the style of driving you want to learn."
+          ],
+          [
+            "Control the truck",
+            "Use the arrow keys to move and steer."
+          ],
+          [
+            "Plan a turn ahead",
+            "Enter at a speed that leaves time to steer a long vehicle."
+          ],
+          [
+            "Explore or take a side task",
+            "Pick a destination after learning the nearby roads."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I drive freely?",
+            "Yes. You can explore the map or take optional tasks."
+          ],
+          [
+            "What controls the truck?",
+            "Use the arrow keys for movement and steering."
+          ],
+          [
+            "Where can I practise turns?",
+            "Start on a road with plenty of space, then try tighter city streets."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "soccer-random",
+    "localizedOn": "2026-11-26",
+    "title": "Soccer Random",
+    "category": {
+      "en": "One-key ragdoll soccer"
+    },
+    "source": "https://1games.io/soccer-random",
+    "url": "https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://1games.io/soccer-random",
+    "width": 1280,
+    "height": 720,
+    "media": {
+      "icon": "/assets/1games/soccer-random-icon.png",
+      "artwork": "/assets/1games/soccer-random-cover.png",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "preview": "/assets/1games/soccer-random-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/soccer-random/soccer-random-3.jpeg",
+        "artwork": "https://1games.io/data/image/game/soccer-random/banner/soccer-random.png",
+        "preview": "https://1games.io/data/file/game/soccer-random.mp4"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2020-02-28",
+      "genres": [
+        "sports",
+        "arcade"
+      ],
+      "tags": [
+        "2-player-soccer",
+        "one-button-games",
+        "casual-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Jump and kick with a single key in ragdoll soccer. Reach five goals first as the field and conditions change between goals.",
+        "aboutTitle": "Use the team’s next jump to meet the ball",
+        "about": [
+          "Soccer Random makes both members of your team react to one input. Their awkward movement means a jump can send the ball toward either goal. Watch where the ball is dropping before pressing again.",
+          "Conditions change after goals, so a timing that worked in one round can feel different on the next field. Read the first bounce and move when the ball is close enough for your players to meet it.",
+          "Play against the computer or share the keyboard with a friend. The first team to five wins. If the ball is close to your own net, let the ragdoll players settle before trying to clear it."
+        ],
+        "steps": [
+          [
+            "Pick solo or two-player mode",
+            "Choose the computer or a friend on the same keyboard."
+          ],
+          [
+            "Control the first team",
+            "Player 1 uses W."
+          ],
+          [
+            "Control the second team",
+            "Player 2 uses Up Arrow."
+          ],
+          [
+            "Watch the field after a goal",
+            "Adjust to the new conditions and aim for five goals."
+          ]
+        ],
+        "faq": [
+          [
+            "How many goals win?",
+            "The first team to score five wins."
+          ],
+          [
+            "Can two people use one keyboard?",
+            "Yes. Use W for one team and Up Arrow for the other."
+          ],
+          [
+            "Why does the round feel different after a goal?",
+            "The field and playing conditions can change between goals."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "basketball-stars",
+    "localizedOn": "2026-11-26",
+    "title": "Basketball Stars",
+    "category": {
+      "en": "Arcade basketball duels"
+    },
+    "source": "https://1games.io/basketball-stars",
+    "url": "https://html5.gamedistribution.com/69d78d071f704fa183d75b4114ae40ec/?gd_sdk_referrer_url=https://1games.io/basketball-stars",
+    "width": 670,
+    "height": 436,
+    "media": {
+      "icon": "/assets/1games/basketball-stars-icon.png",
+      "artwork": "/assets/1games/basketball-stars-cover.png",
+      "artworkWidth": 400,
+      "artworkHeight": 400,
+      "preview": "/assets/1games/basketball-stars-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/basketball-stars/basketball-stars.png",
+        "artwork": "https://1games.io/data/image/game/basketball-stars/banner/basketball-stars.jpeg",
+        "preview": "https://1games.io/data/file/game/basketball-star.mp4"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "genres": [
+        "sports",
+        "arcade"
+      ],
+      "tags": [
+        "2-player-basketball",
+        "competitive-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Play quick basketball matchups in one-on-one or two-on-two formats. Create space for a shot and react to steals and blocks.",
+        "aboutTitle": "Look for a clear shot before committing on offense",
+        "about": [
+          "Basketball Stars offers quick games and longer competitions with solo and shared-keyboard options. A fast move to the basket can score, but a defender already in range can stop it. Create space before trying to shoot.",
+          "Shooting, passing, and defensive actions use different inputs depending on the player and mode. Check the control panel before the match. Get used to one move at a time so the correct key is easy to reach in a close possession.",
+          "On defense, watch the ball handler before attempting a steal or block. An early jump leaves the basket open if the opponent waits. Use a quick-play match to practise responding to a release before starting a tournament."
+        ],
+        "steps": [
+          [
+            "Choose a matchup",
+            "Pick solo or local play, then choose the available team size."
+          ],
+          [
+            "Check your control layout",
+            "Use the movement and action keys shown for your side before the tip-off."
+          ],
+          [
+            "Create room for a shot",
+            "Move away from the defender or wait for a defensive attempt to finish."
+          ],
+          [
+            "Guard the next possession",
+            "Follow the ball handler before using a steal or block."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I play with a friend?",
+            "Yes. The game offers local matchups for shared play."
+          ],
+          [
+            "Are all matches one-on-one?",
+            "Available matchups include one-on-one and two-on-two."
+          ],
+          [
+            "Why wait before blocking?",
+            "Blocking too early can leave space for a later shot."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "head-soccer-2024",
+    "localizedOn": "2026-11-26",
+    "title": "Head Soccer 2024",
+    "category": {
+      "en": "Arcade head soccer"
+    },
+    "source": "https://1games.io/head-soccer-2024",
+    "url": "https://1games.io/game/head-soccer-2024/",
+    "width": 512,
+    "height": 384,
+    "media": {
+      "icon": "/assets/1games/head-soccer-2024-icon.png",
+      "artwork": "/assets/1games/head-soccer-2024-cover.png",
+      "artworkWidth": 512,
+      "artworkHeight": 512,
+      "preview": "/assets/1games/head-soccer-2024-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/head-soccer/head-soccer-2024.png",
+        "artwork": "https://1games.io/data/image/game/head-soccer-2024/banner/head-soccer-2024.png",
+        "preview": "https://1games.io/data/file/game/head-soccer-2024.mp4"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2024-06-19",
+      "genres": [
+        "sports",
+        "arcade"
+      ],
+      "tags": [
+        "2-player-soccer",
+        "casual-games",
+        "reaction-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Play short soccer duels, move to meet the ball, and use the two shot controls to respond to different situations.",
+        "aboutTitle": "Position your player where you can attack and defend",
+        "about": [
+          "Head Soccer 2024 puts a small group of players on a short field where the next bounce can quickly turn into a scoring chance. Keep your player between the ball and your own goal when the opponent has the better position.",
+          "Each side has movement and two shot inputs. Try both shots when the ball is close so you can see how they behave. Watch where the ball is headed before moving forward after a shot.",
+          "Solo and two-player matches give you different opponents to practise against. If a fast approach leads to an open goal behind you, start the next play closer to your side and move out once you can reach the ball."
+        ],
+        "steps": [
+          [
+            "Choose the match type",
+            "Select solo play or invite someone to share the keyboard."
+          ],
+          [
+            "Move into position",
+            "Use the arrows in solo play. In two-player mode each side has its own movement keys."
+          ],
+          [
+            "Try both shot controls",
+            "Use Z and X in solo play, or V and B and K and L for the two sides."
+          ],
+          [
+            "Recover after a shot",
+            "Return toward your goal when the next bounce favours the other player."
+          ]
+        ],
+        "faq": [
+          [
+            "Which keys shoot in solo play?",
+            "Use Z and X."
+          ],
+          [
+            "Can I play against someone nearby?",
+            "Yes. Two-player mode gives each side separate controls."
+          ],
+          [
+            "When should I move forward?",
+            "Advance when you can reach the ball without leaving your goal open to the next bounce."
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "id": "granny-horror-2",
+    "localizedOn": "2026-11-26",
+    "title": "Granny Horror 2",
+    "category": {
+      "en": "Two-pursuer escape horror"
+    },
+    "source": "https://1games.io/granny-horror-2",
+    "url": "https://1games.io/game/granny-horror-2/",
+    "width": 512,
+    "height": 384,
+    "media": {
+      "icon": "/assets/1games/granny-horror-2-icon.png",
+      "artwork": "/assets/1games/granny-horror-2-cover.png",
+      "artworkWidth": 1200,
+      "artworkHeight": 1200,
+      "preview": "/assets/1games/granny-horror-2-preview.mp4",
+      "sources": {
+        "icon": "https://1games.io/data/image/game/granny-horror-2/granny-horror-2.png",
+        "artwork": "https://1games.io/data/image/game/granny-horror-2/banner/granny-horror-2.png",
+        "preview": "https://cdn.1games.io/file/game/granny-horror-2/granny-horror-2.mp4?v1"
+      },
+      "artworkAsPosterOnly": true
+    },
+    "metadata": {
+      "developer": "1Games",
+      "releaseDate": "2025-02-27",
+      "genres": [
+        "adventure",
+        "puzzle"
+      ],
+      "tags": [
+        "3d-horror",
+        "horror-escape",
+        "search-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "supportedLanguages": [
+        "en"
+      ]
+    },
+    "details": {
+      "en": {
+        "summary": "Search a locked house for useful items and puzzle clues while avoiding Granny and Grandpa. Learn the layout in Practice mode.",
+        "aboutTitle": "Learn where to go when both pursuers are near",
+        "about": [
+          "Granny Horror 2 places you in a house patrolled by Granny and Grandpa. Search for keys and tools while learning which rooms connect. Before leaving a room, identify where you can go if the corridor is blocked.",
+          "Each item helps with a particular obstacle. Check what a door or mechanism needs, then choose which item to retrieve. If a search takes you farther into the house, remember one nearby place you can return to without guessing.",
+          "Practice mode lets you learn the layout before dealing with the two pursuers. In a regular attempt, listen and pause at a crossing if needed. Knowing the next room is more useful than rushing into a passage you have never seen."
+        ],
+        "steps": [
+          [
+            "Choose a difficulty",
+            "Use Practice to learn the rooms or pick another mode for the chase."
+          ],
+          [
+            "Search for a tool or key",
+            "Look in nearby rooms for objects that match a blocked route."
+          ],
+          [
+            "Keep track of a fallback route",
+            "Remember a room you can reach when the corridor becomes unsafe."
+          ],
+          [
+            "Work on one exit at a time",
+            "Use the item you found where it fits and look for the next requirement."
+          ]
+        ],
+        "faq": [
+          [
+            "Who follows me in the house?",
+            "Granny and Grandpa are both present in regular play."
+          ],
+          [
+            "Can I practise without the chase?",
+            "Choose Practice mode to explore the layout."
+          ],
+          [
+            "What if an object is unfamiliar?",
+            "Look for a lock, obstacle, or mechanism it could help you use."
+          ]
+        ]
+      }
+    }
   }
 ]
