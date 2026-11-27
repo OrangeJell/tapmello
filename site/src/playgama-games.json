@@ -18074,5 +18074,3985 @@
         "previewId": "493be6a53fb248c5ab0e311496becf0d"
       }
     }
+  },
+  {
+    "id": "ragdoll-rumble-online",
+    "addedOn": "2026-11-27",
+    "title": "Ragdoll Rumble: Online",
+    "category": {
+      "en": "Physics fighting"
+    },
+    "url": "https://playgama.com/export/game/ragdoll-rumble-online?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/ragdoll-rumble-online",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Play Ragdoll Rumble: Online in your browser. Fight live 1v1 duels or take on solo arenas with falling weapons and bosses.",
+        "about": [
+          "Physics-driven fighters stumble and fly when hit, so positioning matters between punches.",
+          "Solo arenas feature changing rules such as Low Gravity. Online quick matches count toward the Most Wins leaderboard."
+        ],
+        "steps": [
+          [
+            "Close the gap",
+            "Move with WASD or the touch joystick. Punches trigger in reach, and E adds extra punches on desktop."
+          ],
+          [
+            "Keep the pressure on",
+            "Chain punches to knock an opponent down. In solo fights, pick up weapons that land in the arena."
+          ]
+        ],
+        "faq": [
+          [
+            "When does a new arena open?",
+            "Every three fights, whether you win or lose."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade",
+        "multiplayer",
+        "ragdoll",
+        "1v1",
+        "fighting",
+        "action",
+        "3d"
+      ],
+      "tags": [
+        "addictive-games",
+        "competitive-games",
+        "fast-paced-action",
+        "1-player-games",
+        "action-fighting",
+        "arena-games",
+        "webgl-games",
+        "fast-paced-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "Yes"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/ragdoll-rumble-online.jpg",
+      "artwork": "/assets/logos/playgama/ragdoll-rumble-online-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": "https://static.playgama.com/p-video/5e9ec972cc224f0d95bd63fc584f6a66/orig_length_h640_6so_og.mp4",
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/ragdoll-rumble-online/icon/c73814c3329a46dfb961fe5b1e2034ed?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/ragdoll-rumble-online/big_preview/3c84ae3aa93f4571826751582b7a26a7?width=448",
+        "previewId": "5e9ec972cc224f0d95bd63fc584f6a66"
+      }
+    }
+  },
+  {
+    "id": "ants-color-puzzle",
+    "addedOn": "2026-11-27",
+    "title": "Ants: Color Puzzle",
+    "category": {
+      "en": "Ant color queue puzzle"
+    },
+    "url": "https://playgama.com/export/game/ants-color-puzzle?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/ants-color-puzzle",
+    "portrait": true,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Send color-matched ant teams to dismantle pixel pictures in Ants: Color Puzzle. Plan around the limited spaces for teams.",
+        "about": [
+          "Ants carry reachable blocks of their own color back to the anthill. Clearing the outline exposes more blocks further in.",
+          "Each team takes up a space until it finishes. Check the picture’s edges before committing to a new color."
+        ],
+        "steps": [
+          [
+            "Send a team",
+            "Click or tap the tile at the front of a queue. Its number tells you how many blocks the team can carry."
+          ],
+          [
+            "Keep a space free",
+            "Send colors with enough reachable blocks from the edge, then use the freed space to dispatch the next team."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I finish a level?",
+            "Remove all blocks from the picture."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "mouse",
+        "cozy",
+        "matching",
+        "logic"
+      ],
+      "tags": [
+        "2d-games",
+        "casual-games",
+        "brain-training-games",
+        "color-matching-games",
+        "1-player-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "Yes"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/ants-color-puzzle.jpg",
+      "artwork": "/assets/logos/playgama/ants-color-puzzle-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": "https://static.playgama.com/p-video/c6538ac09f93499cb809e6c95095d9f7/orig_length_h640_6so.mp4",
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/ants-color-puzzle/icon/e5803bb857e84b98b8be6921a8bca8ed?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/ants-color-puzzle/big_preview/8ae67da9b983496b9c2a744e4b3775cc?width=448",
+        "previewId": "c6538ac09f93499cb809e6c95095d9f7"
+      }
+    }
+  },
+  {
+    "id": "bus-parking-game-car-sort",
+    "addedOn": "2026-11-27",
+    "title": "Bus Parking Game - Car Sort",
+    "category": {
+      "en": "Bus parking and sorting puzzle"
+    },
+    "url": "https://playgama.com/export/game/bus-parking-game-car-sort?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/bus-parking-game-car-sort",
+    "portrait": true,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Clear a traffic jam in Bus Parking Game – Car Sort. Park buses in the right order so the color-coded passenger queue can board.",
+        "about": [
+          "A bus can move only when the road in front of it is clear. Parking spaces stay occupied until the bus fills up.",
+          "Full buses pull away and earn coins. Watch the front of the passenger queue before moving anything that might take up a spot."
+        ],
+        "steps": [
+          [
+            "Clear a route",
+            "Tap an unblocked bus to send it to an empty parking space."
+          ],
+          [
+            "Match the queue",
+            "Prioritize the bus whose color matches the first waiting passengers."
+          ]
+        ],
+        "faq": [
+          [
+            "What can I do when I get stuck?",
+            "Shuffle swaps bus colors, Sort reorders the queue, and the VIP space can teleport a bus."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "matching",
+        "logic"
+      ],
+      "tags": [
+        "casual-games",
+        "brain-training-games",
+        "sorting-games",
+        "mind-games",
+        "color-matching-games",
+        "traffic-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/bus-parking-game-car-sort.jpg",
+      "artwork": "/assets/logos/playgama/bus-parking-game-car-sort-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/bus-parking-game-car-sort/icon/909b97e6bb9040269490844d980875ed?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/bus-parking-game-car-sort/big_preview/9616523f761c424aa66d845b03236937?width=448"
+      }
+    }
+  },
+  {
+    "id": "grand-trade-miami-open-world-simulator",
+    "addedOn": "2026-11-27",
+    "title": "Grand Trade Miami: Open World Simulator",
+    "category": {
+      "en": "Open-world trading simulator"
+    },
+    "url": "https://playgama.com/export/game/grand-trade-miami-open-world-simulator?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/grand-trade-miami-open-world-simulator",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Explore a seaside town, repair bargains and negotiate sales in Grand Trade Miami, a single-player open-world trading simulator.",
+        "about": [
+          "Find items worth repairing, post listings from your phone and arrange meetups with buyers. Your seller reputation opens new places.",
+          "Trade cars from the port, run a beach kiosk and save toward a penthouse. Rare plates can appeal to collectors."
+        ],
+        "steps": [
+          [
+            "Explore the town",
+            "Use WASD to move, Shift to run and E to interact. On touchscreens, use the left side to move and the right side to look."
+          ],
+          [
+            "Make a sale",
+            "Open the phone with Tab on desktop or its on-screen control. Manage listings, answer buyers and agree on where to meet."
+          ]
+        ],
+        "faq": [
+          [
+            "Why repair an item first?",
+            "You can resell repaired items for more than broken ones."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation",
+        "car",
+        "tycoon",
+        "management",
+        "driving"
+      ],
+      "tags": [
+        "customization-games",
+        "casual-games",
+        "business-games",
+        "car-tuning-games",
+        "webgl-games",
+        "collecting-games",
+        "1-player-games",
+        "resource-management-games",
+        "open-world-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "inGamePurchases": "Yes"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/grand-trade-miami-open-world-simulator.jpg",
+      "artwork": "/assets/logos/playgama/grand-trade-miami-open-world-simulator-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/grand-trade-miami-open-world-simulator/icon/e5bf51a421dc4942878415e4b247f948?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/grand-trade-miami-open-world-simulator/big_preview/c10f9473d4fe4872b3d32e9cbc4a743d?width=448"
+      }
+    }
+  },
+  {
+    "id": "bodoku",
+    "addedOn": "2026-11-27",
+    "title": "Bodoku",
+    "category": {
+      "en": "Ghost placement puzzle"
+    },
+    "url": "https://playgama.com/export/game/bodoku?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/bodoku",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Solve Bodoku’s castle grids by placing one ghost in every row, column and colored room. Ghosts cannot touch, even diagonally.",
+        "about": [
+          "Bo’s castle is divided into colored rooms spanning the grid. The same ghost counts toward its room, row and column.",
+          "Try the castle campaign, daily puzzle or Relax mode. Marking ruled-out cells helps you see the spaces still in play."
+        ],
+        "steps": [
+          [
+            "Mark the impossible cells",
+            "Click or tap once to place an X. On touchscreens you can drag to make several marks."
+          ],
+          [
+            "Place the ghosts",
+            "Click or tap a marked square again to place a ghost. Use Undo if two placements conflict."
+          ]
+        ],
+        "faq": [
+          [
+            "Can ghosts touch at the corners?",
+            "No. Diagonally adjacent squares also conflict."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "logic",
+        "brain",
+        "puzzle",
+        "cozy",
+        "sudoku"
+      ],
+      "tags": [
+        "cute-games",
+        "1-player-games",
+        "casual-games",
+        "castle-games",
+        "brain-training-games",
+        "relaxing-games",
+        "mind-games",
+        "ai-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/bodoku.jpg",
+      "artwork": "/assets/logos/playgama/bodoku-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/bodoku/icon/a0afcd88c04f49f88844d44fb434ebc1?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/bodoku/big_preview/8d2c65fc4fb74c2995ab15f6a18696a6?width=448"
+      }
+    }
+  },
+  {
+    "id": "paws-bowls-logic-puzzle",
+    "addedOn": "2026-11-27",
+    "title": "Paws & Bowls: Logic Puzzle",
+    "category": {
+      "en": "Pet and bowl logic puzzle"
+    },
+    "url": "https://playgama.com/export/game/paws-bowls-logic-puzzle?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/paws-bowls-logic-puzzle",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Seat cats, dogs and food bowls in Paws & Bowls, a binary logic puzzle with equal counts in every row and column.",
+        "about": [
+          "No line may contain three pets or three bowls in a row. No two rows or two columns may have the same pattern.",
+          "The boards range from 4×4 to 10×10. Hints explain the rule that determines a particular seat."
+        ],
+        "steps": [
+          [
+            "Fill the seats",
+            "Choose Pet or Bowl at the bottom, then click or tap the seat."
+          ],
+          [
+            "Follow the signs",
+            "An equals sign links seats of the same type. An X between seats means they differ."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I have to race a timer?",
+            "There is no timer. You can make up to three mistakes."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "logic",
+        "brain",
+        "animals",
+        "puzzle",
+        "cozy",
+        "sudoku"
+      ],
+      "tags": [
+        "cute-games",
+        "1-player-games",
+        "casual-games",
+        "brain-training-games",
+        "mind-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "th-TH",
+        "vi-VN"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/paws-bowls-logic-puzzle.jpg",
+      "artwork": "/assets/logos/playgama/paws-bowls-logic-puzzle-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/paws-bowls-logic-puzzle/icon/90eec941649f4ee187e77c190b5b945c?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/paws-bowls-logic-puzzle/big_preview/e4be65f5a78e4063a164093ea1850edc?width=448"
+      }
+    }
+  },
+  {
+    "id": "cat-blocks",
+    "addedOn": "2026-11-27",
+    "title": "Cat Blocks",
+    "category": {
+      "en": "Sliding cat block puzzle"
+    },
+    "url": "https://playgama.com/export/game/cat-blocks?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/cat-blocks",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Slide cats left or right, finish rows and build combos in Cat Blocks. Use the preview to plan for the next rising row.",
+        "about": [
+          "Each cat slides sideways into open space. A full horizontal row disappears, making room for the next move.",
+          "One row rises after every move. Check the preview, use boosters if needed and try the daily challenge for a change of board."
+        ],
+        "steps": [
+          [
+            "Slide a cat",
+            "Drag it sideways and release. With a keyboard, aim with Left or Right and confirm with Enter."
+          ],
+          [
+            "Fill the whole row",
+            "Close the gaps across a horizontal line. Plan your move around where the next row will land."
+          ]
+        ],
+        "faq": [
+          [
+            "What makes a combo?",
+            "Clear rows in a chain."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "cats",
+        "puzzle",
+        "cozy"
+      ],
+      "tags": [
+        "cute-games",
+        "2d-games",
+        "sliding-games",
+        "challenge-games",
+        "1-player-games",
+        "casual-games",
+        "tetris-games",
+        "brain-training-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "es-ES",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/cat-blocks.jpg",
+      "artwork": "/assets/logos/playgama/cat-blocks-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": "https://static.playgama.com/p-video/e5fc61711ee343fd87217c2198b567d0/orig_length_h640_6so_og.mp4",
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/cat-blocks/icon/78f04189cac64a409cd8697c538099fb?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/cat-blocks/big_preview/234e0a6502cf4f4992e93e7a3b00842f?width=448",
+        "previewId": "e5fc61711ee343fd87217c2198b567d0"
+      }
+    }
+  },
+  {
+    "id": "draw-a-monster",
+    "addedOn": "2026-11-27",
+    "title": "Draw a Monster",
+    "category": {
+      "en": "3D monster drawing sandbox"
+    },
+    "url": "https://playgama.com/export/game/draw-a-monster?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/draw-a-monster",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Draw an outline and build a walking 3D creature in Draw a Monster. Add limbs, wings and stickers, then explore or enter a runway show.",
+        "about": [
+          "Your drawing puffs up into a soft body. You can give it eyes, different limbs and decorations before taking it outside.",
+          "Stroll in the park, play tag in a cardboard maze or show the creature to the runway judges."
+        ],
+        "steps": [
+          [
+            "Draw and decorate",
+            "Draw with the mouse or your finger, then select and size the parts. Pinch on touchscreens or scroll on desktop to zoom."
+          ],
+          [
+            "Take it out",
+            "Move with WASD or the touch joystick. Jump with Space or the on-screen action button."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I rotate the camera?",
+            "Drag with the right mouse button on desktop or use two fingers on touchscreens."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade",
+        "drawing",
+        "3d",
+        "monster"
+      ],
+      "tags": [
+        "cute-games",
+        "art-games",
+        "1-player-games",
+        "casual-games",
+        "creativity-games",
+        "customization-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "inGamePurchases": "Yes"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/draw-a-monster.jpg",
+      "artwork": "/assets/logos/playgama/draw-a-monster-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/draw-a-monster/icon/ee452a1277a749f6a6c4fc73eca534c9?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/draw-a-monster/big_preview/04483572799341a3b9e1b5625b7dd212?width=448"
+      }
+    }
+  },
+  {
+    "id": "restaurant-day",
+    "addedOn": "2026-11-27",
+    "title": "Restaurant Day",
+    "category": {
+      "en": "Restaurant cooking simulation"
+    },
+    "url": "https://playgama.com/export/game/restaurant-day?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/restaurant-day",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Cook your way through a small restaurant’s menu in Restaurant Day. Slice, mix and time kitchen tasks to unlock dishes and appliances.",
+        "about": [
+          "Each recipe has several short tasks. Check the pantry first, then buy ingredients you’re missing before starting.",
+          "Accurate movements earn a better result. Coins and stars help expand the menu and improve the kitchen."
+        ],
+        "steps": [
+          [
+            "Choose a recipe",
+            "Open the menu and check the ingredient list. Visit the shop to refill your stock."
+          ],
+          [
+            "Cook in stages",
+            "Follow the prompts to drag, slice, stir, hold or tap at the right time."
+          ]
+        ],
+        "faq": [
+          [
+            "How do new dishes unlock?",
+            "Earn coins and stars by completing recipes."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation",
+        "food",
+        "management",
+        "restaurant",
+        "cooking"
+      ],
+      "tags": [
+        "casual-games",
+        "cute-games",
+        "1-player-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/restaurant-day.jpg",
+      "artwork": "/assets/logos/playgama/restaurant-day-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/restaurant-day/icon/b73f2e2632024d848424a4dfa4402141?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/restaurant-day/big_preview/18611a7bce49459e83a40fe9b1930577?width=448"
+      }
+    }
+  },
+  {
+    "id": "pond-to-abyss",
+    "addedOn": "2026-11-27",
+    "title": "Pond To Abyss",
+    "category": {
+      "en": "Cozy fishing simulator"
+    },
+    "url": "https://playgama.com/export/game/pond-to-abyss?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/pond-to-abyss",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Fish from quiet ponds to the Abyss. Land 39 species, upgrade your gear and finish the fish collection in Pond to Abyss.",
+        "about": [
+          "Weather and time of day change what you might catch. Rain can bring rare fish, while shiny variants appear more often at night.",
+          "Sell catches to upgrade rods, bait and storage. The map opens six fishing spots with different species."
+        ],
+        "steps": [
+          [
+            "Cast and wait",
+            "Click or tap the water, or press Space. Act quickly when an exclamation mark appears by the bobber."
+          ],
+          [
+            "Reel in the fish",
+            "Hold to raise the green zone and release to lower it. Keep the fish inside until the catch bar fills."
+          ]
+        ],
+        "faq": [
+          [
+            "What are helper pets for?",
+            "The cat can fish while you’re away, the pelican can sell a full bag, and the otter raises fish prices."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation",
+        "cozy",
+        "fishing"
+      ],
+      "tags": [
+        "casual-games",
+        "relaxing-games",
+        "cute-games",
+        "collecting-games",
+        "1-player-games",
+        "incremental-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "es-ES",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/pond-to-abyss.jpg",
+      "artwork": "/assets/logos/playgama/pond-to-abyss-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/icon/a85e853330144f669d10781bc1abacbb?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/preview/f8e29702b1db453682538557a9bc24d2?width=448"
+      }
+    }
+  },
+  {
+    "id": "city-driver-traffic-drive-out",
+    "addedOn": "2026-11-27",
+    "title": "City Driver: Traffic Drive Out",
+    "category": {
+      "en": "One-touch traffic driving"
+    },
+    "url": "https://playgama.com/export/game/city-driver-traffic-drive-out?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/city-driver-traffic-drive-out",
+    "portrait": true,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Time your acceleration through junctions and railway crossings in City Driver: Traffic Drive Out. Gather coins to unlock more cars.",
+        "about": [
+          "The game handles bends for you. Busy traffic, roundabouts and train crossings put the emphasis on the timing of each burst of speed.",
+          "Coins along the route help expand your garage with muscle cars, sports cars and SUVs."
+        ],
+        "steps": [
+          [
+            "Build speed",
+            "Hold the controls down to accelerate as the road opens up."
+          ],
+          [
+            "Brake for traffic",
+            "Release to slow down near signals, roundabouts or rail crossings. Wait for a gap before accelerating again."
+          ]
+        ],
+        "faq": [
+          [
+            "Do I steer around corners?",
+            "The car follows the road through bends automatically."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "racing",
+        "arcade",
+        "3d",
+        "car",
+        "driving"
+      ],
+      "tags": [
+        "fast-paced-games",
+        "casual-games",
+        "webgl-games",
+        "collecting-games",
+        "challenge-games",
+        "1-player-games",
+        "traffic-games",
+        "car-for-kids",
+        "arcade-car"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/city-driver-traffic-drive-out.jpg",
+      "artwork": "/assets/logos/playgama/city-driver-traffic-drive-out-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/icon/d2c94dc247d74fea86ea7181794cb077?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/preview/075f90cee6a44c22a739dddc4c4c4f1c?width=448"
+      }
+    }
+  },
+  {
+    "id": "snowprints",
+    "addedOn": "2026-11-27",
+    "title": "Snowprints",
+    "category": {
+      "en": "Penguin path-drawing puzzle"
+    },
+    "url": "https://playgama.com/export/game/snowprints?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/snowprints",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Draw routes to matching igloos in Snowprints. Time the penguins’ steps across ice and deep snow so their paths never collide.",
+        "about": [
+          "All penguins move at the same time. The same crossing can work if one arrives first, so use a longer route or a small loop.",
+          "Deep snow slows penguins, slippery ice speeds them up, and thin ice can break after one crossing."
+        ],
+        "steps": [
+          [
+            "Draw every route",
+            "Drag from each penguin to the igloo of its color."
+          ],
+          [
+            "Watch the group move",
+            "Press Go and look for collisions. Redraw a route if two penguins reach the same spot together."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I earn more stars?",
+            "Use fewer footprints."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "mouse",
+        "penguin",
+        "brain",
+        "logic"
+      ],
+      "tags": [
+        "casual-games",
+        "brain-training-games",
+        "challenging-games",
+        "cute-games",
+        "mind-games",
+        "challenge-games",
+        "1-player-games",
+        "timing-games",
+        "snow-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "tr-TR",
+        "es-ES",
+        "pt-BR",
+        "fr-FR",
+        "de-DE",
+        "it-IT",
+        "ru-RU",
+        "pl-PL",
+        "id-ID"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/snowprints.jpg",
+      "artwork": "/assets/logos/playgama/snowprints-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/icon/8f7cb65d402d4a23aae5438ab2a5d29a?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/preview/b532d5f0ac1d4ea7a32cf4afb41be935?width=448"
+      }
+    }
+  },
+  {
+    "id": "squish-jar",
+    "addedOn": "2026-11-27",
+    "title": "Squish Jar",
+    "category": {
+      "en": "Dessert merge puzzle"
+    },
+    "url": "https://playgama.com/export/game/squish-jar?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/squish-jar",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Drop soft sweets into a jar and merge matching pairs. Aim for Cloud Cake without stacking past the dashed line.",
+        "about": [
+          "Mochi, macarons and donuts wobble and shift after each drop. Two identical sweets become a larger one on contact.",
+          "Quick merges build combos. New jars and backgrounds unlock as you play, and there’s a different daily challenge."
+        ],
+        "steps": [
+          [
+            "Aim and drop",
+            "Move the mouse and click, or drag your finger and release."
+          ],
+          [
+            "Leave room for big sweets",
+            "Guide matches together before the stack rises above the dashed line."
+          ]
+        ],
+        "faq": [
+          [
+            "What helps when the jar fills up?",
+            "Try a Shake, Pop or Upgrade boost."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "arcade",
+        "merge",
+        "cozy",
+        "physics"
+      ],
+      "tags": [
+        "casual-games",
+        "relaxing-games",
+        "addictive-games",
+        "cute-games",
+        "color-matching-games",
+        "collecting-games",
+        "1-player-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "hi-IN",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/squish-jar.jpg",
+      "artwork": "/assets/logos/playgama/squish-jar-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": "https://static.playgama.com/p-video/9eb28cebfc5e4e6093f4fe62937d5cb4/orig_length_h640_6so.mp4",
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/icon/254d0ca8480542919c6157322db2ec5f?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/preview/ff55ed2990a04037bc4f4b0efc34974b?width=448",
+        "previewId": "9eb28cebfc5e4e6093f4fe62937d5cb4"
+      }
+    }
+  },
+  {
+    "id": "cozy-art-studio",
+    "addedOn": "2026-11-27",
+    "title": "Cozy Art Studio",
+    "category": {
+      "en": "Illustration studio simulator"
+    },
+    "url": "https://playgama.com/export/game/cozy-art-studio?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/cozy-art-studio",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Take art commissions in Cozy Art Studio. Trace sketches, match the reference colors and use your earnings to decorate the studio.",
+        "about": [
+          "Customers specify a subject, preferences, pay and deadline in chat. You can accept, negotiate or pass on the order.",
+          "Clean lines and faithful colors earn stars and can bring larger tips. Upgrade tools or furnish the studio with your earnings."
+        ],
+        "steps": [
+          [
+            "Read the brief",
+            "Open the chat and check what the customer wants before accepting."
+          ],
+          [
+            "Draw and deliver",
+            "Trace with the pen, sample colors with the eyedropper and fill the shapes. Finish before the deadline."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I draw without a deadline?",
+            "Yes. Open the sketchbook from the gallery for free drawing."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade",
+        "simulation",
+        "decoration",
+        "cozy",
+        "drawing"
+      ],
+      "tags": [
+        "customization-games",
+        "casual-games",
+        "relaxing-games",
+        "creativity-games",
+        "painting-games",
+        "cute-games",
+        "art-games",
+        "shop-games",
+        "1-player-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "es-ES",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "inGamePurchases": "Yes"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/cozy-art-studio.jpg",
+      "artwork": "/assets/logos/playgama/cozy-art-studio-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/cozy-art-studio/icon/7e6157fd2e5d47beb643b0927015d1f2?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/cozy-art-studio/big_preview/cc85d2edd3c342f5a1ca0ac19ee9ec18?width=448"
+      }
+    }
+  },
+  {
+    "id": "hatch-a-capybara",
+    "addedOn": "2026-11-27",
+    "title": "Hatch a Capybara!",
+    "category": {
+      "en": "Capybara pet care"
+    },
+    "url": "https://playgama.com/export/game/hatch-a-capybara?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/hatch-a-capybara",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Hatch baby capybaras, feed them and decorate their home. Play mini-games and use coins to unlock new items.",
+        "about": [
+          "A few taps on an egg start your capybara family. Food and toys let you interact with each animal.",
+          "The on-screen menu opens different rooms, decorations and mini-games. Coins pay for more items."
+        ],
+        "steps": [
+          [
+            "Hatch an egg",
+            "Click or tap the egg repeatedly until it opens."
+          ],
+          [
+            "Care for your pets",
+            "Drag food or toys to a capybara, then explore the home menu to find decorations."
+          ]
+        ],
+        "faq": [
+          [
+            "What can I spend coins on?",
+            "Coins unlock more items for your capybaras and their home."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation",
+        "kids",
+        "animals",
+        "cozy"
+      ],
+      "tags": [
+        "capybara-games",
+        "casual-games",
+        "relaxing-games",
+        "pet-games",
+        "cute-games",
+        "collecting-games",
+        "1-player-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/hatch-a-capybara.jpg",
+      "artwork": "/assets/logos/playgama/hatch-a-capybara-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/hatch-a-capybara/icon/215d707c57ab46f1b9bc1ed294b1f4c7?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/hatch-a-capybara/big_preview/c65a8d8e7933469da95dd50e244b189c?width=448"
+      }
+    }
+  },
+  {
+    "id": "ink-blade",
+    "addedOn": "2026-11-27",
+    "title": "Ink Blade",
+    "category": {
+      "en": "Timing-based sword action"
+    },
+    "url": "https://playgama.com/export/game/ink-blade?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/ink-blade",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Parry closing rings and clear enemy waves in Ink Blade. Battle district bosses or join online PvP and co-op.",
+        "about": [
+          "Watch the rings around enemies in the rainy city. White rings signal parries, red ones require a dodge, and gold ones are feints.",
+          "An upgrade and a health refill follow every second wave. Finish four waves and defeat the boss to open the next district."
+        ],
+        "steps": [
+          [
+            "Move and slash",
+            "Use WASD or arrow keys, then click or press J to attack. Touch players can use the stick and Slash button."
+          ],
+          [
+            "Time your guard",
+            "Press right mouse or L, or tap Guard, as a white ring closes. Use Space or Dash to evade."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I play online with friends?",
+            "Yes. There’s team PvP for up to four per side and online co-op waves for up to six players."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "action",
+        "skill",
+        "multiplayer",
+        "fighting",
+        "co-op",
+        "pvp"
+      ],
+      "tags": [
+        "2d-games",
+        "arena-games",
+        "webgl-games",
+        "combat-games",
+        "sword-games",
+        "isometric-games",
+        "1-player-games",
+        "teams-games",
+        "action-fighting",
+        "2d-action"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/ink-blade.jpg",
+      "artwork": "/assets/logos/playgama/ink-blade-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/ink-blade/icon/c5f7c189e3fd4bbf845c559239deaa50?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/ink-blade/big_preview/606ed5f1ec9a4ab983ef51ba33434c8c?width=448"
+      }
+    }
+  },
+  {
+    "id": "toy-ramps",
+    "addedOn": "2026-11-27",
+    "title": "Toy Ramps",
+    "category": {
+      "en": "Toy car stunt racing"
+    },
+    "url": "https://playgama.com/export/game/toy-ramps?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/toy-ramps",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Race toy cars through household stunt tracks. Flip across ramps, land on your wheels and build your own courses in Toy Ramps.",
+        "about": [
+          "The car drives forward on its own. Race three rivals, enter stunt shows and unlock cars as you move through the house.",
+          "Straight landings after a flip earn nitro and bonus coins. The track builder lets you combine ramps, loops and curves."
+        ],
+        "steps": [
+          [
+            "Steer around obstacles",
+            "Use A and D, the horizontal arrows or a sideways drag."
+          ],
+          [
+            "Control the car in midair",
+            "Use W and S or an up-down drag to flip. Use your steering controls to roll, then level out before landing."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I use nitro?",
+            "Press Space or select the Nitro button."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "racing",
+        "arcade",
+        "3d",
+        "car",
+        "car-racing",
+        "driving"
+      ],
+      "tags": [
+        "race-games",
+        "customization-games",
+        "endless-games",
+        "backflip-games",
+        "cute-games",
+        "jumping-games",
+        "webgl-games",
+        "collecting-games",
+        "agility-games",
+        "1-player-games",
+        "arcade-car"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "tr-TR"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/toy-ramps.jpg",
+      "artwork": "/assets/logos/playgama/toy-ramps-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/toy-ramps/icon/8ecdb8158b9d4686a415d70f9bebdc30?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/toy-ramps/big_preview/653931a78e2843449a71aacb2f13934a?width=448"
+      }
+    }
+  },
+  {
+    "id": "toy-legion",
+    "addedOn": "2026-11-27",
+    "title": "Toy Legion",
+    "category": {
+      "en": "Toy soldier merge strategy"
+    },
+    "url": "https://playgama.com/export/game/toy-legion?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/toy-legion",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Merge plastic soldiers, arrange a 5×4 formation and send your Toy Legion against waves of wind-up robots.",
+        "about": [
+          "Identical soldiers merge into a stronger tier. Place sturdy units up front and keep supporting units behind them.",
+          "The campaign spans four toy worlds. Toy Box Siege adds endless waves and a boss every ten waves."
+        ],
+        "steps": [
+          [
+            "Build the formation",
+            "Recruit with coins, then drag soldiers into empty spaces or onto identical ones to merge them."
+          ],
+          [
+            "Start a battle",
+            "Press Battle to deploy. When the command ability ring fills, activate it at a useful moment."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I swap two units?",
+            "Drag one onto a different soldier to swap their positions."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "kids",
+        "3d",
+        "merge",
+        "army"
+      ],
+      "tags": [
+        "casual-games",
+        "addictive-games",
+        "heroes-games",
+        "military-games",
+        "1-player-games",
+        "tactical-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "tr-TR"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/toy-legion.jpg",
+      "artwork": "/assets/logos/playgama/toy-legion-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/toy-legion/icon/c61aa07c90a747c3bad0d7314cdb2c56?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/toy-legion/big_preview/288ac10f3483412a9110bf3784db832f?width=448"
+      }
+    }
+  },
+  {
+    "id": "ok-i-pull-up-capybay",
+    "addedOn": "2026-11-27",
+    "title": "Ok! I Pull Up Capybay!",
+    "category": {
+      "en": "Capybara island adventure"
+    },
+    "url": "https://playgama.com/export/game/ok-i-pull-up-capybay?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/ok-i-pull-up-capybay",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Explore CapyBay as a capybara. Gather supplies, craft goods and fill orders to open more of the island world.",
+        "about": [
+          "Collect resources as you explore, then take them to production stations to turn them into goods.",
+          "Orders give your route a purpose. Check what each one needs before carrying supplies across the island."
+        ],
+        "steps": [
+          [
+            "Explore at your pace",
+            "Use WASD or arrows, click or tap a destination, or drag to use the floating joystick."
+          ],
+          [
+            "Put resources to work",
+            "Press E, Space or Enter to interact with the nearest station or object."
+          ]
+        ],
+        "faq": [
+          [
+            "What opens a new area?",
+            "Progress by crafting goods and completing orders."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "adventure",
+        "simulation",
+        "kids",
+        "3d",
+        "management",
+        "cozy"
+      ],
+      "tags": [
+        "capybara-games",
+        "casual-games",
+        "cute-games",
+        "collecting-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/ok-i-pull-up-capybay.jpg",
+      "artwork": "/assets/logos/playgama/ok-i-pull-up-capybay-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/ok-i-pull-up-capybay/icon/700a488ac06a46b4b4e211d4dd657509?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/ok-i-pull-up-capybay/big_preview/059f0f3f93cb4d76ae721af4ee3ddcb4?width=448"
+      }
+    }
+  },
+  {
+    "id": "kaiju-rampage-ultimate",
+    "addedOn": "2026-11-27",
+    "title": "Kaiju Rampage Ultimate",
+    "category": {
+      "en": "3D kaiju destruction sandbox"
+    },
+    "url": "https://playgama.com/export/game/kaiju-rampage-ultimate?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/kaiju-rampage-ultimate",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Smash block-built cities as a giant kaiju. Grow with experience, unlock powers and face tougher forces as the wanted level rises.",
+        "about": [
+          "Buildings break apart into physics-driven blocks. A rising wanted level brings stronger opponents, all the way up to six stars.",
+          "There are five open city maps. Visit the Powers menu to unlock more fictional monster abilities."
+        ],
+        "steps": [
+          [
+            "Roam the city",
+            "Use WASD or the touch stick, then drag to turn the camera."
+          ],
+          [
+            "Try basic attacks",
+            "Claw with left click or J and slam with Space. On mobile, use the buttons on the right."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I grow my kaiju?",
+            "Gain experience as you destroy objects across the city."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "action",
+        "3d",
+        "monster"
+      ],
+      "tags": [
+        "voxel-games",
+        "destruction-games",
+        "smash-games",
+        "arena-games",
+        "webgl-games",
+        "action-adventure"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/kaiju-rampage-ultimate.jpg",
+      "artwork": "/assets/logos/playgama/kaiju-rampage-ultimate-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/kaiju-rampage-ultimate/icon/33cfb54b9d77425c8980465157dc8f9a?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/kaiju-rampage-ultimate/big_preview/14e875ccb01e45a58074fc25707c9112?width=448"
+      }
+    }
+  },
+  {
+    "id": "blocky-aces",
+    "addedOn": "2026-11-27",
+    "title": "Blocky Aces",
+    "category": {
+      "en": "Voxel arcade flight shooter"
+    },
+    "url": "https://playgama.com/export/game/blocky-aces?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/blocky-aces",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Fly through voxel landscapes in Blocky Aces. Survive waves, choose upgrade cards and unlock more aircraft in the hangar.",
+        "about": [
+          "Each hit costs a heart. Spend earned coins on permanent weapon, engine and armor upgrades between runs.",
+          "After every wave, choose one of three cards. Experiment with different combinations to get farther."
+        ],
+        "steps": [
+          [
+            "Pilot the plane",
+            "On desktop, click to capture the mouse and move it to fly. On touchscreens, drag a finger."
+          ],
+          [
+            "Fire at the target",
+            "Hold left click on desktop. On mobile, the gun fires when a target enters the sight."
+          ]
+        ],
+        "faq": [
+          [
+            "What can I upgrade between runs?",
+            "Coins buy permanent upgrades and help unlock 14 aircraft."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "action",
+        "arcade",
+        "skill",
+        "3d",
+        "shooting",
+        "flying"
+      ],
+      "tags": [
+        "plane-games",
+        "bullet-games",
+        "voxel-games",
+        "air-games",
+        "fighter-jet-games",
+        "flight-games",
+        "collecting-games",
+        "1-player-games",
+        "shoot-em-up-games",
+        "arcade-shooter",
+        "action-adventure",
+        "fast-paced-action"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU",
+        "de-DE",
+        "es-ES",
+        "tr-TR"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/blocky-aces.jpg",
+      "artwork": "/assets/logos/playgama/blocky-aces-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/blocky-aces/icon/dac91cd2b0614b359d67186a0e4b4dc1?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/blocky-aces/big_preview/be791c3517ce40109b8e3aa36c8ae860?width=448"
+      }
+    }
+  },
+  {
+    "id": "mahjong-tile-club",
+    "addedOn": "2026-11-27",
+    "title": "Mahjong Tile Club",
+    "category": {
+      "en": "Mahjong solitaire tile matching"
+    },
+    "url": "https://playgama.com/export/game/mahjong-tile-club?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/mahjong-tile-club",
+    "portrait": true,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Match open pairs in Mahjong Tile Club. Clear layered layouts, build a score combo and earn chests across 100 levels.",
+        "about": [
+          "A playable tile has nothing above it and at least one free side, left or right. A locked tile costs points and breaks the combo.",
+          "Removing upper tiles exposes more of the stack. Hint finds a pair, and Shuffle rearranges the remaining tiles."
+        ],
+        "steps": [
+          [
+            "Find open pairs",
+            "Click or tap two matching tiles with at least one open side each."
+          ],
+          [
+            "Uncover the lower layers",
+            "Start with pairs on top of tall stacks when available."
+          ]
+        ],
+        "faq": [
+          [
+            "When do chests appear?",
+            "A new chest opens every ten levels and contains extra Hints and Shuffles."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "matching",
+        "mahjong",
+        "brain",
+        "classic",
+        "logic"
+      ],
+      "tags": [
+        "2d-games",
+        "casual-games",
+        "relaxing-games",
+        "brain-training-games",
+        "connect-games",
+        "mind-games",
+        "1-player-games",
+        "tiles-games",
+        "mahjong-solitaire-online"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/mahjong-tile-club.jpg",
+      "artwork": "/assets/logos/playgama/mahjong-tile-club-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/mahjong-tile-club/icon/8e78a2efbd0d45819854d28c648717b2?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/mahjong-tile-club/big_preview/3b4b8ee09c344c1b946f11dbf5e4214f?width=448"
+      }
+    }
+  },
+  {
+    "id": "snake-flow-loop",
+    "addedOn": "2026-11-27",
+    "title": "Snake Flow Loop",
+    "category": {
+      "en": "Snake order and mosaic puzzle"
+    },
+    "url": "https://playgama.com/export/game/snake-flow-loop?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/snake-flow-loop",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Send toy snakes around a loop in the right order to reveal pixel mosaics in Snake Flow Loop.",
+        "about": [
+          "The track is shared, so a seemingly available snake can still block another one’s route later.",
+          "The mosaic fills in as you clear the loop. Each finished picture opens another puzzle."
+        ],
+        "steps": [
+          [
+            "Check the track",
+            "Look at the available snakes and see which would leave the clearest path next."
+          ],
+          [
+            "Send a snake",
+            "Click or tap it, then plan the next move around the remaining positions."
+          ]
+        ],
+        "faq": [
+          [
+            "What completes a level?",
+            "Clear every snake from the loop to reveal the full picture."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "arcade",
+        "3d",
+        "snake"
+      ],
+      "tags": [
+        "casual-games",
+        "hyper-casual-games",
+        "color-matching-games",
+        "collecting-games",
+        "simple-games",
+        "pixel-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "Yes"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/snake-flow-loop.jpg",
+      "artwork": "/assets/logos/playgama/snake-flow-loop-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/snake-flow-loop/icon/fb6533c802524c488632ecd9564cffe9?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/snake-flow-loop/big_preview/e7c4c2facf4b4323a9d8f07c38e4deb5?width=448"
+      }
+    }
+  },
+  {
+    "id": "market-hero",
+    "addedOn": "2026-11-27",
+    "title": "Market Hero",
+    "category": {
+      "en": "Supermarket management"
+    },
+    "url": "https://playgama.com/export/game/market-hero?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/market-hero",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Stock shelves, run production machines and serve checkout queues in Market Hero. Hire staff as your supermarket grows.",
+        "about": [
+          "Garden crops and truck deliveries supply the shop. Production stations turn stock into goods for the shelves.",
+          "Cash pays for machines, shelf space, staff and player skills. Grow one store before setting out for the next district."
+        ],
+        "steps": [
+          [
+            "Work the floor",
+            "Drag the floating joystick, then stand on pads to harvest, load, stock or scan items."
+          ],
+          [
+            "Automate the busy stations",
+            "Spend cash on glowing pads to add equipment or hire workers for stocking, checkout or cleaning."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I reach another district?",
+            "Finish the required store upgrades to build the City Van."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade",
+        "simulation",
+        "3d",
+        "tycoon",
+        "management",
+        "idle"
+      ],
+      "tags": [
+        "casual-games",
+        "business-games",
+        "addictive-games",
+        "shop-games",
+        "time-management-games",
+        "collecting-games",
+        "1-player-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/market-hero.jpg",
+      "artwork": "/assets/logos/playgama/market-hero-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/market-hero/icon/59e2bcc64d684b8c962afad794af977a?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/market-hero/big_preview/888a3c09f75e4fbd8f11bafe48a8fb6c?width=448"
+      }
+    }
+  },
+  {
+    "id": "starship-gem-rush",
+    "addedOn": "2026-11-27",
+    "title": "Starship Gem Rush",
+    "category": {
+      "en": "Space survival shooter"
+    },
+    "url": "https://playgama.com/export/game/starship-gem-rush?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/starship-gem-rush",
+    "portrait": true,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Pilot an auto-firing spaceship, collect gems and build your upgrades in Starship Gem Rush. Try six campaign stages or endless Survival.",
+        "about": [
+          "The ship aims and shoots on its own. Spend your attention dodging swarms and moving into gaps.",
+          "Gems dropped by enemies grant experience. Choose one of three cards at each level-up and combine compatible upgrades to evolve weapons."
+        ],
+        "steps": [
+          [
+            "Fly clear of enemies",
+            "Use WASD or the arrow keys. On a phone, drag anywhere on the screen."
+          ],
+          [
+            "Collect gems and choose a card",
+            "Pick up drops and select a card that helps your current run."
+          ]
+        ],
+        "faq": [
+          [
+            "What can I do between runs?",
+            "Spend gems in the Hangar to unlock ships and improve talents."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "action",
+        "shooting",
+        "survival",
+        "space"
+      ],
+      "tags": [
+        "2d-games",
+        "bullet-games",
+        "dodge-games",
+        "webgl-games",
+        "1-player-games",
+        "sci-fi-games",
+        "horde-survival-games",
+        "arcade-shooter",
+        "2d-action",
+        "survivors-likes"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU",
+        "tr-TR",
+        "es-ES",
+        "pt-BR"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/starship-gem-rush.jpg",
+      "artwork": "/assets/logos/playgama/starship-gem-rush-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/starship-gem-rush/icon/ae524462da2747edb017eda513737ed2?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/starship-gem-rush/big_preview/026f61d5ec404aa7be3358a0caa589f8?width=448"
+      }
+    }
+  },
+  {
+    "id": "sky-ramp-fury-mega-ramp-car-stunts",
+    "addedOn": "2026-11-27",
+    "title": "Sky Ramp Fury: Mega Ramp Car Stunts",
+    "category": {
+      "en": "Mega-ramp sky stunts"
+    },
+    "url": "https://playgama.com/export/game/sky-ramp-fury-mega-ramp-car-stunts?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/sky-ramp-fury-mega-ramp-car-stunts",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Drive giant ramps, loops and narrow bridges above the clouds in Sky Ramp Fury. Time your boost and land on four wheels.",
+        "about": [
+          "Fifty levels put wider jumps and tighter passages between you and the finish flag.",
+          "Coins can unlock five stunt cars. Checkpoints let you resume partway through a level after a fall."
+        ],
+        "steps": [
+          [
+            "Build speed before jumps",
+            "Use the boost on the approach to clear long gaps."
+          ],
+          [
+            "Level out before landing",
+            "Straighten the car so its wheels take the landing."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I earn three stars?",
+            "Reach the finish with fewer checkpoint resets."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "racing",
+        "3d",
+        "car",
+        "driving"
+      ],
+      "tags": [
+        "2d-games",
+        "stunt-games",
+        "customization-games",
+        "casual-games",
+        "dash-games",
+        "obstacles-games",
+        "jumping-games",
+        "webgl-games",
+        "1-player-games",
+        "arcade-car"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/sky-ramp-fury-mega-ramp-car-stunts.jpg",
+      "artwork": "/assets/logos/playgama/sky-ramp-fury-mega-ramp-car-stunts-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/sky-ramp-fury-mega-ramp-car-stunts/icon/258d1f12323641f6b6cb6c847b2ea24e?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/sky-ramp-fury-mega-ramp-car-stunts/big_preview/66f4927593db488bbba0970f73d81021?width=448"
+      }
+    }
+  },
+  {
+    "id": "emberwing-skies-of-the-undead",
+    "addedOn": "2026-11-27",
+    "title": "Emberwing: Skies of the Undead",
+    "category": {
+      "en": "Dragon flight action"
+    },
+    "url": "https://playgama.com/export/game/emberwing-skies-of-the-undead?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/emberwing-skies-of-the-undead",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Ride an elemental dragon in Emberwing. Destroy cursed spires, face a boss in each chapter and explore five skies.",
+        "about": [
+          "Choose one of four dragons for the campaign. Each chapter ends with a boss after you clear the spires and the undead horde.",
+          "First Flight teaches the controls. Other modes include Skyfall survival, Boss Rush and the Daily Flight."
+        ],
+        "steps": [
+          [
+            "Steer and aim",
+            "Move the mouse on desktop or drag the left side on touchscreens."
+          ],
+          [
+            "Use dragon abilities",
+            "Hold left click for breath, or lock on to fire automatically on touch. Activate Strike, Burst and Super as needed."
+          ]
+        ],
+        "faq": [
+          [
+            "Is there a tutorial?",
+            "Choose First Flight for a short guided flight."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "action",
+        "adventure",
+        "3d",
+        "shooting",
+        "survival",
+        "monster",
+        "dragon"
+      ],
+      "tags": [
+        "fantasy-games",
+        "destroy-games",
+        "addictive-games",
+        "webgl-games",
+        "apocalypse-games",
+        "1-player-games",
+        "horde-survival-games",
+        "fire-games",
+        "arcade-shooter",
+        "action-adventure"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/emberwing-skies-of-the-undead.jpg",
+      "artwork": "/assets/logos/playgama/emberwing-skies-of-the-undead-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/icon/e187c5538c5b48819c4a11f743fbcdfb?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/preview/b0475c5582ca4509b6995fc7fb307e21?width=448"
+      }
+    }
+  },
+  {
+    "id": "battle-sandbox-playground",
+    "addedOn": "2026-11-27",
+    "title": "Battle Sandbox Playground",
+    "category": {
+      "en": "Toy battle physics sandbox"
+    },
+    "url": "https://playgama.com/export/game/battle-sandbox-playground?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/battle-sandbox-playground",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Set up toy armies and watch them clash in Battle Sandbox Playground. Create a scene or try a ready-made scenario.",
+        "about": [
+          "Green and olive toy soldiers share the sandbox with vehicles, defenses and robots. Place or rearrange pieces across different maps.",
+          "Watch the toy units move under their own control, take over a soldier or slow the action to see the physics."
+        ],
+        "steps": [
+          [
+            "Build a scene",
+            "Choose a piece in the menu and click or tap the field to place it. Drag to move it."
+          ],
+          [
+            "Switch to play",
+            "Press P on desktop to switch between Build and Play. Click a toy soldier in Play to take control."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I inspect a scene more closely?",
+            "Pause or switch to slow motion, and scroll or pinch to zoom."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "action",
+        "simulation",
+        "ragdoll",
+        "army",
+        "tanks",
+        "physics"
+      ],
+      "tags": [
+        "destruction-games",
+        "addictive-games",
+        "characters-games",
+        "military-games",
+        "combat-games",
+        "1-player-games",
+        "sandbox-games",
+        "soldier-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/battle-sandbox-playground.jpg",
+      "artwork": "/assets/logos/playgama/battle-sandbox-playground-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": "https://static.playgama.com/p-video/d311781534f644fc9aa38847dfe1f39b/orig_length_h640_6so.mp4",
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/battle-sandbox-playground/icon/f43b3893060247c0a0bd01edf14d6b3f?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/battle-sandbox-playground/big_preview/472470f99910495e8f599508995d7607?width=448",
+        "previewId": "d311781534f644fc9aa38847dfe1f39b"
+      }
+    }
+  },
+  {
+    "id": "wingstorm",
+    "addedOn": "2026-11-27",
+    "title": "Wingstorm",
+    "category": {
+      "en": "One-touch arcade flight shooter"
+    },
+    "url": "https://playgama.com/export/game/wingstorm?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/wingstorm",
+    "portrait": true,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Dodge enemy planes and UFOs in Wingstorm. Your plane fires automatically while you collect crates and face the world bosses.",
+        "about": [
+          "Fly through 30 levels in ten worlds. Crates supply coins, health, bombs and weapon power.",
+          "Fly low over stranded people to rescue them. Spend coins between flights on stronger planes or more bombs."
+        ],
+        "steps": [
+          [
+            "Fly through the gaps",
+            "Drag with the mouse or a finger, or steer with WASD or arrows."
+          ],
+          [
+            "Use a bomb under pressure",
+            "Press Space or B on the keyboard to clear the screen in a busy moment."
+          ]
+        ],
+        "faq": [
+          [
+            "Where do I buy more planes?",
+            "Use your coins in the Hangar to unlock or upgrade six planes."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade",
+        "flying",
+        "shooting"
+      ],
+      "tags": [
+        "addictive-games",
+        "avoid-games",
+        "1-player-games",
+        "arcade-shooter",
+        "dodge-games",
+        "casual-games",
+        "endless-games",
+        "flight-games",
+        "plane-games",
+        "fast-paced-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "Yes"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/wingstorm.jpg",
+      "artwork": "/assets/logos/playgama/wingstorm-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/wingstorm/icon/0543285fc876436380b361783fae8b18?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/wingstorm/big_preview/a140a5a64d4549c4921c81b7ba338943?width=448"
+      }
+    }
+  },
+  {
+    "id": "crossum",
+    "addedOn": "2026-11-27",
+    "title": "Crossum",
+    "category": {
+      "en": "Crossword-style arithmetic puzzle"
+    },
+    "url": "https://playgama.com/export/game/crossum?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/crossum",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Solve intersecting equations in Crossum. Fit number tiles into a crossword-style grid and make both directions correct.",
+        "about": [
+          "Each shared number must work across and down. Start where one answer can immediately rule out options in the other equation.",
+          "Choose boards from 5×5 to 11×11 or solve a shared daily challenge."
+        ],
+        "steps": [
+          [
+            "Place a number",
+            "Drag from the tray to an empty cell, or select the tile and then the cell."
+          ],
+          [
+            "Check the equations",
+            "Verify both directions before completing a line. Tap a placed number to take it back."
+          ]
+        ],
+        "faq": [
+          [
+            "What happens after a wrong equation?",
+            "A completed equation with the wrong result costs one heart."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "logic",
+        "brain",
+        "puzzle",
+        "number",
+        "math",
+        "sudoku"
+      ],
+      "tags": [
+        "challenge-games",
+        "1-player-games",
+        "casual-games",
+        "brain-training-games",
+        "mind-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ar-EG",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "th-TH",
+        "tr-TR",
+        "vi-VN"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/crossum.jpg",
+      "artwork": "/assets/logos/playgama/crossum-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/crossum/icon/ad5381971d8a4d1ea8de7833a5f938c4?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/crossum/big_preview/3886820592544a7c8c2a30bd518a5c20?width=448"
+      }
+    }
+  },
+  {
+    "id": "ballpit-clean-master",
+    "addedOn": "2026-11-27",
+    "title": "Ballpit Clean Master",
+    "category": {
+      "en": "3D ball pit cleaning simulator"
+    },
+    "url": "https://playgama.com/export/game/ballpit-clean-master?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/ballpit-clean-master",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Vacuum up runaway ball-pit balls and turn them in for coins in Ballpit Clean Master. Expand your tools across four locations.",
+        "about": [
+          "Loose balls bounce and roll while you clean. Use the Recycler to empty the tank and earn coins for equipment and helpers.",
+          "Plug ball geysers to stop them refilling cleared spots. Search for hidden toys for your collection."
+        ],
+        "steps": [
+          [
+            "Move and vacuum",
+            "Use WASD and hold left click. On mobile, use the joystick and the vacuum button."
+          ],
+          [
+            "Empty the tank",
+            "Walk into the ring at the Recycler and use the coins to buy upgrades."
+          ]
+        ],
+        "faq": [
+          [
+            "When does the next location unlock?",
+            "It opens when you clean 90% of the current location."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade",
+        "simulation",
+        "cozy",
+        "3d"
+      ],
+      "tags": [
+        "casual-games",
+        "cleaning-games",
+        "relaxing-games",
+        "webgl-games",
+        "collecting-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "inGamePurchases": "Yes"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/ballpit-clean-master.jpg",
+      "artwork": "/assets/logos/playgama/ballpit-clean-master-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/ballpit-clean-master/icon/c28250b7b6bb4768a682dbc6ca94ce0c?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/ballpit-clean-master/big_preview/ec951934b7d54267aa51e185833a0856?width=448"
+      }
+    }
+  },
+  {
+    "id": "zombie-army-rush",
+    "addedOn": "2026-11-27",
+    "title": "Zombie Army Rush",
+    "category": {
+      "en": "Zombie runner shooter"
+    },
+    "url": "https://playgama.com/export/game/zombie-army-rush?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/zombie-army-rush",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Lead an auto-firing squad through number gates in Zombie Army Rush. Build your crowd before each mission boss.",
+        "about": [
+          "Your squad runs and shoots on its own. Choose gates that add or multiply members, and shoot the displayed number to raise it.",
+          "Break locks for new gear and fill the adrenaline bar to pick an upgrade during a run."
+        ],
+        "steps": [
+          [
+            "Steer across lanes",
+            "Drag with the mouse or a finger, or use A and D or the horizontal arrows."
+          ],
+          [
+            "Pick the better gate",
+            "Compare how many soldiers each gate actually gives your current squad."
+          ]
+        ],
+        "faq": [
+          [
+            "Where do I use mission coins?",
+            "Spend them in HQ and the Arsenal between runs."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "runner",
+        "shooting",
+        "zombie",
+        "action",
+        "3d"
+      ],
+      "tags": [
+        "shoot-em-up-games",
+        "arcade-shooter",
+        "bullet-games",
+        "horde-survival-games",
+        "jumping-games",
+        "webgl-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "inGamePurchases": "Yes"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/zombie-army-rush.jpg",
+      "artwork": "/assets/logos/playgama/zombie-army-rush-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/zombie-army-rush/icon/66ad9e84b2974803bf55854d44cfa99e?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/zombie-army-rush/big_preview/276b3742b68f4c3cbcc8bcb3cfd8a0be?width=448"
+      }
+    }
+  },
+  {
+    "id": "slap-league",
+    "addedOn": "2026-11-27",
+    "title": "Slap League",
+    "category": {
+      "en": "Ragdoll slap fighting"
+    },
+    "url": "https://playgama.com/export/game/slap-league?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/slap-league",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Swipe to dodge and time your slaps in Slap League. Charge the Rage meter to face armored opponents and arena bosses.",
+        "about": [
+          "Fighters reel under the game’s ragdoll physics. The yellow arrow tells you which way to dodge when the opponent attacks.",
+          "Power, Health and Income can be upgraded from the lobby. The wardrobe lets you change skins."
+        ],
+        "steps": [
+          [
+            "Drag and release to slap",
+            "Pull back the fighter’s arm with a mouse or touch drag, then release."
+          ],
+          [
+            "Follow the dodge arrow",
+            "Swipe left, right or up as indicated before time runs out."
+          ]
+        ],
+        "faq": [
+          [
+            "When can I use the Super Slap?",
+            "When Rage reaches 100%, trace circles before releasing to build a bigger multiplier."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "action",
+        "arcade",
+        "3d",
+        "funny",
+        "fighting",
+        "ragdoll"
+      ],
+      "tags": [
+        "fast-paced-games",
+        "smash-games",
+        "arena-games",
+        "combat-games",
+        "1-player-games",
+        "action-fighting",
+        "fast-paced-action"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ar-EG",
+        "az-AZ",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "kk-KZ",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "uk-UA",
+        "uz-UZ",
+        "vi-VN"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/slap-league.jpg",
+      "artwork": "/assets/logos/playgama/slap-league-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/slap-league/icon/e596c8ee5c5b4a63b35189f2fc246ff4?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/slap-league/big_preview/9cb4d330e6b6479289a5992c87079b53?width=448"
+      }
+    }
+  },
+  {
+    "id": "swim-fitness-club",
+    "addedOn": "2026-11-27",
+    "title": "Swim Fitness Club",
+    "category": {
+      "en": "Idle fitness club management"
+    },
+    "url": "https://playgama.com/export/game/swim-fitness-club?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/swim-fitness-club",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Build up a small gym in Swim Fitness Club. Improve equipment, shorten queues and hire managers to open new locations.",
+        "about": [
+          "Visitors earn the club money as they train. Balance equipment, ticket prices and training speed instead of spending every coin on one area.",
+          "Club milestones open new locations. Gems can go toward managers or customer upgrades."
+        ],
+        "steps": [
+          [
+            "Welcome visitors",
+            "Click or tap the on-screen buttons to serve customers and collect earnings."
+          ],
+          [
+            "Improve the bottleneck",
+            "Buy equipment, speed up training or increase queue capacity according to where people wait."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I open another club?",
+            "Reach the milestones for your current location."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation",
+        "3d",
+        "tycoon",
+        "management",
+        "idle"
+      ],
+      "tags": [
+        "casual-games",
+        "business-games",
+        "shop-games",
+        "time-management-games",
+        "1-player-games",
+        "incremental-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/swim-fitness-club.jpg",
+      "artwork": "/assets/logos/playgama/swim-fitness-club-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/swim-fitness-club/icon/cd49d98e1d30454ebc6bec6401ab9260?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/swim-fitness-club/big_preview/99c0a8f0c6284f33b8527d2c7fd1a619?width=448"
+      }
+    }
+  },
+  {
+    "id": "thriller-cafe",
+    "addedOn": "2026-11-27",
+    "title": "Thriller Cafe",
+    "category": {
+      "en": "Zombie café management"
+    },
+    "url": "https://playgama.com/export/game/thriller-cafe?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/thriller-cafe",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Serve eerie dishes to zombie customers in Thriller Cafe. Improve the kitchen and hire a crew as the café grows.",
+        "about": [
+          "The restaurant has a menu for the undead. Start by preparing strange dishes and getting them to hungry customers.",
+          "Spend earnings on kitchen upgrades and staff as you expand your restaurant."
+        ],
+        "steps": [
+          [
+            "Move through the café",
+            "Use WASD or the mouse on desktop. On a phone, move with your finger."
+          ],
+          [
+            "Serve and upgrade",
+            "Prepare dishes, get them to customers and put your earnings back into the café."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I hire staff?",
+            "Yes, you can take on staff as part of expanding the restaurant."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation",
+        "tycoon",
+        "zombie",
+        "management",
+        "idle"
+      ],
+      "tags": [
+        "casual-games",
+        "business-games",
+        "1-player-games",
+        "resource-management-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/thriller-cafe.jpg",
+      "artwork": "/assets/logos/playgama/thriller-cafe-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/thriller-cafe/icon/d7aaa4c33b1d4fefbca4b83db03d72ee?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/thriller-cafe/big_preview/bbbb06e255e6433b8ef7ac98a9269ac4?width=448"
+      }
+    }
+  },
+  {
+    "id": "track-puzzle",
+    "addedOn": "2026-11-27",
+    "title": "Track Puzzle",
+    "category": {
+      "en": "Railway grid logic puzzle"
+    },
+    "url": "https://playgama.com/export/game/track-puzzle?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/track-puzzle",
+    "portrait": true,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Lay a continuous railway from Start to Goal in Track Puzzle. Use row and column clues and deliver gems to color-matched houses.",
+        "about": [
+          "The numbers count track cells in each line. A zero rules out every cell in that row or column.",
+          "The train must pass a gem before its matching house. Each wagon carries only one gem, so plan the delivery order as you draw."
+        ],
+        "steps": [
+          [
+            "Mark the likely route",
+            "Tap once for X and again for the track marker. Check the counts along both edges."
+          ],
+          [
+            "Connect the rails",
+            "Drag across marked track cells to build one continuous line. Drag along the line to erase it."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I earn three stars?",
+            "Clear a level without using Hint or Undo."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "arcade",
+        "brain",
+        "logic"
+      ],
+      "tags": [
+        "casual-games",
+        "relaxing-games",
+        "brain-training-games",
+        "addictive-games",
+        "mind-games",
+        "collecting-games",
+        "1-player-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "ja-JP",
+        "ko-KR"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/track-puzzle.jpg",
+      "artwork": "/assets/logos/playgama/track-puzzle-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/icon/8580341346af4478aa81cce82dcaf7a1?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/preview/781e5ee04e074787af8282a2dd69df28?width=448"
+      }
+    }
+  },
+  {
+    "id": "tinglora-asmr",
+    "addedOn": "2026-11-27",
+    "title": "TINGLORA: ASMR",
+    "category": {
+      "en": "ASMR cleanup and craft mini-games"
+    },
+    "url": "https://playgama.com/export/game/tinglora-asmr?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/tinglora-asmr",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Slice crystal fruit, clean rugs and restore objects in TINGLORA: ASMR. Play 81 short tasks in a mixed order.",
+        "about": [
+          "Each level has a different object and tool, from a pressure washer to a soap carving tool.",
+          "Follow the hint at the bottom. The controls let you turn an object or zoom in for a better view."
+        ],
+        "steps": [
+          [
+            "Use the tool",
+            "Hold left click or touch and drag to cut, clean, press or peel."
+          ],
+          [
+            "Turn the object",
+            "Drag with the right mouse button or use two fingers. Use the wheel or pinch to zoom where supported."
+          ]
+        ],
+        "faq": [
+          [
+            "Where are the instructions?",
+            "The hint at the bottom tells you what to do next."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation",
+        "3d",
+        "mouse",
+        "cozy",
+        "physics"
+      ],
+      "tags": [
+        "customization-games",
+        "casual-games",
+        "relaxing-games",
+        "smash-games",
+        "amazing-games",
+        "asmr-games",
+        "1-player-games",
+        "slicing-games",
+        "crush-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/tinglora-asmr.jpg",
+      "artwork": "/assets/logos/playgama/tinglora-asmr-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": "https://static.playgama.com/p-video/f6e0449223e54ba78d10feb6718104ba/orig_length_h640_6so.mp4",
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/tinglora-asmr/icon/11403d3b9b5042bd85fcc5a31170d46f?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/tinglora-asmr/big_preview/bd5c02d913cc4cf5b0c13a023ba0d805?width=448",
+        "previewId": "f6e0449223e54ba78d10feb6718104ba"
+      }
+    }
+  },
+  {
+    "id": "drill-to-earths-core--zombie",
+    "addedOn": "2026-11-27",
+    "title": "Drill to Earth's Core: Zombie",
+    "category": {
+      "en": "Underground mining and survival"
+    },
+    "url": "https://playgama.com/export/game/drill-to-earths-core--zombie?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/drill-to-earths-core--zombie",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Drill through rock, sell rare ore and upgrade your drill. Go deeper while steering clear of zombies in this mining adventure.",
+        "about": [
+          "Better power, speed and efficiency help you break through more layers. Explore deeper ground for rarer resources.",
+          "Zombies follow you underground. Watch for them as you move between deposits."
+        ],
+        "steps": [
+          [
+            "Break through rock",
+            "Pick a digging spot and use your drill to collect ore, gold and gems."
+          ],
+          [
+            "Sell and upgrade",
+            "Turn your haul into coins, then improve the drill and try a deeper route."
+          ]
+        ],
+        "faq": [
+          [
+            "What is the aim?",
+            "Try to reach the Earth’s core while collecting resources and surviving zombie encounters."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "action",
+        "adventure",
+        "3d",
+        "zombie",
+        "survival"
+      ],
+      "tags": [
+        "addictive-games",
+        "digging-games",
+        "1-player-games",
+        "mine-games",
+        "incremental-games",
+        "mining-games",
+        "arcade-shooter",
+        "action-adventure"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/drill-to-earths-core--zombie.jpg",
+      "artwork": "/assets/logos/playgama/drill-to-earths-core--zombie-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/icon/dd7ae5ed2fa14b85b9ace66e25f6d733?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/preview/35cfe7ff35ff4acc9832fb20a82b6150?width=448"
+      }
+    }
+  },
+  {
+    "id": "pet-run-bridge-of-heart",
+    "addedOn": "2026-11-27",
+    "title": "Pet Run Bridge Of Heart",
+    "category": {
+      "en": "Cat bridge-building runner"
+    },
+    "url": "https://playgama.com/export/game/pet-run-bridge-of-heart?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/pet-run-bridge-of-heart",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Guide a kitten along sky tracks, gather matching bricks and turn your stack into bridges to reach its partner.",
+        "about": [
+          "The kitten only picks up bricks of its current color. Color-change zones can change which bricks you need.",
+          "Magnets collect bricks faster. Green plus gates grow the stack, while red obstacles and minus gates can cut your run short."
+        ],
+        "steps": [
+          [
+            "Steer across the track",
+            "Swipe left or right to line up with matching bricks and green gates."
+          ],
+          [
+            "Cross the gaps",
+            "Build up a stack before the gap. The kitten lays the bricks automatically."
+          ]
+        ],
+        "faq": [
+          [
+            "Should I collect the old color after a color gate?",
+            "Check the kitten’s new color and collect bricks that match it."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade",
+        "3d",
+        "animals",
+        "runner"
+      ],
+      "tags": [
+        "race-games",
+        "casual-games",
+        "obstacles-games",
+        "cute-games",
+        "collecting-games",
+        "kitty-games",
+        "building-games",
+        "stacking-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/pet-run-bridge-of-heart.jpg",
+      "artwork": "/assets/logos/playgama/pet-run-bridge-of-heart-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/pet-run-bridge-of-heart/icon/dcd06bad0f0d40ba8a89944202468ac7?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/pet-run-bridge-of-heart/big_preview/5fd3b092ed3b4bd6bbf6ec2861278c39?width=448"
+      }
+    }
+  },
+  {
+    "id": "diy-cake-making",
+    "addedOn": "2026-11-27",
+    "title": "DIY Cake Making",
+    "category": {
+      "en": "Cake baking and decorating"
+    },
+    "url": "https://playgama.com/export/game/diy-cake-making?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/diy-cake-making",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Bake a party cake from scratch. Pick a mold, swirl on fruit or chocolate frosting and decorate it for the occasion.",
+        "about": [
+          "The baking steps use flour, eggs, milk, butter and sugar. Choose a round, square, heart or star mold for the batter.",
+          "Candy, candles and toppers go on after frosting. Finish the party and try four timed mini-games."
+        ],
+        "steps": [
+          [
+            "Mix and bake",
+            "Drag ingredients into the bowl and hold to mix. Pour into a mold and drag the cake to the oven."
+          ],
+          [
+            "Frost and decorate",
+            "Choose a sauce, then tap decorations to add them or drag them into position."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I remove a decoration?",
+            "Drag it away from the cake before selecting Finish."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "simulation",
+        "kids",
+        "food",
+        "cozy",
+        "cake",
+        "cooking"
+      ],
+      "tags": [
+        "minigames",
+        "casual-games",
+        "bakery-games",
+        "creativity-games",
+        "sorting-games",
+        "children-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/diy-cake-making.jpg",
+      "artwork": "/assets/logos/playgama/diy-cake-making-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/diy-cake-making/icon/fbe9017cd25d4fecbe393c44b6138b17?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/diy-cake-making/big_preview/f26840e2ccfe42c5acb4ddc263658627?width=448"
+      }
+    }
+  },
+  {
+    "id": "satis-coloring-journal",
+    "addedOn": "2026-11-27",
+    "title": "Satis Coloring Journal",
+    "category": {
+      "en": "Trace-and-color puzzle"
+    },
+    "url": "https://playgama.com/export/game/satis-coloring-journal?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/satis-coloring-journal",
+    "portrait": true,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Follow dotted outlines and choose matching colors in Satis Coloring Journal. Save finished animals and treats to your gallery.",
+        "about": [
+          "The outline ends at the last dot. Dragging past it leaves a stray line, so let go at the marked end.",
+          "Color accuracy improves when each section gets the intended shade. Finished pictures and your collection live in the gallery."
+        ],
+        "steps": [
+          [
+            "Trace the outline",
+            "Drag the pen from the first dot to the last and stop on the endpoint."
+          ],
+          [
+            "Fill the drawing",
+            "Pick a color, rub to fill the section and tap Finish after coloring."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I correct a mistake?",
+            "Use Undo to go back one step."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "kids",
+        "cozy",
+        "drawing",
+        "color"
+      ],
+      "tags": [
+        "2d-games",
+        "casual-games",
+        "relaxing-games",
+        "creativity-games",
+        "painting-games",
+        "cute-games",
+        "art-games",
+        "color-matching-games",
+        "1-player-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/satis-coloring-journal.jpg",
+      "artwork": "/assets/logos/playgama/satis-coloring-journal-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/satis-coloring-journal/icon/d8769f2d66d94ddfa7ed36a6c4084a2b?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/satis-coloring-journal/big_preview/21a4e168be44480491034698fe6c7142?width=448"
+      }
+    }
+  },
+  {
+    "id": "blocks-take-your-time",
+    "addedOn": "2026-11-27",
+    "title": "Blocks: Take Your Time",
+    "category": {
+      "en": "Untimed 9×9 block puzzle"
+    },
+    "url": "https://playgama.com/export/game/blocks-take-your-time?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/blocks-take-your-time",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Fit blocks on a 9×9 board and clear full rows or columns at your own pace. Chase a high score or reveal chapter pictures.",
+        "about": [
+          "A piece can clear several lines at once. The tray refills after you place all three pieces.",
+          "Picture levels have specific goals and a move limit. A golden spark counts when you clear its line."
+        ],
+        "steps": [
+          [
+            "Place blocks from the tray",
+            "Drag each piece into open cells. The first four moves in Best Score show where to place them."
+          ],
+          [
+            "Plan a line clear",
+            "Leave space for the tray’s largest shape while completing a row or column."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I turn a piece?",
+            "Yes, with the Rotate booster."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "brain",
+        "logic",
+        "blocks"
+      ],
+      "tags": [
+        "tetris-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU",
+        "de-DE",
+        "it-IT",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "pl-PL",
+        "nl-NL",
+        "tr-TR",
+        "uk-UA",
+        "id-ID",
+        "vi-VN",
+        "th-TH",
+        "hi-IN",
+        "ar-EG",
+        "ja-JP",
+        "ko-KR",
+        "zh-CN"
+      ],
+      "inGamePurchases": "Yes"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/blocks-take-your-time.jpg",
+      "artwork": "/assets/logos/playgama/blocks-take-your-time-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": "https://static.playgama.com/p-video/0633f423a47f47b29f6968b76dda8e24/orig_length_h640_6so.mp4",
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/blocks-take-your-time/icon/9668ef0fedb0421d8ff77c31b20460f1?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/blocks-take-your-time/big_preview/bf2fb0827e5349f09d1a39f33f018516?width=448",
+        "previewId": "0633f423a47f47b29f6968b76dda8e24"
+      }
+    }
+  },
+  {
+    "id": "tap-hexa-out--tap-it-away",
+    "addedOn": "2026-11-27",
+    "title": "Tap Hexa Out - Tap It Away",
+    "category": {
+      "en": "Hexagonal arrow puzzle"
+    },
+    "url": "https://playgama.com/export/game/tap-hexa-out--tap-it-away?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/tap-hexa-out--tap-it-away",
+    "portrait": true,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Tap hexagonal blocks to roll them off the board in their arrow directions. Clear a path before moves run out in Tap Hexa Out.",
+        "about": [
+          "A blocked hexagon bounces back and still costs a move. Edge pieces often have a clearer exit.",
+          "Later boards include locked pieces, clone tiles and rotating cranes. Cleared blocks help build four islands."
+        ],
+        "steps": [
+          [
+            "Read the arrows",
+            "Trace each hexagon’s route to the edge before tapping it."
+          ],
+          [
+            "Clear the exits",
+            "Start with unblocked pieces so they open routes for the pieces behind them."
+          ]
+        ],
+        "faq": [
+          [
+            "How do locked blocks open?",
+            "They open after the number of moves shown on them."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "skill",
+        "brain",
+        "logic"
+      ],
+      "tags": [
+        "2d-games",
+        "customization-games",
+        "casual-games",
+        "brain-training-games",
+        "hyper-casual-games",
+        "addictive-games",
+        "mind-games",
+        "collecting-games",
+        "challenge-games",
+        "1-player-games",
+        "tiles-games",
+        "simple-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/tap-hexa-out--tap-it-away.jpg",
+      "artwork": "/assets/logos/playgama/tap-hexa-out--tap-it-away-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/tap-hexa-out-tap-it-away/icon/ff5d321bbb5a46f8921131aac393c483?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/tap-hexa-out-tap-it-away/big_preview/63789b20c9c3412db6a113b4cb6e07dd?width=448"
+      }
+    }
+  },
+  {
+    "id": "fix-it-garage",
+    "addedOn": "2026-11-27",
+    "title": "Fix It Garage",
+    "category": {
+      "en": "Car diagnosis and repair simulator"
+    },
+    "url": "https://playgama.com/export/game/fix-it-garage?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/fix-it-garage",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Diagnose faulty cars in Fix It Garage. Check symptoms, replace the right part and test your work before collecting payment.",
+        "about": [
+          "Customers arrive with symptoms such as squeaky brakes, exhaust smoke or a car that won’t start. Inspect before buying parts.",
+          "Repair income buys garage upgrades, new tools and lifts. Wrong parts cost money."
+        ],
+        "steps": [
+          [
+            "Find the fault",
+            "Tap a diagnostic tool to collect clues, then choose the part from the Repair menu."
+          ],
+          [
+            "Replace and test",
+            "Hold highlighted fasteners to loosen or tighten them. Tap the highlighted part to remove or fit it, then test the car."
+          ]
+        ],
+        "faq": [
+          [
+            "How do the difficulty modes differ?",
+            "Relaxed mode color-codes clues and sorts likely parts. Expert mode leaves the diagnosis to you."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "simulation",
+        "3d",
+        "car",
+        "management",
+        "cozy"
+      ],
+      "tags": [
+        "customization-games",
+        "casual-games",
+        "brain-training-games",
+        "addictive-games",
+        "vehicles-games",
+        "car-tuning-games",
+        "webgl-games",
+        "1-player-games",
+        "building-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/fix-it-garage.jpg",
+      "artwork": "/assets/logos/playgama/fix-it-garage-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/icon/4bc9ad5128c74ff2bbde1b3e7ff125c3?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/preview/510a4aacebc64544acae6801052eb3b0?width=448"
+      }
+    }
+  },
+  {
+    "id": "all-aboard-bus-puzzle",
+    "addedOn": "2026-11-27",
+    "title": "All Aboard: Bus Puzzle",
+    "category": {
+      "en": "Bus passenger sorting puzzle"
+    },
+    "url": "https://playgama.com/export/game/all-aboard-bus-puzzle?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/all-aboard-bus-puzzle",
+    "portrait": true,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Untangle a crowded bus lot in All Aboard: Bus Puzzle. Free vehicles in the order that lets every passenger board a matching bus.",
+        "about": [
+          "Buses can get in each other’s way. Look at which vehicle blocks the one you need before tapping.",
+          "Passengers take buses of their own color. Plan moves that both free a route and bring the required color out."
+        ],
+        "steps": [
+          [
+            "Scan the traffic jam",
+            "Find the buses that have a clear way through and note the colors still waiting."
+          ],
+          [
+            "Send a bus",
+            "Click or tap to move a bus out, then look again at the newly available routes."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I clear the board?",
+            "Get all the passengers onto buses of their own color."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "puzzle",
+        "arcade",
+        "3d",
+        "cozy",
+        "matching",
+        "bus",
+        "brain",
+        "logic"
+      ],
+      "tags": [
+        "casual-games",
+        "brain-training-games",
+        "addictive-games",
+        "sorting-games",
+        "color-matching-games",
+        "desktop-games",
+        "1-player-games",
+        "traffic-games"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/all-aboard-bus-puzzle.jpg",
+      "artwork": "/assets/logos/playgama/all-aboard-bus-puzzle-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": "https://static.playgama.com/p-video/45741003158e40558e6e285050e23f56/orig_length_h640_6so.mp4",
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/all-aboard-bus-puzzle/icon/8152c69edde149d781b12c8887524abb?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/all-aboard-bus-puzzle/big_preview/34ddbec7f43f490791c3f8b0547fd260?width=448",
+        "previewId": "45741003158e40558e6e285050e23f56"
+      }
+    }
+  },
+  {
+    "id": "veggie-battle",
+    "addedOn": "2026-11-27",
+    "title": "Veggie Battle",
+    "category": {
+      "en": "Ragdoll vegetable platform brawler"
+    },
+    "url": "https://playgama.com/export/game/veggie-battle?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/veggie-battle",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Play as a ragdoll vegetable in Veggie Battle. Clear platforming stages, rescue allies or build wacky matchups in the sandbox.",
+        "about": [
+          "The story mixes fights, traps, rope puzzles and bosses across forty levels. Reach the flag after rescuing captured allies.",
+          "Arcade runs get harder as you go. The sandbox lets you place fighters, pick teams and watch or join the match."
+        ],
+        "steps": [
+          [
+            "Move, jump and attack",
+            "Use arrows or A and D to move, Space to jump and F or left click to attack. On touch, use the stick and red button."
+          ],
+          [
+            "Look for ropes and flags",
+            "Swipe over ropes to cut them, avoid traps and reach the flag to finish."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I control a fighter in the sandbox?",
+            "Yes. Set up a fight and take over one of the placed fighters."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "action",
+        "arcade",
+        "funny",
+        "platform",
+        "ragdoll",
+        "physics"
+      ],
+      "tags": [
+        "2d-games",
+        "mission-games",
+        "fast-paced-games",
+        "webgl-games",
+        "combat-games",
+        "challenge-games",
+        "1-player-games",
+        "sandbox-games",
+        "action-adventure",
+        "action-fighting",
+        "fast-paced-action",
+        "2d-action"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "inGamePurchases": "Yes"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/veggie-battle.jpg",
+      "artwork": "/assets/logos/playgama/veggie-battle-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": "https://static.playgama.com/p-video/d00915b8422b41339ec19b3693aefc57/orig_length_h640_6so.mp4",
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/icon/cb349df29108474ea298ae8f10b81f1d?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/preview/c3d45a9afdbc49b78dbf20231a29ddf9?width=448",
+        "previewId": "d00915b8422b41339ec19b3693aefc57"
+      }
+    }
+  },
+  {
+    "id": "dino-rodeo-3d",
+    "addedOn": "2026-11-27",
+    "title": "Dino Rodeo 3D",
+    "category": {
+      "en": "3D dinosaur riding and catching"
+    },
+    "url": "https://playgama.com/export/game/dino-rodeo-3d?clid=p_dbe6cb5b-2770-4de3-87f7-01a09407766e",
+    "source": "https://playgama.com/game/dino-rodeo-3d",
+    "portrait": false,
+    "width": 448,
+    "height": 448,
+    "details": {
+      "en": {
+        "summary": "Jump into a dinosaur stampede, lasso new mounts and bring them back to your ranch. Upgrade your energy and explore new biomes.",
+        "about": [
+          "Leap from dinosaur to dinosaur without touching the ground. Caught creatures earn coins in the pen.",
+          "The trainer improves your energy. You can fuse three dinosaurs into a bigger one and take flights to new biomes."
+        ],
+        "steps": [
+          [
+            "Jump and throw the lasso",
+            "Press Space or left click to jump. Press again in the air when a dinosaur is in the aiming circle. On touch, use the arrow button."
+          ],
+          [
+            "Use your ranch stations",
+            "Move with WASD or the touch stick and interact with E or the on-screen menu."
+          ]
+        ],
+        "faq": [
+          [
+            "Can I catch flying dinosaurs?",
+            "Yes. Flying creatures are part of the species collection."
+          ]
+        ]
+      }
+    },
+    "metadata": {
+      "genres": [
+        "arcade",
+        "adventure",
+        "simulation",
+        "3d",
+        "running",
+        "obby",
+        "dinosaur"
+      ],
+      "tags": [
+        "casual-games",
+        "voxel-games",
+        "addictive-games",
+        "jumping-games",
+        "webgl-games",
+        "collecting-games",
+        "1-player-games",
+        "action-adventure",
+        "67-obby"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "gender": [
+        "Male",
+        "Female"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "inGamePurchases": "No"
+    },
+    "media": {
+      "icon": "/assets/logos/playgama/dino-rodeo-3d.jpg",
+      "artwork": "/assets/logos/playgama/dino-rodeo-3d-wide.jpg",
+      "artworkWidth": 800,
+      "artworkHeight": 450,
+      "preview": null,
+      "artworkAsPosterOnly": true,
+      "sources": {
+        "icon": "https://static.playgama.com/p-img/pg/icon/6551a02f391248c3818d1bb8dc9a3c20?width=448",
+        "artwork": "https://static.playgama.com/p-img/pg/preview/f745b4e48dad486ab0f4b532b4b23b9a?width=448"
+      }
+    }
   }
 ]

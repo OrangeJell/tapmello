@@ -88,21 +88,21 @@ const platformNames = {
   'For Desktop': ['Desktop', 'कंप्यूटर'],
 };
 
-function renderMetadata(lang, game, taxonomy, sharedOnly) {
+function renderMetadata(lang, game, taxonomy, sharedOnly, copyLanguage) {
   const { metadata } = game;
   const label = metadataLabels[lang];
-  const languageNames = new Intl.DisplayNames([lang], { type: 'language' });
-  const rows = [
-    [label.platforms, [label.browser, ...(metadata?.mobileReady ?? []).map(platform => platformNames[platform]?.[lang === 'hi' ? 1 : 0] ?? platform)]],
-    [label.languages, (metadata?.supportedLanguages ?? []).map(code => {
-      try { return languageNames.of(code); } catch { return code; }
-    })],
-    [label.purchases, metadata?.inGamePurchases ? [label[metadata.inGamePurchases]] : []],
-  ];
+  const languageNames = new Intl.DisplayNames([copyLanguage], { type: 'language' });
+  const platforms = [label.browser, ...(metadata?.mobileReady ?? []).map(platform => platformNames[platform]?.[lang === 'hi' ? 1 : 0] ?? platform)];
+  const purchases = metadata?.inGamePurchases && label[metadata.inGamePurchases];
+  const gameLanguages = (metadata?.supportedLanguages ?? []).map(code => {
+    try { return languageNames.of(code); } catch { return code; }
+  });
   const { byTag } = catalogueFor(lang, sharedOnly);
   return `<dl class="detail-metadata">
     ${!game.provider ? `<div><dt>${label.languages}</dt><dd>${Object.entries(languages).map(([code, language]) => `<span lang="${code}" translate="no">${language.name}</span>`).join(' · ')}</dd></div>` : ''}
-    ${rows.filter(([, values]) => values.length).map(([name, values]) => `<div><dt>${name}</dt><dd>${values.map(escape).join(' · ')}</dd></div>`).join('')}
+    <div><dt>${label.platforms}</dt><dd>${platforms.map(escape).join(' · ')}</dd></div>
+    ${gameLanguages.length ? `<div><dt>${label.languages}</dt><dd lang="${copyLanguage}" translate="no">${gameLanguages.map(escape).join(' · ')}</dd></div>` : ''}
+    ${purchases ? `<div><dt>${label.purchases}</dt><dd>${escape(purchases)}</dd></div>` : ''}
     <div class="detail-metadata-tags"><dt>${label.genres}</dt><dd><ul>${taxonomy.categories.map(id => `<li><a href="${genrePath(lang, id)}">${genres[id][lang]}</a></li>`).join('')}</ul></dd></div>
     ${taxonomy.tags.length ? `<div class="detail-metadata-tags"><dt>${label.tags}</dt><dd><ul>${taxonomy.tags.map(id => `<li><a href="${tagPath(lang, id)}" lang="${lang}">${escape(tagLabel(id, lang))} <span class="detail-tag-count">${byTag.get(id).length}</span></a></li>`).join('')}</ul></dd></div>` : ''}
   </dl>`;
@@ -121,7 +121,7 @@ function recommendGames(lang, game, sharedOnly) {
 
 export function renderStandardDetail(lang, game, {
   title = [game.title], category = game.category[lang], aboutTitle, about, steps, controls, faq,
-  faqId = 'faq', runtime, guides = [], introLinks = [], guideExtras = '', sharedOnly = false,
+  faqId = 'faq', runtime, guides = [], introLinks = [], guideExtras = '', sharedOnly = false, copyLanguage = lang,
 }) {
   const label = labels[lang];
   const taxonomy = taxonomyFor(game);
@@ -142,7 +142,7 @@ export function renderStandardDetail(lang, game, {
             ${game.preview ? `<video class="detail-preview" src="${escape(game.preview)}" poster="${escape(cover)}" autoplay muted playsinline loop aria-hidden="true"></video>` : `<img class="detail-preview" src="${escape(cover)}"${coverDimensions} alt="" fetchpriority="high">`}
             <div class="detail-launch-content">
               <img src="${escape(game.cover)}" width="${game.width}" height="${game.height}" alt="">
-              <h1${runtime ? '' : ' translate="no" lang="en"'}>${escape(title[0])}${title[1] ? ` <span>${escape(title[1])}</span>` : ''}</h1>
+              <h1${runtime ? '' : ` translate="no" lang="${game.titleLang ?? 'en'}"`}>${escape(title[0])}${title[1] ? ` <span>${escape(title[1])}</span>` : ''}</h1>
               <button class="detail-play" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7Z" fill="currentColor"/></svg>${label.play}</button>
             </div>
           </div>
@@ -200,7 +200,7 @@ export function renderStandardDetail(lang, game, {
             <img src="${escape(game.cover)}" width="${game.width}" height="${game.height}" alt="" loading="lazy">
             <div><h2>${escape(game.title)}</h2><p class="detail-category">${escape(category)}</p></div>
           </div>
-          ${renderMetadata(lang, game, taxonomy, sharedOnly)}
+          ${renderMetadata(lang, game, taxonomy, sharedOnly, copyLanguage)}
         </section>
         ${showArtwork || game.preview || screenshots.length ? `<section class="detail-block detail-media">
           <h2>${label.media}</h2>

@@ -1,6 +1,6 @@
 import { gamesFor } from './game-catalog.mjs';
 import { locales } from './locales.mjs';
-import { partnerGamesFor, partnerGamePath } from './partner-games.mjs';
+import { partnerGamesFor, partnerGameName, partnerGamePath } from './partner-games.mjs';
 import hindiTags from './translations/tags-hi.json' with { type: 'json' };
 
 export const escapeDiscovery = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
@@ -83,6 +83,7 @@ const categoryOverrides = {
   'catch-a-fish-obby': ['adventure', 'sports'],
   'cheat-and-dont-get-caught': ['puzzle'],
   'chroma-trek': ['arcade'],
+  'dino-rodeo-3d': ['adventure', 'simulation'],
   'egg-thief': ['adventure'],
   'english-checkers-online-multiplayer': ['board', 'strategy'],
   'feeding-a-black-hole': ['clicker'],
@@ -109,6 +110,7 @@ const categoryOverrides = {
   'snake-of-bullets-collect-and-shoot': ['shooting', 'arcade'],
   'snow-road-3d': ['driving', 'arcade'],
   'the-machinegg': ['clicker', 'simulation'],
+  'toy-legion': ['strategy'],
   'wave-rider': ['sports', 'arcade'],
 };
 
@@ -155,7 +157,11 @@ const catalogues = Object.fromEntries([['en', 'en'], ['hi', 'hi'], ['shared', 'e
       ...game, category: nativeLabels[game.id][lang], preview: `/assets/previews/${game.id}.mp4`,
       searchAliases: [nativeLabels[game.id].en, lang === 'hi' ? hindiAliases[game.id] : ''],
     })),
-    ...partnerGamesFor(lang, key === 'shared').map(game => ({ ...game, titleLang: 'en', href: partnerGamePath(lang, game), category: game.category[lang] })),
+    ...partnerGamesFor(lang, key === 'shared').map(game => ({
+      ...game, title: partnerGameName(lang, game), titleLang: game.details[lang].localizedName ? lang : 'en',
+      href: partnerGamePath(lang, game), category: game.category[lang],
+      originalTitle: game.details[lang].localizedName ? game.title : undefined,
+    })),
   ].map(game => ({ ...game, ...taxonomyFor(game) }));
   const group = field => {
     const groups = new Map();

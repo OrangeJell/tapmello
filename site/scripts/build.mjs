@@ -10,7 +10,7 @@ import { gameDetailTitle } from '../src/game-catalog.mjs';
 import { origin, updated } from '../src/game.mjs';
 import { catalogueFor, discoveryUpdated, gamesPath, genrePath, genres, retiredGenres, tagLabel, tagName, taxonomyFor } from '../src/discovery.mjs';
 import { locales } from '../src/locales.mjs';
-import { partnerGamesFor, partnerGamePath, partnerLocales } from '../src/partner-games.mjs';
+import { partnerGamesFor, partnerGameName, partnerGamePath, partnerLocales } from '../src/partner-games.mjs';
 const extractLocales = process.argv.includes('--extract-locales');
 const extractHindiInfo = process.argv.includes('--extract-hi-info');
 const extracting = extractLocales || extractHindiInfo;
@@ -65,7 +65,8 @@ for (const edition of ['shared', 'en', 'hi']) {
   const { games } = catalogueFor(language, sharedOnly);
   const searchEntries = games.map(game => ({
     title: game.title, href: game.href, cover: game.cover,
-    keywords: [game.id, game.category, ...(game.searchAliases ?? []), ...game.categories.map(id => genres[id][language]), ...(game.metadata?.genres ?? []), ...game.tags, ...(language === 'hi' ? game.tags.map(id => tagLabel(id, language)) : [])].join(' '),
+    originalTitle: game.originalTitle,
+    keywords: [game.id, game.category, game.originalTitle, ...(game.searchAliases ?? []), ...game.categories.map(id => genres[id][language]), ...(game.metadata?.genres ?? []), ...game.tags, ...(language === 'hi' ? game.tags.map(id => tagLabel(id, language)) : [])].filter(Boolean).join(' '),
   }));
   const searchTerms = language === 'en' && games.map(game => [game.category, ...(game.searchAliases ?? []), ...game.categories.map(id => genres[id]?.en ?? id), ...game.tags.map(tagName)].filter(Boolean));
   if (!extracting && !sharedOnly) await writeFile(path.join(root, 'dist', 'assets', `game-search-${language}.json`), JSON.stringify(searchEntries));
@@ -88,17 +89,18 @@ for (const edition of ['shared', 'en', 'hi']) {
     const detail = game.details[language];
     const existingLocalization = !game.localizedOn && Object.hasOwn(partnerLocales.hi.games, game.id);
     const originalDate = existingLocalization ? localizationUpdated : detailUpdated;
-    const dateModified = (hi ? game.localizedOn : undefined) ?? originalDate;
+    const dateModified = game.addedOn ?? (hi ? game.localizedOn : undefined) ?? originalDate;
+    const name = partnerGameName(language, game);
     pages.push({
       language, kind: 'partner-play', path: gamePath, updated: dateModified, game,
-      ...gameTitleFields(game.title),
+      ...gameTitleFields(name),
       description: detail.summary,
-      cover: game.artwork, coverWidth: game.media.artworkWidth, coverHeight: game.media.artworkHeight, coverAlt: game.title,
+      cover: game.artwork, coverWidth: game.media.artworkWidth, coverHeight: game.media.artworkHeight, coverAlt: name,
       structured: {
         '@context': 'https://schema.org', '@type': 'WebPage', url,
-        name: game.title, description: detail.summary, inLanguage: language, dateModified,
+        name, description: detail.summary, inLanguage: language, dateModified,
         mainEntity: {
-          '@type': 'VideoGame', name: game.title, image: origin + game.artwork, genre: taxonomyFor(game).categories.map(id => genres[id][language]),
+          '@type': 'VideoGame', name, image: origin + game.artwork, genre: taxonomyFor(game).categories.map(id => genres[id][language]),
           ...(game.metadata.developer && { author: { '@type': 'Organization', name: game.metadata.developer } }),
           ...(game.metadata.releaseDate && { datePublished: game.metadata.releaseDate }),
         },
@@ -164,15 +166,18 @@ const editorialAliases = JSON.parse(await readFile(path.join(root, 'src', 'trans
 for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
   const source = extracting ? new Set() : undefined;
   const dictionary = source ? null : JSON.parse(await readFile(path.join(root, 'src', 'translations', code + '.json'), 'utf8'));
+  const gameNames = new Map();
   if (dictionary) {
     for (const game of partnerGamesFor('en', true)) {
       const locale = partnerLocales[code];
       if (!locale.games[game.id]) continue;
+      const name = partnerGameName(code, game);
+      if (name !== game.title) gameNames.set(game.title, name);
       dictionary[game.category.en] = game.category[code];
-      dictionary[game.title + ' · Game player'] = locale.player.replace('{title}', () => game.title);
+      dictionary[name + ' · Game player'] = locale.player.replace('{title}', () => name);
     }
   }
-  const localizer = createLocalizer({ code, dictionary, source, routes, titles, editorialAliases });
+  const localizer = createLocalizer({ code, dictionary, source, routes, titles, editorialAliases, gameNames });
   const fullLocale = code !== 'hi' || extractLocales;
   const startUrl = localPath(code, manifest.start_url);
   let clientCopy = dictionary?.runtime;
@@ -197,14 +202,16 @@ for (const code of extracting ? ['hi'] : ['hi', ...translatedLanguages]) {
     const copy = page.game && Object.hasOwn(partnerLocales[code].games, page.game.id) ? page.game.details[code] : undefined;
     let translated;
     if (page.gameName) {
-      const title = gameDetailTitle(code, page.gameName);
+      const name = copy ? partnerGameName(code, page.game) : page.gameName;
+      const title = gameDetailTitle(code, name);
       const localizedPage = { ...page, title };
       const preserved = new Set([title]);
       let main = page.main;
       if (copy) {
         localizedPage.description = copy.summary;
         localizedPage.structured = { ...page.structured, description: copy.summary, dateModified: page.game.localizedOn ?? page.updated };
-        main = renderPartnerGame('en', page.game, true, copy);
+        main = renderPartnerGame('en', page.game, true, code);
+        if (copy.localizedName) preserved.add(copy.localizedName);
         for (const text of [copy.summary, copy.category, copy.aboutTitle, copy.controls, ...copy.about, ...copy.steps.flat(), ...copy.faq.flat()]) preserved.add(text);
       }
       translated = localizer.html(renderPage(localizedPage, main, true), page.path, preserved);

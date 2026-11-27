@@ -3,6 +3,7 @@ import { renderStandardDetail } from './standard-detail.mjs';
 import { catalogueFor, discoveryIcon, discoveryUpdated, gameCount, gamesLabel, gamesPath, genrePath, genres, playedGamesLabel, playedGamesPath, renderDiscoveryBrand, renderDiscoveryNav, renderMobileDiscovery, tagLabel, tagName, tagPath, tagsLabel, tagsPath } from './discovery.mjs';
 import { renderGameDetail } from './game-stage.mjs';
 import { renderGameTile } from './game-tile.mjs';
+import { partnerGameName } from './partner-games.mjs';
 import { levels, origin, screenshot, updated } from './game.mjs';
 import { locales } from './locales.mjs';
 import discoveryCopy from './discovery-copy.json' with { type: 'json' };
@@ -124,8 +125,12 @@ ${items.slice(initialGameCount).map(game => `<a href="${escape(game.href)}"><img
   ];
 }
 
-export function renderPartnerGame(lang, game, sharedOnly, detail = game.details[lang]) {
-  return renderStandardDetail(lang, game, { ...detail, sharedOnly });
+export function renderPartnerGame(lang, game, sharedOnly, copyLanguage = lang) {
+  const detail = game.details[copyLanguage];
+  const title = partnerGameName(copyLanguage, game);
+  return renderStandardDetail(lang, { ...game, title, titleLang: detail.localizedName ? copyLanguage : 'en' }, {
+    ...detail, copyLanguage, sharedOnly,
+  });
 }
 
 export function renderGame(lang, sharedOnly) {

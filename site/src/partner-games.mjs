@@ -64,6 +64,7 @@ export const partnerGames = catalogue.map(game => {
   const category = { ...game.category, ...Object.fromEntries(Object.entries(localized).map(([code, copy]) => [code, copy.category])) };
   for (const [lang, copy] of Object.entries(details)) {
     assert.ok(isText(category[lang]) && isText(copy.summary), 'Localized title and summary: ' + id + '/' + lang);
+    assert.ok(copy.localizedName === undefined || isText(copy.localizedName), 'Localized game name: ' + id + '/' + lang);
     assert.ok(copy.searchTitle === undefined || isText(copy.searchTitle), 'Localized search title: ' + id + '/' + lang);
     assert.ok((copy.aboutTitle === undefined || isText(copy.aboutTitle)) && (copy.controls === undefined || isText(copy.controls)), 'Localized details headings: ' + id + '/' + lang);
     assert.ok(copy.about.length >= 2 && copy.about.every(isText) && copy.steps.length >= 2 && copy.steps.every(isPair) && copy.faq.length >= 1 && copy.faq.every(isPair), 'Complete localized details: ' + id + '/' + lang);
@@ -82,3 +83,5 @@ export const partnerGamesFor = (lang, sharedOnly = false) =>
   lang === 'en' && !sharedOnly ? partnerGames : partnerGames.filter(game => game.details.hi);
 
 export const partnerGamePath = (lang, game) => localPath(lang, `/${game.id}`);
+
+export const partnerGameName = (lang, game) => game.details[lang]?.localizedName ?? game.title;

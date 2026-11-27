@@ -15,7 +15,7 @@
       if (!response.ok) throw Error('Search catalogue unavailable');
       return response.json();
     }).then(entries => entries.map(entry => ({
-      ...entry, words: normalize(entry.title), keywords: normalize(entry.keywords),
+      ...entry, words: normalize(entry.title), originalWords: normalize(entry.originalTitle ?? ''), keywords: normalize(entry.keywords),
     }))).catch(error => {
       catalogue = undefined;
       throw error;
@@ -79,8 +79,8 @@
       const terms = query.split(' ');
       const matches = entries.map(entry => {
         let rank = 0;
-        if (entry.words === query) rank = 4;
-        else if (entry.words.startsWith(query)) rank = 3;
+        if (entry.words === query || entry.originalWords === query) rank = 4;
+        else if (entry.words.startsWith(query) || entry.originalWords.startsWith(query)) rank = 3;
         else if (terms.every(term => entry.words.includes(term))) rank = 2;
         else if (terms.every(term => (entry.words + ' ' + entry.keywords).includes(term))) rank = 1;
         return { entry, rank };

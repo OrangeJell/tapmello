@@ -10431,6 +10431,1181 @@
           "Utilisez une route plus large avec de la place pour tourner avant de vous diriger vers une zone très fréquentée."
         ]
       ]
+    },
+    "ragdoll-rumble-online": {
+      "localizedName": "Ragdoll Rumble : duel en ligne",
+      "category": "Combat avec physique",
+      "summary": "Jouez à Ragdoll Rumble dans votre navigateur. Affrontez des joueurs en duel ou défiez les boss des arènes solo où tombent des armes.",
+      "about": [
+        "Les combattants titubent et volent sous les coups. Soignez votre placement entre deux échanges.",
+        "En solo, des règles comme la faible gravité changent la partie. Les victoires en match rapide comptent pour le classement en ligne."
+      ],
+      "steps": [
+        [
+          "Approchez-vous",
+          "Déplacez-vous avec WASD ou le joystick tactile. Les coups partent à portée et la touche E ajoute un coup sur ordinateur."
+        ],
+        [
+          "Enchaînez les coups",
+          "Enchaînez les directs pour faire tomber votre adversaire. En solo, ramassez les armes tombées dans l’arène."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand une nouvelle arène s’ouvre-t-elle ?",
+          "Tous les trois combats, quel que soit le résultat."
+        ]
+      ]
+    },
+    "ants-color-puzzle": {
+      "localizedName": "Fourmis : le puzzle des couleurs",
+      "category": "Puzzle de files et de couleurs",
+      "summary": "Envoyez des fourmis de la bonne couleur pour démonter des images en pixels. Choisissez l’ordre des équipes selon les places disponibles.",
+      "about": [
+        "Les fourmis emportent les blocs accessibles de leur couleur vers la fourmilière. Dégager le contour donne accès à l’intérieur du dessin.",
+        "Chaque équipe occupe une place jusqu’à la fin de son travail. Observez les bords avant d’envoyer une nouvelle couleur."
+      ],
+      "steps": [
+        [
+          "Envoyez une équipe",
+          "Cliquez ou touchez la tuile en tête d’une file. Son nombre indique combien de blocs l’équipe peut porter."
+        ],
+        [
+          "Gardez une place libre",
+          "Choisissez une couleur assez présente sur les bords, puis envoyez une autre équipe dès qu’une place se libère."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment terminer un niveau ?",
+          "Retirez tous les blocs de l’image."
+        ]
+      ]
+    },
+    "bus-parking-game-car-sort": {
+      "localizedName": "Parking de bus : tri des véhicules",
+      "category": "Parking et tri des couleurs",
+      "summary": "Débloquez le parking et placez les bus dans le bon ordre pour que chaque groupe de passagers monte dans le véhicule de sa couleur.",
+      "about": [
+        "Un bus ne peut avancer que si la route devant lui est dégagée. Il garde sa place de parking jusqu’à ce qu’il soit plein.",
+        "Chaque bus complet part et rapporte des pièces. Vérifiez la couleur en tête de file avant de prendre une place."
+      ],
+      "steps": [
+        [
+          "Dégagez la route",
+          "Touchez un bus qui a la voie libre pour l’envoyer sur une place vide."
+        ],
+        [
+          "Suivez la file",
+          "Faites passer en priorité le bus de la couleur des premiers passagers."
+        ]
+      ],
+      "faq": [
+        [
+          "Quels bonus peuvent débloquer la partie ?",
+          "Mélange échange les couleurs des bus, Tri réorganise la file et la place VIP peut téléporter un bus."
+        ]
+      ]
+    },
+    "grand-trade-miami-open-world-simulator": {
+      "localizedName": "Grand Trade Miami : négoce en monde ouvert",
+      "category": "Simulation de revente en monde ouvert",
+      "summary": "Explorez une ville côtière, réparez des objets et négociez leur revente dans Grand Trade Miami, un simulateur solo.",
+      "about": [
+        "Publiez vos annonces sur votre téléphone et fixez des rendez-vous avec les acheteurs. Votre réputation donne accès à de nouveaux lieux.",
+        "Revendez des voitures du port, tenez un kiosque sur la plage et économisez pour un appartement au dernier étage. Les collectionneurs achètent aussi des plaques rares."
+      ],
+      "steps": [
+        [
+          "Explorez la ville",
+          "Utilisez WASD pour marcher, Maj pour courir et E pour interagir. Sur écran tactile, la gauche sert à avancer et la droite à regarder."
+        ],
+        [
+          "Concluez une vente",
+          "Ouvrez le téléphone avec Tab ou le bouton à l’écran. Postez vos annonces, répondez et fixez un lieu de rendez-vous."
+        ]
+      ],
+      "faq": [
+        [
+          "Pourquoi réparer un objet ?",
+          "Une fois réparé, il peut se revendre plus cher."
+        ]
+      ]
+    },
+    "bodoku": {
+      "localizedName": "Bodoku : les fantômes du château",
+      "category": "Puzzle de placement de fantômes",
+      "summary": "Résolvez les grilles de Bodoku en plaçant un fantôme dans chaque ligne, colonne et pièce colorée, sans aucun contact même en diagonale.",
+      "about": [
+        "Le château de Bo est divisé en pièces colorées. Chaque fantôme compte à la fois pour sa pièce, sa ligne et sa colonne.",
+        "Essayez la campagne, le défi du jour ou le mode détente. Marquez les cases impossibles pour repérer celles qui restent."
+      ],
+      "steps": [
+        [
+          "Marquez les cases exclues",
+          "Cliquez ou touchez une fois pour mettre un X. Sur écran tactile, glissez pour marquer plusieurs cases."
+        ],
+        [
+          "Placez les fantômes",
+          "Touchez de nouveau une case marquée pour poser un fantôme. Annulez un coup si deux placements sont incompatibles."
+        ]
+      ],
+      "faq": [
+        [
+          "Deux fantômes peuvent-ils se toucher en diagonale ?",
+          "Les cases qui se rejoignent par un coin sont aussi incompatibles."
+        ]
+      ]
+    },
+    "paws-bowls-logic-puzzle": {
+      "localizedName": "Pattes et gamelles",
+      "category": "Puzzle logique d’animaux et de gamelles",
+      "summary": "Placez des chiens, des chats et des gamelles en gardant autant d’animaux que de gamelles dans chaque ligne et chaque colonne.",
+      "about": [
+        "Il est interdit d’aligner trois éléments identiques. Deux lignes ou deux colonnes ne peuvent pas non plus avoir la même disposition.",
+        "Les plateaux vont de 4×4 à 10×10. Chaque indice explique la règle qui permet de déterminer une place."
+      ],
+      "steps": [
+        [
+          "Remplissez les places",
+          "Choisissez Animal ou Gamelle en bas, puis cliquez ou touchez une place."
+        ],
+        [
+          "Lisez les symboles",
+          "Le signe égal relie deux places de même type. Un X sépare deux places de types différents."
+        ]
+      ],
+      "faq": [
+        [
+          "Y a-t-il un chronomètre ?",
+          "La partie est sans chronomètre et autorise trois erreurs."
+        ]
+      ]
+    },
+    "cat-blocks": {
+      "localizedName": "Chats en blocs",
+      "category": "Puzzle de chats coulissants",
+      "summary": "Faites glisser les chats, complétez les rangées et réalisez des combos. L’aperçu montre la prochaine rangée qui monte.",
+      "about": [
+        "Un chat peut glisser dans un espace libre à côté de lui. Une ligne horizontale pleine disparaît et libère de la place.",
+        "Une nouvelle rangée monte à chaque coup. Consultez l’aperçu, utilisez un bonus au besoin ou essayez le défi quotidien."
+      ],
+      "steps": [
+        [
+          "Déplacez un chat",
+          "Faites-le glisser sur le côté puis relâchez-le. Au clavier, visez avec les flèches gauche et droite, puis validez avec Entrée."
+        ],
+        [
+          "Complétez une rangée",
+          "Comblez toutes les cases d’une ligne horizontale en tenant compte de la rangée suivante."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment réussir un combo ?",
+          "Faites disparaître plusieurs lignes en chaîne."
+        ]
+      ]
+    },
+    "draw-a-monster": {
+      "localizedName": "Dessine ton monstre",
+      "category": "Atelier de création de monstres en 3D",
+      "summary": "Dessinez un contour pour créer un monstre 3D qui sait marcher. Ajoutez des ailes et des autocollants avant de partir en balade ou de défiler.",
+      "about": [
+        "Le dessin gonfle pour former un corps souple. Donnez-lui des yeux, des pattes et des décorations de votre choix.",
+        "Promenez votre monstre au parc, jouez à chat dans un labyrinthe en carton ou présentez-le au jury du défilé."
+      ],
+      "steps": [
+        [
+          "Dessinez et décorez",
+          "Tracez à la souris ou au doigt, puis choisissez et redimensionnez les pièces. Zoomez à la molette ou avec deux doigts."
+        ],
+        [
+          "Sortez votre créature",
+          "Dirigez-la avec WASD ou le joystick tactile. Sautez avec Espace ou le bouton à l’écran."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment tourner la caméra ?",
+          "Faites glisser la souris avec le bouton droit enfoncé, ou utilisez deux doigts sur l’écran."
+        ]
+      ]
+    },
+    "restaurant-day": {
+      "localizedName": "Une journée au restaurant",
+      "category": "Simulation de cuisine au restaurant",
+      "summary": "Cuisinez les plats d’un petit restaurant. Coupez, mélangez et soignez le timing pour débloquer recettes et appareils.",
+      "about": [
+        "Chaque recette comprend plusieurs petites tâches. Vérifiez les réserves et achetez les ingrédients manquants avant de commencer.",
+        "Les gestes précis améliorent le résultat. Les pièces et les étoiles permettent d’enrichir la carte et d’équiper la cuisine."
+      ],
+      "steps": [
+        [
+          "Choisissez un plat",
+          "Consultez la liste des ingrédients sur le menu, puis faites le plein à la boutique."
+        ],
+        [
+          "Cuisinez par étapes",
+          "Suivez les indications pour déplacer, couper, mélanger, maintenir ou toucher au bon moment."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment débloquer d’autres plats ?",
+          "Gagnez des pièces et des étoiles en terminant des recettes."
+        ]
+      ]
+    },
+    "pond-to-abyss": {
+      "localizedName": "De l’étang aux abysses",
+      "category": "Simulation de pêche détente",
+      "summary": "Pêchez de l’étang aux abysses. Attrapez 39 espèces, améliorez votre équipement et complétez votre encyclopédie des poissons.",
+      "about": [
+        "La météo et l’heure influencent les prises. La pluie attire des poissons rares et les variantes brillantes sortent plus souvent la nuit.",
+        "Vendez vos prises pour améliorer canne, appâts et sac. La carte donne accès à six lieux de pêche peuplés d’espèces différentes."
+      ],
+      "steps": [
+        [
+          "Lancez la ligne",
+          "Cliquez ou touchez l’eau, ou appuyez sur Espace. Réagissez vite dès que le point d’exclamation apparaît près du bouchon."
+        ],
+        [
+          "Ramenez le poisson",
+          "Maintenez pour lever la zone verte et relâchez pour la baisser. Gardez le poisson dedans jusqu’à remplir la jauge."
+        ]
+      ],
+      "faq": [
+        [
+          "À quoi servent les compagnons ?",
+          "Le chat pêche en votre absence, le pélican vend un sac plein et la loutre augmente le prix des poissons."
+        ]
+      ]
+    },
+    "city-driver-traffic-drive-out": {
+      "localizedName": "City Driver : au milieu du trafic",
+      "category": "Conduite à une touche",
+      "summary": "Dosez l’accélération aux carrefours et aux passages à niveau, puis ramassez des pièces pour débloquer d’autres voitures.",
+      "about": [
+        "La voiture suit les virages automatiquement. Dans les ronds-points et le trafic, c’est le moment d’accélérer qui compte.",
+        "Les pièces trouvées sur la route vous permettent d’ajouter des sportives, des SUV et des muscle cars à votre garage."
+      ],
+      "steps": [
+        [
+          "Prenez de la vitesse",
+          "Maintenez la commande quand la voie se libère."
+        ],
+        [
+          "Ralentissez dans le trafic",
+          "Relâchez à l’approche d’un feu, d’un rond-point ou d’un passage à niveau. Attendez une ouverture avant de repartir."
+        ]
+      ],
+      "faq": [
+        [
+          "Dois-je braquer dans les virages ?",
+          "La voiture suit le tracé automatiquement."
+        ]
+      ]
+    },
+    "snowprints": {
+      "localizedName": "Traces dans la neige",
+      "category": "Puzzle de trajets de pingouins",
+      "summary": "Dessinez un trajet vers chaque igloo de la bonne couleur. Jouez avec la glace et la neige profonde pour éviter les collisions.",
+      "about": [
+        "Tous les pingouins partent ensemble. Un détour ou une petite boucle peut faire arriver un pingouin après l’autre à un croisement.",
+        "La neige profonde ralentit les pingouins, la glace les accélère et la glace fine peut céder après un passage."
+      ],
+      "steps": [
+        [
+          "Tracez chaque trajet",
+          "Faites glisser depuis le pingouin jusqu’à l’igloo de même couleur."
+        ],
+        [
+          "Lancez le groupe",
+          "Appuyez sur Go et repérez les collisions. Modifiez un trajet si deux pingouins arrivent au même endroit en même temps."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment gagner plus d’étoiles ?",
+          "Laissez moins de traces de pas."
+        ]
+      ]
+    },
+    "squish-jar": {
+      "localizedName": "Le bocal à douceurs",
+      "category": "Puzzle de fusion de desserts",
+      "summary": "Faites tomber des gâteaux moelleux dans un bocal et fusionnez les paires. Visez le gâteau nuage sans dépasser la ligne pointillée.",
+      "about": [
+        "Mochis, macarons et donuts bougent après la chute. Deux douceurs identiques fusionnent dès qu’elles se touchent.",
+        "Des fusions rapprochées forment des combos. Jouez pour débloquer bocaux et décors ou essayez le défi quotidien."
+      ],
+      "steps": [
+        [
+          "Visez et lâchez",
+          "Déplacez la souris puis cliquez, ou glissez avec le doigt puis relâchez."
+        ],
+        [
+          "Gardez de la place",
+          "Rapprochez les paires avant que la pile ne dépasse la ligne pointillée."
+        ]
+      ],
+      "faq": [
+        [
+          "Que faire si le bocal se remplit ?",
+          "Essayez un bonus pour secouer, éclater ou améliorer une douceur."
+        ]
+      ]
+    },
+    "cozy-art-studio": {
+      "localizedName": "Petit atelier d’illustration",
+      "category": "Simulation d’atelier de dessin",
+      "summary": "Prenez des commandes d’illustration, retracez les croquis, reproduisez les couleurs du modèle et décorez votre atelier avec vos gains.",
+      "about": [
+        "Les clients précisent par message le sujet, leurs préférences, le prix et le délai. Acceptez, négociez ou passez votre tour.",
+        "Un tracé propre et des couleurs fidèles rapportent des étoiles et parfois un meilleur pourboire. Achetez du matériel ou du mobilier."
+      ],
+      "steps": [
+        [
+          "Lisez la commande",
+          "Ouvrez la conversation pour vérifier les attentes du client avant d’accepter."
+        ],
+        [
+          "Dessinez et livrez",
+          "Tracez au stylet, prélevez les couleurs à la pipette et remplissez les formes. Terminez avant l’échéance."
+        ]
+      ],
+      "faq": [
+        [
+          "Peut-on dessiner sans délai ?",
+          "Oui. Ouvrez le carnet depuis la galerie pour dessiner librement."
+        ]
+      ]
+    },
+    "hatch-a-capybara": {
+      "localizedName": "Fais éclore un capybara !",
+      "category": "Jeu de soins pour capybaras",
+      "summary": "Faites éclore des bébés capybaras, nourrissez-les et décorez leur maison. Jouez aux mini-jeux pour débloquer des objets avec vos pièces.",
+      "about": [
+        "Touchez plusieurs fois un œuf pour accueillir un capybara. Faites glisser de la nourriture ou des jouets vers chaque animal.",
+        "Le menu donne accès aux pièces, aux décorations et aux mini-jeux. Les pièces de monnaie servent à obtenir de nouveaux objets."
+      ],
+      "steps": [
+        [
+          "Faites éclore un œuf",
+          "Cliquez ou touchez plusieurs fois jusqu’à ce que l’œuf s’ouvre."
+        ],
+        [
+          "Occupez-vous des animaux",
+          "Donnez nourriture et jouets aux capybaras, puis cherchez des décorations dans le menu de la maison."
+        ]
+      ],
+      "faq": [
+        [
+          "Où dépenser mes pièces ?",
+          "Elles débloquent des objets pour les capybaras et leur maison."
+        ]
+      ]
+    },
+    "ink-blade": {
+      "localizedName": "Ink Blade : la lame d’encre",
+      "category": "Action à l’épée et parades",
+      "summary": "Parez au moment où les anneaux se referment et affrontez les boss de quartier. Jouez aussi en JcJ ou en coopération en ligne.",
+      "about": [
+        "Observez les anneaux autour des ennemis. Le blanc se pare, le rouge s’esquive et l’or annonce une feinte.",
+        "Toutes les deux vagues, choisissez une amélioration et récupérez votre santé. Quatre vagues et un boss ouvrent le quartier suivant."
+      ],
+      "steps": [
+        [
+          "Déplacez-vous et frappez",
+          "Bougez avec WASD ou les flèches. Cliquez ou appuyez sur J pour frapper. Sur écran tactile, utilisez le joystick et le bouton d’attaque."
+        ],
+        [
+          "Parez au bon moment",
+          "Appuyez sur le bouton droit, L ou Garde quand l’anneau blanc se ferme. Esquivez avec Espace ou le bouton de ruée."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je jouer avec des amis ?",
+          "Le JcJ par équipe va jusqu’à quatre contre quatre, et la coopération jusqu’à six joueurs."
+        ]
+      ]
+    },
+    "toy-ramps": {
+      "localizedName": "Toy Ramps : cascades miniatures",
+      "category": "Course de voitures miniatures",
+      "summary": "Pilotez des voitures jouets sur des pistes dans la maison. Faites des figures, atterrissez sur vos roues et créez vos propres parcours.",
+      "about": [
+        "La voiture avance toute seule. Affrontez trois rivaux, participez aux spectacles et débloquez des modèles de pièce en pièce.",
+        "Une réception nette après un saut rapporte du nitro et des pièces. L’éditeur permet d’assembler rampes, boucles et virages."
+      ],
+      "steps": [
+        [
+          "Évitez les obstacles",
+          "Dirigez la voiture avec A et D, les flèches horizontales ou un glissement latéral."
+        ],
+        [
+          "Tournez en l’air",
+          "Utilisez W et S ou un geste vertical pour faire un salto. Tournez sur le côté avec les commandes de direction, puis redressez la voiture."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment activer le nitro ?",
+          "Appuyez sur Espace ou sur le bouton Nitro."
+        ]
+      ]
+    },
+    "toy-legion": {
+      "localizedName": "La légion de jouets",
+      "category": "Stratégie et fusion de soldats",
+      "summary": "Fusionnez des soldats en plastique, préparez une formation sur une grille de 5×4 et affrontez les vagues de robots à remontoir.",
+      "about": [
+        "Deux soldats identiques en forment un plus fort. Placez les unités solides en tête et gardez les soutiens derrière.",
+        "La campagne traverse quatre univers de jouets. Le mode sans fin lance un boss toutes les dix vagues."
+      ],
+      "steps": [
+        [
+          "Montez votre formation",
+          "Recrutez avec des pièces, puis glissez les soldats vers une case vide ou sur un soldat identique pour les fusionner."
+        ],
+        [
+          "Déclenchez le combat",
+          "Appuyez sur Battle. Quand l’anneau de la capacité de commandement se remplit, choisissez le bon moment pour l’activer."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment échanger deux unités ?",
+          "Déposez un soldat sur un autre d’un type différent pour échanger leurs places."
+        ]
+      ]
+    },
+    "ok-i-pull-up-capybay": {
+      "localizedName": "CapyBay : l’île des capybaras",
+      "category": "Aventure insulaire",
+      "summary": "Explorez CapyBay en capybara. Récoltez des ressources, fabriquez des objets et honorez les commandes pour découvrir d’autres zones.",
+      "about": [
+        "Ramassez des matériaux en chemin, puis apportez-les aux postes de production pour les transformer.",
+        "Vérifiez ce que réclame chaque commande avant de traverser l’île avec vos ressources."
+      ],
+      "steps": [
+        [
+          "Parcourez l’île",
+          "Utilisez WASD, les flèches ou un clic vers la destination. Un glissement fait apparaître le joystick."
+        ],
+        [
+          "Utilisez les ressources",
+          "Appuyez sur E, Espace ou Entrée pour interagir avec le poste ou l’objet le plus proche."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment ouvrir une nouvelle zone ?",
+          "Fabriquez les marchandises demandées et remplissez les commandes."
+        ]
+      ]
+    },
+    "kaiju-rampage-ultimate": {
+      "localizedName": "Kaiju Rampage : le monstre se déchaîne",
+      "category": "Bac à sable de destruction en 3D",
+      "summary": "Incarnez un kaiju géant dans des villes en blocs. Gagnez de l’expérience et affrontez des adversaires plus coriaces à mesure que l’alerte monte.",
+      "about": [
+        "Les bâtiments s’écroulent en blocs soumis à la physique. L’alerte monte jusqu’à six étoiles.",
+        "Cinq cartes urbaines sont ouvertes à l’exploration. Le menu des pouvoirs permet de débloquer d’autres capacités de monstre."
+      ],
+      "steps": [
+        [
+          "Parcourez la ville",
+          "Avancez avec WASD ou le joystick tactile et faites glisser pour tourner la caméra."
+        ],
+        [
+          "Essayez les attaques de base",
+          "Griffez avec un clic gauche ou J. Frappez le sol avec Espace. Sur mobile, utilisez les boutons à droite."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment faire grandir le kaiju ?",
+          "Gagnez de l’expérience en détruisant des objets dans la ville."
+        ]
+      ]
+    },
+    "blocky-aces": {
+      "localizedName": "Blocky Aces : les as du voxel",
+      "category": "Jeu de tir aérien en voxels",
+      "summary": "Pilotez dans des décors en voxels, résistez aux vagues et choisissez des cartes d’amélioration pour aller plus loin.",
+      "about": [
+        "Chaque tir encaissé coûte un cœur. Entre deux vols, dépensez vos pièces en améliorations d’armes, de moteur et de blindage.",
+        "Après chaque vague, choisissez une carte parmi trois. Testez différentes combinaisons pour battre votre record."
+      ],
+      "steps": [
+        [
+          "Pilotez l’avion",
+          "Sur ordinateur, cliquez pour capturer la souris puis déplacez-la. Sur mobile, glissez avec le doigt."
+        ],
+        [
+          "Tirez dans le viseur",
+          "Maintenez le clic gauche sur ordinateur. Sur mobile, le tir part dès qu’une cible entre dans le viseur."
+        ]
+      ],
+      "faq": [
+        [
+          "Que peut-on acheter au hangar ?",
+          "Des améliorations permanentes et de nouveaux appareils, parmi les 14 disponibles."
+        ]
+      ]
+    },
+    "mahjong-tile-club": {
+      "localizedName": "Club des tuiles de mah-jong",
+      "category": "Solitaire de mah-jong",
+      "summary": "Associez les paires libres dans 100 niveaux de mah-jong solitaire. Enchaînez les associations pour monter votre score.",
+      "about": [
+        "Une tuile libre n’a rien au-dessus et possède au moins un côté gauche ou droit dégagé. Toucher une tuile bloquée casse le combo et coûte des points.",
+        "Enlevez d’abord des tuiles du haut pour en révéler d’autres. Indice montre une paire, et Mélange réorganise les tuiles restantes."
+      ],
+      "steps": [
+        [
+          "Repérez les paires libres",
+          "Touchez deux tuiles identiques et libres, chacune avec un côté dégagé."
+        ],
+        [
+          "Dégagez les couches du dessous",
+          "Si possible, prenez les paires qui se trouvent en haut des piles."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand les coffres s’ouvrent-ils ?",
+          "Tous les dix niveaux, avec des indices et des mélanges supplémentaires."
+        ]
+      ]
+    },
+    "snake-flow-loop": {
+      "localizedName": "La boucle des serpents",
+      "category": "Puzzle de serpents et de mosaïques",
+      "summary": "Envoyez les serpents jouets dans le bon ordre sur un circuit en boucle pour révéler des mosaïques en pixels.",
+      "about": [
+        "Tous partagent la même piste. Un serpent disponible peut gêner le passage d’un autre si vous le faites partir trop tôt.",
+        "La mosaïque se dévoile à mesure que la piste se libère. Chaque image terminée débloque un autre puzzle."
+      ],
+      "steps": [
+        [
+          "Observez la piste",
+          "Repérez les serpents disponibles et choisissez celui qui dégagera le mieux le passage."
+        ],
+        [
+          "Envoyez un serpent",
+          "Cliquez ou touchez le serpent, puis tenez compte des positions restantes pour le coup suivant."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment terminer le niveau ?",
+          "Faites sortir tous les serpents pour voir l’image entière."
+        ]
+      ]
+    },
+    "market-hero": {
+      "localizedName": "Market Hero : mon supermarché",
+      "category": "Gestion de supermarché",
+      "summary": "Remplissez les rayons, faites tourner les machines et gérez les files aux caisses. Embauchez du personnel à mesure que le magasin grandit.",
+      "about": [
+        "Le jardin et les livraisons alimentent la boutique. Les postes de production transforment les ressources en marchandises.",
+        "L’argent sert aux machines, aux rayons, au personnel et aux compétences. Développez un magasin avant de passer au suivant."
+      ],
+      "steps": [
+        [
+          "Travaillez en rayon",
+          "Glissez le joystick pour bouger. Placez-vous sur les zones dédiées pour récolter, charger, ranger ou scanner."
+        ],
+        [
+          "Déléguez les tâches",
+          "Utilisez les zones lumineuses pour acheter du matériel ou embaucher du personnel pour les rayons, les caisses et le nettoyage."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment rejoindre un autre quartier ?",
+          "Terminez les améliorations demandées pour construire le véhicule du magasin."
+        ]
+      ]
+    },
+    "starship-gem-rush": {
+      "localizedName": "Starship Gem Rush : ruée spatiale",
+      "category": "Jeu de tir spatial et de survie",
+      "summary": "Pilotez un vaisseau à tir automatique, ramassez des gemmes et choisissez vos améliorations. Essayez la campagne ou la survie sans fin.",
+      "about": [
+        "Le vaisseau vise et tire seul. Concentrez-vous sur les espaces libres entre les essaims ennemis.",
+        "Les gemmes lâchées par les ennemis donnent de l’expérience. Choisissez une carte parmi trois et associez les améliorations compatibles."
+      ],
+      "steps": [
+        [
+          "Évitez les ennemis",
+          "Utilisez WASD ou les flèches. Sur mobile, glissez n’importe où sur l’écran."
+        ],
+        [
+          "Ramassez les gemmes et choisissez une carte",
+          "Prenez les gemmes au passage, puis sélectionnez une carte adaptée à votre partie."
+        ]
+      ],
+      "faq": [
+        [
+          "Que faire entre deux parties ?",
+          "Dépensez vos gemmes au hangar pour débloquer des vaisseaux et améliorer les talents."
+        ]
+      ]
+    },
+    "sky-ramp-fury-mega-ramp-car-stunts": {
+      "localizedName": "Sky Ramp Fury : cascades dans les nuages",
+      "category": "Cascades automobiles en altitude",
+      "summary": "Franchissez des rampes géantes, des boucles et des ponts étroits au-dessus des nuages. Dosez le boost et retombez sur vos roues.",
+      "about": [
+        "Les cinquante niveaux élargissent les sauts et resserrent les passages jusqu’au drapeau d’arrivée.",
+        "Les pièces débloquent cinq voitures. En cas de chute, reprenez au dernier point de contrôle."
+      ],
+      "steps": [
+        [
+          "Prenez de l’élan",
+          "Activez le boost avant le saut pour franchir les grands vides."
+        ],
+        [
+          "Redressez la voiture",
+          "Remettez le véhicule à plat en l’air pour que les roues touchent en premier."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment obtenir trois étoiles ?",
+          "Atteignez l’arrivée en repartant le moins possible des points de contrôle."
+        ]
+      ]
+    },
+    "emberwing-skies-of-the-undead": {
+      "localizedName": "Emberwing : les cieux des morts-vivants",
+      "category": "Action aérienne à dos de dragon",
+      "summary": "Chevauchez un dragon élémentaire, détruisez des flèches maudites et défiez les boss de cinq cieux envahis par les morts-vivants.",
+      "about": [
+        "Choisissez un dragon parmi quatre. Le boss arrive après la destruction des tours et de la horde du chapitre.",
+        "Premier vol enseigne les commandes. La survie, les boss à la chaîne et le vol du jour offrent d’autres défis."
+      ],
+      "steps": [
+        [
+          "Pilotez et visez",
+          "Déplacez la souris sur ordinateur ou glissez sur la moitié gauche en tactile."
+        ],
+        [
+          "Utilisez vos pouvoirs",
+          "Maintenez le clic gauche pour souffler. En tactile, le souffle se déclenche sur les cibles verrouillées. Activez les autres pouvoirs à l’écran."
+        ]
+      ],
+      "faq": [
+        [
+          "Y a-t-il un tutoriel ?",
+          "Choisissez First Flight pour un court vol guidé."
+        ]
+      ]
+    },
+    "battle-sandbox-playground": {
+      "localizedName": "Le champ de bataille des jouets",
+      "category": "Bac à sable de batailles miniatures",
+      "summary": "Disposez des armées de jouets et regardez-les s’affronter. Créez votre propre scène ou lancez un scénario préparé.",
+      "about": [
+        "Soldats verts et olive partagent le terrain avec véhicules, défenses et robots. Placez les pièces sur différentes cartes.",
+        "Observez les unités autonomes, prenez le contrôle d’un soldat ou ralentissez la scène pour examiner les effets physiques."
+      ],
+      "steps": [
+        [
+          "Installez la scène",
+          "Choisissez une pièce dans le menu et cliquez sur le terrain pour la poser. Faites-la glisser pour la déplacer."
+        ],
+        [
+          "Passez en mode jeu",
+          "Sur ordinateur, P alterne Construction et Jeu. En mode Jeu, cliquez sur un soldat pour le diriger."
+        ]
+      ],
+      "faq": [
+        [
+          "Peut-on regarder de plus près ?",
+          "Mettez en pause ou ralentissez, puis zoomez à la molette ou avec deux doigts."
+        ]
+      ]
+    },
+    "wingstorm": {
+      "localizedName": "Wingstorm : tempête aérienne",
+      "category": "Jeu de tir aérien à un doigt",
+      "summary": "Esquivez avions et soucoupes dans Wingstorm. Votre avion tire automatiquement pendant que vous récupérez les caisses et affrontez les boss.",
+      "about": [
+        "Survolez 30 niveaux répartis sur dix mondes. Les caisses apportent pièces, santé, bombes et puissance de tir.",
+        "Survolez les personnes bloquées pour les secourir. Entre deux vols, achetez des avions plus forts ou faites le plein de bombes."
+      ],
+      "steps": [
+        [
+          "Faufilez-vous",
+          "Glissez à la souris ou au doigt, ou pilotez avec WASD ou les flèches."
+        ],
+        [
+          "Lâchez une bombe si l’écran se remplit",
+          "Appuyez sur Espace ou B au clavier pour dégager l’écran."
+        ]
+      ],
+      "faq": [
+        [
+          "Où acheter d’autres avions ?",
+          "Le hangar propose six avions à débloquer ou à améliorer avec des pièces."
+        ]
+      ]
+    },
+    "crossum": {
+      "localizedName": "Crossum : mots croisés de chiffres",
+      "category": "Puzzle de calcul à cases croisées",
+      "summary": "Complétez des équations qui se croisent. Placez les tuiles pour que les opérations soient justes dans les deux directions.",
+      "about": [
+        "Un chiffre partagé doit fonctionner sur sa ligne et sa colonne. Commencez par les cases qui permettent d’écarter des solutions dans l’autre opération.",
+        "Choisissez une grille de 5×5 à 11×11 ou jouez au défi commun du jour."
+      ],
+      "steps": [
+        [
+          "Placez un nombre",
+          "Glissez la tuile du plateau vers une case vide, ou sélectionnez la tuile puis la case."
+        ],
+        [
+          "Vérifiez vos opérations",
+          "Contrôlez les deux directions avant de finir une ligne. Touchez un nombre posé pour le récupérer."
+        ]
+      ],
+      "faq": [
+        [
+          "Que coûte une équation fausse ?",
+          "Une opération complète et incorrecte vous coûte un cœur."
+        ]
+      ]
+    },
+    "ballpit-clean-master": {
+      "localizedName": "Nettoyage de la piscine à balles",
+      "category": "Simulation de nettoyage en 3D",
+      "summary": "Aspirez les balles éparpillées, recyclez-les contre des pièces et améliorez votre matériel dans quatre zones à nettoyer.",
+      "about": [
+        "Les balles roulent et rebondissent. Videz le réservoir à la recycleuse pour financer des améliorations et recruter de l’aide.",
+        "Bouchez les geysers de balles pour garder une zone propre. Cherchez les jouets cachés à collectionner."
+      ],
+      "steps": [
+        [
+          "Aspirez en vous déplaçant",
+          "Avancez avec WASD et maintenez le clic gauche. Sur mobile, utilisez le joystick et le bouton de l’aspirateur."
+        ],
+        [
+          "Videz le réservoir",
+          "Entrez dans le cercle de la recycleuse et utilisez les pièces pour vous équiper."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand la zone suivante se débloque-t-elle ?",
+          "Quand 90 % de la zone actuelle est propre."
+        ]
+      ]
+    },
+    "zombie-army-rush": {
+      "localizedName": "Zombie Army Rush : la ruée des zombies",
+      "category": "Jeu de course et de tir",
+      "summary": "Guidez une escouade qui tire automatiquement à travers des portes chiffrées. Renforcez le groupe avant les boss de mission.",
+      "about": [
+        "Vos soldats courent et tirent seuls. Choisissez des portes d’addition ou de multiplication, puis tirez sur leur nombre pour l’augmenter.",
+        "Brisez les cadenas pour obtenir du matériel. Remplissez la jauge d’adrénaline pour prendre une amélioration en cours de route."
+      ],
+      "steps": [
+        [
+          "Changez de couloir",
+          "Glissez à la souris ou au doigt, ou utilisez A et D ou les flèches horizontales."
+        ],
+        [
+          "Comparez les portes",
+          "Calculez ce que chaque porte ajoutera à l’effectif actuel."
+        ]
+      ],
+      "faq": [
+        [
+          "Où utiliser les pièces de mission ?",
+          "Dépensez-les au QG et à l’arsenal entre les parties."
+        ]
+      ]
+    },
+    "slap-league": {
+      "localizedName": "Slap League : ligue des claques",
+      "category": "Duel de claques avec physique",
+      "summary": "Esquivez d’un geste, dosez vos claques et chargez votre jauge de rage pour affronter des adversaires en armure.",
+      "about": [
+        "Les coups déséquilibrent les combattants. Une flèche jaune indique la direction de l’esquive quand l’adversaire attaque.",
+        "Améliorez puissance, santé et revenus dans le hall. L’armoire sert à changer d’apparence."
+      ],
+      "steps": [
+        [
+          "Armez la claque",
+          "Faites glisser la souris ou le doigt pour tirer le bras en arrière, puis relâchez."
+        ],
+        [
+          "Suivez la flèche",
+          "Glissez à gauche, à droite ou en haut dans la direction indiquée avant la fin du compte à rebours."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand utiliser la super claque ?",
+          "À 100 % de rage, dessinez des cercles avant de relâcher pour augmenter le multiplicateur."
+        ]
+      ]
+    },
+    "swim-fitness-club": {
+      "localizedName": "Swim Fitness Club : la salle de sport",
+      "category": "Gestion de salle de sport",
+      "summary": "Développez une petite salle, améliorez le matériel, réduisez les files et recrutez des responsables pour ouvrir d’autres clubs.",
+      "about": [
+        "Les entraînements des clients rapportent de l’argent. Répartissez les dépenses entre équipement, prix d’entrée et rapidité des séances.",
+        "Les objectifs du club ouvrent de nouveaux sites. Les gemmes servent à recruter des responsables ou à améliorer les clients."
+      ],
+      "steps": [
+        [
+          "Accueillez les visiteurs",
+          "Cliquez ou touchez les boutons à l’écran pour les servir et encaisser."
+        ],
+        [
+          "Traitez les files d’attente",
+          "Selon l’endroit où ça coince, achetez du matériel, accélérez les séances ou agrandissez la file."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment ouvrir un autre club ?",
+          "Atteignez les objectifs du site actuel."
+        ]
+      ]
+    },
+    "thriller-cafe": {
+      "localizedName": "Thriller Café : le café des zombies",
+      "category": "Gestion d’un café pour zombies",
+      "summary": "Servez des plats étranges à des clients zombies. Améliorez la cuisine et embauchez une équipe à mesure que le café grandit.",
+      "about": [
+        "Le restaurant propose un menu destiné aux morts-vivants. Préparez les plats et apportez-les aux clients affamés.",
+        "Réinvestissez vos recettes dans la cuisine et le personnel pour agrandir le café."
+      ],
+      "steps": [
+        [
+          "Parcourez le café",
+          "Utilisez WASD ou la souris sur ordinateur, ou le doigt sur mobile."
+        ],
+        [
+          "Servez et améliorez",
+          "Préparez les plats, servez les clients et investissez vos gains dans le café."
+        ]
+      ],
+      "faq": [
+        [
+          "Peut-on recruter du personnel ?",
+          "Oui, vous pouvez embaucher pendant l’agrandissement du restaurant."
+        ]
+      ]
+    },
+    "track-puzzle": {
+      "localizedName": "Rails et logique",
+      "category": "Puzzle logique ferroviaire",
+      "summary": "Reliez le départ à l’arrivée avec une voie continue. Lisez les indices des lignes et des colonnes et livrez les gemmes aux maisons assorties.",
+      "about": [
+        "Chaque nombre compte les cases de voie d’une ligne ou colonne. Un zéro exclut toute la ligne.",
+        "Le train doit passer près d’une gemme avant sa maison. Chaque wagon porte une seule gemme, alors prévoyez les livraisons."
+      ],
+      "steps": [
+        [
+          "Marquez le trajet probable",
+          "Touchez une fois pour un X, puis encore pour indiquer une voie. Vérifiez les chiffres des deux côtés."
+        ],
+        [
+          "Reliez les rails",
+          "Glissez à travers les cases marquées pour tracer une voie continue. Repassez sur la voie pour l’effacer."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment obtenir trois étoiles ?",
+          "Terminez le niveau sans indice ni annulation."
+        ]
+      ]
+    },
+    "tinglora-asmr": {
+      "localizedName": "Tinglora : atelier ASMR",
+      "category": "Mini-jeux ASMR de soin et de nettoyage",
+      "summary": "Découpez des fruits en cristal, lavez des tapis et restaurez des objets dans 81 petites activités proposées dans un ordre varié.",
+      "about": [
+        "Chaque niveau change d’objet et d’outil, du nettoyeur haute pression au couteau à savon.",
+        "Consultez l’indice au bas de l’écran. Faites pivoter l’objet ou zoomez pour mieux voir la zone de travail."
+      ],
+      "steps": [
+        [
+          "Maniez l’outil",
+          "Maintenez le clic gauche ou glissez au doigt pour couper, nettoyer, écraser ou peler."
+        ],
+        [
+          "Tournez l’objet",
+          "Faites glisser avec le bouton droit ou avec deux doigts. Utilisez la molette ou pincez pour zoomer si le niveau le permet."
+        ]
+      ],
+      "faq": [
+        [
+          "Où sont les instructions ?",
+          "L’indice au bas de l’écran indique la prochaine action."
+        ]
+      ]
+    },
+    "drill-to-earths-core--zombie": {
+      "localizedName": "Cap sur le noyau terrestre : zombies",
+      "category": "Aventure minière et survie",
+      "summary": "Forez les roches, vendez vos minerais et améliorez la foreuse. Descendez plus profond en évitant les zombies.",
+      "about": [
+        "Améliorez puissance, vitesse et rendement pour percer d’autres couches. Les profondeurs abritent des ressources rares.",
+        "Les zombies vous poursuivent sous terre. Repérez-les en passant d’un gisement à l’autre."
+      ],
+      "steps": [
+        [
+          "Percez la roche",
+          "Choisissez un endroit et forez pour ramasser minerais, or et pierres précieuses."
+        ],
+        [
+          "Vendez et améliorez",
+          "Vendez le butin contre des pièces, améliorez l’engin et tentez un trajet plus profond."
+        ]
+      ],
+      "faq": [
+        [
+          "Quel est le but ?",
+          "Atteindre le noyau de la Terre en récoltant des ressources et en survivant aux zombies."
+        ]
+      ]
+    },
+    "pet-run-bridge-of-heart": {
+      "localizedName": "Pet Run : le pont du cœur",
+      "category": "Course de chat et construction de ponts",
+      "summary": "Guidez un chaton sur des pistes dans le ciel. Empilez des briques de sa couleur pour franchir les trous et retrouver son compagnon.",
+      "about": [
+        "Le chaton ne ramasse que les briques de sa couleur actuelle. Les zones de couleur changent les briques à chercher.",
+        "Les aimants attirent les briques. Les portes vertes avec un plus augmentent la pile. Évitez les obstacles rouges et les signes moins."
+      ],
+      "steps": [
+        [
+          "Changez de côté",
+          "Glissez à gauche ou à droite vers les briques assorties et les portes vertes."
+        ],
+        [
+          "Franchissez un vide",
+          "Accumulez des briques à l’avance. Le chaton les pose automatiquement pour former un pont."
+        ]
+      ],
+      "faq": [
+        [
+          "Quelles briques prendre après un changement de couleur ?",
+          "Choisissez celles qui correspondent à la nouvelle couleur du chaton."
+        ]
+      ]
+    },
+    "diy-cake-making": {
+      "localizedName": "Mon gâteau fait maison",
+      "category": "Pâtisserie et décoration de gâteaux",
+      "summary": "Préparez un gâteau de fête. Choisissez un moule, ajoutez un glaçage aux fruits ou au chocolat et décorez-le pour l’occasion.",
+      "about": [
+        "Farine, œufs, lait, beurre et sucre forment la pâte. Versez-la dans un moule rond, carré, en cœur ou en étoile.",
+        "Bonbons, bougies et décorations viennent après le glaçage. Après la fête, essayez quatre mini-jeux chronométrés."
+      ],
+      "steps": [
+        [
+          "Mélangez et enfournez",
+          "Glissez les ingrédients dans le bol et maintenez pour mélanger. Versez dans un moule, puis glissez-le dans le four."
+        ],
+        [
+          "Glacez et décorez",
+          "Choisissez une sauce. Touchez les décorations pour les ajouter et glissez-les pour les placer."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment retirer une décoration ?",
+          "Faites-la glisser hors du gâteau avant de terminer."
+        ]
+      ]
+    },
+    "satis-coloring-journal": {
+      "localizedName": "Mon carnet de coloriage",
+      "category": "Jeu de tracé et de coloriage",
+      "summary": "Suivez les pointillés, choisissez les bonnes couleurs et retrouvez vos animaux et gourmandises dans la galerie.",
+      "about": [
+        "Le contour s’arrête au dernier point. Dépasser laisse un trait de trop, alors relâchez au point final.",
+        "Chaque zone colorée avec la teinte attendue augmente la précision. La galerie conserve les dessins terminés."
+      ],
+      "steps": [
+        [
+          "Tracez le contour",
+          "Glissez le stylo du premier au dernier point et arrêtez-vous à l’extrémité."
+        ],
+        [
+          "Coloriez le dessin",
+          "Choisissez une couleur, frottez pour remplir la zone puis appuyez sur Terminer."
+        ]
+      ],
+      "faq": [
+        [
+          "Peut-on corriger une erreur ?",
+          "Utilisez Annuler pour revenir d’une étape."
+        ]
+      ]
+    },
+    "blocks-take-your-time": {
+      "localizedName": "Blocs à son rythme",
+      "category": "Puzzle de blocs 9×9 sans chrono",
+      "summary": "Placez des blocs sur une grille de 9×9 et effacez des lignes ou des colonnes à votre rythme. Battez votre score ou révélez des images.",
+      "about": [
+        "Une pièce peut supprimer plusieurs lignes d’un coup. Posez les trois pièces pour recharger le plateau.",
+        "Les niveaux illustrés imposent un objectif et un nombre de coups. Un bloc doré compte quand sa ligne disparaît."
+      ],
+      "steps": [
+        [
+          "Placez les pièces",
+          "Glissez-les dans les cases libres. En mode record, les quatre premiers coups sont guidés."
+        ],
+        [
+          "Préparez une ligne complète",
+          "Gardez de la place pour la plus grande pièce du plateau en complétant une ligne ou une colonne."
+        ]
+      ],
+      "faq": [
+        [
+          "Peut-on tourner une pièce ?",
+          "Oui, avec le bonus Rotation."
+        ]
+      ]
+    },
+    "tap-hexa-out--tap-it-away": {
+      "localizedName": "Hexagones à déloger",
+      "category": "Puzzle d’hexagones et de flèches",
+      "summary": "Touchez les hexagones pour les faire rouler dans le sens des flèches. Libérez les sorties avant d’épuiser vos coups.",
+      "about": [
+        "Un hexagone bloqué revient en place tout en consommant un coup. Les pièces du bord ont souvent la sortie la plus simple.",
+        "Des blocs verrouillés, des tuiles de clonage et des grues rotatives apparaissent ensuite. Les pièces évacuées servent à construire quatre îles."
+      ],
+      "steps": [
+        [
+          "Lisez les flèches",
+          "Suivez la direction de chaque hexagone jusqu’au bord avant de le toucher."
+        ],
+        [
+          "Dégagez les sorties",
+          "Commencez par les pièces qui peuvent partir pour ouvrir le chemin aux autres."
+        ]
+      ],
+      "faq": [
+        [
+          "Quand les blocs verrouillés s’ouvrent-ils ?",
+          "Après le nombre de coups affiché dessus."
+        ]
+      ]
+    },
+    "fix-it-garage": {
+      "localizedName": "À l’atelier mécanique",
+      "category": "Simulation de diagnostic et de réparation",
+      "summary": "Diagnostiquez des pannes, remplacez la bonne pièce et testez chaque voiture avant de toucher votre paiement.",
+      "about": [
+        "Les clients arrivent avec des freins qui grincent, de la fumée ou un problème de démarrage. Inspectez avant d’acheter des pièces.",
+        "Les réparations financent le garage, les outils et les ponts. Une pièce mal choisie vous coûte de l’argent."
+      ],
+      "steps": [
+        [
+          "Trouvez la panne",
+          "Choisissez un outil de diagnostic pour obtenir des indices, puis sélectionnez la pièce dans le menu Réparer."
+        ],
+        [
+          "Remplacez et testez",
+          "Maintenez sur les écrous ou vis affichés pour les desserrer ou les resserrer. Touchez la pièce en surbrillance, puis testez la voiture."
+        ]
+      ],
+      "faq": [
+        [
+          "Quelle différence entre les modes ?",
+          "Le mode détente colore les indices et trie les pièces probables. En expert, vous faites le diagnostic."
+        ]
+      ]
+    },
+    "all-aboard-bus-puzzle": {
+      "localizedName": "Tout le monde à bord",
+      "category": "Puzzle de tri des passagers",
+      "summary": "Dégagez un parking encombré et faites sortir les bus dans l’ordre qui permet à chaque passager de monter dans un bus de sa couleur.",
+      "about": [
+        "Les bus peuvent se bloquer entre eux. Repérez le véhicule qui gêne celui dont vous avez besoin.",
+        "Les passagers prennent un bus de leur couleur. Choisissez des mouvements qui ouvrent le passage et font sortir la bonne couleur."
+      ],
+      "steps": [
+        [
+          "Observez le parking",
+          "Repérez les bus qui peuvent sortir et les couleurs des personnes encore en attente."
+        ],
+        [
+          "Faites sortir un bus",
+          "Cliquez ou touchez un véhicule pour le déplacer, puis observez les voies dégagées."
+        ]
+      ],
+      "faq": [
+        [
+          "Comment terminer le niveau ?",
+          "Faites monter tous les passagers dans des bus de leur couleur."
+        ]
+      ]
+    },
+    "veggie-battle": {
+      "localizedName": "La bataille des légumes",
+      "category": "Combat de légumes et plateformes",
+      "summary": "Incarnez un légume soumis à la physique. Franchissez des plateformes, sauvez vos amis ou montez vos propres combats en bac à sable.",
+      "about": [
+        "Les quarante niveaux de l’histoire mêlent combats, pièges, cordes à couper et boss. Libérez vos amis et suivez le drapeau.",
+        "Le mode arcade se corse à mesure que vous avancez. En bac à sable, placez les combattants, choisissez les équipes et observez ou jouez."
+      ],
+      "steps": [
+        [
+          "Bougez, sautez et frappez",
+          "Déplacez-vous avec les flèches ou A et D, sautez avec Espace et attaquez avec F ou le clic gauche. En tactile, utilisez le joystick et le bouton rouge."
+        ],
+        [
+          "Repérez les cordes et le drapeau",
+          "Glissez sur les cordes pour les couper, évitez les pièges et atteignez le drapeau."
+        ]
+      ],
+      "faq": [
+        [
+          "Puis-je diriger un combattant en bac à sable ?",
+          "Oui. Préparez un combat puis prenez le contrôle d’un combattant placé."
+        ]
+      ]
+    },
+    "dino-rodeo-3d": {
+      "localizedName": "Rodéo de dinosaures 3D",
+      "category": "Rodéo et capture de dinosaures en 3D",
+      "summary": "Bondissez dans une ruée de dinosaures, capturez de nouvelles montures au lasso et ramenez-les au ranch. Explorez ensuite d’autres régions.",
+      "about": [
+        "Sautez de dos en dos sans toucher le sol. Les créatures capturées rapportent des pièces dans l’enclos.",
+        "L’entraîneur augmente votre énergie. Vous pouvez aussi fusionner trois dinosaures et prendre un vol vers d’autres milieux."
+      ],
+      "steps": [
+        [
+          "Sautez et lancez le lasso",
+          "Appuyez sur Espace ou cliquez pour sauter. Recommencez en l’air quand un dinosaure est dans le cercle. En tactile, utilisez le bouton fléché."
+        ],
+        [
+          "Utilisez les postes du ranch",
+          "Déplacez-vous avec WASD ou le joystick, puis utilisez E ou le menu à l’écran."
+        ]
+      ],
+      "faq": [
+        [
+          "Peut-on capturer des dinosaures volants ?",
+          "Oui. Les créatures volantes font partie de la collection."
+        ]
+      ]
     }
   }
 }

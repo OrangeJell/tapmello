@@ -14,9 +14,10 @@ const jsonText = new Set(['name', 'headline', 'description', 'articleSection', '
 const placeholders = value => (value.match(/\{[a-z][a-z\d_]*\}/gi) ?? []).sort();
 const translatableText = /[A-Za-z]/;
 
-export function createLocalizer({ code, dictionary, source, routes, titles, editorialAliases = {} }) {
+export function createLocalizer({ code, dictionary, source, routes, titles, editorialAliases = {}, gameNames = new Map() }) {
   function translate(value, location, bodyCopy) {
     const key = value.trim();
+    if (gameNames.has(key)) return value.replace(key, () => gameNames.get(key));
     const override = bodyCopy?.[key];
     if ((!override && !translatableText.test(key)) || titles.has(key) || /^(?:https?:\/\/|mailto:)/.test(key)) return value;
     if (source) {
@@ -25,11 +26,11 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
     }
     // English editorial revisions can reuse the previous translation until that locale is edited.
     const translationKey = Object.hasOwn(dictionary, key) ? key : editorialAliases[key] ?? key;
-    // Category totals vary with the catalog. Reuse the locale's plural count wording.
-    const gameTotal = /^([0-9]+) games$/.exec(key);
-    const pluralGameCount = dictionary['2 games'];
-    if (!Object.hasOwn(dictionary, translationKey) && gameTotal && pluralGameCount?.includes('2')) {
-      return value.replace(key, () => pluralGameCount.replace('2', gameTotal[1]));
+    // Discovery totals vary with the catalogue. Reuse the locale's plural count wording.
+    const total = /^([0-9]+) (games|tags)$/.exec(key);
+    const pluralCount = total && dictionary[`2 ${total[2]}`];
+    if (!Object.hasOwn(dictionary, translationKey) && pluralCount?.includes('2')) {
+      return value.replace(key, () => pluralCount.replace('2', total[1]));
     }
     const translated = override ?? (Object.hasOwn(dictionary, translationKey) && dictionary[translationKey]);
     assert.ok(typeof translated === 'string' && translated.trim(), `Missing ${code} translation at ${location}: ${key}`);
@@ -116,9 +117,10 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
       }
       const tagLink = [node, node.parentNode].some(element =>
         element?.attrs?.some(attribute => attribute.name === 'href' && attribute.value.startsWith('/tags/')));
+      const localizedGameName = classes.includes('game-tile-title') && gameNames.has(node.childNodes[0]?.value);
       for (const attribute of node.attrs ?? []) {
         const { name, value } = attribute;
-        if (name === 'lang' && (node.tagName === 'html' || tagLink)) {
+        if (name === 'lang' && (node.tagName === 'html' || tagLink || localizedGameName)) {
           attribute.value = code;
         } else if (name === 'href' && rel !== 'alternate') {
           attribute.value = value === '/manifest.webmanifest' ? localPath(code, value) : runtimeLanguage(route(value));
@@ -146,12 +148,20 @@ export function createLocalizer({ code, dictionary, source, routes, titles, edit
   }
 
   function catalogue(entries) {
-    return entries.map(entry => ({
-      ...entry,
-      href: route(entry.href),
-      ...(entry.category && { category: translate(entry.category, `catalogue ${entry.id}`) }),
-      ...(entry.keywords && { keywords: [entry.keywords, ...entry.searchTerms.map(term => translate(term, `search ${entry.id}`))].join(' '), searchTerms: undefined }),
-    }));
+    return entries.map(entry => {
+      const name = gameNames.get(entry.title);
+      return {
+        ...entry,
+        href: route(entry.href),
+        ...(name && { title: name, ...(entry.titleLang && { titleLang: code }) }),
+        ...(entry.category && { category: translate(entry.category, `catalogue ${entry.id}`) }),
+        ...(entry.keywords && {
+          originalTitle: name ? entry.title : entry.originalTitle,
+          keywords: [entry.keywords, name ? entry.title : '', ...entry.searchTerms.map(term => translate(term, `search ${entry.id}`))].filter(Boolean).join(' '),
+          searchTerms: undefined,
+        }),
+      };
+    });
   }
 
   return { html, catalogue, translate };

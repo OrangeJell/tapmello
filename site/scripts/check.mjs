@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 import { marbleGuides } from '../src/marble.mjs';
 import { levels, origin } from '../src/game.mjs';
 import { gameDetailTitle, gamesFor } from '../src/game-catalog.mjs';
-import { partnerGames, partnerGamesFor, partnerGamePath, partnerLocales } from '../src/partner-games.mjs';
+import { partnerGames, partnerGamesFor, partnerGameName, partnerGamePath, partnerLocales } from '../src/partner-games.mjs';
 import { catalogueFor, gameCount, gamesPath, genrePath, playedGamesPath, tagLabel, tagPath, tagsPath, taxonomyFor } from '../src/discovery.mjs';
 import hindiTags from '../src/translations/tags-hi.json' with { type: 'json' };
 
@@ -153,7 +153,8 @@ for (const file of htmlFiles) {
     const shareTitleMarkup = html.match(/<meta property="og:title"[^>]*>/)?.[0];
     assert.ok(titleMarkup && shareTitleMarkup, `Game title metadata: ${page}`);
     const [title, shareTitle] = parseFragment(titleMarkup + shareTitleMarkup).childNodes;
-    const expectedTitle = gameDetailTitle(code, detailGame.title);
+    const name = partnerGame ? partnerGameName(code, partnerGame) : detailGame.title;
+    const expectedTitle = gameDetailTitle(code, name);
     assert.equal(title.childNodes[0]?.value, expectedTitle, `Game search title: ${page}`);
     assert.equal(shareTitle.attrs.find(attr => attr.name === 'content')?.value, expectedTitle, `Game share title: ${page}`);
     const breadcrumb = html.match(/<nav class="discovery-breadcrumb"[\s\S]*?<\/nav>/)?.[0];
@@ -164,7 +165,7 @@ for (const file of htmlFiles) {
     assert.deepEqual(links.map(link => attr(link, 'href')), [
       localPath(code, gamesPath('en')), localPath(code, genrePath('en', primary)), '#play',
     ], `Game breadcrumb links: ${page}`);
-    assert.equal(links[2].childNodes[0]?.value, detailGame.title, `Game breadcrumb title: ${page}`);
+    assert.equal(links[2].childNodes[0]?.value, name, `Game breadcrumb title: ${page}`);
     assert.equal(attr(links[2], 'aria-current'), 'page', `Current breadcrumb page: ${page}`);
   }
   assert.ok(html.includes(`<html lang="${code === 'en' ? 'en-IN' : code}">`), `HTML language: ${page}`);
@@ -244,13 +245,28 @@ function pageCopy(html) {
 const sitemapSet = new Set(sitemapUrls);
 for (const [code, locale] of Object.entries(partnerLocales)) {
   const catalogPath = path.join(dist, 'assets', `game-search-${code.toLowerCase()}.json`);
-  const search = JSON.parse(await readFile(catalogPath, 'utf8'));
+  const search = new Map(JSON.parse(await readFile(catalogPath, 'utf8')).map(entry => [entry.href, entry]));
+  const recommendations = new Map(JSON.parse(await readFile(path.join(dist, 'assets', `game-recommendations-${code.toLowerCase()}.json`), 'utf8')).map(entry => [entry.id, entry]));
   for (const game of partnerGamesFor(code).filter(game => Object.hasOwn(locale.games, game.id))) {
     const route = localPath(code, partnerGamePath('en', game));
     const html = await readFile(path.join(dist, route + '.html'), 'utf8');
     const copy = game.details[code];
     assert.ok(sitemapSet.has(origin + route), `Localized game in sitemap: ${route}`);
-    assert.ok(search.some(entry => entry.href === route && entry.keywords.includes(game.category[code])), `Localized game in search: ${route}`);
+    const entry = search.get(route);
+    assert.ok(entry?.keywords.includes(game.category[code]), `Localized game in search: ${route}`);
+    if (copy.localizedName) {
+      assert.equal(entry.title, copy.localizedName, `Localized search result title: ${route}`);
+      if (game.title !== copy.localizedName) assert.equal(entry.originalTitle, game.title, `Search by official game name: ${route}`);
+      assert.equal(recommendations.get(game.id)?.title, copy.localizedName, `Localized recommendation title: ${route}`);
+      assert.equal(recommendations.get(game.id)?.titleLang, code, `Recommendation title language: ${route}`);
+      const heading = parseFragment(html.match(/<h1\b[^>]*>[\s\S]*?<\/h1>/)?.[0] ?? '').childNodes[0];
+      assert.equal(heading?.childNodes[0]?.value, copy.localizedName, `Localized main heading: ${route}`);
+      assert.equal(heading?.attrs.find(attr => attr.name === 'lang')?.value, code, `Main heading language: ${route}`);
+      const structured = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1]);
+      assert.equal(structured.name, copy.localizedName, `Localized WebPage name: ${route}`);
+      assert.equal(structured.mainEntity.name, copy.localizedName, `Localized VideoGame name: ${route}`);
+      assert.equal(structured.description, copy.summary, `Localized structured summary: ${route}`);
+    }
     const renderedCopy = pageCopy(html);
     for (const text of [copy.summary, ...copy.about, ...copy.steps.flat(), ...copy.faq.flat()]) {
       assert.ok(renderedCopy.has(text), `Authored localized game copy: ${route} / ${text}`);
